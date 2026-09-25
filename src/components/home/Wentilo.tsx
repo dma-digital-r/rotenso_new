@@ -5,11 +5,12 @@ import { useRef, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { FramedImage, MissingMedia } from "@/components/ui/FramedImage";
 import { Icon } from "@/components/ui/Icon";
+import type { Ui } from "@/i18n/ui";
 import type { HomeContent } from "@/lib/content";
 
 // Figma: "Wentilo" (5172:70583) — 1820×880 box; text panel 420×540 + media 860×540 at y 236.
 // The kingfisher ("Zimorodek", 437×437) overlaps the bottom-left corner into the next section.
-export function Wentilo({ wentilo }: { wentilo: HomeContent["wentilo"] }) {
+export function Wentilo({ wentilo, ui }: { wentilo: HomeContent["wentilo"]; ui: Ui }) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [paused, setPaused] = useState(false);
   const [progress, setProgress] = useState(282 / 860);
@@ -89,7 +90,7 @@ export function Wentilo({ wentilo }: { wentilo: HomeContent["wentilo"] }) {
           <button
             type="button"
             onClick={toggle}
-            aria-label={paused ? "Odtwórz" : "Wstrzymaj"}
+            aria-label={paused ? ui.play : ui.pause}
             aria-pressed={paused}
             className="absolute top-[470px] left-[790px] size-[40px] cursor-pointer"
           >

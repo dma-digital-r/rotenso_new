@@ -11,6 +11,7 @@ import { Seo } from "@/components/home/Seo";
 import { SocialMedia } from "@/components/home/SocialMedia";
 import { Wentilo } from "@/components/home/Wentilo";
 import type { Locale } from "@/i18n/config";
+import { getUi } from "@/i18n/ui";
 import { getHome, getSettings } from "@/lib/content";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]">): Promise<Metadata> {
@@ -26,17 +27,18 @@ export async function generateMetadata({ params }: PageProps<"/[lang]">): Promis
 export default async function HomePage({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
   const [home, settings] = await Promise.all([getHome(lang as Locale), getSettings(lang as Locale)]);
+  const ui = getUi(lang as Locale);
 
   return (
     <main>
-      <HeroSlider slides={home.heroSlides} />
+      <HeroSlider slides={home.heroSlides} ui={ui} />
       <Idea idea={home.idea} />
-      <AcSlider home={home.acHome} business={home.acBusiness} />
-      <Wentilo wentilo={home.wentilo} />
-      <HeatPumps data={home.heatPumps} />
+      <AcSlider home={home.acHome} business={home.acBusiness} ui={ui} />
+      <Wentilo wentilo={home.wentilo} ui={ui} />
+      <HeatPumps data={home.heatPumps} ui={ui} />
       <Rvf rvf={home.rvf} />
-      <Guides data={home.guides} />
-      <Installer data={home.installer} lang={lang} />
+      <Guides data={home.guides} ui={ui} />
+      <Installer data={home.installer} lang={lang} ui={ui} />
 
       <div className="relative mt-[250px]">
         {/* Rectangle 33: backdrop from y 8167, 1156px tall. */}

@@ -5,6 +5,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { FramedImage } from "@/components/ui/FramedImage";
 import { Icon } from "@/components/ui/Icon";
+import type { Ui } from "@/i18n/ui";
 import type { HomeContent } from "@/lib/content";
 
 type Slide = HomeContent["acHome"];
@@ -16,7 +17,7 @@ const EDGE = 50;
 // Figma: "Klimatyzacje Dom" (5172:70638) + "Klimatyzacje Firma" (5172:70635).
 // Two 1660×880 slides side by side; the switch link slides the whole track so the
 // other slide comes in and the first one peeks 160px from the opposite edge.
-export function AcSlider({ home, business }: { home: Slide; business: Slide }) {
+export function AcSlider({ home, business, ui }: { home: Slide; business: Slide; ui: Ui }) {
   const [active, setActive] = useState<0 | 1>(0);
 
   return (
@@ -37,6 +38,7 @@ export function AcSlider({ home, business }: { home: Slide; business: Slide }) {
           current={active === 0}
           onSwitch={() => setActive(1)}
           switchDir="right"
+          ui={ui}
         />
         <AcPanel
           slide={business}
@@ -44,6 +46,7 @@ export function AcSlider({ home, business }: { home: Slide; business: Slide }) {
           current={active === 1}
           onSwitch={() => setActive(0)}
           switchDir="left"
+          ui={ui}
         />
       </div>
     </section>
@@ -57,6 +60,7 @@ function AcPanel({
   current,
   onSwitch,
   switchDir,
+  ui,
 }: {
   slide: Slide;
   topGradient: number;
@@ -64,6 +68,7 @@ function AcPanel({
   current: boolean;
   onSwitch: () => void;
   switchDir: "left" | "right";
+  ui: Ui;
 }) {
   const [index, setIndex] = useState(0);
   const [hover, setHover] = useState(false);
@@ -122,7 +127,7 @@ function AcPanel({
       {/* Bottom row, y 720: arrow · 6 product tiles · arrow · configurator tile (100px side insets). */}
       <div className="absolute inset-x-[6.02%] top-[720px] flex h-[110px] items-center">
         {count > 1 && (
-          <button type="button" aria-label="Poprzedni model" onClick={() => go(index - 1)} className="shrink-0 cursor-pointer">
+          <button type="button" aria-label={ui.prevModel} onClick={() => go(index - 1)} className="shrink-0 cursor-pointer">
             <Icon name="arrow-w3-left" width={30} height={30} />
           </button>
         )}
@@ -159,7 +164,7 @@ function AcPanel({
           </div>
         </div>
         {count > 1 && (
-          <button type="button" aria-label="Następny model" onClick={() => go(index + 1)} className="shrink-0 cursor-pointer">
+          <button type="button" aria-label={ui.nextModel} onClick={() => go(index + 1)} className="shrink-0 cursor-pointer">
             <Icon name="arrow-w3-right" width={30} height={30} />
           </button>
         )}

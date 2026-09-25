@@ -1,0 +1,97 @@
+nav:
+  - label: Продукти
+    href: /uk/produkty
+  - label: Про нас
+    href: /uk/o-nas
+  - label: Посібники
+    href: /uk/poradniki
+  - label: Каталоги
+    href: /uk/katalogi
+  - label: Контакти
+    href: /uk/kontakt
+searchPlaceholder: Пошук
+configurator:
+  label: Конфігуратор
+  href: /uk/doboromierz
+installer:
+  label: Для монтажників
+  href: /uk/znajdz-instalatora
+footerColumns:
+  - heading:
+      label: Кондиціонери
+      href: /uk/klimatyzacja
+    links:
+      - label: Настінні (Split)
+        href: /uk/klimatyzacja/split
+      - label: Мультизональні (Multi Split)
+        href: /uk/klimatyzacja/multi-split
+      - label: Для цілорічного опалення
+        href: /uk/klimatyzacja/grzanie
+      - label: Стельові та канальні
+        href: /uk/klimatyzacja/sufitowe
+      - label: Підлогові
+        href: /uk/klimatyzacja/przypodlogowe
+      - label: Аксесуари
+        href: /uk/akcesoria
+  - heading:
+      label: Рекуперація
+      href: /uk/rekuperacja
+    links: []
+  - heading:
+      label: Теплові насоси
+      href: /uk/pompy-ciepla
+    links:
+      - label: Тип Split
+        href: /uk/pompy-ciepla/split
+      - label: Тип Monoblock
+        href: /uk/pompy-ciepla/monoblock
+      - label: Тип All-in
+        href: /uk/pompy-ciepla/all-in
+      - label: Баки
+        href: /uk/pompy-ciepla/zbiorniki
+  - heading:
+      label: Системи RVF
+      href: /uk/systemy-rvf
+    links:
+      - label: Системи / Рішення
+        href: /uk/systemy-rvf/rozwiazania
+      - label: Внутрішні блоки
+        href: /uk/systemy-rvf/jednostki-wewnetrzne
+      - label: Зовнішні блоки
+        href: /uk/systemy-rvf/jednostki-zewnetrzne
+  - heading:
+      label: Інформація
+      href: ''
+    links:
+      - label: Про нас
+        href: /uk/o-nas
+      - label: Посібники
+        href: /uk/poradniki
+      - label: Каталоги
+        href: /uk/katalogi
+      - label: Захист даних
+        href: /uk/rodo
+      - label: Правила
+        href: /uk/regulamin
+aiChat:
+  label: Чат з асистентом Rotenso
+  href: /uk/kontakt
+contactHeading: Контакти
+phone: +48 32 285 57 11
+email: info@rotenso.com
+contactForm:
+  label: Контактна форма
+  href: /uk/kontakt
+navigate:
+  label: Маршрут
+  href: https://maps.google.com/?q=Rotenso
+social:
+  facebook: https://www.facebook.com/
+  youtube: https://www.youtube.com/
+  instagram: https://www.instagram.com/
+  tiktok: https://www.tiktok.com/
+  spotify: https://open.spotify.com/
+  linkedin: https://www.linkedin.com/
+copyright: |-
+  © {rok} Rotenso®. Усі права захищено.
+  Ми залишаємо за собою право на помилки в описах і технічних характеристиках. Ми докладаємо всіх зусиль, щоб фотографії правдиво передавали кольори пристроїв, однак через різні налаштування моніторів кольори можуть відрізнятися від реальних.

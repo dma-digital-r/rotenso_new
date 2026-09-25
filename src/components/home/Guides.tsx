@@ -6,12 +6,13 @@ import { Button } from "@/components/ui/Button";
 import { FramedImage } from "@/components/ui/FramedImage";
 import { SliderBar } from "@/components/ui/SliderBar";
 import { SectionBackdrop } from "./SectionBackdrop";
+import type { Ui } from "@/i18n/ui";
 import type { HomeContent } from "@/lib/content";
 
 const CARD_STEP = 440; // 420 card + 20 gap
 
 // Figma: "Poradnik" (5172:70555) — horizontally scrolling 420×436 cards, first card aligned with the container.
-export function Guides({ data }: { data: HomeContent["guides"] }) {
+export function Guides({ data, ui }: { data: HomeContent["guides"]; ui: Ui }) {
   const scroller = useRef<HTMLDivElement>(null);
   const [progress, setProgress] = useState(0);
 
@@ -80,6 +81,7 @@ export function Guides({ data }: { data: HomeContent["guides"] }) {
           onNext={() => scrollBy(1)}
           prevDisabled={progress <= 0.001}
           nextDisabled={progress >= 0.999}
+          labels={ui}
         />
       </div>
 

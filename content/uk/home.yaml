@@ -1,0 +1,375 @@
+seoTitle: Rotenso — кондиціонування, рекуперація, теплові насоси
+seoDescription: Інноваційні системи HVAC для дому та бізнесу — кондиціонери, рекуператори, теплові насоси та системи RVF / VRF.
+heroSlides:
+  - tab: Кондиціонери
+    title: Кондиціонери
+    text: Rotenso — це широкий вибір систем кондиціонування, що забезпечують ідеальну температуру цілий рік.
+    primary:
+      label: Переглянути моделі
+      href: /uk/klimatyzacja
+    secondary:
+      label: Новинки
+      href: /uk/klimatyzacja
+    background: /images/home/hero-klimatyzacje.png
+  - tab: Рекуперація
+    title: Рекуперація
+    text: Постійний приплив свіжого фільтрованого повітря з рекуперацією тепла або вологи.
+    primary:
+      label: Переглянути моделі
+      href: /uk/rekuperacja
+    secondary:
+      label: Новинки
+      href: /uk/rekuperacja
+    background: null
+  - tab: Теплові насоси
+    title: Теплові насоси
+    text: Економне й необслуговуване опалення будівель та приготування гарячої води.
+    primary:
+      label: Переглянути моделі
+      href: /uk/pompy-ciepla
+    secondary:
+      label: Новинки
+      href: /uk/pompy-ciepla
+    background: null
+  - tab: Системи RVF
+    title: Системи RVF
+    text: Точне керування температурою в багатьох зонах одночасно — для офісів, готелів і комерційних об’єктів.
+    primary:
+      label: Переглянути моделі
+      href: /uk/systemy-rvf
+    secondary:
+      label: Новинки
+      href: /uk/systemy-rvf
+    background: null
+idea:
+  title: Кондиціонер Rotenso — це комфорт, який ви відчуєте з першої миті.
+  text: Він охолоджує, обігріває та очищає повітря, а ваш дім стає справжнім прихистком. Елегантний дизайн і тиха робота роблять пристрої природною частиною інтер’єру. Керування просте й інтуїтивне, тож спокій завжди під рукою.
+  background: /images/home/idea-bg.png
+acHome:
+  title: Кондиціонери для вас
+  switchLabel: Кондиціонери для бізнесу
+  background: /images/home/ac-dom-bg.png
+  backgroundCrop:
+    x: 0
+    'y': -6.12
+    w: 100
+    h: 122.73
+  products:
+    - name: Mirai
+      thumb: /images/home/ac-mirai.png
+      subtitle: Найвища ефективність
+      text: Mirai забезпечить вам ефективне охолодження й обігрів цілий рік.
+      price: 'Від: 2859 zł'
+      cta:
+        label: Переглянути модель
+        href: /uk/klimatyzacja/mirai
+    - name: Versu Cloth Caramel
+      thumb: /images/home/ac-versu-caramel.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Переглянути модель
+        href: /uk/klimatyzacja/versu-cloth-caramel
+    - name: Luve Pro
+      thumb: /images/home/ac-luve-pro.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Переглянути модель
+        href: /uk/klimatyzacja/luve-pro
+    - name: Fresh
+      thumb: /images/home/ac-fresh.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Переглянути модель
+        href: /uk/klimatyzacja/fresh
+    - name: Versu Mirror R15
+      thumb: /images/home/ac-versu-mirror.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Переглянути модель
+        href: /uk/klimatyzacja/versu-mirror-r15
+    - name: Versu Pure
+      thumb: /images/home/ac-versu-pure.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Переглянути модель
+        href: /uk/klimatyzacja/versu-pure
+  configurator:
+    question: Не знаєте, який кондиціонер обрати?
+    cta: |-
+      Скористайтеся
+      конфігуратором
+    href: /uk/doboromierz
+acBusiness:
+  title: Кондиціонери для бізнесу
+  switchLabel: Кондиціонери для вас
+  background: /images/home/ac-firma-bg.png
+  backgroundCrop:
+    x: 0
+    'y': 0
+    w: 100
+    h: 130.47
+  products:
+    - name: Mirai
+      thumb: /images/home/ac-mirai.png
+      subtitle: Найвища ефективність
+      text: Mirai забезпечить вам ефективне охолодження й обігрів цілий рік.
+      price: 'Від: 2859 zł'
+      cta:
+        label: Переглянути модель
+        href: /uk/klimatyzacja/mirai
+    - name: Versu Cloth Caramel
+      thumb: /images/home/ac-versu-caramel.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Переглянути модель
+        href: /uk/klimatyzacja/versu-cloth-caramel
+    - name: Luve Pro
+      thumb: /images/home/ac-luve-pro.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Переглянути модель
+        href: /uk/klimatyzacja/luve-pro
+    - name: Fresh
+      thumb: /images/home/ac-fresh.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Переглянути модель
+        href: /uk/klimatyzacja/fresh
+    - name: Versu Mirror R15
+      thumb: /images/home/ac-versu-mirror.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Переглянути модель
+        href: /uk/klimatyzacja/versu-mirror-r15
+    - name: Versu Pure
+      thumb: /images/home/ac-versu-pure.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Переглянути модель
+        href: /uk/klimatyzacja/versu-pure
+  configurator:
+    question: Не знаєте, який кондиціонер обрати?
+    cta: |-
+      Скористайтеся
+      конфігуратором
+    href: /uk/doboromierz
+wentilo:
+  title: Свіже повітря завдяки рекуперації
+  productName: Wentilo ICON
+  text: |-
+    Рекуператори Rotenso Wentilo забезпечують постійний приплив свіжого фільтрованого повітря з рекуперацією тепла або вологи й водночас знижують витрати на опалення. Розумне керування гарантує вам комфорт цілий день без додаткового обслуговування.
+
+    Ознайомтеся з рекуператорами серії Rotenso Wentilo ICON і оберіть відповідне рішення для свого дому.
+  cta:
+    label: Переглянути Wentilo ICON
+    href: /uk/rekuperacja/wentilo-icon
+  configurator:
+    question: Не знаєте, який рекуператор обрати?
+    cta: Скористайтеся конфігуратором
+    href: /uk/doboromierz/rekuperacja
+  background: /images/home/wentilo-bg.png
+  media: /images/home/wentilo-media.png
+  video: ''
+heatPumps:
+  title: Теплові насоси
+  text: Теплові насоси Rotenso — для тих, хто шукає економну й необслуговувану систему для опалення будівель і приготування гарячої води.
+  configurator:
+    question: Не знаєте, який тепловий насос обрати?
+    cta: Скористайтеся конфігуратором
+    href: /uk/doboromierz/pompa-ciepla
+  tiles:
+    - title: Низькотемпературні
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Переглянути моделі
+        href: /uk/pompy-ciepla
+    - title: Роздільні (Split)
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Переглянути моделі
+        href: /uk/pompy-ciepla
+    - title: |-
+        Моноблочні
+        (Monoblock)
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Переглянути моделі
+        href: /uk/pompy-ciepla
+    - title: У тон інтер’єру
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Переглянути моделі
+        href: /uk/pompy-ciepla
+    - title: |-
+        Із вбудованим
+        баком ГВП
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Переглянути моделі
+        href: /uk/pompy-ciepla
+rvf:
+  title: Системи RVF / VRF
+  text: Системи RVF Rotenso — це сучасні й гнучкі рішення для кондиціонування та опалення, що дають змогу точно керувати температурою в багатьох зонах одночасно — ідеально для офісів, готелів і комерційних об’єктів.
+  cta:
+    label: Дізнатися більше
+    href: /uk/systemy-rvf
+  image: /images/home/rvf-bg.png
+guides:
+  title: Практичні знання
+  text: Посібники — практичне джерело знань для тих, хто цікавиться кондиціонуванням, тепловими насосами та рекуперацією.
+  readLabel: Читати
+  more:
+    label: Більше посібників
+    href: /uk/poradniki
+  items:
+    - category: Теплові насоси
+      title: Гаряча вода — чи може тепловий насос її нагріти?
+      image: /images/home/guide-1.png
+      imageCrop:
+        x: 0
+        'y': -27.38
+        w: 100
+        h: 127.86
+      href: /uk/poradniki
+    - category: Теплові насоси
+      title: Дотації на теплові насоси у 2026 році.
+      image: /images/home/guide-2.png
+      imageCrop:
+        x: -0.28
+        'y': 0
+        w: 135.79
+        h: 100
+      href: /uk/poradniki
+    - category: Кондиціонування
+      title: Чи має сенс опалення кондиціонером? Розвіюємо сумніви.
+      image: /images/home/guide-3.png
+      imageCrop:
+        x: null
+        'y': null
+        w: null
+        h: null
+      href: /uk/poradniki
+    - category: Кондиціонування
+      title: Кондиціонер для квартири 40 м². Який обрати?
+      image: /images/home/guide-4.png
+      imageCrop:
+        x: null
+        'y': null
+        w: null
+        h: null
+      href: /uk/poradniki
+    - category: Кондиціонування | Рекуперація
+      title: Рекуперація з кондиціонуванням — як поєднати в одну систему?
+      image: /images/home/guide-5.png
+      imageCrop:
+        x: -66.31
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /uk/poradniki
+    - category: Рекуперація
+      title: Як працює рекуператор із рекуперацією вологи?
+      image: /images/home/guide-6.png
+      imageCrop:
+        x: 0.08
+        'y': 0
+        w: 215.77
+        h: 100
+      href: /uk/poradniki
+    - category: Рекуперація
+      title: Фільтри для рекуперації — основа чистого повітря вдома.
+      image: /images/home/guide-7.png
+      imageCrop:
+        x: 0.02
+        'y': -11.17
+        w: 239.98
+        h: 122.34
+      href: /uk/poradniki
+    - category: Кондиціонування
+      title: Чи шкідливий кондиціонер? Факти й міфи.
+      image: /images/home/guide-8.png
+      imageCrop:
+        x: -48.08
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /uk/poradniki
+    - category: Кондиціонування
+      title: Що таке мультиспліт-кондиціонер? Як він працює?
+      image: /images/home/guide-9.png
+      imageCrop:
+        x: -174.06
+        'y': 0
+        w: 328.31
+        h: 167.37
+      href: /uk/poradniki
+    - category: RVF / VRF
+      title: Що таке VRF? Де застосовують цю систему?
+      image: /images/home/guide-10.png
+      imageCrop:
+        x: -64.94
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /uk/poradniki
+installer:
+  title: Знайти монтажника
+  text: Вкажіть поштовий індекс або населений пункт і знайдіть відповідного монтажника.
+  placeholder: Введіть тут...
+social:
+  title: Знайдіть нас у соцмережах
+  videos:
+    - image: /images/home/yt-1.png
+      href: https://www.youtube.com/
+    - image: /images/home/yt-2.jpg
+      href: https://www.youtube.com/
+    - image: /images/home/yt-3.png
+      href: https://www.youtube.com/
+    - image: /images/home/yt-4.png
+      href: https://www.youtube.com/
+  posts:
+    - image: /images/home/post-1.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-2.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-3.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-4.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-5.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-6.png
+      href: https://www.instagram.com/
+seo:
+  title: Rotenso
+  subtitle: Інноваційні системи HVAC для дому та бізнесу
+  text: |-
+    Ми — польська компанія, що спеціалізується на кондиціонуванні, рекуперації, теплових насосах і сучасних системах кондиціонування (RVF). Наші продукти відповідають потребам приватних і корпоративних клієнтів. Ми робимо ставку на технології, що забезпечують комфорт, чисте повітря та реальну економію.
+
+    Завдяки постійному розвитку та розширенню каталогу продукції бренд здобуває визнання користувачів і партнерів у всій Європі, пропонуючи рішення для індивідуальних потреб і різних типів будівель. Rotenso — синонім ефективності, інновацій і сучасного дизайну, тому наші пристрої — чудовий вибір для тих, хто шукає якість на роки.
+  background: /images/home/seo-bg.png

@@ -3,23 +3,27 @@
 import Image from "next/image";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Icon } from "@/components/ui/Icon";
+import type { Ui } from "@/i18n/ui";
 import type { HomeContent } from "@/lib/content";
 
 const kinds = [
-  { key: "ac", label: "Instalator klimatyzacji", icon: "map-ac-point-30" },
-  { key: "reku", label: "Instalator rekuperatorów", icon: "map-reku-point-30" },
-  { key: "hp", label: "Instalator pomp ciepła", icon: "map-hp-point-30" },
+  { key: "ac", label: "installerAc", icon: "map-ac-point-30" },
+  { key: "reku", label: "installerReku", icon: "map-reku-point-30" },
+  { key: "hp", label: "installerHp", icon: "map-hp-point-30" },
 ] as const;
 
-const extraFilters = ["Certyfikowany instalator", "Posiada showroom", "Serwis", "Lorem ipsum", "Lorem ipsum "];
+// The last two chips are "Lorem ipsum" placeholders in the design.
+const extraFilterKeys = ["filterCertified", "filterShowroom", "filterService"] as const;
 
-// Sample entries from the design — replaced by the installer database later.
-const sampleInstallers = Array.from({ length: 4 }, (_, i) => ({
-  id: i,
-  name: "Nazwa firmy",
-  address: ["ul. Nazwa ulicy 10, Miejscowość, 00-000", "woj. województwo"],
-  extras: ["Posiada Showroom", "Serwis 24/7", "Lorem ipsum"],
-}));
+// Sample entries from the design — replaced by the installer feed later.
+const sampleInstallers = (ui: Ui) =>
+  Array.from({ length: 4 }, (_, i) => ({
+    id: i,
+    name: ui.sampleCompany,
+    address: ui.sampleAddress.split("|"),
+    extras: ui.sampleExtras.split("|"),
+  }));
+type SampleInstaller = ReturnType<typeof sampleInstallers>[number];
 
 // Map pins in design coordinates (relative to the 1820×700 map frame).
 const pins = [
@@ -30,7 +34,7 @@ const pins = [
 ];
 
 // Figma: "Mapa" (5172:70435) — 1820 wide, title / search / filters / 700px map, gap 50.
-export function Installer({ data, lang }: { data: HomeContent["installer"]; lang: string }) {
+export function Installer({ data, lang, ui }: { data: HomeContent["installer"]; lang: string; ui: Ui }) {
   const [selected, setSelected] = useState<Record<string, boolean>>({ ac: true, reku: false, hp: false });
   const [extras, setExtras] = useState<Record<string, boolean>>({});
 
@@ -52,7 +56,7 @@ export function Installer({ data, lang }: { data: HomeContent["installer"]; lang
           aria-label={data.placeholder}
           className="min-w-px flex-1 bg-transparent text-[25px] leading-[normal] font-light text-rotenso-grey outline-none placeholder:text-rotenso-grey"
         />
-        <button type="submit" aria-label="Szukaj" className="shrink-0 cursor-pointer">
+        <button type="submit" aria-label={ui.search} className="shrink-0 cursor-pointer">
           <Icon name="search-btn-l" width={50} height={50} />
         </button>
       </form>
@@ -73,13 +77,13 @@ export function Installer({ data, lang }: { data: HomeContent["installer"]; lang
                 <span className="size-[25px] shrink-0 rounded-[4px] border border-grey-dd bg-white" />
               )}
               <Icon name={k.icon} width={30} height={30} />
-              <span className="text-[16px] leading-[24px] whitespace-nowrap text-rotenso-grey">{k.label}</span>
+              <span className="text-[16px] leading-[24px] whitespace-nowrap text-rotenso-grey">{ui[k.label]}</span>
             </label>
           ))}
         </div>
         <div className="flex items-start gap-[10px] p-[10px]">
-          <p className="text-[16px] leading-[24px] whitespace-nowrap text-rotenso-grey">Dodatkowe filtry:</p>
-          {extraFilters.map((f) => (
+          <p className="text-[16px] leading-[24px] whitespace-nowrap text-rotenso-grey">{ui.extraFilters}</p>
+          {[...extraFilterKeys.map((k) => ui[k]), "Lorem ipsum", "Lorem ipsum "].map((f) => (
             <button
               key={f}
               type="button"
@@ -97,7 +101,7 @@ export function Installer({ data, lang }: { data: HomeContent["installer"]; lang
 
       <div className="relative flex h-[700px] w-full flex-col items-start gap-[10px] overflow-hidden rounded-[32px] p-[50px]">
         <Image src="/images/home/map.png" alt="" fill sizes="100vw" className="pointer-events-none object-cover" />
-        <InstallerList />
+        <InstallerList ui={ui} />
         <div className="pointer-events-none absolute inset-0">
           <span className="absolute top-[310px] left-[873px] h-[55px] w-[40px]">
             <Icon name="map-pin-big" width={40} height={55} className="absolute inset-0 size-full" />
@@ -117,7 +121,7 @@ export function Installer({ data, lang }: { data: HomeContent["installer"]; lang
 }
 
 // "Lista kontaków": 420px white card, custom 5px scrollbar (#F0F0F0 track, grey thumb).
-function InstallerList() {
+function InstallerList({ ui }: { ui: Ui }) {
   const ref = useRef<HTMLDivElement>(null);
   const [thumb, setThumb] = useState({ top: 0, height: 193 });
 
@@ -135,10 +139,10 @@ function InstallerList() {
   return (
     <div className="relative flex min-h-px w-[420px] flex-1 items-start gap-[15px] overflow-clip rounded-[16px] bg-white py-[30px] pr-[10px] pl-[30px] shadow-dark-l">
       <div ref={ref} onScroll={update} className="flex h-full min-w-px flex-1 flex-col gap-[20px] overflow-y-auto scrollbar-none">
-        {sampleInstallers.map((ins, i) => (
+        {sampleInstallers(ui).map((ins, i) => (
           <div key={ins.id} className="flex flex-col gap-[20px]">
             {i > 0 && <div className="h-px w-full shrink-0 bg-grey-dd" />}
-            <InstallerCard {...ins} />
+            <InstallerCard {...ins} ui={ui} />
           </div>
         ))}
       </div>
@@ -152,14 +156,14 @@ function InstallerList() {
   );
 }
 
-function InstallerCard({ name, address, extras }: (typeof sampleInstallers)[number]) {
+function InstallerCard({ name, address, extras, ui }: SampleInstaller & { ui: Ui }) {
   return (
     <div className="flex w-[360px] shrink-0 flex-col items-start gap-[12px] text-rotenso-grey">
       <div className="flex w-full flex-col pb-[10px]">
         <p className="text-[18px] leading-[normal] font-bold">{name}</p>
         <div className="flex w-full items-center gap-[5px]">
           <Icon name="map-star" width={20} height={20} />
-          <p className="flex-1 text-[12px] leading-[normal]">Certyfikowany instalator</p>
+          <p className="flex-1 text-[12px] leading-[normal]">{ui.certified}</p>
         </div>
       </div>
       <div className="relative flex w-full items-start gap-[8px]">
@@ -173,20 +177,20 @@ function InstallerCard({ name, address, extras }: (typeof sampleInstallers)[numb
           href="#"
           className="absolute top-[27px] left-[177px] inline-flex items-center justify-center overflow-clip rounded-[11px] border border-rotenso-grey px-[8px] py-[7px] text-[9px] leading-[normal] font-bold whitespace-nowrap"
         >
-          <span className="text-trim">Nawiguj</span>
+          <span className="text-trim">{ui.navigate}</span>
         </a>
       </div>
       <div className="flex w-full items-start gap-[30px]">
-        <RevealChip icon="map-phone" label="pokaż nr telefonu" />
-        <RevealChip icon="map-mail" label="pokaż adres e-mail" />
+        <RevealChip icon="map-phone" label={ui.showPhone} />
+        <RevealChip icon="map-mail" label={ui.showEmail} />
       </div>
       <div className="flex w-full flex-col gap-[5px]">
-        <p className="text-[12px] leading-[normal] font-bold">Usługi montażu:</p>
+        <p className="text-[12px] leading-[normal] font-bold">{ui.services}</p>
         <div className="flex gap-[15px]">
           {[
-            ["map-ac-point-20", "Klimatyzacja"],
-            ["map-reku-point-20", "Rekuperacja"],
-            ["map-hp-point-20", "Pompa ciepła"],
+            ["map-ac-point-20", ui.serviceAc],
+            ["map-reku-point-20", ui.serviceReku],
+            ["map-hp-point-20", ui.serviceHp],
           ].map(([icon, label]) => (
             <span key={label} className="flex items-center gap-[5px]">
               <Icon name={icon} width={20} height={20} />
@@ -196,7 +200,7 @@ function InstallerCard({ name, address, extras }: (typeof sampleInstallers)[numb
         </div>
       </div>
       <div className="flex w-full flex-col gap-[5px]">
-        <p className="text-[12px] leading-[normal] font-bold">Dodatkowe informacje:</p>
+        <p className="text-[12px] leading-[normal] font-bold">{ui.extraInfo}</p>
         <div className="flex items-stretch gap-[10px]">
           {extras.map((x, i) => (
             <span key={x} className="flex items-stretch gap-[10px]">

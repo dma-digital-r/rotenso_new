@@ -1,0 +1,375 @@
+seoTitle: Rotenso — climatisation, VMC double flux, pompes à chaleur
+seoDescription: Systèmes CVC innovants pour la maison et l’entreprise — climatiseurs, VMC double flux, pompes à chaleur et systèmes RVF / VRF.
+heroSlides:
+  - tab: Climatisation
+    title: Climatisation
+    text: Rotenso propose une large gamme de systèmes de climatisation qui garantissent une température idéale toute l’année.
+    primary:
+      label: Découvrir les modèles
+      href: /fr/klimatyzacja
+    secondary:
+      label: Voir les nouveautés
+      href: /fr/klimatyzacja
+    background: /images/home/hero-klimatyzacje.png
+  - tab: VMC double flux
+    title: VMC double flux
+    text: Un apport constant d’air frais et filtré avec récupération de chaleur ou d’humidité.
+    primary:
+      label: Découvrir les modèles
+      href: /fr/rekuperacja
+    secondary:
+      label: Voir les nouveautés
+      href: /fr/rekuperacja
+    background: null
+  - tab: Pompes à chaleur
+    title: Pompes à chaleur
+    text: Chauffage économique et sans entretien des bâtiments et production d’eau chaude sanitaire.
+    primary:
+      label: Découvrir les modèles
+      href: /fr/pompy-ciepla
+    secondary:
+      label: Voir les nouveautés
+      href: /fr/pompy-ciepla
+    background: null
+  - tab: Systèmes RVF
+    title: Systèmes RVF
+    text: Un contrôle précis de la température dans plusieurs zones à la fois — pour bureaux, hôtels et locaux commerciaux.
+    primary:
+      label: Découvrir les modèles
+      href: /fr/systemy-rvf
+    secondary:
+      label: Voir les nouveautés
+      href: /fr/systemy-rvf
+    background: null
+idea:
+  title: La climatisation Rotenso, c’est un confort que vous ressentez dès le premier instant.
+  text: 'Elle rafraîchit, chauffe et purifie l’air pour faire de votre maison un véritable havre. Son design élégant et son fonctionnement silencieux en font une partie naturelle de votre intérieur. La commande est simple et intuitive : la sérénité est toujours à portée de main.'
+  background: /images/home/idea-bg.png
+acHome:
+  title: Climatisation pour vous
+  switchLabel: Climatisation pro
+  background: /images/home/ac-dom-bg.png
+  backgroundCrop:
+    x: 0
+    'y': -6.12
+    w: 100
+    h: 122.73
+  products:
+    - name: Mirai
+      thumb: /images/home/ac-mirai.png
+      subtitle: Efficacité maximale
+      text: Mirai vous assure un refroidissement et un chauffage efficaces toute l’année.
+      price: 'À partir de : 2859 zł'
+      cta:
+        label: Découvrir le modèle
+        href: /fr/klimatyzacja/mirai
+    - name: Versu Cloth Caramel
+      thumb: /images/home/ac-versu-caramel.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Découvrir le modèle
+        href: /fr/klimatyzacja/versu-cloth-caramel
+    - name: Luve Pro
+      thumb: /images/home/ac-luve-pro.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Découvrir le modèle
+        href: /fr/klimatyzacja/luve-pro
+    - name: Fresh
+      thumb: /images/home/ac-fresh.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Découvrir le modèle
+        href: /fr/klimatyzacja/fresh
+    - name: Versu Mirror R15
+      thumb: /images/home/ac-versu-mirror.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Découvrir le modèle
+        href: /fr/klimatyzacja/versu-mirror-r15
+    - name: Versu Pure
+      thumb: /images/home/ac-versu-pure.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Découvrir le modèle
+        href: /fr/klimatyzacja/versu-pure
+  configurator:
+    question: Vous ne savez pas quel climatiseur choisir ?
+    cta: |-
+      Utilisez le
+      configurateur
+    href: /fr/doboromierz
+acBusiness:
+  title: Climatisation pro
+  switchLabel: Climatisation pour vous
+  background: /images/home/ac-firma-bg.png
+  backgroundCrop:
+    x: 0
+    'y': 0
+    w: 100
+    h: 130.47
+  products:
+    - name: Mirai
+      thumb: /images/home/ac-mirai.png
+      subtitle: Efficacité maximale
+      text: Mirai vous assure un refroidissement et un chauffage efficaces toute l’année.
+      price: 'À partir de : 2859 zł'
+      cta:
+        label: Découvrir le modèle
+        href: /fr/klimatyzacja/mirai
+    - name: Versu Cloth Caramel
+      thumb: /images/home/ac-versu-caramel.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Découvrir le modèle
+        href: /fr/klimatyzacja/versu-cloth-caramel
+    - name: Luve Pro
+      thumb: /images/home/ac-luve-pro.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Découvrir le modèle
+        href: /fr/klimatyzacja/luve-pro
+    - name: Fresh
+      thumb: /images/home/ac-fresh.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Découvrir le modèle
+        href: /fr/klimatyzacja/fresh
+    - name: Versu Mirror R15
+      thumb: /images/home/ac-versu-mirror.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Découvrir le modèle
+        href: /fr/klimatyzacja/versu-mirror-r15
+    - name: Versu Pure
+      thumb: /images/home/ac-versu-pure.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Découvrir le modèle
+        href: /fr/klimatyzacja/versu-pure
+  configurator:
+    question: Vous ne savez pas quel climatiseur choisir ?
+    cta: |-
+      Utilisez le
+      configurateur
+    href: /fr/doboromierz
+wentilo:
+  title: De l’air frais grâce à la VMC double flux
+  productName: Wentilo ICON
+  text: |-
+    Les VMC double flux Rotenso Wentilo assurent un apport constant d’air frais et filtré avec récupération de chaleur ou d’humidité, tout en réduisant les frais de chauffage. La commande intelligente vous garantit un confort toute la journée, sans effort supplémentaire.
+
+    Découvrez la série Rotenso Wentilo ICON et choisissez la solution adaptée à votre maison.
+  cta:
+    label: Découvrir Wentilo ICON
+    href: /fr/rekuperacja/wentilo-icon
+  configurator:
+    question: Vous ne savez pas quelle VMC choisir ?
+    cta: Utilisez le configurateur
+    href: /fr/doboromierz/rekuperacja
+  background: /images/home/wentilo-bg.png
+  media: /images/home/wentilo-media.png
+  video: ''
+heatPumps:
+  title: Pompes à chaleur
+  text: Les pompes à chaleur Rotenso s’adressent à tous ceux qui recherchent un système économique et sans entretien pour chauffer les bâtiments et produire de l’eau chaude sanitaire.
+  configurator:
+    question: Vous ne savez pas quelle pompe à chaleur choisir ?
+    cta: Utilisez le configurateur
+    href: /fr/doboromierz/pompa-ciepla
+  tiles:
+    - title: Basse température
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Découvrir les modèles
+        href: /fr/pompy-ciepla
+    - title: Bi-bloc (Split)
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Découvrir les modèles
+        href: /fr/pompy-ciepla
+    - title: |-
+        Monobloc
+        (Monoblock)
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Découvrir les modèles
+        href: /fr/pompy-ciepla
+    - title: Couleur assortie
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Découvrir les modèles
+        href: /fr/pompy-ciepla
+    - title: |-
+        Avec ballon
+        ECS intégré
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Découvrir les modèles
+        href: /fr/pompy-ciepla
+rvf:
+  title: Systèmes RVF / VRF
+  text: Les systèmes RVF Rotenso sont des solutions de climatisation et de chauffage modernes et flexibles qui permettent un contrôle précis de la température dans plusieurs zones à la fois — idéales pour les bureaux, les hôtels et les locaux commerciaux.
+  cta:
+    label: En savoir plus
+    href: /fr/systemy-rvf
+  image: /images/home/rvf-bg.png
+guides:
+  title: Savoir pratique
+  text: Nos guides sont une source pratique de connaissances pour tous ceux qui s’intéressent à la climatisation, aux pompes à chaleur et à la VMC double flux.
+  readLabel: Lire
+  more:
+    label: Voir plus de guides
+    href: /fr/poradniki
+  items:
+    - category: Pompes à chaleur
+      title: Eau chaude sanitaire — une pompe à chaleur peut-elle la chauffer ?
+      image: /images/home/guide-1.png
+      imageCrop:
+        x: 0
+        'y': -27.38
+        w: 100
+        h: 127.86
+      href: /fr/poradniki
+    - category: Pompes à chaleur
+      title: Aides pour les pompes à chaleur en 2026.
+      image: /images/home/guide-2.png
+      imageCrop:
+        x: -0.28
+        'y': 0
+        w: 135.79
+        h: 100
+      href: /fr/poradniki
+    - category: Climatisation
+      title: Chauffer avec un climatiseur, est-ce pertinent ? Nous levons les doutes.
+      image: /images/home/guide-3.png
+      imageCrop:
+        x: null
+        'y': null
+        w: null
+        h: null
+      href: /fr/poradniki
+    - category: Climatisation
+      title: Climatisation pour un appartement de 40 m². Laquelle choisir ?
+      image: /images/home/guide-4.png
+      imageCrop:
+        x: null
+        'y': null
+        w: null
+        h: null
+      href: /fr/poradniki
+    - category: Climatisation | VMC
+      title: VMC double flux et climatisation — comment les réunir en un seul système ?
+      image: /images/home/guide-5.png
+      imageCrop:
+        x: -66.31
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /fr/poradniki
+    - category: VMC double flux
+      title: Comment fonctionne une VMC double flux avec récupération d’humidité ?
+      image: /images/home/guide-6.png
+      imageCrop:
+        x: 0.08
+        'y': 0
+        w: 215.77
+        h: 100
+      href: /fr/poradniki
+    - category: VMC double flux
+      title: Filtres de VMC — la base d’un air sain à la maison.
+      image: /images/home/guide-7.png
+      imageCrop:
+        x: 0.02
+        'y': -11.17
+        w: 239.98
+        h: 122.34
+      href: /fr/poradniki
+    - category: Climatisation
+      title: La climatisation est-elle bonne pour la santé ? Faits et idées reçues.
+      image: /images/home/guide-8.png
+      imageCrop:
+        x: -48.08
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /fr/poradniki
+    - category: Climatisation
+      title: Qu’est-ce qu’une climatisation multisplit ? Comment fonctionne-t-elle ?
+      image: /images/home/guide-9.png
+      imageCrop:
+        x: -174.06
+        'y': 0
+        w: 328.31
+        h: 167.37
+      href: /fr/poradniki
+    - category: RVF / VRF
+      title: Qu’est-ce que le VRF ? À quoi sert ce système ?
+      image: /images/home/guide-10.png
+      imageCrop:
+        x: -64.94
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /fr/poradniki
+installer:
+  title: Trouver un installateur
+  text: Saisissez un code postal ou une ville et trouvez l’installateur qu’il vous faut.
+  placeholder: Saisissez ici...
+social:
+  title: Retrouvez-nous sur les réseaux sociaux
+  videos:
+    - image: /images/home/yt-1.png
+      href: https://www.youtube.com/
+    - image: /images/home/yt-2.jpg
+      href: https://www.youtube.com/
+    - image: /images/home/yt-3.png
+      href: https://www.youtube.com/
+    - image: /images/home/yt-4.png
+      href: https://www.youtube.com/
+  posts:
+    - image: /images/home/post-1.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-2.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-3.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-4.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-5.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-6.png
+      href: https://www.instagram.com/
+seo:
+  title: Rotenso
+  subtitle: Systèmes CVC innovants pour la maison et l’entreprise
+  text: |-
+    Nous sommes une entreprise polonaise spécialisée dans la climatisation, la VMC double flux, les pompes à chaleur et les systèmes de climatisation avancés (RVF). Nos produits sont adaptés aux besoins des particuliers et des professionnels. Nous misons sur des technologies qui apportent confort, air sain et économies réelles.
+
+    Grâce à un développement constant et à l’élargissement de notre catalogue, la marque gagne la reconnaissance des utilisateurs et des partenaires dans toute l’Europe, en proposant des solutions adaptées aux besoins individuels et à différents types de bâtiments. Rotenso est synonyme d’efficacité, d’innovation et de design moderne, ce qui fait de nos appareils un excellent choix pour tous ceux qui recherchent une qualité durable.
+  background: /images/home/seo-bg.png

@@ -3,14 +3,16 @@ import { Button } from "@/components/ui/Button";
 import { Icon } from "@/components/ui/Icon";
 import type { SettingsContent } from "@/lib/content";
 import type { Locale } from "@/i18n/config";
+import { getUi } from "@/i18n/ui";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
 // Figma: "Top Bar" (5172:70663) — 1300×60, white, radius 8, floats 30px inside the hero.
 export function TopBar({ settings, lang }: { settings: SettingsContent; lang: Locale }) {
+  const ui = getUi(lang);
   return (
     <header className="absolute inset-x-0 top-[80px] z-40 flex justify-center px-4">
       <div className="flex h-[60px] w-[1300px] max-w-full items-center gap-[30px] overflow-clip rounded-[8px] bg-white pr-[15px]">
-        <Link href={`/${lang}`} aria-label="Rotenso — strona główna" className="shrink-0">
+        <Link href={`/${lang}`} aria-label={ui.home} className="shrink-0">
           <Icon name="logo" width={238} height={60} alt="Rotenso — Live better" />
         </Link>
 
@@ -46,7 +48,7 @@ export function TopBar({ settings, lang }: { settings: SettingsContent; lang: Lo
           <Button variant="s-outline" href={settings.installer.href}>
             {settings.installer.label}
           </Button>
-          <LanguageSwitcher lang={lang} />
+          <LanguageSwitcher lang={lang} label={ui.language} />
         </div>
       </div>
     </header>

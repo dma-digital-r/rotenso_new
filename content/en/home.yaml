@@ -1,0 +1,375 @@
+seoTitle: Rotenso — air conditioning, heat recovery ventilation, heat pumps
+seoDescription: Innovative HVAC systems for homes and businesses — air conditioners, heat recovery units, heat pumps and RVF / VRF systems.
+heroSlides:
+  - tab: Air conditioning
+    title: Air conditioning
+    text: Rotenso offers a wide range of air conditioning systems that keep the temperature just right all year round.
+    primary:
+      label: Explore models
+      href: /en/klimatyzacja
+    secondary:
+      label: See what’s new
+      href: /en/klimatyzacja
+    background: /images/home/hero-klimatyzacje.png
+  - tab: Heat recovery
+    title: Heat recovery
+    text: A constant supply of fresh, filtered air with heat or moisture recovery.
+    primary:
+      label: Explore models
+      href: /en/rekuperacja
+    secondary:
+      label: See what’s new
+      href: /en/rekuperacja
+    background: null
+  - tab: Heat pumps
+    title: Heat pumps
+    text: Economical, maintenance-free heating for buildings and domestic hot water.
+    primary:
+      label: Explore models
+      href: /en/pompy-ciepla
+    secondary:
+      label: See what’s new
+      href: /en/pompy-ciepla
+    background: null
+  - tab: RVF systems
+    title: RVF systems
+    text: Precise temperature control in many zones at once — for offices, hotels and commercial buildings.
+    primary:
+      label: Explore models
+      href: /en/systemy-rvf
+    secondary:
+      label: See what’s new
+      href: /en/systemy-rvf
+    background: null
+idea:
+  title: Rotenso air conditioning is comfort you feel from the very first moment.
+  text: It cools, heats and purifies the air, turning your home into a haven. Elegant design and quiet operation make the units a natural part of your interior. Control is simple and intuitive, so peace of mind is always within reach.
+  background: /images/home/idea-bg.png
+acHome:
+  title: Air conditioning for you
+  switchLabel: Air conditioning for business
+  background: /images/home/ac-dom-bg.png
+  backgroundCrop:
+    x: 0
+    'y': -6.12
+    w: 100
+    h: 122.73
+  products:
+    - name: Mirai
+      thumb: /images/home/ac-mirai.png
+      subtitle: Top efficiency
+      text: Mirai gives you efficient cooling and heating all year round.
+      price: 'From: 2859 zł'
+      cta:
+        label: Explore model
+        href: /en/klimatyzacja/mirai
+    - name: Versu Cloth Caramel
+      thumb: /images/home/ac-versu-caramel.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Explore model
+        href: /en/klimatyzacja/versu-cloth-caramel
+    - name: Luve Pro
+      thumb: /images/home/ac-luve-pro.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Explore model
+        href: /en/klimatyzacja/luve-pro
+    - name: Fresh
+      thumb: /images/home/ac-fresh.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Explore model
+        href: /en/klimatyzacja/fresh
+    - name: Versu Mirror R15
+      thumb: /images/home/ac-versu-mirror.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Explore model
+        href: /en/klimatyzacja/versu-mirror-r15
+    - name: Versu Pure
+      thumb: /images/home/ac-versu-pure.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Explore model
+        href: /en/klimatyzacja/versu-pure
+  configurator:
+    question: Not sure which air conditioner to choose?
+    cta: |-
+      Try our
+      configurator
+    href: /en/doboromierz
+acBusiness:
+  title: Air conditioning for business
+  switchLabel: Air conditioning for you
+  background: /images/home/ac-firma-bg.png
+  backgroundCrop:
+    x: 0
+    'y': 0
+    w: 100
+    h: 130.47
+  products:
+    - name: Mirai
+      thumb: /images/home/ac-mirai.png
+      subtitle: Top efficiency
+      text: Mirai gives you efficient cooling and heating all year round.
+      price: 'From: 2859 zł'
+      cta:
+        label: Explore model
+        href: /en/klimatyzacja/mirai
+    - name: Versu Cloth Caramel
+      thumb: /images/home/ac-versu-caramel.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Explore model
+        href: /en/klimatyzacja/versu-cloth-caramel
+    - name: Luve Pro
+      thumb: /images/home/ac-luve-pro.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Explore model
+        href: /en/klimatyzacja/luve-pro
+    - name: Fresh
+      thumb: /images/home/ac-fresh.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Explore model
+        href: /en/klimatyzacja/fresh
+    - name: Versu Mirror R15
+      thumb: /images/home/ac-versu-mirror.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Explore model
+        href: /en/klimatyzacja/versu-mirror-r15
+    - name: Versu Pure
+      thumb: /images/home/ac-versu-pure.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Explore model
+        href: /en/klimatyzacja/versu-pure
+  configurator:
+    question: Not sure which air conditioner to choose?
+    cta: |-
+      Try our
+      configurator
+    href: /en/doboromierz
+wentilo:
+  title: Fresh air with heat recovery
+  productName: Wentilo ICON
+  text: |-
+    Rotenso Wentilo heat recovery units provide a constant supply of fresh, filtered air with heat or moisture recovery while lowering your heating costs. Smart controls keep you comfortable all day without any extra effort.
+
+    Discover the Rotenso Wentilo ICON series and choose the right solution for your home.
+  cta:
+    label: Discover Wentilo ICON
+    href: /en/rekuperacja/wentilo-icon
+  configurator:
+    question: Not sure which heat recovery unit to choose?
+    cta: Try our configurator
+    href: /en/doboromierz/rekuperacja
+  background: /images/home/wentilo-bg.png
+  media: /images/home/wentilo-media.png
+  video: ''
+heatPumps:
+  title: Heat pumps
+  text: Rotenso heat pumps are for anyone looking for an economical, maintenance-free system to heat buildings and provide domestic hot water.
+  configurator:
+    question: Not sure which heat pump to choose?
+    cta: Try our configurator
+    href: /en/doboromierz/pompa-ciepla
+  tiles:
+    - title: Low-temperature
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Explore models
+        href: /en/pompy-ciepla
+    - title: Two-part (Split)
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Explore models
+        href: /en/pompy-ciepla
+    - title: |-
+        Single-unit
+        (Monoblock)
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Explore models
+        href: /en/pompy-ciepla
+    - title: Colour-matched
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Explore models
+        href: /en/pompy-ciepla
+    - title: |-
+        With integrated
+        DHW tank
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Explore models
+        href: /en/pompy-ciepla
+rvf:
+  title: RVF / VRF systems
+  text: Rotenso RVF systems are modern, flexible air conditioning and heating solutions that allow precise temperature control in many zones at once — ideal for offices, hotels and commercial buildings.
+  cta:
+    label: Learn more
+    href: /en/systemy-rvf
+  image: /images/home/rvf-bg.png
+guides:
+  title: Practical knowledge
+  text: Our guides are a practical source of knowledge for anyone interested in air conditioning, heat pumps and heat recovery.
+  readLabel: Read
+  more:
+    label: See more guides
+    href: /en/poradniki
+  items:
+    - category: Heat pumps
+      title: Domestic hot water — can a heat pump heat it?
+      image: /images/home/guide-1.png
+      imageCrop:
+        x: 0
+        'y': -27.38
+        w: 100
+        h: 127.86
+      href: /en/poradniki
+    - category: Heat pumps
+      title: Heat pump subsidies in 2026.
+      image: /images/home/guide-2.png
+      imageCrop:
+        x: -0.28
+        'y': 0
+        w: 135.79
+        h: 100
+      href: /en/poradniki
+    - category: Air conditioning
+      title: Does heating with air conditioning make sense? We clear up the doubts.
+      image: /images/home/guide-3.png
+      imageCrop:
+        x: null
+        'y': null
+        w: null
+        h: null
+      href: /en/poradniki
+    - category: Air conditioning
+      title: Air conditioning for a 40 m² flat. Which one to choose?
+      image: /images/home/guide-4.png
+      imageCrop:
+        x: null
+        'y': null
+        w: null
+        h: null
+      href: /en/poradniki
+    - category: Air conditioning | Heat recovery
+      title: Heat recovery with air conditioning — how to combine them in one system?
+      image: /images/home/guide-5.png
+      imageCrop:
+        x: -66.31
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /en/poradniki
+    - category: Heat recovery
+      title: How does a heat recovery unit with moisture recovery work?
+      image: /images/home/guide-6.png
+      imageCrop:
+        x: 0.08
+        'y': 0
+        w: 215.77
+        h: 100
+      href: /en/poradniki
+    - category: Heat recovery
+      title: Heat recovery filters — the basis of clean air at home.
+      image: /images/home/guide-7.png
+      imageCrop:
+        x: 0.02
+        'y': -11.17
+        w: 239.98
+        h: 122.34
+      href: /en/poradniki
+    - category: Air conditioning
+      title: Is air conditioning healthy? Facts and myths.
+      image: /images/home/guide-8.png
+      imageCrop:
+        x: -48.08
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /en/poradniki
+    - category: Air conditioning
+      title: What is multi-split air conditioning? How does it work?
+      image: /images/home/guide-9.png
+      imageCrop:
+        x: -174.06
+        'y': 0
+        w: 328.31
+        h: 167.37
+      href: /en/poradniki
+    - category: RVF / VRF
+      title: What is VRF? What is this system used for?
+      image: /images/home/guide-10.png
+      imageCrop:
+        x: -64.94
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /en/poradniki
+installer:
+  title: Find an installer
+  text: Enter a postcode or town and find the right installer.
+  placeholder: Type here...
+social:
+  title: Discover us on social media
+  videos:
+    - image: /images/home/yt-1.png
+      href: https://www.youtube.com/
+    - image: /images/home/yt-2.jpg
+      href: https://www.youtube.com/
+    - image: /images/home/yt-3.png
+      href: https://www.youtube.com/
+    - image: /images/home/yt-4.png
+      href: https://www.youtube.com/
+  posts:
+    - image: /images/home/post-1.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-2.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-3.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-4.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-5.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-6.png
+      href: https://www.instagram.com/
+seo:
+  title: Rotenso
+  subtitle: Innovative HVAC systems for homes and businesses
+  text: |-
+    We are a Polish company specialising in air conditioning, heat recovery ventilation, heat pumps and advanced air conditioning systems (RVF). Our products are tailored to the needs of private and business customers. We focus on technologies that deliver comfort, clean air and real savings.
+
+    Thanks to continuous development and an expanding product range, the brand is gaining recognition among users and partners across Europe, offering solutions tailored to individual needs and different types of buildings. Rotenso stands for efficiency, innovation and modern design, making our units an excellent choice for anyone looking for lasting quality.
+  background: /images/home/seo-bg.png

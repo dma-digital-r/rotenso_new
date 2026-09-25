@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { Icon } from "@/components/ui/Icon";
 import { SectionBackdrop } from "./SectionBackdrop";
 import { SliderBar } from "@/components/ui/SliderBar";
+import type { Ui } from "@/i18n/ui";
 import type { HomeContent } from "@/lib/content";
 
 // Active tile is 970 wide, the others 310, gap 20 → each step shifts the track by 330px.
@@ -15,7 +16,7 @@ const STEP = TILE_W + 20;
 
 // Figma: "Pompy Ciepła" (5172:70579) → component "Pompy ciepla" (1920×673).
 // The active tile always sits at x = 475 (container + 165px); clicking another tile expands it.
-export function HeatPumps({ data }: { data: HomeContent["heatPumps"] }) {
+export function HeatPumps({ data, ui }: { data: HomeContent["heatPumps"]; ui: Ui }) {
   const [index, setIndex] = useState(0);
   const tiles = data.tiles;
   const count = tiles.length;
@@ -102,6 +103,7 @@ export function HeatPumps({ data }: { data: HomeContent["heatPumps"] }) {
             onNext={() => setIndex((i) => Math.min(count - 1, i + 1))}
             prevDisabled={index === 0}
             nextDisabled={index === count - 1}
+            labels={ui}
           />
         </div>
       </div>

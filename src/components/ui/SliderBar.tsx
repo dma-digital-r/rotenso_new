@@ -9,6 +9,7 @@ type Props = {
   onNext: () => void;
   prevDisabled?: boolean;
   nextDisabled?: boolean;
+  labels: { prev: string; next: string };
 };
 
 // "slider" group from Figma: 1190px line + red thumb, then two 30px arrows (gap 20 / 50 from line).
@@ -20,6 +21,7 @@ export function SliderBar({
   onNext,
   prevDisabled,
   nextDisabled,
+  labels,
 }: Props) {
   const free = 1190 - thumbWidth;
   return (
@@ -36,7 +38,7 @@ export function SliderBar({
       </div>
       <button
         type="button"
-        aria-label="Poprzedni"
+        aria-label={labels.prev}
         onClick={onPrev}
         disabled={prevDisabled}
         className="ml-[30px] cursor-pointer disabled:cursor-default disabled:opacity-40"
@@ -45,7 +47,7 @@ export function SliderBar({
       </button>
       <button
         type="button"
-        aria-label="Następny"
+        aria-label={labels.next}
         onClick={onNext}
         disabled={nextDisabled}
         className="ml-[20px] cursor-pointer disabled:cursor-default disabled:opacity-40"

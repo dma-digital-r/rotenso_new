@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "translate": "node --env-file-if-exists=.env.local scripts/translate.mjs",
+    "translate:memory": "node scripts/translate.mjs --engine=memory"
   },
   "dependencies": {
     "@keystatic/core": "^0.6.9",
@@ -22,6 +24,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.6",
+    "js-yaml": "^4.3.2",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

@@ -1,0 +1,375 @@
+seoTitle: Rotenso — climatizzazione, VMC, pompe di calore
+seoDescription: Sistemi HVAC innovativi per la casa e l’azienda — climatizzatori, unità VMC con recupero di calore, pompe di calore e sistemi RVF / VRF.
+heroSlides:
+  - tab: Climatizzatori
+    title: Climatizzatori
+    text: Rotenso offre un’ampia gamma di sistemi di climatizzazione che garantiscono la temperatura ideale tutto l’anno.
+    primary:
+      label: Scopri i modelli
+      href: /it/klimatyzacja
+    secondary:
+      label: Scopri le novità
+      href: /it/klimatyzacja
+    background: /images/home/hero-klimatyzacje.png
+  - tab: VMC
+    title: VMC
+    text: Un apporto costante di aria fresca e filtrata con recupero di calore o di umidità.
+    primary:
+      label: Scopri i modelli
+      href: /it/rekuperacja
+    secondary:
+      label: Scopri le novità
+      href: /it/rekuperacja
+    background: null
+  - tab: Pompe di calore
+    title: Pompe di calore
+    text: Riscaldamento economico e senza manutenzione degli edifici e produzione di acqua calda sanitaria.
+    primary:
+      label: Scopri i modelli
+      href: /it/pompy-ciepla
+    secondary:
+      label: Scopri le novità
+      href: /it/pompy-ciepla
+    background: null
+  - tab: Sistemi RVF
+    title: Sistemi RVF
+    text: Controllo preciso della temperatura in più zone contemporaneamente — per uffici, hotel ed edifici commerciali.
+    primary:
+      label: Scopri i modelli
+      href: /it/systemy-rvf
+    secondary:
+      label: Scopri le novità
+      href: /it/systemy-rvf
+    background: null
+idea:
+  title: La climatizzazione Rotenso è un comfort che senti fin dal primo istante.
+  text: Raffresca, riscalda e purifica l’aria, trasformando la tua casa in un rifugio. Il design elegante e il funzionamento silenzioso rendono le unità parte naturale dell’arredamento. Il controllo è semplice e intuitivo, così la tranquillità è sempre a portata di mano.
+  background: /images/home/idea-bg.png
+acHome:
+  title: Climatizzatori per te
+  switchLabel: Climatizzatori per aziende
+  background: /images/home/ac-dom-bg.png
+  backgroundCrop:
+    x: 0
+    'y': -6.12
+    w: 100
+    h: 122.73
+  products:
+    - name: Mirai
+      thumb: /images/home/ac-mirai.png
+      subtitle: Massima efficienza
+      text: Mirai ti garantisce raffrescamento e riscaldamento efficienti tutto l’anno.
+      price: 'A partire da: 2859 zł'
+      cta:
+        label: Scopri il modello
+        href: /it/klimatyzacja/mirai
+    - name: Versu Cloth Caramel
+      thumb: /images/home/ac-versu-caramel.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Scopri il modello
+        href: /it/klimatyzacja/versu-cloth-caramel
+    - name: Luve Pro
+      thumb: /images/home/ac-luve-pro.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Scopri il modello
+        href: /it/klimatyzacja/luve-pro
+    - name: Fresh
+      thumb: /images/home/ac-fresh.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Scopri il modello
+        href: /it/klimatyzacja/fresh
+    - name: Versu Mirror R15
+      thumb: /images/home/ac-versu-mirror.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Scopri il modello
+        href: /it/klimatyzacja/versu-mirror-r15
+    - name: Versu Pure
+      thumb: /images/home/ac-versu-pure.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Scopri il modello
+        href: /it/klimatyzacja/versu-pure
+  configurator:
+    question: Non sai quale climatizzatore scegliere?
+    cta: |-
+      Usa il
+      configuratore
+    href: /it/doboromierz
+acBusiness:
+  title: Climatizzatori per aziende
+  switchLabel: Climatizzatori per te
+  background: /images/home/ac-firma-bg.png
+  backgroundCrop:
+    x: 0
+    'y': 0
+    w: 100
+    h: 130.47
+  products:
+    - name: Mirai
+      thumb: /images/home/ac-mirai.png
+      subtitle: Massima efficienza
+      text: Mirai ti garantisce raffrescamento e riscaldamento efficienti tutto l’anno.
+      price: 'A partire da: 2859 zł'
+      cta:
+        label: Scopri il modello
+        href: /it/klimatyzacja/mirai
+    - name: Versu Cloth Caramel
+      thumb: /images/home/ac-versu-caramel.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Scopri il modello
+        href: /it/klimatyzacja/versu-cloth-caramel
+    - name: Luve Pro
+      thumb: /images/home/ac-luve-pro.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Scopri il modello
+        href: /it/klimatyzacja/luve-pro
+    - name: Fresh
+      thumb: /images/home/ac-fresh.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Scopri il modello
+        href: /it/klimatyzacja/fresh
+    - name: Versu Mirror R15
+      thumb: /images/home/ac-versu-mirror.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Scopri il modello
+        href: /it/klimatyzacja/versu-mirror-r15
+    - name: Versu Pure
+      thumb: /images/home/ac-versu-pure.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Scopri il modello
+        href: /it/klimatyzacja/versu-pure
+  configurator:
+    question: Non sai quale climatizzatore scegliere?
+    cta: |-
+      Usa il
+      configuratore
+    href: /it/doboromierz
+wentilo:
+  title: Aria fresca grazie alla VMC
+  productName: Wentilo ICON
+  text: |-
+    Le unità VMC Rotenso Wentilo garantiscono un apporto costante di aria fresca e filtrata con recupero di calore o di umidità, riducendo al tempo stesso i costi di riscaldamento. Il controllo intelligente ti assicura comfort per tutto il giorno, senza interventi aggiuntivi.
+
+    Scopri la serie Rotenso Wentilo ICON e scegli la soluzione giusta per la tua casa.
+  cta:
+    label: Scopri Wentilo ICON
+    href: /it/rekuperacja/wentilo-icon
+  configurator:
+    question: Non sai quale unità VMC scegliere?
+    cta: Usa il configuratore
+    href: /it/doboromierz/rekuperacja
+  background: /images/home/wentilo-bg.png
+  media: /images/home/wentilo-media.png
+  video: ''
+heatPumps:
+  title: Pompe di calore
+  text: Le pompe di calore Rotenso sono pensate per chi cerca un sistema economico e senza manutenzione per riscaldare gli edifici e produrre acqua calda sanitaria.
+  configurator:
+    question: Non sai quale pompa di calore scegliere?
+    cta: Usa il configuratore
+    href: /it/doboromierz/pompa-ciepla
+  tiles:
+    - title: Bassa temperatura
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Scopri i modelli
+        href: /it/pompy-ciepla
+    - title: Split (due unità)
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Scopri i modelli
+        href: /it/pompy-ciepla
+    - title: |-
+        Monoblocco
+        (Monoblock)
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Scopri i modelli
+        href: /it/pompy-ciepla
+    - title: Abbinate nel colore
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Scopri i modelli
+        href: /it/pompy-ciepla
+    - title: |-
+        Con serbatoio
+        ACS integrato
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Scopri i modelli
+        href: /it/pompy-ciepla
+rvf:
+  title: Sistemi RVF / VRF
+  text: I sistemi RVF Rotenso sono soluzioni di climatizzazione e riscaldamento moderne e flessibili che consentono un controllo preciso della temperatura in più zone contemporaneamente — ideali per uffici, hotel ed edifici commerciali.
+  cta:
+    label: Scopri di più
+    href: /it/systemy-rvf
+  image: /images/home/rvf-bg.png
+guides:
+  title: Conoscenza pratica
+  text: Le guide sono una fonte pratica di conoscenza per chi è interessato a climatizzazione, pompe di calore e VMC.
+  readLabel: Leggi
+  more:
+    label: Altre guide
+    href: /it/poradniki
+  items:
+    - category: Pompe di calore
+      title: Acqua calda sanitaria — una pompa di calore può riscaldarla?
+      image: /images/home/guide-1.png
+      imageCrop:
+        x: 0
+        'y': -27.38
+        w: 100
+        h: 127.86
+      href: /it/poradniki
+    - category: Pompe di calore
+      title: Incentivi per le pompe di calore nel 2026.
+      image: /images/home/guide-2.png
+      imageCrop:
+        x: -0.28
+        'y': 0
+        w: 135.79
+        h: 100
+      href: /it/poradniki
+    - category: Climatizzazione
+      title: Riscaldare con il climatizzatore ha senso? Chiariamo i dubbi.
+      image: /images/home/guide-3.png
+      imageCrop:
+        x: null
+        'y': null
+        w: null
+        h: null
+      href: /it/poradniki
+    - category: Climatizzazione
+      title: Climatizzatore per un appartamento di 40 m². Quale scegliere?
+      image: /images/home/guide-4.png
+      imageCrop:
+        x: null
+        'y': null
+        w: null
+        h: null
+      href: /it/poradniki
+    - category: Climatizzazione | VMC
+      title: VMC e climatizzazione — come unirle in un unico sistema?
+      image: /images/home/guide-5.png
+      imageCrop:
+        x: -66.31
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /it/poradniki
+    - category: VMC
+      title: Come funziona un’unità VMC con recupero di umidità?
+      image: /images/home/guide-6.png
+      imageCrop:
+        x: 0.08
+        'y': 0
+        w: 215.77
+        h: 100
+      href: /it/poradniki
+    - category: VMC
+      title: Filtri per la VMC — la base di un’aria pulita in casa.
+      image: /images/home/guide-7.png
+      imageCrop:
+        x: 0.02
+        'y': -11.17
+        w: 239.98
+        h: 122.34
+      href: /it/poradniki
+    - category: Climatizzazione
+      title: Il climatizzatore fa bene alla salute? Fatti e miti.
+      image: /images/home/guide-8.png
+      imageCrop:
+        x: -48.08
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /it/poradniki
+    - category: Climatizzazione
+      title: Cos’è il climatizzatore multisplit? Come funziona?
+      image: /images/home/guide-9.png
+      imageCrop:
+        x: -174.06
+        'y': 0
+        w: 328.31
+        h: 167.37
+      href: /it/poradniki
+    - category: RVF / VRF
+      title: Cos’è il VRF? A cosa serve questo sistema?
+      image: /images/home/guide-10.png
+      imageCrop:
+        x: -64.94
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /it/poradniki
+installer:
+  title: Trova un installatore
+  text: Inserisci il CAP o la località e trova l’installatore giusto.
+  placeholder: Scrivi qui...
+social:
+  title: Scoprici sui social media
+  videos:
+    - image: /images/home/yt-1.png
+      href: https://www.youtube.com/
+    - image: /images/home/yt-2.jpg
+      href: https://www.youtube.com/
+    - image: /images/home/yt-3.png
+      href: https://www.youtube.com/
+    - image: /images/home/yt-4.png
+      href: https://www.youtube.com/
+  posts:
+    - image: /images/home/post-1.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-2.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-3.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-4.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-5.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-6.png
+      href: https://www.instagram.com/
+seo:
+  title: Rotenso
+  subtitle: Sistemi HVAC innovativi per la casa e l’azienda
+  text: |-
+    Siamo un’azienda polacca specializzata in climatizzazione, VMC, pompe di calore e sistemi di climatizzazione avanzati (RVF). I nostri prodotti sono adatti alle esigenze di clienti privati e aziendali. Puntiamo su tecnologie che offrono comfort, aria pulita e un risparmio reale.
+
+    Grazie al continuo sviluppo e all’ampliamento del catalogo, il marchio ottiene il riconoscimento di utenti e partner in tutta Europa, offrendo soluzioni su misura per esigenze individuali e diversi tipi di edifici. Rotenso è sinonimo di efficienza, innovazione e design moderno, e questo rende le nostre unità una scelta eccellente per chi cerca qualità duratura.
+  background: /images/home/seo-bg.png

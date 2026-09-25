@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { FramedImage, MissingMedia } from "@/components/ui/FramedImage";
 import { Icon } from "@/components/ui/Icon";
+import type { Ui } from "@/i18n/ui";
 import type { HomeContent } from "@/lib/content";
 
 const SLIDE_MS = 7000;
@@ -12,7 +13,7 @@ const BAR_W = 267.442;
 const BAR_PITCH = 294.19;
 
 // Figma: "Header" (5172:70639) — 1820×930 rounded box, 50px from the page edges.
-export function HeroSlider({ slides }: { slides: HomeContent["heroSlides"] }) {
+export function HeroSlider({ slides, ui }: { slides: HomeContent["heroSlides"]; ui: Ui }) {
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
   const count = slides.length;
@@ -57,7 +58,7 @@ export function HeroSlider({ slides }: { slides: HomeContent["heroSlides"] }) {
               <p className="text-[25px] leading-[normal]">{s.text}</p>
             </div>
             <div className="flex items-start gap-[10px]">
-              <Button variant="m-red" href={s.primary.href} className="w-[173px]">
+              <Button variant="m-red" href={s.primary.href} className="min-w-[173px]">
                 {s.primary.label}
               </Button>
               <Button variant="m-white" href={s.secondary.href}>
@@ -104,15 +105,15 @@ export function HeroSlider({ slides }: { slides: HomeContent["heroSlides"] }) {
         ))}
 
         <div className="absolute top-[854px] left-[1180px] flex items-center">
-          <button type="button" aria-label="Poprzedni slajd" onClick={() => go(index - 1)} className="cursor-pointer">
+          <button type="button" aria-label={ui.prevSlide} onClick={() => go(index - 1)} className="cursor-pointer">
             <Icon name="arrow-w2-left" width={30} height={30} />
           </button>
-          <button type="button" aria-label="Następny slajd" onClick={() => go(index + 1)} className="ml-[10px] cursor-pointer">
+          <button type="button" aria-label={ui.nextSlide} onClick={() => go(index + 1)} className="ml-[10px] cursor-pointer">
             <Icon name="arrow-w2-right" width={30} height={30} />
           </button>
           <button
             type="button"
-            aria-label={paused ? "Wznów" : "Wstrzymaj"}
+            aria-label={paused ? ui.resume : ui.pause}
             aria-pressed={paused}
             onClick={() => setPaused((p) => !p)}
             className="ml-[20px] cursor-pointer"

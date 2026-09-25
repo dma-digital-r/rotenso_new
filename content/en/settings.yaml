@@ -1,0 +1,97 @@
+nav:
+  - label: Products
+    href: /en/produkty
+  - label: About us
+    href: /en/o-nas
+  - label: Guides
+    href: /en/poradniki
+  - label: Catalogues
+    href: /en/katalogi
+  - label: Contact
+    href: /en/kontakt
+searchPlaceholder: Search
+configurator:
+  label: Configurator
+  href: /en/doboromierz
+installer:
+  label: For installers
+  href: /en/znajdz-instalatora
+footerColumns:
+  - heading:
+      label: Air conditioning
+      href: /en/klimatyzacja
+    links:
+      - label: Room units (Split)
+        href: /en/klimatyzacja/split
+      - label: Multi-room (Multi Split)
+        href: /en/klimatyzacja/multi-split
+      - label: For year-round heating
+        href: /en/klimatyzacja/grzanie
+      - label: Ceiling and concealed
+        href: /en/klimatyzacja/sufitowe
+      - label: Floor-standing
+        href: /en/klimatyzacja/przypodlogowe
+      - label: Accessories
+        href: /en/akcesoria
+  - heading:
+      label: Heat recovery
+      href: /en/rekuperacja
+    links: []
+  - heading:
+      label: Heat pumps
+      href: /en/pompy-ciepla
+    links:
+      - label: Split type
+        href: /en/pompy-ciepla/split
+      - label: Monoblock type
+        href: /en/pompy-ciepla/monoblock
+      - label: All-in type
+        href: /en/pompy-ciepla/all-in
+      - label: Tanks
+        href: /en/pompy-ciepla/zbiorniki
+  - heading:
+      label: RVF systems
+      href: /en/systemy-rvf
+    links:
+      - label: Systems / Solutions
+        href: /en/systemy-rvf/rozwiazania
+      - label: Indoor units
+        href: /en/systemy-rvf/jednostki-wewnetrzne
+      - label: Outdoor units
+        href: /en/systemy-rvf/jednostki-zewnetrzne
+  - heading:
+      label: Information
+      href: ''
+    links:
+      - label: About us
+        href: /en/o-nas
+      - label: Guides
+        href: /en/poradniki
+      - label: Catalogues
+        href: /en/katalogi
+      - label: GDPR
+        href: /en/rodo
+      - label: Terms and conditions
+        href: /en/regulamin
+aiChat:
+  label: Chat with the Rotenso assistant
+  href: /en/kontakt
+contactHeading: Contact
+phone: +48 32 285 57 11
+email: info@rotenso.com
+contactForm:
+  label: Contact form
+  href: /en/kontakt
+navigate:
+  label: Directions
+  href: https://maps.google.com/?q=Rotenso
+social:
+  facebook: https://www.facebook.com/
+  youtube: https://www.youtube.com/
+  instagram: https://www.instagram.com/
+  tiktok: https://www.tiktok.com/
+  spotify: https://open.spotify.com/
+  linkedin: https://www.linkedin.com/
+copyright: |-
+  © {rok} Rotenso®. All rights reserved.
+  We reserve the right to errors in descriptions and technical specifications. We make every effort to ensure that photographs faithfully reproduce the colours of our units; however, due to differences in individual monitor settings, colours may differ from reality.

@@ -1,0 +1,375 @@
+seoTitle: Rotenso — Klimaanlagen, Wohnraumlüftung, Wärmepumpen
+seoDescription: Innovative HLK-Systeme für Zuhause und Unternehmen — Klimaanlagen, Lüftungsgeräte mit Wärmerückgewinnung, Wärmepumpen und RVF / VRF-Systeme.
+heroSlides:
+  - tab: Klimaanlagen
+    title: Klimaanlagen
+    text: Rotenso bietet eine große Auswahl an Klimasystemen, die das ganze Jahr über für die ideale Temperatur sorgen.
+    primary:
+      label: Modelle entdecken
+      href: /de/klimatyzacja
+    secondary:
+      label: Neuheiten ansehen
+      href: /de/klimatyzacja
+    background: /images/home/hero-klimatyzacje.png
+  - tab: Wohnraumlüftung
+    title: Wohnraumlüftung
+    text: Ständig frische, gefilterte Luft mit Wärme- oder Feuchterückgewinnung.
+    primary:
+      label: Modelle entdecken
+      href: /de/rekuperacja
+    secondary:
+      label: Neuheiten ansehen
+      href: /de/rekuperacja
+    background: null
+  - tab: Wärmepumpen
+    title: Wärmepumpen
+    text: Wirtschaftliches, wartungsfreies Heizen von Gebäuden und Warmwasserbereitung.
+    primary:
+      label: Modelle entdecken
+      href: /de/pompy-ciepla
+    secondary:
+      label: Neuheiten ansehen
+      href: /de/pompy-ciepla
+    background: null
+  - tab: RVF-Systeme
+    title: RVF-Systeme
+    text: Präzise Temperaturregelung in vielen Zonen gleichzeitig — für Büros, Hotels und Gewerbeobjekte.
+    primary:
+      label: Modelle entdecken
+      href: /de/systemy-rvf
+    secondary:
+      label: Neuheiten ansehen
+      href: /de/systemy-rvf
+    background: null
+idea:
+  title: Rotenso Klimaanlagen — Komfort, den Sie vom ersten Moment an spüren.
+  text: Sie kühlen, heizen und reinigen die Luft — und Ihr Zuhause wird zur Wohlfühloase. Elegantes Design und leiser Betrieb machen die Geräte zu einem natürlichen Teil des Raumes. Die Bedienung ist einfach und intuitiv, sodass Entspannung immer greifbar ist.
+  background: /images/home/idea-bg.png
+acHome:
+  title: Klimaanlagen für Sie
+  switchLabel: Klimaanlagen für Firmen
+  background: /images/home/ac-dom-bg.png
+  backgroundCrop:
+    x: 0
+    'y': -6.12
+    w: 100
+    h: 122.73
+  products:
+    - name: Mirai
+      thumb: /images/home/ac-mirai.png
+      subtitle: Höchste Effizienz
+      text: Mirai sorgt das ganze Jahr über für effizientes Kühlen und Heizen.
+      price: 'Ab: 2859 zł'
+      cta:
+        label: Modell entdecken
+        href: /de/klimatyzacja/mirai
+    - name: Versu Cloth Caramel
+      thumb: /images/home/ac-versu-caramel.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Modell entdecken
+        href: /de/klimatyzacja/versu-cloth-caramel
+    - name: Luve Pro
+      thumb: /images/home/ac-luve-pro.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Modell entdecken
+        href: /de/klimatyzacja/luve-pro
+    - name: Fresh
+      thumb: /images/home/ac-fresh.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Modell entdecken
+        href: /de/klimatyzacja/fresh
+    - name: Versu Mirror R15
+      thumb: /images/home/ac-versu-mirror.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Modell entdecken
+        href: /de/klimatyzacja/versu-mirror-r15
+    - name: Versu Pure
+      thumb: /images/home/ac-versu-pure.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Modell entdecken
+        href: /de/klimatyzacja/versu-pure
+  configurator:
+    question: Sie wissen nicht, welche Klimaanlage die richtige ist?
+    cta: |-
+      Nutzen Sie den
+      Konfigurator
+    href: /de/doboromierz
+acBusiness:
+  title: Klimaanlagen für Firmen
+  switchLabel: Klimaanlagen für Sie
+  background: /images/home/ac-firma-bg.png
+  backgroundCrop:
+    x: 0
+    'y': 0
+    w: 100
+    h: 130.47
+  products:
+    - name: Mirai
+      thumb: /images/home/ac-mirai.png
+      subtitle: Höchste Effizienz
+      text: Mirai sorgt das ganze Jahr über für effizientes Kühlen und Heizen.
+      price: 'Ab: 2859 zł'
+      cta:
+        label: Modell entdecken
+        href: /de/klimatyzacja/mirai
+    - name: Versu Cloth Caramel
+      thumb: /images/home/ac-versu-caramel.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Modell entdecken
+        href: /de/klimatyzacja/versu-cloth-caramel
+    - name: Luve Pro
+      thumb: /images/home/ac-luve-pro.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Modell entdecken
+        href: /de/klimatyzacja/luve-pro
+    - name: Fresh
+      thumb: /images/home/ac-fresh.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Modell entdecken
+        href: /de/klimatyzacja/fresh
+    - name: Versu Mirror R15
+      thumb: /images/home/ac-versu-mirror.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Modell entdecken
+        href: /de/klimatyzacja/versu-mirror-r15
+    - name: Versu Pure
+      thumb: /images/home/ac-versu-pure.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Modell entdecken
+        href: /de/klimatyzacja/versu-pure
+  configurator:
+    question: Sie wissen nicht, welche Klimaanlage die richtige ist?
+    cta: |-
+      Nutzen Sie den
+      Konfigurator
+    href: /de/doboromierz
+wentilo:
+  title: Frische Luft dank Wärmerückgewinnung
+  productName: Wentilo ICON
+  text: |-
+    Rotenso Wentilo Lüftungsgeräte sorgen für ständig frische, gefilterte Luft mit Wärme- oder Feuchterückgewinnung und senken gleichzeitig die Heizkosten. Die intelligente Steuerung garantiert Ihnen den ganzen Tag Komfort ohne zusätzlichen Aufwand.
+
+    Entdecken Sie die Rotenso Wentilo ICON Serie und wählen Sie die passende Lösung für Ihr Zuhause.
+  cta:
+    label: Wentilo ICON entdecken
+    href: /de/rekuperacja/wentilo-icon
+  configurator:
+    question: Sie wissen nicht, welches Lüftungsgerät passt?
+    cta: Nutzen Sie den Konfigurator
+    href: /de/doboromierz/rekuperacja
+  background: /images/home/wentilo-bg.png
+  media: /images/home/wentilo-media.png
+  video: ''
+heatPumps:
+  title: Wärmepumpen
+  text: Rotenso Wärmepumpen sind für alle, die ein wirtschaftliches und wartungsfreies System zum Heizen von Gebäuden und zur Warmwasserbereitung suchen.
+  configurator:
+    question: Sie wissen nicht, welche Wärmepumpe passt?
+    cta: Nutzen Sie den Konfigurator
+    href: /de/doboromierz/pompa-ciepla
+  tiles:
+    - title: Niedertemperatur
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Modelle entdecken
+        href: /de/pompy-ciepla
+    - title: Zweiteilig (Split)
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Modelle entdecken
+        href: /de/pompy-ciepla
+    - title: |-
+        Einteilig
+        (Monoblock)
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Modelle entdecken
+        href: /de/pompy-ciepla
+    - title: Farblich abgestimmt
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Modelle entdecken
+        href: /de/pompy-ciepla
+    - title: |-
+        Mit integriertem
+        Warmwasserspeicher
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Modelle entdecken
+        href: /de/pompy-ciepla
+rvf:
+  title: RVF / VRF-Systeme
+  text: Rotenso RVF-Systeme sind moderne und flexible Klima- und Heizlösungen, die eine präzise Temperaturregelung in vielen Zonen gleichzeitig ermöglichen — ideal für Büros, Hotels und Gewerbeobjekte.
+  cta:
+    label: Mehr erfahren
+    href: /de/systemy-rvf
+  image: /images/home/rvf-bg.png
+guides:
+  title: Praxiswissen
+  text: Unsere Ratgeber sind eine praktische Wissensquelle für alle, die sich für Klimaanlagen, Wärmepumpen und Wohnraumlüftung interessieren.
+  readLabel: Lesen
+  more:
+    label: Weitere Ratgeber
+    href: /de/poradniki
+  items:
+    - category: Wärmepumpen
+      title: Warmwasser — kann eine Wärmepumpe es erwärmen?
+      image: /images/home/guide-1.png
+      imageCrop:
+        x: 0
+        'y': -27.38
+        w: 100
+        h: 127.86
+      href: /de/poradniki
+    - category: Wärmepumpen
+      title: Förderung für Wärmepumpen im Jahr 2026.
+      image: /images/home/guide-2.png
+      imageCrop:
+        x: -0.28
+        'y': 0
+        w: 135.79
+        h: 100
+      href: /de/poradniki
+    - category: Klimaanlagen
+      title: Heizen mit der Klimaanlage — ist das sinnvoll? Wir räumen Zweifel aus.
+      image: /images/home/guide-3.png
+      imageCrop:
+        x: null
+        'y': null
+        w: null
+        h: null
+      href: /de/poradniki
+    - category: Klimaanlagen
+      title: Klimaanlage für eine 40-m²-Wohnung. Welche wählen?
+      image: /images/home/guide-4.png
+      imageCrop:
+        x: null
+        'y': null
+        w: null
+        h: null
+      href: /de/poradniki
+    - category: Klimaanlagen | Lüftung
+      title: Lüftung mit Klimaanlage — wie verbindet man beides zu einem System?
+      image: /images/home/guide-5.png
+      imageCrop:
+        x: -66.31
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /de/poradniki
+    - category: Wohnraumlüftung
+      title: Wie funktioniert ein Lüftungsgerät mit Feuchterückgewinnung?
+      image: /images/home/guide-6.png
+      imageCrop:
+        x: 0.08
+        'y': 0
+        w: 215.77
+        h: 100
+      href: /de/poradniki
+    - category: Wohnraumlüftung
+      title: Filter für die Wohnraumlüftung — die Grundlage für saubere Luft zu Hause.
+      image: /images/home/guide-7.png
+      imageCrop:
+        x: 0.02
+        'y': -11.17
+        w: 239.98
+        h: 122.34
+      href: /de/poradniki
+    - category: Klimaanlagen
+      title: Ist eine Klimaanlage gesund? Fakten und Mythen.
+      image: /images/home/guide-8.png
+      imageCrop:
+        x: -48.08
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /de/poradniki
+    - category: Klimaanlagen
+      title: Was ist eine Multisplit-Klimaanlage? Wie funktioniert sie?
+      image: /images/home/guide-9.png
+      imageCrop:
+        x: -174.06
+        'y': 0
+        w: 328.31
+        h: 167.37
+      href: /de/poradniki
+    - category: RVF / VRF
+      title: Was ist VRF? Wofür wird dieses System eingesetzt?
+      image: /images/home/guide-10.png
+      imageCrop:
+        x: -64.94
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /de/poradniki
+installer:
+  title: Installateur finden
+  text: Geben Sie Postleitzahl oder Ort ein und finden Sie den passenden Installateur.
+  placeholder: Hier eingeben...
+social:
+  title: Entdecken Sie uns in den sozialen Medien
+  videos:
+    - image: /images/home/yt-1.png
+      href: https://www.youtube.com/
+    - image: /images/home/yt-2.jpg
+      href: https://www.youtube.com/
+    - image: /images/home/yt-3.png
+      href: https://www.youtube.com/
+    - image: /images/home/yt-4.png
+      href: https://www.youtube.com/
+  posts:
+    - image: /images/home/post-1.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-2.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-3.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-4.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-5.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-6.png
+      href: https://www.instagram.com/
+seo:
+  title: Rotenso
+  subtitle: Innovative HLK-Systeme für Zuhause und Unternehmen
+  text: |-
+    Wir sind ein polnisches Unternehmen, das sich auf Klimaanlagen, Wohnraumlüftung, Wärmepumpen und fortschrittliche Klimasysteme (RVF) spezialisiert hat. Unsere Produkte sind auf die Bedürfnisse von Privat- und Geschäftskunden zugeschnitten. Wir setzen auf Technologien, die Komfort, saubere Luft und echte Einsparungen bieten.
+
+    Dank ständiger Weiterentwicklung und eines wachsenden Produktkatalogs gewinnt die Marke Anerkennung bei Nutzern und Partnern in ganz Europa und bietet Lösungen für individuelle Anforderungen und verschiedene Gebäudetypen. Rotenso steht für Effizienz, Innovation und modernes Design — das macht unsere Geräte zur ausgezeichneten Wahl für alle, die Qualität für viele Jahre suchen.
+  background: /images/home/seo-bg.png

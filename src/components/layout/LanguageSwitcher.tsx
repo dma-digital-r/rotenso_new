@@ -8,7 +8,7 @@ import { locales, localeLabels, type Locale } from "@/i18n/config";
 
 // Figma "Language": bold 16px code with an 8×4 caret centred under it.
 // The open state is not designed yet — a plain list for now.
-export function LanguageSwitcher({ lang }: { lang: Locale }) {
+export function LanguageSwitcher({ lang, label }: { lang: Locale; label: string }) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
@@ -30,7 +30,7 @@ export function LanguageSwitcher({ lang }: { lang: Locale }) {
         type="button"
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
-        aria-label="Język"
+        aria-label={label}
         className="relative block h-[28.5px] cursor-pointer text-center text-[16px] leading-[normal] font-bold text-rotenso-grey uppercase"
       >
         {lang}

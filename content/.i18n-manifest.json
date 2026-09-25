@@ -1,0 +1,3398 @@
+{
+  "en": {
+    "home": {
+      "seoTitle": {
+        "src": "5f06e1706ad4f720",
+        "out": "3de9fd6921ef300a"
+      },
+      "seoDescription": {
+        "src": "c047a732a548e3a9",
+        "out": "fc69e13a68fc561b"
+      },
+      "heroSlides.0.tab": {
+        "src": "5d6e0719ce3778b1",
+        "out": "d368160195d9b0ef"
+      },
+      "heroSlides.0.title": {
+        "src": "5d6e0719ce3778b1",
+        "out": "d368160195d9b0ef"
+      },
+      "heroSlides.0.text": {
+        "src": "053e8d224173a80a",
+        "out": "11f4f12cca615068"
+      },
+      "heroSlides.0.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "087c88b3a60100d1"
+      },
+      "heroSlides.0.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "0fb946717a25e301"
+      },
+      "heroSlides.1.tab": {
+        "src": "8012440906264dab",
+        "out": "7029415a43fbe2ed"
+      },
+      "heroSlides.1.title": {
+        "src": "8012440906264dab",
+        "out": "7029415a43fbe2ed"
+      },
+      "heroSlides.1.text": {
+        "src": "de4fa32574a8eb97",
+        "out": "694424a0a3b52df7"
+      },
+      "heroSlides.1.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "087c88b3a60100d1"
+      },
+      "heroSlides.1.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "0fb946717a25e301"
+      },
+      "heroSlides.2.tab": {
+        "src": "ca02cc5939f80b27",
+        "out": "aa12cb2b2522fe15"
+      },
+      "heroSlides.2.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "aa12cb2b2522fe15"
+      },
+      "heroSlides.2.text": {
+        "src": "787d7e39b6815119",
+        "out": "a3cf43b786a45c4e"
+      },
+      "heroSlides.2.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "087c88b3a60100d1"
+      },
+      "heroSlides.2.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "0fb946717a25e301"
+      },
+      "heroSlides.3.tab": {
+        "src": "c13c5da0164f24e6",
+        "out": "aa5d365690ff0001"
+      },
+      "heroSlides.3.title": {
+        "src": "c13c5da0164f24e6",
+        "out": "aa5d365690ff0001"
+      },
+      "heroSlides.3.text": {
+        "src": "af841a112387d58b",
+        "out": "152b3b865e299224"
+      },
+      "heroSlides.3.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "087c88b3a60100d1"
+      },
+      "heroSlides.3.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "0fb946717a25e301"
+      },
+      "idea.title": {
+        "src": "1b40dff9e9feb5e4",
+        "out": "87b1ce84d548fa4f"
+      },
+      "idea.text": {
+        "src": "2443db01fe22af83",
+        "out": "261ab74d71227b77"
+      },
+      "acHome.title": {
+        "src": "10b9f2bb4cf98fa4",
+        "out": "106ba39226adfc8a"
+      },
+      "acHome.switchLabel": {
+        "src": "1e223ce932c758bb",
+        "out": "298ca7f3cb919d56"
+      },
+      "acHome.products.0.subtitle": {
+        "src": "f4b8271b4264bd2a",
+        "out": "3245c7fdb3a401b6"
+      },
+      "acHome.products.0.text": {
+        "src": "58919ceca5915ebb",
+        "out": "b00c5590b7528faf"
+      },
+      "acHome.products.0.price": {
+        "src": "d36315b39fe8a6dc",
+        "out": "6fdb7823bb2176c1"
+      },
+      "acHome.products.0.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "8a1a3e139c06cdaa"
+      },
+      "acHome.products.1.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "8a1a3e139c06cdaa"
+      },
+      "acHome.products.2.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "8a1a3e139c06cdaa"
+      },
+      "acHome.products.3.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "8a1a3e139c06cdaa"
+      },
+      "acHome.products.4.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "8a1a3e139c06cdaa"
+      },
+      "acHome.products.5.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "8a1a3e139c06cdaa"
+      },
+      "acHome.configurator.question": {
+        "src": "60c7ca8cd4cb0bb7",
+        "out": "cd3418704fb28798"
+      },
+      "acHome.configurator.cta": {
+        "src": "36fa98dd8e5cb328",
+        "out": "e72325a93d107a3a"
+      },
+      "acBusiness.title": {
+        "src": "1e223ce932c758bb",
+        "out": "298ca7f3cb919d56"
+      },
+      "acBusiness.switchLabel": {
+        "src": "10b9f2bb4cf98fa4",
+        "out": "106ba39226adfc8a"
+      },
+      "acBusiness.products.0.subtitle": {
+        "src": "f4b8271b4264bd2a",
+        "out": "3245c7fdb3a401b6"
+      },
+      "acBusiness.products.0.text": {
+        "src": "58919ceca5915ebb",
+        "out": "b00c5590b7528faf"
+      },
+      "acBusiness.products.0.price": {
+        "src": "d36315b39fe8a6dc",
+        "out": "6fdb7823bb2176c1"
+      },
+      "acBusiness.products.0.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "8a1a3e139c06cdaa"
+      },
+      "acBusiness.products.1.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "8a1a3e139c06cdaa"
+      },
+      "acBusiness.products.2.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "8a1a3e139c06cdaa"
+      },
+      "acBusiness.products.3.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "8a1a3e139c06cdaa"
+      },
+      "acBusiness.products.4.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "8a1a3e139c06cdaa"
+      },
+      "acBusiness.products.5.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "8a1a3e139c06cdaa"
+      },
+      "acBusiness.configurator.question": {
+        "src": "60c7ca8cd4cb0bb7",
+        "out": "cd3418704fb28798"
+      },
+      "acBusiness.configurator.cta": {
+        "src": "36fa98dd8e5cb328",
+        "out": "e72325a93d107a3a"
+      },
+      "wentilo.title": {
+        "src": "c6ab3a47e01e463a",
+        "out": "57fc872340687b78"
+      },
+      "wentilo.productName": {
+        "src": "23e8d94a60713cf3",
+        "out": "23e8d94a60713cf3"
+      },
+      "wentilo.text": {
+        "src": "3c81e79a138dcba6",
+        "out": "653b16e903e03a00"
+      },
+      "wentilo.cta.label": {
+        "src": "52c0086d85833a57",
+        "out": "57164922306cf98f"
+      },
+      "wentilo.configurator.question": {
+        "src": "1d39b1eb949b4cab",
+        "out": "4bffae0605f4b212"
+      },
+      "wentilo.configurator.cta": {
+        "src": "2120ecec91f0313e",
+        "out": "8e89703e7ddbb172"
+      },
+      "heatPumps.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "aa12cb2b2522fe15"
+      },
+      "heatPumps.text": {
+        "src": "ea53f342af0a279a",
+        "out": "9228a1d2782a42dd"
+      },
+      "heatPumps.configurator.question": {
+        "src": "fae33783ba82fdd8",
+        "out": "b532c7bf10a1c1c4"
+      },
+      "heatPumps.configurator.cta": {
+        "src": "2120ecec91f0313e",
+        "out": "8e89703e7ddbb172"
+      },
+      "heatPumps.tiles.0.title": {
+        "src": "87dac10a65d33cdf",
+        "out": "40c1269cf0332b1f"
+      },
+      "heatPumps.tiles.0.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "087c88b3a60100d1"
+      },
+      "heatPumps.tiles.1.title": {
+        "src": "64a14d5c81e9cf30",
+        "out": "3eba9da9599c1cce"
+      },
+      "heatPumps.tiles.1.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "087c88b3a60100d1"
+      },
+      "heatPumps.tiles.2.title": {
+        "src": "b84b710698f7034e",
+        "out": "54cca0fde7edc91f"
+      },
+      "heatPumps.tiles.2.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "087c88b3a60100d1"
+      },
+      "heatPumps.tiles.3.title": {
+        "src": "e12020d3b540a8d9",
+        "out": "8ad86d11a9edcba7"
+      },
+      "heatPumps.tiles.3.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "087c88b3a60100d1"
+      },
+      "heatPumps.tiles.4.title": {
+        "src": "69c856dbefc6724d",
+        "out": "4f6ed1d3fc5db25d"
+      },
+      "heatPumps.tiles.4.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "087c88b3a60100d1"
+      },
+      "rvf.title": {
+        "src": "d34c2a9e1a59598c",
+        "out": "9862e010912946bb"
+      },
+      "rvf.text": {
+        "src": "fb47af351048d267",
+        "out": "5859df1ff956cbc7"
+      },
+      "rvf.cta.label": {
+        "src": "da8938f3670b44e1",
+        "out": "824d76b124e6289f"
+      },
+      "guides.title": {
+        "src": "2b39dddb1f35dccf",
+        "out": "65a1772201c001b6"
+      },
+      "guides.text": {
+        "src": "be86a009d254b755",
+        "out": "bcce9de2373833a3"
+      },
+      "guides.readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "852b438f91ad9eb2"
+      },
+      "guides.more.label": {
+        "src": "7efd400827c6051c",
+        "out": "25a392f1a490fdbe"
+      },
+      "guides.items.0.category": {
+        "src": "ca02cc5939f80b27",
+        "out": "aa12cb2b2522fe15"
+      },
+      "guides.items.0.title": {
+        "src": "a740707546f81864",
+        "out": "f13e5b93de84cef9"
+      },
+      "guides.items.1.category": {
+        "src": "ca02cc5939f80b27",
+        "out": "aa12cb2b2522fe15"
+      },
+      "guides.items.1.title": {
+        "src": "3ca780a552754375",
+        "out": "395c4ebfc8a82ac5"
+      },
+      "guides.items.2.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "d368160195d9b0ef"
+      },
+      "guides.items.2.title": {
+        "src": "107461e91ad21728",
+        "out": "6047dbf88338a6ba"
+      },
+      "guides.items.3.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "d368160195d9b0ef"
+      },
+      "guides.items.3.title": {
+        "src": "bf3b50cccde57bad",
+        "out": "bd1d6a8e72267284"
+      },
+      "guides.items.4.category": {
+        "src": "1c2fa060e4d67414",
+        "out": "ef5f443976f1a7a2"
+      },
+      "guides.items.4.title": {
+        "src": "314ab8f1a9257fa0",
+        "out": "711a0125798641e4"
+      },
+      "guides.items.5.category": {
+        "src": "8012440906264dab",
+        "out": "7029415a43fbe2ed"
+      },
+      "guides.items.5.title": {
+        "src": "174e25d18dee4a78",
+        "out": "61f4e3cdcabe7861"
+      },
+      "guides.items.6.category": {
+        "src": "8012440906264dab",
+        "out": "7029415a43fbe2ed"
+      },
+      "guides.items.6.title": {
+        "src": "4c6c3779b0307eb6",
+        "out": "09cae9637fad0729"
+      },
+      "guides.items.7.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "d368160195d9b0ef"
+      },
+      "guides.items.7.title": {
+        "src": "603d38d973564ff6",
+        "out": "91d088177f05b1f4"
+      },
+      "guides.items.8.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "d368160195d9b0ef"
+      },
+      "guides.items.8.title": {
+        "src": "87a68686bef1158b",
+        "out": "833a6835ecbb9894"
+      },
+      "guides.items.9.category": {
+        "src": "adc6b801f7ddffec",
+        "out": "adc6b801f7ddffec"
+      },
+      "guides.items.9.title": {
+        "src": "6aae1995c4b60df9",
+        "out": "ad962920e658eaf9"
+      },
+      "installer.title": {
+        "src": "4dfc6f164ce719ce",
+        "out": "d6e4483d7372701d"
+      },
+      "installer.text": {
+        "src": "d5b61de4ad0fe946",
+        "out": "a51e12e5f2d583ee"
+      },
+      "installer.placeholder": {
+        "src": "7993962690159812",
+        "out": "e4423f2ace758707"
+      },
+      "social.title": {
+        "src": "2380ed6350372952",
+        "out": "b455f8f14e68d0cd"
+      },
+      "seo.title": {
+        "src": "a155cf0026c61f18",
+        "out": "a155cf0026c61f18"
+      },
+      "seo.subtitle": {
+        "src": "21de042bd1b67a5d",
+        "out": "67ebd43a86377fd8"
+      },
+      "seo.text": {
+        "src": "3f8b0ef6afad3484",
+        "out": "f84e955d400c326c"
+      }
+    },
+    "settings": {
+      "nav.0.label": {
+        "src": "7ac9c1c8a204ae8e",
+        "out": "fe0a091fdbfb3e9c"
+      },
+      "nav.1.label": {
+        "src": "e8c2a6bc6ed827aa",
+        "out": "3ffb811f9be63cf3"
+      },
+      "nav.2.label": {
+        "src": "f2bcecdc5656b1b6",
+        "out": "929a28d261428029"
+      },
+      "nav.3.label": {
+        "src": "f13513baaf60aca3",
+        "out": "3fb594239a2011a9"
+      },
+      "nav.4.label": {
+        "src": "a92b9bcb16656979",
+        "out": "b37456c4530be810"
+      },
+      "searchPlaceholder": {
+        "src": "a0bb8db487beab73",
+        "out": "bce06414177f72ab"
+      },
+      "configurator.label": {
+        "src": "43a37cf68b2e006f",
+        "out": "82f5bb6390f59fa4"
+      },
+      "installer.label": {
+        "src": "9f7321ec9ced3043",
+        "out": "ac61d8fa68ca975c"
+      },
+      "footerColumns.0.heading.label": {
+        "src": "5d6e0719ce3778b1",
+        "out": "d368160195d9b0ef"
+      },
+      "footerColumns.0.links.0.label": {
+        "src": "0e865c3da07a23d1",
+        "out": "8a35e8058a9c7246"
+      },
+      "footerColumns.0.links.1.label": {
+        "src": "0ac58214899b8707",
+        "out": "5ae13dc3812d4d20"
+      },
+      "footerColumns.0.links.2.label": {
+        "src": "1865e16b0be1b9c1",
+        "out": "6e1295e68cd5812f"
+      },
+      "footerColumns.0.links.3.label": {
+        "src": "e080d463dabae74f",
+        "out": "1b5954c1cff0d413"
+      },
+      "footerColumns.0.links.4.label": {
+        "src": "e4494cb87a74b2c9",
+        "out": "562761c2443547d4"
+      },
+      "footerColumns.0.links.5.label": {
+        "src": "0f95f1c110d464b0",
+        "out": "f3b50cd53cc460af"
+      },
+      "footerColumns.1.heading.label": {
+        "src": "8012440906264dab",
+        "out": "7029415a43fbe2ed"
+      },
+      "footerColumns.2.heading.label": {
+        "src": "ca02cc5939f80b27",
+        "out": "aa12cb2b2522fe15"
+      },
+      "footerColumns.2.links.0.label": {
+        "src": "eb9f9b9d4763dfd7",
+        "out": "a9804dd78d951e40"
+      },
+      "footerColumns.2.links.1.label": {
+        "src": "03b5e4178844819a",
+        "out": "88eca2a05a02f5a3"
+      },
+      "footerColumns.2.links.2.label": {
+        "src": "dd0eeace1af516a1",
+        "out": "50f84e1f318b8693"
+      },
+      "footerColumns.2.links.3.label": {
+        "src": "7f925774690220b0",
+        "out": "ffdb1d2f5cedf6ba"
+      },
+      "footerColumns.3.heading.label": {
+        "src": "c13c5da0164f24e6",
+        "out": "aa5d365690ff0001"
+      },
+      "footerColumns.3.links.0.label": {
+        "src": "7de9a3c025aae0be",
+        "out": "71b90862c6d377c9"
+      },
+      "footerColumns.3.links.1.label": {
+        "src": "e27fef641bb56fb0",
+        "out": "64121e8a4241096b"
+      },
+      "footerColumns.3.links.2.label": {
+        "src": "541afb51a6c99f1c",
+        "out": "2091379165f877a1"
+      },
+      "footerColumns.4.heading.label": {
+        "src": "f04d331c87d3d363",
+        "out": "0eb5ed506e4923c2"
+      },
+      "footerColumns.4.links.0.label": {
+        "src": "e8c2a6bc6ed827aa",
+        "out": "3ffb811f9be63cf3"
+      },
+      "footerColumns.4.links.1.label": {
+        "src": "f2bcecdc5656b1b6",
+        "out": "929a28d261428029"
+      },
+      "footerColumns.4.links.2.label": {
+        "src": "f13513baaf60aca3",
+        "out": "3fb594239a2011a9"
+      },
+      "footerColumns.4.links.3.label": {
+        "src": "2a2ba6ff833066d2",
+        "out": "a5b7d57a8574705c"
+      },
+      "footerColumns.4.links.4.label": {
+        "src": "cffb9d7ad6e2a318",
+        "out": "92d0286da122f925"
+      },
+      "aiChat.label": {
+        "src": "1f733d5360fefe44",
+        "out": "d483b85ca54078fe"
+      },
+      "contactHeading": {
+        "src": "a92b9bcb16656979",
+        "out": "b37456c4530be810"
+      },
+      "contactForm.label": {
+        "src": "2ef5cbd5491ab142",
+        "out": "d927866c0f703b98"
+      },
+      "navigate.label": {
+        "src": "961b0b3be7bc0ff2",
+        "out": "f814a9fb4687a03c"
+      },
+      "copyright": {
+        "src": "a15360fd5c68f45c",
+        "out": "21e36535e8df2fae"
+      }
+    }
+  },
+  "de": {
+    "home": {
+      "seoTitle": {
+        "src": "5f06e1706ad4f720",
+        "out": "e99932738d7c5605"
+      },
+      "seoDescription": {
+        "src": "c047a732a548e3a9",
+        "out": "8a582a30b2ec318e"
+      },
+      "heroSlides.0.tab": {
+        "src": "5d6e0719ce3778b1",
+        "out": "450960701f99f48b"
+      },
+      "heroSlides.0.title": {
+        "src": "5d6e0719ce3778b1",
+        "out": "450960701f99f48b"
+      },
+      "heroSlides.0.text": {
+        "src": "053e8d224173a80a",
+        "out": "ce3bf26ed073edce"
+      },
+      "heroSlides.0.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "9f003990413164a7"
+      },
+      "heroSlides.0.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "e747fe1c3761eba9"
+      },
+      "heroSlides.1.tab": {
+        "src": "8012440906264dab",
+        "out": "8b8c67ba55927a14"
+      },
+      "heroSlides.1.title": {
+        "src": "8012440906264dab",
+        "out": "8b8c67ba55927a14"
+      },
+      "heroSlides.1.text": {
+        "src": "de4fa32574a8eb97",
+        "out": "1e9e8dfd681e7446"
+      },
+      "heroSlides.1.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "9f003990413164a7"
+      },
+      "heroSlides.1.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "e747fe1c3761eba9"
+      },
+      "heroSlides.2.tab": {
+        "src": "ca02cc5939f80b27",
+        "out": "b24c84590ea2d33c"
+      },
+      "heroSlides.2.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "b24c84590ea2d33c"
+      },
+      "heroSlides.2.text": {
+        "src": "787d7e39b6815119",
+        "out": "ebdda95a1ee9f342"
+      },
+      "heroSlides.2.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "9f003990413164a7"
+      },
+      "heroSlides.2.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "e747fe1c3761eba9"
+      },
+      "heroSlides.3.tab": {
+        "src": "c13c5da0164f24e6",
+        "out": "eefdd990cfecd78f"
+      },
+      "heroSlides.3.title": {
+        "src": "c13c5da0164f24e6",
+        "out": "eefdd990cfecd78f"
+      },
+      "heroSlides.3.text": {
+        "src": "af841a112387d58b",
+        "out": "e2341ee31f486281"
+      },
+      "heroSlides.3.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "9f003990413164a7"
+      },
+      "heroSlides.3.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "e747fe1c3761eba9"
+      },
+      "idea.title": {
+        "src": "1b40dff9e9feb5e4",
+        "out": "2c78da828046ea15"
+      },
+      "idea.text": {
+        "src": "2443db01fe22af83",
+        "out": "e0d8da561d56e41e"
+      },
+      "acHome.title": {
+        "src": "10b9f2bb4cf98fa4",
+        "out": "4bba73c8cd378a32"
+      },
+      "acHome.switchLabel": {
+        "src": "1e223ce932c758bb",
+        "out": "6bab441b6fdb4dcd"
+      },
+      "acHome.products.0.subtitle": {
+        "src": "f4b8271b4264bd2a",
+        "out": "e00436e7be88d689"
+      },
+      "acHome.products.0.text": {
+        "src": "58919ceca5915ebb",
+        "out": "9cd229fe249a5786"
+      },
+      "acHome.products.0.price": {
+        "src": "d36315b39fe8a6dc",
+        "out": "b7f6d7c63f3ed705"
+      },
+      "acHome.products.0.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f78198708939cc"
+      },
+      "acHome.products.1.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f78198708939cc"
+      },
+      "acHome.products.2.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f78198708939cc"
+      },
+      "acHome.products.3.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f78198708939cc"
+      },
+      "acHome.products.4.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f78198708939cc"
+      },
+      "acHome.products.5.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f78198708939cc"
+      },
+      "acHome.configurator.question": {
+        "src": "60c7ca8cd4cb0bb7",
+        "out": "f8ffd419c5e01a37"
+      },
+      "acHome.configurator.cta": {
+        "src": "36fa98dd8e5cb328",
+        "out": "4e22d7b008f8396d"
+      },
+      "acBusiness.title": {
+        "src": "1e223ce932c758bb",
+        "out": "6bab441b6fdb4dcd"
+      },
+      "acBusiness.switchLabel": {
+        "src": "10b9f2bb4cf98fa4",
+        "out": "4bba73c8cd378a32"
+      },
+      "acBusiness.products.0.subtitle": {
+        "src": "f4b8271b4264bd2a",
+        "out": "e00436e7be88d689"
+      },
+      "acBusiness.products.0.text": {
+        "src": "58919ceca5915ebb",
+        "out": "9cd229fe249a5786"
+      },
+      "acBusiness.products.0.price": {
+        "src": "d36315b39fe8a6dc",
+        "out": "b7f6d7c63f3ed705"
+      },
+      "acBusiness.products.0.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f78198708939cc"
+      },
+      "acBusiness.products.1.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f78198708939cc"
+      },
+      "acBusiness.products.2.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f78198708939cc"
+      },
+      "acBusiness.products.3.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f78198708939cc"
+      },
+      "acBusiness.products.4.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f78198708939cc"
+      },
+      "acBusiness.products.5.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f78198708939cc"
+      },
+      "acBusiness.configurator.question": {
+        "src": "60c7ca8cd4cb0bb7",
+        "out": "f8ffd419c5e01a37"
+      },
+      "acBusiness.configurator.cta": {
+        "src": "36fa98dd8e5cb328",
+        "out": "4e22d7b008f8396d"
+      },
+      "wentilo.title": {
+        "src": "c6ab3a47e01e463a",
+        "out": "78b704643beef3ae"
+      },
+      "wentilo.productName": {
+        "src": "23e8d94a60713cf3",
+        "out": "23e8d94a60713cf3"
+      },
+      "wentilo.text": {
+        "src": "3c81e79a138dcba6",
+        "out": "aa130de0fe9b14b7"
+      },
+      "wentilo.cta.label": {
+        "src": "52c0086d85833a57",
+        "out": "2b0b372b47d733ef"
+      },
+      "wentilo.configurator.question": {
+        "src": "1d39b1eb949b4cab",
+        "out": "3cb58fa876242179"
+      },
+      "wentilo.configurator.cta": {
+        "src": "2120ecec91f0313e",
+        "out": "b73ccde8154ab81a"
+      },
+      "heatPumps.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "b24c84590ea2d33c"
+      },
+      "heatPumps.text": {
+        "src": "ea53f342af0a279a",
+        "out": "4964d124a9f08dd5"
+      },
+      "heatPumps.configurator.question": {
+        "src": "fae33783ba82fdd8",
+        "out": "ec1f80ec30d0a37a"
+      },
+      "heatPumps.configurator.cta": {
+        "src": "2120ecec91f0313e",
+        "out": "b73ccde8154ab81a"
+      },
+      "heatPumps.tiles.0.title": {
+        "src": "87dac10a65d33cdf",
+        "out": "8186e74ed58940c9"
+      },
+      "heatPumps.tiles.0.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "9f003990413164a7"
+      },
+      "heatPumps.tiles.1.title": {
+        "src": "64a14d5c81e9cf30",
+        "out": "64562a8cf71bb5ea"
+      },
+      "heatPumps.tiles.1.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "9f003990413164a7"
+      },
+      "heatPumps.tiles.2.title": {
+        "src": "b84b710698f7034e",
+        "out": "51d88727f7ef1e64"
+      },
+      "heatPumps.tiles.2.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "9f003990413164a7"
+      },
+      "heatPumps.tiles.3.title": {
+        "src": "e12020d3b540a8d9",
+        "out": "53d6bcc429997920"
+      },
+      "heatPumps.tiles.3.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "9f003990413164a7"
+      },
+      "heatPumps.tiles.4.title": {
+        "src": "69c856dbefc6724d",
+        "out": "02d88ccefd7b85be"
+      },
+      "heatPumps.tiles.4.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "9f003990413164a7"
+      },
+      "rvf.title": {
+        "src": "d34c2a9e1a59598c",
+        "out": "46f92ce01fe22136"
+      },
+      "rvf.text": {
+        "src": "fb47af351048d267",
+        "out": "156d740e94401565"
+      },
+      "rvf.cta.label": {
+        "src": "da8938f3670b44e1",
+        "out": "a6a80aede98cbd87"
+      },
+      "guides.title": {
+        "src": "2b39dddb1f35dccf",
+        "out": "c2612e9385335d2e"
+      },
+      "guides.text": {
+        "src": "be86a009d254b755",
+        "out": "05571f65e0610a5b"
+      },
+      "guides.readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "f2ab41ad9d2b56dd"
+      },
+      "guides.more.label": {
+        "src": "7efd400827c6051c",
+        "out": "3e5875e9748c2346"
+      },
+      "guides.items.0.category": {
+        "src": "ca02cc5939f80b27",
+        "out": "b24c84590ea2d33c"
+      },
+      "guides.items.0.title": {
+        "src": "a740707546f81864",
+        "out": "29adfd76e852108f"
+      },
+      "guides.items.1.category": {
+        "src": "ca02cc5939f80b27",
+        "out": "b24c84590ea2d33c"
+      },
+      "guides.items.1.title": {
+        "src": "3ca780a552754375",
+        "out": "6829be7e75e815c0"
+      },
+      "guides.items.2.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "450960701f99f48b"
+      },
+      "guides.items.2.title": {
+        "src": "107461e91ad21728",
+        "out": "9fd1bdc7d3a46975"
+      },
+      "guides.items.3.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "450960701f99f48b"
+      },
+      "guides.items.3.title": {
+        "src": "bf3b50cccde57bad",
+        "out": "a7067287092f7821"
+      },
+      "guides.items.4.category": {
+        "src": "1c2fa060e4d67414",
+        "out": "4c9f9d5bf7b5a5fd"
+      },
+      "guides.items.4.title": {
+        "src": "314ab8f1a9257fa0",
+        "out": "183eb9cfd290ed3f"
+      },
+      "guides.items.5.category": {
+        "src": "8012440906264dab",
+        "out": "8b8c67ba55927a14"
+      },
+      "guides.items.5.title": {
+        "src": "174e25d18dee4a78",
+        "out": "837704f86f7764c5"
+      },
+      "guides.items.6.category": {
+        "src": "8012440906264dab",
+        "out": "8b8c67ba55927a14"
+      },
+      "guides.items.6.title": {
+        "src": "4c6c3779b0307eb6",
+        "out": "c44824855db60155"
+      },
+      "guides.items.7.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "450960701f99f48b"
+      },
+      "guides.items.7.title": {
+        "src": "603d38d973564ff6",
+        "out": "032445a04b3f415b"
+      },
+      "guides.items.8.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "450960701f99f48b"
+      },
+      "guides.items.8.title": {
+        "src": "87a68686bef1158b",
+        "out": "bfee4b60eeab384b"
+      },
+      "guides.items.9.category": {
+        "src": "adc6b801f7ddffec",
+        "out": "adc6b801f7ddffec"
+      },
+      "guides.items.9.title": {
+        "src": "6aae1995c4b60df9",
+        "out": "e99a15f1fef42e45"
+      },
+      "installer.title": {
+        "src": "4dfc6f164ce719ce",
+        "out": "f5dee09cc717c6e7"
+      },
+      "installer.text": {
+        "src": "d5b61de4ad0fe946",
+        "out": "833be85c6f1c0913"
+      },
+      "installer.placeholder": {
+        "src": "7993962690159812",
+        "out": "0753947c059d8cb7"
+      },
+      "social.title": {
+        "src": "2380ed6350372952",
+        "out": "36b0ce20d7e8e7af"
+      },
+      "seo.title": {
+        "src": "a155cf0026c61f18",
+        "out": "a155cf0026c61f18"
+      },
+      "seo.subtitle": {
+        "src": "21de042bd1b67a5d",
+        "out": "0047dca45cc967a2"
+      },
+      "seo.text": {
+        "src": "3f8b0ef6afad3484",
+        "out": "c5fbb352bf1014ed"
+      }
+    },
+    "settings": {
+      "nav.0.label": {
+        "src": "7ac9c1c8a204ae8e",
+        "out": "60c1b8f5d39c8316"
+      },
+      "nav.1.label": {
+        "src": "e8c2a6bc6ed827aa",
+        "out": "3c8c7b740f1fb79b"
+      },
+      "nav.2.label": {
+        "src": "f2bcecdc5656b1b6",
+        "out": "bc5d40ccbbc6239b"
+      },
+      "nav.3.label": {
+        "src": "f13513baaf60aca3",
+        "out": "2732a276f010665e"
+      },
+      "nav.4.label": {
+        "src": "a92b9bcb16656979",
+        "out": "a92b9bcb16656979"
+      },
+      "searchPlaceholder": {
+        "src": "a0bb8db487beab73",
+        "out": "20a96919554a37d9"
+      },
+      "configurator.label": {
+        "src": "43a37cf68b2e006f",
+        "out": "43a37cf68b2e006f"
+      },
+      "installer.label": {
+        "src": "9f7321ec9ced3043",
+        "out": "c7c3c6426b5937f4"
+      },
+      "footerColumns.0.heading.label": {
+        "src": "5d6e0719ce3778b1",
+        "out": "450960701f99f48b"
+      },
+      "footerColumns.0.links.0.label": {
+        "src": "0e865c3da07a23d1",
+        "out": "2853e4334ec22a64"
+      },
+      "footerColumns.0.links.1.label": {
+        "src": "0ac58214899b8707",
+        "out": "f2ba10b6902d860b"
+      },
+      "footerColumns.0.links.2.label": {
+        "src": "1865e16b0be1b9c1",
+        "out": "9db2b29fa59a9bc7"
+      },
+      "footerColumns.0.links.3.label": {
+        "src": "e080d463dabae74f",
+        "out": "a95ce59abc6973f1"
+      },
+      "footerColumns.0.links.4.label": {
+        "src": "e4494cb87a74b2c9",
+        "out": "bce300d0f256343d"
+      },
+      "footerColumns.0.links.5.label": {
+        "src": "0f95f1c110d464b0",
+        "out": "b2e0e455d48e9975"
+      },
+      "footerColumns.1.heading.label": {
+        "src": "8012440906264dab",
+        "out": "8b8c67ba55927a14"
+      },
+      "footerColumns.2.heading.label": {
+        "src": "ca02cc5939f80b27",
+        "out": "b24c84590ea2d33c"
+      },
+      "footerColumns.2.links.0.label": {
+        "src": "eb9f9b9d4763dfd7",
+        "out": "eb9f9b9d4763dfd7"
+      },
+      "footerColumns.2.links.1.label": {
+        "src": "03b5e4178844819a",
+        "out": "03b5e4178844819a"
+      },
+      "footerColumns.2.links.2.label": {
+        "src": "dd0eeace1af516a1",
+        "out": "dd0eeace1af516a1"
+      },
+      "footerColumns.2.links.3.label": {
+        "src": "7f925774690220b0",
+        "out": "9f8e6d6309c2d7ae"
+      },
+      "footerColumns.3.heading.label": {
+        "src": "c13c5da0164f24e6",
+        "out": "eefdd990cfecd78f"
+      },
+      "footerColumns.3.links.0.label": {
+        "src": "7de9a3c025aae0be",
+        "out": "2cf82376e1b26d78"
+      },
+      "footerColumns.3.links.1.label": {
+        "src": "e27fef641bb56fb0",
+        "out": "0c1a1d8c7ab1253e"
+      },
+      "footerColumns.3.links.2.label": {
+        "src": "541afb51a6c99f1c",
+        "out": "fe669a8ceabd5b91"
+      },
+      "footerColumns.4.heading.label": {
+        "src": "f04d331c87d3d363",
+        "out": "bc3bc55d77a72222"
+      },
+      "footerColumns.4.links.0.label": {
+        "src": "e8c2a6bc6ed827aa",
+        "out": "3c8c7b740f1fb79b"
+      },
+      "footerColumns.4.links.1.label": {
+        "src": "f2bcecdc5656b1b6",
+        "out": "bc5d40ccbbc6239b"
+      },
+      "footerColumns.4.links.2.label": {
+        "src": "f13513baaf60aca3",
+        "out": "2732a276f010665e"
+      },
+      "footerColumns.4.links.3.label": {
+        "src": "2a2ba6ff833066d2",
+        "out": "606838b24795b1ef"
+      },
+      "footerColumns.4.links.4.label": {
+        "src": "cffb9d7ad6e2a318",
+        "out": "5850dc9aef33c808"
+      },
+      "aiChat.label": {
+        "src": "1f733d5360fefe44",
+        "out": "98683eee3d2cfcb8"
+      },
+      "contactHeading": {
+        "src": "a92b9bcb16656979",
+        "out": "a92b9bcb16656979"
+      },
+      "contactForm.label": {
+        "src": "2ef5cbd5491ab142",
+        "out": "499c497198dea71d"
+      },
+      "navigate.label": {
+        "src": "961b0b3be7bc0ff2",
+        "out": "4999528efe0f94f8"
+      },
+      "copyright": {
+        "src": "a15360fd5c68f45c",
+        "out": "7f4fc000432f2488"
+      }
+    }
+  },
+  "fr": {
+    "home": {
+      "seoTitle": {
+        "src": "5f06e1706ad4f720",
+        "out": "0f239df3380b1533"
+      },
+      "seoDescription": {
+        "src": "c047a732a548e3a9",
+        "out": "2c1dbc49cc21017e"
+      },
+      "heroSlides.0.tab": {
+        "src": "5d6e0719ce3778b1",
+        "out": "a67d932e57c47378"
+      },
+      "heroSlides.0.title": {
+        "src": "5d6e0719ce3778b1",
+        "out": "a67d932e57c47378"
+      },
+      "heroSlides.0.text": {
+        "src": "053e8d224173a80a",
+        "out": "118c700e25db63ea"
+      },
+      "heroSlides.0.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "96bce8cd88fd66f6"
+      },
+      "heroSlides.0.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "6d63fd43d7ee18a7"
+      },
+      "heroSlides.1.tab": {
+        "src": "8012440906264dab",
+        "out": "74fcc090ccbb609c"
+      },
+      "heroSlides.1.title": {
+        "src": "8012440906264dab",
+        "out": "74fcc090ccbb609c"
+      },
+      "heroSlides.1.text": {
+        "src": "de4fa32574a8eb97",
+        "out": "d789b6853cffce40"
+      },
+      "heroSlides.1.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "96bce8cd88fd66f6"
+      },
+      "heroSlides.1.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "6d63fd43d7ee18a7"
+      },
+      "heroSlides.2.tab": {
+        "src": "ca02cc5939f80b27",
+        "out": "39986831df978bfe"
+      },
+      "heroSlides.2.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "39986831df978bfe"
+      },
+      "heroSlides.2.text": {
+        "src": "787d7e39b6815119",
+        "out": "46c9775b478b65da"
+      },
+      "heroSlides.2.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "96bce8cd88fd66f6"
+      },
+      "heroSlides.2.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "6d63fd43d7ee18a7"
+      },
+      "heroSlides.3.tab": {
+        "src": "c13c5da0164f24e6",
+        "out": "54518d40b865b0b6"
+      },
+      "heroSlides.3.title": {
+        "src": "c13c5da0164f24e6",
+        "out": "54518d40b865b0b6"
+      },
+      "heroSlides.3.text": {
+        "src": "af841a112387d58b",
+        "out": "d9594c5933a3ca0a"
+      },
+      "heroSlides.3.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "96bce8cd88fd66f6"
+      },
+      "heroSlides.3.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "6d63fd43d7ee18a7"
+      },
+      "idea.title": {
+        "src": "1b40dff9e9feb5e4",
+        "out": "5b9bc96a683035de"
+      },
+      "idea.text": {
+        "src": "2443db01fe22af83",
+        "out": "b91e943e45b19882"
+      },
+      "acHome.title": {
+        "src": "10b9f2bb4cf98fa4",
+        "out": "cbdd06f53f9379c5"
+      },
+      "acHome.switchLabel": {
+        "src": "1e223ce932c758bb",
+        "out": "b25a922f1dcb13ee"
+      },
+      "acHome.products.0.subtitle": {
+        "src": "f4b8271b4264bd2a",
+        "out": "890130af2cf67ddb"
+      },
+      "acHome.products.0.text": {
+        "src": "58919ceca5915ebb",
+        "out": "baca1f6833adc9d4"
+      },
+      "acHome.products.0.price": {
+        "src": "d36315b39fe8a6dc",
+        "out": "6c8fb06846064bc5"
+      },
+      "acHome.products.0.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "d3ab4b19db8874f9"
+      },
+      "acHome.products.1.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "d3ab4b19db8874f9"
+      },
+      "acHome.products.2.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "d3ab4b19db8874f9"
+      },
+      "acHome.products.3.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "d3ab4b19db8874f9"
+      },
+      "acHome.products.4.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "d3ab4b19db8874f9"
+      },
+      "acHome.products.5.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "d3ab4b19db8874f9"
+      },
+      "acHome.configurator.question": {
+        "src": "60c7ca8cd4cb0bb7",
+        "out": "af8e0819d1ed17cd"
+      },
+      "acHome.configurator.cta": {
+        "src": "36fa98dd8e5cb328",
+        "out": "8206552fb267a5d8"
+      },
+      "acBusiness.title": {
+        "src": "1e223ce932c758bb",
+        "out": "b25a922f1dcb13ee"
+      },
+      "acBusiness.switchLabel": {
+        "src": "10b9f2bb4cf98fa4",
+        "out": "cbdd06f53f9379c5"
+      },
+      "acBusiness.products.0.subtitle": {
+        "src": "f4b8271b4264bd2a",
+        "out": "890130af2cf67ddb"
+      },
+      "acBusiness.products.0.text": {
+        "src": "58919ceca5915ebb",
+        "out": "baca1f6833adc9d4"
+      },
+      "acBusiness.products.0.price": {
+        "src": "d36315b39fe8a6dc",
+        "out": "6c8fb06846064bc5"
+      },
+      "acBusiness.products.0.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "d3ab4b19db8874f9"
+      },
+      "acBusiness.products.1.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "d3ab4b19db8874f9"
+      },
+      "acBusiness.products.2.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "d3ab4b19db8874f9"
+      },
+      "acBusiness.products.3.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "d3ab4b19db8874f9"
+      },
+      "acBusiness.products.4.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "d3ab4b19db8874f9"
+      },
+      "acBusiness.products.5.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "d3ab4b19db8874f9"
+      },
+      "acBusiness.configurator.question": {
+        "src": "60c7ca8cd4cb0bb7",
+        "out": "af8e0819d1ed17cd"
+      },
+      "acBusiness.configurator.cta": {
+        "src": "36fa98dd8e5cb328",
+        "out": "8206552fb267a5d8"
+      },
+      "wentilo.title": {
+        "src": "c6ab3a47e01e463a",
+        "out": "47550d78dfc2fe48"
+      },
+      "wentilo.productName": {
+        "src": "23e8d94a60713cf3",
+        "out": "23e8d94a60713cf3"
+      },
+      "wentilo.text": {
+        "src": "3c81e79a138dcba6",
+        "out": "6994f960d06955d6"
+      },
+      "wentilo.cta.label": {
+        "src": "52c0086d85833a57",
+        "out": "2498c01f72638d8e"
+      },
+      "wentilo.configurator.question": {
+        "src": "1d39b1eb949b4cab",
+        "out": "27206f9bac7c29bd"
+      },
+      "wentilo.configurator.cta": {
+        "src": "2120ecec91f0313e",
+        "out": "9afe9889324de174"
+      },
+      "heatPumps.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "39986831df978bfe"
+      },
+      "heatPumps.text": {
+        "src": "ea53f342af0a279a",
+        "out": "af9c5189b5a74b52"
+      },
+      "heatPumps.configurator.question": {
+        "src": "fae33783ba82fdd8",
+        "out": "7ab068993f5691af"
+      },
+      "heatPumps.configurator.cta": {
+        "src": "2120ecec91f0313e",
+        "out": "9afe9889324de174"
+      },
+      "heatPumps.tiles.0.title": {
+        "src": "87dac10a65d33cdf",
+        "out": "3e9761f63edf77cd"
+      },
+      "heatPumps.tiles.0.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "96bce8cd88fd66f6"
+      },
+      "heatPumps.tiles.1.title": {
+        "src": "64a14d5c81e9cf30",
+        "out": "362726f4df90dd72"
+      },
+      "heatPumps.tiles.1.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "96bce8cd88fd66f6"
+      },
+      "heatPumps.tiles.2.title": {
+        "src": "b84b710698f7034e",
+        "out": "dec54630932ef32b"
+      },
+      "heatPumps.tiles.2.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "96bce8cd88fd66f6"
+      },
+      "heatPumps.tiles.3.title": {
+        "src": "e12020d3b540a8d9",
+        "out": "5e404233a7bef208"
+      },
+      "heatPumps.tiles.3.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "96bce8cd88fd66f6"
+      },
+      "heatPumps.tiles.4.title": {
+        "src": "69c856dbefc6724d",
+        "out": "00c0c5828d92ad32"
+      },
+      "heatPumps.tiles.4.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "96bce8cd88fd66f6"
+      },
+      "rvf.title": {
+        "src": "d34c2a9e1a59598c",
+        "out": "e3a6f35cad3ce7eb"
+      },
+      "rvf.text": {
+        "src": "fb47af351048d267",
+        "out": "b6f001e47c19a486"
+      },
+      "rvf.cta.label": {
+        "src": "da8938f3670b44e1",
+        "out": "6b59e1974915f354"
+      },
+      "guides.title": {
+        "src": "2b39dddb1f35dccf",
+        "out": "4326639343f182dd"
+      },
+      "guides.text": {
+        "src": "be86a009d254b755",
+        "out": "9fe92f8755b0c87b"
+      },
+      "guides.readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "8af9af72ae045bf1"
+      },
+      "guides.more.label": {
+        "src": "7efd400827c6051c",
+        "out": "020618ed6ef23ac7"
+      },
+      "guides.items.0.category": {
+        "src": "ca02cc5939f80b27",
+        "out": "39986831df978bfe"
+      },
+      "guides.items.0.title": {
+        "src": "a740707546f81864",
+        "out": "fe319797aaed7f32"
+      },
+      "guides.items.1.category": {
+        "src": "ca02cc5939f80b27",
+        "out": "39986831df978bfe"
+      },
+      "guides.items.1.title": {
+        "src": "3ca780a552754375",
+        "out": "8e2585df00de1f58"
+      },
+      "guides.items.2.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "a67d932e57c47378"
+      },
+      "guides.items.2.title": {
+        "src": "107461e91ad21728",
+        "out": "a5e198734b5f2125"
+      },
+      "guides.items.3.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "a67d932e57c47378"
+      },
+      "guides.items.3.title": {
+        "src": "bf3b50cccde57bad",
+        "out": "6b0b341ce62b3a90"
+      },
+      "guides.items.4.category": {
+        "src": "1c2fa060e4d67414",
+        "out": "4dbc3e25a0ece55c"
+      },
+      "guides.items.4.title": {
+        "src": "314ab8f1a9257fa0",
+        "out": "c88f384371bdd45c"
+      },
+      "guides.items.5.category": {
+        "src": "8012440906264dab",
+        "out": "74fcc090ccbb609c"
+      },
+      "guides.items.5.title": {
+        "src": "174e25d18dee4a78",
+        "out": "83b2058812861db0"
+      },
+      "guides.items.6.category": {
+        "src": "8012440906264dab",
+        "out": "74fcc090ccbb609c"
+      },
+      "guides.items.6.title": {
+        "src": "4c6c3779b0307eb6",
+        "out": "29e5e18bb55d36e2"
+      },
+      "guides.items.7.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "a67d932e57c47378"
+      },
+      "guides.items.7.title": {
+        "src": "603d38d973564ff6",
+        "out": "21dc5eb6b4cd6fc5"
+      },
+      "guides.items.8.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "a67d932e57c47378"
+      },
+      "guides.items.8.title": {
+        "src": "87a68686bef1158b",
+        "out": "236e9a8bf0be002a"
+      },
+      "guides.items.9.category": {
+        "src": "adc6b801f7ddffec",
+        "out": "adc6b801f7ddffec"
+      },
+      "guides.items.9.title": {
+        "src": "6aae1995c4b60df9",
+        "out": "10daca3b0e745391"
+      },
+      "installer.title": {
+        "src": "4dfc6f164ce719ce",
+        "out": "356f1a09aca60736"
+      },
+      "installer.text": {
+        "src": "d5b61de4ad0fe946",
+        "out": "1b5ef9033891a5c6"
+      },
+      "installer.placeholder": {
+        "src": "7993962690159812",
+        "out": "0f225b176aae6231"
+      },
+      "social.title": {
+        "src": "2380ed6350372952",
+        "out": "9de13fb7ed3c6fb5"
+      },
+      "seo.title": {
+        "src": "a155cf0026c61f18",
+        "out": "a155cf0026c61f18"
+      },
+      "seo.subtitle": {
+        "src": "21de042bd1b67a5d",
+        "out": "1569505d19e652c1"
+      },
+      "seo.text": {
+        "src": "3f8b0ef6afad3484",
+        "out": "d00bd9fdc47c431a"
+      }
+    },
+    "settings": {
+      "nav.0.label": {
+        "src": "7ac9c1c8a204ae8e",
+        "out": "48000473cdad7786"
+      },
+      "nav.1.label": {
+        "src": "e8c2a6bc6ed827aa",
+        "out": "5345add5aa49ce20"
+      },
+      "nav.2.label": {
+        "src": "f2bcecdc5656b1b6",
+        "out": "85436a79041655df"
+      },
+      "nav.3.label": {
+        "src": "f13513baaf60aca3",
+        "out": "3fb594239a2011a9"
+      },
+      "nav.4.label": {
+        "src": "a92b9bcb16656979",
+        "out": "b37456c4530be810"
+      },
+      "searchPlaceholder": {
+        "src": "a0bb8db487beab73",
+        "out": "91f7d3e9dc3d2d5d"
+      },
+      "configurator.label": {
+        "src": "43a37cf68b2e006f",
+        "out": "be19b5f83d01dbf7"
+      },
+      "installer.label": {
+        "src": "9f7321ec9ced3043",
+        "out": "10fbabbc7e543f62"
+      },
+      "footerColumns.0.heading.label": {
+        "src": "5d6e0719ce3778b1",
+        "out": "a67d932e57c47378"
+      },
+      "footerColumns.0.links.0.label": {
+        "src": "0e865c3da07a23d1",
+        "out": "5f2a32cd5065a85e"
+      },
+      "footerColumns.0.links.1.label": {
+        "src": "0ac58214899b8707",
+        "out": "3af3de9b798e7095"
+      },
+      "footerColumns.0.links.2.label": {
+        "src": "1865e16b0be1b9c1",
+        "out": "9b74514391224746"
+      },
+      "footerColumns.0.links.3.label": {
+        "src": "e080d463dabae74f",
+        "out": "9a53a4c1e686732b"
+      },
+      "footerColumns.0.links.4.label": {
+        "src": "e4494cb87a74b2c9",
+        "out": "275a6efd10c29e5b"
+      },
+      "footerColumns.0.links.5.label": {
+        "src": "0f95f1c110d464b0",
+        "out": "0fa7c838ab732658"
+      },
+      "footerColumns.1.heading.label": {
+        "src": "8012440906264dab",
+        "out": "74fcc090ccbb609c"
+      },
+      "footerColumns.2.heading.label": {
+        "src": "ca02cc5939f80b27",
+        "out": "39986831df978bfe"
+      },
+      "footerColumns.2.links.0.label": {
+        "src": "eb9f9b9d4763dfd7",
+        "out": "d13e8f711b1f1fba"
+      },
+      "footerColumns.2.links.1.label": {
+        "src": "03b5e4178844819a",
+        "out": "2de7382987c793cb"
+      },
+      "footerColumns.2.links.2.label": {
+        "src": "dd0eeace1af516a1",
+        "out": "b3c5d92dfbb723d5"
+      },
+      "footerColumns.2.links.3.label": {
+        "src": "7f925774690220b0",
+        "out": "3e064dc0dabebedd"
+      },
+      "footerColumns.3.heading.label": {
+        "src": "c13c5da0164f24e6",
+        "out": "54518d40b865b0b6"
+      },
+      "footerColumns.3.links.0.label": {
+        "src": "7de9a3c025aae0be",
+        "out": "4f31ae1e0b785d7b"
+      },
+      "footerColumns.3.links.1.label": {
+        "src": "e27fef641bb56fb0",
+        "out": "34f8920ed265a981"
+      },
+      "footerColumns.3.links.2.label": {
+        "src": "541afb51a6c99f1c",
+        "out": "e1ef4e2d13576aa5"
+      },
+      "footerColumns.4.heading.label": {
+        "src": "f04d331c87d3d363",
+        "out": "54937b3a4f8cfa45"
+      },
+      "footerColumns.4.links.0.label": {
+        "src": "e8c2a6bc6ed827aa",
+        "out": "5345add5aa49ce20"
+      },
+      "footerColumns.4.links.1.label": {
+        "src": "f2bcecdc5656b1b6",
+        "out": "85436a79041655df"
+      },
+      "footerColumns.4.links.2.label": {
+        "src": "f13513baaf60aca3",
+        "out": "3fb594239a2011a9"
+      },
+      "footerColumns.4.links.3.label": {
+        "src": "2a2ba6ff833066d2",
+        "out": "d8a44e694e67677a"
+      },
+      "footerColumns.4.links.4.label": {
+        "src": "cffb9d7ad6e2a318",
+        "out": "ac131de245f83b73"
+      },
+      "aiChat.label": {
+        "src": "1f733d5360fefe44",
+        "out": "9c232de0baa49c9e"
+      },
+      "contactHeading": {
+        "src": "a92b9bcb16656979",
+        "out": "b37456c4530be810"
+      },
+      "contactForm.label": {
+        "src": "2ef5cbd5491ab142",
+        "out": "e9e14d1de400b0f0"
+      },
+      "navigate.label": {
+        "src": "961b0b3be7bc0ff2",
+        "out": "51490e828101ef9e"
+      },
+      "copyright": {
+        "src": "a15360fd5c68f45c",
+        "out": "8b5b3b71498c359c"
+      }
+    }
+  },
+  "cs": {
+    "home": {
+      "seoTitle": {
+        "src": "5f06e1706ad4f720",
+        "out": "7b3d125f50de7b16"
+      },
+      "seoDescription": {
+        "src": "c047a732a548e3a9",
+        "out": "acc6559f0c7b03b8"
+      },
+      "heroSlides.0.tab": {
+        "src": "5d6e0719ce3778b1",
+        "out": "0f4333c17e013e90"
+      },
+      "heroSlides.0.title": {
+        "src": "5d6e0719ce3778b1",
+        "out": "0f4333c17e013e90"
+      },
+      "heroSlides.0.text": {
+        "src": "053e8d224173a80a",
+        "out": "e36177190ec5a688"
+      },
+      "heroSlides.0.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "115e39841e21fbd2"
+      },
+      "heroSlides.0.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "b36fca5a15db0a50"
+      },
+      "heroSlides.1.tab": {
+        "src": "8012440906264dab",
+        "out": "17026327ed52307a"
+      },
+      "heroSlides.1.title": {
+        "src": "8012440906264dab",
+        "out": "17026327ed52307a"
+      },
+      "heroSlides.1.text": {
+        "src": "de4fa32574a8eb97",
+        "out": "4af41c2e739b31ec"
+      },
+      "heroSlides.1.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "115e39841e21fbd2"
+      },
+      "heroSlides.1.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "b36fca5a15db0a50"
+      },
+      "heroSlides.2.tab": {
+        "src": "ca02cc5939f80b27",
+        "out": "59194b067fab5829"
+      },
+      "heroSlides.2.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "59194b067fab5829"
+      },
+      "heroSlides.2.text": {
+        "src": "787d7e39b6815119",
+        "out": "f1e3375c7f67184a"
+      },
+      "heroSlides.2.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "115e39841e21fbd2"
+      },
+      "heroSlides.2.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "b36fca5a15db0a50"
+      },
+      "heroSlides.3.tab": {
+        "src": "c13c5da0164f24e6",
+        "out": "2c693eb3770fe4b7"
+      },
+      "heroSlides.3.title": {
+        "src": "c13c5da0164f24e6",
+        "out": "2c693eb3770fe4b7"
+      },
+      "heroSlides.3.text": {
+        "src": "af841a112387d58b",
+        "out": "274912ce51f70f26"
+      },
+      "heroSlides.3.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "115e39841e21fbd2"
+      },
+      "heroSlides.3.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "b36fca5a15db0a50"
+      },
+      "idea.title": {
+        "src": "1b40dff9e9feb5e4",
+        "out": "0336405b02769a97"
+      },
+      "idea.text": {
+        "src": "2443db01fe22af83",
+        "out": "4bc49564d7afe373"
+      },
+      "acHome.title": {
+        "src": "10b9f2bb4cf98fa4",
+        "out": "15526ba0b4396553"
+      },
+      "acHome.switchLabel": {
+        "src": "1e223ce932c758bb",
+        "out": "e77d46fdbe06a031"
+      },
+      "acHome.products.0.subtitle": {
+        "src": "f4b8271b4264bd2a",
+        "out": "208baff9e95e0062"
+      },
+      "acHome.products.0.text": {
+        "src": "58919ceca5915ebb",
+        "out": "e3d3d4cb79043263"
+      },
+      "acHome.products.0.price": {
+        "src": "d36315b39fe8a6dc",
+        "out": "354b046ccd1a85e7"
+      },
+      "acHome.products.0.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f94092a444c028"
+      },
+      "acHome.products.1.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f94092a444c028"
+      },
+      "acHome.products.2.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f94092a444c028"
+      },
+      "acHome.products.3.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f94092a444c028"
+      },
+      "acHome.products.4.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f94092a444c028"
+      },
+      "acHome.products.5.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f94092a444c028"
+      },
+      "acHome.configurator.question": {
+        "src": "60c7ca8cd4cb0bb7",
+        "out": "6f54bc2e0f37c211"
+      },
+      "acHome.configurator.cta": {
+        "src": "36fa98dd8e5cb328",
+        "out": "57381345525a8fcb"
+      },
+      "acBusiness.title": {
+        "src": "1e223ce932c758bb",
+        "out": "e77d46fdbe06a031"
+      },
+      "acBusiness.switchLabel": {
+        "src": "10b9f2bb4cf98fa4",
+        "out": "15526ba0b4396553"
+      },
+      "acBusiness.products.0.subtitle": {
+        "src": "f4b8271b4264bd2a",
+        "out": "208baff9e95e0062"
+      },
+      "acBusiness.products.0.text": {
+        "src": "58919ceca5915ebb",
+        "out": "e3d3d4cb79043263"
+      },
+      "acBusiness.products.0.price": {
+        "src": "d36315b39fe8a6dc",
+        "out": "354b046ccd1a85e7"
+      },
+      "acBusiness.products.0.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f94092a444c028"
+      },
+      "acBusiness.products.1.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f94092a444c028"
+      },
+      "acBusiness.products.2.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f94092a444c028"
+      },
+      "acBusiness.products.3.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f94092a444c028"
+      },
+      "acBusiness.products.4.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f94092a444c028"
+      },
+      "acBusiness.products.5.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "28f94092a444c028"
+      },
+      "acBusiness.configurator.question": {
+        "src": "60c7ca8cd4cb0bb7",
+        "out": "6f54bc2e0f37c211"
+      },
+      "acBusiness.configurator.cta": {
+        "src": "36fa98dd8e5cb328",
+        "out": "57381345525a8fcb"
+      },
+      "wentilo.title": {
+        "src": "c6ab3a47e01e463a",
+        "out": "01f40a5e8b5fd1b7"
+      },
+      "wentilo.productName": {
+        "src": "23e8d94a60713cf3",
+        "out": "23e8d94a60713cf3"
+      },
+      "wentilo.text": {
+        "src": "3c81e79a138dcba6",
+        "out": "5e50d8a0290ae2cc"
+      },
+      "wentilo.cta.label": {
+        "src": "52c0086d85833a57",
+        "out": "bf4a8a00e549a7ad"
+      },
+      "wentilo.configurator.question": {
+        "src": "1d39b1eb949b4cab",
+        "out": "3d0580430ed1544c"
+      },
+      "wentilo.configurator.cta": {
+        "src": "2120ecec91f0313e",
+        "out": "2557b3f47ef02720"
+      },
+      "heatPumps.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "59194b067fab5829"
+      },
+      "heatPumps.text": {
+        "src": "ea53f342af0a279a",
+        "out": "6db090cec993eff2"
+      },
+      "heatPumps.configurator.question": {
+        "src": "fae33783ba82fdd8",
+        "out": "5542e92b66641753"
+      },
+      "heatPumps.configurator.cta": {
+        "src": "2120ecec91f0313e",
+        "out": "2557b3f47ef02720"
+      },
+      "heatPumps.tiles.0.title": {
+        "src": "87dac10a65d33cdf",
+        "out": "52c788f5442fe826"
+      },
+      "heatPumps.tiles.0.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "115e39841e21fbd2"
+      },
+      "heatPumps.tiles.1.title": {
+        "src": "64a14d5c81e9cf30",
+        "out": "555979498d5909e8"
+      },
+      "heatPumps.tiles.1.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "115e39841e21fbd2"
+      },
+      "heatPumps.tiles.2.title": {
+        "src": "b84b710698f7034e",
+        "out": "3657e8c7b072a312"
+      },
+      "heatPumps.tiles.2.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "115e39841e21fbd2"
+      },
+      "heatPumps.tiles.3.title": {
+        "src": "e12020d3b540a8d9",
+        "out": "babcedca38c11735"
+      },
+      "heatPumps.tiles.3.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "115e39841e21fbd2"
+      },
+      "heatPumps.tiles.4.title": {
+        "src": "69c856dbefc6724d",
+        "out": "e681c1e7273b13cd"
+      },
+      "heatPumps.tiles.4.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "115e39841e21fbd2"
+      },
+      "rvf.title": {
+        "src": "d34c2a9e1a59598c",
+        "out": "c1b6e54defa7b54b"
+      },
+      "rvf.text": {
+        "src": "fb47af351048d267",
+        "out": "c18a445b28ce042d"
+      },
+      "rvf.cta.label": {
+        "src": "da8938f3670b44e1",
+        "out": "f59c1393599a1e4d"
+      },
+      "guides.title": {
+        "src": "2b39dddb1f35dccf",
+        "out": "fd31132a3df3ecb1"
+      },
+      "guides.text": {
+        "src": "be86a009d254b755",
+        "out": "c384e401236417e1"
+      },
+      "guides.readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "00417239997cc0e6"
+      },
+      "guides.more.label": {
+        "src": "7efd400827c6051c",
+        "out": "64ce6b27a528f761"
+      },
+      "guides.items.0.category": {
+        "src": "ca02cc5939f80b27",
+        "out": "59194b067fab5829"
+      },
+      "guides.items.0.title": {
+        "src": "a740707546f81864",
+        "out": "23babc8ec804f605"
+      },
+      "guides.items.1.category": {
+        "src": "ca02cc5939f80b27",
+        "out": "59194b067fab5829"
+      },
+      "guides.items.1.title": {
+        "src": "3ca780a552754375",
+        "out": "f013261eb731b470"
+      },
+      "guides.items.2.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "0f4333c17e013e90"
+      },
+      "guides.items.2.title": {
+        "src": "107461e91ad21728",
+        "out": "3261414fe6099163"
+      },
+      "guides.items.3.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "0f4333c17e013e90"
+      },
+      "guides.items.3.title": {
+        "src": "bf3b50cccde57bad",
+        "out": "5d27d55a20ecc32d"
+      },
+      "guides.items.4.category": {
+        "src": "1c2fa060e4d67414",
+        "out": "057fdb49d1c2d578"
+      },
+      "guides.items.4.title": {
+        "src": "314ab8f1a9257fa0",
+        "out": "21c5d3ea6c67cc97"
+      },
+      "guides.items.5.category": {
+        "src": "8012440906264dab",
+        "out": "17026327ed52307a"
+      },
+      "guides.items.5.title": {
+        "src": "174e25d18dee4a78",
+        "out": "db746f7902c60982"
+      },
+      "guides.items.6.category": {
+        "src": "8012440906264dab",
+        "out": "17026327ed52307a"
+      },
+      "guides.items.6.title": {
+        "src": "4c6c3779b0307eb6",
+        "out": "cf541b84efb40a96"
+      },
+      "guides.items.7.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "0f4333c17e013e90"
+      },
+      "guides.items.7.title": {
+        "src": "603d38d973564ff6",
+        "out": "589f45748913f1a5"
+      },
+      "guides.items.8.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "0f4333c17e013e90"
+      },
+      "guides.items.8.title": {
+        "src": "87a68686bef1158b",
+        "out": "031e06a768f58e5e"
+      },
+      "guides.items.9.category": {
+        "src": "adc6b801f7ddffec",
+        "out": "adc6b801f7ddffec"
+      },
+      "guides.items.9.title": {
+        "src": "6aae1995c4b60df9",
+        "out": "a960a8c92fad77d0"
+      },
+      "installer.title": {
+        "src": "4dfc6f164ce719ce",
+        "out": "a0dfbaede2c0afee"
+      },
+      "installer.text": {
+        "src": "d5b61de4ad0fe946",
+        "out": "3505040856117240"
+      },
+      "installer.placeholder": {
+        "src": "7993962690159812",
+        "out": "8363d9d9ea27ec1d"
+      },
+      "social.title": {
+        "src": "2380ed6350372952",
+        "out": "41f10541a8fdd4ed"
+      },
+      "seo.title": {
+        "src": "a155cf0026c61f18",
+        "out": "a155cf0026c61f18"
+      },
+      "seo.subtitle": {
+        "src": "21de042bd1b67a5d",
+        "out": "3f4d1cd82f8dede4"
+      },
+      "seo.text": {
+        "src": "3f8b0ef6afad3484",
+        "out": "bdafc934d57e7d49"
+      }
+    },
+    "settings": {
+      "nav.0.label": {
+        "src": "7ac9c1c8a204ae8e",
+        "out": "7ac9c1c8a204ae8e"
+      },
+      "nav.1.label": {
+        "src": "e8c2a6bc6ed827aa",
+        "out": "7d1c463ac6ca9797"
+      },
+      "nav.2.label": {
+        "src": "f2bcecdc5656b1b6",
+        "out": "13d5b0a7bfd012f0"
+      },
+      "nav.3.label": {
+        "src": "f13513baaf60aca3",
+        "out": "ea6bd0d2db9e4662"
+      },
+      "nav.4.label": {
+        "src": "a92b9bcb16656979",
+        "out": "a92b9bcb16656979"
+      },
+      "searchPlaceholder": {
+        "src": "a0bb8db487beab73",
+        "out": "d64ed7464855fa50"
+      },
+      "configurator.label": {
+        "src": "43a37cf68b2e006f",
+        "out": "f2365203e1f96fa6"
+      },
+      "installer.label": {
+        "src": "9f7321ec9ced3043",
+        "out": "0110afeda5efffca"
+      },
+      "footerColumns.0.heading.label": {
+        "src": "5d6e0719ce3778b1",
+        "out": "0f4333c17e013e90"
+      },
+      "footerColumns.0.links.0.label": {
+        "src": "0e865c3da07a23d1",
+        "out": "6b20272f473d2c01"
+      },
+      "footerColumns.0.links.1.label": {
+        "src": "0ac58214899b8707",
+        "out": "313ead5bb382a9d6"
+      },
+      "footerColumns.0.links.2.label": {
+        "src": "1865e16b0be1b9c1",
+        "out": "afe77553ce3fc190"
+      },
+      "footerColumns.0.links.3.label": {
+        "src": "e080d463dabae74f",
+        "out": "45980e7bc6e57c47"
+      },
+      "footerColumns.0.links.4.label": {
+        "src": "e4494cb87a74b2c9",
+        "out": "9a30f2d15401d794"
+      },
+      "footerColumns.0.links.5.label": {
+        "src": "0f95f1c110d464b0",
+        "out": "5f9f08d652a640a7"
+      },
+      "footerColumns.1.heading.label": {
+        "src": "8012440906264dab",
+        "out": "17026327ed52307a"
+      },
+      "footerColumns.2.heading.label": {
+        "src": "ca02cc5939f80b27",
+        "out": "59194b067fab5829"
+      },
+      "footerColumns.2.links.0.label": {
+        "src": "eb9f9b9d4763dfd7",
+        "out": "eb9f9b9d4763dfd7"
+      },
+      "footerColumns.2.links.1.label": {
+        "src": "03b5e4178844819a",
+        "out": "03b5e4178844819a"
+      },
+      "footerColumns.2.links.2.label": {
+        "src": "dd0eeace1af516a1",
+        "out": "dd0eeace1af516a1"
+      },
+      "footerColumns.2.links.3.label": {
+        "src": "7f925774690220b0",
+        "out": "21d09ed0f9524a2b"
+      },
+      "footerColumns.3.heading.label": {
+        "src": "c13c5da0164f24e6",
+        "out": "2c693eb3770fe4b7"
+      },
+      "footerColumns.3.links.0.label": {
+        "src": "7de9a3c025aae0be",
+        "out": "85db123b78831a9b"
+      },
+      "footerColumns.3.links.1.label": {
+        "src": "e27fef641bb56fb0",
+        "out": "ba5db7744ae1c022"
+      },
+      "footerColumns.3.links.2.label": {
+        "src": "541afb51a6c99f1c",
+        "out": "0d7fa8653109eeba"
+      },
+      "footerColumns.4.heading.label": {
+        "src": "f04d331c87d3d363",
+        "out": "9fd491756215608e"
+      },
+      "footerColumns.4.links.0.label": {
+        "src": "e8c2a6bc6ed827aa",
+        "out": "7d1c463ac6ca9797"
+      },
+      "footerColumns.4.links.1.label": {
+        "src": "f2bcecdc5656b1b6",
+        "out": "13d5b0a7bfd012f0"
+      },
+      "footerColumns.4.links.2.label": {
+        "src": "f13513baaf60aca3",
+        "out": "ea6bd0d2db9e4662"
+      },
+      "footerColumns.4.links.3.label": {
+        "src": "2a2ba6ff833066d2",
+        "out": "a5b7d57a8574705c"
+      },
+      "footerColumns.4.links.4.label": {
+        "src": "cffb9d7ad6e2a318",
+        "out": "fb8efcc47a5935c7"
+      },
+      "aiChat.label": {
+        "src": "1f733d5360fefe44",
+        "out": "aeca0b53cf24b265"
+      },
+      "contactHeading": {
+        "src": "a92b9bcb16656979",
+        "out": "a92b9bcb16656979"
+      },
+      "contactForm.label": {
+        "src": "2ef5cbd5491ab142",
+        "out": "f381dff8b1ee8d55"
+      },
+      "navigate.label": {
+        "src": "961b0b3be7bc0ff2",
+        "out": "701cae957e39ef35"
+      },
+      "copyright": {
+        "src": "a15360fd5c68f45c",
+        "out": "720fe50df166372a"
+      }
+    }
+  },
+  "it": {
+    "home": {
+      "seoTitle": {
+        "src": "5f06e1706ad4f720",
+        "out": "83f9000594decdbe"
+      },
+      "seoDescription": {
+        "src": "c047a732a548e3a9",
+        "out": "9828964b6f8eb4a0"
+      },
+      "heroSlides.0.tab": {
+        "src": "5d6e0719ce3778b1",
+        "out": "df1caaf299fd06da"
+      },
+      "heroSlides.0.title": {
+        "src": "5d6e0719ce3778b1",
+        "out": "df1caaf299fd06da"
+      },
+      "heroSlides.0.text": {
+        "src": "053e8d224173a80a",
+        "out": "68dda6702bc5b9f8"
+      },
+      "heroSlides.0.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "a8eecb045e7852de"
+      },
+      "heroSlides.0.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "9dcef3a440425f7f"
+      },
+      "heroSlides.1.tab": {
+        "src": "8012440906264dab",
+        "out": "3ab2ae229770c3a9"
+      },
+      "heroSlides.1.title": {
+        "src": "8012440906264dab",
+        "out": "3ab2ae229770c3a9"
+      },
+      "heroSlides.1.text": {
+        "src": "de4fa32574a8eb97",
+        "out": "39acd0b2a9c53c5d"
+      },
+      "heroSlides.1.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "a8eecb045e7852de"
+      },
+      "heroSlides.1.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "9dcef3a440425f7f"
+      },
+      "heroSlides.2.tab": {
+        "src": "ca02cc5939f80b27",
+        "out": "cd5b51fe5b00060c"
+      },
+      "heroSlides.2.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "cd5b51fe5b00060c"
+      },
+      "heroSlides.2.text": {
+        "src": "787d7e39b6815119",
+        "out": "30dff9e34e3be010"
+      },
+      "heroSlides.2.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "a8eecb045e7852de"
+      },
+      "heroSlides.2.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "9dcef3a440425f7f"
+      },
+      "heroSlides.3.tab": {
+        "src": "c13c5da0164f24e6",
+        "out": "9484b2719f326261"
+      },
+      "heroSlides.3.title": {
+        "src": "c13c5da0164f24e6",
+        "out": "9484b2719f326261"
+      },
+      "heroSlides.3.text": {
+        "src": "af841a112387d58b",
+        "out": "feb975d99e5edb84"
+      },
+      "heroSlides.3.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "a8eecb045e7852de"
+      },
+      "heroSlides.3.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "9dcef3a440425f7f"
+      },
+      "idea.title": {
+        "src": "1b40dff9e9feb5e4",
+        "out": "c6a67457cdbd7cef"
+      },
+      "idea.text": {
+        "src": "2443db01fe22af83",
+        "out": "03b2026068e856d8"
+      },
+      "acHome.title": {
+        "src": "10b9f2bb4cf98fa4",
+        "out": "ab5e3e5547b9526d"
+      },
+      "acHome.switchLabel": {
+        "src": "1e223ce932c758bb",
+        "out": "9844619ccfce49ef"
+      },
+      "acHome.products.0.subtitle": {
+        "src": "f4b8271b4264bd2a",
+        "out": "50a64f90c89a3cd9"
+      },
+      "acHome.products.0.text": {
+        "src": "58919ceca5915ebb",
+        "out": "f7bb559ee1eef2d6"
+      },
+      "acHome.products.0.price": {
+        "src": "d36315b39fe8a6dc",
+        "out": "227f6cd20e706a01"
+      },
+      "acHome.products.0.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "393048b897a25bf9"
+      },
+      "acHome.products.1.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "393048b897a25bf9"
+      },
+      "acHome.products.2.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "393048b897a25bf9"
+      },
+      "acHome.products.3.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "393048b897a25bf9"
+      },
+      "acHome.products.4.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "393048b897a25bf9"
+      },
+      "acHome.products.5.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "393048b897a25bf9"
+      },
+      "acHome.configurator.question": {
+        "src": "60c7ca8cd4cb0bb7",
+        "out": "0a90b1493c412f35"
+      },
+      "acHome.configurator.cta": {
+        "src": "36fa98dd8e5cb328",
+        "out": "b24104115c27d6e8"
+      },
+      "acBusiness.title": {
+        "src": "1e223ce932c758bb",
+        "out": "9844619ccfce49ef"
+      },
+      "acBusiness.switchLabel": {
+        "src": "10b9f2bb4cf98fa4",
+        "out": "ab5e3e5547b9526d"
+      },
+      "acBusiness.products.0.subtitle": {
+        "src": "f4b8271b4264bd2a",
+        "out": "50a64f90c89a3cd9"
+      },
+      "acBusiness.products.0.text": {
+        "src": "58919ceca5915ebb",
+        "out": "f7bb559ee1eef2d6"
+      },
+      "acBusiness.products.0.price": {
+        "src": "d36315b39fe8a6dc",
+        "out": "227f6cd20e706a01"
+      },
+      "acBusiness.products.0.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "393048b897a25bf9"
+      },
+      "acBusiness.products.1.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "393048b897a25bf9"
+      },
+      "acBusiness.products.2.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "393048b897a25bf9"
+      },
+      "acBusiness.products.3.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "393048b897a25bf9"
+      },
+      "acBusiness.products.4.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "393048b897a25bf9"
+      },
+      "acBusiness.products.5.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "393048b897a25bf9"
+      },
+      "acBusiness.configurator.question": {
+        "src": "60c7ca8cd4cb0bb7",
+        "out": "0a90b1493c412f35"
+      },
+      "acBusiness.configurator.cta": {
+        "src": "36fa98dd8e5cb328",
+        "out": "b24104115c27d6e8"
+      },
+      "wentilo.title": {
+        "src": "c6ab3a47e01e463a",
+        "out": "d251a80cd32c7623"
+      },
+      "wentilo.productName": {
+        "src": "23e8d94a60713cf3",
+        "out": "23e8d94a60713cf3"
+      },
+      "wentilo.text": {
+        "src": "3c81e79a138dcba6",
+        "out": "e10bdeeab50d6c4c"
+      },
+      "wentilo.cta.label": {
+        "src": "52c0086d85833a57",
+        "out": "88cf76afbe15a63a"
+      },
+      "wentilo.configurator.question": {
+        "src": "1d39b1eb949b4cab",
+        "out": "4c6ee009ade73111"
+      },
+      "wentilo.configurator.cta": {
+        "src": "2120ecec91f0313e",
+        "out": "ba82bff9ca673bad"
+      },
+      "heatPumps.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "cd5b51fe5b00060c"
+      },
+      "heatPumps.text": {
+        "src": "ea53f342af0a279a",
+        "out": "80e63ba7da6d4155"
+      },
+      "heatPumps.configurator.question": {
+        "src": "fae33783ba82fdd8",
+        "out": "1fc95063eb009597"
+      },
+      "heatPumps.configurator.cta": {
+        "src": "2120ecec91f0313e",
+        "out": "ba82bff9ca673bad"
+      },
+      "heatPumps.tiles.0.title": {
+        "src": "87dac10a65d33cdf",
+        "out": "2e4f9491f165ad2a"
+      },
+      "heatPumps.tiles.0.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "a8eecb045e7852de"
+      },
+      "heatPumps.tiles.1.title": {
+        "src": "64a14d5c81e9cf30",
+        "out": "b9f232edc4b6cf5b"
+      },
+      "heatPumps.tiles.1.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "a8eecb045e7852de"
+      },
+      "heatPumps.tiles.2.title": {
+        "src": "b84b710698f7034e",
+        "out": "abc11ef9890d6ef3"
+      },
+      "heatPumps.tiles.2.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "a8eecb045e7852de"
+      },
+      "heatPumps.tiles.3.title": {
+        "src": "e12020d3b540a8d9",
+        "out": "1e9f37eb62d2e7d8"
+      },
+      "heatPumps.tiles.3.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "a8eecb045e7852de"
+      },
+      "heatPumps.tiles.4.title": {
+        "src": "69c856dbefc6724d",
+        "out": "927cc3258e954b1e"
+      },
+      "heatPumps.tiles.4.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "a8eecb045e7852de"
+      },
+      "rvf.title": {
+        "src": "d34c2a9e1a59598c",
+        "out": "0619c48cac70b4d4"
+      },
+      "rvf.text": {
+        "src": "fb47af351048d267",
+        "out": "28a512565afc9170"
+      },
+      "rvf.cta.label": {
+        "src": "da8938f3670b44e1",
+        "out": "567a30c8fa229239"
+      },
+      "guides.title": {
+        "src": "2b39dddb1f35dccf",
+        "out": "fe478b8061b29a53"
+      },
+      "guides.text": {
+        "src": "be86a009d254b755",
+        "out": "bbac5b5b98856361"
+      },
+      "guides.readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "8d9ce1967892a6b8"
+      },
+      "guides.more.label": {
+        "src": "7efd400827c6051c",
+        "out": "bfd5a34096a3f8f9"
+      },
+      "guides.items.0.category": {
+        "src": "ca02cc5939f80b27",
+        "out": "cd5b51fe5b00060c"
+      },
+      "guides.items.0.title": {
+        "src": "a740707546f81864",
+        "out": "a0a0b8605c792fe9"
+      },
+      "guides.items.1.category": {
+        "src": "ca02cc5939f80b27",
+        "out": "cd5b51fe5b00060c"
+      },
+      "guides.items.1.title": {
+        "src": "3ca780a552754375",
+        "out": "ef42417d41df4b23"
+      },
+      "guides.items.2.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "1d78d2348a05d1d3"
+      },
+      "guides.items.2.title": {
+        "src": "107461e91ad21728",
+        "out": "cc5b1f715af8a339"
+      },
+      "guides.items.3.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "1d78d2348a05d1d3"
+      },
+      "guides.items.3.title": {
+        "src": "bf3b50cccde57bad",
+        "out": "7d1ac03591e7cfd5"
+      },
+      "guides.items.4.category": {
+        "src": "1c2fa060e4d67414",
+        "out": "16290beb22bef289"
+      },
+      "guides.items.4.title": {
+        "src": "314ab8f1a9257fa0",
+        "out": "56856c3b70573901"
+      },
+      "guides.items.5.category": {
+        "src": "8012440906264dab",
+        "out": "3ab2ae229770c3a9"
+      },
+      "guides.items.5.title": {
+        "src": "174e25d18dee4a78",
+        "out": "f89f78eb80a22d88"
+      },
+      "guides.items.6.category": {
+        "src": "8012440906264dab",
+        "out": "3ab2ae229770c3a9"
+      },
+      "guides.items.6.title": {
+        "src": "4c6c3779b0307eb6",
+        "out": "2dc26b419b484134"
+      },
+      "guides.items.7.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "1d78d2348a05d1d3"
+      },
+      "guides.items.7.title": {
+        "src": "603d38d973564ff6",
+        "out": "23f63a84715347b1"
+      },
+      "guides.items.8.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "1d78d2348a05d1d3"
+      },
+      "guides.items.8.title": {
+        "src": "87a68686bef1158b",
+        "out": "89eb7bc100a24764"
+      },
+      "guides.items.9.category": {
+        "src": "adc6b801f7ddffec",
+        "out": "adc6b801f7ddffec"
+      },
+      "guides.items.9.title": {
+        "src": "6aae1995c4b60df9",
+        "out": "8dfc6707d0943191"
+      },
+      "installer.title": {
+        "src": "4dfc6f164ce719ce",
+        "out": "cce340ee99bd8f7d"
+      },
+      "installer.text": {
+        "src": "d5b61de4ad0fe946",
+        "out": "9bd001efc51f7de0"
+      },
+      "installer.placeholder": {
+        "src": "7993962690159812",
+        "out": "3e4dc99c708d9c73"
+      },
+      "social.title": {
+        "src": "2380ed6350372952",
+        "out": "5e4addd722bd45c5"
+      },
+      "seo.title": {
+        "src": "a155cf0026c61f18",
+        "out": "a155cf0026c61f18"
+      },
+      "seo.subtitle": {
+        "src": "21de042bd1b67a5d",
+        "out": "386be89e2e8159ec"
+      },
+      "seo.text": {
+        "src": "3f8b0ef6afad3484",
+        "out": "6c8e20dd7705c28e"
+      }
+    },
+    "settings": {
+      "nav.0.label": {
+        "src": "7ac9c1c8a204ae8e",
+        "out": "bd72c18309bb87d0"
+      },
+      "nav.1.label": {
+        "src": "e8c2a6bc6ed827aa",
+        "out": "869542162df92dee"
+      },
+      "nav.2.label": {
+        "src": "f2bcecdc5656b1b6",
+        "out": "bf073fae640ded81"
+      },
+      "nav.3.label": {
+        "src": "f13513baaf60aca3",
+        "out": "466a1bc495f8ba85"
+      },
+      "nav.4.label": {
+        "src": "a92b9bcb16656979",
+        "out": "1afd65f4cd02b1f0"
+      },
+      "searchPlaceholder": {
+        "src": "a0bb8db487beab73",
+        "out": "33179fa3a2a62d8c"
+      },
+      "configurator.label": {
+        "src": "43a37cf68b2e006f",
+        "out": "b4a51ed6bb56d181"
+      },
+      "installer.label": {
+        "src": "9f7321ec9ced3043",
+        "out": "9f817730703450f2"
+      },
+      "footerColumns.0.heading.label": {
+        "src": "5d6e0719ce3778b1",
+        "out": "df1caaf299fd06da"
+      },
+      "footerColumns.0.links.0.label": {
+        "src": "0e865c3da07a23d1",
+        "out": "45d6c70e32d8ee9d"
+      },
+      "footerColumns.0.links.1.label": {
+        "src": "0ac58214899b8707",
+        "out": "7ba81a78bb4c86f9"
+      },
+      "footerColumns.0.links.2.label": {
+        "src": "1865e16b0be1b9c1",
+        "out": "e14d7dd65a929336"
+      },
+      "footerColumns.0.links.3.label": {
+        "src": "e080d463dabae74f",
+        "out": "be666ea31a45cb96"
+      },
+      "footerColumns.0.links.4.label": {
+        "src": "e4494cb87a74b2c9",
+        "out": "c9c3c7b2afea54b7"
+      },
+      "footerColumns.0.links.5.label": {
+        "src": "0f95f1c110d464b0",
+        "out": "d1ceb376cddb59ff"
+      },
+      "footerColumns.1.heading.label": {
+        "src": "8012440906264dab",
+        "out": "3ab2ae229770c3a9"
+      },
+      "footerColumns.2.heading.label": {
+        "src": "ca02cc5939f80b27",
+        "out": "cd5b51fe5b00060c"
+      },
+      "footerColumns.2.links.0.label": {
+        "src": "eb9f9b9d4763dfd7",
+        "out": "f5b9362f804abaa0"
+      },
+      "footerColumns.2.links.1.label": {
+        "src": "03b5e4178844819a",
+        "out": "876b15a7cdca70dc"
+      },
+      "footerColumns.2.links.2.label": {
+        "src": "dd0eeace1af516a1",
+        "out": "6880710637ae5c1a"
+      },
+      "footerColumns.2.links.3.label": {
+        "src": "7f925774690220b0",
+        "out": "52db8ed464df953d"
+      },
+      "footerColumns.3.heading.label": {
+        "src": "c13c5da0164f24e6",
+        "out": "9484b2719f326261"
+      },
+      "footerColumns.3.links.0.label": {
+        "src": "7de9a3c025aae0be",
+        "out": "afae0f9d511cde19"
+      },
+      "footerColumns.3.links.1.label": {
+        "src": "e27fef641bb56fb0",
+        "out": "b325ff7529fc733a"
+      },
+      "footerColumns.3.links.2.label": {
+        "src": "541afb51a6c99f1c",
+        "out": "28a991cf5e3bc0d1"
+      },
+      "footerColumns.4.heading.label": {
+        "src": "f04d331c87d3d363",
+        "out": "689e852ea8e4a4d1"
+      },
+      "footerColumns.4.links.0.label": {
+        "src": "e8c2a6bc6ed827aa",
+        "out": "869542162df92dee"
+      },
+      "footerColumns.4.links.1.label": {
+        "src": "f2bcecdc5656b1b6",
+        "out": "bf073fae640ded81"
+      },
+      "footerColumns.4.links.2.label": {
+        "src": "f13513baaf60aca3",
+        "out": "466a1bc495f8ba85"
+      },
+      "footerColumns.4.links.3.label": {
+        "src": "2a2ba6ff833066d2",
+        "out": "cf01481f626d5127"
+      },
+      "footerColumns.4.links.4.label": {
+        "src": "cffb9d7ad6e2a318",
+        "out": "6fec7b0cd6b2c4e6"
+      },
+      "aiChat.label": {
+        "src": "1f733d5360fefe44",
+        "out": "cd0519ac7d158ad8"
+      },
+      "contactHeading": {
+        "src": "a92b9bcb16656979",
+        "out": "1afd65f4cd02b1f0"
+      },
+      "contactForm.label": {
+        "src": "2ef5cbd5491ab142",
+        "out": "1fba3c9eb285b487"
+      },
+      "navigate.label": {
+        "src": "961b0b3be7bc0ff2",
+        "out": "b552f6481b30df54"
+      },
+      "copyright": {
+        "src": "a15360fd5c68f45c",
+        "out": "357adc1427ca2d03"
+      }
+    }
+  },
+  "uk": {
+    "home": {
+      "seoTitle": {
+        "src": "5f06e1706ad4f720",
+        "out": "6b850d026b8f666a"
+      },
+      "seoDescription": {
+        "src": "c047a732a548e3a9",
+        "out": "2e0a71ec8d1197cb"
+      },
+      "heroSlides.0.tab": {
+        "src": "5d6e0719ce3778b1",
+        "out": "45fe960ce1da634e"
+      },
+      "heroSlides.0.title": {
+        "src": "5d6e0719ce3778b1",
+        "out": "45fe960ce1da634e"
+      },
+      "heroSlides.0.text": {
+        "src": "053e8d224173a80a",
+        "out": "86981c7f5b5872bb"
+      },
+      "heroSlides.0.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "65321beb9ed1afff"
+      },
+      "heroSlides.0.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "1c8bb489f9fa9810"
+      },
+      "heroSlides.1.tab": {
+        "src": "8012440906264dab",
+        "out": "972b0126ee23ab0f"
+      },
+      "heroSlides.1.title": {
+        "src": "8012440906264dab",
+        "out": "972b0126ee23ab0f"
+      },
+      "heroSlides.1.text": {
+        "src": "de4fa32574a8eb97",
+        "out": "98aeb0ce74d62260"
+      },
+      "heroSlides.1.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "65321beb9ed1afff"
+      },
+      "heroSlides.1.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "1c8bb489f9fa9810"
+      },
+      "heroSlides.2.tab": {
+        "src": "ca02cc5939f80b27",
+        "out": "136b09287833da9a"
+      },
+      "heroSlides.2.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "136b09287833da9a"
+      },
+      "heroSlides.2.text": {
+        "src": "787d7e39b6815119",
+        "out": "82c9244f95824123"
+      },
+      "heroSlides.2.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "65321beb9ed1afff"
+      },
+      "heroSlides.2.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "1c8bb489f9fa9810"
+      },
+      "heroSlides.3.tab": {
+        "src": "c13c5da0164f24e6",
+        "out": "519fba62e1b9e94c"
+      },
+      "heroSlides.3.title": {
+        "src": "c13c5da0164f24e6",
+        "out": "519fba62e1b9e94c"
+      },
+      "heroSlides.3.text": {
+        "src": "af841a112387d58b",
+        "out": "a541db0fc68ef9f5"
+      },
+      "heroSlides.3.primary.label": {
+        "src": "d4bab490b0864b47",
+        "out": "65321beb9ed1afff"
+      },
+      "heroSlides.3.secondary.label": {
+        "src": "bc2f6e068b31bdc7",
+        "out": "1c8bb489f9fa9810"
+      },
+      "idea.title": {
+        "src": "1b40dff9e9feb5e4",
+        "out": "5b3a177e622e3c94"
+      },
+      "idea.text": {
+        "src": "2443db01fe22af83",
+        "out": "d2a447fea299505e"
+      },
+      "acHome.title": {
+        "src": "10b9f2bb4cf98fa4",
+        "out": "73ee94b6bfdb9b76"
+      },
+      "acHome.switchLabel": {
+        "src": "1e223ce932c758bb",
+        "out": "5a8df7fe2cb4fce2"
+      },
+      "acHome.products.0.subtitle": {
+        "src": "f4b8271b4264bd2a",
+        "out": "1b8994e81bce45ea"
+      },
+      "acHome.products.0.text": {
+        "src": "58919ceca5915ebb",
+        "out": "d51ca9de83e5ffa5"
+      },
+      "acHome.products.0.price": {
+        "src": "d36315b39fe8a6dc",
+        "out": "bda04c277b006117"
+      },
+      "acHome.products.0.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "fcbf53c2f1b56c1e"
+      },
+      "acHome.products.1.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "fcbf53c2f1b56c1e"
+      },
+      "acHome.products.2.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "fcbf53c2f1b56c1e"
+      },
+      "acHome.products.3.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "fcbf53c2f1b56c1e"
+      },
+      "acHome.products.4.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "fcbf53c2f1b56c1e"
+      },
+      "acHome.products.5.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "fcbf53c2f1b56c1e"
+      },
+      "acHome.configurator.question": {
+        "src": "60c7ca8cd4cb0bb7",
+        "out": "ac12511e568f56bc"
+      },
+      "acHome.configurator.cta": {
+        "src": "36fa98dd8e5cb328",
+        "out": "68b19db9f6315929"
+      },
+      "acBusiness.title": {
+        "src": "1e223ce932c758bb",
+        "out": "5a8df7fe2cb4fce2"
+      },
+      "acBusiness.switchLabel": {
+        "src": "10b9f2bb4cf98fa4",
+        "out": "73ee94b6bfdb9b76"
+      },
+      "acBusiness.products.0.subtitle": {
+        "src": "f4b8271b4264bd2a",
+        "out": "1b8994e81bce45ea"
+      },
+      "acBusiness.products.0.text": {
+        "src": "58919ceca5915ebb",
+        "out": "d51ca9de83e5ffa5"
+      },
+      "acBusiness.products.0.price": {
+        "src": "d36315b39fe8a6dc",
+        "out": "bda04c277b006117"
+      },
+      "acBusiness.products.0.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "fcbf53c2f1b56c1e"
+      },
+      "acBusiness.products.1.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "fcbf53c2f1b56c1e"
+      },
+      "acBusiness.products.2.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "fcbf53c2f1b56c1e"
+      },
+      "acBusiness.products.3.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "fcbf53c2f1b56c1e"
+      },
+      "acBusiness.products.4.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "fcbf53c2f1b56c1e"
+      },
+      "acBusiness.products.5.cta.label": {
+        "src": "7f4e0b85de990d2d",
+        "out": "fcbf53c2f1b56c1e"
+      },
+      "acBusiness.configurator.question": {
+        "src": "60c7ca8cd4cb0bb7",
+        "out": "ac12511e568f56bc"
+      },
+      "acBusiness.configurator.cta": {
+        "src": "36fa98dd8e5cb328",
+        "out": "68b19db9f6315929"
+      },
+      "wentilo.title": {
+        "src": "c6ab3a47e01e463a",
+        "out": "acd5ace81708bd92"
+      },
+      "wentilo.productName": {
+        "src": "23e8d94a60713cf3",
+        "out": "23e8d94a60713cf3"
+      },
+      "wentilo.text": {
+        "src": "3c81e79a138dcba6",
+        "out": "82a65d4f21e82d0a"
+      },
+      "wentilo.cta.label": {
+        "src": "52c0086d85833a57",
+        "out": "efdf9f05180a89f0"
+      },
+      "wentilo.configurator.question": {
+        "src": "1d39b1eb949b4cab",
+        "out": "ab3a0b95dd7ff9f6"
+      },
+      "wentilo.configurator.cta": {
+        "src": "2120ecec91f0313e",
+        "out": "41295664108850dd"
+      },
+      "heatPumps.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "136b09287833da9a"
+      },
+      "heatPumps.text": {
+        "src": "ea53f342af0a279a",
+        "out": "79b4aff900dc226e"
+      },
+      "heatPumps.configurator.question": {
+        "src": "fae33783ba82fdd8",
+        "out": "708798ba3715d911"
+      },
+      "heatPumps.configurator.cta": {
+        "src": "2120ecec91f0313e",
+        "out": "41295664108850dd"
+      },
+      "heatPumps.tiles.0.title": {
+        "src": "87dac10a65d33cdf",
+        "out": "f75fc997ad0750e0"
+      },
+      "heatPumps.tiles.0.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "65321beb9ed1afff"
+      },
+      "heatPumps.tiles.1.title": {
+        "src": "64a14d5c81e9cf30",
+        "out": "92720e226c7e8b0a"
+      },
+      "heatPumps.tiles.1.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "65321beb9ed1afff"
+      },
+      "heatPumps.tiles.2.title": {
+        "src": "b84b710698f7034e",
+        "out": "2e9255cd98fe4b7f"
+      },
+      "heatPumps.tiles.2.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "65321beb9ed1afff"
+      },
+      "heatPumps.tiles.3.title": {
+        "src": "e12020d3b540a8d9",
+        "out": "b5c280f59d73f9de"
+      },
+      "heatPumps.tiles.3.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "65321beb9ed1afff"
+      },
+      "heatPumps.tiles.4.title": {
+        "src": "69c856dbefc6724d",
+        "out": "859fd67e62e9ad0d"
+      },
+      "heatPumps.tiles.4.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "65321beb9ed1afff"
+      },
+      "rvf.title": {
+        "src": "d34c2a9e1a59598c",
+        "out": "8c225bc64570a672"
+      },
+      "rvf.text": {
+        "src": "fb47af351048d267",
+        "out": "56d897adcf182b6f"
+      },
+      "rvf.cta.label": {
+        "src": "da8938f3670b44e1",
+        "out": "20ff46bf7c28e2a8"
+      },
+      "guides.title": {
+        "src": "2b39dddb1f35dccf",
+        "out": "36316c7363857878"
+      },
+      "guides.text": {
+        "src": "be86a009d254b755",
+        "out": "6e74638c9e6628e6"
+      },
+      "guides.readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "52344eea855a3ca7"
+      },
+      "guides.more.label": {
+        "src": "7efd400827c6051c",
+        "out": "eb3c71d126fc7034"
+      },
+      "guides.items.0.category": {
+        "src": "ca02cc5939f80b27",
+        "out": "136b09287833da9a"
+      },
+      "guides.items.0.title": {
+        "src": "a740707546f81864",
+        "out": "72c9d83a61acdd27"
+      },
+      "guides.items.1.category": {
+        "src": "ca02cc5939f80b27",
+        "out": "136b09287833da9a"
+      },
+      "guides.items.1.title": {
+        "src": "3ca780a552754375",
+        "out": "8a7804bdc0d4db93"
+      },
+      "guides.items.2.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "7f699d237d2cb137"
+      },
+      "guides.items.2.title": {
+        "src": "107461e91ad21728",
+        "out": "ff51a1690a505a45"
+      },
+      "guides.items.3.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "7f699d237d2cb137"
+      },
+      "guides.items.3.title": {
+        "src": "bf3b50cccde57bad",
+        "out": "5012c395494e5b04"
+      },
+      "guides.items.4.category": {
+        "src": "1c2fa060e4d67414",
+        "out": "7d128a41f41b84ef"
+      },
+      "guides.items.4.title": {
+        "src": "314ab8f1a9257fa0",
+        "out": "d8c260b65643af24"
+      },
+      "guides.items.5.category": {
+        "src": "8012440906264dab",
+        "out": "972b0126ee23ab0f"
+      },
+      "guides.items.5.title": {
+        "src": "174e25d18dee4a78",
+        "out": "80f4af0ac72af7ae"
+      },
+      "guides.items.6.category": {
+        "src": "8012440906264dab",
+        "out": "972b0126ee23ab0f"
+      },
+      "guides.items.6.title": {
+        "src": "4c6c3779b0307eb6",
+        "out": "9bfb12f2cdc5fc3e"
+      },
+      "guides.items.7.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "7f699d237d2cb137"
+      },
+      "guides.items.7.title": {
+        "src": "603d38d973564ff6",
+        "out": "fe1123b3a0d701f0"
+      },
+      "guides.items.8.category": {
+        "src": "42c07d76cbc797fb",
+        "out": "7f699d237d2cb137"
+      },
+      "guides.items.8.title": {
+        "src": "87a68686bef1158b",
+        "out": "5601594bec38551b"
+      },
+      "guides.items.9.category": {
+        "src": "adc6b801f7ddffec",
+        "out": "adc6b801f7ddffec"
+      },
+      "guides.items.9.title": {
+        "src": "6aae1995c4b60df9",
+        "out": "47a9e74d41e2085f"
+      },
+      "installer.title": {
+        "src": "4dfc6f164ce719ce",
+        "out": "5109a863005aef4b"
+      },
+      "installer.text": {
+        "src": "d5b61de4ad0fe946",
+        "out": "33e1b939105f0c1b"
+      },
+      "installer.placeholder": {
+        "src": "7993962690159812",
+        "out": "60525abf1508424c"
+      },
+      "social.title": {
+        "src": "2380ed6350372952",
+        "out": "db1f7f97c25f9ec7"
+      },
+      "seo.title": {
+        "src": "a155cf0026c61f18",
+        "out": "a155cf0026c61f18"
+      },
+      "seo.subtitle": {
+        "src": "21de042bd1b67a5d",
+        "out": "796b4fad95a6eb5d"
+      },
+      "seo.text": {
+        "src": "3f8b0ef6afad3484",
+        "out": "d47d6899c2d97077"
+      }
+    },
+    "settings": {
+      "nav.0.label": {
+        "src": "7ac9c1c8a204ae8e",
+        "out": "8da376cd0a4d129b"
+      },
+      "nav.1.label": {
+        "src": "e8c2a6bc6ed827aa",
+        "out": "ac6bf1547223e39f"
+      },
+      "nav.2.label": {
+        "src": "f2bcecdc5656b1b6",
+        "out": "50f452fda8563df5"
+      },
+      "nav.3.label": {
+        "src": "f13513baaf60aca3",
+        "out": "c57788222c4443e5"
+      },
+      "nav.4.label": {
+        "src": "a92b9bcb16656979",
+        "out": "1f9e7d09cf14998f"
+      },
+      "searchPlaceholder": {
+        "src": "a0bb8db487beab73",
+        "out": "208f606bed909485"
+      },
+      "configurator.label": {
+        "src": "43a37cf68b2e006f",
+        "out": "772f1738955b649c"
+      },
+      "installer.label": {
+        "src": "9f7321ec9ced3043",
+        "out": "ec896ec880c94647"
+      },
+      "footerColumns.0.heading.label": {
+        "src": "5d6e0719ce3778b1",
+        "out": "45fe960ce1da634e"
+      },
+      "footerColumns.0.links.0.label": {
+        "src": "0e865c3da07a23d1",
+        "out": "30941d85f0de4b41"
+      },
+      "footerColumns.0.links.1.label": {
+        "src": "0ac58214899b8707",
+        "out": "66efe65968cceafc"
+      },
+      "footerColumns.0.links.2.label": {
+        "src": "1865e16b0be1b9c1",
+        "out": "cf31eb44abdb8dfe"
+      },
+      "footerColumns.0.links.3.label": {
+        "src": "e080d463dabae74f",
+        "out": "5dac2379e7b26c88"
+      },
+      "footerColumns.0.links.4.label": {
+        "src": "e4494cb87a74b2c9",
+        "out": "0eec5c94bc9a456b"
+      },
+      "footerColumns.0.links.5.label": {
+        "src": "0f95f1c110d464b0",
+        "out": "1216599a330c3e13"
+      },
+      "footerColumns.1.heading.label": {
+        "src": "8012440906264dab",
+        "out": "972b0126ee23ab0f"
+      },
+      "footerColumns.2.heading.label": {
+        "src": "ca02cc5939f80b27",
+        "out": "136b09287833da9a"
+      },
+      "footerColumns.2.links.0.label": {
+        "src": "eb9f9b9d4763dfd7",
+        "out": "105460d135d10602"
+      },
+      "footerColumns.2.links.1.label": {
+        "src": "03b5e4178844819a",
+        "out": "3f456d6cf7f50c28"
+      },
+      "footerColumns.2.links.2.label": {
+        "src": "dd0eeace1af516a1",
+        "out": "edf9c9c263e1f3a5"
+      },
+      "footerColumns.2.links.3.label": {
+        "src": "7f925774690220b0",
+        "out": "1ea744a2260f9118"
+      },
+      "footerColumns.3.heading.label": {
+        "src": "c13c5da0164f24e6",
+        "out": "519fba62e1b9e94c"
+      },
+      "footerColumns.3.links.0.label": {
+        "src": "7de9a3c025aae0be",
+        "out": "fbdd17db3365503b"
+      },
+      "footerColumns.3.links.1.label": {
+        "src": "e27fef641bb56fb0",
+        "out": "4bcdfb0c6c44394a"
+      },
+      "footerColumns.3.links.2.label": {
+        "src": "541afb51a6c99f1c",
+        "out": "a15ace05af579a47"
+      },
+      "footerColumns.4.heading.label": {
+        "src": "f04d331c87d3d363",
+        "out": "455cfc2d2f983dd7"
+      },
+      "footerColumns.4.links.0.label": {
+        "src": "e8c2a6bc6ed827aa",
+        "out": "ac6bf1547223e39f"
+      },
+      "footerColumns.4.links.1.label": {
+        "src": "f2bcecdc5656b1b6",
+        "out": "50f452fda8563df5"
+      },
+      "footerColumns.4.links.2.label": {
+        "src": "f13513baaf60aca3",
+        "out": "c57788222c4443e5"
+      },
+      "footerColumns.4.links.3.label": {
+        "src": "2a2ba6ff833066d2",
+        "out": "7d20c269f4fb0fbf"
+      },
+      "footerColumns.4.links.4.label": {
+        "src": "cffb9d7ad6e2a318",
+        "out": "667d8b44a6ccac32"
+      },
+      "aiChat.label": {
+        "src": "1f733d5360fefe44",
+        "out": "65d2703a18cf486d"
+      },
+      "contactHeading": {
+        "src": "a92b9bcb16656979",
+        "out": "1f9e7d09cf14998f"
+      },
+      "contactForm.label": {
+        "src": "2ef5cbd5491ab142",
+        "out": "58edf9964d4b7d6e"
+      },
+      "navigate.label": {
+        "src": "961b0b3be7bc0ff2",
+        "out": "b765f32584bcc195"
+      },
+      "copyright": {
+        "src": "a15360fd5c68f45c",
+        "out": "cbb0757cd5661533"
+      }
+    }
+  }
+}

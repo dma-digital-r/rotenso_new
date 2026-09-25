@@ -1,0 +1,97 @@
+nav:
+  - label: Produkty
+    href: /cs/produkty
+  - label: O nás
+    href: /cs/o-nas
+  - label: Průvodci
+    href: /cs/poradniki
+  - label: Katalogy
+    href: /cs/katalogi
+  - label: Kontakt
+    href: /cs/kontakt
+searchPlaceholder: Hledat
+configurator:
+  label: Konfigurátor
+  href: /cs/doboromierz
+installer:
+  label: Pro montážníky
+  href: /cs/znajdz-instalatora
+footerColumns:
+  - heading:
+      label: Klimatizace
+      href: /cs/klimatyzacja
+    links:
+      - label: Pokojové (Split)
+        href: /cs/klimatyzacja/split
+      - label: Vícepokojové (Multi Split)
+        href: /cs/klimatyzacja/multi-split
+      - label: Pro celoroční vytápění
+        href: /cs/klimatyzacja/grzanie
+      - label: Stropní a vestavné
+        href: /cs/klimatyzacja/sufitowe
+      - label: Parapetní
+        href: /cs/klimatyzacja/przypodlogowe
+      - label: Příslušenství
+        href: /cs/akcesoria
+  - heading:
+      label: Rekuperace
+      href: /cs/rekuperacja
+    links: []
+  - heading:
+      label: Tepelná čerpadla
+      href: /cs/pompy-ciepla
+    links:
+      - label: Typ Split
+        href: /cs/pompy-ciepla/split
+      - label: Typ Monoblock
+        href: /cs/pompy-ciepla/monoblock
+      - label: Typ All-in
+        href: /cs/pompy-ciepla/all-in
+      - label: Zásobníky
+        href: /cs/pompy-ciepla/zbiorniki
+  - heading:
+      label: Systémy RVF
+      href: /cs/systemy-rvf
+    links:
+      - label: Systémy / Řešení
+        href: /cs/systemy-rvf/rozwiazania
+      - label: Vnitřní jednotky
+        href: /cs/systemy-rvf/jednostki-wewnetrzne
+      - label: Venkovní jednotky
+        href: /cs/systemy-rvf/jednostki-zewnetrzne
+  - heading:
+      label: Informace
+      href: ''
+    links:
+      - label: O nás
+        href: /cs/o-nas
+      - label: Průvodci
+        href: /cs/poradniki
+      - label: Katalogy
+        href: /cs/katalogi
+      - label: GDPR
+        href: /cs/rodo
+      - label: Obchodní podmínky
+        href: /cs/regulamin
+aiChat:
+  label: Chat s asistentem Rotenso
+  href: /cs/kontakt
+contactHeading: Kontakt
+phone: +48 32 285 57 11
+email: info@rotenso.com
+contactForm:
+  label: Kontaktní formulář
+  href: /cs/kontakt
+navigate:
+  label: Navigovat
+  href: https://maps.google.com/?q=Rotenso
+social:
+  facebook: https://www.facebook.com/
+  youtube: https://www.youtube.com/
+  instagram: https://www.instagram.com/
+  tiktok: https://www.tiktok.com/
+  spotify: https://open.spotify.com/
+  linkedin: https://www.linkedin.com/
+copyright: |-
+  © {rok} Rotenso®. Všechna práva vyhrazena.
+  Vyhrazujeme si právo na chyby v popisech a technických parametrech. Vynakládáme veškeré úsilí, aby fotografie věrně zachycovaly barvy jednotek; kvůli rozdílům v nastavení monitorů se však barvy mohou od skutečnosti lišit.

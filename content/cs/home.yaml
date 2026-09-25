@@ -1,0 +1,375 @@
+seoTitle: Rotenso — klimatizace, rekuperace, tepelná čerpadla
+seoDescription: Inovativní systémy HVAC pro domácnosti i firmy — klimatizace, rekuperační jednotky, tepelná čerpadla a systémy RVF / VRF.
+heroSlides:
+  - tab: Klimatizace
+    title: Klimatizace
+    text: Rotenso nabízí širokou škálu klimatizačních systémů, které zajistí ideální teplotu po celý rok.
+    primary:
+      label: Poznejte modely
+      href: /cs/klimatyzacja
+    secondary:
+      label: Zobrazit novinky
+      href: /cs/klimatyzacja
+    background: /images/home/hero-klimatyzacje.png
+  - tab: Rekuperace
+    title: Rekuperace
+    text: Stálý přívod čerstvého a filtrovaného vzduchu se zpětným získáváním tepla nebo vlhkosti.
+    primary:
+      label: Poznejte modely
+      href: /cs/rekuperacja
+    secondary:
+      label: Zobrazit novinky
+      href: /cs/rekuperacja
+    background: null
+  - tab: Tepelná čerpadla
+    title: Tepelná čerpadla
+    text: Úsporné a bezúdržbové vytápění budov a ohřev teplé vody.
+    primary:
+      label: Poznejte modely
+      href: /cs/pompy-ciepla
+    secondary:
+      label: Zobrazit novinky
+      href: /cs/pompy-ciepla
+    background: null
+  - tab: Systémy RVF
+    title: Systémy RVF
+    text: Přesné řízení teploty v mnoha zónách současně — pro kanceláře, hotely a komerční objekty.
+    primary:
+      label: Poznejte modely
+      href: /cs/systemy-rvf
+    secondary:
+      label: Zobrazit novinky
+      href: /cs/systemy-rvf
+    background: null
+idea:
+  title: Klimatizace Rotenso je komfort, který ucítíte od první chvíle.
+  text: Chladí, topí a čistí vzduch a váš domov se stane oázou klidu. Elegantní design a tichý provoz z jednotek dělají přirozenou součást interiéru. Ovládání je jednoduché a intuitivní, takže klid máte vždy na dosah.
+  background: /images/home/idea-bg.png
+acHome:
+  title: Klimatizace pro vás
+  switchLabel: Klimatizace pro firmy
+  background: /images/home/ac-dom-bg.png
+  backgroundCrop:
+    x: 0
+    'y': -6.12
+    w: 100
+    h: 122.73
+  products:
+    - name: Mirai
+      thumb: /images/home/ac-mirai.png
+      subtitle: Nejvyšší účinnost
+      text: Mirai vám zajistí účinné chlazení i vytápění po celý rok.
+      price: 'Již od: 2859 zł'
+      cta:
+        label: Poznejte model
+        href: /cs/klimatyzacja/mirai
+    - name: Versu Cloth Caramel
+      thumb: /images/home/ac-versu-caramel.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Poznejte model
+        href: /cs/klimatyzacja/versu-cloth-caramel
+    - name: Luve Pro
+      thumb: /images/home/ac-luve-pro.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Poznejte model
+        href: /cs/klimatyzacja/luve-pro
+    - name: Fresh
+      thumb: /images/home/ac-fresh.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Poznejte model
+        href: /cs/klimatyzacja/fresh
+    - name: Versu Mirror R15
+      thumb: /images/home/ac-versu-mirror.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Poznejte model
+        href: /cs/klimatyzacja/versu-mirror-r15
+    - name: Versu Pure
+      thumb: /images/home/ac-versu-pure.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Poznejte model
+        href: /cs/klimatyzacja/versu-pure
+  configurator:
+    question: Nevíte, jakou klimatizaci vybrat?
+    cta: |-
+      Využijte
+      konfigurátor
+    href: /cs/doboromierz
+acBusiness:
+  title: Klimatizace pro firmy
+  switchLabel: Klimatizace pro vás
+  background: /images/home/ac-firma-bg.png
+  backgroundCrop:
+    x: 0
+    'y': 0
+    w: 100
+    h: 130.47
+  products:
+    - name: Mirai
+      thumb: /images/home/ac-mirai.png
+      subtitle: Nejvyšší účinnost
+      text: Mirai vám zajistí účinné chlazení i vytápění po celý rok.
+      price: 'Již od: 2859 zł'
+      cta:
+        label: Poznejte model
+        href: /cs/klimatyzacja/mirai
+    - name: Versu Cloth Caramel
+      thumb: /images/home/ac-versu-caramel.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Poznejte model
+        href: /cs/klimatyzacja/versu-cloth-caramel
+    - name: Luve Pro
+      thumb: /images/home/ac-luve-pro.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Poznejte model
+        href: /cs/klimatyzacja/luve-pro
+    - name: Fresh
+      thumb: /images/home/ac-fresh.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Poznejte model
+        href: /cs/klimatyzacja/fresh
+    - name: Versu Mirror R15
+      thumb: /images/home/ac-versu-mirror.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Poznejte model
+        href: /cs/klimatyzacja/versu-mirror-r15
+    - name: Versu Pure
+      thumb: /images/home/ac-versu-pure.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Poznejte model
+        href: /cs/klimatyzacja/versu-pure
+  configurator:
+    question: Nevíte, jakou klimatizaci vybrat?
+    cta: |-
+      Využijte
+      konfigurátor
+    href: /cs/doboromierz
+wentilo:
+  title: Čerstvý vzduch díky rekuperaci
+  productName: Wentilo ICON
+  text: |-
+    Rekuperační jednotky Rotenso Wentilo zajišťují stálý přívod čerstvého a filtrovaného vzduchu se zpětným získáváním tepla nebo vlhkosti a zároveň snižují náklady na vytápění. Inteligentní ovládání vám zaručí celodenní komfort bez další obsluhy.
+
+    Podívejte se na rekuperační jednotky řady Rotenso Wentilo ICON a vyberte si vhodné řešení pro váš dům.
+  cta:
+    label: Poznejte Wentilo ICON
+    href: /cs/rekuperacja/wentilo-icon
+  configurator:
+    question: Nevíte, jakou rekuperační jednotku vybrat?
+    cta: Využijte konfigurátor
+    href: /cs/doboromierz/rekuperacja
+  background: /images/home/wentilo-bg.png
+  media: /images/home/wentilo-media.png
+  video: ''
+heatPumps:
+  title: Tepelná čerpadla
+  text: Tepelná čerpadla Rotenso jsou pro ty, kdo hledají úsporný a bezúdržbový systém pro vytápění budov a ohřev teplé vody.
+  configurator:
+    question: Nevíte, jaké tepelné čerpadlo vybrat?
+    cta: Využijte konfigurátor
+    href: /cs/doboromierz/pompa-ciepla
+  tiles:
+    - title: Nízkoteplotní
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Poznejte modely
+        href: /cs/pompy-ciepla
+    - title: Dvoudílná (Split)
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Poznejte modely
+        href: /cs/pompy-ciepla
+    - title: |-
+        Jednodílná
+        (Monoblock)
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Poznejte modely
+        href: /cs/pompy-ciepla
+    - title: Barevně sladěná
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Poznejte modely
+        href: /cs/pompy-ciepla
+    - title: |-
+        S integrovaným
+        zásobníkem TV
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Poznejte modely
+        href: /cs/pompy-ciepla
+rvf:
+  title: Systémy RVF / VRF
+  text: Systémy RVF Rotenso jsou moderní a flexibilní klimatizační a topná řešení, která umožňují přesné řízení teploty v mnoha zónách současně — ideální pro kanceláře, hotely a komerční objekty.
+  cta:
+    label: Zjistit více
+    href: /cs/systemy-rvf
+  image: /images/home/rvf-bg.png
+guides:
+  title: Praktické znalosti
+  text: Průvodci jsou praktickým zdrojem znalostí pro všechny, kdo se zajímají o klimatizace, tepelná čerpadla a rekuperaci.
+  readLabel: Přečíst
+  more:
+    label: Další průvodci
+    href: /cs/poradniki
+  items:
+    - category: Tepelná čerpadla
+      title: Teplá voda — dokáže ji tepelné čerpadlo ohřát?
+      image: /images/home/guide-1.png
+      imageCrop:
+        x: 0
+        'y': -27.38
+        w: 100
+        h: 127.86
+      href: /cs/poradniki
+    - category: Tepelná čerpadla
+      title: Dotace na tepelná čerpadla v roce 2026.
+      image: /images/home/guide-2.png
+      imageCrop:
+        x: -0.28
+        'y': 0
+        w: 135.79
+        h: 100
+      href: /cs/poradniki
+    - category: Klimatizace
+      title: Má smysl topit klimatizací? Rozptylujeme pochybnosti.
+      image: /images/home/guide-3.png
+      imageCrop:
+        x: null
+        'y': null
+        w: null
+        h: null
+      href: /cs/poradniki
+    - category: Klimatizace
+      title: Klimatizace do bytu 40 m². Jakou vybrat?
+      image: /images/home/guide-4.png
+      imageCrop:
+        x: null
+        'y': null
+        w: null
+        h: null
+      href: /cs/poradniki
+    - category: Klimatizace | Rekuperace
+      title: Rekuperace s klimatizací — jak je propojit v jeden systém?
+      image: /images/home/guide-5.png
+      imageCrop:
+        x: -66.31
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /cs/poradniki
+    - category: Rekuperace
+      title: Jak funguje rekuperační jednotka se zpětným získáváním vlhkosti?
+      image: /images/home/guide-6.png
+      imageCrop:
+        x: 0.08
+        'y': 0
+        w: 215.77
+        h: 100
+      href: /cs/poradniki
+    - category: Rekuperace
+      title: Filtry pro rekuperaci — základ čistého vzduchu doma.
+      image: /images/home/guide-7.png
+      imageCrop:
+        x: 0.02
+        'y': -11.17
+        w: 239.98
+        h: 122.34
+      href: /cs/poradniki
+    - category: Klimatizace
+      title: Je klimatizace zdravá? Fakta a mýty.
+      image: /images/home/guide-8.png
+      imageCrop:
+        x: -48.08
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /cs/poradniki
+    - category: Klimatizace
+      title: Co je klimatizace multisplit? Jak funguje?
+      image: /images/home/guide-9.png
+      imageCrop:
+        x: -174.06
+        'y': 0
+        w: 328.31
+        h: 167.37
+      href: /cs/poradniki
+    - category: RVF / VRF
+      title: Co je VRF? K čemu se tento systém používá?
+      image: /images/home/guide-10.png
+      imageCrop:
+        x: -64.94
+        'y': 0
+        w: 196.16
+        h: 100
+      href: /cs/poradniki
+installer:
+  title: Najít montážníka
+  text: Zadejte PSČ nebo obec a najděte vhodného montážníka.
+  placeholder: Pište sem...
+social:
+  title: Objevte nás na sociálních sítích
+  videos:
+    - image: /images/home/yt-1.png
+      href: https://www.youtube.com/
+    - image: /images/home/yt-2.jpg
+      href: https://www.youtube.com/
+    - image: /images/home/yt-3.png
+      href: https://www.youtube.com/
+    - image: /images/home/yt-4.png
+      href: https://www.youtube.com/
+  posts:
+    - image: /images/home/post-1.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-2.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-3.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-4.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-5.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-6.png
+      href: https://www.instagram.com/
+seo:
+  title: Rotenso
+  subtitle: Inovativní systémy HVAC pro domácnosti i firmy
+  text: |-
+    Jsme polská společnost, která se specializuje na klimatizace, rekuperaci, tepelná čerpadla a pokročilé klimatizační systémy (RVF). Naše produkty jsou přizpůsobeny potřebám soukromých i firemních zákazníků. Sázíme na technologie, které přinášejí komfort, čistý vzduch a skutečné úspory.
+
+    Díky neustálému vývoji a rozšiřování katalogu produktů si značka získává uznání uživatelů i partnerů po celé Evropě a nabízí řešení přizpůsobená individuálním potřebám a různým typům budov. Rotenso je synonymem účinnosti, inovace a moderního designu, díky čemuž jsou naše jednotky skvělou volbou pro všechny, kdo hledají kvalitu na dlouhá léta.
+  background: /images/home/seo-bg.png

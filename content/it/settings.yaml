@@ -1,0 +1,97 @@
+nav:
+  - label: Prodotti
+    href: /it/produkty
+  - label: Chi siamo
+    href: /it/o-nas
+  - label: Guide
+    href: /it/poradniki
+  - label: Cataloghi
+    href: /it/katalogi
+  - label: Contatti
+    href: /it/kontakt
+searchPlaceholder: Cerca
+configurator:
+  label: Configuratore
+  href: /it/doboromierz
+installer:
+  label: Per installatori
+  href: /it/znajdz-instalatora
+footerColumns:
+  - heading:
+      label: Climatizzatori
+      href: /it/klimatyzacja
+    links:
+      - label: A parete (Split)
+        href: /it/klimatyzacja/split
+      - label: Multi-ambiente (Multi Split)
+        href: /it/klimatyzacja/multi-split
+      - label: Per il riscaldamento tutto l’anno
+        href: /it/klimatyzacja/grzanie
+      - label: A soffitto e canalizzabili
+        href: /it/klimatyzacja/sufitowe
+      - label: A pavimento
+        href: /it/klimatyzacja/przypodlogowe
+      - label: Accessori
+        href: /it/akcesoria
+  - heading:
+      label: VMC
+      href: /it/rekuperacja
+    links: []
+  - heading:
+      label: Pompe di calore
+      href: /it/pompy-ciepla
+    links:
+      - label: Tipo Split
+        href: /it/pompy-ciepla/split
+      - label: Tipo Monoblock
+        href: /it/pompy-ciepla/monoblock
+      - label: Tipo All-in
+        href: /it/pompy-ciepla/all-in
+      - label: Serbatoi
+        href: /it/pompy-ciepla/zbiorniki
+  - heading:
+      label: Sistemi RVF
+      href: /it/systemy-rvf
+    links:
+      - label: Sistemi / Soluzioni
+        href: /it/systemy-rvf/rozwiazania
+      - label: Unità interne
+        href: /it/systemy-rvf/jednostki-wewnetrzne
+      - label: Unità esterne
+        href: /it/systemy-rvf/jednostki-zewnetrzne
+  - heading:
+      label: Informazioni
+      href: ''
+    links:
+      - label: Chi siamo
+        href: /it/o-nas
+      - label: Guide
+        href: /it/poradniki
+      - label: Cataloghi
+        href: /it/katalogi
+      - label: Privacy
+        href: /it/rodo
+      - label: Termini e condizioni
+        href: /it/regulamin
+aiChat:
+  label: Chatta con l’assistente Rotenso
+  href: /it/kontakt
+contactHeading: Contatti
+phone: +48 32 285 57 11
+email: info@rotenso.com
+contactForm:
+  label: Modulo di contatto
+  href: /it/kontakt
+navigate:
+  label: Indicazioni
+  href: https://maps.google.com/?q=Rotenso
+social:
+  facebook: https://www.facebook.com/
+  youtube: https://www.youtube.com/
+  instagram: https://www.instagram.com/
+  tiktok: https://www.tiktok.com/
+  spotify: https://open.spotify.com/
+  linkedin: https://www.linkedin.com/
+copyright: |-
+  © {rok} Rotenso®. Tutti i diritti riservati.
+  Ci riserviamo il diritto di errori nelle descrizioni e nei parametri tecnici. Facciamo il possibile affinché le foto riproducano fedelmente i colori delle unità; tuttavia, a causa delle diverse impostazioni dei monitor, i colori possono differire dalla realtà.
