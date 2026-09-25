@@ -45,6 +45,13 @@ New-NetFirewallRule -DisplayName "Rotenso podglad (3001)" -Direction Inbound -Pr
 |---|---|
 | `npm run import:wordpress -- "C:\ścieżka\eksport.xml"` | Importuje wpisy z eksportu WordPressa. Dodaje tylko nowe, istniejących nie rusza. |
 
+## Social media (automatycznie, raz na dobę)
+- **YouTube** — górny pasek: najnowsze filmy i Shorts z kanału. Adres feedu: panel → Strona główna → Odkryj nas na Social Media → „Filmy — feed kanału YouTube”.
+- **Instagram** — dolny pasek: najnowsze posty konta rotenso.official (Instagram API, aplikacja Meta „Rotenso – strona WWW”).
+  - Pierwszy token: `.env.local` → `INSTAGRAM_ACCESS_TOKEN`. Strona sama go przedłuża co dobę i zapisuje najnowszy w `.cache/instagram-token.json`.
+  - Gdyby posty przestały się pokazywać (np. zmiana hasła do Instagrama unieważnia token): Meta for Developers → aplikacja → Use cases → Instagram → API setup with Instagram login → Generate token → wkleić do `.env.local` i usunąć plik `.cache/instagram-token.json`.
+  - Do tego czasu pasek pokazuje zapasowe grafiki z panelu.
+
 ## Figma (dla programisty)
 | Polecenie | Co robi |
 |---|---|
@@ -52,4 +59,4 @@ New-NetFirewallRule -DisplayName "Rotenso podglad (3001)" -Direction Inbound -Pr
 
 ## Sekrety (plik `.env.local`, nie trafia na GitHub)
 `PRODUCT_FEED_*` (feed produktów), `INSTALLERS_FEED_*` (instalatorzy), `BUNNY_*` (zdjęcia/wideo),
-`FIGMA_TOKEN`, `DEEPL_API_KEY`.
+`FIGMA_TOKEN`, `DEEPL_API_KEY`, `INSTAGRAM_ACCESS_TOKEN`.

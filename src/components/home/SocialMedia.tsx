@@ -17,9 +17,12 @@ export function SocialMedia({
   data,
   links,
   videos,
+  posts,
 }: {
   data: HomeContent["social"];
   links: SettingsContent["social"];
+  /** Latest Instagram posts; falls back to the CMS list. */
+  posts: readonly { href: string; image: string | null; title?: string }[];
   /** Latest channel videos (from the YouTube feed); falls back to the CMS list. */
   videos: readonly { href: string; image: string | null; title?: string; vertical?: boolean }[];
 }) {
@@ -56,16 +59,18 @@ export function SocialMedia({
       <Strip
         className="mt-[20px] h-[225px]"
         offset={-40}
-        setWidth={data.posts.length * 245}
-        seconds={(data.posts.length * 245) / SPEED}
+        setWidth={posts.length * 245}
+        seconds={(posts.length * 245) / SPEED}
         direction="right"
       >
-        {data.posts.map((p, i) => (
+        {posts.map((p, i) => (
           <a
             key={i}
             href={p.href}
             target="_blank"
             rel="noopener noreferrer"
+            title={p.title}
+            aria-label={p.title || "Instagram"}
             className="relative block size-[225px] shrink-0 overflow-hidden rounded-[16px] shadow-dark-l"
           >
             {p.image && <Image src={p.image} alt="" fill sizes="225px" className="object-cover" />}

@@ -208,7 +208,12 @@ export const homeSchema = {
           image: image("Post (310×310)"),
           href: fields.text({ label: "Link do posta" }),
         }),
-        { label: "Posty (dolny pasek)", itemLabel: (p) => p.fields.href.value || "Post" },
+        {
+          label: "Posty (dolny pasek) — zapasowe",
+          description:
+            "Dolny pasek pokazuje najnowsze posty z Instagrama (token INSTAGRAM_ACCESS_TOKEN), odświeżane raz na dobę. Ta lista jest używana tylko, gdy Instagram jest niedostępny.",
+          itemLabel: (p) => p.fields.href.value || "Post",
+        },
       ),
     },
     { label: "Odkryj nas na Social Media" },

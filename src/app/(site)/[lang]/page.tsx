@@ -14,6 +14,7 @@ import type { Locale } from "@/i18n/config";
 import { getUi } from "@/i18n/ui";
 import { getHome, getLatestGuides, getSettings, type HomeContent } from "@/lib/content";
 import { getRotensoProducts, setPrice } from "@/lib/productFeed";
+import { getInstagramPosts } from "@/lib/instagram";
 import { getChannelVideos } from "@/lib/youtube";
 
 // Prices come from the product feed — regenerate the page at most once a day.
@@ -50,6 +51,18 @@ async function loadVideos(home: HomeContent) {
   }
 }
 
+// Social Media lower strip: newest Instagram posts; the CMS list is the fallback.
+async function loadPosts(home: HomeContent) {
+  const fallback = home.social.posts;
+  try {
+    const posts = await getInstagramPosts();
+    return posts.length >= 3 ? posts : fallback;
+  } catch (e) {
+    console.error("[instagram] feed niedostępny — lista z panelu:", (e as Error).message);
+    return fallback;
+  }
+}
+
 export async function generateMetadata({ params }: PageProps<"/[lang]">): Promise<Metadata> {
   const { lang } = await params;
   const home = await getHome(lang as Locale);
@@ -64,9 +77,10 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
   const [home, settings] = await Promise.all([getHome(lang as Locale), getSettings(lang as Locale)]);
   const ui = getUi(lang as Locale);
-  const [prices, videos, latestGuides] = await Promise.all([
+  const [prices, videos, posts, latestGuides] = await Promise.all([
     loadPrices(lang as Locale, home),
     loadVideos(home),
+    loadPosts(home),
     getLatestGuides(lang as Locale),
   ]);
   // Newest imported guides; languages without guides yet keep the list from the CMS.
@@ -86,7 +100,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
       <div className="relative mt-[250px]">
         {/* Rectangle 33: backdrop from y 8167, 1156px tall. */}
         <SectionBackdrop top={-100} height={1156} />
-        <SocialMedia data={home.social} links={settings.social} videos={videos} />
+        <SocialMedia data={home.social} links={settings.social} videos={videos} posts={posts} />
       </div>
       <Seo seo={home.seo} />
     </main>
