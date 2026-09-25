@@ -13,13 +13,15 @@ const BAR_W = 267.442;
 const BAR_PITCH = 294.19;
 
 // Figma: "Header" (5172:70639) — 1820×930 rounded box, 50px from the page edges.
+// Height follows the screen: 100svh − 150px is exactly 930px on the 1080px-high design frame.
+// The panel is centred (as in Figma) and the timer is anchored to the bottom edge.
 export function HeroSlider({ slides, ui }: { slides: HomeContent["heroSlides"]; ui: Ui }) {
   const [index, setIndex] = useState(0);
   const count = slides.length;
   const go = (i: number) => setIndex((i + count) % count);
 
   return (
-    <section className="relative mx-[50px] mt-[50px] h-[930px] overflow-hidden rounded-[32px] bg-[#3a4044]">
+    <section className="relative mx-[50px] mt-[50px] h-[calc(100svh-150px)] min-h-[540px] overflow-hidden rounded-[32px] bg-[#3a4044]">
       {slides.map((s, i) => (
         <div
           key={s.tab}
@@ -44,7 +46,7 @@ export function HeroSlider({ slides, ui }: { slides: HomeContent["heroSlides"]; 
           <div
             key={s.tab}
             aria-hidden={i !== index}
-            className={`absolute top-[290px] left-0 flex w-[530px] flex-col items-start gap-[30px] rounded-[32px] bg-black/50 px-[30px] pt-[30px] pb-[50px] text-white backdrop-blur-[10px] transition-opacity duration-700 ${
+            className={`absolute top-1/2 left-0 flex w-[530px] -translate-y-1/2 flex-col items-start gap-[30px] rounded-[32px] bg-black/50 px-[30px] pt-[30px] pb-[50px] text-white backdrop-blur-[10px] transition-opacity duration-700 ${
               i === index ? "opacity-100" : "pointer-events-none opacity-0"
             }`}
           >
@@ -67,13 +69,13 @@ export function HeroSlider({ slides, ui }: { slides: HomeContent["heroSlides"]; 
           </div>
         ))}
 
-        {/* Timer: bars at y 867, labels at y 876, controls at y 854 (relative to the box). */}
+        {/* Timer: bars 60px and labels 30px above the bottom edge, controls 46px (Figma y 867 / 876 / 854 of 930). */}
         {slides.map((s, i) => (
           <button
             key={s.tab}
             type="button"
             onClick={() => go(i)}
-            className="absolute top-[867px] h-[33px] cursor-pointer text-left"
+            className="absolute bottom-[30px] h-[33px] cursor-pointer text-left"
             style={{ left: i * BAR_PITCH, width: BAR_W }}
           >
             <span
@@ -102,7 +104,7 @@ export function HeroSlider({ slides, ui }: { slides: HomeContent["heroSlides"]; 
           </button>
         ))}
 
-        <div className="absolute top-[854px] left-[1180px] flex items-center">
+        <div className="absolute bottom-[46px] left-[1180px] flex items-center">
           <button type="button" aria-label={ui.prevSlide} onClick={() => go(index - 1)} className="cursor-pointer">
             <Icon name="arrow-w2-left" width={30} height={30} />
           </button>

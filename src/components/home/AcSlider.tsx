@@ -36,7 +36,11 @@ export function AcSlider({
   const [active, setActive] = useState<0 | 1>(0);
 
   return (
-    <section className="relative -mt-[200px] h-[880px] overflow-hidden" aria-roledescription="carousel">
+    // Height follows the screen: 100svh − 200px = 880px on the 1080px design frame.
+    <section
+      className="relative -mt-[200px] h-[calc(100svh-200px)] min-h-[680px] overflow-hidden"
+      aria-roledescription="carousel"
+    >
       <div
         className="flex h-full gap-[50px] transition-transform duration-700 ease-in-out"
         style={{
@@ -99,7 +103,7 @@ function AcPanel({
 
   return (
     <div
-      className="relative h-[880px] w-[calc(100%-210px)] shrink-0 overflow-hidden rounded-[32px]"
+      className="relative h-full w-[calc(100%-210px)] shrink-0 overflow-hidden rounded-[32px]"
       aria-hidden={!current}
       inert={!current}
       onMouseEnter={() => setHover(true)}
@@ -114,14 +118,14 @@ function AcPanel({
         <div className="absolute inset-x-0 bottom-0 h-[30.11%] rounded-b-[32px] bg-gradient-to-t from-black to-transparent to-[93.585%] opacity-50" />
       )}
 
-      <h2 className="absolute top-[70px] left-[9.1%] text-h1 leading-[1.2] font-light whitespace-nowrap text-white">
+      <h2 className="absolute top-[clamp(30px,6.48svh,70px)] left-[9.1%] text-h1 leading-[1.2] font-light whitespace-nowrap text-white">
         {slide.title}
       </h2>
 
       <button
         type="button"
         onClick={onSwitch}
-        className="absolute top-[100px] right-[6.02%] flex cursor-pointer items-center gap-[15px] text-h3 leading-[normal] font-light whitespace-nowrap text-white"
+        className="absolute top-[clamp(40px,9.26svh,100px)] right-[6.02%] flex cursor-pointer items-center gap-[15px] text-h3 leading-[normal] font-light whitespace-nowrap text-white"
       >
         {switchDir === "left" && <Icon name="arrow-w2-left" width={30} height={30} />}
         {slide.switchLabel}
@@ -129,7 +133,7 @@ function AcPanel({
       </button>
 
       {product && (
-        <div className="absolute top-[285px] left-[9.04%] flex w-[310px] flex-col items-start gap-[30px] rounded-[32px] bg-black/50 p-[30px] text-white backdrop-blur-[10px]">
+        <div className="absolute top-[calc(50%+clamp(0px,2.22svh,24px))] left-[9.04%] flex w-[310px] -translate-y-1/2 flex-col items-start gap-[30px] rounded-[32px] bg-black/50 p-[30px] text-white backdrop-blur-[10px]">
           <div className="flex w-full flex-col gap-[20px]">
             <div className="flex w-full flex-col font-light">
               <p className="text-h2 leading-[1.2]">{product.name}</p>
@@ -148,8 +152,8 @@ function AcPanel({
         </div>
       )}
 
-      {/* Bottom row, y 720: arrow · 6 product tiles · arrow · configurator tile (100px side insets). */}
-      <div className="absolute inset-x-[6.02%] top-[720px] flex h-[110px] items-center">
+      {/* Bottom row, 50px above the bottom edge at 1080px: arrow · product tiles · arrow · configurator. */}
+      <div className="absolute inset-x-[6.02%] bottom-[clamp(24px,4.63svh,50px)] flex h-[110px] items-center">
         {count > 1 && (
           <button type="button" aria-label={ui.prevModel} onClick={() => go(index - 1)} className="shrink-0 cursor-pointer">
             <Icon name="arrow-w3-left" width={30} height={30} />

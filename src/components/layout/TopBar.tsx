@@ -5,13 +5,15 @@ import type { SettingsContent } from "@/lib/content";
 import type { Locale } from "@/i18n/config";
 import { getUi } from "@/i18n/ui";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { StickyHeader } from "./StickyHeader";
 
-// Figma: "Top Bar" (5172:70663) — 1300×60, white, radius 8, floats 30px inside the hero.
+// Figma: "Top Bar" (5172:70663) — 1300×60, white, radius 8, floats 30px inside the hero;
+// sticks to the top of the window after scrolling (StickyHeader).
 export function TopBar({ settings, lang }: { settings: SettingsContent; lang: Locale }) {
   const ui = getUi(lang);
   return (
-    <header className="absolute inset-x-0 top-[80px] z-40 flex justify-center px-4">
-      <div className="flex h-[60px] w-[1300px] max-w-full items-center gap-[30px] overflow-clip rounded-[8px] bg-white pr-[15px]">
+    <StickyHeader>
+      <div className="flex h-[60px] w-[1300px] max-w-full items-center gap-[30px] overflow-clip rounded-[8px] bg-white pr-[15px] transition-shadow duration-300 group-data-[stuck]/header:shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
         <Link href={`/${lang}`} aria-label={ui.home} className="shrink-0">
           <Icon name="logo" width={238} height={60} alt="Rotenso — Live better" />
         </Link>
@@ -51,6 +53,6 @@ export function TopBar({ settings, lang }: { settings: SettingsContent; lang: Lo
           <LanguageSwitcher lang={lang} label={ui.language} />
         </div>
       </div>
-    </header>
+    </StickyHeader>
   );
 }

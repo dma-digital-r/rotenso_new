@@ -10,6 +10,8 @@ import type { HomeContent } from "@/lib/content";
 
 // Figma: "Wentilo" (5172:70583) — 1820×880 box; text panel 420×540 + media 860×540 at y 236.
 // The kingfisher ("Zimorodek", 437×437) overlaps the bottom-left corner into the next section.
+// Height follows the screen (100svh − 200px = 880px at 1080); the content row takes the space
+// between the title and a 104px bottom margin.
 export function Wentilo({ wentilo, ui }: { wentilo: HomeContent["wentilo"]; ui: Ui }) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [paused, setPaused] = useState(false);
@@ -28,17 +30,17 @@ export function Wentilo({ wentilo, ui }: { wentilo: HomeContent["wentilo"]; ui: 
   };
 
   return (
-    <section className="relative mx-[50px] mt-[50px] h-[880px]">
+    <section className="relative mx-[50px] mt-[50px] flex h-[calc(100svh-200px)] min-h-[720px] flex-col">
       <div className="absolute inset-0 overflow-hidden rounded-[32px]">
         <FramedImage src={wentilo.background} sizes="100vw" />
       </div>
 
-      <h2 className="relative pt-[100px] text-center text-h1 leading-[1.2] font-light whitespace-nowrap text-white">
+      <h2 className="relative pt-[clamp(40px,9.26svh,100px)] text-center text-h1 leading-[1.2] font-light whitespace-nowrap text-white">
         {wentilo.title}
       </h2>
 
-      <div className="relative mx-auto mt-[50px] flex w-[1300px] max-w-[calc(100%-32px)] gap-[20px]">
-        <div className="flex h-[540px] w-[420px] shrink-0 flex-col justify-center rounded-[32px] bg-black/50 p-[30px] backdrop-blur-[10px]">
+      <div className="relative mx-auto mt-[clamp(24px,4.63svh,50px)] mb-[clamp(40px,9.63svh,104px)] flex min-h-0 w-[1300px] max-w-[calc(100%-32px)] flex-1 gap-[20px]">
+        <div className="flex h-full w-[420px] shrink-0 flex-col justify-center rounded-[32px] bg-black/50 p-[30px] backdrop-blur-[10px]">
           <div className="flex w-full flex-col items-start gap-[30px]">
             <div className="flex w-full flex-col gap-[20px] text-white">
               <h3 className="text-h2 leading-[1.2] font-light">{wentilo.productName}</h3>
@@ -65,7 +67,7 @@ export function Wentilo({ wentilo, ui }: { wentilo: HomeContent["wentilo"]; ui: 
           </div>
         </div>
 
-        <div className="relative h-[540px] w-[860px] min-w-0 shrink overflow-hidden rounded-[32px]">
+        <div className="relative h-full w-[860px] min-w-0 shrink overflow-hidden rounded-[32px]">
           {wentilo.video ? (
             <video
               ref={videoRef}
@@ -92,7 +94,7 @@ export function Wentilo({ wentilo, ui }: { wentilo: HomeContent["wentilo"]; ui: 
             onClick={toggle}
             aria-label={paused ? ui.play : ui.pause}
             aria-pressed={paused}
-            className="absolute top-[470px] left-[790px] size-[40px] cursor-pointer"
+            className="absolute right-[30px] bottom-[30px] size-[40px] cursor-pointer"
           >
             <Icon name="pause-ring" width={40} height={40} className="absolute inset-0 size-full" />
             <span className="absolute inset-[32.5%_40%_31.25%_37.5%]">
@@ -111,7 +113,7 @@ export function Wentilo({ wentilo, ui }: { wentilo: HomeContent["wentilo"]; ui: 
         width={437}
         height={437}
         sizes="437px"
-        className="pointer-events-none absolute top-[760px] left-[133px] z-10 size-[437px] object-cover"
+        className="pointer-events-none absolute bottom-[-317px] left-[133px] z-10 size-[437px] object-cover"
       />
     </section>
   );
