@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Icon } from "@/components/ui/Icon";
 import type { HomeContent, SettingsContent } from "@/lib/content";
 
-const socials = ["facebook", "youtube", "instagram", "tiktok", "spotify", "linkedin"] as const;
+export const socials = ["facebook", "youtube", "instagram", "tiktok", "spotify", "linkedin"] as const;
 
 // Figma: "SoMe" (5172:70335), 1920×956. Both strips repeat their set twice in the
 // design, i.e. an endless loop: films (first at x 20), posts (first at x −40). Videos 225px high; posts 225×281 = 4:5, the Instagram grid format
@@ -100,7 +100,7 @@ export function SocialMedia({
 }
 
 // Endless strip: the set is rendered twice and the track moves by one set width, then loops.
-function Strip({
+export function Strip({
   children,
   className,
   offset,

@@ -148,3 +148,86 @@ featureGroups:
         tooltip: ""
 seoTitle: Klimatyzator Rotenso Mirai — high premium, A+++
 seoDescription: Rotenso Mirai — klimatyzator high premium o klasie energetycznej A+++, wydajny nawet przy -30°C. Parametry, ceny i pliki do pobrania.
+intro:
+  image: /images/products/mirai-intro.jpg
+  video: ''
+  title: Komfort klasy premium każdego dnia
+  text: Rotenso Mirai to zaawansowane funkcje oraz wydajność, które zapewniają przyjemne chłodzenie i ogrzewanie, kiedy tylko tego potrzebujesz.
+  more: Poznaj model Mirai
+feature:
+  show: true
+  background: /images/products/mirai-feature-bg.jpg
+  unitImage: /images/products/mirai-feature-unit.png
+  airflow: /images/products/mirai-airflow.jpg
+  kicker: Ultra wydajna technologia
+  title: |-
+    Grzanie nawet przy
+    -30°C na zewnątrz
+  text: |-
+    Rotenso Mirai to klimatyzator, który nie tylko efektywnie chłodzi latem, ale równie skutecznie ogrzewa pomieszczenia zimą. Działa niezawodnie nawet wtedy, gdy na zewnątrz panują mrozy do -30°C. Zapewnia przyjemne ciepło wewnątrz bez dużego zużycia energii i wysokich rachunków.
+
+    To sprawia, że Mirai jest idealnym rozwiązaniem do całorocznego używania w domu, mieszkaniu lub w biurze.
+featureSlides:
+  - image: /images/products/mirai-slide-1.jpg
+    title: Inteligentny czujnik ruchu
+    text: Smart Eye Away to inteligentny czujnik, który wykrywa obecność osoby w pomieszczeniu i automatycznie kieruje nawiew powietrza tak, aby nie był skierowany bezpośrednio na nią. Dzięki temu podczas chłodzenia możesz cieszyć się przyjemną temperaturą bez uczucia niekomfortowego podmuchu.
+  - image: /images/products/mirai-slide-2.jpg
+    title: Jonizator powietrza
+    text: Rotenso Mirai wyposażony jest w jonizator powietrza, który oczyszcza powietrze z drobnych zanieczyszczeń, kurzu i alergenów, tworząc zdrowsze środowisko w pomieszczeniu. Dodatkowo jonizacja pomaga utrzymać świeży i przyjemny mikroklimat, zwiększając komfort codziennego użytkowania klimatyzatora.
+splitVsMulti: true
+advantages:
+  title: Poznaj więcej atutów
+  items:
+    - image: /images/products/mirai-atut-klasa.jpg
+      title: Klasa A+++
+      text: Klasa energetyczna A+++ oznacza, że Rotenso Mirai zapewnia wysoką wydajność chłodzenia i grzania przy bardzo niskim zużyciu prądu, co przekłada się na realnie niższe rachunki za energię.
+    - image: /images/products/mirai-atut-moc.jpg
+      title: Moc grzewcza ≤7,2 KW
+      text: Wysoka moc grzewcza pozwala Rotenso Mirai skutecznie ogrzewać pomieszczenia także w chłodne dni, dlatego sprawdza się jako źródło ciepła przez cały rok.
+    - image: /images/products/mirai-atut-aplikacja.jpg
+      title: Sterowanie aplikacją
+      text: Wbudowane WiFi pozwala sterować klimatyzatorem z aplikacji w telefonie — włączysz go, zmienisz tryb lub temperaturę, zanim wrócisz do domu.
+    - image: /images/products/mirai-atut-filtr.jpg
+      title: Filtr antybakteryjny
+      text: Filtr antybakteryjny zatrzymuje kurz i drobne zanieczyszczenia, dzięki czemu powietrze w pomieszczeniu jest czystsze i przyjemniejsze.
+  grid:
+    - image: /images/products/mirai-grid-caloroczny.jpg
+      title: Pakiet pracy całorocznej
+      text: Grzałki tacy ociekowej i sprężarki chronią jednostkę zewnętrzną przed zamarzaniem, dzięki czemu Mirai może niezawodnie grzać również podczas mrozów.
+    - image: /images/products/mirai-grid-cichy.jpg
+      title: Tryb super cichy
+      text: W trybie super cichym jednostka wewnętrzna pracuje z głośnością od 21 dB(A) — ciszej niż szept, więc nie przeszkadza w pracy ani podczas snu.
+    - image: /images/products/mirai-grid-bms.jpg
+      title: Smart Home BMS
+      text: Klimatyzator można podłączyć do systemów inteligentnego domu i zarządzania budynkiem (BMS), aby sterować nim razem z innymi urządzeniami.
+    - image: /images/products/mirai-grid-smart-away.jpg
+      title: Funkcja Smart Away
+      text: Gdy czujnik nie wykrywa nikogo w pomieszczeniu, klimatyzator automatycznie przechodzi w oszczędny tryb pracy, a po Twoim powrocie wraca do ustawień.
+videos:
+  - url: https://www.youtube.com/watch?v=4qUguiz7_40
+    title: |-
+      Klimatyzacja do ogrzewania
+      - ROTENSO MIRAI
+    text: To model Premium w gamie marki Rotenso. Klimatyzacja o najwyższej klasie energooszczędności chłodzenia i grzania A+++, ze znakomitymi parametrami wydajności...
+  - url: https://www.youtube.com/watch?v=ZyEANjIsyFk
+    title: Klimatyzacja ROTENSO MIRAI. Idealny do zadań specjalnych
+    text: Rotenso MIRAI to klimatyzator, który może pochwalić się wysoką klasą efektywności energetycznej zarówno w trybie chłodzenia, jak i ogrzewania.
+  - url: https://www.youtube.com/watch?v=kqQAMEVnGD8
+    title: NetHome Plus + Rotenso Mirai❄️ | Film instruktażowy
+    text: |-
+      Połączenie klimatyzacji z aplikacją sprawia Wam trudność?📱
+      Przygotowaliśmy krótki film instruktażowy, który pozwoli Wam przejść przez ten proces.👌
+  - url: https://www.youtube.com/watch?v=BnOd_bSJuLs
+    title: REVIO, MIRAI, UKURA H 🔥
+    text: Poznaj nasze klimatyzatory Rotenso stworzone po to, by bezproblemowo ogrzewać Twój dom!
+faq:
+  - question: Czym wyróżnia się klimatyzator Rotenso Mirai?
+    answer: Rotenso Mirai to nowoczesny klimatyzator ścienny, który łączy wysoką wydajność, energooszczędność i elegancki design. Urządzenie zapewnia skuteczne chłodzenie i ogrzewanie, komfortową pracę oraz zaawansowane funkcje poprawiające jakość powietrza.
+  - question: Czy klimatyzator Rotenso Mirai nadaje się do ogrzewania?
+    answer: Tak. Mirai ma klasę energetyczną A+++ również w trybie grzania (SCOP 5,3) i pracuje przy temperaturze zewnętrznej nawet do -30°C, dlatego może ogrzewać dom, mieszkanie lub biuro przez cały rok.
+  - question: Jaką powierzchnię może obsłużyć klimatyzator Rotenso Mirai?
+    answer: Mirai jest dostępny w mocach 2,6 kW i 3,5 kW. Właściwa moc zależy nie tylko od metrażu, ale też od izolacji budynku, nasłonecznienia i liczby osób w pomieszczeniu — dlatego najlepiej dobrać ją razem z instalatorem.
+  - question: Czy Rotenso Mirai jest energooszczędny?
+    answer: Tak. Mirai ma najwyższą klasę energetyczną A+++ zarówno w chłodzeniu (SEER do 9,3), jak i w grzaniu (SCOP 5,3), co przekłada się na niskie zużycie prądu i niższe rachunki.
+  - question: Czy klimatyzator Rotenso Mirai jest głośny?
+    answer: Nie. Jednostka wewnętrzna pracuje z głośnością od 21 dB(A) w najcichszym trybie, więc sprawdza się również w sypialni i pokoju dziecka.

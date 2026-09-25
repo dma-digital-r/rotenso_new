@@ -94,3 +94,45 @@ social:
 copyright: |-
   © {rok} Rotenso®. Všechna práva vyhrazena.
   Vyhrazujeme si právo na chyby v popisech a technických parametrech. Vynakládáme veškeré úsilí, aby fotografie věrně zachycovaly barvy jednotek; kvůli rozdílům v nastavení monitorů se však barvy mohou od skutečnosti lišit.
+splitVsMulti:
+  title: Split, nebo Multi Split?
+  split:
+    image: /images/products/split-system.jpg
+    title: Systém Split
+    text: Nejjednodušší a nejčastěji volený typ klimatizace do domu nebo bytu. Skládá se z jedné jednotky uvnitř místnosti (obvykle na stěně) a jedné jednotky venku. Je ideální, pokud chcete zajistit komfort v jedné konkrétní místnosti, např. v obývacím pokoji nebo ložnici.
+  multi:
+    image: /images/products/multi-split-system.jpg
+    title: Systém Multi Split
+    text: Dobrá volba, pokud chcete klimatizovat více místností současně, ale nemůžete nebo nechcete montovat několik venkovních jednotek na fasádu. Venku se instaluje jediná jednotka, která obsluhuje několik vnitřních klimatizací. Celek vypadá esteticky a nezabírá mnoho místa.
+quoteForm:
+  title: Poptejte cenovou nabídku
+  text: |-
+    Váš komfort je pro nás standard.
+    Zanechte nám kontakt a instalatér vám připraví nabídku montáže klimatizace.
+  background: /images/forms/quote-bg.jpg
+  step1: |-
+    Krok 1.
+    Zanechte nám své kontaktní údaje. Váš požadavek dostane instalatér klimatizací ve vašem okolí.
+  phone: Vaše telefonní číslo*
+  email: Vaše e-mailová adresa*
+  postcode: PSČ místa instalace*
+  contactTime: Preferovaná doba kontaktu
+  contactTimes:
+    - Ráno (8:00–12:00)
+    - Odpoledne (12:00–16:00)
+    - Večer (16:00–20:00)
+    - Kdykoli
+  consent: Souhlasím se zpracováním svých osobních údajů...
+  consentFull: ''
+  required: '*povinná pole'
+  submit: Odeslat zprávu
+  success: Děkujeme! Váš požadavek byl odeslán — instalatér se vám brzy ozve.
+  error: Požadavek se nepodařilo odeslat. Zkuste to prosím za chvíli znovu nebo nám zavolejte.
+  step2Image: /images/forms/quote-step-2.jpg
+  step2: |-
+    Krok 2.
+    Instalatér vás kontaktuje, aby vybral vhodnou klimatizaci a představil nabídku.
+  step3Image: /images/forms/quote-step-3.jpg
+  step3: |-
+    Krok 3.
+    Jakmile nabídku přijmete, instalatér namontuje vybranou klimatizaci.

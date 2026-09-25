@@ -94,3 +94,45 @@ social:
 copyright: |-
   © {rok} Rotenso®. Alle Rechte vorbehalten.
   Irrtümer in Beschreibungen und technischen Daten vorbehalten. Wir bemühen uns, dass die Fotos die Farben der Geräte naturgetreu wiedergeben; aufgrund unterschiedlicher Monitoreinstellungen können die Farben jedoch von der Realität abweichen.
+splitVsMulti:
+  title: Split oder Multi-Split?
+  split:
+    image: /images/products/split-system.jpg
+    title: Split-System
+    text: Die einfachste und am häufigsten gewählte Art der Klimatisierung für Haus oder Wohnung. Sie besteht aus einem Innengerät im Raum (meist an der Wand) und einem Außengerät vor dem Gebäude. Ideal, wenn Sie den Komfort in einem bestimmten Raum verbessern möchten, z. B. im Wohn- oder Schlafzimmer.
+  multi:
+    image: /images/products/multi-split-system.jpg
+    title: Multi-Split-System
+    text: Eine gute Wahl, wenn Sie mehrere Räume gleichzeitig klimatisieren möchten, aber nicht mehrere Außengeräte an der Fassade montieren können oder wollen. Draußen wird ein einziges Gerät installiert, das mehrere Innengeräte versorgt. Das Ganze sieht ordentlich aus und braucht wenig Platz.
+quoteForm:
+  title: Angebot anfragen
+  text: |-
+    Ihr Komfort ist unser Standard.
+    Hinterlassen Sie Ihre Kontaktdaten, und ein Installateur erstellt Ihnen ein Angebot für die Montage der Klimaanlage.
+  background: /images/forms/quote-bg.jpg
+  step1: |-
+    Schritt 1.
+    Hinterlassen Sie uns Ihre Kontaktdaten. Ihre Anfrage geht an einen Klimaanlagen-Installateur in Ihrer Nähe.
+  phone: Ihre Telefonnummer*
+  email: Ihre E-Mail-Adresse*
+  postcode: Postleitzahl des Montageorts*
+  contactTime: Bevorzugte Kontaktzeit
+  contactTimes:
+    - Vormittags (8:00–12:00)
+    - Nachmittags (12:00–16:00)
+    - Abends (16:00–20:00)
+    - Egal
+  consent: Ich willige in die Verarbeitung meiner personenbezogenen Daten ein...
+  consentFull: ''
+  required: '*Pflichtfelder'
+  submit: Nachricht senden
+  success: Vielen Dank! Ihre Anfrage wurde gesendet — ein Installateur meldet sich in Kürze bei Ihnen.
+  error: Ihre Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es gleich noch einmal oder rufen Sie uns an.
+  step2Image: /images/forms/quote-step-2.jpg
+  step2: |-
+    Schritt 2.
+    Der Installateur meldet sich bei Ihnen, um die passende Klimaanlage auszuwählen und ein Angebot vorzulegen.
+  step3Image: /images/forms/quote-step-3.jpg
+  step3: |-
+    Schritt 3.
+    Sobald Sie das Angebot annehmen, montiert der Installateur die gewählte Klimaanlage.

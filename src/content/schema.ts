@@ -369,6 +369,88 @@ export const productSchema = {
     }),
     { label: "Cechy produktu (Specyfikacja)", itemLabel: (g) => g.fields.title.value || "Grupa" },
   ),
+  intro: fields.object(
+    {
+      image: image("Kadr / zdjęcie (1920×1080)", "products"),
+      video: fields.text({
+        label: "Film (adres MP4, opcjonalnie)",
+        description: "Np. z Bunny. Gdy jest — odtwarza się w pętli bez dźwięku zamiast zdjęcia.",
+      }),
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+      more: fields.text({ label: "Napis nad strzałką (np. Poznaj model Mirai)" }),
+    },
+    { label: "Sekcja „Intro Video 180” (pod paskiem produktu)" },
+  ),
+  feature: fields.object(
+    {
+      show: fields.checkbox({ label: "Pokaż sekcję", defaultValue: true }),
+      background: image("Tło (1920×1030)", "products"),
+      unitImage: image("Jednostka (przezroczysty PNG, 530×220)", "products"),
+      airflow: image("Nawiew (na czarnym tle — nakładany trybem „screen”)", "products"),
+      kicker: fields.text({ label: "Nadtytuł" }),
+      title: fields.text({ label: "Tytuł", multiline: true }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+    },
+    { label: "Sekcja „Cecha” (panel na zdjęciu)" },
+  ),
+  featureSlides: fields.array(
+    fields.object({
+      image: image("Zdjęcie (1340×754)", "products"),
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+    }),
+    { label: "Slajder cech (duże slajdy)", itemLabel: (s) => s.fields.title.value || "Slajd" },
+  ),
+  splitVsMulti: fields.checkbox({
+    label: "Pokaż sekcję „Split czy Multi Split?”",
+    description: "Treść sekcji jest wspólna — Ustawienia → Split czy Multi Split.",
+    defaultValue: false,
+  }),
+  advantages: fields.object(
+    {
+      title: fields.text({ label: "Tytuł (np. Poznaj więcej atutów)" }),
+      items: fields.array(
+        fields.object({
+          image: image("Zdjęcie (970×545)", "products"),
+          title: fields.text({ label: "Tytuł" }),
+          text: fields.text({ label: "Opis pod aktywnym kafelkiem", multiline: true }),
+        }),
+        { label: "Kafelki slajdera", itemLabel: (s) => s.fields.title.value || "Atut" },
+      ),
+      grid: fields.array(
+        fields.object({
+          image: image("Zdjęcie", "products"),
+          title: fields.text({ label: "Tytuł" }),
+          text: fields.text({ label: "Opis po kliknięciu „+” (puste = bez przycisku)", multiline: true }),
+        }),
+        {
+          label: "Siatka pod slajderem (4 kafelki: szeroki, wąski / wąski, szeroki)",
+          itemLabel: (s) => s.fields.title.value || "Kafelek",
+        },
+      ),
+    },
+    { label: "Atuty" },
+  ),
+  videos: fields.array(
+    fields.object({
+      url: fields.text({ label: "Link do filmu YouTube" }),
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Opis", multiline: true }),
+    }),
+    {
+      label: "Multimedia — filmy o produkcie",
+      description: "Miniatury pobierane z YouTube. Docelowo lista może być uzupełniana automatycznie (YouTube API).",
+      itemLabel: (v) => v.fields.title.value || "Film",
+    },
+  ),
+  faq: fields.array(
+    fields.object({
+      question: fields.text({ label: "Pytanie" }),
+      answer: fields.text({ label: "Odpowiedź", multiline: true }),
+    }),
+    { label: "Pytania i odpowiedzi (FAQ)", itemLabel: (q) => q.fields.question.value || "Pytanie" },
+  ),
   seoTitle: fields.text({ label: "SEO — tytuł" }),
   seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
 };
@@ -409,6 +491,48 @@ export const settingsSchema = {
       linkedin: fields.text({ label: "LinkedIn" }),
     },
     { label: "Social media" },
+  ),
+  splitVsMulti: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      split: fields.object(
+        { image: image("Grafika", "products"), title: fields.text({ label: "Tytuł" }), text: fields.text({ label: "Tekst", multiline: true }) },
+        { label: "Split" },
+      ),
+      multi: fields.object(
+        { image: image("Grafika", "products"), title: fields.text({ label: "Tytuł" }), text: fields.text({ label: "Tekst", multiline: true }) },
+        { label: "Multi Split" },
+      ),
+    },
+    { label: "Karty produktów — „Split czy Multi Split?”" },
+  ),
+  quoteForm: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Tekst pod tytułem", multiline: true }),
+      background: image("Tło", "forms"),
+      step1: fields.text({ label: "Krok 1 — tekst", multiline: true }),
+      phone: fields.text({ label: "Pole: telefon" }),
+      email: fields.text({ label: "Pole: e-mail" }),
+      postcode: fields.text({ label: "Pole: kod pocztowy" }),
+      contactTime: fields.text({ label: "Pole: pora kontaktu" }),
+      contactTimes: fields.array(fields.text({ label: "Opcja" }), { label: "Pora kontaktu — opcje", itemLabel: (o) => o.value || "Opcja" }),
+      consent: fields.text({ label: "Zgoda — skrót (widoczny)" }),
+      consentFull: fields.text({
+        label: "Zgoda — pełna treść (po kliknięciu „rozwiń”)",
+        description: "Do uzupełnienia przez dział prawny. Puste = brak przycisku „rozwiń”.",
+        multiline: true,
+      }),
+      required: fields.text({ label: "Dopisek (np. *pola wymagane)" }),
+      submit: fields.text({ label: "Przycisk" }),
+      success: fields.text({ label: "Komunikat po wysłaniu", multiline: true }),
+      error: fields.text({ label: "Komunikat błędu", multiline: true }),
+      step2Image: image("Krok 2 — zdjęcie", "forms"),
+      step2: fields.text({ label: "Krok 2 — tekst", multiline: true }),
+      step3Image: image("Krok 3 — zdjęcie", "forms"),
+      step3: fields.text({ label: "Krok 3 — tekst", multiline: true }),
+    },
+    { label: "Karty produktów — formularz „Zapytaj o wycenę”" },
   ),
   copyright: fields.text({
     label: "Stopka — prawa autorskie",

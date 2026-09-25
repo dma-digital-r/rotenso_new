@@ -94,3 +94,45 @@ social:
 copyright: |-
   © {rok} Rotenso®. All rights reserved.
   We reserve the right to errors in descriptions and technical specifications. We make every effort to ensure that photographs faithfully reproduce the colours of our units; however, due to differences in individual monitor settings, colours may differ from reality.
+splitVsMulti:
+  title: Split or Multi Split?
+  split:
+    image: /images/products/split-system.jpg
+    title: Split system
+    text: The simplest and most popular type of air conditioning for a house or flat. It consists of one unit inside the room (usually on the wall) and one unit outside the building. It is the ideal choice if you want comfort in one particular room, e.g. the living room or bedroom.
+  multi:
+    image: /images/products/multi-split-system.jpg
+    title: Multi Split system
+    text: A good choice if you want air conditioning in several rooms at once but cannot or do not want to mount several outdoor units on the façade. One outdoor unit is installed outside the building and serves several indoor units. The whole system looks neat and takes up little space.
+quoteForm:
+  title: Ask for a quote
+  text: |-
+    Your comfort is our standard.
+    Leave your contact details and an installer will prepare an air conditioning installation offer for you.
+  background: /images/forms/quote-bg.jpg
+  step1: |-
+    Step 1.
+    Leave us your contact details. Your request will go to an air conditioning installer in your area.
+  phone: Your phone number*
+  email: Your e-mail address*
+  postcode: Postcode of the installation site*
+  contactTime: Preferred contact time
+  contactTimes:
+    - Morning (8:00–12:00)
+    - Afternoon (12:00–16:00)
+    - Evening (16:00–20:00)
+    - Any time
+  consent: I consent to the processing of my personal data...
+  consentFull: ''
+  required: '*required fields'
+  submit: Send message
+  success: Thank you! Your request has been sent — an installer will contact you soon.
+  error: We could not send your request. Please try again in a moment or give us a call.
+  step2Image: /images/forms/quote-step-2.jpg
+  step2: |-
+    Step 2.
+    The installer will contact you to choose the right air conditioner and present an offer.
+  step3Image: /images/forms/quote-step-3.jpg
+  step3: |-
+    Step 3.
+    Once you accept the offer, the installer will install the chosen air conditioner.

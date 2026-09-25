@@ -53,3 +53,18 @@ export async function getChannelVideos(
 
   return Promise.all(videos.map(async (v) => ({ ...v, image: await thumbnail(v.id, v.vertical) })));
 }
+
+/** YouTube video id from a watch / youtu.be / shorts / embed link. */
+export function youtubeId(url: string) {
+  const m = url.match(/(?:v=|youtu\.be\/|shorts\/|embed\/)([\w-]{11})/);
+  return m?.[1] ?? null;
+}
+
+/** Films picked in the CMS (YouTube links) with the best available landscape thumbnail. */
+export async function getVideosByLinks<T extends { url: string }>(items: readonly T[]) {
+  const found = items.flatMap((v) => {
+    const id = youtubeId(v.url);
+    return id ? [{ ...v, id }] : [];
+  });
+  return Promise.all(found.map(async (v) => ({ ...v, image: await thumbnail(v.id, false) })));
+}

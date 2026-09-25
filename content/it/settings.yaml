@@ -94,3 +94,45 @@ social:
 copyright: |-
   © {rok} Rotenso®. Tutti i diritti riservati.
   Ci riserviamo il diritto di errori nelle descrizioni e nei parametri tecnici. Facciamo il possibile affinché le foto riproducano fedelmente i colori delle unità; tuttavia, a causa delle diverse impostazioni dei monitor, i colori possono differire dalla realtà.
+splitVsMulti:
+  title: Split o multi-split?
+  split:
+    image: /images/products/split-system.jpg
+    title: Sistema split
+    text: Il tipo di climatizzazione più semplice e scelto per casa o appartamento. È composto da un’unità all’interno della stanza (di solito a parete) e da un’unità all’esterno dell’edificio. È la soluzione ideale se vuoi garantire il comfort in una stanza specifica, ad es. il soggiorno o la camera da letto.
+  multi:
+    image: /images/products/multi-split-system.jpg
+    title: Sistema multi-split
+    text: Una buona scelta se vuoi climatizzare più stanze contemporaneamente ma non puoi o non vuoi montare più unità esterne sulla facciata. All’esterno viene installata una sola unità che serve più climatizzatori interni. L’insieme è esteticamente curato e occupa poco spazio.
+quoteForm:
+  title: Richiedi un preventivo
+  text: |-
+    Il tuo comfort è il nostro standard.
+    Lascia i tuoi recapiti e un installatore preparerà per te un’offerta di installazione del climatizzatore.
+  background: /images/forms/quote-bg.jpg
+  step1: |-
+    Passo 1.
+    Lasciaci i tuoi recapiti. La tua richiesta arriverà a un installatore di climatizzatori della tua zona.
+  phone: Il tuo numero di telefono*
+  email: Il tuo indirizzo e-mail*
+  postcode: CAP del luogo di installazione*
+  contactTime: Orario di contatto preferito
+  contactTimes:
+    - Mattina (8:00–12:00)
+    - Pomeriggio (12:00–16:00)
+    - Sera (16:00–20:00)
+    - Indifferente
+  consent: Acconsento al trattamento dei miei dati personali...
+  consentFull: ''
+  required: '*campi obbligatori'
+  submit: Invia messaggio
+  success: Grazie! La tua richiesta è stata inviata — un installatore ti contatterà a breve.
+  error: Non è stato possibile inviare la richiesta. Riprova tra poco oppure chiamaci.
+  step2Image: /images/forms/quote-step-2.jpg
+  step2: |-
+    Passo 2.
+    L’installatore ti contatterà per scegliere il climatizzatore adatto e presentarti un’offerta.
+  step3Image: /images/forms/quote-step-3.jpg
+  step3: |-
+    Passo 3.
+    Quando accetti l’offerta, l’installatore monterà il climatizzatore scelto.

@@ -52,6 +52,17 @@ New-NetFirewallRule -DisplayName "Rotenso podglad (3001)" -Direction Inbound -Pr
   - Gdyby posty przestały się pokazywać (np. zmiana hasła do Instagrama unieważnia token): Meta for Developers → aplikacja → Use cases → Instagram → API setup with Instagram login → Generate token → wkleić do `.env.local` i usunąć plik `.cache/instagram-token.json`.
   - Do tego czasu pasek pokazuje zapasowe grafiki z panelu.
 
+## Karty produktów — gdzie co się edytuje
+- **Panel → Produkty (PL) → np. Mirai**: hero, sekcja e-commerce, „Intro Video 180” (zdjęcie albo film MP4), „Cecha”, slajder cech, włącznik „Split czy Multi Split?”, Atuty (slajder + siatka z „+”), Multimedia (linki do filmów YouTube — miniatury pobierają się same), FAQ.
+- **Panel → Ustawienia**: wspólna treść „Split czy Multi Split?” i formularza „Zapytaj o wycenę” (dla wszystkich kart).
+- Pasek zdjęć nad „Odkryj nas na Social Media” to najnowsze posty z Instagrama (jak na stronie głównej).
+- FAQ trafia też do danych strukturalnych (FAQPage) — pomaga w wynikach Google i odpowiedziach AI.
+
+## Formularz „Zapytaj o wycenę”
+- Zgłoszenia idą na `/api/lead`, a stamtąd — metodą POST w formacie JSON — pod adres z `.env.local` → `LEAD_WEBHOOK_URL` (np. webhook CRM albo automatyzacji maili).
+- Dopóki `LEAD_WEBHOOK_URL` nie jest ustawiony, formularz uczciwie pokazuje komunikat błędu (nic nie ginie po cichu).
+- Pełną treść zgody RODO wpisuje się w panelu (Ustawienia → formularz → „Zgoda — pełna treść”); wtedy pojawia się „rozwiń”.
+
 ## Figma (dla programisty)
 | Polecenie | Co robi |
 |---|---|
@@ -59,4 +70,4 @@ New-NetFirewallRule -DisplayName "Rotenso podglad (3001)" -Direction Inbound -Pr
 
 ## Sekrety (plik `.env.local`, nie trafia na GitHub)
 `PRODUCT_FEED_*` (feed produktów), `INSTALLERS_FEED_*` (instalatorzy), `BUNNY_*` (zdjęcia/wideo),
-`FIGMA_TOKEN`, `DEEPL_API_KEY`, `INSTAGRAM_ACCESS_TOKEN`.
+`FIGMA_TOKEN`, `DEEPL_API_KEY`, `INSTAGRAM_ACCESS_TOKEN`, `LEAD_WEBHOOK_URL` (formularz wyceny).
