@@ -1,7 +1,14 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
+import { CurrentYear } from "@/components/ui/CurrentYear";
 import { Icon } from "@/components/ui/Icon";
 import type { SettingsContent } from "@/lib/content";
+
+// "{rok}" in the copyright line is replaced with the current year.
+function withYear(text: string) {
+  const parts = text.split("{rok}");
+  return parts.flatMap((part, i) => (i === 0 ? [part] : [<CurrentYear key={i} />, part]));
+}
 
 const socials = ["facebook", "youtube", "instagram", "tiktok", "spotify", "linkedin"] as const;
 
@@ -88,7 +95,7 @@ export function Footer({ settings }: { settings: SettingsContent }) {
       <SocialIcons links={settings.social} className="absolute inset-x-0 top-[388px]" />
       <div className="absolute inset-x-0 top-[457px] mx-auto h-px w-[1300px] max-w-[calc(100%-32px)] bg-white/20" />
       <p className="absolute inset-x-0 top-[488px] mx-auto w-[1078px] max-w-[calc(100%-32px)] text-center text-[14px] leading-[22px]">
-        {lead}
+        {withYear(lead)}
         {rest.length > 0 && <br />}
         {rest.join(" ")}
       </p>

@@ -213,5 +213,9 @@ export const settingsSchema = {
     },
     { label: "Social media" },
   ),
-  copyright: fields.text({ label: "Stopka — prawa autorskie", multiline: true }),
+  copyright: fields.text({
+    label: "Stopka — prawa autorskie",
+    description: "{rok} zostanie zastąpione bieżącym rokiem",
+    multiline: true,
+  }),
 };
