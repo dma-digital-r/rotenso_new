@@ -12,6 +12,18 @@ tabs:
               href: ''
             cards: wall
             products:
+              - name: Luve Pro
+                tagline: Pokročilé funkce
+                href: /cs/klimatyzacja/luve-pro
+                image: /images/menu/luve-pro.png
+                image2: null
+                colors: []
+              - name: Luve Pro Black
+                tagline: Elegantní černá
+                href: /cs/klimatyzacja/luve-pro-black
+                image: /images/menu/luve-pro-black.png
+                image2: null
+                colors: []
               - name: Mirai
                 tagline: Nejvyšší účinnost
                 href: /cs/klimatyzacja/mirai
@@ -36,22 +48,10 @@ tabs:
                 image: /images/menu/versu-cloth-stone.png
                 image2: null
                 colors: []
-              - name: Versu Pure
-                tagline: Tichý provoz
-                href: /cs/klimatyzacja/versu-pure
-                image: /images/menu/versu-pure.png
-                image2: null
-                colors: []
-              - name: Elis
-                tagline: Nadčasový design
-                href: /cs/klimatyzacja/elis
-                image: /images/menu/elis.png
-                image2: null
-                colors: []
-              - name: Revio
-                tagline: Velká funkčnost
-                href: /cs/klimatyzacja/revio
-                image: /images/menu/revio.png
+              - name: Luve
+                tagline: Moderní design
+                href: /cs/klimatyzacja/luve
+                image: /images/menu/luve.png
                 image2: null
                 colors: []
               - name: Teta
@@ -60,10 +60,10 @@ tabs:
                 image: /images/menu/teta.png
                 image2: null
                 colors: []
-              - name: Imoto
-                tagline: Kompaktní skříň
-                href: /cs/klimatyzacja/imoto
-                image: /images/menu/imoto.png
+              - name: Roni
+                tagline: Prémiový vzhled za nízkou cenu
+                href: /cs/klimatyzacja/roni
+                image: /images/menu/roni.png
                 image2: null
                 colors: []
             seeAll:
@@ -121,28 +121,58 @@ tabs:
               href: ''
             cards: wall
             products:
+              - name: Luve
+                tagline: Moderní design
+                href: /cs/klimatyzacja/luve-multi
+                image: /images/menu/luve.png
+                image2: null
+                colors: []
+              - name: Luve Black
+                tagline: Černá elegance
+                href: /cs/klimatyzacja/luve-black-multi
+                image: /images/menu/luve-black.png
+                image2: null
+                colors: []
               - name: Mirai
                 tagline: Nejvyšší účinnost
                 href: /cs/klimatyzacja/mirai-multi
                 image: /images/menu/mirai.png
                 image2: null
                 colors: []
-              - name: Elis
-                tagline: Nadčasový design
-                href: /cs/klimatyzacja/elis-multi
-                image: /images/menu/elis.png
+              - name: Fresh
+                tagline: Čerstvý vzduch
+                href: /cs/klimatyzacja/fresh-multi
+                image: /images/menu/fresh.png
                 image2: null
                 colors: []
-              - name: Elis Silver
-                tagline: Industriální styl
-                href: /cs/klimatyzacja/elis-silver-multi
-                image: /images/menu/elis-silver.png
+              - name: Versu Cloth Caramel
+                tagline: Výjimečný styl
+                href: /cs/klimatyzacja/versu-cloth-caramel-multi
+                image: /images/menu/versu-cloth-caramel.png
+                image2: null
+                colors: []
+              - name: Versu Cloth Stone
+                tagline: Originální design
+                href: /cs/klimatyzacja/versu-cloth-stone-multi
+                image: /images/menu/versu-cloth-stone.png
+                image2: null
+                colors: []
+              - name: Teta
+                tagline: Minimalismus a spolehlivost
+                href: /cs/klimatyzacja/teta-multi
+                image: /images/menu/teta.png
                 image2: null
                 colors: []
               - name: Imoto
                 tagline: Kompaktní skříň
                 href: /cs/klimatyzacja/imoto-multi
                 image: /images/menu/imoto.png
+                image2: null
+                colors: []
+              - name: Roni
+                tagline: Prémiový vzhled za nízkou cenu
+                href: /cs/klimatyzacja/roni-multi
+                image: /images/menu/roni.png
                 image2: null
                 colors: []
             seeAll:

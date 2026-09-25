@@ -12,6 +12,18 @@ tabs:
               href: ''
             cards: wall
             products:
+              - name: Luve Pro
+                tagline: Zaawansowane funkcje
+                href: /pl/klimatyzacja/luve-pro
+                image: /images/menu/luve-pro.png
+                image2: null
+                colors: []
+              - name: Luve Pro Black
+                tagline: Elegancka czerń
+                href: /pl/klimatyzacja/luve-pro-black
+                image: /images/menu/luve-pro-black.png
+                image2: null
+                colors: []
               - name: Mirai
                 tagline: Najwyższa wydajność
                 href: /pl/klimatyzacja/mirai
@@ -36,22 +48,10 @@ tabs:
                 image: /images/menu/versu-cloth-stone.png
                 image2: null
                 colors: []
-              - name: Versu Pure
-                tagline: Cicha praca
-                href: /pl/klimatyzacja/versu-pure
-                image: /images/menu/versu-pure.png
-                image2: null
-                colors: []
-              - name: Elis
-                tagline: Ponadczasowy design
-                href: /pl/klimatyzacja/elis
-                image: /images/menu/elis.png
-                image2: null
-                colors: []
-              - name: Revio
-                tagline: Duża funkcjonalność
-                href: /pl/klimatyzacja/revio
-                image: /images/menu/revio.png
+              - name: Luve
+                tagline: Nowoczesny design
+                href: /pl/klimatyzacja/luve
+                image: /images/menu/luve.png
                 image2: null
                 colors: []
               - name: Teta
@@ -60,10 +60,10 @@ tabs:
                 image: /images/menu/teta.png
                 image2: null
                 colors: []
-              - name: Imoto
-                tagline: Kompaktowa obudowa
-                href: /pl/klimatyzacja/imoto
-                image: /images/menu/imoto.png
+              - name: Roni
+                tagline: Wygląd premium w niskiej cenie
+                href: /pl/klimatyzacja/roni
+                image: /images/menu/roni.png
                 image2: null
                 colors: []
             seeAll:
@@ -121,28 +121,58 @@ tabs:
               href: ''
             cards: wall
             products:
+              - name: Luve
+                tagline: Nowoczesny design
+                href: /pl/klimatyzacja/luve-multi
+                image: /images/menu/luve.png
+                image2: null
+                colors: []
+              - name: Luve Black
+                tagline: Czarna elegancja
+                href: /pl/klimatyzacja/luve-black-multi
+                image: /images/menu/luve-black.png
+                image2: null
+                colors: []
               - name: Mirai
                 tagline: Najwyższa wydajność
                 href: /pl/klimatyzacja/mirai-multi
                 image: /images/menu/mirai.png
                 image2: null
                 colors: []
-              - name: Elis
-                tagline: Ponadczasowy design
-                href: /pl/klimatyzacja/elis-multi
-                image: /images/menu/elis.png
+              - name: Fresh
+                tagline: Świeże powietrze
+                href: /pl/klimatyzacja/fresh-multi
+                image: /images/menu/fresh.png
                 image2: null
                 colors: []
-              - name: Elis Silver
-                tagline: Industrialny styl
-                href: /pl/klimatyzacja/elis-silver-multi
-                image: /images/menu/elis-silver.png
+              - name: Versu Cloth Caramel
+                tagline: Wyjątkowa stylistyka
+                href: /pl/klimatyzacja/versu-cloth-caramel-multi
+                image: /images/menu/versu-cloth-caramel.png
+                image2: null
+                colors: []
+              - name: Versu Cloth Stone
+                tagline: Oryginalny design
+                href: /pl/klimatyzacja/versu-cloth-stone-multi
+                image: /images/menu/versu-cloth-stone.png
+                image2: null
+                colors: []
+              - name: Teta
+                tagline: Minimalizm i niezawodność
+                href: /pl/klimatyzacja/teta-multi
+                image: /images/menu/teta.png
                 image2: null
                 colors: []
               - name: Imoto
                 tagline: Kompaktowa obudowa
                 href: /pl/klimatyzacja/imoto-multi
                 image: /images/menu/imoto.png
+                image2: null
+                colors: []
+              - name: Roni
+                tagline: Wygląd premium w niskiej cenie
+                href: /pl/klimatyzacja/roni-multi
+                image: /images/menu/roni.png
                 image2: null
                 colors: []
             seeAll:
