@@ -176,10 +176,7 @@ acBusiness:
 wentilo:
   title: Aria fresca grazie alla VMC
   productName: Wentilo ICON
-  text: |-
-    Le unità VMC Rotenso Wentilo garantiscono un apporto costante di aria fresca e filtrata con recupero di calore o di umidità, riducendo al tempo stesso i costi di riscaldamento. Il controllo intelligente ti assicura comfort per tutto il giorno, senza interventi aggiuntivi.
-
-    Scopri la serie Rotenso Wentilo ICON e scegli la soluzione giusta per la tua casa.
+  text: Le unità VMC Rotenso Wentilo garantiscono un apporto costante di aria fresca e filtrata con recupero di calore o di umidità, riducendo al tempo stesso i costi di riscaldamento. Il controllo intelligente ti assicura comfort per tutto il giorno, senza interventi aggiuntivi.
   cta:
     label: Scopri Wentilo ICON
     href: /it/rekuperacja/wentilo-icon
@@ -348,26 +345,26 @@ social:
   youtubeFeed: https://www.youtube.com/feeds/videos.xml?channel_id=UCz0zl0og-ziO470TR_R3v6Q
   videos:
     - image: /images/home/yt-1.png
-      href: https://www.youtube.com/
+      href: https://www.youtube.com/@Rotenso_PL
     - image: /images/home/yt-2.jpg
-      href: https://www.youtube.com/
+      href: https://www.youtube.com/@Rotenso_PL
     - image: /images/home/yt-3.png
-      href: https://www.youtube.com/
+      href: https://www.youtube.com/@Rotenso_PL
     - image: /images/home/yt-4.png
-      href: https://www.youtube.com/
+      href: https://www.youtube.com/@Rotenso_PL
   posts:
     - image: /images/home/post-1.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-2.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-3.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-4.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-5.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-6.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
 seo:
   title: Rotenso
   subtitle: Sistemi HVAC innovativi per la casa e l’azienda

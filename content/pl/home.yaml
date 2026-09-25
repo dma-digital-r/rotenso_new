@@ -306,26 +306,26 @@ social:
   youtubeFeed: https://www.youtube.com/feeds/videos.xml?channel_id=UCz0zl0og-ziO470TR_R3v6Q
   videos:
     - image: /images/home/yt-1.png
-      href: https://www.youtube.com/
+      href: https://www.youtube.com/@Rotenso_PL
     - image: /images/home/yt-2.jpg
-      href: https://www.youtube.com/
+      href: https://www.youtube.com/@Rotenso_PL
     - image: /images/home/yt-3.png
-      href: https://www.youtube.com/
+      href: https://www.youtube.com/@Rotenso_PL
     - image: /images/home/yt-4.png
-      href: https://www.youtube.com/
+      href: https://www.youtube.com/@Rotenso_PL
   posts:
     - image: /images/home/post-1.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-2.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-3.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-4.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-5.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-6.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
 seo:
   title: Rotenso
   subtitle: Innowacyjne systemy HVAC dla domu i biznesu

@@ -176,10 +176,7 @@ acBusiness:
 wentilo:
   title: Fresh air with heat recovery
   productName: Wentilo ICON
-  text: |-
-    Rotenso Wentilo heat recovery units provide a constant supply of fresh, filtered air with heat or moisture recovery while lowering your heating costs. Smart controls keep you comfortable all day without any extra effort.
-
-    Discover the Rotenso Wentilo ICON series and choose the right solution for your home.
+  text: Rotenso Wentilo heat recovery units provide a constant supply of fresh, filtered air with heat or moisture recovery while lowering your heating costs. Smart controls keep you comfortable all day without any extra effort.
   cta:
     label: Discover Wentilo ICON
     href: /en/rekuperacja/wentilo-icon
@@ -348,26 +345,26 @@ social:
   youtubeFeed: https://www.youtube.com/feeds/videos.xml?channel_id=UCz0zl0og-ziO470TR_R3v6Q
   videos:
     - image: /images/home/yt-1.png
-      href: https://www.youtube.com/
+      href: https://www.youtube.com/@Rotenso_PL
     - image: /images/home/yt-2.jpg
-      href: https://www.youtube.com/
+      href: https://www.youtube.com/@Rotenso_PL
     - image: /images/home/yt-3.png
-      href: https://www.youtube.com/
+      href: https://www.youtube.com/@Rotenso_PL
     - image: /images/home/yt-4.png
-      href: https://www.youtube.com/
+      href: https://www.youtube.com/@Rotenso_PL
   posts:
     - image: /images/home/post-1.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-2.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-3.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-4.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-5.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-6.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
 seo:
   title: Rotenso
   subtitle: Innovative HVAC systems for homes and businesses

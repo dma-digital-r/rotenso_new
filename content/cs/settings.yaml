@@ -9,7 +9,7 @@ nav:
     href: /cs/katalogi
   - label: Kontakt
     href: /cs/kontakt
-searchPlaceholder: Hledat
+searchPlaceholder: Zadejte hledaný model
 configurator:
   label: Konfigurátor
   href: /cs/doboromierz
@@ -61,7 +61,6 @@ footerColumns:
         href: /cs/systemy-rvf/jednostki-zewnetrzne
   - heading:
       label: Informace
-      href: ''
     links:
       - label: O nás
         href: /cs/o-nas
@@ -86,12 +85,12 @@ navigate:
   label: Navigovat
   href: https://maps.google.com/?q=Rotenso
 social:
-  facebook: https://www.facebook.com/
-  youtube: https://www.youtube.com/
-  instagram: https://www.instagram.com/
-  tiktok: https://www.tiktok.com/
-  spotify: https://open.spotify.com/
-  linkedin: https://www.linkedin.com/
+  facebook: https://www.facebook.com/rotenso
+  youtube: https://www.youtube.com/@Rotenso_PL
+  instagram: https://www.instagram.com/rotenso.official
+  tiktok: https://www.tiktok.com/@rotenso.official
+  spotify: https://open.spotify.com/show/0WNEImBQhzjgQgSmN5Ph72
+  linkedin: https://pl.linkedin.com/company/rotenso
 copyright: |-
   © {rok} Rotenso®. Všechna práva vyhrazena.
   Vyhrazujeme si právo na chyby v popisech a technických parametrech. Vynakládáme veškeré úsilí, aby fotografie věrně zachycovaly barvy jednotek; kvůli rozdílům v nastavení monitorů se však barvy mohou od skutečnosti lišit.

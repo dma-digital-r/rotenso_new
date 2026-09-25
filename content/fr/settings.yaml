@@ -9,7 +9,7 @@ nav:
     href: /fr/katalogi
   - label: Contact
     href: /fr/kontakt
-searchPlaceholder: Rechercher
+searchPlaceholder: Saisissez le modèle recherché
 configurator:
   label: Configurateur
   href: /fr/doboromierz
@@ -61,7 +61,6 @@ footerColumns:
         href: /fr/systemy-rvf/jednostki-zewnetrzne
   - heading:
       label: Informations
-      href: ''
     links:
       - label: À propos
         href: /fr/o-nas
@@ -86,12 +85,12 @@ navigate:
   label: Itinéraire
   href: https://maps.google.com/?q=Rotenso
 social:
-  facebook: https://www.facebook.com/
-  youtube: https://www.youtube.com/
-  instagram: https://www.instagram.com/
-  tiktok: https://www.tiktok.com/
-  spotify: https://open.spotify.com/
-  linkedin: https://www.linkedin.com/
+  facebook: https://www.facebook.com/rotenso
+  youtube: https://www.youtube.com/@Rotenso_PL
+  instagram: https://www.instagram.com/rotenso.official
+  tiktok: https://www.tiktok.com/@rotenso.official
+  spotify: https://open.spotify.com/show/0WNEImBQhzjgQgSmN5Ph72
+  linkedin: https://pl.linkedin.com/company/rotenso
 copyright: |-
   © {rok} Rotenso®. Tous droits réservés.
   Nous nous réservons le droit d’erreurs dans les descriptions et les caractéristiques techniques. Nous faisons tout notre possible pour que les photos restituent fidèlement les couleurs des appareils ; toutefois, en raison des différents réglages d’écran, les couleurs peuvent différer de la réalité.

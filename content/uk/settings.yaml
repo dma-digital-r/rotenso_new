@@ -9,7 +9,7 @@ nav:
     href: /uk/katalogi
   - label: Контакти
     href: /uk/kontakt
-searchPlaceholder: Пошук
+searchPlaceholder: Введіть модель, яку шукаєте
 configurator:
   label: Конфігуратор
   href: /uk/doboromierz
@@ -61,7 +61,6 @@ footerColumns:
         href: /uk/systemy-rvf/jednostki-zewnetrzne
   - heading:
       label: Інформація
-      href: ''
     links:
       - label: Про нас
         href: /uk/o-nas
@@ -86,12 +85,12 @@ navigate:
   label: Маршрут
   href: https://maps.google.com/?q=Rotenso
 social:
-  facebook: https://www.facebook.com/
-  youtube: https://www.youtube.com/
-  instagram: https://www.instagram.com/
-  tiktok: https://www.tiktok.com/
-  spotify: https://open.spotify.com/
-  linkedin: https://www.linkedin.com/
+  facebook: https://www.facebook.com/rotenso
+  youtube: https://www.youtube.com/@Rotenso_PL
+  instagram: https://www.instagram.com/rotenso.official
+  tiktok: https://www.tiktok.com/@rotenso.official
+  spotify: https://open.spotify.com/show/0WNEImBQhzjgQgSmN5Ph72
+  linkedin: https://pl.linkedin.com/company/rotenso
 copyright: |-
   © {rok} Rotenso®. Усі права захищено.
   Ми залишаємо за собою право на помилки в описах і технічних характеристиках. Ми докладаємо всіх зусиль, щоб фотографії правдиво передавали кольори пристроїв, однак через різні налаштування моніторів кольори можуть відрізнятися від реальних.

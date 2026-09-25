@@ -176,10 +176,7 @@ acBusiness:
 wentilo:
   title: De l’air frais grâce à la VMC double flux
   productName: Wentilo ICON
-  text: |-
-    Les VMC double flux Rotenso Wentilo assurent un apport constant d’air frais et filtré avec récupération de chaleur ou d’humidité, tout en réduisant les frais de chauffage. La commande intelligente vous garantit un confort toute la journée, sans effort supplémentaire.
-
-    Découvrez la série Rotenso Wentilo ICON et choisissez la solution adaptée à votre maison.
+  text: Les VMC double flux Rotenso Wentilo assurent un apport constant d’air frais et filtré avec récupération de chaleur ou d’humidité, tout en réduisant les frais de chauffage. La commande intelligente vous garantit un confort toute la journée, sans effort supplémentaire.
   cta:
     label: Découvrir Wentilo ICON
     href: /fr/rekuperacja/wentilo-icon
@@ -348,26 +345,26 @@ social:
   youtubeFeed: https://www.youtube.com/feeds/videos.xml?channel_id=UCz0zl0og-ziO470TR_R3v6Q
   videos:
     - image: /images/home/yt-1.png
-      href: https://www.youtube.com/
+      href: https://www.youtube.com/@Rotenso_PL
     - image: /images/home/yt-2.jpg
-      href: https://www.youtube.com/
+      href: https://www.youtube.com/@Rotenso_PL
     - image: /images/home/yt-3.png
-      href: https://www.youtube.com/
+      href: https://www.youtube.com/@Rotenso_PL
     - image: /images/home/yt-4.png
-      href: https://www.youtube.com/
+      href: https://www.youtube.com/@Rotenso_PL
   posts:
     - image: /images/home/post-1.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-2.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-3.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-4.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-5.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
     - image: /images/home/post-6.png
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/rotenso.official
 seo:
   title: Rotenso
   subtitle: Systèmes CVC innovants pour la maison et l’entreprise
