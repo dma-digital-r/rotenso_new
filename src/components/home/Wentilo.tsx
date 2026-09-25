@@ -9,7 +9,8 @@ import type { HomeContent } from "@/lib/content";
 import { Kingfisher } from "./Kingfisher";
 
 // Figma: "Wentilo" (5172:70583) — 1820×880 box; text panel 420×540 + media 860×540 at y 236.
-// The kingfisher ("Zimorodek", 437×437) overlaps the bottom-left corner into the next section.
+// The kingfisher ("Zimorodek", 437×437 in Figma, 300×300 on request so it clears the heat-pump
+// intro text) overlaps the bottom-left corner by 120px into the next section.
 // Height follows the screen (100svh − 200px = 880px at 1080); the content row takes the space
 // between the title and a 104px bottom margin.
 export function Wentilo({ wentilo, ui }: { wentilo: HomeContent["wentilo"]; ui: Ui }) {
@@ -109,7 +110,7 @@ export function Wentilo({ wentilo, ui }: { wentilo: HomeContent["wentilo"]; ui: 
 
       <Kingfisher
         sources={[wentilo.kingfisherWebm, wentilo.kingfisherMov]}
-        className="absolute bottom-[-317px] left-[133px] z-10 size-[437px]"
+        className="absolute bottom-[-180px] left-[133px] z-10 size-[300px]"
       />
     </section>
   );

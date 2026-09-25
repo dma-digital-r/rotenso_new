@@ -8,7 +8,7 @@ const PLAYBACK_RATE = 5;
 const typeOf = (url: string) =>
   url.endsWith(".webm") ? "video/webm" : url.endsWith(".mov") ? "video/quicktime" : "video/mp4";
 
-// Figma: "Zimorodek" (5172:70620), 437×437, overlapping the Wentilo box into the next section.
+// Figma: "Zimorodek" (5172:70620), shown at 300×300, overlapping the Wentilo box into the next section.
 // The animated version plays muted, looped and 5× faster. The still PNG stays visible until the
 // video actually plays, so a missing or unsupported file never leaves a hole.
 // For a transparent background browsers need: WebM VP9 with alpha (Chrome, Edge, Firefox) and
@@ -31,7 +31,7 @@ export function Kingfisher({ sources, className }: { sources: string[]; classNam
         src="/images/home/kingfisher.png"
         alt=""
         fill
-        sizes="437px"
+        sizes="300px"
         className={`object-cover transition-opacity duration-300 ${playing ? "opacity-0" : "opacity-100"}`}
       />
       {urls.length > 0 && (
