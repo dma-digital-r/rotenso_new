@@ -29,7 +29,7 @@ export function HeroSlider({ slides }: { slides: HomeContent["heroSlides"] }) {
           {s.background ? (
             <FramedImage src={s.background} sizes="100vw" preload={i === 0} />
           ) : (
-            <MissingMedia label={`Tło slajdu „${s.tab}” — do pobrania z Figmy`} />
+            <MissingMedia label={`Tło slajdu „${s.tab}” — brak w projekcie, do dodania w panelu`} />
           )}
         </div>
       ))}
@@ -54,7 +54,7 @@ export function HeroSlider({ slides }: { slides: HomeContent["heroSlides"] }) {
               ) : (
                 <h2 className="text-[72px] leading-[1.2]">{s.title}</h2>
               )}
-              <p className="text-[25px] leading-normal">{s.text}</p>
+              <p className="text-[25px] leading-[normal]">{s.text}</p>
             </div>
             <div className="flex items-start gap-[10px]">
               <Button variant="m-red" href={s.primary.href} className="w-[173px]">

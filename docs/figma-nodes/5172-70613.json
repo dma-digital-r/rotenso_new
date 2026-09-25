@@ -1,0 +1,164 @@
+{
+  "id": "5172:70613",
+  "name": "Rectangle 24",
+  "type": "RECTANGLE",
+  "scrollBehavior": "SCROLLS",
+  "blendMode": "PASS_THROUGH",
+  "fills": [
+    {
+      "blendMode": "NORMAL",
+      "type": "IMAGE",
+      "scaleMode": "FILL",
+      "imageRef": "a037c62e4ad95cba11e9c3f082f8445e33f46602"
+    }
+  ],
+  "vectorNetwork": {
+    "vertices": [
+      {
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "meta": 0
+      },
+      {
+        "position": {
+          "x": 1820,
+          "y": 0
+        },
+        "meta": 0
+      },
+      {
+        "position": {
+          "x": 1820,
+          "y": 930
+        },
+        "meta": 0
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 930
+        },
+        "meta": 0
+      }
+    ],
+    "segments": [
+      {
+        "start": 0,
+        "startTangent": {
+          "x": 0,
+          "y": 0
+        },
+        "endTangent": {
+          "x": 0,
+          "y": 0
+        },
+        "end": 1,
+        "meta": 0
+      },
+      {
+        "start": 1,
+        "startTangent": {
+          "x": 0,
+          "y": 0
+        },
+        "endTangent": {
+          "x": 0,
+          "y": 0
+        },
+        "end": 2,
+        "meta": 0
+      },
+      {
+        "start": 2,
+        "startTangent": {
+          "x": 0,
+          "y": 0
+        },
+        "endTangent": {
+          "x": 0,
+          "y": 0
+        },
+        "end": 3,
+        "meta": 0
+      },
+      {
+        "start": 3,
+        "startTangent": {
+          "x": 0,
+          "y": 0
+        },
+        "endTangent": {
+          "x": 0,
+          "y": 0
+        },
+        "end": 0,
+        "meta": 0
+      }
+    ],
+    "regions": [
+      {
+        "loops": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "windingRule": "nonzero",
+        "meta": 0
+      }
+    ]
+  },
+  "fillGeometry": [
+    {
+      "path": "M0 32C0 14.3269 14.3269 0 32 0L828 0C845.673 0 860 14.3269 860 32L860 508C860 525.673 845.673 540 828 540L32 540C14.3269 540 0 525.673 0 508L0 32Z",
+      "windingRule": "NONZERO"
+    }
+  ],
+  "strokes": [],
+  "strokeWeight": 1,
+  "strokeAlign": "INSIDE",
+  "strokeGeometry": [],
+  "cornerRadius": 32,
+  "cornerSmoothing": 0,
+  "absoluteBoundingBox": {
+    "x": 4431,
+    "y": 3276,
+    "width": 860,
+    "height": 540
+  },
+  "absoluteRenderBounds": {
+    "x": 4431,
+    "y": 3276,
+    "width": 860,
+    "height": 540
+  },
+  "constraints": {
+    "vertical": "TOP",
+    "horizontal": "CENTER"
+  },
+  "relativeTransform": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "size": {
+    "x": 860,
+    "y": 540
+  },
+  "effects": [],
+  "interactions": [],
+  "complexStrokeProperties": {
+    "strokeType": "BASIC"
+  }
+}

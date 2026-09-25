@@ -1,0 +1,2174 @@
+{
+  "id": "5172:70664",
+  "name": "Ai Chat",
+  "type": "INSTANCE",
+  "isFixed": true,
+  "scrollBehavior": "FIXED",
+  "componentId": "3315:24336",
+  "overrides": [],
+  "children": [
+    {
+      "id": "I5172:70664;1789:30781",
+      "name": "1",
+      "type": "GROUP",
+      "scrollBehavior": "SCROLLS",
+      "children": [
+        {
+          "id": "I5172:70664;1789:30225",
+          "name": "Rectangle 3487",
+          "type": "RECTANGLE",
+          "scrollBehavior": "SCROLLS",
+          "blendMode": "PASS_THROUGH",
+          "fills": [
+            {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.3294117748737335,
+                "g": 0.4000000059604645,
+                "b": 0.43921568989753723,
+                "a": 1
+              }
+            }
+          ],
+          "fillGeometry": [
+            {
+              "path": "M0 30C0 13.4315 13.4315 0 30 0L30 0C46.5685 0 60 13.4315 60 30L60 60L30 60C13.4315 60 0 46.5685 0 30L0 30Z",
+              "windingRule": "NONZERO"
+            }
+          ],
+          "strokes": [
+            {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          ],
+          "strokeWeight": 2,
+          "strokeAlign": "INSIDE",
+          "strokeGeometry": [
+            {
+              "path": "M60 60L60 62L62 62L62 60L60 60ZM0 30M0 30M30 0M60 30L58 30L58 60L60 60L62 60L62 30L60 30ZM60 60L60 58L30 58L30 60L30 62L60 62L60 60ZM0 30M30 60L30 58C14.536 58 2 45.464 2 30L0 30L-2 30C-2 47.6731 12.3269 62 30 62L30 60ZM30 0L30 2C45.464 2 58 14.536 58 30L60 30L62 30C62 12.3269 47.6731 -2 30 -2L30 0ZM30 0L30 -2C12.3269 -2 -2 12.3269 -2 30L0 30L2 30C2 14.536 14.536 2 30 2L30 0Z",
+              "windingRule": "NONZERO"
+            }
+          ],
+          "styles": {
+            "fill": "732:408",
+            "stroke": "732:409"
+          },
+          "rectangleCornerRadii": [
+            30,
+            30,
+            0,
+            30
+          ],
+          "cornerSmoothing": 0,
+          "absoluteBoundingBox": {
+            "x": 5511,
+            "y": 1140,
+            "width": 60,
+            "height": 60
+          },
+          "absoluteRenderBounds": {
+            "x": 5511,
+            "y": 1140,
+            "width": 60,
+            "height": 60
+          },
+          "constraints": {
+            "vertical": "TOP",
+            "horizontal": "LEFT"
+          },
+          "relativeTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "size": {
+            "x": 60,
+            "y": 60
+          },
+          "effects": [],
+          "interactions": [],
+          "complexStrokeProperties": {
+            "strokeType": "BASIC"
+          }
+        },
+        {
+          "id": "I5172:70664;1789:30580",
+          "name": "Vector",
+          "type": "VECTOR",
+          "scrollBehavior": "SCROLLS",
+          "rotation": 3.141592653589793,
+          "blendMode": "PASS_THROUGH",
+          "fills": [
+            {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.3294117748737335,
+                "g": 0.4000000059604645,
+                "b": 0.43921568989753723,
+                "a": 1
+              }
+            }
+          ],
+          "fillOverrideTable": {
+            "4": null
+          },
+          "vectorNetwork": {
+            "vertices": [
+              {
+                "position": {
+                  "x": 379.54998779296875,
+                  "y": 0
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 27.850000381469727,
+                  "y": 0
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 27.850000381469727
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 320.8900146484375
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 5.380000114440918,
+                  "y": 323.5299987792969
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 66.22000122070312,
+                  "y": 276.29998779296875
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 83.30000305175781,
+                  "y": 270.45001220703125
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 379.54998779296875,
+                  "y": 270.45001220703125
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 407.3999938964844,
+                  "y": 242.60000610351562
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 407.3999938964844,
+                  "y": 27.850000381469727
+                },
+                "meta": 0
+              }
+            ],
+            "segments": [
+              {
+                "start": 0,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 1,
+                "meta": 0
+              },
+              {
+                "start": 1,
+                "startTangent": {
+                  "x": -15.380000114440918,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": -15.380000114440918
+                },
+                "end": 2,
+                "meta": 0
+              },
+              {
+                "start": 2,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 3,
+                "meta": 0
+              },
+              {
+                "start": 3,
+                "startTangent": {
+                  "x": 0,
+                  "y": 2.7699999809265137
+                },
+                "endTangent": {
+                  "x": -2.190000057220459,
+                  "y": 1.7000000476837158
+                },
+                "end": 4,
+                "meta": 0
+              },
+              {
+                "start": 4,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 5,
+                "meta": 0
+              },
+              {
+                "start": 5,
+                "startTangent": {
+                  "x": 4.889999866485596,
+                  "y": -3.7899999618530273
+                },
+                "endTangent": {
+                  "x": -6.190000057220459,
+                  "y": 0
+                },
+                "end": 6,
+                "meta": 0
+              },
+              {
+                "start": 6,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 7,
+                "meta": 0
+              },
+              {
+                "start": 7,
+                "startTangent": {
+                  "x": 15.380000114440918,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 15.380000114440918
+                },
+                "end": 8,
+                "meta": 0
+              },
+              {
+                "start": 8,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 9,
+                "meta": 0
+              },
+              {
+                "start": 9,
+                "startTangent": {
+                  "x": 0,
+                  "y": -15.380000114440918
+                },
+                "endTangent": {
+                  "x": 15.380000114440918,
+                  "y": 0
+                },
+                "end": 0,
+                "meta": 0
+              }
+            ],
+            "regions": [
+              {
+                "loops": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ]
+                ],
+                "windingRule": "nonzero",
+                "meta": 4
+              }
+            ]
+          },
+          "fillGeometry": [
+            {
+              "path": "M24.2226 0L1.77737 0C0.795827 0 0 0.807656 0 1.80379L0 20.7834C0 20.9628 0.203584 21.0645 0.343348 20.9544L4.22612 17.8954C4.53819 17.6499 4.92111 17.5165 5.31615 17.5165L24.2226 17.5165C25.2042 17.5165 26 16.7088 26 15.7127L26 1.80379C26 0.807656 25.2042 0 24.2226 0Z",
+              "overrideID": 4,
+              "windingRule": "NONZERO"
+            }
+          ],
+          "strokes": [
+            {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          ],
+          "strokeWeight": 2,
+          "strokeAlign": "INSIDE",
+          "strokeGeometry": [
+            {
+              "path": "M0.343348 20.9544L1.58101 22.5254L1.58105 22.5254L0.343348 20.9544ZM4.22612 17.8954L2.98964 16.3234L2.98841 16.3244L4.22612 17.8954ZM24.2226 0L24.2226 -2L1.77737 -2L1.77737 0L1.77737 2L24.2226 2L24.2226 0ZM1.77737 0L1.77737 -2C-0.336459 -2 -2 -0.268992 -2 1.80379L0 1.80379L2 1.80379C2 1.8843 1.92811 2 1.77737 2L1.77737 0ZM0 1.80379L-2 1.80379L-2 20.7834L0 20.7834L2 20.7834L2 1.80379L0 1.80379ZM0 20.7834L-2 20.7834C-2 22.5672 0.0781094 23.7094 1.58101 22.5254L0.343348 20.9544L-0.894314 19.3833C0.329058 18.4195 2 19.3583 2 20.7834L0 20.7834ZM0.343348 20.9544L1.58105 22.5254L5.46382 19.4664L4.22612 17.8954L2.98841 16.3244L-0.894356 19.3833L0.343348 20.9544ZM4.22612 17.8954L5.46259 19.4674C5.42544 19.4966 5.37376 19.5165 5.31615 19.5165L5.31615 17.5165L5.31615 15.5165C4.46846 15.5165 3.65095 15.8032 2.98964 16.3234L4.22612 17.8954ZM5.31615 17.5165L5.31615 19.5165L24.2226 19.5165L24.2226 17.5165L24.2226 15.5165L5.31615 15.5165L5.31615 17.5165ZM24.2226 17.5165L24.2226 19.5165C26.3365 19.5165 28 17.7855 28 15.7127L26 15.7127L24 15.7127C24 15.6322 24.0719 15.5165 24.2226 15.5165L24.2226 17.5165ZM26 15.7127L28 15.7127L28 1.80379L26 1.80379L24 1.80379L24 15.7127L26 15.7127ZM26 1.80379L28 1.80379C28 -0.268992 26.3365 -2 24.2226 -2L24.2226 0L24.2226 2C24.0719 2 24 1.8843 24 1.80379L26 1.80379Z",
+              "windingRule": "NONZERO"
+            }
+          ],
+          "styles": {
+            "fill": "732:408",
+            "stroke": "732:409"
+          },
+          "absoluteBoundingBox": {
+            "x": 5535,
+            "y": 1165,
+            "width": 26,
+            "height": 21
+          },
+          "absoluteRenderBounds": {
+            "x": 5535,
+            "y": 1165,
+            "width": 26,
+            "height": 21
+          },
+          "preserveRatio": true,
+          "targetAspectRatio": {
+            "x": 36,
+            "y": 29
+          },
+          "constraints": {
+            "vertical": "TOP",
+            "horizontal": "RIGHT"
+          },
+          "relativeTransform": [
+            [
+              -1,
+              0,
+              50
+            ],
+            [
+              0,
+              1,
+              25
+            ]
+          ],
+          "size": {
+            "x": 26,
+            "y": 21
+          },
+          "effects": [],
+          "interactions": [],
+          "complexStrokeProperties": {
+            "strokeType": "BASIC"
+          }
+        },
+        {
+          "id": "I5172:70664;1789:30529",
+          "name": "Vector",
+          "type": "VECTOR",
+          "scrollBehavior": "SCROLLS",
+          "blendMode": "PASS_THROUGH",
+          "fills": [
+            {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          ],
+          "fillOverrideTable": {
+            "3": null
+          },
+          "vectorNetwork": {
+            "vertices": [
+              {
+                "position": {
+                  "x": 28.949188232421875,
+                  "y": 0
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 2.0508100986480713,
+                  "y": 0
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 2.0614702701568604
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 23.752431869506836
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 0.39617085456848145,
+                  "y": 23.947843551635742
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 4.876288890838623,
+                  "y": 20.45185661315918
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 6.134020805358887,
+                  "y": 20.01883888244629
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 28.949188232421875,
+                  "y": 20.01883888244629
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 31,
+                  "y": 17.957366943359375
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 31,
+                  "y": 2.0614702701568604
+                },
+                "meta": 0
+              }
+            ],
+            "segments": [
+              {
+                "start": 0,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 1,
+                "meta": 0
+              },
+              {
+                "start": 1,
+                "startTangent": {
+                  "x": -1.1325478553771973,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": -1.138434886932373
+                },
+                "end": 2,
+                "meta": 0
+              },
+              {
+                "start": 2,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 3,
+                "meta": 0
+              },
+              {
+                "start": 3,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0.2050367146730423
+                },
+                "endTangent": {
+                  "x": -0.16126656532287598,
+                  "y": 0.12583480775356293
+                },
+                "end": 4,
+                "meta": 0
+              },
+              {
+                "start": 4,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 5,
+                "meta": 0
+              },
+              {
+                "start": 5,
+                "startTangent": {
+                  "x": 0.3600883483886719,
+                  "y": -0.28053760528564453
+                },
+                "endTangent": {
+                  "x": -0.4558173716068268,
+                  "y": 0
+                },
+                "end": 6,
+                "meta": 0
+              },
+              {
+                "start": 6,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 7,
+                "meta": 0
+              },
+              {
+                "start": 7,
+                "startTangent": {
+                  "x": 1.1325478553771973,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 1.138434886932373
+                },
+                "end": 8,
+                "meta": 0
+              },
+              {
+                "start": 8,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 9,
+                "meta": 0
+              },
+              {
+                "start": 9,
+                "startTangent": {
+                  "x": 0,
+                  "y": -1.138434886932373
+                },
+                "endTangent": {
+                  "x": 1.1325478553771973,
+                  "y": 0
+                },
+                "end": 0,
+                "meta": 0
+              }
+            ],
+            "regions": [
+              {
+                "loops": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ]
+                ],
+                "windingRule": "nonzero",
+                "meta": 3
+              }
+            ]
+          },
+          "fillGeometry": [
+            {
+              "path": "M28.9492 0L2.05081 0C0.918262 0 0 0.923035 0 2.06147L0 23.7524C0 23.9575 0.234904 24.0737 0.396171 23.9478L4.87629 20.4519C5.23638 20.1713 5.6782 20.0188 6.13402 20.0188L28.9492 20.0188C30.0817 20.0188 31 19.0958 31 17.9574L31 2.06147C31 0.923035 30.0817 0 28.9492 0Z",
+              "overrideID": 3,
+              "windingRule": "NONZERO"
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "strokeGeometry": [],
+          "styles": {
+            "fill": "732:409"
+          },
+          "absoluteBoundingBox": {
+            "x": 5523,
+            "y": 1156,
+            "width": 31,
+            "height": 24
+          },
+          "absoluteRenderBounds": {
+            "x": 5523,
+            "y": 1156,
+            "width": 31,
+            "height": 24
+          },
+          "preserveRatio": true,
+          "targetAspectRatio": {
+            "x": 31,
+            "y": 24
+          },
+          "constraints": {
+            "vertical": "TOP",
+            "horizontal": "CENTER"
+          },
+          "relativeTransform": [
+            [
+              1,
+              0,
+              12
+            ],
+            [
+              0,
+              1,
+              16
+            ]
+          ],
+          "size": {
+            "x": 31,
+            "y": 24
+          },
+          "effects": [],
+          "interactions": [],
+          "complexStrokeProperties": {
+            "strokeType": "BASIC"
+          }
+        },
+        {
+          "id": "I5172:70664;1789:30730",
+          "name": "Vector",
+          "type": "VECTOR",
+          "scrollBehavior": "SCROLLS",
+          "blendMode": "PASS_THROUGH",
+          "fills": [
+            {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.3294117748737335,
+                "g": 0.4000000059604645,
+                "b": 0.43921568989753723,
+                "a": 1
+              }
+            }
+          ],
+          "fillOverrideTable": {
+            "3": null
+          },
+          "vectorNetwork": {
+            "vertices": [
+              {
+                "position": {
+                  "x": 0.35497668385505676,
+                  "y": 0
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 0.39961034059524536
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 46.501991271972656,
+                  "y": 20.11376953125
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 78.0062026977539,
+                  "y": 20.11376953125
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 66.5138168334961,
+                  "y": 69.48797607421875
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 51.16106414794922,
+                  "y": 69.48797607421875
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 98.28425598144531,
+                  "y": 147.67860412597656
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 227.71775817871094,
+                  "y": 170.94485473632812
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 227.4958953857422,
+                  "y": 169.43521118164062
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 212.14315795898438,
+                  "y": 172.45449829101562
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 196.70164489746094,
+                  "y": 173.43133544921875
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 139.5503387451172,
+                  "y": 157.71328735351562
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 85.0169906616211,
+                  "y": 84.89521789550781
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 89.40982818603516,
+                  "y": 4.662132263183594
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 56.663204193115234,
+                  "y": 4.662132263183594
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 0.35497668385505676,
+                  "y": 0.04440058395266533
+                },
+                "meta": 0
+              }
+            ],
+            "segments": [
+              {
+                "start": 0,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 1,
+                "meta": 0
+              },
+              {
+                "start": 1,
+                "startTangent": {
+                  "x": 4.747817516326904,
+                  "y": 14.9188232421875
+                },
+                "endTangent": {
+                  "x": -15.21963882446289,
+                  "y": -0.31080883741378784
+                },
+                "end": 2,
+                "meta": 0
+              },
+              {
+                "start": 2,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 3,
+                "meta": 0
+              },
+              {
+                "start": 3,
+                "startTangent": {
+                  "x": 37.450077056884766,
+                  "y": 0.577216386795044
+                },
+                "endTangent": {
+                  "x": 39.49119186401367,
+                  "y": 0.4440126121044159
+                },
+                "end": 4,
+                "meta": 0
+              },
+              {
+                "start": 4,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 5,
+                "meta": 0
+              },
+              {
+                "start": 5,
+                "startTangent": {
+                  "x": 14.154707908630371,
+                  "y": 29.926450729370117
+                },
+                "endTangent": {
+                  "x": -18.05945587158203,
+                  "y": -22.422636032104492
+                },
+                "end": 6,
+                "meta": 0
+              },
+              {
+                "start": 6,
+                "startTangent": {
+                  "x": 28.531278610229492,
+                  "y": 35.43220901489258
+                },
+                "endTangent": {
+                  "x": -45.61454772949219,
+                  "y": 20.60218620300293
+                },
+                "end": 7,
+                "meta": 0
+              },
+              {
+                "start": 7,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 8,
+                "meta": 0
+              },
+              {
+                "start": 8,
+                "startTangent": {
+                  "x": -5.235910892486572,
+                  "y": 1.376439094543457
+                },
+                "endTangent": {
+                  "x": 5.014050483703613,
+                  "y": -0.6660189032554626
+                },
+                "end": 9,
+                "meta": 0
+              },
+              {
+                "start": 9,
+                "startTangent": {
+                  "x": -4.969677925109863,
+                  "y": 0.6660189032554626
+                },
+                "endTangent": {
+                  "x": 5.324655055999756,
+                  "y": 0
+                },
+                "end": 10,
+                "meta": 0
+              },
+              {
+                "start": 10,
+                "startTangent": {
+                  "x": -21.03238868713379,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 16.506431579589844,
+                  "y": 10.12348747253418
+                },
+                "end": 11,
+                "meta": 0
+              },
+              {
+                "start": 11,
+                "startTangent": {
+                  "x": -28.48690414428711,
+                  "y": -17.494096755981445
+                },
+                "endTangent": {
+                  "x": 14.953407287597656,
+                  "y": 28.017194747924805
+                },
+                "end": 12,
+                "meta": 0
+              },
+              {
+                "start": 12,
+                "startTangent": {
+                  "x": 52.225990295410156,
+                  "y": -15.407238006591797
+                },
+                "endTangent": {
+                  "x": 43.21845245361328,
+                  "y": 0
+                },
+                "end": 13,
+                "meta": 0
+              },
+              {
+                "start": 13,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 14,
+                "meta": 0
+              },
+              {
+                "start": 14,
+                "startTangent": {
+                  "x": -18.10382652282715,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 16.506431579589844,
+                  "y": 5.683361530303955
+                },
+                "end": 15,
+                "meta": 0
+              }
+            ],
+            "regions": [
+              {
+                "loops": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                  ]
+                ],
+                "windingRule": "nonzero",
+                "meta": 3
+              }
+            ]
+          },
+          "fillGeometry": [
+            {
+              "path": "M0.0280592 0L0 0.0307392C0.375292 1.17834 2.47272 1.5233 3.67576 1.54721L6.16602 1.54721C9.12627 1.59161 8.37919 5.37937 5.2576 5.34522L4.04404 5.34522C5.1629 7.64725 6.34139 9.63505 7.7689 11.3599C10.0242 14.0854 14.3944 14.7344 18 13.1496L17.9825 13.0334C17.5686 13.1393 17.1652 13.2145 16.7689 13.2657C16.3761 13.3169 15.9692 13.3408 15.5483 13.3408C13.8858 13.3408 12.3355 12.9105 11.0308 12.1318C8.77903 10.7861 7.90218 8.68555 6.72019 6.53039C10.8484 5.34522 10.4836 0.358625 7.06742 0.358625L4.47896 0.358625C3.04793 0.358625 1.33281 0.440596 0.0280592 0.00341542",
+              "overrideID": 3,
+              "windingRule": "NONZERO"
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "strokeGeometry": [],
+          "styles": {
+            "fill": "732:408"
+          },
+          "absoluteBoundingBox": {
+            "x": 5534,
+            "y": 1159,
+            "width": 18,
+            "height": 14
+          },
+          "absoluteRenderBounds": {
+            "x": 5534,
+            "y": 1159,
+            "width": 18,
+            "height": 14
+          },
+          "preserveRatio": true,
+          "targetAspectRatio": {
+            "x": 227.71775817871094,
+            "y": 182.0004119873047
+          },
+          "constraints": {
+            "vertical": "CENTER",
+            "horizontal": "SCALE"
+          },
+          "relativeTransform": [
+            [
+              1,
+              0,
+              23
+            ],
+            [
+              0,
+              1,
+              19
+            ]
+          ],
+          "size": {
+            "x": 18,
+            "y": 14
+          },
+          "effects": [],
+          "interactions": [],
+          "complexStrokeProperties": {
+            "strokeType": "BASIC"
+          }
+        },
+        {
+          "id": "I5172:70664;1789:31624",
+          "name": "Group 90",
+          "type": "GROUP",
+          "scrollBehavior": "SCROLLS",
+          "children": [
+            {
+              "id": "I5172:70664;1789:31327",
+              "name": "Line 11",
+              "type": "LINE",
+              "scrollBehavior": "SCROLLS",
+              "blendMode": "PASS_THROUGH",
+              "fills": [],
+              "fillGeometry": [],
+              "strokes": [
+                {
+                  "blendMode": "NORMAL",
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.3294117748737335,
+                    "g": 0.4000000059604645,
+                    "b": 0.43921568989753723,
+                    "a": 1
+                  }
+                }
+              ],
+              "strokeWeight": 2,
+              "strokeAlign": "CENTER",
+              "strokeGeometry": [
+                {
+                  "path": "M1 -2C0.447715 -2 0 -1.55228 0 -1C0 -0.447715 0.447715 0 1 0L1 -1L1 -2ZM4 0C4.55228 0 5 -0.447715 5 -1C5 -1.55228 4.55228 -2 4 -2L4 -1L4 0ZM1 -1L1 0L4 0L4 -1L4 -2L1 -2L1 -1Z",
+                  "windingRule": "NONZERO"
+                }
+              ],
+              "strokeCap": "ROUND",
+              "styles": {
+                "stroke": "732:408"
+              },
+              "absoluteBoundingBox": {
+                "x": 5526,
+                "y": 1163,
+                "width": 5,
+                "height": 0
+              },
+              "absoluteRenderBounds": {
+                "x": 5526,
+                "y": 1161,
+                "width": 5,
+                "height": 2
+              },
+              "constraints": {
+                "vertical": "TOP",
+                "horizontal": "LEFT"
+              },
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "size": {
+                "x": 5,
+                "y": 0
+              },
+              "effects": [],
+              "interactions": [],
+              "complexStrokeProperties": {
+                "strokeType": "BASIC"
+              }
+            },
+            {
+              "id": "I5172:70664;1789:31377",
+              "name": "Line 12",
+              "type": "LINE",
+              "scrollBehavior": "SCROLLS",
+              "blendMode": "PASS_THROUGH",
+              "fills": [],
+              "fillGeometry": [],
+              "strokes": [
+                {
+                  "blendMode": "NORMAL",
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.3294117748737335,
+                    "g": 0.4000000059604645,
+                    "b": 0.43921568989753723,
+                    "a": 1
+                  }
+                }
+              ],
+              "strokeWeight": 2,
+              "strokeAlign": "CENTER",
+              "strokeGeometry": [
+                {
+                  "path": "M1 -2C0.447715 -2 0 -1.55228 0 -1C0 -0.447715 0.447715 0 1 0L1 -1L1 -2ZM9 0C9.55229 0 10 -0.447715 10 -1C10 -1.55228 9.55229 -2 9 -2L9 -1L9 0ZM1 -1L1 0L9 0L9 -1L9 -2L1 -2L1 -1Z",
+                  "windingRule": "NONZERO"
+                }
+              ],
+              "strokeCap": "ROUND",
+              "styles": {
+                "stroke": "732:408"
+              },
+              "absoluteBoundingBox": {
+                "x": 5526,
+                "y": 1167,
+                "width": 10,
+                "height": 0
+              },
+              "absoluteRenderBounds": {
+                "x": 5526,
+                "y": 1165,
+                "width": 10,
+                "height": 2
+              },
+              "constraints": {
+                "vertical": "TOP",
+                "horizontal": "LEFT"
+              },
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  4
+                ]
+              ],
+              "size": {
+                "x": 10,
+                "y": 0
+              },
+              "effects": [],
+              "interactions": [],
+              "complexStrokeProperties": {
+                "strokeType": "BASIC"
+              }
+            },
+            {
+              "id": "I5172:70664;1789:31427",
+              "name": "Line 13",
+              "type": "LINE",
+              "scrollBehavior": "SCROLLS",
+              "blendMode": "PASS_THROUGH",
+              "fills": [],
+              "fillGeometry": [],
+              "strokes": [
+                {
+                  "blendMode": "NORMAL",
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.3294117748737335,
+                    "g": 0.4000000059604645,
+                    "b": 0.43921568989753723,
+                    "a": 1
+                  }
+                }
+              ],
+              "strokeWeight": 2,
+              "strokeAlign": "CENTER",
+              "strokeGeometry": [
+                {
+                  "path": "M1 -2C0.447715 -2 0 -1.55228 0 -1C0 -0.447715 0.447715 0 1 0L1 -1L1 -2ZM6 0C6.55228 0 7 -0.447715 7 -1C7 -1.55228 6.55228 -2 6 -2L6 -1L6 0ZM1 -1L1 0L6 0L6 -1L6 -2L1 -2L1 -1Z",
+                  "windingRule": "NONZERO"
+                }
+              ],
+              "strokeCap": "ROUND",
+              "styles": {
+                "stroke": "732:408"
+              },
+              "absoluteBoundingBox": {
+                "x": 5526,
+                "y": 1171,
+                "width": 7,
+                "height": 0
+              },
+              "absoluteRenderBounds": {
+                "x": 5526,
+                "y": 1169,
+                "width": 7,
+                "height": 2
+              },
+              "constraints": {
+                "vertical": "TOP",
+                "horizontal": "LEFT"
+              },
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  8
+                ]
+              ],
+              "size": {
+                "x": 7,
+                "y": 0
+              },
+              "effects": [],
+              "interactions": [],
+              "complexStrokeProperties": {
+                "strokeType": "BASIC"
+              }
+            }
+          ],
+          "blendMode": "PASS_THROUGH",
+          "clipsContent": false,
+          "background": [],
+          "fills": [],
+          "strokes": [],
+          "rectangleCornerRadii": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "cornerSmoothing": 0,
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "backgroundColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "fillGeometry": [],
+          "strokeGeometry": [],
+          "absoluteBoundingBox": {
+            "x": 5526,
+            "y": 1163,
+            "width": 10,
+            "height": 8
+          },
+          "absoluteRenderBounds": {
+            "x": 5526,
+            "y": 1161,
+            "width": 10,
+            "height": 10
+          },
+          "constraints": {
+            "vertical": "TOP",
+            "horizontal": "LEFT"
+          },
+          "relativeTransform": [
+            [
+              1,
+              0,
+              15
+            ],
+            [
+              0,
+              1,
+              23
+            ]
+          ],
+          "size": {
+            "x": 10,
+            "y": 8
+          },
+          "effects": [],
+          "interactions": [],
+          "complexStrokeProperties": {
+            "strokeType": "BASIC"
+          }
+        }
+      ],
+      "blendMode": "PASS_THROUGH",
+      "clipsContent": false,
+      "background": [],
+      "fills": [],
+      "strokes": [],
+      "rectangleCornerRadii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cornerSmoothing": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "backgroundColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+      },
+      "fillGeometry": [],
+      "strokeGeometry": [],
+      "absoluteBoundingBox": {
+        "x": 5511,
+        "y": 1140,
+        "width": 60,
+        "height": 60
+      },
+      "absoluteRenderBounds": {
+        "x": 5511,
+        "y": 1140,
+        "width": 60,
+        "height": 60
+      },
+      "constraints": {
+        "vertical": "TOP",
+        "horizontal": "LEFT"
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "size": {
+        "x": 60,
+        "y": 60
+      },
+      "effects": [],
+      "interactions": [],
+      "complexStrokeProperties": {
+        "strokeType": "BASIC"
+      }
+    },
+    {
+      "id": "I5172:70664;1789:31027",
+      "name": "2",
+      "visible": false,
+      "type": "GROUP",
+      "scrollBehavior": "SCROLLS",
+      "children": [
+        {
+          "id": "I5172:70664;1789:31277",
+          "name": "Rectangle 3488",
+          "type": "RECTANGLE",
+          "scrollBehavior": "SCROLLS",
+          "rotation": 3.141592653589793,
+          "blendMode": "PASS_THROUGH",
+          "fills": [
+            {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.3294117748737335,
+                "g": 0.4000000059604645,
+                "b": 0.43921568989753723,
+                "a": 1
+              }
+            }
+          ],
+          "fillGeometry": [
+            {
+              "path": "M0 15C0 6.71573 6.71573 0 15 0L15 0C23.2843 0 30 6.71573 30 15L30 15C30 23.2843 23.2843 30 15 30L0 30L0 15Z",
+              "windingRule": "NONZERO"
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "strokeGeometry": [],
+          "styles": {
+            "fill": "732:408"
+          },
+          "rectangleCornerRadii": [
+            30,
+            30,
+            30,
+            0
+          ],
+          "cornerSmoothing": 0,
+          "absoluteBoundingBox": {
+            "x": 5541,
+            "y": 1170,
+            "width": 30,
+            "height": 30
+          },
+          "absoluteRenderBounds": null,
+          "preserveRatio": true,
+          "targetAspectRatio": {
+            "x": 60,
+            "y": 60
+          },
+          "constraints": {
+            "vertical": "BOTTOM",
+            "horizontal": "LEFT"
+          },
+          "relativeTransform": [
+            [
+              -1,
+              0,
+              60
+            ],
+            [
+              0,
+              1,
+              30
+            ]
+          ],
+          "size": {
+            "x": 30,
+            "y": 30
+          },
+          "effects": [],
+          "interactions": [],
+          "complexStrokeProperties": {
+            "strokeType": "BASIC"
+          }
+        },
+        {
+          "id": "I5172:70664;1789:31028",
+          "name": "Rectangle 3487",
+          "type": "RECTANGLE",
+          "scrollBehavior": "SCROLLS",
+          "blendMode": "PASS_THROUGH",
+          "fills": [
+            {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.929411768913269,
+                "g": 0.10980392247438431,
+                "b": 0.10196078568696976,
+                "a": 1
+              }
+            }
+          ],
+          "fillGeometry": [
+            {
+              "path": "M0 25C0 11.1929 11.1929 0 25 0L25 0C38.8071 0 50 11.1929 50 25L50 25C50 38.8071 38.8071 50 25 50L0 50L0 25Z",
+              "windingRule": "NONZERO"
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "strokeGeometry": [],
+          "styles": {
+            "fill": "732:413"
+          },
+          "rectangleCornerRadii": [
+            30,
+            30,
+            30,
+            0
+          ],
+          "cornerSmoothing": 0,
+          "absoluteBoundingBox": {
+            "x": 5511,
+            "y": 1140,
+            "width": 50,
+            "height": 50
+          },
+          "absoluteRenderBounds": null,
+          "preserveRatio": true,
+          "targetAspectRatio": {
+            "x": 60,
+            "y": 60
+          },
+          "constraints": {
+            "vertical": "TOP",
+            "horizontal": "LEFT"
+          },
+          "relativeTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "size": {
+            "x": 50,
+            "y": 50
+          },
+          "effects": [],
+          "interactions": [],
+          "complexStrokeProperties": {
+            "strokeType": "BASIC"
+          }
+        },
+        {
+          "id": "I5172:70664;1789:31031",
+          "name": "Vector",
+          "type": "VECTOR",
+          "scrollBehavior": "SCROLLS",
+          "blendMode": "PASS_THROUGH",
+          "fills": [
+            {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          ],
+          "fillOverrideTable": {
+            "1": null
+          },
+          "vectorNetwork": {
+            "vertices": [
+              {
+                "position": {
+                  "x": 0.35497668385505676,
+                  "y": 0
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 0,
+                  "y": 0.39961034059524536
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 46.501991271972656,
+                  "y": 20.11376953125
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 78.0062026977539,
+                  "y": 20.11376953125
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 66.5138168334961,
+                  "y": 69.48797607421875
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 51.16106414794922,
+                  "y": 69.48797607421875
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 98.28425598144531,
+                  "y": 147.67860412597656
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 227.71775817871094,
+                  "y": 170.94485473632812
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 227.4958953857422,
+                  "y": 169.43521118164062
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 212.14315795898438,
+                  "y": 172.45449829101562
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 196.70164489746094,
+                  "y": 173.43133544921875
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 139.5503387451172,
+                  "y": 157.71328735351562
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 85.0169906616211,
+                  "y": 84.89521789550781
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 89.40982818603516,
+                  "y": 4.662132263183594
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 56.663204193115234,
+                  "y": 4.662132263183594
+                },
+                "meta": 0
+              },
+              {
+                "position": {
+                  "x": 0.35497668385505676,
+                  "y": 0.04440058395266533
+                },
+                "meta": 0
+              }
+            ],
+            "segments": [
+              {
+                "start": 0,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 1,
+                "meta": 0
+              },
+              {
+                "start": 1,
+                "startTangent": {
+                  "x": 4.747817516326904,
+                  "y": 14.9188232421875
+                },
+                "endTangent": {
+                  "x": -15.21963882446289,
+                  "y": -0.31080883741378784
+                },
+                "end": 2,
+                "meta": 0
+              },
+              {
+                "start": 2,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 3,
+                "meta": 0
+              },
+              {
+                "start": 3,
+                "startTangent": {
+                  "x": 37.450077056884766,
+                  "y": 0.577216386795044
+                },
+                "endTangent": {
+                  "x": 39.49119186401367,
+                  "y": 0.4440126121044159
+                },
+                "end": 4,
+                "meta": 0
+              },
+              {
+                "start": 4,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 5,
+                "meta": 0
+              },
+              {
+                "start": 5,
+                "startTangent": {
+                  "x": 14.154707908630371,
+                  "y": 29.926450729370117
+                },
+                "endTangent": {
+                  "x": -18.05945587158203,
+                  "y": -22.422636032104492
+                },
+                "end": 6,
+                "meta": 0
+              },
+              {
+                "start": 6,
+                "startTangent": {
+                  "x": 28.531278610229492,
+                  "y": 35.43220901489258
+                },
+                "endTangent": {
+                  "x": -45.61454772949219,
+                  "y": 20.60218620300293
+                },
+                "end": 7,
+                "meta": 0
+              },
+              {
+                "start": 7,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 8,
+                "meta": 0
+              },
+              {
+                "start": 8,
+                "startTangent": {
+                  "x": -5.235910892486572,
+                  "y": 1.376439094543457
+                },
+                "endTangent": {
+                  "x": 5.014050483703613,
+                  "y": -0.6660189032554626
+                },
+                "end": 9,
+                "meta": 0
+              },
+              {
+                "start": 9,
+                "startTangent": {
+                  "x": -4.969677925109863,
+                  "y": 0.6660189032554626
+                },
+                "endTangent": {
+                  "x": 5.324655055999756,
+                  "y": 0
+                },
+                "end": 10,
+                "meta": 0
+              },
+              {
+                "start": 10,
+                "startTangent": {
+                  "x": -21.03238868713379,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 16.506431579589844,
+                  "y": 10.12348747253418
+                },
+                "end": 11,
+                "meta": 0
+              },
+              {
+                "start": 11,
+                "startTangent": {
+                  "x": -28.48690414428711,
+                  "y": -17.494096755981445
+                },
+                "endTangent": {
+                  "x": 14.953407287597656,
+                  "y": 28.017194747924805
+                },
+                "end": 12,
+                "meta": 0
+              },
+              {
+                "start": 12,
+                "startTangent": {
+                  "x": 52.225990295410156,
+                  "y": -15.407238006591797
+                },
+                "endTangent": {
+                  "x": 43.21845245361328,
+                  "y": 0
+                },
+                "end": 13,
+                "meta": 0
+              },
+              {
+                "start": 13,
+                "startTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 0,
+                  "y": 0
+                },
+                "end": 14,
+                "meta": 0
+              },
+              {
+                "start": 14,
+                "startTangent": {
+                  "x": -18.10382652282715,
+                  "y": 0
+                },
+                "endTangent": {
+                  "x": 16.506431579589844,
+                  "y": 5.683361530303955
+                },
+                "end": 15,
+                "meta": 0
+              }
+            ],
+            "regions": [
+              {
+                "loops": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                  ]
+                ],
+                "windingRule": "nonzero",
+                "meta": 1
+              }
+            ]
+          },
+          "fillGeometry": [
+            {
+              "path": "M0.0467653 0L0 0.0526957C0.625487 2.02001 4.1212 2.61137 6.12627 2.65236L10.2767 2.65236C15.2104 2.72848 13.9653 9.22178 8.76267 9.16323L6.74006 9.16323C8.60483 13.1096 10.569 16.5172 12.9482 19.4741C16.7069 24.1464 23.9906 25.2589 30 22.5421L29.9708 22.3431C29.281 22.5246 28.6087 22.6534 27.9482 22.7412C27.2935 22.829 26.6154 22.87 25.9139 22.87C23.143 22.87 20.5592 22.1323 18.3846 20.7973C14.6317 18.4904 13.1703 14.8895 11.2003 11.1949C18.0807 9.16323 17.4727 0.614785 11.779 0.614785L7.46493 0.614785C5.07989 0.614785 2.22136 0.755308 0.0467653 0.00585501",
+              "overrideID": 1,
+              "windingRule": "NONZERO"
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "strokeGeometry": [],
+          "styles": {
+            "fill": "732:409"
+          },
+          "absoluteBoundingBox": {
+            "x": 5529,
+            "y": 1158,
+            "width": 30,
+            "height": 24
+          },
+          "absoluteRenderBounds": null,
+          "preserveRatio": true,
+          "targetAspectRatio": {
+            "x": 227.71775817871094,
+            "y": 182.0004119873047
+          },
+          "constraints": {
+            "vertical": "CENTER",
+            "horizontal": "SCALE"
+          },
+          "relativeTransform": [
+            [
+              1,
+              0,
+              18
+            ],
+            [
+              0,
+              1,
+              18
+            ]
+          ],
+          "size": {
+            "x": 30,
+            "y": 24
+          },
+          "effects": [],
+          "interactions": [],
+          "complexStrokeProperties": {
+            "strokeType": "BASIC"
+          }
+        }
+      ],
+      "blendMode": "PASS_THROUGH",
+      "clipsContent": false,
+      "background": [],
+      "fills": [],
+      "strokes": [],
+      "rectangleCornerRadii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cornerSmoothing": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "backgroundColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+      },
+      "fillGeometry": [],
+      "strokeGeometry": [],
+      "absoluteBoundingBox": {
+        "x": 5511,
+        "y": 1140,
+        "width": 60,
+        "height": 60
+      },
+      "absoluteRenderBounds": null,
+      "constraints": {
+        "vertical": "TOP",
+        "horizontal": "LEFT"
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "size": {
+        "x": 60,
+        "y": 60
+      },
+      "effects": [],
+      "interactions": [],
+      "complexStrokeProperties": {
+        "strokeType": "BASIC"
+      }
+    }
+  ],
+  "blendMode": "PASS_THROUGH",
+  "clipsContent": false,
+  "background": [],
+  "fills": [],
+  "strokes": [],
+  "strokeWeight": 0.75,
+  "strokeAlign": "INSIDE",
+  "backgroundColor": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "a": 0
+  },
+  "fillGeometry": [],
+  "strokeGeometry": [],
+  "absoluteBoundingBox": {
+    "x": 5511,
+    "y": 1140,
+    "width": 60,
+    "height": 60
+  },
+  "absoluteRenderBounds": {
+    "x": 5511,
+    "y": 1140,
+    "width": 60,
+    "height": 60
+  },
+  "preserveRatio": true,
+  "targetAspectRatio": {
+    "x": 60,
+    "y": 60
+  },
+  "constraints": {
+    "vertical": "TOP",
+    "horizontal": "SCALE"
+  },
+  "relativeTransform": [
+    [
+      1,
+      0,
+      1830
+    ],
+    [
+      0,
+      1,
+      940
+    ]
+  ],
+  "size": {
+    "x": 60,
+    "y": 60
+  },
+  "effects": [],
+  "interactions": [],
+  "complexStrokeProperties": {
+    "strokeType": "BASIC"
+  }
+}

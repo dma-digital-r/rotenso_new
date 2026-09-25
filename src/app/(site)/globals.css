@@ -64,9 +64,19 @@ body {
   animation-fill-mode: forwards;
 }
 
-/* Light grey backdrop behind some sections (Rectangle 7 / 32 / 33 in Figma). */
-@utility bg-section-fade {
-  background:
-    radial-gradient(ellipse 50% 60% at 50% 45%, #ffffff 0%, rgb(255 255 255 / 0) 100%),
-    linear-gradient(to bottom, #f8f8f8 0%, #cccccc 8%, #f0f0f0 100%);
+/* Endless strips (Social Media). Shift and duration are set inline. */
+@keyframes marquee {
+  to {
+    transform: translateX(var(--marquee-shift));
+  }
+}
+.marquee {
+  animation-name: marquee;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    animation-play-state: paused;
+  }
 }

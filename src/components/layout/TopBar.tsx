@@ -14,7 +14,7 @@ export function TopBar({ settings, lang }: { settings: SettingsContent; lang: Lo
           <Icon name="logo" width={238} height={60} alt="Rotenso — Live better" />
         </Link>
 
-        <nav className="flex shrink-0 items-center gap-[30px] text-center text-[16px] leading-normal whitespace-nowrap text-rotenso-grey">
+        <nav className="flex shrink-0 items-center gap-[30px] text-center text-[16px] leading-[normal] whitespace-nowrap text-rotenso-grey">
           {settings.nav.map((item) => (
             <Link key={item.label} href={item.href} className="hover:text-rotenso-red">
               {item.label}
@@ -34,7 +34,7 @@ export function TopBar({ settings, lang }: { settings: SettingsContent; lang: Lo
               type="search"
               placeholder={settings.searchPlaceholder}
               aria-label={settings.searchPlaceholder}
-              className="min-w-px flex-1 bg-transparent text-[12px] leading-normal text-rotenso-grey outline-none placeholder:text-rotenso-grey"
+              className="min-w-px flex-1 bg-transparent text-[12px] leading-[normal] text-rotenso-grey outline-none placeholder:text-rotenso-grey"
             />
             <button type="submit" aria-label={settings.searchPlaceholder} className="-my-px -mr-px cursor-pointer">
               <Icon name="search-btn-s" width={30} height={30} />

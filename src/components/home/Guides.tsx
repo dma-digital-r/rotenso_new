@@ -5,6 +5,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { FramedImage } from "@/components/ui/FramedImage";
 import { SliderBar } from "@/components/ui/SliderBar";
+import { SectionBackdrop } from "./SectionBackdrop";
 import type { HomeContent } from "@/lib/content";
 
 const CARD_STEP = 440; // 420 card + 20 gap
@@ -33,11 +34,11 @@ export function Guides({ data }: { data: HomeContent["guides"] }) {
   return (
     <section className="relative mt-[150px]">
       {/* Rectangle 32: backdrop from y 5301 (500px above the title), 1427px tall. */}
-      <div className="bg-section-fade absolute inset-x-0 top-[-500px] -z-10 h-[1427px]" />
+      <SectionBackdrop top={-500} height={1427} />
 
       <div className="mx-auto flex w-[860px] max-w-[calc(100%-32px)] flex-col items-center gap-[30px] text-center font-light text-rotenso-grey">
         <h2 className="w-full text-[72px] leading-[1.2]">{data.title}</h2>
-        <p className="w-full text-[25px] leading-normal">{data.text}</p>
+        <p className="w-full text-[25px] leading-[normal]">{data.text}</p>
       </div>
 
       <div
@@ -55,13 +56,13 @@ export function Guides({ data }: { data: HomeContent["guides"] }) {
             </div>
             <div className="absolute inset-x-0 bottom-0 h-[200px] rounded-b-[32px] bg-white" />
             <div className="absolute top-[266px] left-[30px] flex h-[139px] w-[360px] flex-col items-start gap-[20px]">
-              <div className="flex w-full flex-col gap-[5px] leading-normal text-rotenso-grey">
+              <div className="flex w-full flex-col gap-[5px] leading-[normal] text-rotenso-grey">
                 <p className="text-[12px]">{g.category}</p>
                 <h3 className="text-[25px] font-light">{g.title}</h3>
               </div>
               <Link
                 href={g.href}
-                className="inline-flex h-[30px] items-center justify-center overflow-clip rounded-[15px] border border-rotenso-grey px-[15px] py-[10px] text-[12px] leading-normal font-bold whitespace-nowrap text-rotenso-grey after:absolute after:inset-0 hover:opacity-85"
+                className="inline-flex h-[30px] items-center justify-center overflow-clip rounded-[15px] border border-rotenso-grey px-[15px] py-[10px] text-[12px] leading-[normal] font-bold whitespace-nowrap text-rotenso-grey after:absolute after:inset-0 hover:opacity-85"
               >
                 <span className="text-trim">{data.readLabel}</span>
               </Link>

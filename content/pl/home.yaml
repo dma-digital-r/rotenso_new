@@ -10,7 +10,7 @@ heroSlides:
     secondary:
       label: Zobacz nowości
       href: /pl/klimatyzacja
-    background: null
+    background: /images/home/hero-klimatyzacje.png
   - tab: Rekuperacja
     title: Rekuperacja
     text: Stały dopływ świeżego i filtrowanego powietrza z odzyskiem ciepła lub wilgoci.
@@ -44,7 +44,7 @@ heroSlides:
 idea:
   title: Klimatyzacja Rotenso to komfort, który poczujesz od pierwszej chwili.
   text: Chłodzi, ogrzewa i oczyszcza powietrze, a Ty zyskujesz azyl w swoim domu. Elegancki design i cicha praca sprawiają, że urządzenia stają się naturalną częścią wnętrza. Sterowanie jest proste i intuicyjne, dzięki czemu spokój zawsze jest na wyciągnięcie ręki.
-  background: null
+  background: /images/home/idea-bg.png
 acHome:
   title: Klimatyzacje dla Ciebie
   switchLabel: Klimatyzacje dla firm
@@ -140,7 +140,7 @@ wentilo:
     cta: Skorzystaj z konfiguratora
     href: /pl/doboromierz/rekuperacja
   background: /images/home/wentilo-bg.png
-  media: null
+  media: /images/home/wentilo-media.png
   video: ''
 heatPumps:
   title: Pompy ciepła
@@ -253,3 +253,35 @@ installer:
   title: Znajdź instalatora
   text: Podaj kod pocztowy lub miejscowość i znajdź odpowiedniego instalatora.
   placeholder: Wpisz tutaj...
+social:
+  title: Odkryj nas na Social Media
+  videos:
+    - image: /images/home/yt-1.png
+      href: https://www.youtube.com/
+    - image: /images/home/yt-2.jpg
+      href: https://www.youtube.com/
+    - image: /images/home/yt-3.png
+      href: https://www.youtube.com/
+    - image: /images/home/yt-4.png
+      href: https://www.youtube.com/
+  posts:
+    - image: /images/home/post-1.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-2.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-3.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-4.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-5.png
+      href: https://www.instagram.com/
+    - image: /images/home/post-6.png
+      href: https://www.instagram.com/
+seo:
+  title: Rotenso
+  subtitle: Innowacyjne systemy HVAC dla domu i biznesu
+  text: |-
+    Jesteśmy polską firmą, która specjalizuje się w klimatyzacji, rekuperacji, pompach ciepła oraz zaawansowanych systemach klimatyzacyjnych (RVF). Nasze produkty są dopasowane do potrzeb klientów indywidualnych i biznesowych. Stawiamy na technologie, które zapewniają komfort, czyste powietrze i realne oszczędności.
+
+    Dzięki stałemu rozwojowi i rozszerzaniu katalogu produktów marka zyskuje uznanie użytkowników oraz partnerów w całej Europie, dając rozwiązania dostosowane do indywidualnych potrzeb i różnych typów budynków. Rotenso to synonim wydajności, innowacyjności i nowoczesnego designu, co czyni nasze urządzenia doskonałym wyborem dla osób poszukujących jakości na lata.
+  background: /images/home/seo-bg.png

@@ -52,7 +52,7 @@ export function Wentilo({ wentilo }: { wentilo: HomeContent["wentilo"] }) {
               style={{ backgroundImage: "linear-gradient(147.27deg, rgb(84, 102, 112) 0%, rgb(26, 35, 40) 100%)" }}
             >
               <span className="flex min-w-px flex-1 flex-col items-start justify-center gap-[10px] text-[14px] text-white">
-                <span className="text-trim leading-normal">{wentilo.configurator.question}</span>
+                <span className="text-trim leading-[normal]">{wentilo.configurator.question}</span>
                 <span className="text-trim leading-[1.2] font-bold">{wentilo.configurator.cta}</span>
               </span>
               <span className="relative h-[29px] w-[35px] shrink-0">
@@ -83,7 +83,7 @@ export function Wentilo({ wentilo }: { wentilo: HomeContent["wentilo"] }) {
           ) : wentilo.media ? (
             <FramedImage src={wentilo.media} sizes="860px" />
           ) : (
-            <MissingMedia label="Wideo / zdjęcie domu — do pobrania z Figmy" />
+            <MissingMedia label="Brak zdjęcia lub wideo — dodaj w panelu" />
           )}
           <div className="absolute inset-x-0 bottom-0 h-[120px] bg-gradient-to-t from-black to-transparent" />
           <button

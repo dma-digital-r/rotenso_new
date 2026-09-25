@@ -8,7 +8,7 @@ export function Idea({ idea }: { idea: HomeContent["idea"] }) {
       {idea.background ? (
         <FramedImage src={idea.background} sizes="100vw" />
       ) : (
-        <MissingMedia label="Tło sekcji (rodzina w kuchni) — do pobrania z Figmy" />
+        <MissingMedia label="Brak tła — dodaj zdjęcie w panelu" />
       )}
       <div className="relative mx-auto h-full w-[1300px] max-w-[calc(100%-32px)]">
         <div className="absolute top-[250px] left-0 flex w-[530px] flex-col items-center gap-[20px] rounded-[32px] bg-black/50 px-[40px] py-[50px] text-center text-white backdrop-blur-[10px]">

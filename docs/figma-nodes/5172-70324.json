@@ -1,0 +1,103 @@
+{
+  "id": "5172:70324",
+  "name": "Rectangle 33",
+  "type": "RECTANGLE",
+  "scrollBehavior": "SCROLLS",
+  "blendMode": "PASS_THROUGH",
+  "fills": [
+    {
+      "blendMode": "NORMAL",
+      "type": "GRADIENT_LINEAR",
+      "gradientHandlePositions": [
+        {
+          "x": 0.1625000065324519,
+          "y": -2.3218029832072773e-8
+        },
+        {
+          "x": 0.838541665444629,
+          "y": 0.9999999946404227
+        },
+        {
+          "x": -0.33750000239677436,
+          "y": 0.8949152338284331
+        }
+      ],
+      "gradientStops": [
+        {
+          "color": {
+            "r": 0.800000011920929,
+            "g": 0.800000011920929,
+            "b": 0.800000011920929,
+            "a": 1
+          },
+          "position": 0
+        },
+        {
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "position": 0.5
+        },
+        {
+          "color": {
+            "r": 0.800000011920929,
+            "g": 0.800000011920929,
+            "b": 0.800000011920929,
+            "a": 1
+          },
+          "position": 1
+        }
+      ]
+    }
+  ],
+  "fillGeometry": [
+    {
+      "path": "M0 0L1920 0L1920 1156L0 1156L0 0Z",
+      "windingRule": "NONZERO"
+    }
+  ],
+  "strokes": [],
+  "strokeWeight": 1,
+  "strokeAlign": "INSIDE",
+  "strokeGeometry": [],
+  "absoluteBoundingBox": {
+    "x": 3681,
+    "y": 8367,
+    "width": 1920,
+    "height": 1156
+  },
+  "absoluteRenderBounds": {
+    "x": 3681,
+    "y": 8367,
+    "width": 1920,
+    "height": 1156
+  },
+  "constraints": {
+    "vertical": "TOP",
+    "horizontal": "CENTER"
+  },
+  "relativeTransform": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8167
+    ]
+  ],
+  "size": {
+    "x": 1920,
+    "y": 1156
+  },
+  "effects": [],
+  "interactions": [],
+  "complexStrokeProperties": {
+    "strokeType": "BASIC"
+  }
+}

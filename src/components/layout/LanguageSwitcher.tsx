@@ -31,7 +31,7 @@ export function LanguageSwitcher({ lang }: { lang: Locale }) {
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
         aria-label="Język"
-        className="relative block h-[28.5px] cursor-pointer text-center text-[16px] leading-normal font-bold text-rotenso-grey uppercase"
+        className="relative block h-[28.5px] cursor-pointer text-center text-[16px] leading-[normal] font-bold text-rotenso-grey uppercase"
       >
         {lang}
         <Icon name="topbar-arrow-s" width={10} height={6} className="absolute top-[23.5px] left-[5px]" />

@@ -1,0 +1,648 @@
+{
+  "id": "5172:70327",
+  "name": "SEO",
+  "type": "GROUP",
+  "scrollBehavior": "SCROLLS",
+  "children": [
+    {
+      "id": "5172:70328",
+      "name": "Rectangle 47",
+      "visible": false,
+      "type": "RECTANGLE",
+      "scrollBehavior": "SCROLLS",
+      "blendMode": "PASS_THROUGH",
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "IMAGE",
+          "scaleMode": "FILL",
+          "imageRef": "98a53188a793807e6a2bcfb9b10d745be8da5255"
+        }
+      ],
+      "fillGeometry": [
+        {
+          "path": "M0 0L1920 0L1920 1080L0 1080L0 0Z",
+          "windingRule": "NONZERO"
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "strokeGeometry": [],
+      "absoluteBoundingBox": {
+        "x": 3681,
+        "y": 9523,
+        "width": 1920,
+        "height": 1080
+      },
+      "absoluteRenderBounds": null,
+      "constraints": {
+        "vertical": "TOP",
+        "horizontal": "LEFT"
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "size": {
+        "x": 1920,
+        "y": 1080
+      },
+      "effects": [],
+      "interactions": [],
+      "complexStrokeProperties": {
+        "strokeType": "BASIC"
+      }
+    },
+    {
+      "id": "5172:70329",
+      "name": "Rectangle 48",
+      "type": "RECTANGLE",
+      "scrollBehavior": "SCROLLS",
+      "blendMode": "PASS_THROUGH",
+      "fills": [
+        {
+          "blendMode": "NORMAL",
+          "type": "IMAGE",
+          "scaleMode": "FILL",
+          "imageRef": "a10a96fb018ebf80226c6a006ed35e37f6fbd8d8"
+        }
+      ],
+      "fillGeometry": [
+        {
+          "path": "M0 0L1920 0L1920 1080L0 1080L0 0Z",
+          "windingRule": "NONZERO"
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "strokeGeometry": [],
+      "absoluteBoundingBox": {
+        "x": 3681,
+        "y": 9523,
+        "width": 1920,
+        "height": 1080
+      },
+      "absoluteRenderBounds": {
+        "x": 3681,
+        "y": 9523,
+        "width": 1920,
+        "height": 1080
+      },
+      "constraints": {
+        "vertical": "TOP",
+        "horizontal": "LEFT"
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "size": {
+        "x": 1920,
+        "y": 1080
+      },
+      "effects": [],
+      "interactions": [],
+      "complexStrokeProperties": {
+        "strokeType": "BASIC"
+      }
+    },
+    {
+      "id": "5172:70330",
+      "name": "Frame 28",
+      "type": "FRAME",
+      "scrollBehavior": "SCROLLS",
+      "children": [
+        {
+          "id": "5172:70331",
+          "name": "Frame 427318963",
+          "type": "FRAME",
+          "scrollBehavior": "SCROLLS",
+          "children": [
+            {
+              "id": "5172:70332",
+              "name": "Rotenso",
+              "type": "TEXT",
+              "scrollBehavior": "SCROLLS",
+              "blendMode": "PASS_THROUGH",
+              "fills": [
+                {
+                  "blendMode": "NORMAL",
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                  }
+                }
+              ],
+              "fillGeometry": [],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "OUTSIDE",
+              "strokeGeometry": [],
+              "styles": {
+                "fill": "732:409",
+                "text": "973:1000"
+              },
+              "absoluteBoundingBox": {
+                "x": 4021,
+                "y": 9779,
+                "width": 470,
+                "height": 86
+              },
+              "absoluteRenderBounds": {
+                "x": 4028.2421875,
+                "y": 9798.6015625,
+                "width": 255.65625,
+                "height": 52.1015625
+              },
+              "constraints": {
+                "vertical": "TOP",
+                "horizontal": "LEFT"
+              },
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "size": {
+                "x": 470,
+                "y": 86
+              },
+              "layoutAlign": "STRETCH",
+              "layoutGrow": 0,
+              "layoutSizingHorizontal": "FILL",
+              "layoutSizingVertical": "HUG",
+              "characters": "Rotenso",
+              "characterStyleOverrides": [],
+              "styleOverrideTable": {},
+              "lineTypes": [
+                "NONE"
+              ],
+              "lineIndentations": [
+                0
+              ],
+              "style": {
+                "fontFamily": "Open Sans",
+                "fontPostScriptName": "OpenSans-Light",
+                "fontStyle": "Light",
+                "fontWeight": 300,
+                "textAutoResize": "HEIGHT",
+                "fontSize": 72,
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "letterSpacing": 0,
+                "lineHeightPx": 86.4000015258789,
+                "lineHeightPercent": 88.11760711669922,
+                "lineHeightPercentFontSize": 120.00000762939453,
+                "lineHeightUnit": "FONT_SIZE_%"
+              },
+              "layoutVersion": 5,
+              "effects": [],
+              "interactions": [],
+              "complexStrokeProperties": {
+                "strokeType": "BASIC"
+              }
+            },
+            {
+              "id": "5172:70333",
+              "name": "Innowacyjne systemy HVAC dla domu i biznesu",
+              "type": "TEXT",
+              "scrollBehavior": "SCROLLS",
+              "blendMode": "PASS_THROUGH",
+              "fills": [
+                {
+                  "blendMode": "NORMAL",
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                  }
+                }
+              ],
+              "fillGeometry": [],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "OUTSIDE",
+              "strokeGeometry": [],
+              "styles": {
+                "fill": "732:409",
+                "text": "973:1020"
+              },
+              "absoluteBoundingBox": {
+                "x": 4021,
+                "y": 9875,
+                "width": 470,
+                "height": 96
+              },
+              "absoluteRenderBounds": {
+                "x": 4025.0234375,
+                "y": 9885.91796875,
+                "width": 443.37890625,
+                "height": 77.47265625
+              },
+              "constraints": {
+                "vertical": "TOP",
+                "horizontal": "LEFT"
+              },
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  96
+                ]
+              ],
+              "size": {
+                "x": 470,
+                "y": 96
+              },
+              "layoutAlign": "STRETCH",
+              "layoutGrow": 0,
+              "layoutSizingHorizontal": "FILL",
+              "layoutSizingVertical": "HUG",
+              "characters": "Innowacyjne systemy HVAC dla domu i biznesu",
+              "characterStyleOverrides": [],
+              "styleOverrideTable": {},
+              "lineTypes": [
+                "NONE"
+              ],
+              "lineIndentations": [
+                0
+              ],
+              "style": {
+                "fontFamily": "Open Sans",
+                "fontPostScriptName": "OpenSans-Light",
+                "fontStyle": "Light",
+                "fontWeight": 300,
+                "textAutoResize": "HEIGHT",
+                "fontSize": 40,
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "letterSpacing": 0,
+                "lineHeightPx": 48,
+                "lineHeightPercent": 88.11760711669922,
+                "lineHeightPercentFontSize": 120.00000762939453,
+                "lineHeightUnit": "FONT_SIZE_%"
+              },
+              "layoutVersion": 5,
+              "effects": [],
+              "interactions": [],
+              "complexStrokeProperties": {
+                "strokeType": "BASIC"
+              }
+            }
+          ],
+          "blendMode": "PASS_THROUGH",
+          "clipsContent": false,
+          "background": [],
+          "fills": [],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "backgroundColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "layoutMode": "VERTICAL",
+          "counterAxisSizingMode": "FIXED",
+          "itemSpacing": 10,
+          "layoutWrap": "NO_WRAP",
+          "fillGeometry": [],
+          "strokeGeometry": [],
+          "absoluteBoundingBox": {
+            "x": 4021,
+            "y": 9779,
+            "width": 470,
+            "height": 192
+          },
+          "absoluteRenderBounds": {
+            "x": 4021,
+            "y": 9779,
+            "width": 470,
+            "height": 192
+          },
+          "constraints": {
+            "vertical": "TOP",
+            "horizontal": "LEFT"
+          },
+          "relativeTransform": [
+            [
+              1,
+              0,
+              30
+            ],
+            [
+              0,
+              1,
+              30
+            ]
+          ],
+          "size": {
+            "x": 470,
+            "y": 192
+          },
+          "layoutAlign": "STRETCH",
+          "layoutGrow": 0,
+          "layoutSizingHorizontal": "FILL",
+          "layoutSizingVertical": "HUG",
+          "effects": [],
+          "interactions": [],
+          "complexStrokeProperties": {
+            "strokeType": "BASIC"
+          }
+        },
+        {
+          "id": "5172:70334",
+          "name": "Jesteśmy polską firmą, która specjalizuje się w klimatyzacji, rekuperacji, pompach ciepła oraz zaawansowanych systemach klimatyzacyjnych (RVF). Nasze produkty są dopasowane do potrzeb klientów indywidualnych i biznesowych. Stawiamy na technologie, które zapewniają komfort, czyste powietrze i realne oszczędności. Dzięki stałemu rozwojowi i rozszerzaniu katalogu produktów marka zyskuje uznanie użytkowników oraz partnerów w całej Europie, dając rozwiązania dostosowane do indywidualnych potrzeb i różnych typów budynków. Rotenso to synonim wydajności, innowacyjności i nowoczesnego designu, co czyni nasze urządzenia doskonałym wyborem dla osób poszukujących jakości na lata.",
+          "type": "TEXT",
+          "scrollBehavior": "SCROLLS",
+          "blendMode": "PASS_THROUGH",
+          "fills": [
+            {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          ],
+          "fillGeometry": [],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "strokeGeometry": [],
+          "styles": {
+            "fill": "732:409",
+            "text": "732:410"
+          },
+          "absoluteBoundingBox": {
+            "x": 4021,
+            "y": 9991,
+            "width": 470,
+            "height": 336
+          },
+          "absoluteRenderBounds": {
+            "x": 4019.71875,
+            "y": 9996.7421875,
+            "width": 464.4296875,
+            "height": 328.109375
+          },
+          "constraints": {
+            "vertical": "TOP",
+            "horizontal": "LEFT"
+          },
+          "relativeTransform": [
+            [
+              1,
+              0,
+              30
+            ],
+            [
+              0,
+              1,
+              242
+            ]
+          ],
+          "size": {
+            "x": 470,
+            "y": 336
+          },
+          "layoutAlign": "STRETCH",
+          "layoutGrow": 0,
+          "layoutSizingHorizontal": "FILL",
+          "layoutSizingVertical": "HUG",
+          "characters": "Jesteśmy polską firmą, która specjalizuje się w klimatyzacji, rekuperacji, pompach ciepła oraz zaawansowanych systemach klimatyzacyjnych (RVF). Nasze produkty są dopasowane do potrzeb klientów indywidualnych i biznesowych. Stawiamy na technologie, które zapewniają komfort, czyste powietrze i realne oszczędności.\n\nDzięki stałemu rozwojowi i rozszerzaniu katalogu produktów marka zyskuje uznanie użytkowników oraz partnerów w całej Europie, dając rozwiązania dostosowane do indywidualnych potrzeb i różnych typów budynków. Rotenso to synonim wydajności, innowacyjności i nowoczesnego designu, co czyni nasze urządzenia doskonałym wyborem dla osób poszukujących jakości na lata.",
+          "characterStyleOverrides": [],
+          "styleOverrideTable": {},
+          "lineTypes": [
+            "NONE",
+            "NONE",
+            "NONE"
+          ],
+          "lineIndentations": [
+            0,
+            0,
+            0
+          ],
+          "style": {
+            "fontFamily": "Open Sans",
+            "fontPostScriptName": "OpenSans-Regular",
+            "fontStyle": "Regular",
+            "fontWeight": 400,
+            "textAutoResize": "HEIGHT",
+            "fontSize": 16,
+            "textAlignHorizontal": "LEFT",
+            "textAlignVertical": "TOP",
+            "letterSpacing": 0,
+            "lineHeightPx": 24,
+            "lineHeightPercent": 110.14701080322266,
+            "lineHeightPercentFontSize": 150,
+            "lineHeightUnit": "PIXELS"
+          },
+          "layoutVersion": 5,
+          "effects": [],
+          "interactions": [],
+          "complexStrokeProperties": {
+            "strokeType": "BASIC"
+          }
+        }
+      ],
+      "blendMode": "PASS_THROUGH",
+      "clipsContent": false,
+      "background": [
+        {
+          "opacity": 0.5,
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ],
+      "fills": [
+        {
+          "opacity": 0.5,
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ],
+      "strokes": [],
+      "cornerRadius": 32,
+      "cornerSmoothing": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "backgroundColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0.5
+      },
+      "layoutMode": "VERTICAL",
+      "counterAxisSizingMode": "FIXED",
+      "paddingLeft": 30,
+      "paddingRight": 30,
+      "paddingTop": 30,
+      "paddingBottom": 50,
+      "itemSpacing": 20,
+      "layoutWrap": "NO_WRAP",
+      "fillGeometry": [
+        {
+          "path": "M0 32C0 14.3269 14.3269 0 32 0L498 0C515.673 0 530 14.3269 530 32L530 596C530 613.673 515.673 628 498 628L32 628C14.3269 628 0 613.673 0 596L0 32Z",
+          "windingRule": "NONZERO"
+        }
+      ],
+      "strokeGeometry": [],
+      "absoluteBoundingBox": {
+        "x": 3991,
+        "y": 9749,
+        "width": 530,
+        "height": 628
+      },
+      "absoluteRenderBounds": {
+        "x": 3991,
+        "y": 9749,
+        "width": 530,
+        "height": 628
+      },
+      "constraints": {
+        "vertical": "TOP",
+        "horizontal": "CENTER"
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          310
+        ],
+        [
+          0,
+          1,
+          226
+        ]
+      ],
+      "size": {
+        "x": 530,
+        "y": 628
+      },
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "HUG",
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 20
+        }
+      ],
+      "interactions": [],
+      "complexStrokeProperties": {
+        "strokeType": "BASIC"
+      }
+    }
+  ],
+  "blendMode": "PASS_THROUGH",
+  "clipsContent": false,
+  "background": [],
+  "fills": [],
+  "strokes": [],
+  "rectangleCornerRadii": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "cornerSmoothing": 0,
+  "strokeWeight": 1,
+  "strokeAlign": "INSIDE",
+  "backgroundColor": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "a": 0
+  },
+  "fillGeometry": [],
+  "strokeGeometry": [],
+  "absoluteBoundingBox": {
+    "x": 3681,
+    "y": 9523,
+    "width": 1920,
+    "height": 1080
+  },
+  "absoluteRenderBounds": {
+    "x": 3681,
+    "y": 9523,
+    "width": 1920,
+    "height": 1080
+  },
+  "constraints": {
+    "vertical": "TOP",
+    "horizontal": "LEFT"
+  },
+  "relativeTransform": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      9323
+    ]
+  ],
+  "size": {
+    "x": 1920,
+    "y": 1080
+  },
+  "effects": [],
+  "interactions": [],
+  "complexStrokeProperties": {
+    "strokeType": "BASIC"
+  }
+}

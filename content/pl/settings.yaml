@@ -73,6 +73,9 @@ footerColumns:
         href: /pl/rodo
       - label: Regulamin
         href: /pl/regulamin
+aiChat:
+  label: Czat z asystentem Rotenso
+  href: /pl/kontakt
 contactHeading: Kontakt
 phone: +48 32 285 57 11
 email: info@rotenso.com

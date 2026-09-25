@@ -1,0 +1,74 @@
+{
+  "id": "5172:70641",
+  "name": "Rectangle 4",
+  "type": "RECTANGLE",
+  "scrollBehavior": "SCROLLS",
+  "blendMode": "PASS_THROUGH",
+  "fills": [
+    {
+      "blendMode": "NORMAL",
+      "type": "IMAGE",
+      "scaleMode": "FILL",
+      "imageRef": "ee3d125d33c1bd1f179ea0990c7c5a35fa189ada"
+    }
+  ],
+  "fillGeometry": [
+    {
+      "path": "M0 32C0 14.3269 14.3269 0 32 0L1788 0C1805.67 0 1820 14.3269 1820 32L1820 898C1820 915.673 1805.67 930 1788 930L32 930C14.3269 930 0 915.673 0 898L0 32Z",
+      "windingRule": "NONZERO"
+    }
+  ],
+  "strokes": [],
+  "strokeWeight": 1,
+  "strokeAlign": "INSIDE",
+  "strokeGeometry": [],
+  "cornerRadius": 32,
+  "cornerSmoothing": 0,
+  "absoluteBoundingBox": {
+    "x": 3731,
+    "y": 250,
+    "width": 1820,
+    "height": 930
+  },
+  "absoluteRenderBounds": {
+    "x": 3731,
+    "y": 250,
+    "width": 1820,
+    "height": 930
+  },
+  "constraints": {
+    "vertical": "TOP",
+    "horizontal": "CENTER"
+  },
+  "relativeTransform": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "size": {
+    "x": 1820,
+    "y": 930
+  },
+  "exportSettings": [
+    {
+      "suffix": "",
+      "format": "PNG",
+      "constraint": {
+        "type": "SCALE",
+        "value": 1
+      }
+    }
+  ],
+  "effects": [],
+  "interactions": [],
+  "complexStrokeProperties": {
+    "strokeType": "BASIC"
+  }
+}

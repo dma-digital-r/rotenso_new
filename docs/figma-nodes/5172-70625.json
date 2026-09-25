@@ -1,0 +1,62 @@
+{
+  "id": "5172:70625",
+  "name": "Rectangle 48",
+  "type": "RECTANGLE",
+  "scrollBehavior": "SCROLLS",
+  "blendMode": "PASS_THROUGH",
+  "fills": [
+    {
+      "blendMode": "NORMAL",
+      "type": "IMAGE",
+      "scaleMode": "FILL",
+      "imageRef": "09f95c2d48e652ec2ebbe7fdac91ead794b1e662"
+    }
+  ],
+  "fillGeometry": [
+    {
+      "path": "M0 0L1920 0L1920 1080L0 1080L0 0Z",
+      "windingRule": "NONZERO"
+    }
+  ],
+  "strokes": [],
+  "strokeWeight": 1,
+  "strokeAlign": "INSIDE",
+  "strokeGeometry": [],
+  "absoluteBoundingBox": {
+    "x": 3681,
+    "y": 1230,
+    "width": 1920,
+    "height": 1080
+  },
+  "absoluteRenderBounds": {
+    "x": 3681,
+    "y": 1230,
+    "width": 1920,
+    "height": 1080
+  },
+  "constraints": {
+    "vertical": "TOP",
+    "horizontal": "LEFT"
+  },
+  "relativeTransform": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "size": {
+    "x": 1920,
+    "y": 1080
+  },
+  "effects": [],
+  "interactions": [],
+  "complexStrokeProperties": {
+    "strokeType": "BASIC"
+  }
+}

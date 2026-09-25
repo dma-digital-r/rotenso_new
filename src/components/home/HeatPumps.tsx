@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { Icon } from "@/components/ui/Icon";
+import { SectionBackdrop } from "./SectionBackdrop";
 import { SliderBar } from "@/components/ui/SliderBar";
 import type { HomeContent } from "@/lib/content";
 
@@ -22,11 +23,11 @@ export function HeatPumps({ data }: { data: HomeContent["heatPumps"] }) {
 
   return (
     <section className="relative mt-[150px]">
-      {/* Rectangle 7: light backdrop from y 3520 (350px above the title), 880px tall. */}
-      <div className="bg-section-fade absolute inset-x-0 top-[-350px] -z-10 h-[880px]" />
+      {/* Rectangle 7: backdrop from y 3520 (350px above the title), 880px tall. */}
+      <SectionBackdrop top={-350} height={880} />
 
       <h2 className="text-center text-[72px] leading-[1.2] font-light text-rotenso-grey">{data.title}</h2>
-      <p className="mx-auto mt-[20px] w-[860px] max-w-[calc(100%-32px)] text-center text-[25px] leading-normal font-light text-rotenso-grey">
+      <p className="mx-auto mt-[20px] w-[860px] max-w-[calc(100%-32px)] text-center text-[25px] leading-[normal] font-light text-rotenso-grey">
         {data.text}
       </p>
 
@@ -56,7 +57,7 @@ export function HeatPumps({ data }: { data: HomeContent["heatPumps"] }) {
                   className={`absolute bottom-[30px] text-white transition-all duration-500 ${
                     isActive
                       ? "left-[30px] text-[40px] leading-[1.2] font-light whitespace-nowrap"
-                      : "inset-x-0 text-center text-[25px] leading-normal font-light whitespace-pre-line"
+                      : "inset-x-0 text-center text-[25px] leading-[normal] font-light whitespace-pre-line"
                   }`}
                 >
                   {isActive ? t.title.replace("\n", " ") : t.title}
@@ -68,7 +69,7 @@ export function HeatPumps({ data }: { data: HomeContent["heatPumps"] }) {
                     style={{ backgroundImage: "linear-gradient(145.76deg, rgb(84, 102, 112) 0%, rgb(26, 35, 40) 100%)" }}
                   >
                     <span className="flex min-w-px flex-1 flex-col items-start justify-center gap-[10px] text-[14px] text-white">
-                      <span className="text-trim leading-normal">{data.configurator.question}</span>
+                      <span className="text-trim leading-[normal]">{data.configurator.question}</span>
                       <span className="text-trim leading-[1.2] font-bold">{data.configurator.cta}</span>
                     </span>
                     <span className="relative h-[24px] w-[35px] shrink-0">

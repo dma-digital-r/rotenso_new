@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import { notFound } from "next/navigation";
+import { AiChatButton } from "@/components/layout/AiChatButton";
 import { Footer } from "@/components/layout/Footer";
 import { TopBar } from "@/components/layout/TopBar";
 import { isLocale, locales } from "@/i18n/config";
@@ -39,6 +40,7 @@ export default async function LocaleLayout({
           {children}
           <Footer settings={settings} />
         </div>
+        <AiChatButton link={settings.aiChat} />
       </body>
     </html>
   );

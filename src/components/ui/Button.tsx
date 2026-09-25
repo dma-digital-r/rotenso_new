@@ -16,7 +16,7 @@ const variants = {
 export type ButtonVariant = keyof typeof variants;
 
 const base =
-  "inline-flex shrink-0 items-center justify-center overflow-clip font-bold whitespace-nowrap leading-normal transition-opacity hover:opacity-85";
+  "inline-flex shrink-0 items-center justify-center overflow-clip font-bold whitespace-nowrap leading-[normal] transition-opacity hover:opacity-85";
 
 type Props = {
   variant: ButtonVariant;

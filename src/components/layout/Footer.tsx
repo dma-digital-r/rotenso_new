@@ -49,7 +49,7 @@ export function Footer({ settings }: { settings: SettingsContent }) {
         {settings.footerColumns.map((col) => (
           <div
             key={col.heading.label}
-            className="flex w-[200px] shrink-0 flex-col gap-[20px] text-[16px] leading-normal"
+            className="flex w-[200px] shrink-0 flex-col gap-[20px] text-[16px] leading-[normal]"
           >
             {col.heading.href ? (
               <Link href={col.heading.href} className="font-bold hover:underline">
@@ -67,14 +67,14 @@ export function Footer({ settings }: { settings: SettingsContent }) {
         ))}
 
         <div className="flex w-[200px] shrink-0 flex-col items-start gap-[20px]">
-          <p className="w-full text-[16px] leading-normal font-bold">{settings.contactHeading}</p>
+          <p className="w-full text-[16px] leading-[normal] font-bold">{settings.contactHeading}</p>
           <a href={`tel:${settings.phone.replace(/\s/g, "")}`} className="flex w-full items-center gap-[10px]">
             <Icon name="foot-phone" width={24} height={24} />
-            <span className="flex-1 text-[16px] leading-normal">{settings.phone}</span>
+            <span className="flex-1 text-[16px] leading-[normal]">{settings.phone}</span>
           </a>
           <a href={`mailto:${settings.email}`} className="flex w-full items-center gap-[10px]">
             <Icon name="foot-mail" width={24} height={24} />
-            <span className="flex-1 text-[16px] leading-normal">{settings.email}</span>
+            <span className="flex-1 text-[16px] leading-[normal]">{settings.email}</span>
           </a>
           <Button variant="s-outline-white" href={settings.contactForm.href}>
             {settings.contactForm.label}
@@ -83,7 +83,7 @@ export function Footer({ settings }: { settings: SettingsContent }) {
             href={settings.navigate.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex h-[29px] items-center justify-center gap-[5px] overflow-clip rounded-[15px] border border-white py-[10px] pr-[15px] pl-[5px] text-[12px] leading-normal font-bold whitespace-nowrap hover:opacity-85"
+            className="flex h-[29px] items-center justify-center gap-[5px] overflow-clip rounded-[15px] border border-white py-[10px] pr-[15px] pl-[5px] text-[12px] leading-[normal] font-bold whitespace-nowrap hover:opacity-85"
           >
             <Icon name="foot-navigator" width={20} height={20} />
             <span className="text-trim">{settings.navigate.label}</span>

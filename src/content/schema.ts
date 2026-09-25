@@ -175,6 +175,37 @@ export const homeSchema = {
     },
     { label: "Znajdź instalatora" },
   ),
+
+  social: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      videos: fields.array(
+        fields.object({
+          image: image("Miniatura filmu (640×360)"),
+          href: fields.text({ label: "Link do filmu" }),
+        }),
+        { label: "Filmy (górny pasek)", itemLabel: (v) => v.fields.href.value || "Film" },
+      ),
+      posts: fields.array(
+        fields.object({
+          image: image("Post (310×310)"),
+          href: fields.text({ label: "Link do posta" }),
+        }),
+        { label: "Posty (dolny pasek)", itemLabel: (p) => p.fields.href.value || "Post" },
+      ),
+    },
+    { label: "Odkryj nas na Social Media" },
+  ),
+
+  seo: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      subtitle: fields.text({ label: "Podtytuł" }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+      background: image("Tło (1920×1080)"),
+    },
+    { label: "Sekcja SEO (o marce)" },
+  ),
 };
 
 const footerColumn = fields.object({
@@ -197,6 +228,7 @@ export const settingsSchema = {
     label: "Stopka — kolumny",
     itemLabel: (c) => c.fields.heading.fields.label.value || "Kolumna",
   }),
+  aiChat: link("Przycisk czatu (prawy dolny róg)"),
   contactHeading: fields.text({ label: "Stopka — nagłówek kontaktu" }),
   phone: fields.text({ label: "Telefon" }),
   email: fields.text({ label: "E-mail" }),

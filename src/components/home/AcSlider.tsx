@@ -96,7 +96,7 @@ function AcPanel({
       <button
         type="button"
         onClick={onSwitch}
-        className="absolute top-[100px] right-[6.02%] flex cursor-pointer items-center gap-[15px] text-[25px] leading-normal font-light whitespace-nowrap text-white"
+        className="absolute top-[100px] right-[6.02%] flex cursor-pointer items-center gap-[15px] text-[25px] leading-[normal] font-light whitespace-nowrap text-white"
       >
         {switchDir === "left" && <Icon name="arrow-w2-left" width={30} height={30} />}
         {slide.switchLabel}
@@ -108,10 +108,10 @@ function AcPanel({
           <div className="flex w-full flex-col gap-[20px]">
             <div className="flex w-full flex-col font-light">
               <p className="text-[40px] leading-[1.2]">{product.name}</p>
-              {product.subtitle && <p className="text-[25px] leading-normal">{product.subtitle}</p>}
+              {product.subtitle && <p className="text-[25px] leading-[normal]">{product.subtitle}</p>}
             </div>
             {product.text && <p className="text-[16px] leading-[24px]">{product.text}</p>}
-            {product.price && <p className="text-[25px] leading-normal font-light">{product.price}</p>}
+            {product.price && <p className="text-[25px] leading-[normal] font-light">{product.price}</p>}
           </div>
           <Button variant="m-red" href={product.cta.href}>
             {product.cta.label}
@@ -171,7 +171,7 @@ function AcPanel({
               "linear-gradient(118.81deg, rgba(84, 102, 112, 0.8) 0%, rgba(26, 35, 40, 0.8) 100%)",
           }}
         >
-          <span className="text-trim w-full text-[14px] leading-normal">{slide.configurator.question}</span>
+          <span className="text-trim w-full text-[14px] leading-[normal]">{slide.configurator.question}</span>
           <span className="flex w-full items-center gap-[10px]">
             <span className="text-trim flex-1 text-[14px] leading-[1.2] font-bold whitespace-pre-line">
               {slide.configurator.cta}
