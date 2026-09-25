@@ -52,14 +52,14 @@ export function Footer({ settings }: { settings: SettingsContent }) {
             className="flex w-[200px] shrink-0 flex-col gap-[20px] text-[16px] leading-[normal]"
           >
             {col.heading.href ? (
-              <Link href={col.heading.href} className="font-bold hover:underline">
+              <Link href={col.heading.href} className="font-bold transition-colors hover:text-rotenso-red">
                 {col.heading.label}
               </Link>
             ) : (
               <p className="font-bold">{col.heading.label}</p>
             )}
             {col.links.map((l) => (
-              <Link key={l.label} href={l.href} className="hover:underline">
+              <Link key={l.label} href={l.href} className="transition-colors hover:text-rotenso-red">
                 {l.label}
               </Link>
             ))}
@@ -68,11 +68,11 @@ export function Footer({ settings }: { settings: SettingsContent }) {
 
         <div className="flex w-[200px] shrink-0 flex-col items-start gap-[20px]">
           <p className="w-full text-[16px] leading-[normal] font-bold">{settings.contactHeading}</p>
-          <a href={`tel:${settings.phone.replace(/\s/g, "")}`} className="flex w-full items-center gap-[10px]">
+          <a href={`tel:${settings.phone.replace(/\s/g, "")}`} className="flex w-full items-center gap-[10px] transition-colors hover:text-rotenso-red">
             <Icon name="foot-phone" width={24} height={24} />
             <span className="flex-1 text-[16px] leading-[normal]">{settings.phone}</span>
           </a>
-          <a href={`mailto:${settings.email}`} className="flex w-full items-center gap-[10px]">
+          <a href={`mailto:${settings.email}`} className="flex w-full items-center gap-[10px] transition-colors hover:text-rotenso-red">
             <Icon name="foot-mail" width={24} height={24} />
             <span className="flex-1 text-[16px] leading-[normal]">{settings.email}</span>
           </a>
