@@ -8,8 +8,16 @@ description: Rotenso Mirai to klimatyzator high premium o najwyższej klasie ene
 variants:
   - label: 2,6 kW
     symbols: M26XI R15 + M26XO R15
+    dimensions:
+      indoor: /images/products/mirai-dim-indoor.jpg
+      outdoor: null
+      remote: null
   - label: 3,5 kW
     symbols: M35XI R15 + M35XO R15
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
 purchaseIntro:
   kicker: Klimatyzacja idealna
   title: do twojego domu lub twojej firmy

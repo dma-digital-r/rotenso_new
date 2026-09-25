@@ -7,12 +7,13 @@ import { Button } from "@/components/ui/Button";
 import { Icon } from "@/components/ui/Icon";
 import type { Ui } from "@/i18n/ui";
 
-export type PurchaseVariant = { label: string; price: number | null };
+export type PurchaseVariant = { label: string; price: number | null; images: string[] };
 
 type Props = {
   name: string;
   description: string;
-  gallery: string[];
+  /** Visualisations from the CMS — shown first, before the feed photos of the chosen capacity. */
+  cmsImages: string[];
   variants: PurchaseVariant[];
   multi?: { label: string; href: string };
   siblings: { name: string; image: string | null; href: string }[];
@@ -27,11 +28,12 @@ const THUMBS = 4;
 
 // Figma: "e-commerce klimatyzacje" (5172:81598), 1820 wide — gallery 1270 + white panel 530.
 // Choosing a capacity switches the price; prices are only present on the Polish site.
-export function Purchase({ name, description, gallery, variants, multi, siblings, arHref, accessoriesHref, lang, ui }: Props) {
+export function Purchase({ name, description, cmsImages, variants, multi, siblings, arHref, accessoriesHref, lang, ui }: Props) {
   const [image, setImage] = useState(0);
   const [start, setStart] = useState(0);
   const [variant, setVariant] = useState(0);
   const current = variants[variant];
+  const gallery = [...new Set([...cmsImages, ...(current?.images ?? [])])];
 
   const select = (i: number) => {
     setImage(i);
@@ -43,8 +45,18 @@ export function Purchase({ name, description, gallery, variants, multi, siblings
     <div className="mx-[50px] flex gap-[20px]">
       {/* Gallery */}
       <div className="flex w-[1270px] min-w-0 shrink flex-col gap-[20px]">
-        <div className="relative h-[714px] overflow-hidden rounded-[32px] bg-grey-dd">
-          {gallery[image] && <Image src={gallery[image]} alt={name} fill sizes="1270px" className="object-cover" preload />}
+        <div className={`relative h-[714px] overflow-hidden rounded-[32px] ${image < cmsImages.length ? "bg-grey-dd" : "bg-white"}`}>
+          {gallery[image] && (
+            // CMS visualisations fill the frame; feed packshots (white background) are shown whole.
+            <Image
+              src={gallery[image]}
+              alt={name}
+              fill
+              sizes="1270px"
+              className={image < cmsImages.length ? "object-cover" : "object-contain p-[40px]"}
+              preload
+            />
+          )}
         </div>
         <div className="flex h-[130px] items-center gap-[10px]">
           <button
@@ -69,7 +81,7 @@ export function Purchase({ name, description, gallery, variants, multi, siblings
                     i === image ? "border-2 border-white shadow-[5px_5px_30px_rgba(0,0,0,0.3)]" : "border border-grey-dd"
                   }`}
                 >
-                  <Image src={src} alt="" fill sizes="230px" className="object-cover" />
+                  <Image src={src} alt="" fill sizes="230px" className={i < cmsImages.length ? "object-cover" : "bg-white object-contain p-[10px]"} />
                 </button>
               );
             })}
@@ -153,7 +165,14 @@ export function Purchase({ name, description, gallery, variants, multi, siblings
                 <button
                   key={v.label}
                   type="button"
-                  onClick={() => setVariant(i)}
+                  onClick={() => {
+                    setVariant(i);
+                    // Feed photos change with the capacity; keep a CMS visualisation, else go back to the first image.
+                    if (image >= cmsImages.length) {
+                      setImage(0);
+                      setStart(0);
+                    }
+                  }}
                   aria-pressed={i === variant}
                   className={`h-[50px] w-[86px] cursor-pointer rounded-[8px] border border-rotenso-grey text-center text-[18px] leading-[24.5px] transition-opacity ${
                     i === variant ? "" : "opacity-50 hover:opacity-80"

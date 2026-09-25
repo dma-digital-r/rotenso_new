@@ -5,11 +5,12 @@ const nextConfig: NextConfig = {
   // sharing one folder crashes the dev server.
   distDir: process.env.NEXT_DIST_DIR || ".next",
   images: {
-    // YouTube thumbnails and Instagram posts for the Social Media section.
+    // YouTube thumbnails and Instagram posts (Social Media), product photos from the feed.
     // (object form without `search`, so Instagram's signed query strings are allowed)
     remotePatterns: [
       new URL("https://i.ytimg.com/vi/**"),
       { protocol: "https", hostname: "**.cdninstagram.com", pathname: "/**" },
+      new URL("https://thermosilesia.pl/assets/**"),
     ],
   },
   async redirects() {

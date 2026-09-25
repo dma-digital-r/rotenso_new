@@ -306,6 +306,14 @@ export const productSchema = {
         description:
           "Jednostka wewnętrzna + zewnętrzna, np. M26XI R15 + M26XO R15. Z nich strona bierze cenę (tylko PL), parametry, zdjęcia i pliki do pobrania.",
       }),
+      dimensions: fields.object(
+        {
+          indoor: image("Wymiary — jednostka wewnętrzna", "products"),
+          outdoor: image("Wymiary — jednostka zewnętrzna", "products"),
+          remote: image("Wymiary — pilot", "products"),
+        },
+        { label: "Rysunki wymiarowe tej mocy (Specyfikacja) — puste = domyślne produktu" },
+      ),
     }),
     { label: "Moce", itemLabel: (v) => v.fields.label.value || "Moc" },
   ),
@@ -321,8 +329,9 @@ export const productSchema = {
   arLink: link("Kafelek „Zobacz jak wygląda ten model w twoim pomieszczeniu”"),
   accessoriesLink: link("Kafelek „Zobacz akcesoria pasujące do tego modelu”"),
   gallery: fields.array(image("Zdjęcie", "products"), {
-    label: "Galeria (opcjonalnie)",
-    description: "Puste = zdjęcia jednostki wewnętrznej z feedu.",
+    label: "Galeria — wizualizacje",
+    description:
+      "Pokazywane w sekcji e-commerce jako pierwsze, w tej kolejności. Po nich strona dokłada zdjęcia z feedu wybranej mocy (jednostka wewnętrzna, potem zewnętrzna).",
   }),
   family: fields.object(
     {
@@ -345,7 +354,7 @@ export const productSchema = {
       outdoor: image("Wymiary — jednostka zewnętrzna", "products"),
       remote: image("Wymiary — pilot", "products"),
     },
-    { label: "Rysunki wymiarowe (Specyfikacja)" },
+    { label: "Rysunki wymiarowe — domyślne (gdy moc nie ma własnych)" },
   ),
   featureGroups: fields.array(
     fields.object({

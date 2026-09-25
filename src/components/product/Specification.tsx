@@ -6,18 +6,20 @@ import { Icon } from "@/components/ui/Icon";
 import type { Ui } from "@/i18n/ui";
 import type { SpecGroup } from "@/lib/specs";
 
+type Dimensions = { indoor: string | null; outdoor: string | null; remote: string | null };
+
 type Props = {
   name: string;
-  variants: { label: string; specs: SpecGroup[] }[];
-  dimensions: { indoor: string | null; outdoor: string | null; remote: string | null };
+  variants: { label: string; specs: SpecGroup[]; dimensions: Dimensions }[];
   featureGroups: { title: string; items: { name: string; tooltip: string }[] }[];
   ui: Ui;
 };
 
 // Figma: "Klimatyzacja High Premium Specyfikacja" (5172:81741). Left: sticky capacity switch
 // (220 wide); right, 970 wide at +330: dimensions, product features, technical data.
-export function Specification({ name, variants, dimensions, featureGroups, ui }: Props) {
+export function Specification({ name, variants, featureGroups, ui }: Props) {
   const [variant, setVariant] = useState(0);
+  const dimensions = variants[variant]?.dimensions ?? { indoor: null, outdoor: null, remote: null };
   const dims = (
     [
       ["indoor", ui.indoorUnit, dimensions.indoor],
@@ -25,7 +27,9 @@ export function Specification({ name, variants, dimensions, featureGroups, ui }:
       ["remote", ui.remote, dimensions.remote],
     ] as const
   ).filter(([, , src]) => src);
-  const [dim, setDim] = useState(0);
+  const [dimTab, setDim] = useState(0);
+  // Drawings follow the capacity; keep the chosen tab if the new capacity has it.
+  const dim = Math.min(dimTab, Math.max(0, dims.length - 1));
   const specs = variants[variant]?.specs ?? [];
 
   return (

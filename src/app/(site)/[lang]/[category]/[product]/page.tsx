@@ -40,8 +40,8 @@ export default async function ProductPage({ params }: Props) {
           <Purchase
             name={entry.name}
             description={entry.description}
-            gallery={gallery.length ? gallery : (variants[0]?.images ?? [])}
-            variants={variants.map((v) => ({ label: v.label, price: v.price }))}
+            cmsImages={gallery}
+            variants={variants.map((v) => ({ label: v.label, price: v.price, images: v.images }))}
             multi={entry.family.canonical ? undefined : entry.family.other}
             siblings={entry.siblings.map((s) => ({ name: s.name, image: s.image, href: s.href }))}
             arHref={entry.arLink.href}

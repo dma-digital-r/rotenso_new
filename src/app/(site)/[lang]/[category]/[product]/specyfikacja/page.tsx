@@ -22,8 +22,7 @@ export default async function SpecificationPage({ params }: Props) {
       <ProductBar product={entry} base={base} active="specs" ui={ui} lang={lang} />
       <Specification
         name={entry.name}
-        variants={variants.map((v) => ({ label: v.label, specs: v.specs }))}
-        dimensions={entry.dimensions}
+        variants={variants.map((v) => ({ label: v.label, specs: v.specs, dimensions: v.dimensions }))}
         featureGroups={entry.featureGroups.map((g) => ({ title: g.title, items: g.items.map((i) => ({ name: i.name, tooltip: i.tooltip })) }))}
         ui={ui}
       />

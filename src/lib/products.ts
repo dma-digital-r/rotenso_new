@@ -16,6 +16,8 @@ export type ProductVariant = {
   /** Gross "from" price in PLN — only on the Polish site, null elsewhere or if missing. */
   price: number | null;
   specs: SpecGroup[];
+  /** Dimension drawings of this capacity, falling back to the product's defaults. */
+  dimensions: { indoor: string | null; outdoor: string | null; remote: string | null };
   documents: ProductDocument[];
   images: string[];
 };
@@ -71,8 +73,14 @@ export async function getProductPage(lang: Locale, category: string, slug: strin
       symbols: v.symbols,
       price: lang === "pl" ? setPrice(feed, v.symbols) : null,
       specs: buildSpecs(idu, odu),
+      dimensions: {
+        indoor: v.dimensions.indoor ?? entry.dimensions.indoor,
+        outdoor: v.dimensions.outdoor ?? entry.dimensions.outdoor,
+        remote: v.dimensions.remote ?? entry.dimensions.remote,
+      },
       documents: documentsFor([idu, odu], lang),
-      images: idu?.images ?? [],
+      // Feed photos: indoor unit first, then outdoor unit, without duplicates.
+      images: [...new Set([...(idu?.images ?? []), ...(odu?.images ?? [])])],
     };
   });
 
