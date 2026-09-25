@@ -21,7 +21,7 @@ const TARGETS = ["en", "de", "fr", "cs", "it", "uk"];
 const DEEPL_TARGET = { en: "EN-GB", de: "DE", fr: "FR", cs: "CS", it: "IT", uk: "UK" };
 
 // Keys whose values are never translated (media, links, model names).
-const SKIP_KEYS = new Set(["href", "image", "thumb", "background", "media", "video", "name"]);
+const SKIP_KEYS = new Set(["href", "image", "thumb", "background", "media", "video", "name", "priceSymbols"]);
 // Brand and product names DeepL must leave untouched.
 const KEEP_TERMS = [
   "Rotenso", "Wentilo ICON", "Wentilo", "Mirai", "Versu Cloth Caramel", "Versu Mirror R15",

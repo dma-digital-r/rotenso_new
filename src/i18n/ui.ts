@@ -3,6 +3,7 @@ import type { Locale } from "./config";
 // Interface strings that live in code rather than in the CMS (labels, aria-labels,
 // installer card captions). Page content is translated in content/<lang>/*.yaml.
 const pl = {
+  priceFrom: "Już od:",
   home: "Rotenso — strona główna",
   language: "Język",
   prev: "Poprzedni",
@@ -12,7 +13,6 @@ const pl = {
   prevModel: "Poprzedni model",
   nextModel: "Następny model",
   pause: "Wstrzymaj",
-  resume: "Wznów",
   play: "Odtwórz",
   search: "Szukaj",
   installerAc: "Instalator klimatyzacji",
@@ -39,6 +39,7 @@ const pl = {
 export type Ui = typeof pl;
 
 const en: Ui = {
+  priceFrom: "From:",
   home: "Rotenso — home page",
   language: "Language",
   prev: "Previous",
@@ -48,7 +49,6 @@ const en: Ui = {
   prevModel: "Previous model",
   nextModel: "Next model",
   pause: "Pause",
-  resume: "Resume",
   play: "Play",
   search: "Search",
   installerAc: "Air conditioning installer",
@@ -73,6 +73,7 @@ const en: Ui = {
 };
 
 const de: Ui = {
+  priceFrom: "Ab:",
   home: "Rotenso — Startseite",
   language: "Sprache",
   prev: "Zurück",
@@ -82,7 +83,6 @@ const de: Ui = {
   prevModel: "Vorheriges Modell",
   nextModel: "Nächstes Modell",
   pause: "Pausieren",
-  resume: "Fortsetzen",
   play: "Abspielen",
   search: "Suchen",
   installerAc: "Klimaanlagen-Installateur",
@@ -107,6 +107,7 @@ const de: Ui = {
 };
 
 const fr: Ui = {
+  priceFrom: "À partir de :",
   home: "Rotenso — page d’accueil",
   language: "Langue",
   prev: "Précédent",
@@ -116,7 +117,6 @@ const fr: Ui = {
   prevModel: "Modèle précédent",
   nextModel: "Modèle suivant",
   pause: "Pause",
-  resume: "Reprendre",
   play: "Lecture",
   search: "Rechercher",
   installerAc: "Installateur de climatisation",
@@ -141,6 +141,7 @@ const fr: Ui = {
 };
 
 const cs: Ui = {
+  priceFrom: "Již od:",
   home: "Rotenso — úvodní stránka",
   language: "Jazyk",
   prev: "Předchozí",
@@ -150,7 +151,6 @@ const cs: Ui = {
   prevModel: "Předchozí model",
   nextModel: "Další model",
   pause: "Pozastavit",
-  resume: "Pokračovat",
   play: "Přehrát",
   search: "Hledat",
   installerAc: "Montážník klimatizací",
@@ -175,6 +175,7 @@ const cs: Ui = {
 };
 
 const it: Ui = {
+  priceFrom: "A partire da:",
   home: "Rotenso — home page",
   language: "Lingua",
   prev: "Precedente",
@@ -184,7 +185,6 @@ const it: Ui = {
   prevModel: "Modello precedente",
   nextModel: "Modello successivo",
   pause: "Pausa",
-  resume: "Riprendi",
   play: "Riproduci",
   search: "Cerca",
   installerAc: "Installatore di climatizzatori",
@@ -209,6 +209,7 @@ const it: Ui = {
 };
 
 const uk: Ui = {
+  priceFrom: "Від:",
   home: "Rotenso — головна сторінка",
   language: "Мова",
   prev: "Попередній",
@@ -218,7 +219,6 @@ const uk: Ui = {
   prevModel: "Попередня модель",
   nextModel: "Наступна модель",
   pause: "Пауза",
-  resume: "Продовжити",
   play: "Відтворити",
   search: "Пошук",
   installerAc: "Монтажник кондиціонерів",

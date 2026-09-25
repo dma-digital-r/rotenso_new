@@ -46,7 +46,11 @@ const acSlide = (label: string) =>
           thumb: image("Miniatura urządzenia"),
           subtitle: fields.text({ label: "Podtytuł" }),
           text: fields.text({ label: "Opis", multiline: true }),
-          price: fields.text({ label: "Cena (np. „Już od: 2859 zł”)" }),
+          priceSymbols: fields.text({
+            label: "Cena „Już od” — symbole zestawu z feedu",
+            description:
+              "Najniższa moc modelu, symbole połączone plusem, np. M26XI R15 + M26XO R15 (IDU + ODU). Cena brutto liczona raz na dobę z feedu i zaokrąglona w górę do pełnej złotówki. Puste pole = bez ceny. Na stronach zagranicznych cena nigdy się nie wyświetla.",
+          }),
           cta: link("Przycisk"),
         }),
         { label: "Modele", itemLabel: (p) => p.fields.name.value || "Model" },

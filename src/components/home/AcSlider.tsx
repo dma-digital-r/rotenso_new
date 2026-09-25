@@ -11,13 +11,28 @@ import type { HomeContent } from "@/lib/content";
 type Slide = HomeContent["acHome"];
 
 const PRODUCT_MS = 6000;
+
+// Polish format as in the design: "2859 zł", "12 859 zł".
+const formatPln = (v: number) => `${new Intl.NumberFormat("pl-PL", { maximumFractionDigits: 0 }).format(v)} zł`;
 // Track inset: 50px before the active slide; the other slide peeks 160px after a 50px gap.
 const EDGE = 50;
 
 // Figma: "Klimatyzacje Dom" (5172:70638) + "Klimatyzacje Firma" (5172:70635).
 // Two 1660×880 slides side by side; the switch link slides the whole track so the
 // other slide comes in and the first one peeks 160px from the opposite edge.
-export function AcSlider({ home, business, ui }: { home: Slide; business: Slide; ui: Ui }) {
+// `prices` maps a model's priceSymbols to its gross "from" price; it is only passed on the
+// Polish site — foreign versions never show prices.
+export function AcSlider({
+  home,
+  business,
+  ui,
+  prices,
+}: {
+  home: Slide;
+  business: Slide;
+  ui: Ui;
+  prices?: Record<string, number>;
+}) {
   const [active, setActive] = useState<0 | 1>(0);
 
   return (
@@ -39,6 +54,7 @@ export function AcSlider({ home, business, ui }: { home: Slide; business: Slide;
           onSwitch={() => setActive(1)}
           switchDir="right"
           ui={ui}
+          prices={prices}
         />
         <AcPanel
           slide={business}
@@ -47,6 +63,7 @@ export function AcSlider({ home, business, ui }: { home: Slide; business: Slide;
           onSwitch={() => setActive(0)}
           switchDir="left"
           ui={ui}
+          prices={prices}
         />
       </div>
     </section>
@@ -61,6 +78,7 @@ function AcPanel({
   onSwitch,
   switchDir,
   ui,
+  prices,
 }: {
   slide: Slide;
   topGradient: number;
@@ -69,11 +87,13 @@ function AcPanel({
   onSwitch: () => void;
   switchDir: "left" | "right";
   ui: Ui;
+  prices?: Record<string, number>;
 }) {
   const [index, setIndex] = useState(0);
   const [hover, setHover] = useState(false);
   const products = slide.products;
   const product = products[index];
+  const price = product?.priceSymbols ? prices?.[product.priceSymbols] : undefined;
   const count = products.length;
   const go = (i: number) => count && setIndex((i + count) % count);
 
@@ -116,7 +136,11 @@ function AcPanel({
               {product.subtitle && <p className="text-[25px] leading-[normal]">{product.subtitle}</p>}
             </div>
             {product.text && <p className="text-[16px] leading-[24px]">{product.text}</p>}
-            {product.price && <p className="text-[25px] leading-[normal] font-light">{product.price}</p>}
+            {price != null && (
+              <p className="text-[25px] leading-[normal] font-light">
+                {ui.priceFrom} {formatPln(price)}
+              </p>
+            )}
           </div>
           <Button variant="m-red" href={product.cta.href}>
             {product.cta.label}

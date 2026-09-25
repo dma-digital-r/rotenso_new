@@ -59,7 +59,7 @@ acHome:
       thumb: /images/home/ac-mirai.png
       subtitle: Höchste Effizienz
       text: Mirai sorgt das ganze Jahr über für effizientes Kühlen und Heizen.
-      price: 'Ab: 2859 zł'
+      priceSymbols: M26XI R15 + M26XO R15
       cta:
         label: Modell entdecken
         href: /de/klimatyzacja/mirai
@@ -67,7 +67,7 @@ acHome:
       thumb: /images/home/ac-versu-caramel.png
       subtitle: ''
       text: ''
-      price: ''
+      priceSymbols: VCC26XI R16 + VO26XO R16
       cta:
         label: Modell entdecken
         href: /de/klimatyzacja/versu-cloth-caramel
@@ -75,7 +75,7 @@ acHome:
       thumb: /images/home/ac-luve-pro.png
       subtitle: ''
       text: ''
-      price: ''
+      priceSymbols: LEP26XI R16 + LOP26XO R16
       cta:
         label: Modell entdecken
         href: /de/klimatyzacja/luve-pro
@@ -83,7 +83,7 @@ acHome:
       thumb: /images/home/ac-fresh.png
       subtitle: ''
       text: ''
-      price: ''
+      priceSymbols: FH26XI R16 + FH26XO R16
       cta:
         label: Modell entdecken
         href: /de/klimatyzacja/fresh
@@ -91,7 +91,7 @@ acHome:
       thumb: /images/home/ac-versu-mirror.png
       subtitle: ''
       text: ''
-      price: ''
+      priceSymbols: VM26XI R15 + VM26XO R15
       cta:
         label: Modell entdecken
         href: /de/klimatyzacja/versu-mirror-r15
@@ -99,7 +99,7 @@ acHome:
       thumb: /images/home/ac-versu-pure.png
       subtitle: ''
       text: ''
-      price: ''
+      priceSymbols: VP26XI R16 + VP26XO R15
       cta:
         label: Modell entdecken
         href: /de/klimatyzacja/versu-pure
@@ -123,7 +123,7 @@ acBusiness:
       thumb: /images/home/ac-mirai.png
       subtitle: Höchste Effizienz
       text: Mirai sorgt das ganze Jahr über für effizientes Kühlen und Heizen.
-      price: 'Ab: 2859 zł'
+      priceSymbols: M26XI R15 + M26XO R15
       cta:
         label: Modell entdecken
         href: /de/klimatyzacja/mirai
@@ -131,7 +131,7 @@ acBusiness:
       thumb: /images/home/ac-versu-caramel.png
       subtitle: ''
       text: ''
-      price: ''
+      priceSymbols: VCC26XI R16 + VO26XO R16
       cta:
         label: Modell entdecken
         href: /de/klimatyzacja/versu-cloth-caramel
@@ -139,7 +139,7 @@ acBusiness:
       thumb: /images/home/ac-luve-pro.png
       subtitle: ''
       text: ''
-      price: ''
+      priceSymbols: LEP26XI R16 + LOP26XO R16
       cta:
         label: Modell entdecken
         href: /de/klimatyzacja/luve-pro
@@ -147,7 +147,7 @@ acBusiness:
       thumb: /images/home/ac-fresh.png
       subtitle: ''
       text: ''
-      price: ''
+      priceSymbols: FH26XI R16 + FH26XO R16
       cta:
         label: Modell entdecken
         href: /de/klimatyzacja/fresh
@@ -155,7 +155,7 @@ acBusiness:
       thumb: /images/home/ac-versu-mirror.png
       subtitle: ''
       text: ''
-      price: ''
+      priceSymbols: VM26XI R15 + VM26XO R15
       cta:
         label: Modell entdecken
         href: /de/klimatyzacja/versu-mirror-r15
@@ -163,7 +163,7 @@ acBusiness:
       thumb: /images/home/ac-versu-pure.png
       subtitle: ''
       text: ''
-      price: ''
+      priceSymbols: VP26XI R16 + VP26XO R15
       cta:
         label: Modell entdecken
         href: /de/klimatyzacja/versu-pure

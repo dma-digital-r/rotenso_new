@@ -15,7 +15,6 @@ const BAR_PITCH = 294.19;
 // Figma: "Header" (5172:70639) — 1820×930 rounded box, 50px from the page edges.
 export function HeroSlider({ slides, ui }: { slides: HomeContent["heroSlides"]; ui: Ui }) {
   const [index, setIndex] = useState(0);
-  const [paused, setPaused] = useState(false);
   const count = slides.length;
   const go = (i: number) => setIndex((i + count) % count);
 
@@ -88,7 +87,6 @@ export function HeroSlider({ slides, ui }: { slides: HomeContent["heroSlides"]; 
                   className="hero-progress absolute inset-y-0 left-0 rounded-[20px] bg-rotenso-red"
                   style={{
                     animationDuration: `${SLIDE_MS}ms`,
-                    animationPlayState: paused ? "paused" : "running",
                   }}
                   onAnimationEnd={() => go(index + 1)}
                 />
@@ -110,15 +108,6 @@ export function HeroSlider({ slides, ui }: { slides: HomeContent["heroSlides"]; 
           </button>
           <button type="button" aria-label={ui.nextSlide} onClick={() => go(index + 1)} className="ml-[10px] cursor-pointer">
             <Icon name="arrow-w2-right" width={30} height={30} />
-          </button>
-          <button
-            type="button"
-            aria-label={paused ? ui.resume : ui.pause}
-            aria-pressed={paused}
-            onClick={() => setPaused((p) => !p)}
-            className="ml-[20px] cursor-pointer"
-          >
-            <Icon name="pause-white" width={30} height={30} className={paused ? "opacity-100" : ""} />
           </button>
         </div>
       </div>

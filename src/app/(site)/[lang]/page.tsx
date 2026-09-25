@@ -12,7 +12,29 @@ import { SocialMedia } from "@/components/home/SocialMedia";
 import { Wentilo } from "@/components/home/Wentilo";
 import type { Locale } from "@/i18n/config";
 import { getUi } from "@/i18n/ui";
-import { getHome, getSettings } from "@/lib/content";
+import { getHome, getSettings, type HomeContent } from "@/lib/content";
+import { getRotensoProducts, setPrice } from "@/lib/productFeed";
+
+// Prices come from the product feed — regenerate the page at most once a day.
+export const revalidate = 86400;
+
+// Only the Polish site shows prices. A feed error hides prices instead of breaking the page.
+async function loadPrices(lang: Locale, home: HomeContent): Promise<Record<string, number> | undefined> {
+  if (lang !== "pl") return undefined;
+  try {
+    const products = await getRotensoProducts();
+    const prices: Record<string, number> = {};
+    for (const p of [...home.acHome.products, ...home.acBusiness.products]) {
+      const value = p.priceSymbols ? setPrice(products, p.priceSymbols) : null;
+      if (value != null) prices[p.priceSymbols] = value;
+      else if (p.priceSymbols) console.warn(`[ceny] brak w feedzie: ${p.name} (${p.priceSymbols})`);
+    }
+    return prices;
+  } catch (e) {
+    console.error("[ceny] feed niedostępny — ceny ukryte:", (e as Error).message);
+    return undefined;
+  }
+}
 
 export async function generateMetadata({ params }: PageProps<"/[lang]">): Promise<Metadata> {
   const { lang } = await params;
@@ -28,12 +50,13 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
   const [home, settings] = await Promise.all([getHome(lang as Locale), getSettings(lang as Locale)]);
   const ui = getUi(lang as Locale);
+  const prices = await loadPrices(lang as Locale, home);
 
   return (
     <main>
       <HeroSlider slides={home.heroSlides} ui={ui} />
       <Idea idea={home.idea} />
-      <AcSlider home={home.acHome} business={home.acBusiness} ui={ui} />
+      <AcSlider home={home.acHome} business={home.acBusiness} ui={ui} prices={prices} />
       <Wentilo wentilo={home.wentilo} ui={ui} />
       <HeatPumps data={home.heatPumps} ui={ui} />
       <Rvf rvf={home.rvf} />
