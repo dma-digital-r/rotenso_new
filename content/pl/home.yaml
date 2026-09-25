@@ -1,4 +1,255 @@
-heroTitle: Klimatyzacje
-heroText: Rotenso to łączenie systemów klimatyzacyjnych, które zapewniają idealną temperaturę przez cały rok.
 seoTitle: Rotenso — klimatyzacja, rekuperacja, pompy ciepła
-seoDescription: Innowacyjne systemy HVAC dla domu i biznesu.
+seoDescription: Innowacyjne systemy HVAC dla domu i biznesu — klimatyzatory, rekuperatory, pompy ciepła i systemy RVF / VRF.
+heroSlides:
+  - tab: Klimatyzacje
+    title: Klimatyzacje
+    text: Rotenso to bogactwo systemów klimatyzacyjnych, które zapewniają idealną temperaturę przez cały rok.
+    primary:
+      label: Poznaj modele
+      href: /pl/klimatyzacja
+    secondary:
+      label: Zobacz nowości
+      href: /pl/klimatyzacja
+    background: null
+  - tab: Rekuperacja
+    title: Rekuperacja
+    text: Stały dopływ świeżego i filtrowanego powietrza z odzyskiem ciepła lub wilgoci.
+    primary:
+      label: Poznaj modele
+      href: /pl/rekuperacja
+    secondary:
+      label: Zobacz nowości
+      href: /pl/rekuperacja
+    background: null
+  - tab: Pompy ciepła
+    title: Pompy ciepła
+    text: Ekonomiczne i bezobsługowe ogrzewanie budynków oraz przygotowywanie ciepłej wody użytkowej.
+    primary:
+      label: Poznaj modele
+      href: /pl/pompy-ciepla
+    secondary:
+      label: Zobacz nowości
+      href: /pl/pompy-ciepla
+    background: null
+  - tab: Systemy RVF
+    title: Systemy RVF
+    text: Precyzyjne sterowanie temperaturą w wielu strefach jednocześnie — dla biur, hoteli i obiektów komercyjnych.
+    primary:
+      label: Poznaj modele
+      href: /pl/systemy-rvf
+    secondary:
+      label: Zobacz nowości
+      href: /pl/systemy-rvf
+    background: null
+idea:
+  title: Klimatyzacja Rotenso to komfort, który poczujesz od pierwszej chwili.
+  text: Chłodzi, ogrzewa i oczyszcza powietrze, a Ty zyskujesz azyl w swoim domu. Elegancki design i cicha praca sprawiają, że urządzenia stają się naturalną częścią wnętrza. Sterowanie jest proste i intuicyjne, dzięki czemu spokój zawsze jest na wyciągnięcie ręki.
+  background: null
+acHome:
+  title: Klimatyzacje dla Ciebie
+  switchLabel: Klimatyzacje dla firm
+  background: /images/home/ac-dom-bg.png
+  backgroundCrop:
+    x: 0
+    y: -6.12
+    w: 100
+    h: 122.73
+  products:
+    - name: Mirai
+      thumb: /images/home/ac-mirai.png
+      subtitle: Najwyższa wydajność
+      text: Mirai zapewni Ci wydajne chłodzenie oraz ogrzewanie przez cały rok.
+      price: 'Już od: 2859 zł'
+      cta:
+        label: Poznaj model
+        href: /pl/klimatyzacja/mirai
+    - name: Versu Cloth Caramel
+      thumb: /images/home/ac-versu-caramel.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Poznaj model
+        href: /pl/klimatyzacja/versu-cloth-caramel
+    - name: Luve Pro
+      thumb: /images/home/ac-luve-pro.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Poznaj model
+        href: /pl/klimatyzacja/luve-pro
+    - name: Fresh
+      thumb: /images/home/ac-fresh.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Poznaj model
+        href: /pl/klimatyzacja/fresh
+    - name: Versu Mirror R15
+      thumb: /images/home/ac-versu-mirror.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Poznaj model
+        href: /pl/klimatyzacja/versu-mirror-r15
+    - name: Versu Pure
+      thumb: /images/home/ac-versu-pure.png
+      subtitle: ''
+      text: ''
+      price: ''
+      cta:
+        label: Poznaj model
+        href: /pl/klimatyzacja/versu-pure
+  configurator:
+    question: Nie wiesz jaką klimatyzację wybrać?
+    cta: |-
+      Skorzystaj
+      z konfiguratora
+    href: /pl/doboromierz
+acBusiness:
+  title: Klimatyzacje dla firm
+  switchLabel: Klimatyzacje dla Ciebie
+  background: /images/home/ac-firma-bg.png
+  backgroundCrop:
+    x: 0
+    y: 0
+    w: 100
+    h: 130.47
+  products: []
+  configurator:
+    question: Nie wiesz jaką klimatyzację wybrać?
+    cta: |-
+      Skorzystaj
+      z konfiguratora
+    href: /pl/doboromierz
+wentilo:
+  title: Świeże powietrze dzięki rekuperacji
+  productName: Wentilo ICON
+  text: |-
+    Rekuperatory Rotenso Wentilo zapewniają stały dopływ świeżego i filtrowanego powietrza z odzyskiem ciepła lub wilgoci, obniżając jednocześnie koszty ogrzewania. Inteligentne sterowanie zagwarantuje Ci całodniowy komfort bez dodatkowej obsługi.
+
+    Zobacz rekuperatory z serii Rotenso Wentilo ICON i wybierz odpowiednie rozwiązanie dla Twojego domu.
+  cta:
+    label: Poznaj Wentilo ICON
+    href: /pl/rekuperacja/wentilo-icon
+  configurator:
+    question: Nie wiesz jaki rekuperator wybrać?
+    cta: Skorzystaj z konfiguratora
+    href: /pl/doboromierz/rekuperacja
+  background: /images/home/wentilo-bg.png
+  media: null
+  video: ''
+heatPumps:
+  title: Pompy ciepła
+  text: Pompy ciepła Rotenso to urządzenia dla tych, którzy szukają ekonomicznego i bezobsługowego systemu do ogrzewania budynków oraz przygotowywania ciepłej wody użytkowej.
+  configurator:
+    question: Nie wiesz jaką pompę ciepła wybrać?
+    cta: Skorzystaj z konfiguratora
+    href: /pl/doboromierz/pompa-ciepla
+  tiles:
+    - title: Niskotemperaturowe
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Poznaj modele
+        href: /pl/pompy-ciepla
+    - title: Dwuczęściowe (Split)
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Poznaj modele
+        href: /pl/pompy-ciepla
+    - title: |-
+        Jednoczęściowe
+        (Monoblock)
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Poznaj modele
+        href: /pl/pompy-ciepla
+    - title: Dopasowane kolorem
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Poznaj modele
+        href: /pl/pompy-ciepla
+    - title: |-
+        Ze zintegrowanym
+        zbiornikiem CWU
+      text: Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor. Lorem ipsum dolor sit amet, lorem ipsum dolor.
+      image: /images/home/hp-tile.png
+      cta:
+        label: Poznaj modele
+        href: /pl/pompy-ciepla
+rvf:
+  title: Systemy RVF / VRF
+  text: Systemy RVF Rotenso to nowoczesne i elastyczne rozwiązania klimatyzacyjno-grzewcze, które umożliwiają precyzyjne sterowanie temperaturą w wielu strefach jednocześnie – idealne do biur, hoteli i obiektów komercyjnych.
+  cta:
+    label: Dowiedz się więcej
+    href: /pl/systemy-rvf
+  image: /images/home/rvf-bg.png
+guides:
+  title: Praktyczna wiedza
+  text: Poradniki to praktyczne źródło wiedzy dla osób zainteresowanych klimatyzacją, pompami ciepła i rekuperacją.
+  readLabel: Przeczytaj
+  more:
+    label: Zobacz więcej poradników
+    href: /pl/poradniki
+  items:
+    - category: Pompy ciepła
+      title: Ciepła woda użytkowa – czy pompa ciepła może ją ogrzać?
+      image: /images/home/guide-1.png
+      imageCrop: { x: 0, y: -27.38, w: 100, h: 127.86 }
+      href: /pl/poradniki
+    - category: Pompy ciepła
+      title: Dofinansowania do pompy ciepła w 2026 roku.
+      image: /images/home/guide-2.png
+      imageCrop: { x: -0.28, y: 0, w: 135.79, h: 100 }
+      href: /pl/poradniki
+    - category: Klimatyzacja
+      title: Czy ogrzewanie klimatyzacją ma sens? Rozwiewamy wątpliwości.
+      image: /images/home/guide-3.png
+      imageCrop: { x: null, y: null, w: null, h: null }
+      href: /pl/poradniki
+    - category: Klimatyzacja
+      title: Klimatyzacja do mieszkania 40 m². Jaką wybrać?
+      image: /images/home/guide-4.png
+      imageCrop: { x: null, y: null, w: null, h: null }
+      href: /pl/poradniki
+    - category: Klimatyzacje | Rekuperacja
+      title: Rekuperacja z klimatyzacją – jak połączyć to w jeden system?
+      image: /images/home/guide-5.png
+      imageCrop: { x: -66.31, y: 0, w: 196.16, h: 100 }
+      href: /pl/poradniki
+    - category: Rekuperacja
+      title: Jak działa rekuperator z odzyskiem wilgoci?
+      image: /images/home/guide-6.png
+      imageCrop: { x: 0.08, y: 0, w: 215.77, h: 100 }
+      href: /pl/poradniki
+    - category: Rekuperacja
+      title: Filtry do rekuperacji – podstawa czystego powietrza w domu.
+      image: /images/home/guide-7.png
+      imageCrop: { x: 0.02, y: -11.17, w: 239.98, h: 122.34 }
+      href: /pl/poradniki
+    - category: Klimatyzacja
+      title: Czy klimatyzacja jest zdrowa? Fakty i mity.
+      image: /images/home/guide-8.png
+      imageCrop: { x: -48.08, y: 0, w: 196.16, h: 100 }
+      href: /pl/poradniki
+    - category: Klimatyzacja
+      title: Co to jest klimatyzacja multisplit? Jak działa?
+      image: /images/home/guide-9.png
+      imageCrop: { x: -174.06, y: 0, w: 328.31, h: 167.37 }
+      href: /pl/poradniki
+    - category: RVF / VRF
+      title: Co to jest VRF? Jakie są zastosowania tego systemu?
+      image: /images/home/guide-10.png
+      imageCrop: { x: -64.94, y: 0, w: 196.16, h: 100 }
+      href: /pl/poradniki
+installer:
+  title: Znajdź instalatora
+  text: Podaj kod pocztowy lub miejscowość i znajdź odpowiedniego instalatora.
+  placeholder: Wpisz tutaj...

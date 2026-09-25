@@ -1,21 +1,26 @@
 import { collection, config, fields, singleton } from "@keystatic/core";
 import { locales, localeLabels, type Locale } from "./src/i18n/config";
+import { homeSchema, settingsSchema } from "./src/content/schema";
 
 // Every language keeps its own copy of the content under content/<lang>/.
 // PL is edited by hand; other languages are filled by the DeepL script and can
 // then be corrected here — corrected files are not overwritten on the next run.
 
-function homeSingleton(lang: Locale) {
+export function homeSingleton(lang: Locale) {
   return singleton({
     label: `Strona główna (${lang.toUpperCase()})`,
     path: `content/${lang}/home`,
     format: { data: "yaml" },
-    schema: {
-      heroTitle: fields.text({ label: "Hero — tytuł" }),
-      heroText: fields.text({ label: "Hero — opis", multiline: true }),
-      seoTitle: fields.text({ label: "SEO — tytuł" }),
-      seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
-    },
+    schema: homeSchema,
+  });
+}
+
+export function settingsSingleton(lang: Locale) {
+  return singleton({
+    label: `Menu i stopka (${lang.toUpperCase()})`,
+    path: `content/${lang}/settings`,
+    format: { data: "yaml" },
+    schema: settingsSchema,
   });
 }
 
@@ -50,12 +55,15 @@ export default config({
     navigation: Object.fromEntries(
       locales.map((lang) => [
         localeLabels[lang],
-        [`home_${lang}`, `products_${lang}`],
+        [`home_${lang}`, `settings_${lang}`, `products_${lang}`],
       ]),
     ),
   },
   singletons: Object.fromEntries(
-    locales.map((lang) => [`home_${lang}`, homeSingleton(lang)]),
+    locales.flatMap((lang) => [
+      [`home_${lang}`, homeSingleton(lang)],
+      [`settings_${lang}`, settingsSingleton(lang)],
+    ]),
   ),
   collections: Object.fromEntries(
     locales.map((lang) => [`products_${lang}`, productsCollection(lang)]),

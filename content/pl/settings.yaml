@@ -1,0 +1,94 @@
+nav:
+  - label: Produkty
+    href: /pl/produkty
+  - label: O nas
+    href: /pl/o-nas
+  - label: Poradniki
+    href: /pl/poradniki
+  - label: Katalogi
+    href: /pl/katalogi
+  - label: Kontakt
+    href: /pl/kontakt
+searchPlaceholder: Wyszukaj
+configurator:
+  label: Konfigurator
+  href: /pl/doboromierz
+installer:
+  label: Dla instalatora
+  href: /pl/znajdz-instalatora
+footerColumns:
+  - heading:
+      label: Klimatyzacje
+      href: /pl/klimatyzacja
+    links:
+      - label: Pokojowe (Split)
+        href: /pl/klimatyzacja/split
+      - label: Wielopokojowe (Multi Split)
+        href: /pl/klimatyzacja/multi-split
+      - label: Do grzania całorocznego
+        href: /pl/klimatyzacja/grzanie
+      - label: Sufitowe i do zabudowy
+        href: /pl/klimatyzacja/sufitowe
+      - label: Przypodłogowe
+        href: /pl/klimatyzacja/przypodlogowe
+      - label: Akcesoria
+        href: /pl/akcesoria
+  - heading:
+      label: Rekuperacja
+      href: /pl/rekuperacja
+    links: []
+  - heading:
+      label: Pompy ciepła
+      href: /pl/pompy-ciepla
+    links:
+      - label: Typ Split
+        href: /pl/pompy-ciepla/split
+      - label: Typ Monoblock
+        href: /pl/pompy-ciepla/monoblock
+      - label: Typ All-in
+        href: /pl/pompy-ciepla/all-in
+      - label: Zbiorniki
+        href: /pl/pompy-ciepla/zbiorniki
+  - heading:
+      label: Systemy RVF
+      href: /pl/systemy-rvf
+    links:
+      - label: Systemy / Rozwiązania
+        href: /pl/systemy-rvf/rozwiazania
+      - label: Jednostki wewnętrzne
+        href: /pl/systemy-rvf/jednostki-wewnetrzne
+      - label: Jednostki zewnętrzne
+        href: /pl/systemy-rvf/jednostki-zewnetrzne
+  - heading:
+      label: Informacje
+      href: ''
+    links:
+      - label: O nas
+        href: /pl/o-nas
+      - label: Poradniki
+        href: /pl/poradniki
+      - label: Katalogi
+        href: /pl/katalogi
+      - label: RODO
+        href: /pl/rodo
+      - label: Regulamin
+        href: /pl/regulamin
+contactHeading: Kontakt
+phone: +48 32 285 57 11
+email: info@rotenso.com
+contactForm:
+  label: Formularz kontaktowy
+  href: /pl/kontakt
+navigate:
+  label: Nawiguj
+  href: https://maps.google.com/?q=Rotenso
+social:
+  facebook: https://www.facebook.com/
+  youtube: https://www.youtube.com/
+  instagram: https://www.instagram.com/
+  tiktok: https://www.tiktok.com/
+  spotify: https://open.spotify.com/
+  linkedin: https://www.linkedin.com/
+copyright: |-
+  © 2025 Rotenso®. Wszystkie prawa zastrzeżone.
+  Zastrzegamy sobie prawo do błędów w opisach oraz parametrach technicznych. Ze swojej strony dokładamy wszelkich możliwych starań, aby fotografie wiernie oddawały kolorystykę urządzeń, jednak ze względu na różnice w indywidualnych ustawieniach monitora kolory te mogą się różnić od rzeczywistych.

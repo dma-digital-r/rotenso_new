@@ -35,3 +35,38 @@ body {
   color: var(--color-rotenso-grey);
   font-family: var(--font-sans);
 }
+
+/* Figma buttons trim the text box to cap height, which gives the exact button heights (41 / 30). */
+@utility text-trim {
+  text-box-trim: trim-both;
+  text-box-edge: cap alphabetic;
+}
+
+@utility scrollbar-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Timer fill used by the autoplaying sliders (duration set inline). */
+@keyframes progress-fill {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+.hero-progress {
+  animation-name: progress-fill;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+/* Light grey backdrop behind some sections (Rectangle 7 / 32 / 33 in Figma). */
+@utility bg-section-fade {
+  background:
+    radial-gradient(ellipse 50% 60% at 50% 45%, #ffffff 0%, rgb(255 255 255 / 0) 100%),
+    linear-gradient(to bottom, #f8f8f8 0%, #cccccc 8%, #f0f0f0 100%);
+}
