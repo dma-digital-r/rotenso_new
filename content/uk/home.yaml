@@ -190,6 +190,8 @@ wentilo:
   background: /images/home/wentilo-bg.png
   media: /images/home/wentilo-media.png
   video: ''
+  kingfisherWebm: ''
+  kingfisherMov: https://rotenso-media.b-cdn.net/ptaszek.mov
 heatPumps:
   title: Теплові насоси
   text: Теплові насоси Rotenso — для тих, хто шукає економну й необслуговувану систему для опалення будівель і приготування гарячої води.

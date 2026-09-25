@@ -190,6 +190,8 @@ wentilo:
   background: /images/home/wentilo-bg.png
   media: /images/home/wentilo-media.png
   video: ''
+  kingfisherWebm: ''
+  kingfisherMov: https://rotenso-media.b-cdn.net/ptaszek.mov
 heatPumps:
   title: Wärmepumpen
   text: Rotenso Wärmepumpen sind für alle, die ein wirtschaftliches und wartungsfreies System zum Heizen von Gebäuden und zur Warmwasserbereitung suchen.

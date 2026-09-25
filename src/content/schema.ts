@@ -112,6 +112,14 @@ export const homeSchema = {
       background: image("Tło (1820×880)"),
       media: image("Zdjęcie/plakat wideo (860×540)"),
       video: fields.text({ label: "Wideo — adres pliku (opcjonalnie)" }),
+      kingfisherWebm: fields.text({
+        label: "Zimorodek — wideo WebM (Chrome, Edge, Firefox)",
+        description: "WebM VP9 z przezroczystością. Odtwarzane bez dźwięku, w pętli, 5× szybciej.",
+      }),
+      kingfisherMov: fields.text({
+        label: "Zimorodek — wideo MOV (Safari)",
+        description: "MOV HEVC z przezroczystością. Dopóki film się nie odtwarza, widać zdjęcie ptaka.",
+      }),
     },
     { label: "Rekuperacja (Wentilo)" },
   ),

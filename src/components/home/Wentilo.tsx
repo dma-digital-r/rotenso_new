@@ -1,12 +1,12 @@
 "use client";
 
-import Image from "next/image";
 import { useRef, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { FramedImage, MissingMedia } from "@/components/ui/FramedImage";
 import { Icon } from "@/components/ui/Icon";
 import type { Ui } from "@/i18n/ui";
 import type { HomeContent } from "@/lib/content";
+import { Kingfisher } from "./Kingfisher";
 
 // Figma: "Wentilo" (5172:70583) — 1820×880 box; text panel 420×540 + media 860×540 at y 236.
 // The kingfisher ("Zimorodek", 437×437) overlaps the bottom-left corner into the next section.
@@ -107,13 +107,9 @@ export function Wentilo({ wentilo, ui }: { wentilo: HomeContent["wentilo"]; ui: 
         </div>
       </div>
 
-      <Image
-        src="/images/home/kingfisher.png"
-        alt=""
-        width={437}
-        height={437}
-        sizes="437px"
-        className="pointer-events-none absolute bottom-[-317px] left-[133px] z-10 size-[437px] object-cover"
+      <Kingfisher
+        sources={[wentilo.kingfisherWebm, wentilo.kingfisherMov]}
+        className="absolute bottom-[-317px] left-[133px] z-10 size-[437px]"
       />
     </section>
   );

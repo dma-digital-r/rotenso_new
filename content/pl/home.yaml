@@ -190,6 +190,8 @@ wentilo:
   background: /images/home/wentilo-bg.png
   media: /images/home/wentilo-media.png
   video: ''
+  kingfisherWebm: ''
+  kingfisherMov: https://rotenso-media.b-cdn.net/ptaszek.mov
 heatPumps:
   title: Pompy ciepła
   text: Pompy ciepła Rotenso to urządzenia dla tych, którzy szukają ekonomicznego i bezobsługowego systemu do ogrzewania budynków oraz przygotowywania ciepłej wody użytkowej.

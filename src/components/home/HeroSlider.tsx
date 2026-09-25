@@ -13,7 +13,8 @@ const BAR_W = 267.442;
 const BAR_PITCH = 294.19;
 
 // Figma: "Header" (5172:70639) — 1820×930 rounded box, 50px from the page edges.
-// Height follows the screen: 100svh − 150px is exactly 930px on the 1080px-high design frame.
+// Fills the screen with a 15px gap above and below (100svh − 30px), decided with the client
+// instead of Figma's 930px.
 // The panel is centred (as in Figma) and the timer is anchored to the bottom edge.
 export function HeroSlider({ slides, ui }: { slides: HomeContent["heroSlides"]; ui: Ui }) {
   const [index, setIndex] = useState(0);
@@ -21,7 +22,7 @@ export function HeroSlider({ slides, ui }: { slides: HomeContent["heroSlides"]; 
   const go = (i: number) => setIndex((i + count) % count);
 
   return (
-    <section className="relative mx-[50px] mt-[50px] h-[calc(100svh-150px)] min-h-[540px] overflow-hidden rounded-[32px] bg-[#3a4044]">
+    <section className="relative mx-[50px] mt-[15px] h-[calc(100svh-30px)] min-h-[560px] overflow-hidden rounded-[32px] bg-[#3a4044]">
       {slides.map((s, i) => (
         <div
           key={s.tab}

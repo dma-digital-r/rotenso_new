@@ -190,6 +190,8 @@ wentilo:
   background: /images/home/wentilo-bg.png
   media: /images/home/wentilo-media.png
   video: ''
+  kingfisherWebm: ''
+  kingfisherMov: https://rotenso-media.b-cdn.net/ptaszek.mov
 heatPumps:
   title: Tepelná čerpadla
   text: Tepelná čerpadla Rotenso jsou pro ty, kdo hledají úsporný a bezúdržbový systém pro vytápění budov a ohřev teplé vody.

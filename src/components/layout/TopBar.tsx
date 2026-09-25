@@ -7,7 +7,7 @@ import { getUi } from "@/i18n/ui";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { StickyHeader } from "./StickyHeader";
 
-// Figma: "Top Bar" (5172:70663) — 1300×60, white, radius 8, floats 30px inside the hero;
+// Figma: "Top Bar" (5172:70663) — 1300×60, white, radius 8, floats 15px inside the hero;
 // sticks to the top of the window after scrolling (StickyHeader).
 export function TopBar({ settings, lang }: { settings: SettingsContent; lang: Locale }) {
   const ui = getUi(lang);

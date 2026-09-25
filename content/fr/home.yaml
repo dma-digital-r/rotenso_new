@@ -190,6 +190,8 @@ wentilo:
   background: /images/home/wentilo-bg.png
   media: /images/home/wentilo-media.png
   video: ''
+  kingfisherWebm: ''
+  kingfisherMov: https://rotenso-media.b-cdn.net/ptaszek.mov
 heatPumps:
   title: Pompes à chaleur
   text: Les pompes à chaleur Rotenso s’adressent à tous ceux qui recherchent un système économique et sans entretien pour chauffer les bâtiments et produire de l’eau chaude sanitaire.

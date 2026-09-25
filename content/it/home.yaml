@@ -190,6 +190,8 @@ wentilo:
   background: /images/home/wentilo-bg.png
   media: /images/home/wentilo-media.png
   video: ''
+  kingfisherWebm: ''
+  kingfisherMov: https://rotenso-media.b-cdn.net/ptaszek.mov
 heatPumps:
   title: Pompe di calore
   text: Le pompe di calore Rotenso sono pensate per chi cerca un sistema economico e senza manutenzione per riscaldare gli edifici e produrre acqua calda sanitaria.

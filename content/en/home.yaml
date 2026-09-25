@@ -190,6 +190,8 @@ wentilo:
   background: /images/home/wentilo-bg.png
   media: /images/home/wentilo-media.png
   video: ''
+  kingfisherWebm: ''
+  kingfisherMov: https://rotenso-media.b-cdn.net/ptaszek.mov
 heatPumps:
   title: Heat pumps
   text: Rotenso heat pumps are for anyone looking for an economical, maintenance-free system to heat buildings and provide domestic hot water.
