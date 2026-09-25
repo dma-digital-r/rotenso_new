@@ -97,7 +97,7 @@ export function Wentilo({ wentilo, ui }: { wentilo: HomeContent["wentilo"]; ui: 
             <Icon name="pause-ring" width={40} height={40} className="absolute inset-0 size-full" />
             <span className="absolute inset-[32.5%_40%_31.25%_37.5%]">
               <span className="absolute inset-[-13.79%_-22.22%]">
-                <Icon name="pause-bars" width={13} height={20} className="size-full" />
+                <Icon name="pause-bars" width={13} height={18.5} className="size-full object-contain" />
               </span>
             </span>
           </button>

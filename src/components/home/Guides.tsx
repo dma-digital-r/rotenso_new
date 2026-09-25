@@ -53,7 +53,7 @@ export function Guides({ data, ui }: { data: HomeContent["guides"]; ui: Ui }) {
             className="relative h-[436px] w-[420px] shrink-0 snap-start drop-shadow-[30px_30px_25px_rgba(0,0,0,0.1)]"
           >
             <div className="absolute inset-x-0 top-0 h-[236px] overflow-hidden rounded-t-[32px]">
-              <FramedImage src={g.image} crop={g.imageCrop} sizes="420px" />
+              <FramedImage src={g.image} crop={g.imageCrop} sizes="420px" fit="exact" />
             </div>
             <div className="absolute inset-x-0 bottom-0 h-[200px] rounded-b-[32px] bg-white" />
             <div className="absolute top-[266px] left-[30px] flex h-[139px] w-[360px] flex-col items-start gap-[20px]">
