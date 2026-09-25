@@ -1,0 +1,1112 @@
+tabs:
+  - label: Klimaanlagen
+    href: /de/klimatyzacja
+    categories:
+      - label: Raumgeräte (Split)
+        icon: menu-scienne
+        sections:
+          - title: Wandklimageräte
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: wall
+            products:
+              - name: Mirai
+                tagline: Höchste Effizienz
+                href: /de/klimatyzacja/mirai
+                image: /images/menu/mirai.png
+                image2: null
+                colors: []
+              - name: Fresh
+                tagline: Frische Luft
+                href: /de/klimatyzacja/fresh
+                image: /images/menu/fresh.png
+                image2: null
+                colors: []
+              - name: Versu Cloth Caramel
+                tagline: Einzigartiges Design
+                href: /de/klimatyzacja/versu-cloth-caramel
+                image: /images/menu/versu-cloth-caramel.png
+                image2: null
+                colors: []
+              - name: Versu Cloth Stone
+                tagline: Originelles Design
+                href: /de/klimatyzacja/versu-cloth-stone
+                image: /images/menu/versu-cloth-stone.png
+                image2: null
+                colors: []
+              - name: Versu Pure
+                tagline: Leiser Betrieb
+                href: /de/klimatyzacja/versu-pure
+                image: /images/menu/versu-pure.png
+                image2: null
+                colors: []
+              - name: Elis
+                tagline: Zeitloses Design
+                href: /de/klimatyzacja/elis
+                image: /images/menu/elis.png
+                image2: null
+                colors: []
+              - name: Revio
+                tagline: Große Funktionalität
+                href: /de/klimatyzacja/revio
+                image: /images/menu/revio.png
+                image2: null
+                colors: []
+              - name: Teta
+                tagline: Minimalismus und Zuverlässigkeit
+                href: /de/klimatyzacja/teta
+                image: /images/menu/teta.png
+                image2: null
+                colors: []
+              - name: Imoto
+                tagline: Kompaktes Gehäuse
+                href: /de/klimatyzacja/imoto
+                image: /images/menu/imoto.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Alle ansehen
+              href: /de/klimatyzacja/split
+        footer:
+          - label: Deckenklimageräte
+            href: /de/klimatyzacja/sufitowe
+            icon: menu-kasetonowe
+          - label: Einbauklimageräte
+            href: /de/klimatyzacja/do-zabudowy
+            icon: menu-kasetonowe
+          - label: Truhenklimageräte
+            href: /de/klimatyzacja/przypodlogowe
+            icon: menu-sufitowe
+          - label: Decken-/Truhenklimageräte
+            href: /de/klimatyzacja/scienno-sufitowe
+            icon: menu-sufitowe
+        solutionsTitle: Lösungen
+        solutions:
+          - label: für das Haus
+            href: /de/rozwiazania/do-domu
+          - label: für das Ferienhaus
+            href: /de/rozwiazania/do-domku-letniskowego
+          - label: für das Mehrfamilienhaus
+            href: /de/rozwiazania/do-kamienicy
+          - label: für das Kinderzimmer
+            href: /de/rozwiazania/do-pokoju-dzieciecego
+          - label: für das Büro
+            href: /de/rozwiazania/do-biura
+          - label: für das Restaurant
+            href: /de/rozwiazania/do-restauracji
+          - label: für den Friseursalon
+            href: /de/rozwiazania/do-salonu-fryzjerskiego
+          - label: für das Geschäft
+            href: /de/rozwiazania/do-sklepu
+          - label: für die Arztpraxis
+            href: /de/rozwiazania/do-przychodni
+        buttons:
+          - label: Konfigurator
+            href: /de/doboromierz
+          - label: Installateur finden
+            href: /de/znajdz-instalatora
+          - label: Downloads
+            href: /de/do-pobrania
+      - label: |-
+          Multi-Room
+          (Multi-Split)
+        icon: menu-wielopokojowe
+        sections:
+          - title: Multi-Room-Klimageräte
+            text: Beim Multi-Split-System versorgt ein Außengerät mehrere Innengeräte im Gebäude.
+            button:
+              label: ''
+              href: ''
+            cards: wall
+            products:
+              - name: Mirai
+                tagline: Höchste Effizienz
+                href: /de/klimatyzacja/mirai-multi
+                image: /images/menu/mirai.png
+                image2: null
+                colors: []
+              - name: Elis
+                tagline: Zeitloses Design
+                href: /de/klimatyzacja/elis-multi
+                image: /images/menu/elis.png
+                image2: null
+                colors: []
+              - name: Elis Silver
+                tagline: Industrieller Stil
+                href: /de/klimatyzacja/elis-silver-multi
+                image: /images/menu/elis-silver.png
+                image2: null
+                colors: []
+              - name: Imoto
+                tagline: Kompaktes Gehäuse
+                href: /de/klimatyzacja/imoto-multi
+                image: /images/menu/imoto.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Alle ansehen
+              href: /de/klimatyzacja/multi-split
+        footer:
+          - label: |-
+              Finden Sie das passende System.
+              Zum Konfigurator.
+            href: /de/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Lösungen
+        solutions:
+          - label: für die Wohnung
+            href: /de/rozwiazania/do-mieszkania
+          - label: für das Haus
+            href: /de/rozwiazania/do-domu
+          - label: für das Apartment
+            href: /de/rozwiazania/do-apartamentu
+          - label: für das Ferienhaus
+            href: /de/rozwiazania/do-domku-letniskowego
+          - label: für das Kinderzimmer
+            href: /de/rozwiazania/do-pokoju-dzieciecego
+          - label: für das Mehrfamilienhaus
+            href: /de/rozwiazania/do-kamienicy
+          - label: für das Büro
+            href: /de/rozwiazania/do-biura
+          - label: für das Restaurant
+            href: /de/rozwiazania/do-restauracji
+          - label: für das Geschäft
+            href: /de/rozwiazania/do-sklepu
+          - label: für den Dienstleistungsbetrieb
+            href: /de/rozwiazania/do-lokalu-usugowego
+          - label: für das Fachmarktzentrum
+            href: /de/rozwiazania/do-parku-handlowego
+          - label: für die Arztpraxis
+            href: /de/rozwiazania/do-przychodni
+          - label: für den Container
+            href: /de/rozwiazania/do-kontenera
+        buttons:
+          - label: Konfigurator
+            href: /de/doboromierz
+          - label: Installateur finden
+            href: /de/znajdz-instalatora
+          - label: Downloads
+            href: /de/do-pobrania
+      - label: Designer
+        icon: menu-scienne
+        sections:
+          - title: Mehrfarbig
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: wall
+            products:
+              - name: Versu Cloth Caramel
+                tagline: Einzigartiges Design
+                href: /de/klimatyzacja/versu-cloth-caramel
+                image: /images/menu/versu-cloth-caramel.png
+                image2: null
+                colors: []
+              - name: Versu Cloth Stone
+                tagline: Originelles Design
+                href: /de/klimatyzacja/versu-cloth-stone
+                image: /images/menu/versu-cloth-stone.png
+                image2: null
+                colors: []
+              - name: Teta Mirror
+                tagline: Modern und vielseitig
+                href: /de/klimatyzacja/teta-mirror
+                image: /images/menu/teta-mirror.png
+                image2: null
+                colors: []
+              - name: Elis Silver
+                tagline: Industrieller Stil
+                href: /de/klimatyzacja/elis-silver
+                image: /images/menu/elis-silver.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Alle ansehen
+              href: /de/klimatyzacja/designerskie
+        footer:
+          - label: Klimageräte mit Spiegelfront
+            href: /de/klimatyzacja/z-lustrem
+            icon: menu-scienne
+        solutionsTitle: Lösungen
+        solutions:
+          - label: für das Haus
+            href: /de/rozwiazania/do-domu
+          - label: für die Wohnung
+            href: /de/rozwiazania/do-mieszkania
+          - label: für das Dachgeschoss
+            href: /de/rozwiazania/na-poddasze
+          - label: für das Ferienhaus
+            href: /de/rozwiazania/do-domku-letniskowego
+          - label: für das Mehrfamilienhaus
+            href: /de/rozwiazania/do-kamienicy
+          - label: für das Kinderzimmer
+            href: /de/rozwiazania/do-pokoju-dzieciecego
+          - label: für das Büro
+            href: /de/rozwiazania/do-biura
+          - label: für das Restaurant
+            href: /de/rozwiazania/do-restauracji
+          - label: für den Friseursalon
+            href: /de/rozwiazania/do-salonu-fryzjerskiego
+          - label: für das Geschäft
+            href: /de/rozwiazania/do-sklepu
+          - label: für die Arztpraxis
+            href: /de/rozwiazania/do-przychodni
+          - label: für die Apotheke
+            href: /de/rozwiazania/do-apteki
+        buttons:
+          - label: Konfigurator
+            href: /de/doboromierz
+          - label: Installateur finden
+            href: /de/znajdz-instalatora
+          - label: Downloads
+            href: /de/do-pobrania
+      - label: Für ganzjähriges Heizen
+        icon: menu-scienne
+        sections:
+          - title: Für ganzjähriges Heizen
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: wall
+            products:
+              - name: Mirai
+                tagline: Höchste Effizienz
+                href: /de/klimatyzacja/mirai
+                image: /images/menu/mirai.png
+                image2: null
+                colors: []
+              - name: Versu Pure
+                tagline: Leiser Betrieb
+                href: /de/klimatyzacja/versu-pure
+                image: /images/menu/versu-pure.png
+                image2: null
+                colors: []
+              - name: Revio
+                tagline: Große Funktionalität
+                href: /de/klimatyzacja/revio
+                image: /images/menu/revio.png
+                image2: null
+                colors: []
+              - name: Teta
+                tagline: Minimalismus und Zuverlässigkeit
+                href: /de/klimatyzacja/teta
+                image: /images/menu/teta.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Alle ansehen
+              href: /de/klimatyzacja/grzanie
+        footer:
+          - label: Besonders leise Klimageräte
+            href: /de/klimatyzacja/super-ciche
+            icon: menu-scienne
+          - label: Klimageräte A+++
+            href: /de/klimatyzacja/a-plus-plus-plus
+            icon: menu-scienne
+        solutionsTitle: Lösungen
+        solutions:
+          - label: für das Haus
+            href: /de/rozwiazania/do-domu
+          - label: für die Wohnung
+            href: /de/rozwiazania/do-mieszkania
+          - label: für das Dachgeschoss
+            href: /de/rozwiazania/na-poddasze
+          - label: für das Ferienhaus
+            href: /de/rozwiazania/do-domku-letniskowego
+          - label: für das Mehrfamilienhaus
+            href: /de/rozwiazania/do-kamienicy
+          - label: für das Kinderzimmer
+            href: /de/rozwiazania/do-pokoju-dzieciecego
+          - label: für das Büro
+            href: /de/rozwiazania/do-biura
+          - label: für das Restaurant
+            href: /de/rozwiazania/do-restauracji
+          - label: für den Friseursalon
+            href: /de/rozwiazania/do-salonu-fryzjerskiego
+          - label: für das Geschäft
+            href: /de/rozwiazania/do-sklepu
+          - label: für die Arztpraxis
+            href: /de/rozwiazania/do-przychodni
+          - label: für die Apotheke
+            href: /de/rozwiazania/do-apteki
+        buttons:
+          - label: Konfigurator
+            href: /de/doboromierz
+          - label: Installateur finden
+            href: /de/znajdz-instalatora
+          - label: Downloads
+            href: /de/do-pobrania
+      - label: Decken- und Einbaugeräte
+        icon: menu-sufitowe
+        sections:
+          - title: Decken- und Einbaugeräte
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Tenji CC
+                tagline: Für Büros und Praxen
+                href: /de/klimatyzacja/tenji-cc
+                image: /images/menu/tenji-cc.png
+                image2: null
+                colors: []
+              - name: Tenji CS
+                tagline: Für Gewerbeobjekte
+                href: /de/klimatyzacja/tenji-cs
+                image: /images/menu/tenji-cs.png
+                image2: null
+                colors: []
+              - name: Nevo
+                tagline: Montage vertikal oder horizontal
+                href: /de/klimatyzacja/nevo
+                image: /images/menu/nevo.png
+                image2: null
+                colors: []
+              - name: Nevo Multi
+                tagline: Montage vertikal oder horizontal
+                href: /de/klimatyzacja/nevo-multi
+                image: /images/menu/nevo-multi.png
+                image2: null
+                colors: []
+              - name: Jato
+                tagline: Montage an Wand oder Decke
+                href: /de/klimatyzacja/jato
+                image: /images/menu/jato.png
+                image2: null
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer: []
+        solutionsTitle: Lösungen
+        solutions:
+          - label: für das Haus
+            href: /de/rozwiazania/do-domu
+          - label: für die Wohnung
+            href: /de/rozwiazania/do-mieszkania
+          - label: für das Dachgeschoss
+            href: /de/rozwiazania/na-poddasze
+          - label: für das Ferienhaus
+            href: /de/rozwiazania/do-domku-letniskowego
+          - label: für das Mehrfamilienhaus
+            href: /de/rozwiazania/do-kamienicy
+          - label: für das Kinderzimmer
+            href: /de/rozwiazania/do-pokoju-dzieciecego
+          - label: für das Büro
+            href: /de/rozwiazania/do-biura
+          - label: für das Restaurant
+            href: /de/rozwiazania/do-restauracji
+          - label: für den Friseursalon
+            href: /de/rozwiazania/do-salonu-fryzjerskiego
+          - label: für das Geschäft
+            href: /de/rozwiazania/do-sklepu
+          - label: für die Arztpraxis
+            href: /de/rozwiazania/do-przychodni
+          - label: für die Apotheke
+            href: /de/rozwiazania/do-apteki
+        buttons:
+          - label: Konfigurator
+            href: /de/doboromierz
+          - label: Installateur finden
+            href: /de/znajdz-instalatora
+          - label: Downloads
+            href: /de/do-pobrania
+      - label: Truhengeräte
+        icon: menu-sufitowe
+        sections:
+          - title: Truhengeräte
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Jato
+                tagline: Montage an Wand oder Decke
+                href: /de/klimatyzacja/jato
+                image: /images/menu/jato.png
+                image2: null
+                colors: []
+              - name: Aneru HP
+                tagline: Ideal für das Dachgeschoss
+                href: /de/klimatyzacja/aneru-hp
+                image: /images/menu/aneru-hp.png
+                image2: null
+                colors: []
+              - name: Aneru
+                tagline: Komfort an jedem Ort
+                href: /de/klimatyzacja/aneru
+                image: /images/menu/aneru.png
+                image2: null
+                colors: []
+              - name: Aneru AN
+                tagline: Kompakte Abmessungen
+                href: /de/klimatyzacja/aneru-an
+                image: /images/menu/aneru-an.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Alle ansehen
+              href: /de/klimatyzacja/przypodlogowe
+        footer: []
+        solutionsTitle: Lösungen
+        solutions:
+          - label: für das Haus
+            href: /de/rozwiazania/do-domu
+          - label: für die Wohnung
+            href: /de/rozwiazania/do-mieszkania
+          - label: für das Dachgeschoss
+            href: /de/rozwiazania/na-poddasze
+          - label: für das Ferienhaus
+            href: /de/rozwiazania/do-domku-letniskowego
+          - label: für das Mehrfamilienhaus
+            href: /de/rozwiazania/do-kamienicy
+          - label: für das Kinderzimmer
+            href: /de/rozwiazania/do-pokoju-dzieciecego
+          - label: für das Büro
+            href: /de/rozwiazania/do-biura
+          - label: für das Restaurant
+            href: /de/rozwiazania/do-restauracji
+          - label: für den Friseursalon
+            href: /de/rozwiazania/do-salonu-fryzjerskiego
+          - label: für das Geschäft
+            href: /de/rozwiazania/do-sklepu
+          - label: für die Arztpraxis
+            href: /de/rozwiazania/do-przychodni
+          - label: für die Apotheke
+            href: /de/rozwiazania/do-apteki
+        buttons:
+          - label: Konfigurator
+            href: /de/doboromierz
+          - label: Installateur finden
+            href: /de/znajdz-instalatora
+          - label: Downloads
+            href: /de/do-pobrania
+  - label: Wohnraumlüftung
+    href: /de/rekuperacja
+    categories: []
+  - label: Wärmepumpen
+    href: /de/pompy-ciepla
+    categories:
+      - label: Niedertemperatur
+        icon: menu-pompa-niskotemp
+        sections:
+          - title: Niedertemperatur-Wärmepumpen
+            text: Lorem ipsum dolor sit amet enim
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Airmi Split
+                tagline: Die klassische Wärmepumpe für Ihr Haus
+                href: /de/pompy-ciepla/airmi-split
+                image: /images/menu/airmi-split.png
+                image2: /images/menu/airmi-split-2.png
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Aquami Split
+                tagline: Leistungsstarke Wärmepumpe für größere Häuser
+                href: /de/pompy-ciepla/aquami-split
+                image: /images/menu/aquami-split.png
+                image2: /images/menu/aquami-split-2.png
+                colors: []
+              - name: Aquami Multi Split
+                tagline: Eine Wärmepumpe für Heizung und Klimatisierung
+                href: /de/pompy-ciepla/aquami-multi-split
+                image: /images/menu/aquami-multi-split.png
+                image2: /images/menu/aquami-multi-split-2.png
+                colors: []
+              - name: Heatmi Split
+                tagline: Moderne, energiesparende Wärmepumpe
+                href: /de/pompy-ciepla/heatmi-split
+                image: /images/menu/heatmi-split.png
+                image2: /images/menu/heatmi-split-2.png
+                colors: []
+              - name: Airmi Monoblock
+                tagline: Kompakte, einfach zu installierende Wärmepumpe
+                href: /de/pompy-ciepla/airmi-monoblock
+                image: /images/menu/airmi-monoblock.png
+                image2: null
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Aquami Monoblock
+                tagline: Kräftige, vielseitige Wärmepumpe
+                href: /de/pompy-ciepla/aquami-monoblock
+                image: /images/menu/aquami-monoblock.png
+                image2: null
+                colors: []
+              - name: Windmi Monoblock
+                tagline: Moderne, effiziente Wärmepumpe
+                href: /de/pompy-ciepla/windmi-monoblock
+                image: /images/menu/windmi-monoblock.png
+                image2: null
+                colors: []
+              - name: Aquami All-in Split
+                tagline: Wärmepumpe, mit der Sie Platz sparen
+                href: /de/pompy-ciepla/aquami-all-in-split
+                image: /images/menu/aquami-all-in-split.png
+                image2: /images/menu/aquami-all-in-split-2.png
+                colors: []
+            seeAll:
+              label: Alle ansehen
+              href: /de/pompy-ciepla/niskotemperaturowe
+        footer:
+          - label: |-
+              Sie wissen nicht, welche Wärmepumpe?
+              Zum Konfigurator.
+            href: /de/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Lösungen
+        solutions:
+          - label: für das Einfamilienhaus
+            href: /de/rozwiazania/do-domu-wolnostojacego
+          - label: für das Reihenhaus
+            href: /de/rozwiazania/do-domu-szeregowego
+          - label: für die Wohnung
+            href: /de/rozwiazania/do-mieszkania
+          - label: für das Apartment
+            href: /de/rozwiazania/do-apartamentu
+          - label: für das Ferienhaus
+            href: /de/rozwiazania/do-domku-letniskowego
+          - label: für das Mehrfamilienhaus
+            href: /de/rozwiazania/do-kamienicy
+          - label: für das Büro
+            href: /de/rozwiazania/do-biura
+          - label: für das Restaurant
+            href: /de/rozwiazania/do-restauracji
+          - label: für den Friseursalon
+            href: /de/rozwiazania/do-salonu-fryzjerskiego
+          - label: für das Geschäft
+            href: /de/rozwiazania/do-sklepu
+          - label: für den Dienstleistungsbetrieb
+            href: /de/rozwiazania/do-lokalu-usugowego
+          - label: für die Arztpraxis
+            href: /de/rozwiazania/do-przychodni
+        buttons:
+          - label: Konfigurator
+            href: /de/doboromierz
+          - label: Installateur finden
+            href: /de/znajdz-instalatora
+          - label: Downloads
+            href: /de/do-pobrania
+      - label: Zweiteilig (Split)
+        icon: menu-pompa-split
+        sections:
+          - title: Zweiteilige Wärmepumpen (Split)
+            text: 'Getrenntes System: Außengerät vor dem Gebäude, Hydraulik im Haus.'
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Airmi Split
+                tagline: Die klassische Wärmepumpe für Ihr Haus
+                href: /de/pompy-ciepla/airmi-split
+                image: /images/menu/airmi-split.png
+                image2: /images/menu/airmi-split-2.png
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Aquami Split
+                tagline: Leistungsstarke Wärmepumpe für größere Häuser
+                href: /de/pompy-ciepla/aquami-split
+                image: /images/menu/aquami-split.png
+                image2: /images/menu/aquami-split-2.png
+                colors: []
+              - name: Aquami Multi Split
+                tagline: Eine Wärmepumpe für Heizung und Klimatisierung
+                href: /de/pompy-ciepla/aquami-multi-split
+                image: /images/menu/aquami-multi-split.png
+                image2: /images/menu/aquami-multi-split-2.png
+                colors: []
+              - name: Heatmi Split
+                tagline: Moderne, energiesparende Wärmepumpe
+                href: /de/pompy-ciepla/heatmi-split
+                image: /images/menu/heatmi-split.png
+                image2: /images/menu/heatmi-split-2.png
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: |-
+              Sie wissen nicht, welche Wärmepumpe?
+              Zum Konfigurator.
+            href: /de/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Lösungen
+        solutions:
+          - label: für das Einfamilienhaus
+            href: /de/rozwiazania/do-domu-wolnostojacego
+          - label: für das Reihenhaus
+            href: /de/rozwiazania/do-domu-szeregowego
+          - label: für die Wohnung
+            href: /de/rozwiazania/do-mieszkania
+          - label: für das Apartment
+            href: /de/rozwiazania/do-apartamentu
+          - label: für das Ferienhaus
+            href: /de/rozwiazania/do-domku-letniskowego
+          - label: für das Mehrfamilienhaus
+            href: /de/rozwiazania/do-kamienicy
+          - label: für das Büro
+            href: /de/rozwiazania/do-biura
+          - label: für das Restaurant
+            href: /de/rozwiazania/do-restauracji
+          - label: für den Friseursalon
+            href: /de/rozwiazania/do-salonu-fryzjerskiego
+          - label: für das Geschäft
+            href: /de/rozwiazania/do-sklepu
+          - label: für den Dienstleistungsbetrieb
+            href: /de/rozwiazania/do-lokalu-usugowego
+          - label: für die Arztpraxis
+            href: /de/rozwiazania/do-przychodni
+        buttons:
+          - label: Konfigurator
+            href: /de/doboromierz
+          - label: Installateur finden
+            href: /de/znajdz-instalatora
+          - label: Downloads
+            href: /de/do-pobrania
+      - label: Einteilig (Monoblock)
+        icon: menu-pompa-monoblock
+        sections:
+          - title: Einteilige Wärmepumpen (Monoblock)
+            text: Kompakte Lösung, bei der die gesamte Anlage außerhalb des Gebäudes steht.
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Airmi Monoblock
+                tagline: Kompakte, einfach zu installierende Wärmepumpe
+                href: /de/pompy-ciepla/airmi-monoblock
+                image: /images/menu/airmi-monoblock.png
+                image2: null
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Aquami Monoblock
+                tagline: Kräftige, vielseitige Wärmepumpe
+                href: /de/pompy-ciepla/aquami-monoblock
+                image: /images/menu/aquami-monoblock.png
+                image2: null
+                colors: []
+              - name: Windmi Monoblock
+                tagline: Moderne, effiziente Wärmepumpe
+                href: /de/pompy-ciepla/windmi-monoblock
+                image: /images/menu/windmi-monoblock.png
+                image2: null
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: |-
+              Sie wissen nicht, welche Wärmepumpe?
+              Zum Konfigurator.
+            href: /de/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Lösungen
+        solutions:
+          - label: für das Einfamilienhaus
+            href: /de/rozwiazania/do-domu-wolnostojacego
+          - label: für das Reihenhaus
+            href: /de/rozwiazania/do-domu-szeregowego
+          - label: für die Wohnung
+            href: /de/rozwiazania/do-mieszkania
+          - label: für das Apartment
+            href: /de/rozwiazania/do-apartamentu
+          - label: für das Ferienhaus
+            href: /de/rozwiazania/do-domku-letniskowego
+          - label: für das Mehrfamilienhaus
+            href: /de/rozwiazania/do-kamienicy
+          - label: für das Büro
+            href: /de/rozwiazania/do-biura
+          - label: für das Restaurant
+            href: /de/rozwiazania/do-restauracji
+          - label: für den Friseursalon
+            href: /de/rozwiazania/do-salonu-fryzjerskiego
+          - label: für das Geschäft
+            href: /de/rozwiazania/do-sklepu
+          - label: für den Dienstleistungsbetrieb
+            href: /de/rozwiazania/do-lokalu-usugowego
+          - label: für die Arztpraxis
+            href: /de/rozwiazania/do-przychodni
+        buttons:
+          - label: Konfigurator
+            href: /de/doboromierz
+          - label: Installateur finden
+            href: /de/znajdz-instalatora
+          - label: Downloads
+            href: /de/do-pobrania
+      - label: Farblich abgestimmt
+        icon: menu-pompa-kolor
+        sections:
+          - title: Wärmepumpen in Farben
+            text: Lorem ipsum dolor sit amet enim
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Airmi Split
+                tagline: Die klassische Wärmepumpe für Ihr Haus
+                href: /de/pompy-ciepla/airmi-split
+                image: /images/menu/airmi-split.png
+                image2: /images/menu/airmi-split-2.png
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Airmi Monoblock
+                tagline: Kompakte, einfach zu installierende Wärmepumpe
+                href: /de/pompy-ciepla/airmi-monoblock
+                image: /images/menu/airmi-monoblock.png
+                image2: null
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: |-
+              Sie wissen nicht, welche Wärmepumpe?
+              Zum Konfigurator.
+            href: /de/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Lösungen
+        solutions:
+          - label: für das Einfamilienhaus
+            href: /de/rozwiazania/do-domu-wolnostojacego
+          - label: für das Reihenhaus
+            href: /de/rozwiazania/do-domu-szeregowego
+          - label: für die Wohnung
+            href: /de/rozwiazania/do-mieszkania
+          - label: für das Apartment
+            href: /de/rozwiazania/do-apartamentu
+          - label: für das Ferienhaus
+            href: /de/rozwiazania/do-domku-letniskowego
+          - label: für das Mehrfamilienhaus
+            href: /de/rozwiazania/do-kamienicy
+          - label: für das Büro
+            href: /de/rozwiazania/do-biura
+          - label: für das Restaurant
+            href: /de/rozwiazania/do-restauracji
+          - label: für den Friseursalon
+            href: /de/rozwiazania/do-salonu-fryzjerskiego
+          - label: für das Geschäft
+            href: /de/rozwiazania/do-sklepu
+          - label: für den Dienstleistungsbetrieb
+            href: /de/rozwiazania/do-lokalu-usugowego
+          - label: für die Arztpraxis
+            href: /de/rozwiazania/do-przychodni
+        buttons:
+          - label: Konfigurator
+            href: /de/doboromierz
+          - label: Installateur finden
+            href: /de/znajdz-instalatora
+          - label: Downloads
+            href: /de/do-pobrania
+      - label: Mit integriertem Warmwasserspeicher
+        icon: menu-pompa-allin
+        sections:
+          - title: Wärmepumpen mit integriertem Warmwasserspeicher (All-in)
+            text: Speicher und Hydraulik in einem System.
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Aquami All-in Split
+                tagline: Wärmepumpe, mit der Sie Platz sparen
+                href: /de/pompy-ciepla/aquami-all-in-split
+                image: /images/menu/aquami-all-in-split.png
+                image2: /images/menu/aquami-all-in-split-2.png
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: |-
+              Sie wissen nicht, welche Wärmepumpe?
+              Zum Konfigurator.
+            href: /de/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Lösungen
+        solutions:
+          - label: für das Einfamilienhaus
+            href: /de/rozwiazania/do-domu-wolnostojacego
+          - label: für das Reihenhaus
+            href: /de/rozwiazania/do-domu-szeregowego
+          - label: für die Wohnung
+            href: /de/rozwiazania/do-mieszkania
+          - label: für das Apartment
+            href: /de/rozwiazania/do-apartamentu
+          - label: für das Ferienhaus
+            href: /de/rozwiazania/do-domku-letniskowego
+          - label: für das Mehrfamilienhaus
+            href: /de/rozwiazania/do-kamienicy
+          - label: für das Büro
+            href: /de/rozwiazania/do-biura
+          - label: für das Restaurant
+            href: /de/rozwiazania/do-restauracji
+          - label: für den Friseursalon
+            href: /de/rozwiazania/do-salonu-fryzjerskiego
+          - label: für das Geschäft
+            href: /de/rozwiazania/do-sklepu
+          - label: für den Dienstleistungsbetrieb
+            href: /de/rozwiazania/do-lokalu-usugowego
+          - label: für die Arztpraxis
+            href: /de/rozwiazania/do-przychodni
+        buttons:
+          - label: Konfigurator
+            href: /de/doboromierz
+          - label: Installateur finden
+            href: /de/znajdz-instalatora
+          - label: Downloads
+            href: /de/do-pobrania
+      - label: Speicher
+        icon: menu-zbiorniki
+        sections:
+          - title: Warmwasserspeicher
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Thermos Ceramic
+                tagline: Emaillierter Warmwasserspeicher
+                href: /de/pompy-ciepla/thermos-ceramic
+                image: /images/menu/thermos-ceramic.png
+                image2: null
+                colors: []
+              - name: Thermos Ceramic Grey
+                tagline: Keramikspeicher in Grau
+                href: /de/pompy-ciepla/thermos-ceramic-grey
+                image: /images/menu/thermos-ceramic-grey.png
+                image2: null
+                colors: []
+              - name: Thermos Inox
+                tagline: Edelstahlspeicher, korrosionsbeständig
+                href: /de/pompy-ciepla/thermos-inox
+                image: /images/menu/thermos-inox.png
+                image2: null
+                colors: []
+              - name: Thermos Dual Inox
+                tagline: Edelstahlspeicher mit zusätzlichem Wärmetauscher
+                href: /de/pompy-ciepla/thermos-dual-inox
+                image: /images/menu/thermos-dual-inox.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Alle ansehen
+              href: /de/pompy-ciepla/zbiorniki
+          - title: Pufferspeicher
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Thermos Store
+                tagline: Isolierter Wärmepuffer
+                href: /de/pompy-ciepla/thermos-store
+                image: /images/menu/thermos-store.png
+                image2: null
+                colors: []
+              - name: Thermos Store Plus
+                tagline: Pufferspeicher mit größerem Volumen
+                href: /de/pompy-ciepla/thermos-store-plus
+                image: /images/menu/thermos-store-plus.png
+                image2: null
+                colors: []
+              - name: Thermos Store Grey
+                tagline: Wärmepuffer im grauen Gehäuse
+                href: /de/pompy-ciepla/thermos-store-grey
+                image: /images/menu/thermos-store-grey.png
+                image2: null
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: Magnesiumanoden
+            href: /de/pompy-ciepla/anody-magnezowe
+            icon: ''
+        solutionsTitle: ''
+        solutions: []
+        buttons:
+          - label: Konfigurator
+            href: /de/doboromierz
+          - label: Installateur finden
+            href: /de/znajdz-instalatora
+          - label: Downloads
+            href: /de/do-pobrania
+  - label: Projekte
+    href: /de/systemy-rvf
+    categories:
+      - label: RVF/VRF-Klimasysteme
+        icon: menu-rvf
+        sections:
+          - title: RVF/VRF-Klimasysteme
+            text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet enim, et dolore.
+            button:
+              label: Mehr erfahren
+              href: /de/systemy-rvf
+            cards: wall
+            products: []
+            seeAll:
+              label: ''
+              href: ''
+          - title: Außengeräte
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: RVF V5
+                tagline: Lorem ipsum dolor sit amet enim
+                href: /de/systemy-rvf/rvf-v5
+                image: /images/menu/rvf-v5.png
+                image2: null
+                colors: []
+              - name: HR RVF
+                tagline: Lorem ipsum dolor sit amet enim
+                href: /de/systemy-rvf/hr-rvf
+                image: /images/menu/hr-rvf.png
+                image2: null
+                colors: []
+              - name: MiniRVF V4
+                tagline: Lorem ipsum dolor sit amet enim
+                href: /de/systemy-rvf/minirvf-v4
+                image: /images/menu/minirvf-v4.png
+                image2: null
+                colors: []
+              - name: MiniRVF V5
+                tagline: Lorem ipsum dolor sit amet enim
+                href: /de/systemy-rvf/minirvf-v5
+                image: /images/menu/minirvf-v5.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Alle ansehen
+              href: /de/systemy-rvf/jednostki-zewnetrzne
+        footer: []
+        solutionsTitle: Lösungen
+        solutions:
+          - label: für das Bürogebäude
+            href: /de/rozwiazania/do-biurowca
+          - label: für das Hotel
+            href: /de/rozwiazania/do-hotelu
+          - label: für das Krankenhaus
+            href: /de/rozwiazania/do-szpitala
+          - label: für die Produktionshalle
+            href: /de/rozwiazania/do-hali-produkcyjnej
+          - label: für das Lager
+            href: /de/rozwiazania/do-magazynu
+          - label: für das Industrieobjekt
+            href: /de/rozwiazania/do-obiektu-przemysowego
+          - label: für das denkmalgeschützte Gebäude
+            href: /de/rozwiazania/do-obiektu-zabytkowego
+          - label: für das Fitnessstudio
+            href: /de/rozwiazania/do-siowni
+          - label: für den Supermarkt
+            href: /de/rozwiazania/do-supermarketu
+          - label: für das Spa
+            href: /de/rozwiazania/do-spa
+          - label: für die Behörde
+            href: /de/rozwiazania/do-urzedu
+        buttons:
+          - label: Referenzen
+            href: /de/referencje
+          - label: Details anfragen
+            href: /de/kontakt
+      - label: Multi-Split-Klimasysteme
+        icon: menu-kasetonowe
+        sections:
+          - title: Multi-Split-Klimasysteme
+            text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet enim, et dolore.
+            button:
+              label: Mehr erfahren
+              href: /de/klimatyzacja/multi-split
+            cards: wall
+            products: []
+            seeAll:
+              label: ''
+              href: ''
+          - title: Außengeräte
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Hiro HP
+                tagline: 'Ein äußerst effizientes System der Energieklasse A+++ für bis zu 3 Innengeräte, das auch unter harten Winterbedingungen arbeitet: bis -30 °C Außentemperatur.'
+                href: /de/klimatyzacja/hiro-hp
+                image: /images/menu/hiro-hp.png
+                image2: null
+                colors: []
+              - name: Hiro S
+                tagline: Ein Außengerät der Klasse A++ für den ganzjährigen Betrieb, an das bis zu 5 Innengeräte angeschlossen werden können. Es heizt effektiv bei –22 °C Außentemperatur.
+                href: /de/klimatyzacja/hiro-s
+                image: /images/menu/hiro-s.png
+                image2: null
+                colors: []
+              - name: Hiro N
+                tagline: Ein kompaktes Außengerät der Klasse A++, das bis zu 5 Innengeräte versorgt und effizient kühlt und heizt.
+                href: /de/klimatyzacja/hiro-n
+                image: /images/menu/hiro-n.png
+                image2: null
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer: []
+        solutionsTitle: Lösungen
+        solutions:
+          - label: für das Krankenhaus
+            href: /de/rozwiazania/do-szpitala
+          - label: für die Produktionshalle
+            href: /de/rozwiazania/do-hali-produkcyjnej
+          - label: für das Lager
+            href: /de/rozwiazania/do-magazynu
+          - label: für das Industrieobjekt
+            href: /de/rozwiazania/do-obiektu-przemysowego
+          - label: für das denkmalgeschützte Gebäude
+            href: /de/rozwiazania/do-obiektu-zabytkowego
+          - label: für das Fitnessstudio
+            href: /de/rozwiazania/do-siowni
+          - label: für den Supermarkt
+            href: /de/rozwiazania/do-supermarketu
+          - label: für das Spa
+            href: /de/rozwiazania/do-spa
+          - label: für die Behörde
+            href: /de/rozwiazania/do-urzedu
+          - label: für die Bibliothek
+            href: /de/rozwiazania/do-biblioteki
+        buttons:
+          - label: Referenzen
+            href: /de/referencje
+          - label: Details anfragen
+            href: /de/kontakt
+  - label: Wentilo-Filter
+    href: /de/filtry-wentilo
+    categories: []

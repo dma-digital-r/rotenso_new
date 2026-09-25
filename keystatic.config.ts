@@ -1,6 +1,6 @@
 import { collection, config, singleton } from "@keystatic/core";
 import { locales, localeLabels, type Locale } from "./src/i18n/config";
-import { guideSchema, homeSchema, productSchema, settingsSchema } from "./src/content/schema";
+import { guideSchema, homeSchema, menuSchema, productSchema, settingsSchema } from "./src/content/schema";
 
 // Every language keeps its own copy of the content under content/<lang>/.
 // PL is edited by hand; other languages are filled by the DeepL script and can
@@ -21,6 +21,15 @@ export function settingsSingleton(lang: Locale) {
     path: `content/${lang}/settings`,
     format: { data: "yaml" },
     schema: settingsSchema,
+  });
+}
+
+export function menuSingleton(lang: Locale) {
+  return singleton({
+    label: `Mega menu (${lang.toUpperCase()})`,
+    path: `content/${lang}/menu`,
+    format: { data: "yaml" },
+    schema: menuSchema,
   });
 }
 
@@ -53,7 +62,7 @@ export default config({
     navigation: Object.fromEntries(
       locales.map((lang) => [
         localeLabels[lang],
-        [`home_${lang}`, `settings_${lang}`, `guides_${lang}`, `products_${lang}`],
+        [`home_${lang}`, `settings_${lang}`, `menu_${lang}`, `guides_${lang}`, `products_${lang}`],
       ]),
     ),
   },
@@ -61,6 +70,7 @@ export default config({
     locales.flatMap((lang) => [
       [`home_${lang}`, homeSingleton(lang)],
       [`settings_${lang}`, settingsSingleton(lang)],
+      [`menu_${lang}`, menuSingleton(lang)],
     ]),
   ),
   collections: Object.fromEntries(

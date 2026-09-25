@@ -63,10 +63,17 @@ New-NetFirewallRule -DisplayName "Rotenso podglad (3001)" -Direction Inbound -Pr
 - Dopóki `LEAD_WEBHOOK_URL` nie jest ustawiony, formularz uczciwie pokazuje komunikat błędu (nic nie ginie po cichu).
 - Pełną treść zgody RODO wpisuje się w panelu (Ustawienia → formularz → „Zgoda — pełna treść”); wtedy pojawia się „rozwiń”.
 
+## Mega menu „Produkty”
+- **Panel → Mega menu (PL)**: zakładki (Klimatyzacje, Rekuperacja, Pompy ciepła, Inwestycje, Filtry Wentilo) → kategorie w lewej kolumnie → sekcje z kafelkami produktów, kafelki-skróty na dole i prawa kolumna (Rozwiązania + przyciski).
+- Menu otwiera **pierwsza pozycja menu głównego** (Ustawienia → Menu główne). Zakładka bez kategorii (np. Rekuperacja) działa jak zwykły link.
+- Kafelek produktu: nazwa, hasło, zdjęcie (drugie zdjęcie = moduł wewnętrzny pompy ciepła), kropki kolorów (np. `#737373`).
+- Po zmianie treści PL: `npm run translate` (lub `translate:memory`) — menu tłumaczy się razem ze stroną główną i ustawieniami.
+
 ## Figma (dla programisty)
 | Polecenie | Co robi |
 |---|---|
 | `node --env-file=.env.local scripts/figma-fetch.mjs <id-węzła>` | Pobiera dane i zdjęcia elementu z Figmy (token `FIGMA_TOKEN`). |
+| `node --env-file=.env.local scripts/figma-svg.mjs nazwa=<id-węzła>` | Eksportuje ikonę z Figmy jako `public/icons/nazwa.svg`. |
 
 ## Sekrety (plik `.env.local`, nie trafia na GitHub)
 `PRODUCT_FEED_*` (feed produktów), `INSTALLERS_FEED_*` (instalatorzy), `BUNNY_*` (zdjęcia/wideo),

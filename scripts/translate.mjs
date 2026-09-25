@@ -16,12 +16,12 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import yaml from "js-yaml";
 
-const FILES = ["home", "settings"];
+const FILES = ["home", "settings", "menu"];
 const TARGETS = ["en", "de", "fr", "cs", "it", "uk"];
 const DEEPL_TARGET = { en: "EN-GB", de: "DE", fr: "FR", cs: "CS", it: "IT", uk: "UK" };
 
 // Keys whose values are never translated (media, links, model names).
-const SKIP_KEYS = new Set(["href", "image", "thumb", "background", "media", "video", "name", "priceSymbols"]);
+const SKIP_KEYS = new Set(["href", "image", "image2", "thumb", "background", "media", "video", "name", "priceSymbols", "icon", "cards"]);
 // Brand and product names DeepL must leave untouched.
 const KEEP_TERMS = [
   "Rotenso", "Wentilo ICON", "Wentilo", "Mirai", "Versu Cloth Caramel", "Versu Mirror R15",
@@ -48,6 +48,7 @@ const isTranslatable = (key, value) =>
   !SKIP_KEYS.has(key) &&
   !/^(\/|https?:|mailto:|tel:|\+?\d[\d\s]+$)/.test(value) &&
   !/^[^\s@]+@[^\s@]+$/.test(value) &&
+  !/^#[0-9a-f]{3,8}$/i.test(value) &&
   !/^Lorem ipsum/i.test(value);
 
 // Collects [pathString, key, value] for every string leaf.

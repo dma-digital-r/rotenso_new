@@ -1,0 +1,1112 @@
+tabs:
+  - label: Klimatizace
+    href: /cs/klimatyzacja
+    categories:
+      - label: Pokojové (Split)
+        icon: menu-scienne
+        sections:
+          - title: Nástěnné klimatizace
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: wall
+            products:
+              - name: Mirai
+                tagline: Nejvyšší účinnost
+                href: /cs/klimatyzacja/mirai
+                image: /images/menu/mirai.png
+                image2: null
+                colors: []
+              - name: Fresh
+                tagline: Čerstvý vzduch
+                href: /cs/klimatyzacja/fresh
+                image: /images/menu/fresh.png
+                image2: null
+                colors: []
+              - name: Versu Cloth Caramel
+                tagline: Výjimečný styl
+                href: /cs/klimatyzacja/versu-cloth-caramel
+                image: /images/menu/versu-cloth-caramel.png
+                image2: null
+                colors: []
+              - name: Versu Cloth Stone
+                tagline: Originální design
+                href: /cs/klimatyzacja/versu-cloth-stone
+                image: /images/menu/versu-cloth-stone.png
+                image2: null
+                colors: []
+              - name: Versu Pure
+                tagline: Tichý provoz
+                href: /cs/klimatyzacja/versu-pure
+                image: /images/menu/versu-pure.png
+                image2: null
+                colors: []
+              - name: Elis
+                tagline: Nadčasový design
+                href: /cs/klimatyzacja/elis
+                image: /images/menu/elis.png
+                image2: null
+                colors: []
+              - name: Revio
+                tagline: Velká funkčnost
+                href: /cs/klimatyzacja/revio
+                image: /images/menu/revio.png
+                image2: null
+                colors: []
+              - name: Teta
+                tagline: Minimalismus a spolehlivost
+                href: /cs/klimatyzacja/teta
+                image: /images/menu/teta.png
+                image2: null
+                colors: []
+              - name: Imoto
+                tagline: Kompaktní skříň
+                href: /cs/klimatyzacja/imoto
+                image: /images/menu/imoto.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Zobrazit vše
+              href: /cs/klimatyzacja/split
+        footer:
+          - label: Stropní klimatizace
+            href: /cs/klimatyzacja/sufitowe
+            icon: menu-kasetonowe
+          - label: Vestavné klimatizace
+            href: /cs/klimatyzacja/do-zabudowy
+            icon: menu-kasetonowe
+          - label: Parapetní klimatizace
+            href: /cs/klimatyzacja/przypodlogowe
+            icon: menu-sufitowe
+          - label: Stropně-parapetní klimatizace
+            href: /cs/klimatyzacja/scienno-sufitowe
+            icon: menu-sufitowe
+        solutionsTitle: Řešení
+        solutions:
+          - label: do domu
+            href: /cs/rozwiazania/do-domu
+          - label: do chaty
+            href: /cs/rozwiazania/do-domku-letniskowego
+          - label: do činžovního domu
+            href: /cs/rozwiazania/do-kamienicy
+          - label: do dětského pokoje
+            href: /cs/rozwiazania/do-pokoju-dzieciecego
+          - label: do kanceláře
+            href: /cs/rozwiazania/do-biura
+          - label: do restaurace
+            href: /cs/rozwiazania/do-restauracji
+          - label: do kadeřnictví
+            href: /cs/rozwiazania/do-salonu-fryzjerskiego
+          - label: do obchodu
+            href: /cs/rozwiazania/do-sklepu
+          - label: do ordinace
+            href: /cs/rozwiazania/do-przychodni
+        buttons:
+          - label: Konfigurátor
+            href: /cs/doboromierz
+          - label: Najít montážníka
+            href: /cs/znajdz-instalatora
+          - label: Ke stažení
+            href: /cs/do-pobrania
+      - label: |-
+          Vícepokojové
+          (Multi Split)
+        icon: menu-wielopokojowe
+        sections:
+          - title: Vícepokojové klimatizace
+            text: V systému multi split obsluhuje jedna venkovní jednotka několik vnitřních klimatizací.
+            button:
+              label: ''
+              href: ''
+            cards: wall
+            products:
+              - name: Mirai
+                tagline: Nejvyšší účinnost
+                href: /cs/klimatyzacja/mirai-multi
+                image: /images/menu/mirai.png
+                image2: null
+                colors: []
+              - name: Elis
+                tagline: Nadčasový design
+                href: /cs/klimatyzacja/elis-multi
+                image: /images/menu/elis.png
+                image2: null
+                colors: []
+              - name: Elis Silver
+                tagline: Industriální styl
+                href: /cs/klimatyzacja/elis-silver-multi
+                image: /images/menu/elis-silver.png
+                image2: null
+                colors: []
+              - name: Imoto
+                tagline: Kompaktní skříň
+                href: /cs/klimatyzacja/imoto-multi
+                image: /images/menu/imoto.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Zobrazit vše
+              href: /cs/klimatyzacja/multi-split
+        footer:
+          - label: |-
+              Vyberte systém podle svých potřeb.
+              Přejděte do konfigurátoru.
+            href: /cs/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Řešení
+        solutions:
+          - label: do bytu
+            href: /cs/rozwiazania/do-mieszkania
+          - label: do domu
+            href: /cs/rozwiazania/do-domu
+          - label: do apartmánu
+            href: /cs/rozwiazania/do-apartamentu
+          - label: do chaty
+            href: /cs/rozwiazania/do-domku-letniskowego
+          - label: do dětského pokoje
+            href: /cs/rozwiazania/do-pokoju-dzieciecego
+          - label: do činžovního domu
+            href: /cs/rozwiazania/do-kamienicy
+          - label: do kanceláře
+            href: /cs/rozwiazania/do-biura
+          - label: do restaurace
+            href: /cs/rozwiazania/do-restauracji
+          - label: do obchodu
+            href: /cs/rozwiazania/do-sklepu
+          - label: do provozovny služeb
+            href: /cs/rozwiazania/do-lokalu-usugowego
+          - label: do obchodního parku
+            href: /cs/rozwiazania/do-parku-handlowego
+          - label: do ordinace
+            href: /cs/rozwiazania/do-przychodni
+          - label: do kontejneru
+            href: /cs/rozwiazania/do-kontenera
+        buttons:
+          - label: Konfigurátor
+            href: /cs/doboromierz
+          - label: Najít montážníka
+            href: /cs/znajdz-instalatora
+          - label: Ke stažení
+            href: /cs/do-pobrania
+      - label: Designové
+        icon: menu-scienne
+        sections:
+          - title: Barevné
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: wall
+            products:
+              - name: Versu Cloth Caramel
+                tagline: Výjimečný styl
+                href: /cs/klimatyzacja/versu-cloth-caramel
+                image: /images/menu/versu-cloth-caramel.png
+                image2: null
+                colors: []
+              - name: Versu Cloth Stone
+                tagline: Originální design
+                href: /cs/klimatyzacja/versu-cloth-stone
+                image: /images/menu/versu-cloth-stone.png
+                image2: null
+                colors: []
+              - name: Teta Mirror
+                tagline: Moderní a univerzální
+                href: /cs/klimatyzacja/teta-mirror
+                image: /images/menu/teta-mirror.png
+                image2: null
+                colors: []
+              - name: Elis Silver
+                tagline: Industriální styl
+                href: /cs/klimatyzacja/elis-silver
+                image: /images/menu/elis-silver.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Zobrazit vše
+              href: /cs/klimatyzacja/designerskie
+        footer:
+          - label: Klimatizace se zrcadlovým čelem
+            href: /cs/klimatyzacja/z-lustrem
+            icon: menu-scienne
+        solutionsTitle: Řešení
+        solutions:
+          - label: do domu
+            href: /cs/rozwiazania/do-domu
+          - label: do bytu
+            href: /cs/rozwiazania/do-mieszkania
+          - label: do podkroví
+            href: /cs/rozwiazania/na-poddasze
+          - label: do chaty
+            href: /cs/rozwiazania/do-domku-letniskowego
+          - label: do činžovního domu
+            href: /cs/rozwiazania/do-kamienicy
+          - label: do dětského pokoje
+            href: /cs/rozwiazania/do-pokoju-dzieciecego
+          - label: do kanceláře
+            href: /cs/rozwiazania/do-biura
+          - label: do restaurace
+            href: /cs/rozwiazania/do-restauracji
+          - label: do kadeřnictví
+            href: /cs/rozwiazania/do-salonu-fryzjerskiego
+          - label: do obchodu
+            href: /cs/rozwiazania/do-sklepu
+          - label: do ordinace
+            href: /cs/rozwiazania/do-przychodni
+          - label: do lékárny
+            href: /cs/rozwiazania/do-apteki
+        buttons:
+          - label: Konfigurátor
+            href: /cs/doboromierz
+          - label: Najít montážníka
+            href: /cs/znajdz-instalatora
+          - label: Ke stažení
+            href: /cs/do-pobrania
+      - label: Pro celoroční vytápění
+        icon: menu-scienne
+        sections:
+          - title: Pro celoroční vytápění
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: wall
+            products:
+              - name: Mirai
+                tagline: Nejvyšší účinnost
+                href: /cs/klimatyzacja/mirai
+                image: /images/menu/mirai.png
+                image2: null
+                colors: []
+              - name: Versu Pure
+                tagline: Tichý provoz
+                href: /cs/klimatyzacja/versu-pure
+                image: /images/menu/versu-pure.png
+                image2: null
+                colors: []
+              - name: Revio
+                tagline: Velká funkčnost
+                href: /cs/klimatyzacja/revio
+                image: /images/menu/revio.png
+                image2: null
+                colors: []
+              - name: Teta
+                tagline: Minimalismus a spolehlivost
+                href: /cs/klimatyzacja/teta
+                image: /images/menu/teta.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Zobrazit vše
+              href: /cs/klimatyzacja/grzanie
+        footer:
+          - label: Super tiché klimatizace
+            href: /cs/klimatyzacja/super-ciche
+            icon: menu-scienne
+          - label: Klimatizace A+++
+            href: /cs/klimatyzacja/a-plus-plus-plus
+            icon: menu-scienne
+        solutionsTitle: Řešení
+        solutions:
+          - label: do domu
+            href: /cs/rozwiazania/do-domu
+          - label: do bytu
+            href: /cs/rozwiazania/do-mieszkania
+          - label: do podkroví
+            href: /cs/rozwiazania/na-poddasze
+          - label: do chaty
+            href: /cs/rozwiazania/do-domku-letniskowego
+          - label: do činžovního domu
+            href: /cs/rozwiazania/do-kamienicy
+          - label: do dětského pokoje
+            href: /cs/rozwiazania/do-pokoju-dzieciecego
+          - label: do kanceláře
+            href: /cs/rozwiazania/do-biura
+          - label: do restaurace
+            href: /cs/rozwiazania/do-restauracji
+          - label: do kadeřnictví
+            href: /cs/rozwiazania/do-salonu-fryzjerskiego
+          - label: do obchodu
+            href: /cs/rozwiazania/do-sklepu
+          - label: do ordinace
+            href: /cs/rozwiazania/do-przychodni
+          - label: do lékárny
+            href: /cs/rozwiazania/do-apteki
+        buttons:
+          - label: Konfigurátor
+            href: /cs/doboromierz
+          - label: Najít montážníka
+            href: /cs/znajdz-instalatora
+          - label: Ke stažení
+            href: /cs/do-pobrania
+      - label: Stropní a vestavné
+        icon: menu-sufitowe
+        sections:
+          - title: Stropní a vestavné
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Tenji CC
+                tagline: Do kanceláří a ordinací
+                href: /cs/klimatyzacja/tenji-cc
+                image: /images/menu/tenji-cc.png
+                image2: null
+                colors: []
+              - name: Tenji CS
+                tagline: Do komerčních objektů
+                href: /cs/klimatyzacja/tenji-cs
+                image: /images/menu/tenji-cs.png
+                image2: null
+                colors: []
+              - name: Nevo
+                tagline: Montáž svisle i vodorovně
+                href: /cs/klimatyzacja/nevo
+                image: /images/menu/nevo.png
+                image2: null
+                colors: []
+              - name: Nevo Multi
+                tagline: Montáž svisle i vodorovně
+                href: /cs/klimatyzacja/nevo-multi
+                image: /images/menu/nevo-multi.png
+                image2: null
+                colors: []
+              - name: Jato
+                tagline: Montáž na stěnu nebo strop
+                href: /cs/klimatyzacja/jato
+                image: /images/menu/jato.png
+                image2: null
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer: []
+        solutionsTitle: Řešení
+        solutions:
+          - label: do domu
+            href: /cs/rozwiazania/do-domu
+          - label: do bytu
+            href: /cs/rozwiazania/do-mieszkania
+          - label: do podkroví
+            href: /cs/rozwiazania/na-poddasze
+          - label: do chaty
+            href: /cs/rozwiazania/do-domku-letniskowego
+          - label: do činžovního domu
+            href: /cs/rozwiazania/do-kamienicy
+          - label: do dětského pokoje
+            href: /cs/rozwiazania/do-pokoju-dzieciecego
+          - label: do kanceláře
+            href: /cs/rozwiazania/do-biura
+          - label: do restaurace
+            href: /cs/rozwiazania/do-restauracji
+          - label: do kadeřnictví
+            href: /cs/rozwiazania/do-salonu-fryzjerskiego
+          - label: do obchodu
+            href: /cs/rozwiazania/do-sklepu
+          - label: do ordinace
+            href: /cs/rozwiazania/do-przychodni
+          - label: do lékárny
+            href: /cs/rozwiazania/do-apteki
+        buttons:
+          - label: Konfigurátor
+            href: /cs/doboromierz
+          - label: Najít montážníka
+            href: /cs/znajdz-instalatora
+          - label: Ke stažení
+            href: /cs/do-pobrania
+      - label: Parapetní
+        icon: menu-sufitowe
+        sections:
+          - title: Parapetní
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Jato
+                tagline: Montáž na stěnu nebo strop
+                href: /cs/klimatyzacja/jato
+                image: /images/menu/jato.png
+                image2: null
+                colors: []
+              - name: Aneru HP
+                tagline: Ideální do podkroví
+                href: /cs/klimatyzacja/aneru-hp
+                image: /images/menu/aneru-hp.png
+                image2: null
+                colors: []
+              - name: Aneru
+                tagline: Komfort kdekoli
+                href: /cs/klimatyzacja/aneru
+                image: /images/menu/aneru.png
+                image2: null
+                colors: []
+              - name: Aneru AN
+                tagline: Kompaktní rozměry
+                href: /cs/klimatyzacja/aneru-an
+                image: /images/menu/aneru-an.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Zobrazit vše
+              href: /cs/klimatyzacja/przypodlogowe
+        footer: []
+        solutionsTitle: Řešení
+        solutions:
+          - label: do domu
+            href: /cs/rozwiazania/do-domu
+          - label: do bytu
+            href: /cs/rozwiazania/do-mieszkania
+          - label: do podkroví
+            href: /cs/rozwiazania/na-poddasze
+          - label: do chaty
+            href: /cs/rozwiazania/do-domku-letniskowego
+          - label: do činžovního domu
+            href: /cs/rozwiazania/do-kamienicy
+          - label: do dětského pokoje
+            href: /cs/rozwiazania/do-pokoju-dzieciecego
+          - label: do kanceláře
+            href: /cs/rozwiazania/do-biura
+          - label: do restaurace
+            href: /cs/rozwiazania/do-restauracji
+          - label: do kadeřnictví
+            href: /cs/rozwiazania/do-salonu-fryzjerskiego
+          - label: do obchodu
+            href: /cs/rozwiazania/do-sklepu
+          - label: do ordinace
+            href: /cs/rozwiazania/do-przychodni
+          - label: do lékárny
+            href: /cs/rozwiazania/do-apteki
+        buttons:
+          - label: Konfigurátor
+            href: /cs/doboromierz
+          - label: Najít montážníka
+            href: /cs/znajdz-instalatora
+          - label: Ke stažení
+            href: /cs/do-pobrania
+  - label: Rekuperace
+    href: /cs/rekuperacja
+    categories: []
+  - label: Tepelná čerpadla
+    href: /cs/pompy-ciepla
+    categories:
+      - label: Nízkoteplotní
+        icon: menu-pompa-niskotemp
+        sections:
+          - title: Nízkoteplotní tepelná čerpadla
+            text: Lorem ipsum dolor sit amet enim
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Airmi Split
+                tagline: Klasické tepelné čerpadlo do domu
+                href: /cs/pompy-ciepla/airmi-split
+                image: /images/menu/airmi-split.png
+                image2: /images/menu/airmi-split-2.png
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Aquami Split
+                tagline: Výkonné tepelné čerpadlo pro větší domy
+                href: /cs/pompy-ciepla/aquami-split
+                image: /images/menu/aquami-split.png
+                image2: /images/menu/aquami-split-2.png
+                colors: []
+              - name: Aquami Multi Split
+                tagline: Jedno tepelné čerpadlo pro vytápění i klimatizaci
+                href: /cs/pompy-ciepla/aquami-multi-split
+                image: /images/menu/aquami-multi-split.png
+                image2: /images/menu/aquami-multi-split-2.png
+                colors: []
+              - name: Heatmi Split
+                tagline: Moderní a úsporné tepelné čerpadlo
+                href: /cs/pompy-ciepla/heatmi-split
+                image: /images/menu/heatmi-split.png
+                image2: /images/menu/heatmi-split-2.png
+                colors: []
+              - name: Airmi Monoblock
+                tagline: Kompaktní a snadno instalovatelné tepelné čerpadlo
+                href: /cs/pompy-ciepla/airmi-monoblock
+                image: /images/menu/airmi-monoblock.png
+                image2: null
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Aquami Monoblock
+                tagline: Silné a univerzální tepelné čerpadlo
+                href: /cs/pompy-ciepla/aquami-monoblock
+                image: /images/menu/aquami-monoblock.png
+                image2: null
+                colors: []
+              - name: Windmi Monoblock
+                tagline: Moderní a výkonné tepelné čerpadlo
+                href: /cs/pompy-ciepla/windmi-monoblock
+                image: /images/menu/windmi-monoblock.png
+                image2: null
+                colors: []
+              - name: Aquami All-in Split
+                tagline: Tepelné čerpadlo, se kterým ušetříte místo
+                href: /cs/pompy-ciepla/aquami-all-in-split
+                image: /images/menu/aquami-all-in-split.png
+                image2: /images/menu/aquami-all-in-split-2.png
+                colors: []
+            seeAll:
+              label: Zobrazit vše
+              href: /cs/pompy-ciepla/niskotemperaturowe
+        footer:
+          - label: |-
+              Nevíte, jaké tepelné čerpadlo vybrat?
+              Přejděte do konfigurátoru.
+            href: /cs/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Řešení
+        solutions:
+          - label: do rodinného domu
+            href: /cs/rozwiazania/do-domu-wolnostojacego
+          - label: do řadového domu
+            href: /cs/rozwiazania/do-domu-szeregowego
+          - label: do bytu
+            href: /cs/rozwiazania/do-mieszkania
+          - label: do apartmánu
+            href: /cs/rozwiazania/do-apartamentu
+          - label: do chaty
+            href: /cs/rozwiazania/do-domku-letniskowego
+          - label: do činžovního domu
+            href: /cs/rozwiazania/do-kamienicy
+          - label: do kanceláře
+            href: /cs/rozwiazania/do-biura
+          - label: do restaurace
+            href: /cs/rozwiazania/do-restauracji
+          - label: do kadeřnictví
+            href: /cs/rozwiazania/do-salonu-fryzjerskiego
+          - label: do obchodu
+            href: /cs/rozwiazania/do-sklepu
+          - label: do provozovny služeb
+            href: /cs/rozwiazania/do-lokalu-usugowego
+          - label: do ordinace
+            href: /cs/rozwiazania/do-przychodni
+        buttons:
+          - label: Konfigurátor
+            href: /cs/doboromierz
+          - label: Najít montážníka
+            href: /cs/znajdz-instalatora
+          - label: Ke stažení
+            href: /cs/do-pobrania
+      - label: Dvoudílná (Split)
+        icon: menu-pompa-split
+        sections:
+          - title: Dvoudílná tepelná čerpadla (Split)
+            text: 'Dělený systém: venkovní jednotka je venku, hydraulika uvnitř budovy.'
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Airmi Split
+                tagline: Klasické tepelné čerpadlo do domu
+                href: /cs/pompy-ciepla/airmi-split
+                image: /images/menu/airmi-split.png
+                image2: /images/menu/airmi-split-2.png
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Aquami Split
+                tagline: Výkonné tepelné čerpadlo pro větší domy
+                href: /cs/pompy-ciepla/aquami-split
+                image: /images/menu/aquami-split.png
+                image2: /images/menu/aquami-split-2.png
+                colors: []
+              - name: Aquami Multi Split
+                tagline: Jedno tepelné čerpadlo pro vytápění i klimatizaci
+                href: /cs/pompy-ciepla/aquami-multi-split
+                image: /images/menu/aquami-multi-split.png
+                image2: /images/menu/aquami-multi-split-2.png
+                colors: []
+              - name: Heatmi Split
+                tagline: Moderní a úsporné tepelné čerpadlo
+                href: /cs/pompy-ciepla/heatmi-split
+                image: /images/menu/heatmi-split.png
+                image2: /images/menu/heatmi-split-2.png
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: |-
+              Nevíte, jaké tepelné čerpadlo vybrat?
+              Přejděte do konfigurátoru.
+            href: /cs/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Řešení
+        solutions:
+          - label: do rodinného domu
+            href: /cs/rozwiazania/do-domu-wolnostojacego
+          - label: do řadového domu
+            href: /cs/rozwiazania/do-domu-szeregowego
+          - label: do bytu
+            href: /cs/rozwiazania/do-mieszkania
+          - label: do apartmánu
+            href: /cs/rozwiazania/do-apartamentu
+          - label: do chaty
+            href: /cs/rozwiazania/do-domku-letniskowego
+          - label: do činžovního domu
+            href: /cs/rozwiazania/do-kamienicy
+          - label: do kanceláře
+            href: /cs/rozwiazania/do-biura
+          - label: do restaurace
+            href: /cs/rozwiazania/do-restauracji
+          - label: do kadeřnictví
+            href: /cs/rozwiazania/do-salonu-fryzjerskiego
+          - label: do obchodu
+            href: /cs/rozwiazania/do-sklepu
+          - label: do provozovny služeb
+            href: /cs/rozwiazania/do-lokalu-usugowego
+          - label: do ordinace
+            href: /cs/rozwiazania/do-przychodni
+        buttons:
+          - label: Konfigurátor
+            href: /cs/doboromierz
+          - label: Najít montážníka
+            href: /cs/znajdz-instalatora
+          - label: Ke stažení
+            href: /cs/do-pobrania
+      - label: Jednodílná (Monoblock)
+        icon: menu-pompa-monoblock
+        sections:
+          - title: Jednodílná tepelná čerpadla (Monoblock)
+            text: Kompaktní řešení, u kterého je celá instalace mimo budovu.
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Airmi Monoblock
+                tagline: Kompaktní a snadno instalovatelné tepelné čerpadlo
+                href: /cs/pompy-ciepla/airmi-monoblock
+                image: /images/menu/airmi-monoblock.png
+                image2: null
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Aquami Monoblock
+                tagline: Silné a univerzální tepelné čerpadlo
+                href: /cs/pompy-ciepla/aquami-monoblock
+                image: /images/menu/aquami-monoblock.png
+                image2: null
+                colors: []
+              - name: Windmi Monoblock
+                tagline: Moderní a výkonné tepelné čerpadlo
+                href: /cs/pompy-ciepla/windmi-monoblock
+                image: /images/menu/windmi-monoblock.png
+                image2: null
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: |-
+              Nevíte, jaké tepelné čerpadlo vybrat?
+              Přejděte do konfigurátoru.
+            href: /cs/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Řešení
+        solutions:
+          - label: do rodinného domu
+            href: /cs/rozwiazania/do-domu-wolnostojacego
+          - label: do řadového domu
+            href: /cs/rozwiazania/do-domu-szeregowego
+          - label: do bytu
+            href: /cs/rozwiazania/do-mieszkania
+          - label: do apartmánu
+            href: /cs/rozwiazania/do-apartamentu
+          - label: do chaty
+            href: /cs/rozwiazania/do-domku-letniskowego
+          - label: do činžovního domu
+            href: /cs/rozwiazania/do-kamienicy
+          - label: do kanceláře
+            href: /cs/rozwiazania/do-biura
+          - label: do restaurace
+            href: /cs/rozwiazania/do-restauracji
+          - label: do kadeřnictví
+            href: /cs/rozwiazania/do-salonu-fryzjerskiego
+          - label: do obchodu
+            href: /cs/rozwiazania/do-sklepu
+          - label: do provozovny služeb
+            href: /cs/rozwiazania/do-lokalu-usugowego
+          - label: do ordinace
+            href: /cs/rozwiazania/do-przychodni
+        buttons:
+          - label: Konfigurátor
+            href: /cs/doboromierz
+          - label: Najít montážníka
+            href: /cs/znajdz-instalatora
+          - label: Ke stažení
+            href: /cs/do-pobrania
+      - label: Barevně sladěná
+        icon: menu-pompa-kolor
+        sections:
+          - title: Tepelná čerpadla v barvách
+            text: Lorem ipsum dolor sit amet enim
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Airmi Split
+                tagline: Klasické tepelné čerpadlo do domu
+                href: /cs/pompy-ciepla/airmi-split
+                image: /images/menu/airmi-split.png
+                image2: /images/menu/airmi-split-2.png
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Airmi Monoblock
+                tagline: Kompaktní a snadno instalovatelné tepelné čerpadlo
+                href: /cs/pompy-ciepla/airmi-monoblock
+                image: /images/menu/airmi-monoblock.png
+                image2: null
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: |-
+              Nevíte, jaké tepelné čerpadlo vybrat?
+              Přejděte do konfigurátoru.
+            href: /cs/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Řešení
+        solutions:
+          - label: do rodinného domu
+            href: /cs/rozwiazania/do-domu-wolnostojacego
+          - label: do řadového domu
+            href: /cs/rozwiazania/do-domu-szeregowego
+          - label: do bytu
+            href: /cs/rozwiazania/do-mieszkania
+          - label: do apartmánu
+            href: /cs/rozwiazania/do-apartamentu
+          - label: do chaty
+            href: /cs/rozwiazania/do-domku-letniskowego
+          - label: do činžovního domu
+            href: /cs/rozwiazania/do-kamienicy
+          - label: do kanceláře
+            href: /cs/rozwiazania/do-biura
+          - label: do restaurace
+            href: /cs/rozwiazania/do-restauracji
+          - label: do kadeřnictví
+            href: /cs/rozwiazania/do-salonu-fryzjerskiego
+          - label: do obchodu
+            href: /cs/rozwiazania/do-sklepu
+          - label: do provozovny služeb
+            href: /cs/rozwiazania/do-lokalu-usugowego
+          - label: do ordinace
+            href: /cs/rozwiazania/do-przychodni
+        buttons:
+          - label: Konfigurátor
+            href: /cs/doboromierz
+          - label: Najít montážníka
+            href: /cs/znajdz-instalatora
+          - label: Ke stažení
+            href: /cs/do-pobrania
+      - label: S integrovaným zásobníkem TUV
+        icon: menu-pompa-allin
+        sections:
+          - title: Tepelná čerpadla s integrovaným zásobníkem TUV (All-in)
+            text: Zásobník a hydraulika v jednom systému.
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Aquami All-in Split
+                tagline: Tepelné čerpadlo, se kterým ušetříte místo
+                href: /cs/pompy-ciepla/aquami-all-in-split
+                image: /images/menu/aquami-all-in-split.png
+                image2: /images/menu/aquami-all-in-split-2.png
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: |-
+              Nevíte, jaké tepelné čerpadlo vybrat?
+              Přejděte do konfigurátoru.
+            href: /cs/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Řešení
+        solutions:
+          - label: do rodinného domu
+            href: /cs/rozwiazania/do-domu-wolnostojacego
+          - label: do řadového domu
+            href: /cs/rozwiazania/do-domu-szeregowego
+          - label: do bytu
+            href: /cs/rozwiazania/do-mieszkania
+          - label: do apartmánu
+            href: /cs/rozwiazania/do-apartamentu
+          - label: do chaty
+            href: /cs/rozwiazania/do-domku-letniskowego
+          - label: do činžovního domu
+            href: /cs/rozwiazania/do-kamienicy
+          - label: do kanceláře
+            href: /cs/rozwiazania/do-biura
+          - label: do restaurace
+            href: /cs/rozwiazania/do-restauracji
+          - label: do kadeřnictví
+            href: /cs/rozwiazania/do-salonu-fryzjerskiego
+          - label: do obchodu
+            href: /cs/rozwiazania/do-sklepu
+          - label: do provozovny služeb
+            href: /cs/rozwiazania/do-lokalu-usugowego
+          - label: do ordinace
+            href: /cs/rozwiazania/do-przychodni
+        buttons:
+          - label: Konfigurátor
+            href: /cs/doboromierz
+          - label: Najít montážníka
+            href: /cs/znajdz-instalatora
+          - label: Ke stažení
+            href: /cs/do-pobrania
+      - label: Zásobníky
+        icon: menu-zbiorniki
+        sections:
+          - title: Zásobníky TUV
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Thermos Ceramic
+                tagline: Smaltovaný zásobník TUV
+                href: /cs/pompy-ciepla/thermos-ceramic
+                image: /images/menu/thermos-ceramic.png
+                image2: null
+                colors: []
+              - name: Thermos Ceramic Grey
+                tagline: Keramický zásobník v šedé barvě
+                href: /cs/pompy-ciepla/thermos-ceramic-grey
+                image: /images/menu/thermos-ceramic-grey.png
+                image2: null
+                colors: []
+              - name: Thermos Inox
+                tagline: Nerezový zásobník odolný proti korozi
+                href: /cs/pompy-ciepla/thermos-inox
+                image: /images/menu/thermos-inox.png
+                image2: null
+                colors: []
+              - name: Thermos Dual Inox
+                tagline: Nerezový zásobník s přídavným výměníkem
+                href: /cs/pompy-ciepla/thermos-dual-inox
+                image: /images/menu/thermos-dual-inox.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Zobrazit vše
+              href: /cs/pompy-ciepla/zbiorniki
+          - title: Akumulační nádrže
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Thermos Store
+                tagline: Izolovaná akumulační nádrž
+                href: /cs/pompy-ciepla/thermos-store
+                image: /images/menu/thermos-store.png
+                image2: null
+                colors: []
+              - name: Thermos Store Plus
+                tagline: Akumulační nádrž s větším objemem
+                href: /cs/pompy-ciepla/thermos-store-plus
+                image: /images/menu/thermos-store-plus.png
+                image2: null
+                colors: []
+              - name: Thermos Store Grey
+                tagline: Akumulační nádrž v šedém plášti
+                href: /cs/pompy-ciepla/thermos-store-grey
+                image: /images/menu/thermos-store-grey.png
+                image2: null
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: Hořčíkové anody
+            href: /cs/pompy-ciepla/anody-magnezowe
+            icon: ''
+        solutionsTitle: ''
+        solutions: []
+        buttons:
+          - label: Konfigurátor
+            href: /cs/doboromierz
+          - label: Najít montážníka
+            href: /cs/znajdz-instalatora
+          - label: Ke stažení
+            href: /cs/do-pobrania
+  - label: Investice
+    href: /cs/systemy-rvf
+    categories:
+      - label: Klimatizační systémy RVF/VRF
+        icon: menu-rvf
+        sections:
+          - title: Klimatizační systémy RVF/VRF
+            text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet enim, et dolore.
+            button:
+              label: Zjistit více
+              href: /cs/systemy-rvf
+            cards: wall
+            products: []
+            seeAll:
+              label: ''
+              href: ''
+          - title: Venkovní jednotky
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: RVF V5
+                tagline: Lorem ipsum dolor sit amet enim
+                href: /cs/systemy-rvf/rvf-v5
+                image: /images/menu/rvf-v5.png
+                image2: null
+                colors: []
+              - name: HR RVF
+                tagline: Lorem ipsum dolor sit amet enim
+                href: /cs/systemy-rvf/hr-rvf
+                image: /images/menu/hr-rvf.png
+                image2: null
+                colors: []
+              - name: MiniRVF V4
+                tagline: Lorem ipsum dolor sit amet enim
+                href: /cs/systemy-rvf/minirvf-v4
+                image: /images/menu/minirvf-v4.png
+                image2: null
+                colors: []
+              - name: MiniRVF V5
+                tagline: Lorem ipsum dolor sit amet enim
+                href: /cs/systemy-rvf/minirvf-v5
+                image: /images/menu/minirvf-v5.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Zobrazit vše
+              href: /cs/systemy-rvf/jednostki-zewnetrzne
+        footer: []
+        solutionsTitle: Řešení
+        solutions:
+          - label: do administrativní budovy
+            href: /cs/rozwiazania/do-biurowca
+          - label: do hotelu
+            href: /cs/rozwiazania/do-hotelu
+          - label: do nemocnice
+            href: /cs/rozwiazania/do-szpitala
+          - label: do výrobní haly
+            href: /cs/rozwiazania/do-hali-produkcyjnej
+          - label: do skladu
+            href: /cs/rozwiazania/do-magazynu
+          - label: do průmyslového objektu
+            href: /cs/rozwiazania/do-obiektu-przemysowego
+          - label: do historické budovy
+            href: /cs/rozwiazania/do-obiektu-zabytkowego
+          - label: do posilovny
+            href: /cs/rozwiazania/do-siowni
+          - label: do supermarketu
+            href: /cs/rozwiazania/do-supermarketu
+          - label: do SPA
+            href: /cs/rozwiazania/do-spa
+          - label: do úřadu
+            href: /cs/rozwiazania/do-urzedu
+        buttons:
+          - label: Reference
+            href: /cs/referencje
+          - label: Zeptejte se na podrobnosti
+            href: /cs/kontakt
+      - label: Klimatizační systémy Multi Split
+        icon: menu-kasetonowe
+        sections:
+          - title: Klimatizační systémy Multi Split
+            text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet enim, et dolore.
+            button:
+              label: Zjistit více
+              href: /cs/klimatyzacja/multi-split
+            cards: wall
+            products: []
+            seeAll:
+              label: ''
+              href: ''
+          - title: Venkovní jednotky
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Hiro HP
+                tagline: 'Mimořádně výkonný systém v energetické třídě A+++, který obslouží až 3 vnitřní jednotky a pracuje i v náročných zimních podmínkách: do -30 °C venkovní teploty.'
+                href: /cs/klimatyzacja/hiro-hp
+                image: /images/menu/hiro-hp.png
+                image2: null
+                colors: []
+              - name: Hiro S
+                tagline: Venkovní jednotka třídy A++ určená pro celoroční provoz, ke které lze připojit až 5 vnitřních jednotek. Účinně topí i při –22 °C venku.
+                href: /cs/klimatyzacja/hiro-s
+                image: /images/menu/hiro-s.png
+                image2: null
+                colors: []
+              - name: Hiro N
+                tagline: Kompaktní venkovní jednotka třídy A++, která obslouží až 5 vnitřních jednotek a účinně chladí i topí.
+                href: /cs/klimatyzacja/hiro-n
+                image: /images/menu/hiro-n.png
+                image2: null
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer: []
+        solutionsTitle: Řešení
+        solutions:
+          - label: do nemocnice
+            href: /cs/rozwiazania/do-szpitala
+          - label: do výrobní haly
+            href: /cs/rozwiazania/do-hali-produkcyjnej
+          - label: do skladu
+            href: /cs/rozwiazania/do-magazynu
+          - label: do průmyslového objektu
+            href: /cs/rozwiazania/do-obiektu-przemysowego
+          - label: do historické budovy
+            href: /cs/rozwiazania/do-obiektu-zabytkowego
+          - label: do posilovny
+            href: /cs/rozwiazania/do-siowni
+          - label: do supermarketu
+            href: /cs/rozwiazania/do-supermarketu
+          - label: do SPA
+            href: /cs/rozwiazania/do-spa
+          - label: do úřadu
+            href: /cs/rozwiazania/do-urzedu
+          - label: do knihovny
+            href: /cs/rozwiazania/do-biblioteki
+        buttons:
+          - label: Reference
+            href: /cs/referencje
+          - label: Zeptejte se na podrobnosti
+            href: /cs/kontakt
+  - label: Filtry Wentilo
+    href: /cs/filtry-wentilo
+    categories: []

@@ -31,7 +31,7 @@ export function Button({ variant, href, className = "", children, ...rest }: Pro
   const label = <span className="text-trim">{children}</span>;
   if (href) {
     return (
-      <Link href={href} className={cls}>
+      <Link href={href} className={cls} onClick={rest.onClick as ComponentProps<typeof Link>["onClick"]}>
         {label}
       </Link>
     );

@@ -45,3 +45,6 @@ next-env.d.ts
 /.next-test/
 /.next-lan/
 /.cache/
+
+# Figma dump of the whole mega menu section (46 MB) — regenerate with scripts/figma-fetch.mjs 5172:83010
+docs/figma-nodes/5172-83010.json

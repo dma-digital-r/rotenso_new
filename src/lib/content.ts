@@ -1,11 +1,12 @@
 import { createReader, type Entry } from "@keystatic/core/reader";
-import config, { guidesCollection, homeSingleton, settingsSingleton } from "../../keystatic.config";
+import config, { guidesCollection, homeSingleton, menuSingleton, settingsSingleton } from "../../keystatic.config";
 import { defaultLocale, type Locale } from "@/i18n/config";
 
 export const reader = createReader(process.cwd(), config);
 
 export type HomeContent = Entry<ReturnType<typeof homeSingleton>>;
 export type SettingsContent = Entry<ReturnType<typeof settingsSingleton>>;
+export type MenuContent = Entry<ReturnType<typeof menuSingleton>>;
 type GuideEntry = Entry<ReturnType<typeof guidesCollection>>;
 
 // Polish and Czech typography: a one-letter word (i, w, z, a, o, u, k, s, v) must not end a
@@ -97,4 +98,10 @@ export async function getSettings(lang: Locale): Promise<SettingsContent> {
     (await reader.singletons[`settings_${defaultLocale}`].read());
   if (!entry) throw new Error("Missing content/pl/settings.yaml");
   return typeset(lang, entry as SettingsContent);
+}
+
+export async function getMenu(lang: Locale): Promise<MenuContent> {
+  const entry =
+    (await reader.singletons[`menu_${lang}`].read()) ?? (await reader.singletons[`menu_${defaultLocale}`].read());
+  return typeset(lang, (entry ?? { tabs: [] }) as MenuContent);
 }

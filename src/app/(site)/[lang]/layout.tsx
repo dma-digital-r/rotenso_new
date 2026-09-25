@@ -5,7 +5,7 @@ import { AiChatButton } from "@/components/layout/AiChatButton";
 import { Footer } from "@/components/layout/Footer";
 import { TopBar } from "@/components/layout/TopBar";
 import { isLocale, locales } from "@/i18n/config";
-import { getSettings } from "@/lib/content";
+import { getMenu, getSettings } from "@/lib/content";
 import "../globals.css";
 
 const openSans = Open_Sans({
@@ -30,13 +30,13 @@ export default async function LocaleLayout({
 }: LayoutProps<"/[lang]">) {
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
-  const settings = await getSettings(lang);
+  const [settings, menu] = await Promise.all([getSettings(lang), getMenu(lang)]);
 
   return (
     <html lang={lang} className={`${openSans.variable} antialiased`}>
       <body className="min-h-screen min-w-[1400px]">
         <div className="relative isolate flow-root overflow-x-clip">
-          <TopBar settings={settings} lang={lang} />
+          <TopBar settings={settings} menu={menu} lang={lang} />
           {children}
           <Footer settings={settings} />
         </div>

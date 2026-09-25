@@ -1,0 +1,1112 @@
+tabs:
+  - label: Climatizzatori
+    href: /it/klimatyzacja
+    categories:
+      - label: A parete (Split)
+        icon: menu-scienne
+        sections:
+          - title: Climatizzatori a parete
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: wall
+            products:
+              - name: Mirai
+                tagline: Massima efficienza
+                href: /it/klimatyzacja/mirai
+                image: /images/menu/mirai.png
+                image2: null
+                colors: []
+              - name: Fresh
+                tagline: Aria fresca
+                href: /it/klimatyzacja/fresh
+                image: /images/menu/fresh.png
+                image2: null
+                colors: []
+              - name: Versu Cloth Caramel
+                tagline: Stile unico
+                href: /it/klimatyzacja/versu-cloth-caramel
+                image: /images/menu/versu-cloth-caramel.png
+                image2: null
+                colors: []
+              - name: Versu Cloth Stone
+                tagline: Design originale
+                href: /it/klimatyzacja/versu-cloth-stone
+                image: /images/menu/versu-cloth-stone.png
+                image2: null
+                colors: []
+              - name: Versu Pure
+                tagline: Funzionamento silenzioso
+                href: /it/klimatyzacja/versu-pure
+                image: /images/menu/versu-pure.png
+                image2: null
+                colors: []
+              - name: Elis
+                tagline: Design senza tempo
+                href: /it/klimatyzacja/elis
+                image: /images/menu/elis.png
+                image2: null
+                colors: []
+              - name: Revio
+                tagline: Grande funzionalità
+                href: /it/klimatyzacja/revio
+                image: /images/menu/revio.png
+                image2: null
+                colors: []
+              - name: Teta
+                tagline: Minimalismo e affidabilità
+                href: /it/klimatyzacja/teta
+                image: /images/menu/teta.png
+                image2: null
+                colors: []
+              - name: Imoto
+                tagline: Scocca compatta
+                href: /it/klimatyzacja/imoto
+                image: /images/menu/imoto.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Vedi tutti
+              href: /it/klimatyzacja/split
+        footer:
+          - label: Climatizzatori a soffitto
+            href: /it/klimatyzacja/sufitowe
+            icon: menu-kasetonowe
+          - label: Climatizzatori da incasso
+            href: /it/klimatyzacja/do-zabudowy
+            icon: menu-kasetonowe
+          - label: Climatizzatori a pavimento
+            href: /it/klimatyzacja/przypodlogowe
+            icon: menu-sufitowe
+          - label: Climatizzatori soffitto-pavimento
+            href: /it/klimatyzacja/scienno-sufitowe
+            icon: menu-sufitowe
+        solutionsTitle: Soluzioni
+        solutions:
+          - label: per la casa
+            href: /it/rozwiazania/do-domu
+          - label: per la casa vacanze
+            href: /it/rozwiazania/do-domku-letniskowego
+          - label: per il condominio d’epoca
+            href: /it/rozwiazania/do-kamienicy
+          - label: per la cameretta
+            href: /it/rozwiazania/do-pokoju-dzieciecego
+          - label: per l’ufficio
+            href: /it/rozwiazania/do-biura
+          - label: per il ristorante
+            href: /it/rozwiazania/do-restauracji
+          - label: per il parrucchiere
+            href: /it/rozwiazania/do-salonu-fryzjerskiego
+          - label: per il negozio
+            href: /it/rozwiazania/do-sklepu
+          - label: per l’ambulatorio
+            href: /it/rozwiazania/do-przychodni
+        buttons:
+          - label: Configuratore
+            href: /it/doboromierz
+          - label: Trova un installatore
+            href: /it/znajdz-instalatora
+          - label: Download
+            href: /it/do-pobrania
+      - label: |-
+          Multi-ambiente
+          (multi-split)
+        icon: menu-wielopokojowe
+        sections:
+          - title: Climatizzatori multi-ambiente
+            text: Nel sistema multi-split una sola unità esterna serve più climatizzatori interni.
+            button:
+              label: ''
+              href: ''
+            cards: wall
+            products:
+              - name: Mirai
+                tagline: Massima efficienza
+                href: /it/klimatyzacja/mirai-multi
+                image: /images/menu/mirai.png
+                image2: null
+                colors: []
+              - name: Elis
+                tagline: Design senza tempo
+                href: /it/klimatyzacja/elis-multi
+                image: /images/menu/elis.png
+                image2: null
+                colors: []
+              - name: Elis Silver
+                tagline: Stile industriale
+                href: /it/klimatyzacja/elis-silver-multi
+                image: /images/menu/elis-silver.png
+                image2: null
+                colors: []
+              - name: Imoto
+                tagline: Scocca compatta
+                href: /it/klimatyzacja/imoto-multi
+                image: /images/menu/imoto.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Vedi tutti
+              href: /it/klimatyzacja/multi-split
+        footer:
+          - label: |-
+              Scegli il sistema adatto alle tue esigenze.
+              Vai al configuratore.
+            href: /it/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Soluzioni
+        solutions:
+          - label: per l’appartamento
+            href: /it/rozwiazania/do-mieszkania
+          - label: per la casa
+            href: /it/rozwiazania/do-domu
+          - label: per l’appartamento di pregio
+            href: /it/rozwiazania/do-apartamentu
+          - label: per la casa vacanze
+            href: /it/rozwiazania/do-domku-letniskowego
+          - label: per la cameretta
+            href: /it/rozwiazania/do-pokoju-dzieciecego
+          - label: per il condominio d’epoca
+            href: /it/rozwiazania/do-kamienicy
+          - label: per l’ufficio
+            href: /it/rozwiazania/do-biura
+          - label: per il ristorante
+            href: /it/rozwiazania/do-restauracji
+          - label: per il negozio
+            href: /it/rozwiazania/do-sklepu
+          - label: per il locale commerciale
+            href: /it/rozwiazania/do-lokalu-usugowego
+          - label: per il parco commerciale
+            href: /it/rozwiazania/do-parku-handlowego
+          - label: per l’ambulatorio
+            href: /it/rozwiazania/do-przychodni
+          - label: per il container
+            href: /it/rozwiazania/do-kontenera
+        buttons:
+          - label: Configuratore
+            href: /it/doboromierz
+          - label: Trova un installatore
+            href: /it/znajdz-instalatora
+          - label: Download
+            href: /it/do-pobrania
+      - label: Di design
+        icon: menu-scienne
+        sections:
+          - title: Multicolore
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: wall
+            products:
+              - name: Versu Cloth Caramel
+                tagline: Stile unico
+                href: /it/klimatyzacja/versu-cloth-caramel
+                image: /images/menu/versu-cloth-caramel.png
+                image2: null
+                colors: []
+              - name: Versu Cloth Stone
+                tagline: Design originale
+                href: /it/klimatyzacja/versu-cloth-stone
+                image: /images/menu/versu-cloth-stone.png
+                image2: null
+                colors: []
+              - name: Teta Mirror
+                tagline: Moderno e versatile
+                href: /it/klimatyzacja/teta-mirror
+                image: /images/menu/teta-mirror.png
+                image2: null
+                colors: []
+              - name: Elis Silver
+                tagline: Stile industriale
+                href: /it/klimatyzacja/elis-silver
+                image: /images/menu/elis-silver.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Vedi tutti
+              href: /it/klimatyzacja/designerskie
+        footer:
+          - label: Climatizzatori con frontale a specchio
+            href: /it/klimatyzacja/z-lustrem
+            icon: menu-scienne
+        solutionsTitle: Soluzioni
+        solutions:
+          - label: per la casa
+            href: /it/rozwiazania/do-domu
+          - label: per l’appartamento
+            href: /it/rozwiazania/do-mieszkania
+          - label: per la mansarda
+            href: /it/rozwiazania/na-poddasze
+          - label: per la casa vacanze
+            href: /it/rozwiazania/do-domku-letniskowego
+          - label: per il condominio d’epoca
+            href: /it/rozwiazania/do-kamienicy
+          - label: per la cameretta
+            href: /it/rozwiazania/do-pokoju-dzieciecego
+          - label: per l’ufficio
+            href: /it/rozwiazania/do-biura
+          - label: per il ristorante
+            href: /it/rozwiazania/do-restauracji
+          - label: per il parrucchiere
+            href: /it/rozwiazania/do-salonu-fryzjerskiego
+          - label: per il negozio
+            href: /it/rozwiazania/do-sklepu
+          - label: per l’ambulatorio
+            href: /it/rozwiazania/do-przychodni
+          - label: per la farmacia
+            href: /it/rozwiazania/do-apteki
+        buttons:
+          - label: Configuratore
+            href: /it/doboromierz
+          - label: Trova un installatore
+            href: /it/znajdz-instalatora
+          - label: Download
+            href: /it/do-pobrania
+      - label: Per il riscaldamento tutto l’anno
+        icon: menu-scienne
+        sections:
+          - title: Per il riscaldamento tutto l’anno
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: wall
+            products:
+              - name: Mirai
+                tagline: Massima efficienza
+                href: /it/klimatyzacja/mirai
+                image: /images/menu/mirai.png
+                image2: null
+                colors: []
+              - name: Versu Pure
+                tagline: Funzionamento silenzioso
+                href: /it/klimatyzacja/versu-pure
+                image: /images/menu/versu-pure.png
+                image2: null
+                colors: []
+              - name: Revio
+                tagline: Grande funzionalità
+                href: /it/klimatyzacja/revio
+                image: /images/menu/revio.png
+                image2: null
+                colors: []
+              - name: Teta
+                tagline: Minimalismo e affidabilità
+                href: /it/klimatyzacja/teta
+                image: /images/menu/teta.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Vedi tutti
+              href: /it/klimatyzacja/grzanie
+        footer:
+          - label: Climatizzatori super silenziosi
+            href: /it/klimatyzacja/super-ciche
+            icon: menu-scienne
+          - label: Climatizzatori A+++
+            href: /it/klimatyzacja/a-plus-plus-plus
+            icon: menu-scienne
+        solutionsTitle: Soluzioni
+        solutions:
+          - label: per la casa
+            href: /it/rozwiazania/do-domu
+          - label: per l’appartamento
+            href: /it/rozwiazania/do-mieszkania
+          - label: per la mansarda
+            href: /it/rozwiazania/na-poddasze
+          - label: per la casa vacanze
+            href: /it/rozwiazania/do-domku-letniskowego
+          - label: per il condominio d’epoca
+            href: /it/rozwiazania/do-kamienicy
+          - label: per la cameretta
+            href: /it/rozwiazania/do-pokoju-dzieciecego
+          - label: per l’ufficio
+            href: /it/rozwiazania/do-biura
+          - label: per il ristorante
+            href: /it/rozwiazania/do-restauracji
+          - label: per il parrucchiere
+            href: /it/rozwiazania/do-salonu-fryzjerskiego
+          - label: per il negozio
+            href: /it/rozwiazania/do-sklepu
+          - label: per l’ambulatorio
+            href: /it/rozwiazania/do-przychodni
+          - label: per la farmacia
+            href: /it/rozwiazania/do-apteki
+        buttons:
+          - label: Configuratore
+            href: /it/doboromierz
+          - label: Trova un installatore
+            href: /it/znajdz-instalatora
+          - label: Download
+            href: /it/do-pobrania
+      - label: A soffitto e canalizzabili
+        icon: menu-sufitowe
+        sections:
+          - title: A soffitto e canalizzabili
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Tenji CC
+                tagline: Per uffici e studi
+                href: /it/klimatyzacja/tenji-cc
+                image: /images/menu/tenji-cc.png
+                image2: null
+                colors: []
+              - name: Tenji CS
+                tagline: Per locali commerciali
+                href: /it/klimatyzacja/tenji-cs
+                image: /images/menu/tenji-cs.png
+                image2: null
+                colors: []
+              - name: Nevo
+                tagline: Montaggio verticale e orizzontale
+                href: /it/klimatyzacja/nevo
+                image: /images/menu/nevo.png
+                image2: null
+                colors: []
+              - name: Nevo Multi
+                tagline: Montaggio verticale e orizzontale
+                href: /it/klimatyzacja/nevo-multi
+                image: /images/menu/nevo-multi.png
+                image2: null
+                colors: []
+              - name: Jato
+                tagline: Montaggio a parete o a soffitto
+                href: /it/klimatyzacja/jato
+                image: /images/menu/jato.png
+                image2: null
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer: []
+        solutionsTitle: Soluzioni
+        solutions:
+          - label: per la casa
+            href: /it/rozwiazania/do-domu
+          - label: per l’appartamento
+            href: /it/rozwiazania/do-mieszkania
+          - label: per la mansarda
+            href: /it/rozwiazania/na-poddasze
+          - label: per la casa vacanze
+            href: /it/rozwiazania/do-domku-letniskowego
+          - label: per il condominio d’epoca
+            href: /it/rozwiazania/do-kamienicy
+          - label: per la cameretta
+            href: /it/rozwiazania/do-pokoju-dzieciecego
+          - label: per l’ufficio
+            href: /it/rozwiazania/do-biura
+          - label: per il ristorante
+            href: /it/rozwiazania/do-restauracji
+          - label: per il parrucchiere
+            href: /it/rozwiazania/do-salonu-fryzjerskiego
+          - label: per il negozio
+            href: /it/rozwiazania/do-sklepu
+          - label: per l’ambulatorio
+            href: /it/rozwiazania/do-przychodni
+          - label: per la farmacia
+            href: /it/rozwiazania/do-apteki
+        buttons:
+          - label: Configuratore
+            href: /it/doboromierz
+          - label: Trova un installatore
+            href: /it/znajdz-instalatora
+          - label: Download
+            href: /it/do-pobrania
+      - label: A pavimento
+        icon: menu-sufitowe
+        sections:
+          - title: A pavimento
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Jato
+                tagline: Montaggio a parete o a soffitto
+                href: /it/klimatyzacja/jato
+                image: /images/menu/jato.png
+                image2: null
+                colors: []
+              - name: Aneru HP
+                tagline: Ideale per la mansarda
+                href: /it/klimatyzacja/aneru-hp
+                image: /images/menu/aneru-hp.png
+                image2: null
+                colors: []
+              - name: Aneru
+                tagline: Comfort ovunque
+                href: /it/klimatyzacja/aneru
+                image: /images/menu/aneru.png
+                image2: null
+                colors: []
+              - name: Aneru AN
+                tagline: Dimensioni compatte
+                href: /it/klimatyzacja/aneru-an
+                image: /images/menu/aneru-an.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Vedi tutti
+              href: /it/klimatyzacja/przypodlogowe
+        footer: []
+        solutionsTitle: Soluzioni
+        solutions:
+          - label: per la casa
+            href: /it/rozwiazania/do-domu
+          - label: per l’appartamento
+            href: /it/rozwiazania/do-mieszkania
+          - label: per la mansarda
+            href: /it/rozwiazania/na-poddasze
+          - label: per la casa vacanze
+            href: /it/rozwiazania/do-domku-letniskowego
+          - label: per il condominio d’epoca
+            href: /it/rozwiazania/do-kamienicy
+          - label: per la cameretta
+            href: /it/rozwiazania/do-pokoju-dzieciecego
+          - label: per l’ufficio
+            href: /it/rozwiazania/do-biura
+          - label: per il ristorante
+            href: /it/rozwiazania/do-restauracji
+          - label: per il parrucchiere
+            href: /it/rozwiazania/do-salonu-fryzjerskiego
+          - label: per il negozio
+            href: /it/rozwiazania/do-sklepu
+          - label: per l’ambulatorio
+            href: /it/rozwiazania/do-przychodni
+          - label: per la farmacia
+            href: /it/rozwiazania/do-apteki
+        buttons:
+          - label: Configuratore
+            href: /it/doboromierz
+          - label: Trova un installatore
+            href: /it/znajdz-instalatora
+          - label: Download
+            href: /it/do-pobrania
+  - label: VMC
+    href: /it/rekuperacja
+    categories: []
+  - label: Pompe di calore
+    href: /it/pompy-ciepla
+    categories:
+      - label: Bassa temperatura
+        icon: menu-pompa-niskotemp
+        sections:
+          - title: Pompe di calore a bassa temperatura
+            text: Lorem ipsum dolor sit amet enim
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Airmi Split
+                tagline: La classica pompa di calore per la casa
+                href: /it/pompy-ciepla/airmi-split
+                image: /images/menu/airmi-split.png
+                image2: /images/menu/airmi-split-2.png
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Aquami Split
+                tagline: Pompa di calore performante per case più grandi
+                href: /it/pompy-ciepla/aquami-split
+                image: /images/menu/aquami-split.png
+                image2: /images/menu/aquami-split-2.png
+                colors: []
+              - name: Aquami Multi Split
+                tagline: Una pompa di calore per riscaldamento e climatizzazione
+                href: /it/pompy-ciepla/aquami-multi-split
+                image: /images/menu/aquami-multi-split.png
+                image2: /images/menu/aquami-multi-split-2.png
+                colors: []
+              - name: Heatmi Split
+                tagline: Pompa di calore moderna e a basso consumo
+                href: /it/pompy-ciepla/heatmi-split
+                image: /images/menu/heatmi-split.png
+                image2: /images/menu/heatmi-split-2.png
+                colors: []
+              - name: Airmi Monoblock
+                tagline: Pompa di calore compatta e facile da installare
+                href: /it/pompy-ciepla/airmi-monoblock
+                image: /images/menu/airmi-monoblock.png
+                image2: null
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Aquami Monoblock
+                tagline: Pompa di calore potente e versatile
+                href: /it/pompy-ciepla/aquami-monoblock
+                image: /images/menu/aquami-monoblock.png
+                image2: null
+                colors: []
+              - name: Windmi Monoblock
+                tagline: Pompa di calore moderna ed efficiente
+                href: /it/pompy-ciepla/windmi-monoblock
+                image: /images/menu/windmi-monoblock.png
+                image2: null
+                colors: []
+              - name: Aquami All-in Split
+                tagline: Pompa di calore che ti fa risparmiare spazio
+                href: /it/pompy-ciepla/aquami-all-in-split
+                image: /images/menu/aquami-all-in-split.png
+                image2: /images/menu/aquami-all-in-split-2.png
+                colors: []
+            seeAll:
+              label: Vedi tutti
+              href: /it/pompy-ciepla/niskotemperaturowe
+        footer:
+          - label: |-
+              Non sai quale pompa di calore scegliere?
+              Vai al configuratore.
+            href: /it/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Soluzioni
+        solutions:
+          - label: per la casa indipendente
+            href: /it/rozwiazania/do-domu-wolnostojacego
+          - label: per la villetta a schiera
+            href: /it/rozwiazania/do-domu-szeregowego
+          - label: per l’appartamento
+            href: /it/rozwiazania/do-mieszkania
+          - label: per l’appartamento di pregio
+            href: /it/rozwiazania/do-apartamentu
+          - label: per la casa vacanze
+            href: /it/rozwiazania/do-domku-letniskowego
+          - label: per il condominio d’epoca
+            href: /it/rozwiazania/do-kamienicy
+          - label: per l’ufficio
+            href: /it/rozwiazania/do-biura
+          - label: per il ristorante
+            href: /it/rozwiazania/do-restauracji
+          - label: per il parrucchiere
+            href: /it/rozwiazania/do-salonu-fryzjerskiego
+          - label: per il negozio
+            href: /it/rozwiazania/do-sklepu
+          - label: per il locale commerciale
+            href: /it/rozwiazania/do-lokalu-usugowego
+          - label: per l’ambulatorio
+            href: /it/rozwiazania/do-przychodni
+        buttons:
+          - label: Configuratore
+            href: /it/doboromierz
+          - label: Trova un installatore
+            href: /it/znajdz-instalatora
+          - label: Download
+            href: /it/do-pobrania
+      - label: Split (due unità)
+        icon: menu-pompa-split
+        sections:
+          - title: Pompe di calore split
+            text: 'Sistema separato: l’unità esterna fuori dall’edificio, l’idraulica all’interno.'
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Airmi Split
+                tagline: La classica pompa di calore per la casa
+                href: /it/pompy-ciepla/airmi-split
+                image: /images/menu/airmi-split.png
+                image2: /images/menu/airmi-split-2.png
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Aquami Split
+                tagline: Pompa di calore performante per case più grandi
+                href: /it/pompy-ciepla/aquami-split
+                image: /images/menu/aquami-split.png
+                image2: /images/menu/aquami-split-2.png
+                colors: []
+              - name: Aquami Multi Split
+                tagline: Una pompa di calore per riscaldamento e climatizzazione
+                href: /it/pompy-ciepla/aquami-multi-split
+                image: /images/menu/aquami-multi-split.png
+                image2: /images/menu/aquami-multi-split-2.png
+                colors: []
+              - name: Heatmi Split
+                tagline: Pompa di calore moderna e a basso consumo
+                href: /it/pompy-ciepla/heatmi-split
+                image: /images/menu/heatmi-split.png
+                image2: /images/menu/heatmi-split-2.png
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: |-
+              Non sai quale pompa di calore scegliere?
+              Vai al configuratore.
+            href: /it/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Soluzioni
+        solutions:
+          - label: per la casa indipendente
+            href: /it/rozwiazania/do-domu-wolnostojacego
+          - label: per la villetta a schiera
+            href: /it/rozwiazania/do-domu-szeregowego
+          - label: per l’appartamento
+            href: /it/rozwiazania/do-mieszkania
+          - label: per l’appartamento di pregio
+            href: /it/rozwiazania/do-apartamentu
+          - label: per la casa vacanze
+            href: /it/rozwiazania/do-domku-letniskowego
+          - label: per il condominio d’epoca
+            href: /it/rozwiazania/do-kamienicy
+          - label: per l’ufficio
+            href: /it/rozwiazania/do-biura
+          - label: per il ristorante
+            href: /it/rozwiazania/do-restauracji
+          - label: per il parrucchiere
+            href: /it/rozwiazania/do-salonu-fryzjerskiego
+          - label: per il negozio
+            href: /it/rozwiazania/do-sklepu
+          - label: per il locale commerciale
+            href: /it/rozwiazania/do-lokalu-usugowego
+          - label: per l’ambulatorio
+            href: /it/rozwiazania/do-przychodni
+        buttons:
+          - label: Configuratore
+            href: /it/doboromierz
+          - label: Trova un installatore
+            href: /it/znajdz-instalatora
+          - label: Download
+            href: /it/do-pobrania
+      - label: Monoblocco
+        icon: menu-pompa-monoblock
+        sections:
+          - title: Pompe di calore monoblocco
+            text: Soluzione compatta con l’intero impianto all’esterno dell’edificio.
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Airmi Monoblock
+                tagline: Pompa di calore compatta e facile da installare
+                href: /it/pompy-ciepla/airmi-monoblock
+                image: /images/menu/airmi-monoblock.png
+                image2: null
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Aquami Monoblock
+                tagline: Pompa di calore potente e versatile
+                href: /it/pompy-ciepla/aquami-monoblock
+                image: /images/menu/aquami-monoblock.png
+                image2: null
+                colors: []
+              - name: Windmi Monoblock
+                tagline: Pompa di calore moderna ed efficiente
+                href: /it/pompy-ciepla/windmi-monoblock
+                image: /images/menu/windmi-monoblock.png
+                image2: null
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: |-
+              Non sai quale pompa di calore scegliere?
+              Vai al configuratore.
+            href: /it/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Soluzioni
+        solutions:
+          - label: per la casa indipendente
+            href: /it/rozwiazania/do-domu-wolnostojacego
+          - label: per la villetta a schiera
+            href: /it/rozwiazania/do-domu-szeregowego
+          - label: per l’appartamento
+            href: /it/rozwiazania/do-mieszkania
+          - label: per l’appartamento di pregio
+            href: /it/rozwiazania/do-apartamentu
+          - label: per la casa vacanze
+            href: /it/rozwiazania/do-domku-letniskowego
+          - label: per il condominio d’epoca
+            href: /it/rozwiazania/do-kamienicy
+          - label: per l’ufficio
+            href: /it/rozwiazania/do-biura
+          - label: per il ristorante
+            href: /it/rozwiazania/do-restauracji
+          - label: per il parrucchiere
+            href: /it/rozwiazania/do-salonu-fryzjerskiego
+          - label: per il negozio
+            href: /it/rozwiazania/do-sklepu
+          - label: per il locale commerciale
+            href: /it/rozwiazania/do-lokalu-usugowego
+          - label: per l’ambulatorio
+            href: /it/rozwiazania/do-przychodni
+        buttons:
+          - label: Configuratore
+            href: /it/doboromierz
+          - label: Trova un installatore
+            href: /it/znajdz-instalatora
+          - label: Download
+            href: /it/do-pobrania
+      - label: Abbinate nel colore
+        icon: menu-pompa-kolor
+        sections:
+          - title: Pompe di calore a colori
+            text: Lorem ipsum dolor sit amet enim
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Airmi Split
+                tagline: La classica pompa di calore per la casa
+                href: /it/pompy-ciepla/airmi-split
+                image: /images/menu/airmi-split.png
+                image2: /images/menu/airmi-split-2.png
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Airmi Monoblock
+                tagline: Pompa di calore compatta e facile da installare
+                href: /it/pompy-ciepla/airmi-monoblock
+                image: /images/menu/airmi-monoblock.png
+                image2: null
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: |-
+              Non sai quale pompa di calore scegliere?
+              Vai al configuratore.
+            href: /it/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Soluzioni
+        solutions:
+          - label: per la casa indipendente
+            href: /it/rozwiazania/do-domu-wolnostojacego
+          - label: per la villetta a schiera
+            href: /it/rozwiazania/do-domu-szeregowego
+          - label: per l’appartamento
+            href: /it/rozwiazania/do-mieszkania
+          - label: per l’appartamento di pregio
+            href: /it/rozwiazania/do-apartamentu
+          - label: per la casa vacanze
+            href: /it/rozwiazania/do-domku-letniskowego
+          - label: per il condominio d’epoca
+            href: /it/rozwiazania/do-kamienicy
+          - label: per l’ufficio
+            href: /it/rozwiazania/do-biura
+          - label: per il ristorante
+            href: /it/rozwiazania/do-restauracji
+          - label: per il parrucchiere
+            href: /it/rozwiazania/do-salonu-fryzjerskiego
+          - label: per il negozio
+            href: /it/rozwiazania/do-sklepu
+          - label: per il locale commerciale
+            href: /it/rozwiazania/do-lokalu-usugowego
+          - label: per l’ambulatorio
+            href: /it/rozwiazania/do-przychodni
+        buttons:
+          - label: Configuratore
+            href: /it/doboromierz
+          - label: Trova un installatore
+            href: /it/znajdz-instalatora
+          - label: Download
+            href: /it/do-pobrania
+      - label: Con accumulo ACS integrato
+        icon: menu-pompa-allin
+        sections:
+          - title: Pompe di calore con accumulo ACS integrato (All-in)
+            text: Accumulo e idraulica in un unico sistema.
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Aquami All-in Split
+                tagline: Pompa di calore che ti fa risparmiare spazio
+                href: /it/pompy-ciepla/aquami-all-in-split
+                image: /images/menu/aquami-all-in-split.png
+                image2: /images/menu/aquami-all-in-split-2.png
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: |-
+              Non sai quale pompa di calore scegliere?
+              Vai al configuratore.
+            href: /it/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Soluzioni
+        solutions:
+          - label: per la casa indipendente
+            href: /it/rozwiazania/do-domu-wolnostojacego
+          - label: per la villetta a schiera
+            href: /it/rozwiazania/do-domu-szeregowego
+          - label: per l’appartamento
+            href: /it/rozwiazania/do-mieszkania
+          - label: per l’appartamento di pregio
+            href: /it/rozwiazania/do-apartamentu
+          - label: per la casa vacanze
+            href: /it/rozwiazania/do-domku-letniskowego
+          - label: per il condominio d’epoca
+            href: /it/rozwiazania/do-kamienicy
+          - label: per l’ufficio
+            href: /it/rozwiazania/do-biura
+          - label: per il ristorante
+            href: /it/rozwiazania/do-restauracji
+          - label: per il parrucchiere
+            href: /it/rozwiazania/do-salonu-fryzjerskiego
+          - label: per il negozio
+            href: /it/rozwiazania/do-sklepu
+          - label: per il locale commerciale
+            href: /it/rozwiazania/do-lokalu-usugowego
+          - label: per l’ambulatorio
+            href: /it/rozwiazania/do-przychodni
+        buttons:
+          - label: Configuratore
+            href: /it/doboromierz
+          - label: Trova un installatore
+            href: /it/znajdz-instalatora
+          - label: Download
+            href: /it/do-pobrania
+      - label: Serbatoi
+        icon: menu-zbiorniki
+        sections:
+          - title: Accumuli ACS
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Thermos Ceramic
+                tagline: Accumulo ACS smaltato
+                href: /it/pompy-ciepla/thermos-ceramic
+                image: /images/menu/thermos-ceramic.png
+                image2: null
+                colors: []
+              - name: Thermos Ceramic Grey
+                tagline: Accumulo ceramico grigio
+                href: /it/pompy-ciepla/thermos-ceramic-grey
+                image: /images/menu/thermos-ceramic-grey.png
+                image2: null
+                colors: []
+              - name: Thermos Inox
+                tagline: Accumulo in acciaio, resistente alla corrosione
+                href: /it/pompy-ciepla/thermos-inox
+                image: /images/menu/thermos-inox.png
+                image2: null
+                colors: []
+              - name: Thermos Dual Inox
+                tagline: Accumulo in acciaio con serpentino aggiuntivo
+                href: /it/pompy-ciepla/thermos-dual-inox
+                image: /images/menu/thermos-dual-inox.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Vedi tutti
+              href: /it/pompy-ciepla/zbiorniki
+          - title: Accumuli inerziali
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Thermos Store
+                tagline: Accumulo inerziale isolato
+                href: /it/pompy-ciepla/thermos-store
+                image: /images/menu/thermos-store.png
+                image2: null
+                colors: []
+              - name: Thermos Store Plus
+                tagline: Accumulo inerziale di maggiore capacità
+                href: /it/pompy-ciepla/thermos-store-plus
+                image: /images/menu/thermos-store-plus.png
+                image2: null
+                colors: []
+              - name: Thermos Store Grey
+                tagline: Accumulo inerziale con rivestimento grigio
+                href: /it/pompy-ciepla/thermos-store-grey
+                image: /images/menu/thermos-store-grey.png
+                image2: null
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: Anodi al magnesio
+            href: /it/pompy-ciepla/anody-magnezowe
+            icon: ''
+        solutionsTitle: ''
+        solutions: []
+        buttons:
+          - label: Configuratore
+            href: /it/doboromierz
+          - label: Trova un installatore
+            href: /it/znajdz-instalatora
+          - label: Download
+            href: /it/do-pobrania
+  - label: Progetti
+    href: /it/systemy-rvf
+    categories:
+      - label: Sistemi di climatizzazione RVF/VRF
+        icon: menu-rvf
+        sections:
+          - title: Sistemi di climatizzazione RVF/VRF
+            text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet enim, et dolore.
+            button:
+              label: Scopri di più
+              href: /it/systemy-rvf
+            cards: wall
+            products: []
+            seeAll:
+              label: ''
+              href: ''
+          - title: Unità esterne
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: RVF V5
+                tagline: Lorem ipsum dolor sit amet enim
+                href: /it/systemy-rvf/rvf-v5
+                image: /images/menu/rvf-v5.png
+                image2: null
+                colors: []
+              - name: HR RVF
+                tagline: Lorem ipsum dolor sit amet enim
+                href: /it/systemy-rvf/hr-rvf
+                image: /images/menu/hr-rvf.png
+                image2: null
+                colors: []
+              - name: MiniRVF V4
+                tagline: Lorem ipsum dolor sit amet enim
+                href: /it/systemy-rvf/minirvf-v4
+                image: /images/menu/minirvf-v4.png
+                image2: null
+                colors: []
+              - name: MiniRVF V5
+                tagline: Lorem ipsum dolor sit amet enim
+                href: /it/systemy-rvf/minirvf-v5
+                image: /images/menu/minirvf-v5.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Vedi tutti
+              href: /it/systemy-rvf/jednostki-zewnetrzne
+        footer: []
+        solutionsTitle: Soluzioni
+        solutions:
+          - label: per l’edificio per uffici
+            href: /it/rozwiazania/do-biurowca
+          - label: per l’hotel
+            href: /it/rozwiazania/do-hotelu
+          - label: per l’ospedale
+            href: /it/rozwiazania/do-szpitala
+          - label: per il capannone produttivo
+            href: /it/rozwiazania/do-hali-produkcyjnej
+          - label: per il magazzino
+            href: /it/rozwiazania/do-magazynu
+          - label: per lo stabilimento industriale
+            href: /it/rozwiazania/do-obiektu-przemysowego
+          - label: per l’edificio storico
+            href: /it/rozwiazania/do-obiektu-zabytkowego
+          - label: per la palestra
+            href: /it/rozwiazania/do-siowni
+          - label: per il supermercato
+            href: /it/rozwiazania/do-supermarketu
+          - label: per la SPA
+            href: /it/rozwiazania/do-spa
+          - label: per l’ente pubblico
+            href: /it/rozwiazania/do-urzedu
+        buttons:
+          - label: Referenze
+            href: /it/referencje
+          - label: Chiedi i dettagli
+            href: /it/kontakt
+      - label: Sistemi di climatizzazione multi-split
+        icon: menu-kasetonowe
+        sections:
+          - title: Sistemi di climatizzazione multi-split
+            text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet enim, et dolore.
+            button:
+              label: Scopri di più
+              href: /it/klimatyzacja/multi-split
+            cards: wall
+            products: []
+            seeAll:
+              label: ''
+              href: ''
+          - title: Unità esterne
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Hiro HP
+                tagline: 'Un sistema ad altissima efficienza in classe A+++ che gestisce fino a 3 unità interne e funziona in condizioni invernali difficili: fino a -30 °C all’esterno.'
+                href: /it/klimatyzacja/hiro-hp
+                image: /images/menu/hiro-hp.png
+                image2: null
+                colors: []
+              - name: Hiro S
+                tagline: Unità esterna di classe A++ progettata per il funzionamento tutto l’anno, a cui si possono collegare fino a 5 unità interne. Riscalda efficacemente anche a –22 °C all’esterno.
+                href: /it/klimatyzacja/hiro-s
+                image: /images/menu/hiro-s.png
+                image2: null
+                colors: []
+              - name: Hiro N
+                tagline: Unità esterna compatta di classe A++ che serve fino a 5 unità interne ed è pensata per raffrescare e riscaldare in modo efficiente.
+                href: /it/klimatyzacja/hiro-n
+                image: /images/menu/hiro-n.png
+                image2: null
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer: []
+        solutionsTitle: Soluzioni
+        solutions:
+          - label: per l’ospedale
+            href: /it/rozwiazania/do-szpitala
+          - label: per il capannone produttivo
+            href: /it/rozwiazania/do-hali-produkcyjnej
+          - label: per il magazzino
+            href: /it/rozwiazania/do-magazynu
+          - label: per lo stabilimento industriale
+            href: /it/rozwiazania/do-obiektu-przemysowego
+          - label: per l’edificio storico
+            href: /it/rozwiazania/do-obiektu-zabytkowego
+          - label: per la palestra
+            href: /it/rozwiazania/do-siowni
+          - label: per il supermercato
+            href: /it/rozwiazania/do-supermarketu
+          - label: per la SPA
+            href: /it/rozwiazania/do-spa
+          - label: per l’ente pubblico
+            href: /it/rozwiazania/do-urzedu
+          - label: per la biblioteca
+            href: /it/rozwiazania/do-biblioteki
+        buttons:
+          - label: Referenze
+            href: /it/referencje
+          - label: Chiedi i dettagli
+            href: /it/kontakt
+  - label: Filtri Wentilo
+    href: /it/filtry-wentilo
+    categories: []

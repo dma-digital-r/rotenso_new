@@ -540,3 +540,90 @@ export const settingsSchema = {
     multiline: true,
   }),
 };
+
+// Mega menu ("Menu v04", Figma 5172:83010). Tabs → categories (left column) → centre sections
+// with product tiles, a footer row of shortcut tiles and a right column (solutions + buttons).
+export const menuIcons = [
+  { label: "Brak", value: "" },
+  { label: "Klimatyzator ścienny", value: "menu-scienne" },
+  { label: "Wielopokojowe", value: "menu-wielopokojowe" },
+  { label: "Sufitowe / przypodłogowe", value: "menu-sufitowe" },
+  { label: "Kasetonowe", value: "menu-kasetonowe" },
+  { label: "Systemy RVF", value: "menu-rvf" },
+  { label: "Pompa niskotemperaturowa", value: "menu-pompa-niskotemp" },
+  { label: "Pompa Split", value: "menu-pompa-split" },
+  { label: "Pompa Monoblock", value: "menu-pompa-monoblock" },
+  { label: "Pompy w kolorach", value: "menu-pompa-kolor" },
+  { label: "Pompa All-in", value: "menu-pompa-allin" },
+  { label: "Zbiorniki", value: "menu-zbiorniki" },
+  { label: "Konfigurator (ikona z prawej, bez strzałki)", value: "menu-configurator" },
+];
+
+const menuProduct = fields.object({
+  name: fields.text({ label: "Nazwa" }),
+  tagline: fields.text({ label: "Hasło / opis", multiline: true }),
+  href: fields.text({ label: "Adres strony produktu" }),
+  image: image("Zdjęcie", "menu"),
+  image2: image("Drugie zdjęcie (np. moduł wewnętrzny pompy ciepła — obok, z prawej)", "menu"),
+  colors: fields.array(fields.text({ label: "Kolor (np. #737373)" }), {
+    label: "Wersje kolorystyczne (kropki pod nazwą)",
+    itemLabel: (c) => c.value || "Kolor",
+  }),
+});
+
+const menuSection = fields.object({
+  title: fields.text({ label: "Tytuł (np. Klimatyzacje ścienne)" }),
+  text: fields.text({ label: "Opis pod tytułem (opcjonalnie)", multiline: true }),
+  button: link("Czerwony przycisk obok opisu (opcjonalnie, np. Dowiedz się więcej)"),
+  cards: fields.select({
+    label: "Kafelki",
+    options: [
+      { label: "Klimatyzatory ścienne (niskie zdjęcie 209×69)", value: "wall" },
+      { label: "Wysokie zdjęcie (209×140)", value: "tall" },
+    ],
+    defaultValue: "wall",
+  }),
+  products: fields.array(menuProduct, { label: "Produkty", itemLabel: (p) => p.fields.name.value || "Produkt" }),
+  seeAll: link("Kafelek „Zobacz wszystkie” (puste = bez kafelka)"),
+});
+
+const menuCategory = fields.object({
+  label: fields.text({ label: "Nazwa w lewej kolumnie", multiline: true }),
+  icon: fields.select({ label: "Ikona", options: menuIcons, defaultValue: "menu-scienne" }),
+  sections: fields.array(menuSection, {
+    label: "Sekcje środkowej kolumny (oddzielone kreską)",
+    itemLabel: (s) => s.fields.title.value || "Sekcja",
+  }),
+  footer: fields.array(
+    fields.object({
+      label: fields.text({ label: "Tekst", multiline: true }),
+      href: fields.text({ label: "Adres" }),
+      icon: fields.select({ label: "Ikona", options: menuIcons, defaultValue: "" }),
+    }),
+    { label: "Kafelki na dole (skróty)", itemLabel: (f) => f.fields.label.value || "Skrót" },
+  ),
+  solutionsTitle: fields.text({ label: "Prawa kolumna — tytuł listy (np. Rozwiązania)" }),
+  solutions: fields.array(link("Pozycja"), { label: "Prawa kolumna — lista", itemLabel: (l) => l.fields.label.value || "Pozycja" }),
+  buttons: fields.array(link("Przycisk"), { label: "Prawa kolumna — przyciski", itemLabel: (l) => l.fields.label.value || "Przycisk" }),
+});
+
+export const menuSchema = {
+  tabs: fields.array(
+    fields.object({
+      label: fields.text({ label: "Zakładka (np. Klimatyzacje)" }),
+      href: fields.text({
+        label: "Adres",
+        description: "Zakładka bez kategorii (np. Rekuperacja) od razu przechodzi pod ten adres.",
+      }),
+      categories: fields.array(menuCategory, {
+        label: "Kategorie (lewa kolumna) — pierwsza otwiera się domyślnie",
+        itemLabel: (c) => c.fields.label.value || "Kategoria",
+      }),
+    }),
+    {
+      label: "Mega menu „Produkty” — zakładki",
+      description: "Otwiera się po kliknięciu pierwszej pozycji menu głównego.",
+      itemLabel: (t) => t.fields.label.value || "Zakładka",
+    },
+  ),
+};

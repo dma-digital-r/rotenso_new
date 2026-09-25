@@ -1,0 +1,1112 @@
+tabs:
+  - label: Кондиціонери
+    href: /uk/klimatyzacja
+    categories:
+      - label: Настінні (Split)
+        icon: menu-scienne
+        sections:
+          - title: Настінні кондиціонери
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: wall
+            products:
+              - name: Mirai
+                tagline: Найвища ефективність
+                href: /uk/klimatyzacja/mirai
+                image: /images/menu/mirai.png
+                image2: null
+                colors: []
+              - name: Fresh
+                tagline: Свіже повітря
+                href: /uk/klimatyzacja/fresh
+                image: /images/menu/fresh.png
+                image2: null
+                colors: []
+              - name: Versu Cloth Caramel
+                tagline: Унікальний стиль
+                href: /uk/klimatyzacja/versu-cloth-caramel
+                image: /images/menu/versu-cloth-caramel.png
+                image2: null
+                colors: []
+              - name: Versu Cloth Stone
+                tagline: Оригінальний дизайн
+                href: /uk/klimatyzacja/versu-cloth-stone
+                image: /images/menu/versu-cloth-stone.png
+                image2: null
+                colors: []
+              - name: Versu Pure
+                tagline: Тиха робота
+                href: /uk/klimatyzacja/versu-pure
+                image: /images/menu/versu-pure.png
+                image2: null
+                colors: []
+              - name: Elis
+                tagline: Позачасовий дизайн
+                href: /uk/klimatyzacja/elis
+                image: /images/menu/elis.png
+                image2: null
+                colors: []
+              - name: Revio
+                tagline: Широка функціональність
+                href: /uk/klimatyzacja/revio
+                image: /images/menu/revio.png
+                image2: null
+                colors: []
+              - name: Teta
+                tagline: Мінімалізм і надійність
+                href: /uk/klimatyzacja/teta
+                image: /images/menu/teta.png
+                image2: null
+                colors: []
+              - name: Imoto
+                tagline: Компактний корпус
+                href: /uk/klimatyzacja/imoto
+                image: /images/menu/imoto.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Переглянути всі
+              href: /uk/klimatyzacja/split
+        footer:
+          - label: Стельові кондиціонери
+            href: /uk/klimatyzacja/sufitowe
+            icon: menu-kasetonowe
+          - label: Вбудовані кондиціонери
+            href: /uk/klimatyzacja/do-zabudowy
+            icon: menu-kasetonowe
+          - label: Підлогові кондиціонери
+            href: /uk/klimatyzacja/przypodlogowe
+            icon: menu-sufitowe
+          - label: Підлогово-стельові кондиціонери
+            href: /uk/klimatyzacja/scienno-sufitowe
+            icon: menu-sufitowe
+        solutionsTitle: Рішення
+        solutions:
+          - label: для будинку
+            href: /uk/rozwiazania/do-domu
+          - label: для дачного будиночка
+            href: /uk/rozwiazania/do-domku-letniskowego
+          - label: для старого багатоквартирного будинку
+            href: /uk/rozwiazania/do-kamienicy
+          - label: для дитячої кімнати
+            href: /uk/rozwiazania/do-pokoju-dzieciecego
+          - label: для офісу
+            href: /uk/rozwiazania/do-biura
+          - label: для ресторану
+            href: /uk/rozwiazania/do-restauracji
+          - label: для перукарні
+            href: /uk/rozwiazania/do-salonu-fryzjerskiego
+          - label: для магазину
+            href: /uk/rozwiazania/do-sklepu
+          - label: для поліклініки
+            href: /uk/rozwiazania/do-przychodni
+        buttons:
+          - label: Конфігуратор
+            href: /uk/doboromierz
+          - label: Знайти монтажника
+            href: /uk/znajdz-instalatora
+          - label: Завантаження
+            href: /uk/do-pobrania
+      - label: |-
+          Мультизональні
+          (мультиспліт)
+        icon: menu-wielopokojowe
+        sections:
+          - title: Мультизональні кондиціонери
+            text: У мультиспліт-системі один зовнішній блок обслуговує кілька внутрішніх кондиціонерів.
+            button:
+              label: ''
+              href: ''
+            cards: wall
+            products:
+              - name: Mirai
+                tagline: Найвища ефективність
+                href: /uk/klimatyzacja/mirai-multi
+                image: /images/menu/mirai.png
+                image2: null
+                colors: []
+              - name: Elis
+                tagline: Позачасовий дизайн
+                href: /uk/klimatyzacja/elis-multi
+                image: /images/menu/elis.png
+                image2: null
+                colors: []
+              - name: Elis Silver
+                tagline: Індустріальний стиль
+                href: /uk/klimatyzacja/elis-silver-multi
+                image: /images/menu/elis-silver.png
+                image2: null
+                colors: []
+              - name: Imoto
+                tagline: Компактний корпус
+                href: /uk/klimatyzacja/imoto-multi
+                image: /images/menu/imoto.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Переглянути всі
+              href: /uk/klimatyzacja/multi-split
+        footer:
+          - label: |-
+              Підберіть систему під свої потреби.
+              Перейдіть до конфігуратора.
+            href: /uk/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Рішення
+        solutions:
+          - label: для квартири
+            href: /uk/rozwiazania/do-mieszkania
+          - label: для будинку
+            href: /uk/rozwiazania/do-domu
+          - label: для апартаментів
+            href: /uk/rozwiazania/do-apartamentu
+          - label: для дачного будиночка
+            href: /uk/rozwiazania/do-domku-letniskowego
+          - label: для дитячої кімнати
+            href: /uk/rozwiazania/do-pokoju-dzieciecego
+          - label: для старого багатоквартирного будинку
+            href: /uk/rozwiazania/do-kamienicy
+          - label: для офісу
+            href: /uk/rozwiazania/do-biura
+          - label: для ресторану
+            href: /uk/rozwiazania/do-restauracji
+          - label: для магазину
+            href: /uk/rozwiazania/do-sklepu
+          - label: для закладу послуг
+            href: /uk/rozwiazania/do-lokalu-usugowego
+          - label: для торгового парку
+            href: /uk/rozwiazania/do-parku-handlowego
+          - label: для поліклініки
+            href: /uk/rozwiazania/do-przychodni
+          - label: для контейнера
+            href: /uk/rozwiazania/do-kontenera
+        buttons:
+          - label: Конфігуратор
+            href: /uk/doboromierz
+          - label: Знайти монтажника
+            href: /uk/znajdz-instalatora
+          - label: Завантаження
+            href: /uk/do-pobrania
+      - label: Дизайнерські
+        icon: menu-scienne
+        sections:
+          - title: Різнокольорові
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: wall
+            products:
+              - name: Versu Cloth Caramel
+                tagline: Унікальний стиль
+                href: /uk/klimatyzacja/versu-cloth-caramel
+                image: /images/menu/versu-cloth-caramel.png
+                image2: null
+                colors: []
+              - name: Versu Cloth Stone
+                tagline: Оригінальний дизайн
+                href: /uk/klimatyzacja/versu-cloth-stone
+                image: /images/menu/versu-cloth-stone.png
+                image2: null
+                colors: []
+              - name: Teta Mirror
+                tagline: Сучасний і універсальний
+                href: /uk/klimatyzacja/teta-mirror
+                image: /images/menu/teta-mirror.png
+                image2: null
+                colors: []
+              - name: Elis Silver
+                tagline: Індустріальний стиль
+                href: /uk/klimatyzacja/elis-silver
+                image: /images/menu/elis-silver.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Переглянути всі
+              href: /uk/klimatyzacja/designerskie
+        footer:
+          - label: Кондиціонери з дзеркальною панеллю
+            href: /uk/klimatyzacja/z-lustrem
+            icon: menu-scienne
+        solutionsTitle: Рішення
+        solutions:
+          - label: для будинку
+            href: /uk/rozwiazania/do-domu
+          - label: для квартири
+            href: /uk/rozwiazania/do-mieszkania
+          - label: для мансарди
+            href: /uk/rozwiazania/na-poddasze
+          - label: для дачного будиночка
+            href: /uk/rozwiazania/do-domku-letniskowego
+          - label: для старого багатоквартирного будинку
+            href: /uk/rozwiazania/do-kamienicy
+          - label: для дитячої кімнати
+            href: /uk/rozwiazania/do-pokoju-dzieciecego
+          - label: для офісу
+            href: /uk/rozwiazania/do-biura
+          - label: для ресторану
+            href: /uk/rozwiazania/do-restauracji
+          - label: для перукарні
+            href: /uk/rozwiazania/do-salonu-fryzjerskiego
+          - label: для магазину
+            href: /uk/rozwiazania/do-sklepu
+          - label: для поліклініки
+            href: /uk/rozwiazania/do-przychodni
+          - label: для аптеки
+            href: /uk/rozwiazania/do-apteki
+        buttons:
+          - label: Конфігуратор
+            href: /uk/doboromierz
+          - label: Знайти монтажника
+            href: /uk/znajdz-instalatora
+          - label: Завантаження
+            href: /uk/do-pobrania
+      - label: Для цілорічного опалення
+        icon: menu-scienne
+        sections:
+          - title: Для цілорічного опалення
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: wall
+            products:
+              - name: Mirai
+                tagline: Найвища ефективність
+                href: /uk/klimatyzacja/mirai
+                image: /images/menu/mirai.png
+                image2: null
+                colors: []
+              - name: Versu Pure
+                tagline: Тиха робота
+                href: /uk/klimatyzacja/versu-pure
+                image: /images/menu/versu-pure.png
+                image2: null
+                colors: []
+              - name: Revio
+                tagline: Широка функціональність
+                href: /uk/klimatyzacja/revio
+                image: /images/menu/revio.png
+                image2: null
+                colors: []
+              - name: Teta
+                tagline: Мінімалізм і надійність
+                href: /uk/klimatyzacja/teta
+                image: /images/menu/teta.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Переглянути всі
+              href: /uk/klimatyzacja/grzanie
+        footer:
+          - label: Надтихі кондиціонери
+            href: /uk/klimatyzacja/super-ciche
+            icon: menu-scienne
+          - label: Кондиціонери A+++
+            href: /uk/klimatyzacja/a-plus-plus-plus
+            icon: menu-scienne
+        solutionsTitle: Рішення
+        solutions:
+          - label: для будинку
+            href: /uk/rozwiazania/do-domu
+          - label: для квартири
+            href: /uk/rozwiazania/do-mieszkania
+          - label: для мансарди
+            href: /uk/rozwiazania/na-poddasze
+          - label: для дачного будиночка
+            href: /uk/rozwiazania/do-domku-letniskowego
+          - label: для старого багатоквартирного будинку
+            href: /uk/rozwiazania/do-kamienicy
+          - label: для дитячої кімнати
+            href: /uk/rozwiazania/do-pokoju-dzieciecego
+          - label: для офісу
+            href: /uk/rozwiazania/do-biura
+          - label: для ресторану
+            href: /uk/rozwiazania/do-restauracji
+          - label: для перукарні
+            href: /uk/rozwiazania/do-salonu-fryzjerskiego
+          - label: для магазину
+            href: /uk/rozwiazania/do-sklepu
+          - label: для поліклініки
+            href: /uk/rozwiazania/do-przychodni
+          - label: для аптеки
+            href: /uk/rozwiazania/do-apteki
+        buttons:
+          - label: Конфігуратор
+            href: /uk/doboromierz
+          - label: Знайти монтажника
+            href: /uk/znajdz-instalatora
+          - label: Завантаження
+            href: /uk/do-pobrania
+      - label: Стельові та канальні
+        icon: menu-sufitowe
+        sections:
+          - title: Стельові та канальні
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Tenji CC
+                tagline: Для офісів і кабінетів
+                href: /uk/klimatyzacja/tenji-cc
+                image: /images/menu/tenji-cc.png
+                image2: null
+                colors: []
+              - name: Tenji CS
+                tagline: Для комерційних об’єктів
+                href: /uk/klimatyzacja/tenji-cs
+                image: /images/menu/tenji-cs.png
+                image2: null
+                colors: []
+              - name: Nevo
+                tagline: Монтаж вертикально й горизонтально
+                href: /uk/klimatyzacja/nevo
+                image: /images/menu/nevo.png
+                image2: null
+                colors: []
+              - name: Nevo Multi
+                tagline: Монтаж вертикально й горизонтально
+                href: /uk/klimatyzacja/nevo-multi
+                image: /images/menu/nevo-multi.png
+                image2: null
+                colors: []
+              - name: Jato
+                tagline: Монтаж на стіні або стелі
+                href: /uk/klimatyzacja/jato
+                image: /images/menu/jato.png
+                image2: null
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer: []
+        solutionsTitle: Рішення
+        solutions:
+          - label: для будинку
+            href: /uk/rozwiazania/do-domu
+          - label: для квартири
+            href: /uk/rozwiazania/do-mieszkania
+          - label: для мансарди
+            href: /uk/rozwiazania/na-poddasze
+          - label: для дачного будиночка
+            href: /uk/rozwiazania/do-domku-letniskowego
+          - label: для старого багатоквартирного будинку
+            href: /uk/rozwiazania/do-kamienicy
+          - label: для дитячої кімнати
+            href: /uk/rozwiazania/do-pokoju-dzieciecego
+          - label: для офісу
+            href: /uk/rozwiazania/do-biura
+          - label: для ресторану
+            href: /uk/rozwiazania/do-restauracji
+          - label: для перукарні
+            href: /uk/rozwiazania/do-salonu-fryzjerskiego
+          - label: для магазину
+            href: /uk/rozwiazania/do-sklepu
+          - label: для поліклініки
+            href: /uk/rozwiazania/do-przychodni
+          - label: для аптеки
+            href: /uk/rozwiazania/do-apteki
+        buttons:
+          - label: Конфігуратор
+            href: /uk/doboromierz
+          - label: Знайти монтажника
+            href: /uk/znajdz-instalatora
+          - label: Завантаження
+            href: /uk/do-pobrania
+      - label: Підлогові
+        icon: menu-sufitowe
+        sections:
+          - title: Підлогові
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Jato
+                tagline: Монтаж на стіні або стелі
+                href: /uk/klimatyzacja/jato
+                image: /images/menu/jato.png
+                image2: null
+                colors: []
+              - name: Aneru HP
+                tagline: Ідеальний для мансарди
+                href: /uk/klimatyzacja/aneru-hp
+                image: /images/menu/aneru-hp.png
+                image2: null
+                colors: []
+              - name: Aneru
+                tagline: Комфорт будь-де
+                href: /uk/klimatyzacja/aneru
+                image: /images/menu/aneru.png
+                image2: null
+                colors: []
+              - name: Aneru AN
+                tagline: Компактні розміри
+                href: /uk/klimatyzacja/aneru-an
+                image: /images/menu/aneru-an.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Переглянути всі
+              href: /uk/klimatyzacja/przypodlogowe
+        footer: []
+        solutionsTitle: Рішення
+        solutions:
+          - label: для будинку
+            href: /uk/rozwiazania/do-domu
+          - label: для квартири
+            href: /uk/rozwiazania/do-mieszkania
+          - label: для мансарди
+            href: /uk/rozwiazania/na-poddasze
+          - label: для дачного будиночка
+            href: /uk/rozwiazania/do-domku-letniskowego
+          - label: для старого багатоквартирного будинку
+            href: /uk/rozwiazania/do-kamienicy
+          - label: для дитячої кімнати
+            href: /uk/rozwiazania/do-pokoju-dzieciecego
+          - label: для офісу
+            href: /uk/rozwiazania/do-biura
+          - label: для ресторану
+            href: /uk/rozwiazania/do-restauracji
+          - label: для перукарні
+            href: /uk/rozwiazania/do-salonu-fryzjerskiego
+          - label: для магазину
+            href: /uk/rozwiazania/do-sklepu
+          - label: для поліклініки
+            href: /uk/rozwiazania/do-przychodni
+          - label: для аптеки
+            href: /uk/rozwiazania/do-apteki
+        buttons:
+          - label: Конфігуратор
+            href: /uk/doboromierz
+          - label: Знайти монтажника
+            href: /uk/znajdz-instalatora
+          - label: Завантаження
+            href: /uk/do-pobrania
+  - label: Рекуперація
+    href: /uk/rekuperacja
+    categories: []
+  - label: Теплові насоси
+    href: /uk/pompy-ciepla
+    categories:
+      - label: Низькотемпературні
+        icon: menu-pompa-niskotemp
+        sections:
+          - title: Низькотемпературні теплові насоси
+            text: Lorem ipsum dolor sit amet enim
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Airmi Split
+                tagline: Класичний тепловий насос для дому
+                href: /uk/pompy-ciepla/airmi-split
+                image: /images/menu/airmi-split.png
+                image2: /images/menu/airmi-split-2.png
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Aquami Split
+                tagline: Продуктивний тепловий насос для більших будинків
+                href: /uk/pompy-ciepla/aquami-split
+                image: /images/menu/aquami-split.png
+                image2: /images/menu/aquami-split-2.png
+                colors: []
+              - name: Aquami Multi Split
+                tagline: Один тепловий насос для опалення й кондиціонування
+                href: /uk/pompy-ciepla/aquami-multi-split
+                image: /images/menu/aquami-multi-split.png
+                image2: /images/menu/aquami-multi-split-2.png
+                colors: []
+              - name: Heatmi Split
+                tagline: Сучасний енергоощадний тепловий насос
+                href: /uk/pompy-ciepla/heatmi-split
+                image: /images/menu/heatmi-split.png
+                image2: /images/menu/heatmi-split-2.png
+                colors: []
+              - name: Airmi Monoblock
+                tagline: Компактний тепловий насос, простий у монтажі
+                href: /uk/pompy-ciepla/airmi-monoblock
+                image: /images/menu/airmi-monoblock.png
+                image2: null
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Aquami Monoblock
+                tagline: Потужний універсальний тепловий насос
+                href: /uk/pompy-ciepla/aquami-monoblock
+                image: /images/menu/aquami-monoblock.png
+                image2: null
+                colors: []
+              - name: Windmi Monoblock
+                tagline: Сучасний і продуктивний тепловий насос
+                href: /uk/pompy-ciepla/windmi-monoblock
+                image: /images/menu/windmi-monoblock.png
+                image2: null
+                colors: []
+              - name: Aquami All-in Split
+                tagline: Тепловий насос, що заощаджує місце
+                href: /uk/pompy-ciepla/aquami-all-in-split
+                image: /images/menu/aquami-all-in-split.png
+                image2: /images/menu/aquami-all-in-split-2.png
+                colors: []
+            seeAll:
+              label: Переглянути всі
+              href: /uk/pompy-ciepla/niskotemperaturowe
+        footer:
+          - label: |-
+              Не знаєте, який тепловий насос обрати?
+              Перейдіть до конфігуратора.
+            href: /uk/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Рішення
+        solutions:
+          - label: для окремого будинку
+            href: /uk/rozwiazania/do-domu-wolnostojacego
+          - label: для таунхауса
+            href: /uk/rozwiazania/do-domu-szeregowego
+          - label: для квартири
+            href: /uk/rozwiazania/do-mieszkania
+          - label: для апартаментів
+            href: /uk/rozwiazania/do-apartamentu
+          - label: для дачного будиночка
+            href: /uk/rozwiazania/do-domku-letniskowego
+          - label: для старого багатоквартирного будинку
+            href: /uk/rozwiazania/do-kamienicy
+          - label: для офісу
+            href: /uk/rozwiazania/do-biura
+          - label: для ресторану
+            href: /uk/rozwiazania/do-restauracji
+          - label: для перукарні
+            href: /uk/rozwiazania/do-salonu-fryzjerskiego
+          - label: для магазину
+            href: /uk/rozwiazania/do-sklepu
+          - label: для закладу послуг
+            href: /uk/rozwiazania/do-lokalu-usugowego
+          - label: для поліклініки
+            href: /uk/rozwiazania/do-przychodni
+        buttons:
+          - label: Конфігуратор
+            href: /uk/doboromierz
+          - label: Знайти монтажника
+            href: /uk/znajdz-instalatora
+          - label: Завантаження
+            href: /uk/do-pobrania
+      - label: Роздільні (Split)
+        icon: menu-pompa-split
+        sections:
+          - title: Двоблочні теплові насоси (Split)
+            text: 'Роздільна система: зовнішній блок надворі, гідравліка всередині будівлі.'
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Airmi Split
+                tagline: Класичний тепловий насос для дому
+                href: /uk/pompy-ciepla/airmi-split
+                image: /images/menu/airmi-split.png
+                image2: /images/menu/airmi-split-2.png
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Aquami Split
+                tagline: Продуктивний тепловий насос для більших будинків
+                href: /uk/pompy-ciepla/aquami-split
+                image: /images/menu/aquami-split.png
+                image2: /images/menu/aquami-split-2.png
+                colors: []
+              - name: Aquami Multi Split
+                tagline: Один тепловий насос для опалення й кондиціонування
+                href: /uk/pompy-ciepla/aquami-multi-split
+                image: /images/menu/aquami-multi-split.png
+                image2: /images/menu/aquami-multi-split-2.png
+                colors: []
+              - name: Heatmi Split
+                tagline: Сучасний енергоощадний тепловий насос
+                href: /uk/pompy-ciepla/heatmi-split
+                image: /images/menu/heatmi-split.png
+                image2: /images/menu/heatmi-split-2.png
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: |-
+              Не знаєте, який тепловий насос обрати?
+              Перейдіть до конфігуратора.
+            href: /uk/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Рішення
+        solutions:
+          - label: для окремого будинку
+            href: /uk/rozwiazania/do-domu-wolnostojacego
+          - label: для таунхауса
+            href: /uk/rozwiazania/do-domu-szeregowego
+          - label: для квартири
+            href: /uk/rozwiazania/do-mieszkania
+          - label: для апартаментів
+            href: /uk/rozwiazania/do-apartamentu
+          - label: для дачного будиночка
+            href: /uk/rozwiazania/do-domku-letniskowego
+          - label: для старого багатоквартирного будинку
+            href: /uk/rozwiazania/do-kamienicy
+          - label: для офісу
+            href: /uk/rozwiazania/do-biura
+          - label: для ресторану
+            href: /uk/rozwiazania/do-restauracji
+          - label: для перукарні
+            href: /uk/rozwiazania/do-salonu-fryzjerskiego
+          - label: для магазину
+            href: /uk/rozwiazania/do-sklepu
+          - label: для закладу послуг
+            href: /uk/rozwiazania/do-lokalu-usugowego
+          - label: для поліклініки
+            href: /uk/rozwiazania/do-przychodni
+        buttons:
+          - label: Конфігуратор
+            href: /uk/doboromierz
+          - label: Знайти монтажника
+            href: /uk/znajdz-instalatora
+          - label: Завантаження
+            href: /uk/do-pobrania
+      - label: Моноблочні (Monoblock)
+        icon: menu-pompa-monoblock
+        sections:
+          - title: Моноблочні теплові насоси (Monoblock)
+            text: Компактне рішення, у якому вся установка розміщена зовні будівлі.
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Airmi Monoblock
+                tagline: Компактний тепловий насос, простий у монтажі
+                href: /uk/pompy-ciepla/airmi-monoblock
+                image: /images/menu/airmi-monoblock.png
+                image2: null
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Aquami Monoblock
+                tagline: Потужний універсальний тепловий насос
+                href: /uk/pompy-ciepla/aquami-monoblock
+                image: /images/menu/aquami-monoblock.png
+                image2: null
+                colors: []
+              - name: Windmi Monoblock
+                tagline: Сучасний і продуктивний тепловий насос
+                href: /uk/pompy-ciepla/windmi-monoblock
+                image: /images/menu/windmi-monoblock.png
+                image2: null
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: |-
+              Не знаєте, який тепловий насос обрати?
+              Перейдіть до конфігуратора.
+            href: /uk/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Рішення
+        solutions:
+          - label: для окремого будинку
+            href: /uk/rozwiazania/do-domu-wolnostojacego
+          - label: для таунхауса
+            href: /uk/rozwiazania/do-domu-szeregowego
+          - label: для квартири
+            href: /uk/rozwiazania/do-mieszkania
+          - label: для апартаментів
+            href: /uk/rozwiazania/do-apartamentu
+          - label: для дачного будиночка
+            href: /uk/rozwiazania/do-domku-letniskowego
+          - label: для старого багатоквартирного будинку
+            href: /uk/rozwiazania/do-kamienicy
+          - label: для офісу
+            href: /uk/rozwiazania/do-biura
+          - label: для ресторану
+            href: /uk/rozwiazania/do-restauracji
+          - label: для перукарні
+            href: /uk/rozwiazania/do-salonu-fryzjerskiego
+          - label: для магазину
+            href: /uk/rozwiazania/do-sklepu
+          - label: для закладу послуг
+            href: /uk/rozwiazania/do-lokalu-usugowego
+          - label: для поліклініки
+            href: /uk/rozwiazania/do-przychodni
+        buttons:
+          - label: Конфігуратор
+            href: /uk/doboromierz
+          - label: Знайти монтажника
+            href: /uk/znajdz-instalatora
+          - label: Завантаження
+            href: /uk/do-pobrania
+      - label: У тон інтер’єру
+        icon: menu-pompa-kolor
+        sections:
+          - title: Теплові насоси в кольорах
+            text: Lorem ipsum dolor sit amet enim
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Airmi Split
+                tagline: Класичний тепловий насос для дому
+                href: /uk/pompy-ciepla/airmi-split
+                image: /images/menu/airmi-split.png
+                image2: /images/menu/airmi-split-2.png
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+              - name: Airmi Monoblock
+                tagline: Компактний тепловий насос, простий у монтажі
+                href: /uk/pompy-ciepla/airmi-monoblock
+                image: /images/menu/airmi-monoblock.png
+                image2: null
+                colors:
+                  - '#ffffff'
+                  - '#737373'
+                  - '#60686f'
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: |-
+              Не знаєте, який тепловий насос обрати?
+              Перейдіть до конфігуратора.
+            href: /uk/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Рішення
+        solutions:
+          - label: для окремого будинку
+            href: /uk/rozwiazania/do-domu-wolnostojacego
+          - label: для таунхауса
+            href: /uk/rozwiazania/do-domu-szeregowego
+          - label: для квартири
+            href: /uk/rozwiazania/do-mieszkania
+          - label: для апартаментів
+            href: /uk/rozwiazania/do-apartamentu
+          - label: для дачного будиночка
+            href: /uk/rozwiazania/do-domku-letniskowego
+          - label: для старого багатоквартирного будинку
+            href: /uk/rozwiazania/do-kamienicy
+          - label: для офісу
+            href: /uk/rozwiazania/do-biura
+          - label: для ресторану
+            href: /uk/rozwiazania/do-restauracji
+          - label: для перукарні
+            href: /uk/rozwiazania/do-salonu-fryzjerskiego
+          - label: для магазину
+            href: /uk/rozwiazania/do-sklepu
+          - label: для закладу послуг
+            href: /uk/rozwiazania/do-lokalu-usugowego
+          - label: для поліклініки
+            href: /uk/rozwiazania/do-przychodni
+        buttons:
+          - label: Конфігуратор
+            href: /uk/doboromierz
+          - label: Знайти монтажника
+            href: /uk/znajdz-instalatora
+          - label: Завантаження
+            href: /uk/do-pobrania
+      - label: З вбудованим бойлером ГВП
+        icon: menu-pompa-allin
+        sections:
+          - title: Теплові насоси з вбудованим бойлером ГВП (All-in)
+            text: Бойлер і гідравліка в одній системі.
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Aquami All-in Split
+                tagline: Тепловий насос, що заощаджує місце
+                href: /uk/pompy-ciepla/aquami-all-in-split
+                image: /images/menu/aquami-all-in-split.png
+                image2: /images/menu/aquami-all-in-split-2.png
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: |-
+              Не знаєте, який тепловий насос обрати?
+              Перейдіть до конфігуратора.
+            href: /uk/doboromierz
+            icon: menu-configurator
+        solutionsTitle: Рішення
+        solutions:
+          - label: для окремого будинку
+            href: /uk/rozwiazania/do-domu-wolnostojacego
+          - label: для таунхауса
+            href: /uk/rozwiazania/do-domu-szeregowego
+          - label: для квартири
+            href: /uk/rozwiazania/do-mieszkania
+          - label: для апартаментів
+            href: /uk/rozwiazania/do-apartamentu
+          - label: для дачного будиночка
+            href: /uk/rozwiazania/do-domku-letniskowego
+          - label: для старого багатоквартирного будинку
+            href: /uk/rozwiazania/do-kamienicy
+          - label: для офісу
+            href: /uk/rozwiazania/do-biura
+          - label: для ресторану
+            href: /uk/rozwiazania/do-restauracji
+          - label: для перукарні
+            href: /uk/rozwiazania/do-salonu-fryzjerskiego
+          - label: для магазину
+            href: /uk/rozwiazania/do-sklepu
+          - label: для закладу послуг
+            href: /uk/rozwiazania/do-lokalu-usugowego
+          - label: для поліклініки
+            href: /uk/rozwiazania/do-przychodni
+        buttons:
+          - label: Конфігуратор
+            href: /uk/doboromierz
+          - label: Знайти монтажника
+            href: /uk/znajdz-instalatora
+          - label: Завантаження
+            href: /uk/do-pobrania
+      - label: Баки
+        icon: menu-zbiorniki
+        sections:
+          - title: Бойлери ГВП
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Thermos Ceramic
+                tagline: Емальований бойлер ГВП
+                href: /uk/pompy-ciepla/thermos-ceramic
+                image: /images/menu/thermos-ceramic.png
+                image2: null
+                colors: []
+              - name: Thermos Ceramic Grey
+                tagline: Керамічний бойлер сірого кольору
+                href: /uk/pompy-ciepla/thermos-ceramic-grey
+                image: /images/menu/thermos-ceramic-grey.png
+                image2: null
+                colors: []
+              - name: Thermos Inox
+                tagline: Сталевий бойлер, стійкий до корозії
+                href: /uk/pompy-ciepla/thermos-inox
+                image: /images/menu/thermos-inox.png
+                image2: null
+                colors: []
+              - name: Thermos Dual Inox
+                tagline: Сталевий бойлер з додатковим змійовиком
+                href: /uk/pompy-ciepla/thermos-dual-inox
+                image: /images/menu/thermos-dual-inox.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Переглянути всі
+              href: /uk/pompy-ciepla/zbiorniki
+          - title: Буферні ємності
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Thermos Store
+                tagline: Ізольована буферна ємність
+                href: /uk/pompy-ciepla/thermos-store
+                image: /images/menu/thermos-store.png
+                image2: null
+                colors: []
+              - name: Thermos Store Plus
+                tagline: Буферна ємність більшого об’єму
+                href: /uk/pompy-ciepla/thermos-store-plus
+                image: /images/menu/thermos-store-plus.png
+                image2: null
+                colors: []
+              - name: Thermos Store Grey
+                tagline: Буферна ємність у сірому корпусі
+                href: /uk/pompy-ciepla/thermos-store-grey
+                image: /images/menu/thermos-store-grey.png
+                image2: null
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer:
+          - label: Магнієві аноди
+            href: /uk/pompy-ciepla/anody-magnezowe
+            icon: ''
+        solutionsTitle: ''
+        solutions: []
+        buttons:
+          - label: Конфігуратор
+            href: /uk/doboromierz
+          - label: Знайти монтажника
+            href: /uk/znajdz-instalatora
+          - label: Завантаження
+            href: /uk/do-pobrania
+  - label: Інвестиції
+    href: /uk/systemy-rvf
+    categories:
+      - label: Системи кондиціонування RVF/VRF
+        icon: menu-rvf
+        sections:
+          - title: Системи кондиціонування RVF/VRF
+            text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet enim, et dolore.
+            button:
+              label: Дізнатися більше
+              href: /uk/systemy-rvf
+            cards: wall
+            products: []
+            seeAll:
+              label: ''
+              href: ''
+          - title: Зовнішні блоки
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: RVF V5
+                tagline: Lorem ipsum dolor sit amet enim
+                href: /uk/systemy-rvf/rvf-v5
+                image: /images/menu/rvf-v5.png
+                image2: null
+                colors: []
+              - name: HR RVF
+                tagline: Lorem ipsum dolor sit amet enim
+                href: /uk/systemy-rvf/hr-rvf
+                image: /images/menu/hr-rvf.png
+                image2: null
+                colors: []
+              - name: MiniRVF V4
+                tagline: Lorem ipsum dolor sit amet enim
+                href: /uk/systemy-rvf/minirvf-v4
+                image: /images/menu/minirvf-v4.png
+                image2: null
+                colors: []
+              - name: MiniRVF V5
+                tagline: Lorem ipsum dolor sit amet enim
+                href: /uk/systemy-rvf/minirvf-v5
+                image: /images/menu/minirvf-v5.png
+                image2: null
+                colors: []
+            seeAll:
+              label: Переглянути всі
+              href: /uk/systemy-rvf/jednostki-zewnetrzne
+        footer: []
+        solutionsTitle: Рішення
+        solutions:
+          - label: для бізнес-центру
+            href: /uk/rozwiazania/do-biurowca
+          - label: для готелю
+            href: /uk/rozwiazania/do-hotelu
+          - label: для лікарні
+            href: /uk/rozwiazania/do-szpitala
+          - label: для виробничого цеху
+            href: /uk/rozwiazania/do-hali-produkcyjnej
+          - label: для складу
+            href: /uk/rozwiazania/do-magazynu
+          - label: для промислового об’єкта
+            href: /uk/rozwiazania/do-obiektu-przemysowego
+          - label: для історичної будівлі
+            href: /uk/rozwiazania/do-obiektu-zabytkowego
+          - label: для спортзалу
+            href: /uk/rozwiazania/do-siowni
+          - label: для супермаркету
+            href: /uk/rozwiazania/do-supermarketu
+          - label: для SPA
+            href: /uk/rozwiazania/do-spa
+          - label: для установи
+            href: /uk/rozwiazania/do-urzedu
+        buttons:
+          - label: Референції
+            href: /uk/referencje
+          - label: Запитати деталі
+            href: /uk/kontakt
+      - label: Системи кондиціонування мультиспліт
+        icon: menu-kasetonowe
+        sections:
+          - title: Системи кондиціонування мультиспліт
+            text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet enim, et dolore.
+            button:
+              label: Дізнатися більше
+              href: /uk/klimatyzacja/multi-split
+            cards: wall
+            products: []
+            seeAll:
+              label: ''
+              href: ''
+          - title: Зовнішні блоки
+            text: ''
+            button:
+              label: ''
+              href: ''
+            cards: tall
+            products:
+              - name: Hiro HP
+                tagline: 'Надзвичайно продуктивна система класу A+++, що обслуговує до 3 внутрішніх блоків і працює в суворих зимових умовах: до -30 °C надворі.'
+                href: /uk/klimatyzacja/hiro-hp
+                image: /images/menu/hiro-hp.png
+                image2: null
+                colors: []
+              - name: Hiro S
+                tagline: Зовнішній блок класу A++ для цілорічної роботи, до якого можна під’єднати до 5 внутрішніх блоків. Ефективно опалює при –22 °C надворі.
+                href: /uk/klimatyzacja/hiro-s
+                image: /images/menu/hiro-s.png
+                image2: null
+                colors: []
+              - name: Hiro N
+                tagline: Компактний зовнішній блок класу A++, що обслуговує до 5 внутрішніх блоків і ефективно охолоджує та опалює.
+                href: /uk/klimatyzacja/hiro-n
+                image: /images/menu/hiro-n.png
+                image2: null
+                colors: []
+            seeAll:
+              label: ''
+              href: ''
+        footer: []
+        solutionsTitle: Рішення
+        solutions:
+          - label: для лікарні
+            href: /uk/rozwiazania/do-szpitala
+          - label: для виробничого цеху
+            href: /uk/rozwiazania/do-hali-produkcyjnej
+          - label: для складу
+            href: /uk/rozwiazania/do-magazynu
+          - label: для промислового об’єкта
+            href: /uk/rozwiazania/do-obiektu-przemysowego
+          - label: для історичної будівлі
+            href: /uk/rozwiazania/do-obiektu-zabytkowego
+          - label: для спортзалу
+            href: /uk/rozwiazania/do-siowni
+          - label: для супермаркету
+            href: /uk/rozwiazania/do-supermarketu
+          - label: для SPA
+            href: /uk/rozwiazania/do-spa
+          - label: для установи
+            href: /uk/rozwiazania/do-urzedu
+          - label: для бібліотеки
+            href: /uk/rozwiazania/do-biblioteki
+        buttons:
+          - label: Референції
+            href: /uk/referencje
+          - label: Запитати деталі
+            href: /uk/kontakt
+  - label: Фільтри Wentilo
+    href: /uk/filtry-wentilo
+    categories: []
