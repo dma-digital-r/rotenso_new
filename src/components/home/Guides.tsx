@@ -38,8 +38,8 @@ export function Guides({ data, ui }: { data: HomeContent["guides"]; ui: Ui }) {
       <SectionBackdrop top={-500} height={1427} />
 
       <div className="mx-auto flex w-[860px] max-w-[calc(100%-32px)] flex-col items-center gap-[30px] text-center font-light text-rotenso-grey">
-        <h2 className="w-full text-[72px] leading-[1.2]">{data.title}</h2>
-        <p className="w-full text-[25px] leading-[normal]">{data.text}</p>
+        <h2 className="w-full text-h1 leading-[1.2]">{data.title}</h2>
+        <p className="w-full text-h3 leading-[normal]">{data.text}</p>
       </div>
 
       <div
@@ -59,7 +59,7 @@ export function Guides({ data, ui }: { data: HomeContent["guides"]; ui: Ui }) {
             <div className="absolute top-[266px] left-[30px] flex h-[139px] w-[360px] flex-col items-start gap-[20px]">
               <div className="flex w-full flex-col gap-[5px] leading-[normal] text-rotenso-grey">
                 <p className="text-[12px]">{g.category}</p>
-                <h3 className="text-[25px] font-light">{g.title}</h3>
+                <h3 className="text-h3 font-light">{g.title}</h3>
               </div>
               <Link
                 href={g.href}

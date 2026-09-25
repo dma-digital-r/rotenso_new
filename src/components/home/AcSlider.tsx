@@ -114,14 +114,14 @@ function AcPanel({
         <div className="absolute inset-x-0 bottom-0 h-[30.11%] rounded-b-[32px] bg-gradient-to-t from-black to-transparent to-[93.585%] opacity-50" />
       )}
 
-      <h2 className="absolute top-[70px] left-[9.1%] text-[72px] leading-[1.2] font-light whitespace-nowrap text-white">
+      <h2 className="absolute top-[70px] left-[9.1%] text-h1 leading-[1.2] font-light whitespace-nowrap text-white">
         {slide.title}
       </h2>
 
       <button
         type="button"
         onClick={onSwitch}
-        className="absolute top-[100px] right-[6.02%] flex cursor-pointer items-center gap-[15px] text-[25px] leading-[normal] font-light whitespace-nowrap text-white"
+        className="absolute top-[100px] right-[6.02%] flex cursor-pointer items-center gap-[15px] text-h3 leading-[normal] font-light whitespace-nowrap text-white"
       >
         {switchDir === "left" && <Icon name="arrow-w2-left" width={30} height={30} />}
         {slide.switchLabel}
@@ -132,12 +132,12 @@ function AcPanel({
         <div className="absolute top-[285px] left-[9.04%] flex w-[310px] flex-col items-start gap-[30px] rounded-[32px] bg-black/50 p-[30px] text-white backdrop-blur-[10px]">
           <div className="flex w-full flex-col gap-[20px]">
             <div className="flex w-full flex-col font-light">
-              <p className="text-[40px] leading-[1.2]">{product.name}</p>
-              {product.subtitle && <p className="text-[25px] leading-[normal]">{product.subtitle}</p>}
+              <p className="text-h2 leading-[1.2]">{product.name}</p>
+              {product.subtitle && <p className="text-h3 leading-[normal]">{product.subtitle}</p>}
             </div>
             {product.text && <p className="text-[16px] leading-[24px]">{product.text}</p>}
             {price != null && (
-              <p className="text-[25px] leading-[normal] font-light">
+              <p className="text-h3 leading-[normal] font-light">
                 {ui.priceFrom} {formatPln(price)}
               </p>
             )}

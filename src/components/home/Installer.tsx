@@ -41,8 +41,8 @@ export function Installer({ data, lang, ui }: { data: HomeContent["installer"]; 
   return (
     <section className="relative mx-[50px] mt-[251px] flex flex-col items-center gap-[50px]">
       <div className="flex w-[1300px] max-w-full flex-col items-center gap-[10px] text-center font-light text-rotenso-grey">
-        <h2 className="w-full text-[72px] leading-[1.2]">{data.title}</h2>
-        <p className="w-[860px] max-w-full text-[25px] leading-[normal]">{data.text}</p>
+        <h2 className="w-full text-h1 leading-[1.2]">{data.title}</h2>
+        <p className="w-[860px] max-w-full text-h3 leading-[normal]">{data.text}</p>
       </div>
 
       <form
@@ -54,7 +54,7 @@ export function Installer({ data, lang, ui }: { data: HomeContent["installer"]; 
           type="search"
           placeholder={data.placeholder}
           aria-label={data.placeholder}
-          className="min-w-px flex-1 bg-transparent text-[25px] leading-[normal] font-light text-rotenso-grey outline-none placeholder:text-rotenso-grey"
+          className="min-w-px flex-1 bg-transparent text-h3 leading-[normal] font-light text-rotenso-grey outline-none placeholder:text-rotenso-grey"
         />
         <button type="submit" aria-label={ui.search} className="shrink-0 cursor-pointer">
           <Icon name="search-btn-l" width={50} height={50} />
@@ -160,7 +160,7 @@ function InstallerCard({ name, address, extras, ui }: SampleInstaller & { ui: Ui
   return (
     <div className="flex w-[360px] shrink-0 flex-col items-start gap-[12px] text-rotenso-grey">
       <div className="flex w-full flex-col pb-[10px]">
-        <p className="text-[18px] leading-[normal] font-bold">{name}</p>
+        <p className="text-h4 leading-[normal] font-bold">{name}</p>
         <div className="flex w-full items-center gap-[5px]">
           <Icon name="map-star" width={20} height={20} />
           <p className="flex-1 text-[12px] leading-[normal]">{ui.certified}</p>

@@ -50,11 +50,11 @@ export function HeroSlider({ slides, ui }: { slides: HomeContent["heroSlides"]; 
           >
             <div className="flex w-full flex-col gap-[10px] font-light">
               {i === 0 ? (
-                <h1 className="text-[72px] leading-[1.2]">{s.title}</h1>
+                <h1 className="text-h1 leading-[1.2]">{s.title}</h1>
               ) : (
-                <h2 className="text-[72px] leading-[1.2]">{s.title}</h2>
+                <h2 className="text-h1 leading-[1.2]">{s.title}</h2>
               )}
-              <p className="text-[25px] leading-[normal]">{s.text}</p>
+              <p className="text-h3 leading-[normal]">{s.text}</p>
             </div>
             <div className="flex items-start gap-[10px]">
               <Button variant="m-red" href={s.primary.href} className="min-w-[173px]">

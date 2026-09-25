@@ -13,19 +13,36 @@ export type SettingsContent = Entry<ReturnType<typeof settingsSingleton>>;
 const orphan = /(?<=^|[\s(„"])([aiouwzkvsAIOUWZKVS])\s+/g;
 const needsOrphanFix: Locale[] = ["pl", "cs"];
 
-function fixOrphans<T>(value: T): T {
-  if (typeof value === "string") {
-    // Paths and URLs are left alone.
-    return (value.startsWith("/") || value.startsWith("http") ? value : value.replace(orphan, "$1 ")) as T;
-  }
-  if (Array.isArray(value)) return value.map(fixOrphans) as T;
+// All languages: a short last word of a paragraph ("rok.", "domu.") never sits alone on the
+// last line — it is glued to the word before it. Only for texts of 4+ words.
+const widow = /\s+(\S{1,10})$/gm;
+
+function typesetString(value: string, orphans: boolean): string {
+  // Paths and URLs are left alone.
+  if (value.startsWith("/") || value.startsWith("http")) return value;
+  let out = orphans ? value.replace(orphan, "$1\u00A0") : value;
+  // "RVF / VRF": a slash never starts or ends a line.
+  out = out.replace(/ \/ /g, "\u00A0/\u00A0");
+  out = out
+    .split("\n")
+    .map((line) => (line.trim().split(/\s+/).length >= 4 ? line.replace(widow, "\u00A0$1") : line))
+    .join("\n");
+  return out;
+}
+
+function typesetDeep<T>(value: T, orphans: boolean): T {
+  if (typeof value === "string") return typesetString(value, orphans) as T;
+  if (Array.isArray(value)) return value.map((v) => typesetDeep(v, orphans)) as T;
   if (value && typeof value === "object") {
-    return Object.fromEntries(Object.entries(value).map(([k, v]) => [k, fixOrphans(v)])) as T;
+    // Feed symbols must stay byte-for-byte as typed, or the price lookup fails.
+    return Object.fromEntries(
+      Object.entries(value).map(([k, v]) => [k, k === "priceSymbols" ? v : typesetDeep(v, orphans)]),
+    ) as T;
   }
   return value;
 }
 
-const typeset = <T>(lang: Locale, data: T) => (needsOrphanFix.includes(lang) ? fixOrphans(data) : data);
+const typeset = <T>(lang: Locale, data: T) => typesetDeep(data, needsOrphanFix.includes(lang));
 
 // Falls back to PL when a translation does not exist yet.
 export async function getHome(lang: Locale): Promise<HomeContent> {

@@ -33,7 +33,7 @@ export function Wentilo({ wentilo, ui }: { wentilo: HomeContent["wentilo"]; ui: 
         <FramedImage src={wentilo.background} sizes="100vw" />
       </div>
 
-      <h2 className="relative pt-[100px] text-center text-[72px] leading-[1.2] font-light whitespace-nowrap text-white">
+      <h2 className="relative pt-[100px] text-center text-h1 leading-[1.2] font-light whitespace-nowrap text-white">
         {wentilo.title}
       </h2>
 
@@ -41,7 +41,7 @@ export function Wentilo({ wentilo, ui }: { wentilo: HomeContent["wentilo"]; ui: 
         <div className="flex h-[540px] w-[420px] shrink-0 flex-col justify-center rounded-[32px] bg-black/50 p-[30px] backdrop-blur-[10px]">
           <div className="flex w-full flex-col items-start gap-[30px]">
             <div className="flex w-full flex-col gap-[20px] text-white">
-              <h3 className="text-[40px] leading-[1.2] font-light">{wentilo.productName}</h3>
+              <h3 className="text-h2 leading-[1.2] font-light">{wentilo.productName}</h3>
               <p className="text-[16px] leading-[24px] whitespace-pre-line">{wentilo.text}</p>
             </div>
             <Button variant="m-red" href={wentilo.cta.href}>

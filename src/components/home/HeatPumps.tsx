@@ -27,8 +27,8 @@ export function HeatPumps({ data, ui }: { data: HomeContent["heatPumps"]; ui: Ui
       {/* Rectangle 7: backdrop from y 3520 (350px above the title), 880px tall. */}
       <SectionBackdrop top={-350} height={880} />
 
-      <h2 className="text-center text-[72px] leading-[1.2] font-light text-rotenso-grey">{data.title}</h2>
-      <p className="mx-auto mt-[20px] w-[860px] max-w-[calc(100%-32px)] text-center text-[25px] leading-[normal] font-light text-rotenso-grey">
+      <h2 className="text-center text-h1 leading-[1.2] font-light text-rotenso-grey">{data.title}</h2>
+      <p className="mx-auto mt-[20px] w-[860px] max-w-[calc(100%-32px)] text-center text-h3 leading-[normal] font-light text-rotenso-grey">
         {data.text}
       </p>
 
@@ -57,8 +57,8 @@ export function HeatPumps({ data, ui }: { data: HomeContent["heatPumps"]; ui: Ui
                 <h3
                   className={`absolute bottom-[30px] text-white transition-all duration-500 ${
                     isActive
-                      ? "left-[30px] text-[40px] leading-[1.2] font-light whitespace-nowrap"
-                      : "inset-x-0 text-center text-[25px] leading-[normal] font-light whitespace-pre-line"
+                      ? "left-[30px] text-h2 leading-[1.2] font-light whitespace-nowrap"
+                      : "inset-x-0 text-center text-h3 leading-[normal] font-light whitespace-pre-line"
                   }`}
                 >
                   {isActive ? t.title.replace("\n", " ") : t.title}

@@ -15,7 +15,7 @@ export function SocialMedia({
 }) {
   return (
     <section className="relative">
-      <h2 className="text-center text-[72px] leading-[1.2] font-light text-rotenso-grey">{data.title}</h2>
+      <h2 className="text-center text-h1 leading-[1.2] font-light text-rotenso-grey">{data.title}</h2>
 
       <Strip
         className="mt-[70px] h-[360px]"

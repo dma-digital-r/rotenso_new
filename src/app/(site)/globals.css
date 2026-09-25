@@ -10,24 +10,19 @@
 
   --font-sans: var(--font-open-sans), Arial, sans-serif;
 
-  /* Type scale: H1 72 / H2 40 / H3 25 / S1 25 / H4 18 / Menu 16 / Body1 16 / Body2 12 */
-  --text-h1: 4.5rem;
-  --text-h1--line-height: 1.2;
-  --text-h1--font-weight: 300;
-  --text-h2: 2.5rem;
-  --text-h2--line-height: 1.2;
-  --text-h2--font-weight: 300;
-  --text-h3: 1.5625rem;
-  --text-h3--font-weight: 300;
-  --text-s1: 1.5625rem;
-  --text-s1--font-weight: 300;
-  --text-h4: 1.125rem;
-  --text-menu: 1rem;
-  --text-body1: 1rem;
-  --text-body1--line-height: 1.5rem;
-  --text-body2: 0.75rem;
+  /* Heading scale from Figma (H1 72 / H2 40 / H3 + S1 25 / H4 18), multiplied by
+     --heading-scale below. Body text (16 / 14 / 12) is not scaled. */
+  --text-h1: calc(72px * var(--heading-scale));
+  --text-h2: calc(40px * var(--heading-scale));
+  --text-h3: calc(25px * var(--heading-scale));
+  --text-h4: calc(18px * var(--heading-scale));
 
   --shadow-dark-l: 30px 30px 50px 0 rgb(0 0 0 / 0.25);
+}
+
+/* One knob for all headings: 1 = exactly as in Figma, 0.8 = 20% smaller (decided 2026-09-25). */
+:root {
+  --heading-scale: 0.8;
 }
 
 body {

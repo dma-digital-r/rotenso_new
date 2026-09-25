@@ -11,7 +11,7 @@ export function Rvf({ rvf }: { rvf: HomeContent["rvf"] }) {
       </div>
       <div className="absolute top-[106px] left-0 flex w-[420px] flex-col items-start justify-center gap-[30px] rounded-[32px] bg-rotenso-grey px-[30px] pt-[30px] pb-[50px] backdrop-blur-[15px]">
         <div className="flex w-full flex-col gap-[20px] text-white">
-          <h2 className="text-[72px] leading-[1.2] font-light">{rvf.title}</h2>
+          <h2 className="text-h1 leading-[1.2] font-light">{rvf.title}</h2>
           <p className="text-[16px] leading-[24px]">{rvf.text}</p>
         </div>
         <Button variant="m-red" href={rvf.cta.href}>
