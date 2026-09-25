@@ -40,7 +40,9 @@ recent:
   title: Recently viewed
   text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
   button: View again
-articleRelatedTitle: Worth reading
-articleBack: All guides
 seoTitle: Rotenso guides — air conditioning, heat recovery, heat pumps
 seoDescription: Rotenso experts' advice on choosing, installing and servicing air conditioners, heat recovery units and heat pumps. Answers to installers' and customers' questions.
+articleAsk:
+  label: Ask a question
+  href: /en/kontakt
+articleOthersTitle: Other articles

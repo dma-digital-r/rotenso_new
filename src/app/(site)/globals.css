@@ -90,20 +90,24 @@ body {
 .guide-body > article > :first-child {
   margin-top: 0;
 }
+/* Figma article template: section titles 25/300, 60px between sections, 20px to the text. */
 .guide-body h2 {
-  margin-top: 50px;
-  font-size: var(--text-h2);
-  line-height: 1.2;
+  margin-top: 60px;
+  font-size: var(--text-h3);
+  line-height: 1.36;
   font-weight: 300;
+}
+.guide-body :is(h2, h3, h4, h5, h6) + * {
+  margin-top: 20px;
 }
 .guide-body h3,
 .guide-body h4,
 .guide-body h5,
 .guide-body h6 {
   margin-top: 40px;
-  font-size: var(--text-h3);
-  line-height: 1.36;
-  font-weight: 300;
+  font-size: 18px;
+  line-height: 24.5px;
+  font-weight: 600;
 }
 .guide-body :is(h2, h3, h4) {
   scroll-margin-top: 110px;
@@ -129,10 +133,14 @@ body {
 .guide-body li + li {
   margin-top: 6px;
 }
+/* Photos fill the column; smaller pictures (product packshots) keep their size, centred. */
 .guide-body img {
   display: block;
-  width: 100%;
+  width: auto;
+  max-width: 100%;
+  max-height: 560px;
   height: auto;
+  margin-inline: auto;
   border-radius: 16px;
 }
 .guide-body blockquote {

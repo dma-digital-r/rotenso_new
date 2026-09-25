@@ -66,10 +66,11 @@ export async function getGuideList(lang: Locale): Promise<GuideSummary[]> {
     );
 }
 
-export async function getGuide(lang: Locale, slug: string) {
-  const own = await reader.collections[`guides_${lang}`].read(slug, { resolveLinkedFiles: true });
-  const entry = own ?? (lang === defaultLocale ? null : await reader.collections[`guides_${defaultLocale}`].read(slug, { resolveLinkedFiles: true }));
-  return entry;
+/** One guide with its article body (Markdoc document) — the language's own or the Polish one. */
+export async function getGuide(lang: Locale, slug: string): Promise<(Omit<GuideEntry, "content"> & { content: { node: import("@markdoc/markdoc").Node } }) | null> {
+  const read = (l: Locale) => reader.collections[`guides_${l}`].read(slug, { resolveLinkedFiles: true });
+  const entry = (await read(lang)) ?? (lang === defaultLocale ? null : await read(defaultLocale));
+  return entry as never;
 }
 
 /** Picks by slug in the CMS order; slugs that no longer exist are skipped. */

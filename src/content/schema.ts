@@ -253,6 +253,7 @@ export const guideSchema = {
     label: "Kategorie",
     options: guideCategories.map((c) => ({ label: c, value: c })),
   }),
+  subtitle: fields.text({ label: "Podtytuł w nagłówku (opcjonalnie)" }),
   tags: fields.array(fields.text({ label: "Tag (bez #)" }), {
     label: "Tagi",
     description: "Np. montaż, dobór mocy. Pojawiają się w filtrze „#tagi” na liście poradników.",
@@ -265,6 +266,26 @@ export const guideSchema = {
     label: "Adres na starej stronie",
     description: "Karta na stronie głównej prowadzi tu, dopóki nie powstanie podstrona poradnika.",
   }),
+  products: fields.object(
+    {
+      title: fields.text({ label: "Tytuł (np. Polecane klimatyzatory do ogrzewania)", multiline: true }),
+      items: fields.array(
+        fields.object({
+          kicker: fields.text({ label: "Nadtytuł (np. Lepsze grzanie)" }),
+          name: fields.text({ label: "Model" }),
+          text: fields.text({ label: "Opis", multiline: true }),
+          image: image("Zdjęcie (310×176)", "guides"),
+          href: fields.text({ label: "Adres karty produktu" }),
+        }),
+        { label: "Produkty (3)", itemLabel: (i) => i.fields.name.value || "Produkt" },
+      ),
+    },
+    { label: "Polecane produkty pod treścią (puste = sekcja ukryta)" },
+  ),
+  faq: fields.array(
+    fields.object({ question: fields.text({ label: "Pytanie" }), answer: fields.text({ label: "Odpowiedź", multiline: true }) }),
+    { label: "Pytania i odpowiedzi (puste = sekcja ukryta)", itemLabel: (q) => q.fields.question.value || "Pytanie" },
+  ),
   content: fields.markdoc({
     label: "Treść",
     options: {
@@ -805,8 +826,8 @@ export const blogSchema = (guides: string) => {
       { title: fields.text({ label: "Tytuł" }), text: fields.text({ label: "Tekst" }), button: fields.text({ label: "Przycisk" }) },
       { label: "Ostatnio oglądane" },
     ),
-    articleRelatedTitle: fields.text({ label: "Artykuł — tytuł sekcji podobnych (np. Warto przeczytać)" }),
-    articleBack: fields.text({ label: "Artykuł — link powrotu (np. Wszystkie poradniki)" }),
+    articleAsk: link("Artykuł — przycisk pod pytaniami (np. Zadaj pytanie)"),
+    articleOthersTitle: fields.text({ label: "Artykuł — tytuł listy pozostałych artykułów" }),
     seoTitle: fields.text({ label: "SEO — tytuł" }),
     seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
   };

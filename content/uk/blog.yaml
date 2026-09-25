@@ -40,7 +40,9 @@ recent:
   title: Нещодавно переглянуті
   text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
   button: Переглянути знову
-articleRelatedTitle: Варто прочитати
-articleBack: Усі поради
 seoTitle: Поради Rotenso — кондиціонування, рекуперація, теплові насоси
 seoDescription: Поради експертів Rotenso щодо вибору, монтажу та сервісу кондиціонерів, рекуператорів і теплових насосів. Відповіді на запитання монтажників і клієнтів.
+articleAsk:
+  label: Поставити запитання
+  href: /uk/kontakt
+articleOthersTitle: Інші статті

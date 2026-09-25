@@ -49,6 +49,11 @@ New-NetFirewallRule -DisplayName "Rotenso podglad (3001)" -Direction Inbound -Pr
 - **Lista:** `/pl/poradniki` — nagłówek ze slajdami, „Warto przeczytać”, filtry kategorii, tagi, wyszukiwarka, stronicowanie (12 na stronę), „Najczęściej czytane”.
 - **Panel → Poradniki — strona listy (PL):** wybór poradników do slajdów (puste = 4 najnowsze; 2 pierwsze slajdy nie powtarzają się na liście „Wszystkie”), „Warto przeczytać” (tylko ręcznie, puste = sekcja ukryta) i „Najczęściej czytane”, przyciski filtrów i przypisane im kategorie.
 - **Panel → Poradniki (PL):** treść artykułów. Pole „Tagi” zasila filtr „#tagi” (przycisk pojawi się, gdy choć jeden poradnik ma tag).
+- **Artykuł** (projekt: plik Figmy „Rotenso Podstrony”, ramka „Artykuły v.05”):
+  - Szara ramka „Z tego artykułu dowiesz się” powstaje sama, gdy w treści jest akapit z tym tekstem, a zaraz pod nim lista.
+  - „Spis treści” po lewej to nagłówki sekcji (poziom 2) z treści.
+  - Pola „Podtytuł”, „Polecane produkty” i „Pytania i odpowiedzi” są opcjonalne — puste = sekcja ukryta.
+  - Przycisk „Zadaj pytanie” i tytuł „Pozostałe artykuły” ustawia się w: Poradniki — strona listy.
 - Na liście nie ma wpisów bez kategorii (strony z WordPressa: Kariera, Przetwarzanie danych).
 - Inne języki pokazują polskie artykuły (z linkiem canonical do wersji PL), dopóki nie zostaną przetłumaczone.
 - `npm run guides:images` — kopiuje zdjęcia i pliki podlinkowane w treści ze starego WordPressa na nową stronę (po imporcie nowych wpisów).

@@ -40,7 +40,9 @@ recent:
   title: Zuletzt angesehen
   text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
   button: Erneut ansehen
-articleRelatedTitle: Lesenswert
-articleBack: Alle Ratgeber
 seoTitle: Rotenso-Ratgeber — Klimaanlagen, Wohnraumlüftung, Wärmepumpen
 seoDescription: Tipps der Rotenso-Experten zu Auswahl, Montage und Wartung von Klimaanlagen, Lüftungsgeräten und Wärmepumpen. Antworten auf Fragen von Installateuren und Kunden.
+articleAsk:
+  label: Frage stellen
+  href: /de/kontakt
+articleOthersTitle: Weitere Artikel

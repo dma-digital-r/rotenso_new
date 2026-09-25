@@ -40,7 +40,9 @@ recent:
   title: Ostatnio oglądane
   text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
   button: Zobacz ponownie
-articleRelatedTitle: Warto przeczytać
-articleBack: Wszystkie poradniki
 seoTitle: Poradniki Rotenso — klimatyzacja, rekuperacja, pompy ciepła
 seoDescription: Porady ekspertów Rotenso o doborze, montażu i serwisie klimatyzatorów, rekuperatorów i pomp ciepła. Odpowiedzi na pytania instalatorów i klientów.
+articleAsk:
+  label: Zadaj pytanie
+  href: /pl/kontakt
+articleOthersTitle: Pozostałe artykuły

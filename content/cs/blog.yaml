@@ -40,7 +40,9 @@ recent:
   title: Naposledy zobrazené
   text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
   button: Zobrazit znovu
-articleRelatedTitle: Stojí za přečtení
-articleBack: Všechny články
 seoTitle: Poradna Rotenso — klimatizace, rekuperace, tepelná čerpadla
 seoDescription: Rady odborníků Rotenso k výběru, montáži a servisu klimatizací, rekuperačních jednotek a tepelných čerpadel. Odpovědi na otázky instalatérů a zákazníků.
+articleAsk:
+  label: Položte otázku
+  href: /cs/kontakt
+articleOthersTitle: Další články

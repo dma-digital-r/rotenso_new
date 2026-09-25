@@ -40,7 +40,9 @@ recent:
   title: Vus récemment
   text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
   button: Revoir
-articleRelatedTitle: À lire aussi
-articleBack: Tous les guides
 seoTitle: Guides Rotenso — climatisation, ventilation, pompes à chaleur
 seoDescription: Conseils des experts Rotenso sur le choix, l’installation et l’entretien des climatiseurs, centrales de ventilation et pompes à chaleur. Réponses aux questions des installateurs et des clients.
+articleAsk:
+  label: Poser une question
+  href: /fr/kontakt
+articleOthersTitle: Autres articles
