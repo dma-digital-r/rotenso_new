@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { diagonalGradient } from "@/components/home/SectionBackdrop";
 import { FramedImage } from "@/components/ui/FramedImage";
 import type { Ui } from "@/i18n/ui";
 import { PlayPause } from "./PlayPause";
@@ -24,7 +25,7 @@ export function FeatureSlider({ slides, ui }: { slides: Slide[]; ui: Ui }) {
 
   return (
     <section className="relative pt-[150px]">
-      <div className="absolute inset-x-0 top-0 h-[527px] bg-[linear-gradient(112deg,#cccccc,#ffffff_50%,#cccccc)]" />
+      <div className="absolute inset-x-0 top-0 h-[527px]" style={{ backgroundImage: diagonalGradient(527) }} />
       <div className="relative h-[754px] overflow-x-clip">
         <div
           className="absolute top-0 left-[50px] flex gap-[20px] transition-transform duration-700"

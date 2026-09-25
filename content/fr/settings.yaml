@@ -9,13 +9,13 @@ nav:
     href: /fr/katalogi
   - label: Contact
     href: /fr/kontakt
-searchPlaceholder: Saisissez le modèle recherché
+searchPlaceholder: Que recherchez-vous ?
 configurator:
-  label: Configurateur
-  href: /fr/doboromierz
+  label: Assistant de sélection
+  href: /fr/asystent-doboru
 installer:
   label: Espace installateurs
-  href: /fr/znajdz-instalatora
+  href: https://professional.rotenso.com
 footerColumns:
   - heading:
       label: Climatisation
@@ -91,17 +91,14 @@ social:
   tiktok: https://www.tiktok.com/@rotenso.official
   spotify: https://open.spotify.com/show/0WNEImBQhzjgQgSmN5Ph72
   linkedin: https://pl.linkedin.com/company/rotenso
-copyright: |-
-  © {rok} Rotenso®. Tous droits réservés.
-  Nous nous réservons le droit d’erreurs dans les descriptions et les caractéristiques techniques. Nous faisons tout notre possible pour que les photos restituent fidèlement les couleurs des appareils ; toutefois, en raison des différents réglages d’écran, les couleurs peuvent différer de la réalité.
 splitVsMulti:
   title: Split ou multi-split ?
   split:
-    image: /images/products/split-system.jpg
+    image: /images/products/splitVsMulti/split/image.jpg
     title: Système split
     text: Le type de climatisation le plus simple et le plus choisi pour une maison ou un appartement. Il se compose d’une unité à l’intérieur de la pièce (généralement murale) et d’une unité à l’extérieur du bâtiment. C’est la solution idéale pour le confort d’une pièce en particulier, par exemple le salon ou la chambre.
   multi:
-    image: /images/products/multi-split-system.jpg
+    image: /images/products/splitVsMulti/multi/image.jpg
     title: Système multi-split
     text: Un bon choix si vous voulez climatiser plusieurs pièces à la fois sans pouvoir ou vouloir installer plusieurs unités extérieures sur la façade. Une seule unité est installée à l’extérieur et alimente plusieurs climatiseurs intérieurs. L’ensemble est esthétique et prend peu de place.
 quoteForm:
@@ -109,7 +106,7 @@ quoteForm:
   text: |-
     Votre confort est notre standard.
     Laissez vos coordonnées et un installateur vous préparera une offre d’installation de climatisation.
-  background: /images/forms/quote-bg.jpg
+  background: /images/forms/quoteForm/background.jpg
   step1: |-
     Étape 1.
     Laissez-nous vos coordonnées. Votre demande sera transmise à un installateur de climatisation près de chez vous.
@@ -123,16 +120,18 @@ quoteForm:
     - Soir (16h–20h)
     - Peu importe
   consent: J’accepte le traitement de mes données personnelles...
-  consentFull: ''
   required: '*champs obligatoires'
   submit: Envoyer le message
   success: Merci ! Votre demande a été envoyée — un installateur vous contactera prochainement.
   error: Votre demande n’a pas pu être envoyée. Réessayez dans un instant ou appelez-nous.
-  step2Image: /images/forms/quote-step-2.jpg
+  step2Image: /images/forms/quoteForm/step2Image.jpg
   step2: |-
     Étape 2.
     L’installateur vous contactera pour choisir le climatiseur adapté et vous présenter une offre.
-  step3Image: /images/forms/quote-step-3.jpg
+  step3Image: /images/forms/quoteForm/step3Image.jpg
   step3: |-
     Étape 3.
     Une fois l’offre acceptée, l’installateur posera le climatiseur choisi.
+copyright: |-
+  © {rok} Rotenso®. Tous droits réservés.
+  Nous nous réservons le droit d’erreurs dans les descriptions et les caractéristiques techniques. Nous faisons tout notre possible pour que les photos restituent fidèlement les couleurs des appareils ; toutefois, en raison des différents réglages d’écran, les couleurs peuvent différer de la réalité.

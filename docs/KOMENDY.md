@@ -69,6 +69,13 @@ New-NetFirewallRule -DisplayName "Rotenso podglad (3001)" -Direction Inbound -Pr
 - Kafelek produktu: nazwa, hasło, zdjęcie (drugie zdjęcie = moduł wewnętrzny pompy ciepła), kropki kolorów (np. `#737373`).
 - Po zmianie treści PL: `npm run translate` (lub `translate:memory`) — menu tłumaczy się razem ze stroną główną i ustawieniami.
 
+## Strona „O nas”
+- **Panel → O nas (PL)**: wszystkie sekcje (nagłówek, liczby, O firmie, Kompleksowy ekosystem, Produkcja i eksport, misja, mapa, oś czasu, certyfikaty, kariera, showroom, kontakt).
+- Kafelki „Poznaj naszą markę” to automatycznie najnowsze poradniki (jak na stronie głównej).
+- „Ostatnio oglądane” pokazuje się tylko osobie, która oglądała karty produktów. Lista jest zapisana w jej przeglądarce i nie trafia do nas.
+- Przycisk play na kadrze filmu pojawia się dopiero po wpisaniu linku do filmu (YouTube).
+- Telefon i e-mail w sekcji kontaktu pochodzą z Ustawień.
+
 ## Figma (dla programisty)
 | Polecenie | Co robi |
 |---|---|

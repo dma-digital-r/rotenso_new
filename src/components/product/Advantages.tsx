@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { diagonalGradient } from "@/components/home/SectionBackdrop";
 import { FramedImage } from "@/components/ui/FramedImage";
 import { SliderBar } from "@/components/ui/SliderBar";
 import type { Ui } from "@/i18n/ui";
@@ -24,7 +25,7 @@ export function Advantages({ title, items, grid, ui }: { title: string; items: I
 
   return (
     <section className="relative z-10 mt-[150px] text-rotenso-grey">
-      <div className="absolute inset-x-0 top-[410px] -z-10 h-[1197px] bg-[linear-gradient(133deg,#cccccc,#ffffff_50%,#cccccc)]" />
+      <div className="absolute inset-x-0 top-[410px] -z-10 h-[1197px]" style={{ backgroundImage: diagonalGradient(1197) }} />
 
       {count > 0 && (
         <>

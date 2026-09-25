@@ -1,0 +1,181 @@
+hero:
+  image: /images/about/hero.jpg
+  video: ''
+  title: Un produttore polacco di comfort
+  text: Oltre 20 anni di esperienza, 500+ installatori certificati e un’offerta completa di soluzioni per il clima — questo è Rotenso.
+stats:
+  - value: 25+
+    label: anni sul mercato
+  - value: 500+
+    label: installatori certificati
+  - value: 3000+
+    label: ingegneri e dipendenti
+company:
+  background: /images/about/company-bg.jpg
+  title: Un’azienda polacca con una visione globale
+  text: |-
+    Rotenso è un marchio polacco fin dal primo giorno. Non siamo il distributore di un produttore straniero — progettiamo i nostri prodotti pensando al clima, alle case e alle condizioni d’uso polacche.
+
+    Uniamo il know-how ingegneristico locale alle tecnologie moderne, offrendo soluzioni paragonabili a quelle dei leader mondiali del settore — a un prezzo competitivo e con un’assistenza locale in tutta la Polonia.
+  videoImage: /images/about/company-video.jpg
+  videoUrl: ''
+ecosystem:
+  background: /images/about/ecosystem-bg.jpg
+  title: Un ecosistema completo
+  text: Climatizzatori, pompe di calore, ventilazione e accessori — tutto da un unico produttore, con un’unica rete di assistenza e una garanzia comune.
+  tiles:
+    - image: /images/about/tile-ac.jpg
+      title: Climatizzatori
+      text: Dai modelli base ai premium con filtrazione e Smart Home. Mono e multi-ambiente (multi-split) per ogni interno.
+      cta:
+        label: Scopri i modelli
+        href: /it/klimatyzacja
+    - image: /images/about/tile-reku.jpg
+      title: VMC
+      text: I recuperatori Wentilo garantiscono un apporto costante di aria fresca e filtrata e recuperano il calore che altrimenti uscirebbe dalla casa.
+      cta:
+        label: Scopri i modelli
+        href: /it/rekuperacja
+    - image: /images/about/tile-hp.jpg
+      title: Pompe di calore
+      text: Pompe di calore aria-acqua per il riscaldamento della casa e l’acqua calda sanitaria — nelle versioni split, monoblocco e all-in.
+      cta:
+        label: Scopri i modelli
+        href: /it/pompy-ciepla
+    - image: /images/about/tile-rvf.jpg
+      title: Sistemi RVF
+      text: Sistemi RVF/VRF per uffici, hotel ed edifici commerciali — controllo preciso della temperatura in molte zone contemporaneamente.
+      cta:
+        label: Scopri i modelli
+        href: /it/systemy-rvf
+production:
+  title: Produzione ed esportazione
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  videoImage: /images/about/company-video.jpg
+  videoUrl: ''
+mission:
+  background: /images/about/mission-bg.jpg
+  text: Offriamo soluzioni complete che si prendono cura della temperatura e della qualità dell’aria intorno a te. Miglioriamo il comfort e la qualità della vita di chiunque cerchi armonia con l’ambiente, a qualsiasi latitudine.
+international:
+  title: Vendite internazionali
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  map: /images/about/europe-map.png
+  countries: Estonia | Lituania | Romania | Bulgaria | Francia | Germania | Slovacchia | Cipro | Regno Unito | Cechia | Moldavia
+timeline:
+  title: E tutto è iniziato con...
+  text: Scopri la storia del marchio Rotenso
+  items:
+    - year: '2000'
+      title: Nasce Thermosilesia
+      text: In Slesia inizia l’attività di Thermosilesia — un’azienda che installa, assiste e vende sistemi di climatizzazione RAC e CAC dei principali produttori. È la base su cui 14 anni dopo nascerà Rotenso.
+    - year: '2009'
+      title: Modesti inizi nella logistica
+      text: L’azienda dispone di appena 150 m² di magazzino e 80 posti pallet — il punto di partenza per l’attuale centro logistico di oltre 20.000 m².
+    - year: '2010'
+      title: Avvio del programma di marchi propri
+      text: Thermosilesia avvia un programma di produzione, sviluppo e promozione di marchi HVAC propri — una decisione strategica che quattro anni dopo porterà alla nascita di Rotenso.
+    - year: '2012'
+      title: Debutto del marchio Ferono
+      text: Il primo marchio proprio sul mercato sono i ventilatori e le barriere d’aria Ferono — una prova del modello che sarà presto ripetuto con Rotenso.
+    - year: '2014'
+      title: Nasce Rotenso
+      text: Sul mercato polacco debuttano i climatizzatori Rotenso, marchio di punta di Thermosilesia. Da allora l’azienda investe nella tecnologia inverter, nella progettazione di unità a parete, a cassetta e commerciali e nella costruzione di una rete di installatori.
+    - year: 2015 – 2018
+      title: L’ampliamento del portafoglio marchi
+      text: Nascono via via Tivento (tubi in rame isolati), Swedo (pompe per condensa), Ivensis (accessori di montaggio) e Cleanairix (chimica professionale per l’assistenza). Nel 2018 il team di Thermosilesia conta già 47 persone.
+    - year: '2019'
+      title: Un nuovo centro logistico
+      text: Dopo il trasferimento a Ruda Śląska il centro logistico di Thermosilesia cresce a 4.300 m² e i posti pallet a 6.700. Rotenso ottiene una base reale per far crescere le vendite.
+    - year: 2020 – 2022
+      title: Dalla climatizzazione all’HVAC completo
+      text: 'L’offerta Rotenso va oltre i climatizzatori a parete: arrivano le pompe di calore aria-acqua (Aquami, Airmi, Windmi, Heatmi), sistemi commerciali ampliati e unità VRF/RVF. Gli apparecchi funzionano con il refrigerante ecologico R32.'
+    - year: '2023'
+      title: La rete dei partner cresce
+      text: Rotenso amplia la rete di installatori e centri assistenza autorizzati in Polonia e in Europa, arricchisce la gamma di climatizzatori a parete (tra cui le serie Versu, Mirai, Elis, Ukura, Imoto) e organizza regolarmente corsi tecnici per il settore.
+    - year: '2024'
+      title: Wentilo ICON e i 24 anni di Thermosilesia
+      text: Alla fiera MCE di Milano Rotenso presenta la nuovissima linea di recuperatori Wentilo ICON. Thermosilesia festeggia 24 anni di attività, il team conta 188 persone e l’azienda riceve il Diamante Forbes per la sua crescita dinamica.
+    - year: '2025'
+      title: Warsaw HVAC Expo e un nuovo centro
+      text: Rotenso presenta le novità al Warsaw HVAC Expo. A Ruda Śląska parte la costruzione di uno dei maggiori investimenti della storia aziendale — un nuovo centro logistico di oltre 17.000 m².
+    - year: '2026'
+      title: Rotenso oggi
+      text: Il centro logistico supera i 20.000 m² e i 29.000 posti pallet. Rotenso lancia un nuovo catalogo di sistemi RVF per la stagione 2026/27 e nuove serie di climatizzatori (tra cui Luve, Teta, Roni, Fresh) ed è presente in Polonia, Germania, Francia, Cechia, Italia e Ucraina.
+articles:
+  title: Scopri il nostro marchio
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  readLabel: Leggi
+  more:
+    label: Vedi altri articoli
+    href: /it/poradniki
+certificates:
+  title: Certificazioni e premi di settore
+  text: I nostri prodotti rispettano i più elevati standard europei di qualità, sicurezza ed efficienza energetica. Ogni apparecchio supera test rigorosi prima di essere messo in vendita.
+  logos:
+    - image: /images/about/cert-01.png
+      name: Intertek ETL Verified
+    - image: /images/about/cert-02.png
+      name: ENERGY STAR
+    - image: /images/about/cert-03.png
+      name: UL Energy Verified
+    - image: /images/about/cert-04.png
+      name: SASO
+    - image: /images/about/cert-05.png
+      name: CE
+    - image: /images/about/cert-06.png
+      name: CB Scheme
+    - image: /images/about/cert-07.png
+      name: Eurovent Certified Performance
+    - image: /images/about/cert-08.png
+      name: TÜV SÜD GS
+    - image: /images/about/cert-09.png
+      name: SGS GS
+    - image: /images/about/cert-10.png
+      name: NOM
+    - image: /images/about/cert-11.png
+      name: cULus Listed
+    - image: /images/about/cert-12.png
+      name: S-Mark (Argentyna)
+    - image: /images/about/cert-13.png
+      name: CSA C-US
+    - image: /images/about/cert-14.png
+      name: CCC
+    - image: /images/about/cert-15.png
+      name: RCM
+career:
+  background: /images/about/career-bg.jpg
+  title: |-
+    Unisciti
+    a noi!
+  text: Cerchi un posto dove il tuo talento venga apprezzato e il lavoro quotidiano ti dia vera soddisfazione? In Rotenso puntiamo su innovazione, crescita continua e un team affiatato. Cerchiamo persone appassionate che vogliano creare con noi soluzioni moderne e fissare nuovi standard.
+  cta:
+    label: Vedi le offerte di lavoro
+    href: /it/kariera
+showroom:
+  kicker: Visita il nostro showroom Rotenso –
+  title: Guarda, ascolta, scegli!
+  text: Ti chiedi se un climatizzatore con pannello nero starà bene nel tuo soggiorno? Vuoi sentire quanto è silenziosa l’ultima pompa di calore? Invece di tirare a indovinare dal catalogo, ti invitiamo nella nostra Area Espositiva.
+  images:
+    - image: /images/about/showroom-1.jpg
+      title: ''
+    - image: /images/about/showroom-2.jpg
+      title: ''
+    - image: /images/about/showroom-3.jpg
+      title: ''
+recent:
+  title: Visti di recente
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  button: Rivedi
+contact:
+  background: /images/about/contact-bg.jpg
+  title: Pronto per il comfort con Rotenso?
+  text: Trova un installatore certificato nella tua zona o contattaci.
+  address: |-
+    Rotenso Sp. z o.o.
+    ul. Szyb Walenty 16
+    41-700 Ruda Śląska, Polonia
+  cta:
+    label: Trova un installatore
+    href: /it/znajdz-instalatora
+seoTitle: Chi siamo — Rotenso, produttore polacco di climatizzatori e pompe di calore
+seoDescription: Rotenso è un marchio polacco di climatizzatori, pompe di calore, recuperatori e sistemi RVF. Scopri la nostra storia, la missione, lo showroom e le certificazioni.

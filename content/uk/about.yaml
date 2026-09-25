@@ -1,0 +1,181 @@
+hero:
+  image: /images/about/hero.jpg
+  video: ''
+  title: Польський виробник комфорту
+  text: Понад 20 років досвіду, 500+ сертифікованих монтажників і повна пропозиція кліматичних рішень — це Rotenso.
+stats:
+  - value: 25+
+    label: років на ринку
+  - value: 500+
+    label: сертифікованих монтажників
+  - value: 3000+
+    label: інженерів і працівників
+company:
+  background: /images/about/company-bg.jpg
+  title: Польська компанія з глобальним баченням
+  text: |-
+    Rotenso — польський бренд від першого дня. Ми не дистриб’ютор іноземного виробника — ми проєктуємо продукти з огляду на польський клімат, польські будинки й польські умови експлуатації.
+
+    Ми поєднуємо місцеве інженерне ноу-хау з сучасними технологіями, пропонуючи рішення, порівнянні зі світовими лідерами галузі, — за конкурентною ціною та з місцевим сервісом по всій Польщі.
+  videoImage: /images/about/company-video.jpg
+  videoUrl: ''
+ecosystem:
+  background: /images/about/ecosystem-bg.jpg
+  title: Комплексна екосистема
+  text: Кондиціонери, теплові насоси, вентиляція та аксесуари — усе від одного виробника, з однією сервісною мережею та спільною гарантією.
+  tiles:
+    - image: /images/about/tile-ac.jpg
+      title: Кондиціонери
+      text: Від базових моделей до преміальних із фільтрацією та Smart Home. Одно- та багатокімнатні (мультиспліт) для будь-якого інтер’єру.
+      cta:
+        label: Переглянути моделі
+        href: /uk/klimatyzacja
+    - image: /images/about/tile-reku.jpg
+      title: Рекуперація
+      text: Рекуператори Wentilo забезпечують постійний приплив свіжого, відфільтрованого повітря та повертають тепло, яке інакше пішло б із дому.
+      cta:
+        label: Переглянути моделі
+        href: /uk/rekuperacja
+    - image: /images/about/tile-hp.jpg
+      title: Теплові насоси
+      text: Теплові насоси повітря-вода для опалення будинку та гарячої води — у версіях спліт, моноблок і all-in.
+      cta:
+        label: Переглянути моделі
+        href: /uk/pompy-ciepla
+    - image: /images/about/tile-rvf.jpg
+      title: Системи RVF
+      text: Системи RVF/VRF для офісів, готелів і комерційних об’єктів — точне керування температурою в багатьох зонах одночасно.
+      cta:
+        label: Переглянути моделі
+        href: /uk/systemy-rvf
+production:
+  title: Виробництво та експорт
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  videoImage: /images/about/company-video.jpg
+  videoUrl: ''
+mission:
+  background: /images/about/mission-bg.jpg
+  text: Ми пропонуємо комплексні рішення, що дбають про температуру та якість повітря довкола вас. Покращуємо комфорт і якість життя кожного, хто шукає гармонії з довкіллям, незалежно від широти.
+international:
+  title: Міжнародні продажі
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  map: /images/about/europe-map.png
+  countries: Естонія | Литва | Румунія | Болгарія | Франція | Німеччина | Словаччина | Кіпр | Велика Британія | Чехія | Молдова
+timeline:
+  title: А все почалося з...
+  text: Дізнайтеся історію бренду Rotenso
+  items:
+    - year: '2000'
+      title: Народження Thermosilesia
+      text: У Сілезії починає діяльність Thermosilesia — компанія, що займається монтажем, сервісом і продажем систем кондиціонування RAC і CAC провідних виробників. Це фундамент, на якому через 14 років постане Rotenso.
+    - year: '2009'
+      title: Скромні початки логістики
+      text: Компанія має лише 150 м² складської площі та 80 палетомісць — відправна точка для сучасного логістичного центру площею понад 20 000 м².
+    - year: '2010'
+      title: Старт програми власних брендів
+      text: Thermosilesia запускає програму виробництва, розвитку й просування власних брендів HVAC — стратегічне рішення, яке за чотири роки приведе до появи Rotenso.
+    - year: '2012'
+      title: Дебют бренду Ferono
+      text: Першим власним брендом на ринку стають вентилятори й повітряні завіси Ferono — перевірка моделі, яку невдовзі повторять із Rotenso.
+    - year: '2014'
+      title: Народження Rotenso
+      text: На польському ринку дебютують кондиціонери Rotenso — флагманський бренд Thermosilesia. Відтоді компанія інвестує в інверторні технології, розробку настінних, касетних і комерційних блоків та побудову мережі монтажників.
+    - year: 2015 – 2018
+      title: Розширення портфеля брендів
+      text: Поступово з’являються Tivento (мідні труби в ізоляції), Swedo (дренажні помпи), Ivensis (монтажні аксесуари) та Cleanairix (професійна сервісна хімія). У 2018 році команда Thermosilesia налічує вже 47 осіб.
+    - year: '2019'
+      title: Новий логістичний центр
+      text: Після переїзду до Руди-Шльонської логістичний центр Thermosilesia зростає до 4 300 м², а кількість палетомісць — до 6 700. Rotenso отримує реальну базу для зростання продажів.
+    - year: 2020 – 2022
+      title: Від кондиціонування до повного HVAC
+      text: 'Пропозиція Rotenso виходить за межі настінних кондиціонерів: з’являються теплові насоси повітря-вода (Aquami, Airmi, Windmi, Heatmi), розширені комерційні системи та блоки VRF/RVF. Обладнання працює на екологічному холодоагенті R32.'
+    - year: '2023'
+      title: Партнерська мережа зростає
+      text: Rotenso розширює мережу авторизованих монтажників і сервісу в Польщі та Європі, поповнює асортимент настінних кондиціонерів (зокрема серії Versu, Mirai, Elis, Ukura, Imoto) і регулярно проводить технічні навчання для монтажної галузі.
+    - year: '2024'
+      title: Wentilo ICON і 24-річчя Thermosilesia
+      text: На виставці MCE у Мілані Rotenso представляє зовсім нову лінійку рекуператорів Wentilo ICON. Thermosilesia святкує 24 роки діяльності, команда налічує 188 осіб, а компанія отримує Діамант Forbes за динаміку розвитку.
+    - year: '2025'
+      title: Warsaw HVAC Expo і новий центр
+      text: Rotenso представляє новинки на Warsaw HVAC Expo. У Руді-Шльонській стартує будівництво однієї з найбільших інвестицій в історії компанії — нового логістичного центру площею понад 17 000 м².
+    - year: '2026'
+      title: Rotenso сьогодні
+      text: Логістичний центр сягає понад 20 000 м² і 29 000 палетомісць. Rotenso випускає новий каталог систем RVF на сезон 2026/27 і нові серії кондиціонерів (зокрема Luve, Teta, Roni, Fresh) та присутній на ринках Польщі, Німеччини, Франції, Чехії, Італії та України.
+articles:
+  title: Пізнайте наш бренд
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  readLabel: Читати
+  more:
+    label: Більше статей
+    href: /uk/poradniki
+certificates:
+  title: Сертифікати й галузеві нагороди
+  text: Наша продукція відповідає найвищим європейським стандартам якості, безпеки та енергоефективності. Кожен пристрій проходить суворі випробування перед продажем.
+  logos:
+    - image: /images/about/cert-01.png
+      name: Intertek ETL Verified
+    - image: /images/about/cert-02.png
+      name: ENERGY STAR
+    - image: /images/about/cert-03.png
+      name: UL Energy Verified
+    - image: /images/about/cert-04.png
+      name: SASO
+    - image: /images/about/cert-05.png
+      name: CE
+    - image: /images/about/cert-06.png
+      name: CB Scheme
+    - image: /images/about/cert-07.png
+      name: Eurovent Certified Performance
+    - image: /images/about/cert-08.png
+      name: TÜV SÜD GS
+    - image: /images/about/cert-09.png
+      name: SGS GS
+    - image: /images/about/cert-10.png
+      name: NOM
+    - image: /images/about/cert-11.png
+      name: cULus Listed
+    - image: /images/about/cert-12.png
+      name: S-Mark (Argentyna)
+    - image: /images/about/cert-13.png
+      name: CSA C-US
+    - image: /images/about/cert-14.png
+      name: CCC
+    - image: /images/about/cert-15.png
+      name: RCM
+career:
+  background: /images/about/career-bg.jpg
+  title: |-
+    Приєднуйтеся
+    до нас!
+  text: Шукаєте місце, де ваш талант цінуватимуть, а щоденна робота приноситиме справжнє задоволення? У Rotenso ми робимо ставку на інновації, постійний розвиток і злагоджену команду. Шукаємо людей із пристрастю, які хочуть разом із нами створювати сучасні рішення та встановлювати нові стандарти.
+  cta:
+    label: Переглянути вакансії
+    href: /uk/kariera
+showroom:
+  kicker: Відвідайте наш шоурум Rotenso –
+  title: Подивіться, послухайте, оберіть!
+  text: Цікавить, чи пасуватиме кондиціонер із чорною панеллю до вашої вітальні? Хочете почути, як тихо працює найновіший тепловий насос? Замість гадати за каталогом, запрошуємо до нашої експозиційної зони.
+  images:
+    - image: /images/about/showroom-1.jpg
+      title: ''
+    - image: /images/about/showroom-2.jpg
+      title: ''
+    - image: /images/about/showroom-3.jpg
+      title: ''
+recent:
+  title: Нещодавно переглянуті
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  button: Переглянути знову
+contact:
+  background: /images/about/contact-bg.jpg
+  title: Готові до комфорту з Rotenso?
+  text: Знайдіть сертифікованого монтажника поблизу або зв’яжіться з нами.
+  address: |-
+    Rotenso Sp. z o.o.
+    ul. Szyb Walenty 16
+    41-700 Ruda Śląska, Польща
+  cta:
+    label: Знайти монтажника
+    href: /uk/znajdz-instalatora
+seoTitle: Про нас — Rotenso, польський виробник кондиціонерів і теплових насосів
+seoDescription: Rotenso — польський бренд кондиціонерів, теплових насосів, рекуператорів і систем RVF. Дізнайтеся про нашу історію, місію, шоурум і сертифікати.

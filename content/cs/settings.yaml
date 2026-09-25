@@ -9,13 +9,13 @@ nav:
     href: /cs/katalogi
   - label: Kontakt
     href: /cs/kontakt
-searchPlaceholder: Zadejte hledaný model
+searchPlaceholder: Co hledáte?
 configurator:
-  label: Konfigurátor
-  href: /cs/doboromierz
+  label: Asistent výběru
+  href: /cs/asystent-doboru
 installer:
   label: Pro montážníky
-  href: /cs/znajdz-instalatora
+  href: https://professional.rotenso.com
 footerColumns:
   - heading:
       label: Klimatizace
@@ -91,17 +91,14 @@ social:
   tiktok: https://www.tiktok.com/@rotenso.official
   spotify: https://open.spotify.com/show/0WNEImBQhzjgQgSmN5Ph72
   linkedin: https://pl.linkedin.com/company/rotenso
-copyright: |-
-  © {rok} Rotenso®. Všechna práva vyhrazena.
-  Vyhrazujeme si právo na chyby v popisech a technických parametrech. Vynakládáme veškeré úsilí, aby fotografie věrně zachycovaly barvy jednotek; kvůli rozdílům v nastavení monitorů se však barvy mohou od skutečnosti lišit.
 splitVsMulti:
   title: Split, nebo Multi Split?
   split:
-    image: /images/products/split-system.jpg
+    image: /images/products/splitVsMulti/split/image.jpg
     title: Systém Split
     text: Nejjednodušší a nejčastěji volený typ klimatizace do domu nebo bytu. Skládá se z jedné jednotky uvnitř místnosti (obvykle na stěně) a jedné jednotky venku. Je ideální, pokud chcete zajistit komfort v jedné konkrétní místnosti, např. v obývacím pokoji nebo ložnici.
   multi:
-    image: /images/products/multi-split-system.jpg
+    image: /images/products/splitVsMulti/multi/image.jpg
     title: Systém Multi Split
     text: Dobrá volba, pokud chcete klimatizovat více místností současně, ale nemůžete nebo nechcete montovat několik venkovních jednotek na fasádu. Venku se instaluje jediná jednotka, která obsluhuje několik vnitřních klimatizací. Celek vypadá esteticky a nezabírá mnoho místa.
 quoteForm:
@@ -109,7 +106,7 @@ quoteForm:
   text: |-
     Váš komfort je pro nás standard.
     Zanechte nám kontakt a instalatér vám připraví nabídku montáže klimatizace.
-  background: /images/forms/quote-bg.jpg
+  background: /images/forms/quoteForm/background.jpg
   step1: |-
     Krok 1.
     Zanechte nám své kontaktní údaje. Váš požadavek dostane instalatér klimatizací ve vašem okolí.
@@ -123,16 +120,18 @@ quoteForm:
     - Večer (16:00–20:00)
     - Kdykoli
   consent: Souhlasím se zpracováním svých osobních údajů...
-  consentFull: ''
   required: '*povinná pole'
   submit: Odeslat zprávu
   success: Děkujeme! Váš požadavek byl odeslán — instalatér se vám brzy ozve.
   error: Požadavek se nepodařilo odeslat. Zkuste to prosím za chvíli znovu nebo nám zavolejte.
-  step2Image: /images/forms/quote-step-2.jpg
+  step2Image: /images/forms/quoteForm/step2Image.jpg
   step2: |-
     Krok 2.
     Instalatér vás kontaktuje, aby vybral vhodnou klimatizaci a představil nabídku.
-  step3Image: /images/forms/quote-step-3.jpg
+  step3Image: /images/forms/quoteForm/step3Image.jpg
   step3: |-
     Krok 3.
     Jakmile nabídku přijmete, instalatér namontuje vybranou klimatizaci.
+copyright: |-
+  © {rok} Rotenso®. Všechna práva vyhrazena.
+  Vyhrazujeme si právo na chyby v popisech a technických parametrech. Vynakládáme veškeré úsilí, aby fotografie věrně zachycovaly barvy jednotek; kvůli rozdílům v nastavení monitorů se však barvy mohou od skutečnosti lišit.

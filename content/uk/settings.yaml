@@ -9,13 +9,13 @@ nav:
     href: /uk/katalogi
   - label: Контакти
     href: /uk/kontakt
-searchPlaceholder: Введіть модель, яку шукаєте
+searchPlaceholder: Що ви шукаєте?
 configurator:
-  label: Конфігуратор
-  href: /uk/doboromierz
+  label: Помічник підбору
+  href: /uk/asystent-doboru
 installer:
   label: Для монтажників
-  href: /uk/znajdz-instalatora
+  href: https://professional.rotenso.com
 footerColumns:
   - heading:
       label: Кондиціонери
@@ -91,17 +91,14 @@ social:
   tiktok: https://www.tiktok.com/@rotenso.official
   spotify: https://open.spotify.com/show/0WNEImBQhzjgQgSmN5Ph72
   linkedin: https://pl.linkedin.com/company/rotenso
-copyright: |-
-  © {rok} Rotenso®. Усі права захищено.
-  Ми залишаємо за собою право на помилки в описах і технічних характеристиках. Ми докладаємо всіх зусиль, щоб фотографії правдиво передавали кольори пристроїв, однак через різні налаштування моніторів кольори можуть відрізнятися від реальних.
 splitVsMulti:
   title: Спліт чи мультиспліт?
   split:
-    image: /images/products/split-system.jpg
+    image: /images/products/splitVsMulti/split/image.jpg
     title: Спліт-система
     text: Найпростіший і найпопулярніший тип кондиціонування для будинку чи квартири. Складається з одного блока в приміщенні (зазвичай на стіні) та одного блока зовні будівлі. Ідеальне рішення, якщо потрібен комфорт в одній конкретній кімнаті, наприклад у вітальні чи спальні.
   multi:
-    image: /images/products/multi-split-system.jpg
+    image: /images/products/splitVsMulti/multi/image.jpg
     title: Мультиспліт-система
     text: Гарний вибір, якщо ви хочете кондиціонувати кілька приміщень одночасно, але не можете або не хочете монтувати кілька зовнішніх блоків на фасаді. Зовні встановлюється один блок, який обслуговує кілька внутрішніх кондиціонерів. Усе виглядає естетично й займає мало місця.
 quoteForm:
@@ -109,7 +106,7 @@ quoteForm:
   text: |-
     Ваш комфорт — наш стандарт.
     Залиште свої контакти, і монтажник підготує для вас пропозицію встановлення кондиціонера.
-  background: /images/forms/quote-bg.jpg
+  background: /images/forms/quoteForm/background.jpg
   step1: |-
     Крок 1.
     Залиште нам свої контактні дані. Ваш запит отримає монтажник кондиціонерів у вашій місцевості.
@@ -123,16 +120,18 @@ quoteForm:
     - Увечері (16:00–20:00)
     - Будь-коли
   consent: Я погоджуюся на обробку моїх персональних даних...
-  consentFull: ''
   required: '*обов’язкові поля'
   submit: Надіслати повідомлення
   success: Дякуємо! Ваш запит надіслано — монтажник незабаром зв’яжеться з вами.
   error: Не вдалося надіслати запит. Спробуйте ще раз за хвилину або зателефонуйте нам.
-  step2Image: /images/forms/quote-step-2.jpg
+  step2Image: /images/forms/quoteForm/step2Image.jpg
   step2: |-
     Крок 2.
     Монтажник зв’яжеться з вами, щоб підібрати відповідний кондиціонер і представити пропозицію.
-  step3Image: /images/forms/quote-step-3.jpg
+  step3Image: /images/forms/quoteForm/step3Image.jpg
   step3: |-
     Крок 3.
     Після того як ви приймете пропозицію, монтажник встановить обраний кондиціонер.
+copyright: |-
+  © {rok} Rotenso®. Усі права захищено.
+  Ми залишаємо за собою право на помилки в описах і технічних характеристиках. Ми докладаємо всіх зусиль, щоб фотографії правдиво передавали кольори пристроїв, однак через різні налаштування моніторів кольори можуть відрізнятися від реальних.

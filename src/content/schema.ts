@@ -627,3 +627,141 @@ export const menuSchema = {
     },
   ),
 };
+
+// "O nas v03" (Figma 5172:76530).
+export const aboutSchema = {
+  hero: fields.object(
+    {
+      image: image("Zdjęcie (1820×930)", "about"),
+      video: fields.text({ label: "Film w tle (adres MP4, opcjonalnie)" }),
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+    },
+    { label: "Nagłówek" },
+  ),
+  stats: fields.array(
+    fields.object({ value: fields.text({ label: "Liczba (np. 25+)" }), label: fields.text({ label: "Opis" }) }),
+    { label: "Liczby", itemLabel: (s) => `${s.fields.value.value} ${s.fields.label.value}` },
+  ),
+  company: fields.object(
+    {
+      background: image("Tło", "about"),
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+      videoImage: image("Kadr filmu", "about"),
+      videoUrl: fields.text({ label: "Link do filmu (YouTube) — bez linku nie ma przycisku play" }),
+    },
+    { label: "Polska firma z globalną wizją" },
+  ),
+  ecosystem: fields.object(
+    {
+      background: image("Tło", "about"),
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+      tiles: fields.array(
+        fields.object({
+          image: image("Zdjęcie (970×545)", "about"),
+          title: fields.text({ label: "Tytuł" }),
+          text: fields.text({ label: "Opis pod aktywnym kafelkiem", multiline: true }),
+          cta: link("Przycisk"),
+        }),
+        { label: "Kafelki", itemLabel: (t) => t.fields.title.value || "Kafelek" },
+      ),
+    },
+    { label: "Kompleksowy ekosystem" },
+  ),
+  production: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+      videoImage: image("Kadr filmu", "about"),
+      videoUrl: fields.text({ label: "Link do filmu (YouTube) — bez linku nie ma przycisku play" }),
+    },
+    { label: "Produkcja i eksport" },
+  ),
+  mission: fields.object(
+    { background: image("Tło", "about"), text: fields.text({ label: "Misja", multiline: true }) },
+    { label: "Misja (cytat)" },
+  ),
+  international: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+      map: image("Mapa", "about"),
+      countries: fields.text({ label: "Kraje (oddzielone |)" }),
+    },
+    { label: "Sprzedaż międzynarodowa" },
+  ),
+  timeline: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Tekst" }),
+      items: fields.array(
+        fields.object({ year: fields.text({ label: "Rok" }), title: fields.text({ label: "Tytuł" }), text: fields.text({ label: "Opis", multiline: true }) }),
+        { label: "Historia", itemLabel: (i) => `${i.fields.year.value} — ${i.fields.title.value}` },
+      ),
+    },
+    { label: "Historia marki (oś czasu)" },
+  ),
+  articles: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Tekst" }),
+      readLabel: fields.text({ label: "Przycisk na karcie" }),
+      more: link("Przycisk pod sliderem"),
+    },
+    { label: "Artykuły (karty = najnowsze poradniki)" },
+  ),
+  certificates: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+      logos: fields.array(
+        fields.object({ image: image("Logo", "about"), name: fields.text({ label: "Nazwa (dla czytników ekranu)" }) }),
+        { label: "Logotypy", itemLabel: (l) => l.fields.name.value || "Logo" },
+      ),
+    },
+    { label: "Certyfikaty i nagrody" },
+  ),
+  career: fields.object(
+    {
+      background: image("Tło", "about"),
+      title: fields.text({ label: "Tytuł", multiline: true }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+      cta: link("Przycisk"),
+    },
+    { label: "Kariera" },
+  ),
+  showroom: fields.object(
+    {
+      kicker: fields.text({ label: "Nadtytuł" }),
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+      images: fields.array(
+        fields.object({ image: image("Zdjęcie", "about"), title: fields.text({ label: "Podpis (opcjonalnie)" }) }),
+        { label: "Zdjęcia", itemLabel: (i) => i.fields.title.value || "Zdjęcie" },
+      ),
+    },
+    { label: "Showroom" },
+  ),
+  recent: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Tekst" }),
+      button: fields.text({ label: "Przycisk na karcie" }),
+    },
+    { label: "Ostatnio oglądane (pokazuje się tylko, gdy ktoś oglądał produkty)" },
+  ),
+  contact: fields.object(
+    {
+      background: image("Tło", "about"),
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+      address: fields.text({ label: "Adres", multiline: true }),
+      cta: link("Przycisk"),
+    },
+    { label: "Kontakt (telefon i e-mail z Ustawień)" },
+  ),
+  seoTitle: fields.text({ label: "SEO — tytuł" }),
+  seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
+};

@@ -5,14 +5,17 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { FramedImage } from "@/components/ui/FramedImage";
 import { SliderBar } from "@/components/ui/SliderBar";
-import { SectionBackdrop } from "./SectionBackdrop";
+import { diagonalGradient, SectionBackdrop } from "./SectionBackdrop";
 import type { Ui } from "@/i18n/ui";
 import type { HomeContent } from "@/lib/content";
 
 const CARD_STEP = 440; // 420 card + 20 gap
 
+type GuidesData = Pick<HomeContent["guides"], "title" | "text" | "readLabel" | "more"> & { items: HomeContent["guides"]["items"] };
+
 // Figma: "Poradnik" (5172:70555) — horizontally scrolling 420×436 cards, first card aligned with the container.
-export function Guides({ data, ui }: { data: HomeContent["guides"]; ui: Ui }) {
+// "boxed" (O nas → "Artykuły"): the same slider inside a 1820-wide rounded gradient box.
+export function Guides({ data, ui, boxed = false }: { data: GuidesData; ui: Ui; boxed?: boolean }) {
   const scroller = useRef<HTMLDivElement>(null);
   const [progress, setProgress] = useState(0);
 
@@ -33,9 +36,12 @@ export function Guides({ data, ui }: { data: HomeContent["guides"]; ui: Ui }) {
     scroller.current?.scrollBy({ left: dir * CARD_STEP, behavior: "smooth" });
 
   return (
-    <section className="relative mt-[150px]">
+    <section
+      className={boxed ? "relative mx-[50px] mt-[200px] overflow-hidden rounded-[32px] py-[50px]" : "relative mt-[150px]"}
+      style={boxed ? { backgroundImage: diagonalGradient(887, 1820) } : undefined}
+    >
       {/* Rectangle 32: backdrop from y 5301 (500px above the title), 1427px tall. */}
-      <SectionBackdrop top={-500} height={1427} />
+      {!boxed && <SectionBackdrop top={-500} height={1427} />}
 
       <div className="mx-auto flex w-[860px] max-w-[calc(100%-32px)] flex-col items-center gap-[30px] text-center font-light text-rotenso-grey">
         <h2 className="w-full text-h1 leading-[1.2]">{data.title}</h2>
@@ -86,7 +92,7 @@ export function Guides({ data, ui }: { data: HomeContent["guides"]; ui: Ui }) {
         />
       </div>
 
-      <div className="mt-[35px] flex justify-center">
+      <div className={`${boxed ? "mt-[50px]" : "mt-[35px]"} flex justify-center`}>
         <Button variant="m-red" href={data.more.href}>
           {data.more.label}
         </Button>

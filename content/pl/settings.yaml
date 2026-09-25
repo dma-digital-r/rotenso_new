@@ -9,13 +9,13 @@ nav:
     href: /pl/katalogi
   - label: Kontakt
     href: /pl/kontakt
-searchPlaceholder: Wpisz model, który szukasz
+searchPlaceholder: Czego szukasz?
 configurator:
-  label: Konfigurator
-  href: /pl/doboromierz
+  label: Asystent doboru
+  href: /pl/asystent-doboru
 installer:
   label: Dla instalatora
-  href: /pl/znajdz-instalatora
+  href: https://professional.rotenso.com
 footerColumns:
   - heading:
       label: Klimatyzacje
@@ -91,32 +91,39 @@ social:
   tiktok: https://www.tiktok.com/@rotenso.official
   spotify: https://open.spotify.com/show/0WNEImBQhzjgQgSmN5Ph72
   linkedin: https://pl.linkedin.com/company/rotenso
-copyright: >-
-  © {rok} Rotenso®. Wszystkie prawa zastrzeżone.
-
-  Zastrzegamy sobie prawo do błędów w opisach oraz parametrach technicznych. Ze
-  swojej strony dokładamy wszelkich możliwych starań, aby fotografie wiernie
-  oddawały kolorystykę urządzeń, jednak ze względu na różnice w indywidualnych
-  ustawieniach monitora kolory te mogą się różnić od rzeczywistych.
 splitVsMulti:
   title: Split czy Multi Split?
   split:
-    image: /images/products/split-system.jpg
+    image: /images/products/splitVsMulti/split/image.jpg
     title: System Split
-    text: To najprostszy i najczęściej wybierany rodzaj klimatyzacji do domu lub mieszkania. Składa się z jednego urządzenia w środku pomieszczenia (zwykle na ścianie) i jednego urządzenia na zewnątrz budynku. To rozwiązanie sprawdzi się idealnie, jeśli chcesz zadbać o komfort w jednym konkretnym pomieszczeniu, np. w salonie lub sypialni.
+    text: >-
+      To najprostszy i najczęściej wybierany rodzaj klimatyzacji do domu lub
+      mieszkania. Składa się z jednego urządzenia w środku pomieszczenia (zwykle
+      na ścianie) i jednego urządzenia na zewnątrz budynku. To rozwiązanie
+      sprawdzi się idealnie, jeśli chcesz zadbać o komfort w jednym konkretnym
+      pomieszczeniu, np. w salonie lub sypialni.
   multi:
-    image: /images/products/multi-split-system.jpg
+    image: /images/products/splitVsMulti/multi/image.jpg
     title: System Multi Split
-    text: To dobry wybór, gdy chcesz mieć klimatyzację w wielu pomieszczeniach jednocześnie, a nie możesz lub nie chcesz montować kilku agregatów na elewacji budynku. Na zewnątrz budynku instalowane jest więc jedno urządzenie, które obsługuje kilka klimatyzatorów w środku. Całość wygląda estetycznie i nie zajmuje dużo miejsca.
+    text: >-
+      To dobry wybór, gdy chcesz mieć klimatyzację w wielu pomieszczeniach
+      jednocześnie, a nie możesz lub nie chcesz montować kilku agregatów na
+      elewacji budynku. Na zewnątrz budynku instalowane jest więc jedno
+      urządzenie, które obsługuje kilka klimatyzatorów w środku. Całość wygląda
+      estetycznie i nie zajmuje dużo miejsca.
 quoteForm:
   title: Zapytaj o wycenę
-  text: |-
+  text: >-
     Twój komfort to dla nas standard.
-    Podaj swoje dane kontaktowe, a instalator przygotuje dla Ciebie ofertę montażu klimatyzacji.
-  background: /images/forms/quote-bg.jpg
-  step1: |-
+
+    Podaj swoje dane kontaktowe, a instalator przygotuje dla Ciebie ofertę
+    montażu klimatyzacji.
+  background: /images/forms/quoteForm/background.jpg
+  step1: >-
     Krok 1.
-    Zostaw nam swoje dane kontaktowe. Twoje zgłoszenie trafi do instalatora klimatyzacji w Twojej okolicy.
+
+    Zostaw nam swoje dane kontaktowe. Twoje zgłoszenie trafi do instalatora
+    klimatyzacji w Twojej okolicy.
   phone: Podaj swój nr telefonu*
   email: Podaj swój adres e-mail*
   postcode: Kod pocztowy miejsca instalacji*
@@ -127,16 +134,28 @@ quoteForm:
     - Wieczorem (16:00–20:00)
     - Obojętnie
   consent: Wyrażam zgodę na przetwarzanie moich danych osobowych...
-  consentFull: ''
   required: '*pola wymagane'
   submit: Wyślij wiadomość
-  success: Dziękujemy! Twoje zgłoszenie zostało wysłane — instalator skontaktuje się z Tobą wkrótce.
-  error: Nie udało się wysłać zgłoszenia. Spróbuj ponownie za chwilę albo zadzwoń do nas.
-  step2Image: /images/forms/quote-step-2.jpg
-  step2: |-
+  success: >-
+    Dziękujemy! Twoje zgłoszenie zostało wysłane — instalator skontaktuje się z
+    Tobą wkrótce.
+  error: >-
+    Nie udało się wysłać zgłoszenia. Spróbuj ponownie za chwilę albo zadzwoń do
+    nas.
+  step2Image: /images/forms/quoteForm/step2Image.jpg
+  step2: >-
     Krok 2.
-    Instalator skontaktuje się z Tobą, aby dopasować odpowiednią klimatyzację i przedstawić ofertę.
-  step3Image: /images/forms/quote-step-3.jpg
+
+    Instalator skontaktuje się z Tobą, aby dopasować odpowiednią klimatyzację i
+    przedstawić ofertę.
+  step3Image: /images/forms/quoteForm/step3Image.jpg
   step3: |-
     Krok 3.
     Gdy zaakceptujesz ofertę, instalator zamontuje wybraną klimatyzację.
+copyright: >-
+  © {rok} Rotenso®. Wszystkie prawa zastrzeżone.
+
+  Zastrzegamy sobie prawo do błędów w opisach oraz parametrach technicznych. Ze
+  swojej strony dokładamy wszelkich możliwych starań, aby fotografie wiernie
+  oddawały kolorystykę urządzeń, jednak ze względu na różnice w indywidualnych
+  ustawieniach monitora kolory te mogą się różnić od rzeczywistych.

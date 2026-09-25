@@ -9,13 +9,13 @@ nav:
     href: /de/katalogi
   - label: Kontakt
     href: /de/kontakt
-searchPlaceholder: Gesuchtes Modell eingeben
+searchPlaceholder: Wonach suchen Sie?
 configurator:
-  label: Konfigurator
-  href: /de/doboromierz
+  label: Auswahlassistent
+  href: /de/asystent-doboru
 installer:
   label: Für Installateure
-  href: /de/znajdz-instalatora
+  href: https://professional.rotenso.com
 footerColumns:
   - heading:
       label: Klimaanlagen
@@ -91,17 +91,14 @@ social:
   tiktok: https://www.tiktok.com/@rotenso.official
   spotify: https://open.spotify.com/show/0WNEImBQhzjgQgSmN5Ph72
   linkedin: https://pl.linkedin.com/company/rotenso
-copyright: |-
-  © {rok} Rotenso®. Alle Rechte vorbehalten.
-  Irrtümer in Beschreibungen und technischen Daten vorbehalten. Wir bemühen uns, dass die Fotos die Farben der Geräte naturgetreu wiedergeben; aufgrund unterschiedlicher Monitoreinstellungen können die Farben jedoch von der Realität abweichen.
 splitVsMulti:
   title: Split oder Multi-Split?
   split:
-    image: /images/products/split-system.jpg
+    image: /images/products/splitVsMulti/split/image.jpg
     title: Split-System
     text: Die einfachste und am häufigsten gewählte Art der Klimatisierung für Haus oder Wohnung. Sie besteht aus einem Innengerät im Raum (meist an der Wand) und einem Außengerät vor dem Gebäude. Ideal, wenn Sie den Komfort in einem bestimmten Raum verbessern möchten, z. B. im Wohn- oder Schlafzimmer.
   multi:
-    image: /images/products/multi-split-system.jpg
+    image: /images/products/splitVsMulti/multi/image.jpg
     title: Multi-Split-System
     text: Eine gute Wahl, wenn Sie mehrere Räume gleichzeitig klimatisieren möchten, aber nicht mehrere Außengeräte an der Fassade montieren können oder wollen. Draußen wird ein einziges Gerät installiert, das mehrere Innengeräte versorgt. Das Ganze sieht ordentlich aus und braucht wenig Platz.
 quoteForm:
@@ -109,7 +106,7 @@ quoteForm:
   text: |-
     Ihr Komfort ist unser Standard.
     Hinterlassen Sie Ihre Kontaktdaten, und ein Installateur erstellt Ihnen ein Angebot für die Montage der Klimaanlage.
-  background: /images/forms/quote-bg.jpg
+  background: /images/forms/quoteForm/background.jpg
   step1: |-
     Schritt 1.
     Hinterlassen Sie uns Ihre Kontaktdaten. Ihre Anfrage geht an einen Klimaanlagen-Installateur in Ihrer Nähe.
@@ -123,16 +120,18 @@ quoteForm:
     - Abends (16:00–20:00)
     - Egal
   consent: Ich willige in die Verarbeitung meiner personenbezogenen Daten ein...
-  consentFull: ''
   required: '*Pflichtfelder'
   submit: Nachricht senden
   success: Vielen Dank! Ihre Anfrage wurde gesendet — ein Installateur meldet sich in Kürze bei Ihnen.
   error: Ihre Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es gleich noch einmal oder rufen Sie uns an.
-  step2Image: /images/forms/quote-step-2.jpg
+  step2Image: /images/forms/quoteForm/step2Image.jpg
   step2: |-
     Schritt 2.
     Der Installateur meldet sich bei Ihnen, um die passende Klimaanlage auszuwählen und ein Angebot vorzulegen.
-  step3Image: /images/forms/quote-step-3.jpg
+  step3Image: /images/forms/quoteForm/step3Image.jpg
   step3: |-
     Schritt 3.
     Sobald Sie das Angebot annehmen, montiert der Installateur die gewählte Klimaanlage.
+copyright: |-
+  © {rok} Rotenso®. Alle Rechte vorbehalten.
+  Irrtümer in Beschreibungen und technischen Daten vorbehalten. Wir bemühen uns, dass die Fotos die Farben der Geräte naturgetreu wiedergeben; aufgrund unterschiedlicher Monitoreinstellungen können die Farben jedoch von der Realität abweichen.

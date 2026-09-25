@@ -1,4 +1,7 @@
 import { FramedImage } from "@/components/ui/FramedImage";
+import { existsSync } from "node:fs";
+import path from "node:path";
+import { RememberProduct } from "@/components/about/RecentlyViewed";
 import { Advantages } from "@/components/product/Advantages";
 import { Faq } from "@/components/product/Faq";
 import { FeaturePanel } from "@/components/product/FeaturePanel";
@@ -56,9 +59,13 @@ export default async function ProductPage({ params }: Props) {
   const intro = entry.purchaseIntro;
   const gallery = entry.gallery.filter(Boolean) as string[];
   const hasGrid = entry.advantages.grid.length > 0;
+  // "Ostatnio oglądane" card: the menu tile image of this model, else the first feed photo.
+  const menuImage = `/images/menu/${page.slug}.png`;
+  const thumb = existsSync(path.join(process.cwd(), "public", menuImage)) ? menuImage : (variants[0]?.images[0] ?? null);
 
   return (
     <main className="pb-[151px]">
+      <RememberProduct product={{ href: base, name: entry.name, text: entry.tagline, image: thumb }} />
       <ProductHero product={entry} lang={lang} ui={ui} categoryHref={`/${lang}/${entry.category}`} />
       <ProductBar product={entry} base={base} active="overview" ui={ui} lang={lang} />
       <IntroVideo intro={entry.intro} />

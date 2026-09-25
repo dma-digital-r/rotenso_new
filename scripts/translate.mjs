@@ -16,7 +16,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import yaml from "js-yaml";
 
-const FILES = ["home", "settings", "menu"];
+const FILES = ["home", "settings", "menu", "about"];
 const TARGETS = ["en", "de", "fr", "cs", "it", "uk"];
 const DEEPL_TARGET = { en: "EN-GB", de: "DE", fr: "FR", cs: "CS", it: "IT", uk: "UK" };
 

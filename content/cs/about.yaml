@@ -1,0 +1,181 @@
+hero:
+  image: /images/about/hero.jpg
+  video: ''
+  title: Polský výrobce komfortu
+  text: Více než 20 let zkušeností, 500+ certifikovaných instalatérů a kompletní nabídka klimatizačních řešení — to je Rotenso.
+stats:
+  - value: 25+
+    label: let na trhu
+  - value: 500+
+    label: certifikovaných instalatérů
+  - value: 3000+
+    label: inženýrů a zaměstnanců
+company:
+  background: /images/about/company-bg.jpg
+  title: Polská firma s globální vizí
+  text: |-
+    Rotenso je polská značka od prvního dne. Nejsme distributorem zahraničního výrobce — navrhujeme produkty s ohledem na polské klima, polské domy a polské provozní podmínky.
+
+    Spojujeme místní inženýrské know-how s moderními technologiemi a nabízíme řešení srovnatelná se světovými lídry oboru — za konkurenceschopnou cenu a s místním servisem v celém Polsku.
+  videoImage: /images/about/company-video.jpg
+  videoUrl: ''
+ecosystem:
+  background: /images/about/ecosystem-bg.jpg
+  title: Komplexní ekosystém
+  text: Klimatizace, tepelná čerpadla, větrání a příslušenství — vše od jednoho výrobce, s jednou servisní sítí a společnou zárukou.
+  tiles:
+    - image: /images/about/tile-ac.jpg
+      title: Klimatizace
+      text: Od základních modelů po prémiové s filtrací a Smart Home. Jednopokojové i vícepokojové (multi split) do každého interiéru.
+      cta:
+        label: Poznejte modely
+        href: /cs/klimatyzacja
+    - image: /images/about/tile-reku.jpg
+      title: Rekuperace
+      text: Rekuperační jednotky Wentilo zajišťují stálý přívod čerstvého, filtrovaného vzduchu a získávají zpět teplo, které by jinak z domu uniklo.
+      cta:
+        label: Poznejte modely
+        href: /cs/rekuperacja
+    - image: /images/about/tile-hp.jpg
+      title: Tepelná čerpadla
+      text: Tepelná čerpadla vzduch-voda pro vytápění domu a ohřev teplé vody — ve verzích split, monoblock a all-in.
+      cta:
+        label: Poznejte modely
+        href: /cs/pompy-ciepla
+    - image: /images/about/tile-rvf.jpg
+      title: Systémy RVF
+      text: Systémy RVF/VRF pro kanceláře, hotely a komerční objekty — přesné řízení teploty v mnoha zónách současně.
+      cta:
+        label: Poznejte modely
+        href: /cs/systemy-rvf
+production:
+  title: Výroba a export
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  videoImage: /images/about/company-video.jpg
+  videoUrl: ''
+mission:
+  background: /images/about/mission-bg.jpg
+  text: Poskytujeme komplexní řešení, která se starají o teplotu a kvalitu vzduchu ve vašem okolí. Zlepšujeme komfort a kvalitu života každému, kdo hledá harmonii s okolím, bez ohledu na zeměpisnou šířku.
+international:
+  title: Mezinárodní prodej
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  map: /images/about/europe-map.png
+  countries: Estonsko | Litva | Rumunsko | Bulharsko | Francie | Německo | Slovensko | Kypr | Velká Británie | Česko | Moldavsko
+timeline:
+  title: A všechno to začalo...
+  text: Poznejte příběh značky Rotenso
+  items:
+    - year: '2000'
+      title: Vznik Thermosilesie
+      text: Ve Slezsku zahajuje činnost Thermosilesia — firma zabývající se montáží, servisem a prodejem klimatizačních systémů RAC a CAC předních výrobců. Je to základ, na kterém za 14 let vznikne Rotenso.
+    - year: '2009'
+      title: Skromné začátky logistiky
+      text: Firma má pouhých 150 m² skladové plochy a 80 paletových míst — výchozí bod pro dnešní logistické centrum o rozloze přes 20 000 m².
+    - year: '2010'
+      title: Start programu vlastních značek
+      text: Thermosilesia zahajuje program výroby, vývoje a propagace vlastních značek HVAC — strategické rozhodnutí, které o čtyři roky později povede ke vzniku Rotenso.
+    - year: '2012'
+      title: Debut značky Ferono
+      text: První vlastní značkou na trhu jsou ventilátory a vzduchové clony Ferono — ověření modelu, který se brzy zopakuje u Rotenso.
+    - year: '2014'
+      title: Vznik Rotenso
+      text: Na polském trhu debutují klimatizace Rotenso — vlajková značka Thermosilesie. Od té doby firma investuje do invertorové technologie, vývoje nástěnných, kazetových a komerčních jednotek a budování sítě instalatérů.
+    - year: 2015 – 2018
+      title: Rozšíření portfolia značek
+      text: Postupně vznikají Tivento (izolované měděné trubky), Swedo (čerpadla kondenzátu), Ivensis (montážní příslušenství) a Cleanairix (profesionální servisní chemie). V roce 2018 má tým Thermosilesie již 47 lidí.
+    - year: '2019'
+      title: Nové logistické centrum
+      text: Po přestěhování do Rudy Śląske roste logistické centrum Thermosilesie na 4 300 m² a počet paletových míst na 6 700. Rotenso získává skutečné zázemí pro růst prodeje.
+    - year: 2020 – 2022
+      title: Od klimatizace k úplnému HVAC
+      text: 'Nabídka Rotenso přesahuje nástěnné klimatizace: přibývají tepelná čerpadla vzduch-voda (Aquami, Airmi, Windmi, Heatmi), rozšířené komerční systémy a jednotky VRF/RVF. Zařízení pracují s ekologickým chladivem R32.'
+    - year: '2023'
+      title: Partnerská síť roste
+      text: Rotenso rozšiřuje síť autorizovaných instalatérů a servisů v Polsku i Evropě, rozšiřuje nabídku nástěnných klimatizací (mj. řady Versu, Mirai, Elis, Ukura, Imoto) a pravidelně pořádá technická školení pro instalatérský obor.
+    - year: '2024'
+      title: Wentilo ICON a 24 let Thermosilesie
+      text: Na veletrhu MCE v Miláně představuje Rotenso zcela novou řadu rekuperačních jednotek Wentilo ICON. Thermosilesia slaví 24 let, tým čítá 188 lidí a firma získává Forbes Diamant za dynamiku růstu.
+    - year: '2025'
+      title: Warsaw HVAC Expo a nové centrum
+      text: Rotenso představuje novinky na Warsaw HVAC Expo. V Rudě Śląske začíná výstavba jedné z největších investic v historii firmy — nového logistického centra o rozloze přes 17 000 m².
+    - year: '2026'
+      title: Rotenso dnes
+      text: Logistické centrum dosahuje přes 20 000 m² a 29 000 paletových míst. Rotenso uvádí nový katalog systémů RVF pro sezónu 2026/27 a další řady klimatizací (mj. Luve, Teta, Roni, Fresh) a působí v Polsku, Německu, Francii, Česku, Itálii a na Ukrajině.
+articles:
+  title: Poznejte naši značku
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  readLabel: Přečíst
+  more:
+    label: Zobrazit další články
+    href: /cs/poradniki
+certificates:
+  title: Certifikáty a oborová ocenění
+  text: Naše produkty splňují nejvyšší evropské normy kvality, bezpečnosti a energetické účinnosti. Každé zařízení prochází před uvedením do prodeje přísnými testy.
+  logos:
+    - image: /images/about/cert-01.png
+      name: Intertek ETL Verified
+    - image: /images/about/cert-02.png
+      name: ENERGY STAR
+    - image: /images/about/cert-03.png
+      name: UL Energy Verified
+    - image: /images/about/cert-04.png
+      name: SASO
+    - image: /images/about/cert-05.png
+      name: CE
+    - image: /images/about/cert-06.png
+      name: CB Scheme
+    - image: /images/about/cert-07.png
+      name: Eurovent Certified Performance
+    - image: /images/about/cert-08.png
+      name: TÜV SÜD GS
+    - image: /images/about/cert-09.png
+      name: SGS GS
+    - image: /images/about/cert-10.png
+      name: NOM
+    - image: /images/about/cert-11.png
+      name: cULus Listed
+    - image: /images/about/cert-12.png
+      name: S-Mark (Argentyna)
+    - image: /images/about/cert-13.png
+      name: CSA C-US
+    - image: /images/about/cert-14.png
+      name: CCC
+    - image: /images/about/cert-15.png
+      name: RCM
+career:
+  background: /images/about/career-bg.jpg
+  title: |-
+    Přidejte se
+    k nám!
+  text: Hledáte místo, kde bude váš talent oceněn a každodenní práce vám přinese skutečné uspokojení? V Rotenso sázíme na inovace, neustálý rozvoj a sehraný tým. Hledáme lidi s vášní, kteří chtějí společně s námi vytvářet moderní řešení a určovat nové standardy.
+  cta:
+    label: Zobrazit aktuální nabídky práce
+    href: /cs/kariera
+showroom:
+  kicker: Navštivte náš showroom Rotenso –
+  title: Podívejte se, poslechněte si, vyberte!
+  text: Přemýšlíte, zda se klimatizace s černým panelem hodí do vašeho obývacího pokoje? Chcete slyšet, jak tiše pracuje nejnovější tepelné čerpadlo? Místo hádání z katalogu vás zveme do naší expoziční zóny.
+  images:
+    - image: /images/about/showroom-1.jpg
+      title: ''
+    - image: /images/about/showroom-2.jpg
+      title: ''
+    - image: /images/about/showroom-3.jpg
+      title: ''
+recent:
+  title: Naposledy zobrazené
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  button: Zobrazit znovu
+contact:
+  background: /images/about/contact-bg.jpg
+  title: Připraveni na komfort s Rotenso?
+  text: Najděte certifikovaného instalatéra ve svém okolí nebo nás kontaktujte.
+  address: |-
+    Rotenso Sp. z o.o.
+    ul. Szyb Walenty 16
+    41-700 Ruda Śląska, Polsko
+  cta:
+    label: Najít montážníka
+    href: /cs/znajdz-instalatora
+seoTitle: O nás — Rotenso, polský výrobce klimatizací a tepelných čerpadel
+seoDescription: Rotenso je polská značka klimatizací, tepelných čerpadel, rekuperačních jednotek a systémů RVF. Poznejte náš příběh, poslání, showroom a certifikáty.

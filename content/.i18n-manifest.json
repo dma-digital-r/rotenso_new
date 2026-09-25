@@ -440,12 +440,12 @@
         "out": "b37456c4530be810"
       },
       "searchPlaceholder": {
-        "src": "c1d170a51efd81a7",
-        "out": "51eaf7acb78e888e"
+        "src": "f69aa27201458b58",
+        "out": "ffca59bc5b7dadbd"
       },
       "configurator.label": {
-        "src": "43a37cf68b2e006f",
-        "out": "82f5bb6390f59fa4"
+        "src": "10eec33a1323771d",
+        "out": "89a411afc8f6754e"
       },
       "installer.label": {
         "src": "9f7321ec9ced3043",
@@ -1989,6 +1989,308 @@
         "src": "58f5a99c936fbae0",
         "out": "d0d86231897d5f1a"
       }
+    },
+    "about": {
+      "hero.title": {
+        "src": "e47d17a3802f2f8a",
+        "out": "010e903987df0a4a"
+      },
+      "hero.text": {
+        "src": "0cc18528fd98567f",
+        "out": "538d15594140705c"
+      },
+      "stats.0.value": {
+        "src": "368ace5e660611c0",
+        "out": "368ace5e660611c0"
+      },
+      "stats.0.label": {
+        "src": "e75dabfe937e8c96",
+        "out": "a12b5df7793ef923"
+      },
+      "stats.1.value": {
+        "src": "daf51216e55b778a",
+        "out": "daf51216e55b778a"
+      },
+      "stats.1.label": {
+        "src": "4e9a1aff8d45ee66",
+        "out": "629114c3044adbb8"
+      },
+      "stats.2.value": {
+        "src": "e6c571ed1246b59c",
+        "out": "e6c571ed1246b59c"
+      },
+      "stats.2.label": {
+        "src": "c350e6037b3df3a9",
+        "out": "6c54e88dd0596494"
+      },
+      "company.title": {
+        "src": "15b032fc67b30ce5",
+        "out": "bf980d2e8747a4db"
+      },
+      "company.text": {
+        "src": "552fd416b463a8a7",
+        "out": "cea141f245ff3d86"
+      },
+      "ecosystem.title": {
+        "src": "b5da9e2880d2e926",
+        "out": "802a4e31e44a9e4d"
+      },
+      "ecosystem.text": {
+        "src": "76dab0927360537a",
+        "out": "5ae32eac2a9a797b"
+      },
+      "ecosystem.tiles.0.title": {
+        "src": "5d6e0719ce3778b1",
+        "out": "d368160195d9b0ef"
+      },
+      "ecosystem.tiles.0.text": {
+        "src": "652b17c76f802b9f",
+        "out": "010813de9e17b833"
+      },
+      "ecosystem.tiles.0.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "087c88b3a60100d1"
+      },
+      "ecosystem.tiles.1.title": {
+        "src": "8012440906264dab",
+        "out": "7029415a43fbe2ed"
+      },
+      "ecosystem.tiles.1.text": {
+        "src": "ebcd3fb5512ace8a",
+        "out": "ffc80b7b8423faa3"
+      },
+      "ecosystem.tiles.1.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "087c88b3a60100d1"
+      },
+      "ecosystem.tiles.2.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "aa12cb2b2522fe15"
+      },
+      "ecosystem.tiles.2.text": {
+        "src": "f0ff1d8457294e4e",
+        "out": "ceb4c6a3f2283b66"
+      },
+      "ecosystem.tiles.2.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "087c88b3a60100d1"
+      },
+      "ecosystem.tiles.3.title": {
+        "src": "c13c5da0164f24e6",
+        "out": "aa5d365690ff0001"
+      },
+      "ecosystem.tiles.3.text": {
+        "src": "208a21cc31607c78",
+        "out": "e4424afde64377d9"
+      },
+      "ecosystem.tiles.3.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "087c88b3a60100d1"
+      },
+      "production.title": {
+        "src": "c2ea0c6f73e4a519",
+        "out": "5584c8034dc0f8fb"
+      },
+      "mission.text": {
+        "src": "f88da788d37477d0",
+        "out": "aa8414b53d51aee1"
+      },
+      "international.title": {
+        "src": "239b450c7b8dff7e",
+        "out": "42469ac5f7ae04ba"
+      },
+      "international.countries": {
+        "src": "7627b65ad4b69858",
+        "out": "c7c1876244ca08eb"
+      },
+      "timeline.title": {
+        "src": "6bc6e41947e3e6a1",
+        "out": "030b5cf43ad432c6"
+      },
+      "timeline.text": {
+        "src": "75c1443c3499e306",
+        "out": "657d74a3aed1d6a7"
+      },
+      "timeline.items.0.title": {
+        "src": "343c8678d22f14b2",
+        "out": "a6fb5e50d2183cc0"
+      },
+      "timeline.items.0.text": {
+        "src": "3b07959e623ba817",
+        "out": "be7ce6da8ebf28ca"
+      },
+      "timeline.items.1.title": {
+        "src": "4eff4f417c47447b",
+        "out": "eb45628c93a33a60"
+      },
+      "timeline.items.1.text": {
+        "src": "97e75a1deca04b36",
+        "out": "e12a38344227fcfc"
+      },
+      "timeline.items.2.title": {
+        "src": "22b3270ca019a797",
+        "out": "1af446331de8df60"
+      },
+      "timeline.items.2.text": {
+        "src": "0274a49d68162fd3",
+        "out": "e5131a641379e17a"
+      },
+      "timeline.items.3.title": {
+        "src": "34ffae759d411fcb",
+        "out": "602356274f27ec1c"
+      },
+      "timeline.items.3.text": {
+        "src": "0cdc6a19e99aea5a",
+        "out": "4d34caff3cb840ab"
+      },
+      "timeline.items.4.title": {
+        "src": "c259726255ab9b7d",
+        "out": "e0e076d29afb8835"
+      },
+      "timeline.items.4.text": {
+        "src": "a2386cf6ac442b9e",
+        "out": "8eb65665025c324c"
+      },
+      "timeline.items.5.year": {
+        "src": "34f89aadea1b3196",
+        "out": "34f89aadea1b3196"
+      },
+      "timeline.items.5.title": {
+        "src": "10e770a1749e6a1b",
+        "out": "18a3d2c4be682565"
+      },
+      "timeline.items.5.text": {
+        "src": "ffb027f5695dd7c6",
+        "out": "34de306e55773aea"
+      },
+      "timeline.items.6.title": {
+        "src": "59310572a565c668",
+        "out": "18684b9b7a209676"
+      },
+      "timeline.items.6.text": {
+        "src": "a5fb0fe4fa3a2690",
+        "out": "909bfa9661b99833"
+      },
+      "timeline.items.7.year": {
+        "src": "d6e2fa99715e82d4",
+        "out": "d6e2fa99715e82d4"
+      },
+      "timeline.items.7.title": {
+        "src": "b69295ef8316fc2d",
+        "out": "55baebac10cc85de"
+      },
+      "timeline.items.7.text": {
+        "src": "2cb58ce9f6729af9",
+        "out": "b225a24d5f1b352b"
+      },
+      "timeline.items.8.title": {
+        "src": "913f882376175d74",
+        "out": "7bebaed8b9ed3781"
+      },
+      "timeline.items.8.text": {
+        "src": "2b0b335d1b739007",
+        "out": "37027672d3dceb6b"
+      },
+      "timeline.items.9.title": {
+        "src": "371e290663bd0503",
+        "out": "d81b336e951c34af"
+      },
+      "timeline.items.9.text": {
+        "src": "dadd4880fa1c93b9",
+        "out": "2a8d4adcbb049f99"
+      },
+      "timeline.items.10.title": {
+        "src": "9830056d3835456e",
+        "out": "8dce065eff942f5f"
+      },
+      "timeline.items.10.text": {
+        "src": "3e1cd3f5eb2de9b2",
+        "out": "8474bd6c85b5648c"
+      },
+      "timeline.items.11.title": {
+        "src": "624ae7f158db6f69",
+        "out": "2c93ee01794ebcd2"
+      },
+      "timeline.items.11.text": {
+        "src": "adfabd513d6ae91b",
+        "out": "824dde0857a0e949"
+      },
+      "articles.title": {
+        "src": "5a1783b22932551b",
+        "out": "a22c2d3396ae692b"
+      },
+      "articles.readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "852b438f91ad9eb2"
+      },
+      "articles.more.label": {
+        "src": "36fe3932d6204d86",
+        "out": "1618f01711a696b4"
+      },
+      "certificates.title": {
+        "src": "040e02f115c03b8d",
+        "out": "d73a51a550f60d4b"
+      },
+      "certificates.text": {
+        "src": "cf7d5008f0e3be44",
+        "out": "2a7d65b79e524ad8"
+      },
+      "career.title": {
+        "src": "36f16f9d70d1ca34",
+        "out": "f81382b1e707c4cf"
+      },
+      "career.text": {
+        "src": "91d73ecaa37bc203",
+        "out": "0a77a39acbb803dd"
+      },
+      "career.cta.label": {
+        "src": "cf6413db49660f77",
+        "out": "d2dd13609c918f8d"
+      },
+      "showroom.kicker": {
+        "src": "d0995cb1e0725087",
+        "out": "a099a1ceb7998f7d"
+      },
+      "showroom.title": {
+        "src": "2bcf5b1e0b770337",
+        "out": "61544826b6fc4df5"
+      },
+      "showroom.text": {
+        "src": "5c995fd5415794f6",
+        "out": "dbf760d39685a1f2"
+      },
+      "recent.title": {
+        "src": "09b083e53ce2c4e1",
+        "out": "fd316b7c502381ba"
+      },
+      "recent.button": {
+        "src": "cee0c59aa1e06734",
+        "out": "f8cf120d12f5c3d6"
+      },
+      "contact.title": {
+        "src": "dce1ffff271e1b9b",
+        "out": "247a3a3135bc137b"
+      },
+      "contact.text": {
+        "src": "8c4465029b656888",
+        "out": "4b48a6187e1e6eba"
+      },
+      "contact.address": {
+        "src": "14c648c7fd273b84",
+        "out": "2274023ce09efe67"
+      },
+      "contact.cta.label": {
+        "src": "4dfc6f164ce719ce",
+        "out": "d6e4483d7372701d"
+      },
+      "seoTitle": {
+        "src": "89170ad6521497d5",
+        "out": "baa5922e70ea7e7c"
+      },
+      "seoDescription": {
+        "src": "13c4db5d1b16aab9",
+        "out": "0a7fc225c38d8633"
+      }
     }
   },
   "de": {
@@ -2432,12 +2734,12 @@
         "out": "a92b9bcb16656979"
       },
       "searchPlaceholder": {
-        "src": "c1d170a51efd81a7",
-        "out": "4dcd625117131da8"
+        "src": "f69aa27201458b58",
+        "out": "8752d80b984b8454"
       },
       "configurator.label": {
-        "src": "43a37cf68b2e006f",
-        "out": "43a37cf68b2e006f"
+        "src": "10eec33a1323771d",
+        "out": "a56471a72ef43016"
       },
       "installer.label": {
         "src": "9f7321ec9ced3043",
@@ -3981,6 +4283,308 @@
         "src": "58f5a99c936fbae0",
         "out": "cea11dcea964bb75"
       }
+    },
+    "about": {
+      "hero.title": {
+        "src": "e47d17a3802f2f8a",
+        "out": "a515fcca80bbcc1c"
+      },
+      "hero.text": {
+        "src": "0cc18528fd98567f",
+        "out": "453fe97ca54ea5c4"
+      },
+      "stats.0.value": {
+        "src": "368ace5e660611c0",
+        "out": "368ace5e660611c0"
+      },
+      "stats.0.label": {
+        "src": "e75dabfe937e8c96",
+        "out": "e690261ac370334d"
+      },
+      "stats.1.value": {
+        "src": "daf51216e55b778a",
+        "out": "daf51216e55b778a"
+      },
+      "stats.1.label": {
+        "src": "4e9a1aff8d45ee66",
+        "out": "cba58b87a7aa07d2"
+      },
+      "stats.2.value": {
+        "src": "e6c571ed1246b59c",
+        "out": "e6c571ed1246b59c"
+      },
+      "stats.2.label": {
+        "src": "c350e6037b3df3a9",
+        "out": "08f4856e44f8184f"
+      },
+      "company.title": {
+        "src": "15b032fc67b30ce5",
+        "out": "6767130a75ef2720"
+      },
+      "company.text": {
+        "src": "552fd416b463a8a7",
+        "out": "c5d8e3fa9e7d7427"
+      },
+      "ecosystem.title": {
+        "src": "b5da9e2880d2e926",
+        "out": "9cdc8c6217c3aa50"
+      },
+      "ecosystem.text": {
+        "src": "76dab0927360537a",
+        "out": "683666ab6e21930f"
+      },
+      "ecosystem.tiles.0.title": {
+        "src": "5d6e0719ce3778b1",
+        "out": "450960701f99f48b"
+      },
+      "ecosystem.tiles.0.text": {
+        "src": "652b17c76f802b9f",
+        "out": "5ca272615da7b463"
+      },
+      "ecosystem.tiles.0.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "9f003990413164a7"
+      },
+      "ecosystem.tiles.1.title": {
+        "src": "8012440906264dab",
+        "out": "8b8c67ba55927a14"
+      },
+      "ecosystem.tiles.1.text": {
+        "src": "ebcd3fb5512ace8a",
+        "out": "7e3f803fe1ecd717"
+      },
+      "ecosystem.tiles.1.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "9f003990413164a7"
+      },
+      "ecosystem.tiles.2.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "b24c84590ea2d33c"
+      },
+      "ecosystem.tiles.2.text": {
+        "src": "f0ff1d8457294e4e",
+        "out": "7dfe0c85e5b04b9f"
+      },
+      "ecosystem.tiles.2.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "9f003990413164a7"
+      },
+      "ecosystem.tiles.3.title": {
+        "src": "c13c5da0164f24e6",
+        "out": "eefdd990cfecd78f"
+      },
+      "ecosystem.tiles.3.text": {
+        "src": "208a21cc31607c78",
+        "out": "b0781f618dcd21ae"
+      },
+      "ecosystem.tiles.3.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "9f003990413164a7"
+      },
+      "production.title": {
+        "src": "c2ea0c6f73e4a519",
+        "out": "7b2709df3f2fb432"
+      },
+      "mission.text": {
+        "src": "f88da788d37477d0",
+        "out": "3e6b292b3596acbb"
+      },
+      "international.title": {
+        "src": "239b450c7b8dff7e",
+        "out": "7fdedb53e59a3d07"
+      },
+      "international.countries": {
+        "src": "7627b65ad4b69858",
+        "out": "f508580594ccdbaf"
+      },
+      "timeline.title": {
+        "src": "6bc6e41947e3e6a1",
+        "out": "c5c02e6c757dcfe2"
+      },
+      "timeline.text": {
+        "src": "75c1443c3499e306",
+        "out": "bbbb256b6ae27c6a"
+      },
+      "timeline.items.0.title": {
+        "src": "343c8678d22f14b2",
+        "out": "620b5f7cffbf6491"
+      },
+      "timeline.items.0.text": {
+        "src": "3b07959e623ba817",
+        "out": "f0aceb44c1d4f560"
+      },
+      "timeline.items.1.title": {
+        "src": "4eff4f417c47447b",
+        "out": "1078bdbee7df8392"
+      },
+      "timeline.items.1.text": {
+        "src": "97e75a1deca04b36",
+        "out": "ec8f4c200b3cf7c0"
+      },
+      "timeline.items.2.title": {
+        "src": "22b3270ca019a797",
+        "out": "2df85500e1a5e743"
+      },
+      "timeline.items.2.text": {
+        "src": "0274a49d68162fd3",
+        "out": "1fc8bb204477a370"
+      },
+      "timeline.items.3.title": {
+        "src": "34ffae759d411fcb",
+        "out": "17b2567e65e6a3f6"
+      },
+      "timeline.items.3.text": {
+        "src": "0cdc6a19e99aea5a",
+        "out": "9cd30b4ecb10f839"
+      },
+      "timeline.items.4.title": {
+        "src": "c259726255ab9b7d",
+        "out": "e1842624aff1f608"
+      },
+      "timeline.items.4.text": {
+        "src": "a2386cf6ac442b9e",
+        "out": "8a6347f61ca40c46"
+      },
+      "timeline.items.5.year": {
+        "src": "34f89aadea1b3196",
+        "out": "34f89aadea1b3196"
+      },
+      "timeline.items.5.title": {
+        "src": "10e770a1749e6a1b",
+        "out": "5ae0d6ae0efc5e57"
+      },
+      "timeline.items.5.text": {
+        "src": "ffb027f5695dd7c6",
+        "out": "d76ed5423403b3e0"
+      },
+      "timeline.items.6.title": {
+        "src": "59310572a565c668",
+        "out": "ffec4c6beb819c53"
+      },
+      "timeline.items.6.text": {
+        "src": "a5fb0fe4fa3a2690",
+        "out": "eb1048e665f6ad8d"
+      },
+      "timeline.items.7.year": {
+        "src": "d6e2fa99715e82d4",
+        "out": "d6e2fa99715e82d4"
+      },
+      "timeline.items.7.title": {
+        "src": "b69295ef8316fc2d",
+        "out": "cac78fd485b96398"
+      },
+      "timeline.items.7.text": {
+        "src": "2cb58ce9f6729af9",
+        "out": "2010a608e463497d"
+      },
+      "timeline.items.8.title": {
+        "src": "913f882376175d74",
+        "out": "8954c4dfca25471c"
+      },
+      "timeline.items.8.text": {
+        "src": "2b0b335d1b739007",
+        "out": "50d2846d38e27741"
+      },
+      "timeline.items.9.title": {
+        "src": "371e290663bd0503",
+        "out": "9bd48f557c48fbee"
+      },
+      "timeline.items.9.text": {
+        "src": "dadd4880fa1c93b9",
+        "out": "a6ee8277ccf142f7"
+      },
+      "timeline.items.10.title": {
+        "src": "9830056d3835456e",
+        "out": "af22a2010e5c1eb9"
+      },
+      "timeline.items.10.text": {
+        "src": "3e1cd3f5eb2de9b2",
+        "out": "23e56f67006de983"
+      },
+      "timeline.items.11.title": {
+        "src": "624ae7f158db6f69",
+        "out": "4a2b0af76e6fbe1e"
+      },
+      "timeline.items.11.text": {
+        "src": "adfabd513d6ae91b",
+        "out": "51045973c93720a5"
+      },
+      "articles.title": {
+        "src": "5a1783b22932551b",
+        "out": "7626d47f4300840b"
+      },
+      "articles.readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "f2ab41ad9d2b56dd"
+      },
+      "articles.more.label": {
+        "src": "36fe3932d6204d86",
+        "out": "77cc0b6160797ce1"
+      },
+      "certificates.title": {
+        "src": "040e02f115c03b8d",
+        "out": "d54b7c08f71ce3a3"
+      },
+      "certificates.text": {
+        "src": "cf7d5008f0e3be44",
+        "out": "44338ee6b1e19c49"
+      },
+      "career.title": {
+        "src": "36f16f9d70d1ca34",
+        "out": "db24aeb3d4daf920"
+      },
+      "career.text": {
+        "src": "91d73ecaa37bc203",
+        "out": "e1364572b67bdc53"
+      },
+      "career.cta.label": {
+        "src": "cf6413db49660f77",
+        "out": "0cce50c21cc8b5f6"
+      },
+      "showroom.kicker": {
+        "src": "d0995cb1e0725087",
+        "out": "7aeb144353c49c5d"
+      },
+      "showroom.title": {
+        "src": "2bcf5b1e0b770337",
+        "out": "035a5b7d1c899d30"
+      },
+      "showroom.text": {
+        "src": "5c995fd5415794f6",
+        "out": "97a8f28f2d6bc145"
+      },
+      "recent.title": {
+        "src": "09b083e53ce2c4e1",
+        "out": "9c9426a1f2aa4a16"
+      },
+      "recent.button": {
+        "src": "cee0c59aa1e06734",
+        "out": "7caea30e95406457"
+      },
+      "contact.title": {
+        "src": "dce1ffff271e1b9b",
+        "out": "c78429b0c9c104ea"
+      },
+      "contact.text": {
+        "src": "8c4465029b656888",
+        "out": "d1f79e41ed9c85f5"
+      },
+      "contact.address": {
+        "src": "14c648c7fd273b84",
+        "out": "d0b996479c87811d"
+      },
+      "contact.cta.label": {
+        "src": "4dfc6f164ce719ce",
+        "out": "f5dee09cc717c6e7"
+      },
+      "seoTitle": {
+        "src": "89170ad6521497d5",
+        "out": "4ab20976718458cd"
+      },
+      "seoDescription": {
+        "src": "13c4db5d1b16aab9",
+        "out": "1beeb7134bbb863e"
+      }
     }
   },
   "fr": {
@@ -4424,12 +5028,12 @@
         "out": "b37456c4530be810"
       },
       "searchPlaceholder": {
-        "src": "c1d170a51efd81a7",
-        "out": "47808cff9bd1940f"
+        "src": "f69aa27201458b58",
+        "out": "79ae6b2d55879a8b"
       },
       "configurator.label": {
-        "src": "43a37cf68b2e006f",
-        "out": "be19b5f83d01dbf7"
+        "src": "10eec33a1323771d",
+        "out": "b1e1c761588eefcd"
       },
       "installer.label": {
         "src": "9f7321ec9ced3043",
@@ -5973,6 +6577,308 @@
         "src": "58f5a99c936fbae0",
         "out": "4ffd6f6b46bccfb9"
       }
+    },
+    "about": {
+      "hero.title": {
+        "src": "e47d17a3802f2f8a",
+        "out": "eea6e48b66dc0c45"
+      },
+      "hero.text": {
+        "src": "0cc18528fd98567f",
+        "out": "ad7f031b02d79d5a"
+      },
+      "stats.0.value": {
+        "src": "368ace5e660611c0",
+        "out": "368ace5e660611c0"
+      },
+      "stats.0.label": {
+        "src": "e75dabfe937e8c96",
+        "out": "2c35001075fdd4be"
+      },
+      "stats.1.value": {
+        "src": "daf51216e55b778a",
+        "out": "daf51216e55b778a"
+      },
+      "stats.1.label": {
+        "src": "4e9a1aff8d45ee66",
+        "out": "0ca5126b0a37a065"
+      },
+      "stats.2.value": {
+        "src": "e6c571ed1246b59c",
+        "out": "e6c571ed1246b59c"
+      },
+      "stats.2.label": {
+        "src": "c350e6037b3df3a9",
+        "out": "41991b08fcc89a4e"
+      },
+      "company.title": {
+        "src": "15b032fc67b30ce5",
+        "out": "2c0200e590e78515"
+      },
+      "company.text": {
+        "src": "552fd416b463a8a7",
+        "out": "875fbbf6935aa254"
+      },
+      "ecosystem.title": {
+        "src": "b5da9e2880d2e926",
+        "out": "845259a40cf682c4"
+      },
+      "ecosystem.text": {
+        "src": "76dab0927360537a",
+        "out": "e5452295f4b7b10a"
+      },
+      "ecosystem.tiles.0.title": {
+        "src": "5d6e0719ce3778b1",
+        "out": "a67d932e57c47378"
+      },
+      "ecosystem.tiles.0.text": {
+        "src": "652b17c76f802b9f",
+        "out": "90f7a121ac0fa758"
+      },
+      "ecosystem.tiles.0.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "96bce8cd88fd66f6"
+      },
+      "ecosystem.tiles.1.title": {
+        "src": "8012440906264dab",
+        "out": "74fcc090ccbb609c"
+      },
+      "ecosystem.tiles.1.text": {
+        "src": "ebcd3fb5512ace8a",
+        "out": "476fa4f2a25a242c"
+      },
+      "ecosystem.tiles.1.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "96bce8cd88fd66f6"
+      },
+      "ecosystem.tiles.2.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "39986831df978bfe"
+      },
+      "ecosystem.tiles.2.text": {
+        "src": "f0ff1d8457294e4e",
+        "out": "de61b35af2cff96e"
+      },
+      "ecosystem.tiles.2.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "96bce8cd88fd66f6"
+      },
+      "ecosystem.tiles.3.title": {
+        "src": "c13c5da0164f24e6",
+        "out": "54518d40b865b0b6"
+      },
+      "ecosystem.tiles.3.text": {
+        "src": "208a21cc31607c78",
+        "out": "21dc5d39dec0daab"
+      },
+      "ecosystem.tiles.3.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "96bce8cd88fd66f6"
+      },
+      "production.title": {
+        "src": "c2ea0c6f73e4a519",
+        "out": "4c4f70eb3b0b8522"
+      },
+      "mission.text": {
+        "src": "f88da788d37477d0",
+        "out": "b789069939bfa71b"
+      },
+      "international.title": {
+        "src": "239b450c7b8dff7e",
+        "out": "7c37959dcd2e3bf0"
+      },
+      "international.countries": {
+        "src": "7627b65ad4b69858",
+        "out": "e44ab7d1e9ac3955"
+      },
+      "timeline.title": {
+        "src": "6bc6e41947e3e6a1",
+        "out": "2877919536c06688"
+      },
+      "timeline.text": {
+        "src": "75c1443c3499e306",
+        "out": "3e9272bb2a777b1b"
+      },
+      "timeline.items.0.title": {
+        "src": "343c8678d22f14b2",
+        "out": "04471e631b12db82"
+      },
+      "timeline.items.0.text": {
+        "src": "3b07959e623ba817",
+        "out": "0399e34fab7ef1a0"
+      },
+      "timeline.items.1.title": {
+        "src": "4eff4f417c47447b",
+        "out": "17d991fa49f48593"
+      },
+      "timeline.items.1.text": {
+        "src": "97e75a1deca04b36",
+        "out": "b9103f4d50279cab"
+      },
+      "timeline.items.2.title": {
+        "src": "22b3270ca019a797",
+        "out": "d59bf87ec2db2601"
+      },
+      "timeline.items.2.text": {
+        "src": "0274a49d68162fd3",
+        "out": "f1653411ff64e75c"
+      },
+      "timeline.items.3.title": {
+        "src": "34ffae759d411fcb",
+        "out": "d04c94dad1ecdb6d"
+      },
+      "timeline.items.3.text": {
+        "src": "0cdc6a19e99aea5a",
+        "out": "00dc32898369b926"
+      },
+      "timeline.items.4.title": {
+        "src": "c259726255ab9b7d",
+        "out": "42c16b4750d10d47"
+      },
+      "timeline.items.4.text": {
+        "src": "a2386cf6ac442b9e",
+        "out": "736e18a4b553b290"
+      },
+      "timeline.items.5.year": {
+        "src": "34f89aadea1b3196",
+        "out": "34f89aadea1b3196"
+      },
+      "timeline.items.5.title": {
+        "src": "10e770a1749e6a1b",
+        "out": "743d8ef8ec68b638"
+      },
+      "timeline.items.5.text": {
+        "src": "ffb027f5695dd7c6",
+        "out": "6b9e13eda2537a27"
+      },
+      "timeline.items.6.title": {
+        "src": "59310572a565c668",
+        "out": "201b70586f833995"
+      },
+      "timeline.items.6.text": {
+        "src": "a5fb0fe4fa3a2690",
+        "out": "a2480df75d966c0f"
+      },
+      "timeline.items.7.year": {
+        "src": "d6e2fa99715e82d4",
+        "out": "d6e2fa99715e82d4"
+      },
+      "timeline.items.7.title": {
+        "src": "b69295ef8316fc2d",
+        "out": "c44365f6518e98e3"
+      },
+      "timeline.items.7.text": {
+        "src": "2cb58ce9f6729af9",
+        "out": "4c76c37b774defd5"
+      },
+      "timeline.items.8.title": {
+        "src": "913f882376175d74",
+        "out": "c928bf24f977593f"
+      },
+      "timeline.items.8.text": {
+        "src": "2b0b335d1b739007",
+        "out": "fa70dc15f89958e1"
+      },
+      "timeline.items.9.title": {
+        "src": "371e290663bd0503",
+        "out": "1963bea40601cf72"
+      },
+      "timeline.items.9.text": {
+        "src": "dadd4880fa1c93b9",
+        "out": "db4d368b4633ff86"
+      },
+      "timeline.items.10.title": {
+        "src": "9830056d3835456e",
+        "out": "1d049b2007697ea4"
+      },
+      "timeline.items.10.text": {
+        "src": "3e1cd3f5eb2de9b2",
+        "out": "ca5f8509411a915a"
+      },
+      "timeline.items.11.title": {
+        "src": "624ae7f158db6f69",
+        "out": "908a5714e85b0a9b"
+      },
+      "timeline.items.11.text": {
+        "src": "adfabd513d6ae91b",
+        "out": "8595adb74a968fcf"
+      },
+      "articles.title": {
+        "src": "5a1783b22932551b",
+        "out": "da13ecb7736efe56"
+      },
+      "articles.readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "8af9af72ae045bf1"
+      },
+      "articles.more.label": {
+        "src": "36fe3932d6204d86",
+        "out": "4bfc8886f330633d"
+      },
+      "certificates.title": {
+        "src": "040e02f115c03b8d",
+        "out": "0c276b4d569fd877"
+      },
+      "certificates.text": {
+        "src": "cf7d5008f0e3be44",
+        "out": "36c691bd89ed5517"
+      },
+      "career.title": {
+        "src": "36f16f9d70d1ca34",
+        "out": "ad859c995680d8f2"
+      },
+      "career.text": {
+        "src": "91d73ecaa37bc203",
+        "out": "8c9f12a880554130"
+      },
+      "career.cta.label": {
+        "src": "cf6413db49660f77",
+        "out": "057e2d2a6f6c51f4"
+      },
+      "showroom.kicker": {
+        "src": "d0995cb1e0725087",
+        "out": "ee69091bb4c87386"
+      },
+      "showroom.title": {
+        "src": "2bcf5b1e0b770337",
+        "out": "274c6b0148e3a8ca"
+      },
+      "showroom.text": {
+        "src": "5c995fd5415794f6",
+        "out": "6a37497579a7d5f7"
+      },
+      "recent.title": {
+        "src": "09b083e53ce2c4e1",
+        "out": "a7a63006f361ce78"
+      },
+      "recent.button": {
+        "src": "cee0c59aa1e06734",
+        "out": "85ff96833c5b990b"
+      },
+      "contact.title": {
+        "src": "dce1ffff271e1b9b",
+        "out": "d50f0a44a28a3fec"
+      },
+      "contact.text": {
+        "src": "8c4465029b656888",
+        "out": "3c1a415d794dc8b2"
+      },
+      "contact.address": {
+        "src": "14c648c7fd273b84",
+        "out": "7b825052272c2e8e"
+      },
+      "contact.cta.label": {
+        "src": "4dfc6f164ce719ce",
+        "out": "356f1a09aca60736"
+      },
+      "seoTitle": {
+        "src": "89170ad6521497d5",
+        "out": "5d1a00936dd950dc"
+      },
+      "seoDescription": {
+        "src": "13c4db5d1b16aab9",
+        "out": "3789472863067c3e"
+      }
     }
   },
   "cs": {
@@ -6416,12 +7322,12 @@
         "out": "a92b9bcb16656979"
       },
       "searchPlaceholder": {
-        "src": "c1d170a51efd81a7",
-        "out": "fd565ed0d80655ca"
+        "src": "f69aa27201458b58",
+        "out": "f16fa4b653278902"
       },
       "configurator.label": {
-        "src": "43a37cf68b2e006f",
-        "out": "f2365203e1f96fa6"
+        "src": "10eec33a1323771d",
+        "out": "3f46dd46ac564d63"
       },
       "installer.label": {
         "src": "9f7321ec9ced3043",
@@ -7965,6 +8871,308 @@
         "src": "58f5a99c936fbae0",
         "out": "37266225caa8915a"
       }
+    },
+    "about": {
+      "hero.title": {
+        "src": "e47d17a3802f2f8a",
+        "out": "1a0449c3d18ee8c1"
+      },
+      "hero.text": {
+        "src": "0cc18528fd98567f",
+        "out": "190fc8d5320fe06c"
+      },
+      "stats.0.value": {
+        "src": "368ace5e660611c0",
+        "out": "368ace5e660611c0"
+      },
+      "stats.0.label": {
+        "src": "e75dabfe937e8c96",
+        "out": "0683af4de01fe9c9"
+      },
+      "stats.1.value": {
+        "src": "daf51216e55b778a",
+        "out": "daf51216e55b778a"
+      },
+      "stats.1.label": {
+        "src": "4e9a1aff8d45ee66",
+        "out": "9f4c51cd9fa8aef9"
+      },
+      "stats.2.value": {
+        "src": "e6c571ed1246b59c",
+        "out": "e6c571ed1246b59c"
+      },
+      "stats.2.label": {
+        "src": "c350e6037b3df3a9",
+        "out": "dcdabfb942f220ee"
+      },
+      "company.title": {
+        "src": "15b032fc67b30ce5",
+        "out": "197a3de009898560"
+      },
+      "company.text": {
+        "src": "552fd416b463a8a7",
+        "out": "6834bde1257b5abc"
+      },
+      "ecosystem.title": {
+        "src": "b5da9e2880d2e926",
+        "out": "4d8272e4a01675a0"
+      },
+      "ecosystem.text": {
+        "src": "76dab0927360537a",
+        "out": "a699f59d920fb455"
+      },
+      "ecosystem.tiles.0.title": {
+        "src": "5d6e0719ce3778b1",
+        "out": "0f4333c17e013e90"
+      },
+      "ecosystem.tiles.0.text": {
+        "src": "652b17c76f802b9f",
+        "out": "20205d6f6d64d342"
+      },
+      "ecosystem.tiles.0.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "115e39841e21fbd2"
+      },
+      "ecosystem.tiles.1.title": {
+        "src": "8012440906264dab",
+        "out": "17026327ed52307a"
+      },
+      "ecosystem.tiles.1.text": {
+        "src": "ebcd3fb5512ace8a",
+        "out": "230978a2e46e18ae"
+      },
+      "ecosystem.tiles.1.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "115e39841e21fbd2"
+      },
+      "ecosystem.tiles.2.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "59194b067fab5829"
+      },
+      "ecosystem.tiles.2.text": {
+        "src": "f0ff1d8457294e4e",
+        "out": "b6e934c0b8a61375"
+      },
+      "ecosystem.tiles.2.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "115e39841e21fbd2"
+      },
+      "ecosystem.tiles.3.title": {
+        "src": "c13c5da0164f24e6",
+        "out": "2c693eb3770fe4b7"
+      },
+      "ecosystem.tiles.3.text": {
+        "src": "208a21cc31607c78",
+        "out": "52173dd34fd403b5"
+      },
+      "ecosystem.tiles.3.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "115e39841e21fbd2"
+      },
+      "production.title": {
+        "src": "c2ea0c6f73e4a519",
+        "out": "86c7a7dd42802747"
+      },
+      "mission.text": {
+        "src": "f88da788d37477d0",
+        "out": "b46356c3cd61791c"
+      },
+      "international.title": {
+        "src": "239b450c7b8dff7e",
+        "out": "6769eb45ad324531"
+      },
+      "international.countries": {
+        "src": "7627b65ad4b69858",
+        "out": "66f91cd9f19fc9c9"
+      },
+      "timeline.title": {
+        "src": "6bc6e41947e3e6a1",
+        "out": "7bf77b2e7367edd8"
+      },
+      "timeline.text": {
+        "src": "75c1443c3499e306",
+        "out": "fe2320c0b44efc67"
+      },
+      "timeline.items.0.title": {
+        "src": "343c8678d22f14b2",
+        "out": "bf2ef12e689405c3"
+      },
+      "timeline.items.0.text": {
+        "src": "3b07959e623ba817",
+        "out": "4ea318d713ea522e"
+      },
+      "timeline.items.1.title": {
+        "src": "4eff4f417c47447b",
+        "out": "2d4ff93aa78f8ae4"
+      },
+      "timeline.items.1.text": {
+        "src": "97e75a1deca04b36",
+        "out": "791c901013a4cc2d"
+      },
+      "timeline.items.2.title": {
+        "src": "22b3270ca019a797",
+        "out": "3af81548bc226a23"
+      },
+      "timeline.items.2.text": {
+        "src": "0274a49d68162fd3",
+        "out": "404d11eec0e00e97"
+      },
+      "timeline.items.3.title": {
+        "src": "34ffae759d411fcb",
+        "out": "72892f57ff670c66"
+      },
+      "timeline.items.3.text": {
+        "src": "0cdc6a19e99aea5a",
+        "out": "e3fea63f80673757"
+      },
+      "timeline.items.4.title": {
+        "src": "c259726255ab9b7d",
+        "out": "371baaa797e1bfb1"
+      },
+      "timeline.items.4.text": {
+        "src": "a2386cf6ac442b9e",
+        "out": "5c338dd54a5879b8"
+      },
+      "timeline.items.5.year": {
+        "src": "34f89aadea1b3196",
+        "out": "34f89aadea1b3196"
+      },
+      "timeline.items.5.title": {
+        "src": "10e770a1749e6a1b",
+        "out": "62ec7b73dc2d53d4"
+      },
+      "timeline.items.5.text": {
+        "src": "ffb027f5695dd7c6",
+        "out": "4b453253546163f0"
+      },
+      "timeline.items.6.title": {
+        "src": "59310572a565c668",
+        "out": "d34413f9e981dbbc"
+      },
+      "timeline.items.6.text": {
+        "src": "a5fb0fe4fa3a2690",
+        "out": "ea2605ded0e1dca4"
+      },
+      "timeline.items.7.year": {
+        "src": "d6e2fa99715e82d4",
+        "out": "d6e2fa99715e82d4"
+      },
+      "timeline.items.7.title": {
+        "src": "b69295ef8316fc2d",
+        "out": "0344d667751dab58"
+      },
+      "timeline.items.7.text": {
+        "src": "2cb58ce9f6729af9",
+        "out": "29a2bbdf936974c4"
+      },
+      "timeline.items.8.title": {
+        "src": "913f882376175d74",
+        "out": "c77d1075d7f43fed"
+      },
+      "timeline.items.8.text": {
+        "src": "2b0b335d1b739007",
+        "out": "efdb15360566f7c0"
+      },
+      "timeline.items.9.title": {
+        "src": "371e290663bd0503",
+        "out": "de4162fd97270483"
+      },
+      "timeline.items.9.text": {
+        "src": "dadd4880fa1c93b9",
+        "out": "db1bc57ea07ac3d2"
+      },
+      "timeline.items.10.title": {
+        "src": "9830056d3835456e",
+        "out": "bbea5ff96e8b1328"
+      },
+      "timeline.items.10.text": {
+        "src": "3e1cd3f5eb2de9b2",
+        "out": "bb6c2c8eb9cdaf16"
+      },
+      "timeline.items.11.title": {
+        "src": "624ae7f158db6f69",
+        "out": "68848f4cf16f645e"
+      },
+      "timeline.items.11.text": {
+        "src": "adfabd513d6ae91b",
+        "out": "6c636676fd438c4f"
+      },
+      "articles.title": {
+        "src": "5a1783b22932551b",
+        "out": "766364df0451cd7c"
+      },
+      "articles.readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "00417239997cc0e6"
+      },
+      "articles.more.label": {
+        "src": "36fe3932d6204d86",
+        "out": "5136e9b0f3ac0911"
+      },
+      "certificates.title": {
+        "src": "040e02f115c03b8d",
+        "out": "47930c7e32532dfe"
+      },
+      "certificates.text": {
+        "src": "cf7d5008f0e3be44",
+        "out": "79edd8f9a58eab38"
+      },
+      "career.title": {
+        "src": "36f16f9d70d1ca34",
+        "out": "b17110d146461bc1"
+      },
+      "career.text": {
+        "src": "91d73ecaa37bc203",
+        "out": "eaa5766872dcaa72"
+      },
+      "career.cta.label": {
+        "src": "cf6413db49660f77",
+        "out": "fb9e76263f9a6550"
+      },
+      "showroom.kicker": {
+        "src": "d0995cb1e0725087",
+        "out": "2d7ca765d84e330e"
+      },
+      "showroom.title": {
+        "src": "2bcf5b1e0b770337",
+        "out": "22eef986bbc5c53e"
+      },
+      "showroom.text": {
+        "src": "5c995fd5415794f6",
+        "out": "f93b518365d1564d"
+      },
+      "recent.title": {
+        "src": "09b083e53ce2c4e1",
+        "out": "ac64d62c90c8063d"
+      },
+      "recent.button": {
+        "src": "cee0c59aa1e06734",
+        "out": "f8678396f49ae1f3"
+      },
+      "contact.title": {
+        "src": "dce1ffff271e1b9b",
+        "out": "7d98886324ddf3fc"
+      },
+      "contact.text": {
+        "src": "8c4465029b656888",
+        "out": "3ffbdc4dbfe23efc"
+      },
+      "contact.address": {
+        "src": "14c648c7fd273b84",
+        "out": "f1217d1dcc7fb1f1"
+      },
+      "contact.cta.label": {
+        "src": "4dfc6f164ce719ce",
+        "out": "a0dfbaede2c0afee"
+      },
+      "seoTitle": {
+        "src": "89170ad6521497d5",
+        "out": "2544186a71337586"
+      },
+      "seoDescription": {
+        "src": "13c4db5d1b16aab9",
+        "out": "c0cdb417e40cd12c"
+      }
     }
   },
   "it": {
@@ -8408,12 +9616,12 @@
         "out": "1afd65f4cd02b1f0"
       },
       "searchPlaceholder": {
-        "src": "c1d170a51efd81a7",
-        "out": "de54b0cb20d2f92e"
+        "src": "f69aa27201458b58",
+        "out": "f81370a0474717a9"
       },
       "configurator.label": {
-        "src": "43a37cf68b2e006f",
-        "out": "b4a51ed6bb56d181"
+        "src": "10eec33a1323771d",
+        "out": "40a28f99c66863c7"
       },
       "installer.label": {
         "src": "9f7321ec9ced3043",
@@ -9957,6 +11165,308 @@
         "src": "58f5a99c936fbae0",
         "out": "bf99b9109b227218"
       }
+    },
+    "about": {
+      "hero.title": {
+        "src": "e47d17a3802f2f8a",
+        "out": "9cdf185b96f23784"
+      },
+      "hero.text": {
+        "src": "0cc18528fd98567f",
+        "out": "09f26dfbeaac2545"
+      },
+      "stats.0.value": {
+        "src": "368ace5e660611c0",
+        "out": "368ace5e660611c0"
+      },
+      "stats.0.label": {
+        "src": "e75dabfe937e8c96",
+        "out": "95dfdde7d3b16951"
+      },
+      "stats.1.value": {
+        "src": "daf51216e55b778a",
+        "out": "daf51216e55b778a"
+      },
+      "stats.1.label": {
+        "src": "4e9a1aff8d45ee66",
+        "out": "1b647f48faa2e9af"
+      },
+      "stats.2.value": {
+        "src": "e6c571ed1246b59c",
+        "out": "e6c571ed1246b59c"
+      },
+      "stats.2.label": {
+        "src": "c350e6037b3df3a9",
+        "out": "8f34704f0f0a6cda"
+      },
+      "company.title": {
+        "src": "15b032fc67b30ce5",
+        "out": "c792a5d4950190dd"
+      },
+      "company.text": {
+        "src": "552fd416b463a8a7",
+        "out": "579f43c53a458590"
+      },
+      "ecosystem.title": {
+        "src": "b5da9e2880d2e926",
+        "out": "32149a22a922e84b"
+      },
+      "ecosystem.text": {
+        "src": "76dab0927360537a",
+        "out": "992029752796cb84"
+      },
+      "ecosystem.tiles.0.title": {
+        "src": "5d6e0719ce3778b1",
+        "out": "df1caaf299fd06da"
+      },
+      "ecosystem.tiles.0.text": {
+        "src": "652b17c76f802b9f",
+        "out": "5382622b785838f7"
+      },
+      "ecosystem.tiles.0.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "a8eecb045e7852de"
+      },
+      "ecosystem.tiles.1.title": {
+        "src": "8012440906264dab",
+        "out": "3ab2ae229770c3a9"
+      },
+      "ecosystem.tiles.1.text": {
+        "src": "ebcd3fb5512ace8a",
+        "out": "2f236305ceb93ccd"
+      },
+      "ecosystem.tiles.1.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "a8eecb045e7852de"
+      },
+      "ecosystem.tiles.2.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "cd5b51fe5b00060c"
+      },
+      "ecosystem.tiles.2.text": {
+        "src": "f0ff1d8457294e4e",
+        "out": "73049ad7a1ce6107"
+      },
+      "ecosystem.tiles.2.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "a8eecb045e7852de"
+      },
+      "ecosystem.tiles.3.title": {
+        "src": "c13c5da0164f24e6",
+        "out": "9484b2719f326261"
+      },
+      "ecosystem.tiles.3.text": {
+        "src": "208a21cc31607c78",
+        "out": "43aec32d2fb57dca"
+      },
+      "ecosystem.tiles.3.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "a8eecb045e7852de"
+      },
+      "production.title": {
+        "src": "c2ea0c6f73e4a519",
+        "out": "3502bd163e8ceabc"
+      },
+      "mission.text": {
+        "src": "f88da788d37477d0",
+        "out": "2b63eda0cf7af4f0"
+      },
+      "international.title": {
+        "src": "239b450c7b8dff7e",
+        "out": "0d4324c79d51a526"
+      },
+      "international.countries": {
+        "src": "7627b65ad4b69858",
+        "out": "9266474b9c9945f1"
+      },
+      "timeline.title": {
+        "src": "6bc6e41947e3e6a1",
+        "out": "30dab50c04e5185a"
+      },
+      "timeline.text": {
+        "src": "75c1443c3499e306",
+        "out": "da1cf1c7dc4563bf"
+      },
+      "timeline.items.0.title": {
+        "src": "343c8678d22f14b2",
+        "out": "a9610569e323a8cd"
+      },
+      "timeline.items.0.text": {
+        "src": "3b07959e623ba817",
+        "out": "196346f30736b842"
+      },
+      "timeline.items.1.title": {
+        "src": "4eff4f417c47447b",
+        "out": "871a8ef5d546ddd5"
+      },
+      "timeline.items.1.text": {
+        "src": "97e75a1deca04b36",
+        "out": "0b7e0bd66d7dafb1"
+      },
+      "timeline.items.2.title": {
+        "src": "22b3270ca019a797",
+        "out": "05138358db0eaa01"
+      },
+      "timeline.items.2.text": {
+        "src": "0274a49d68162fd3",
+        "out": "432d6615a505a784"
+      },
+      "timeline.items.3.title": {
+        "src": "34ffae759d411fcb",
+        "out": "fb6a59f22876c107"
+      },
+      "timeline.items.3.text": {
+        "src": "0cdc6a19e99aea5a",
+        "out": "356ca636b1b80af3"
+      },
+      "timeline.items.4.title": {
+        "src": "c259726255ab9b7d",
+        "out": "ae8ef46d8eb30a10"
+      },
+      "timeline.items.4.text": {
+        "src": "a2386cf6ac442b9e",
+        "out": "446549006854cd05"
+      },
+      "timeline.items.5.year": {
+        "src": "34f89aadea1b3196",
+        "out": "34f89aadea1b3196"
+      },
+      "timeline.items.5.title": {
+        "src": "10e770a1749e6a1b",
+        "out": "e9840ccbdbc8d6e4"
+      },
+      "timeline.items.5.text": {
+        "src": "ffb027f5695dd7c6",
+        "out": "b61ed7612aad8cbc"
+      },
+      "timeline.items.6.title": {
+        "src": "59310572a565c668",
+        "out": "c16ad449b46ed84c"
+      },
+      "timeline.items.6.text": {
+        "src": "a5fb0fe4fa3a2690",
+        "out": "f9e41bf37d81f524"
+      },
+      "timeline.items.7.year": {
+        "src": "d6e2fa99715e82d4",
+        "out": "d6e2fa99715e82d4"
+      },
+      "timeline.items.7.title": {
+        "src": "b69295ef8316fc2d",
+        "out": "5dd6f44238a62f30"
+      },
+      "timeline.items.7.text": {
+        "src": "2cb58ce9f6729af9",
+        "out": "72e746fdaea4740b"
+      },
+      "timeline.items.8.title": {
+        "src": "913f882376175d74",
+        "out": "d24b11129a7dd117"
+      },
+      "timeline.items.8.text": {
+        "src": "2b0b335d1b739007",
+        "out": "20459caec5dcc1f8"
+      },
+      "timeline.items.9.title": {
+        "src": "371e290663bd0503",
+        "out": "c919dacc1dc0a9fe"
+      },
+      "timeline.items.9.text": {
+        "src": "dadd4880fa1c93b9",
+        "out": "6bc0716c72378a58"
+      },
+      "timeline.items.10.title": {
+        "src": "9830056d3835456e",
+        "out": "ea1888751b99e155"
+      },
+      "timeline.items.10.text": {
+        "src": "3e1cd3f5eb2de9b2",
+        "out": "8e336f47e31cb2de"
+      },
+      "timeline.items.11.title": {
+        "src": "624ae7f158db6f69",
+        "out": "48576af9034c997f"
+      },
+      "timeline.items.11.text": {
+        "src": "adfabd513d6ae91b",
+        "out": "334d4c1f63175b46"
+      },
+      "articles.title": {
+        "src": "5a1783b22932551b",
+        "out": "f741bd02c87ed8bd"
+      },
+      "articles.readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "8d9ce1967892a6b8"
+      },
+      "articles.more.label": {
+        "src": "36fe3932d6204d86",
+        "out": "6c4ba3e51035b4ef"
+      },
+      "certificates.title": {
+        "src": "040e02f115c03b8d",
+        "out": "904b35bea19ef4cc"
+      },
+      "certificates.text": {
+        "src": "cf7d5008f0e3be44",
+        "out": "be66555a5e8b5eda"
+      },
+      "career.title": {
+        "src": "36f16f9d70d1ca34",
+        "out": "5cee92d0c3f6793a"
+      },
+      "career.text": {
+        "src": "91d73ecaa37bc203",
+        "out": "469e61b3d6640c9f"
+      },
+      "career.cta.label": {
+        "src": "cf6413db49660f77",
+        "out": "845b6526365dd7c0"
+      },
+      "showroom.kicker": {
+        "src": "d0995cb1e0725087",
+        "out": "3c280047b036ad7e"
+      },
+      "showroom.title": {
+        "src": "2bcf5b1e0b770337",
+        "out": "6f56e51c2f09475c"
+      },
+      "showroom.text": {
+        "src": "5c995fd5415794f6",
+        "out": "3ad472694df35141"
+      },
+      "recent.title": {
+        "src": "09b083e53ce2c4e1",
+        "out": "f87fc1e6e687731b"
+      },
+      "recent.button": {
+        "src": "cee0c59aa1e06734",
+        "out": "fbb0a5ed2ddba2d5"
+      },
+      "contact.title": {
+        "src": "dce1ffff271e1b9b",
+        "out": "25829ca3ac17078b"
+      },
+      "contact.text": {
+        "src": "8c4465029b656888",
+        "out": "ed4600ac451c185d"
+      },
+      "contact.address": {
+        "src": "14c648c7fd273b84",
+        "out": "63dfa7a908518488"
+      },
+      "contact.cta.label": {
+        "src": "4dfc6f164ce719ce",
+        "out": "cce340ee99bd8f7d"
+      },
+      "seoTitle": {
+        "src": "89170ad6521497d5",
+        "out": "5da3a0cd9691754c"
+      },
+      "seoDescription": {
+        "src": "13c4db5d1b16aab9",
+        "out": "098442e1f5ecb440"
+      }
     }
   },
   "uk": {
@@ -10400,12 +11910,12 @@
         "out": "1f9e7d09cf14998f"
       },
       "searchPlaceholder": {
-        "src": "c1d170a51efd81a7",
-        "out": "202df62f1b6d2c00"
+        "src": "f69aa27201458b58",
+        "out": "f0c7114e162791a8"
       },
       "configurator.label": {
-        "src": "43a37cf68b2e006f",
-        "out": "772f1738955b649c"
+        "src": "10eec33a1323771d",
+        "out": "643245a4359b1d09"
       },
       "installer.label": {
         "src": "9f7321ec9ced3043",
@@ -11948,6 +13458,308 @@
       "tabs.0.categories.2.sections.0.products.5.tagline": {
         "src": "58f5a99c936fbae0",
         "out": "239a017d5ea400e5"
+      }
+    },
+    "about": {
+      "hero.title": {
+        "src": "e47d17a3802f2f8a",
+        "out": "24eeb75a52fcdfe4"
+      },
+      "hero.text": {
+        "src": "0cc18528fd98567f",
+        "out": "047e5b2a4b32ec4a"
+      },
+      "stats.0.value": {
+        "src": "368ace5e660611c0",
+        "out": "368ace5e660611c0"
+      },
+      "stats.0.label": {
+        "src": "e75dabfe937e8c96",
+        "out": "974ffd4bdc4f4f4c"
+      },
+      "stats.1.value": {
+        "src": "daf51216e55b778a",
+        "out": "daf51216e55b778a"
+      },
+      "stats.1.label": {
+        "src": "4e9a1aff8d45ee66",
+        "out": "b67e978bea805cef"
+      },
+      "stats.2.value": {
+        "src": "e6c571ed1246b59c",
+        "out": "e6c571ed1246b59c"
+      },
+      "stats.2.label": {
+        "src": "c350e6037b3df3a9",
+        "out": "5617e51074968dd4"
+      },
+      "company.title": {
+        "src": "15b032fc67b30ce5",
+        "out": "e2616c5dd912ff29"
+      },
+      "company.text": {
+        "src": "552fd416b463a8a7",
+        "out": "efe754650917b4e7"
+      },
+      "ecosystem.title": {
+        "src": "b5da9e2880d2e926",
+        "out": "553f10ef42fec7d8"
+      },
+      "ecosystem.text": {
+        "src": "76dab0927360537a",
+        "out": "bcafcafa4fc38d07"
+      },
+      "ecosystem.tiles.0.title": {
+        "src": "5d6e0719ce3778b1",
+        "out": "45fe960ce1da634e"
+      },
+      "ecosystem.tiles.0.text": {
+        "src": "652b17c76f802b9f",
+        "out": "7ac98f13bd897d7d"
+      },
+      "ecosystem.tiles.0.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "65321beb9ed1afff"
+      },
+      "ecosystem.tiles.1.title": {
+        "src": "8012440906264dab",
+        "out": "972b0126ee23ab0f"
+      },
+      "ecosystem.tiles.1.text": {
+        "src": "ebcd3fb5512ace8a",
+        "out": "7b6961a0849a3f73"
+      },
+      "ecosystem.tiles.1.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "65321beb9ed1afff"
+      },
+      "ecosystem.tiles.2.title": {
+        "src": "ca02cc5939f80b27",
+        "out": "136b09287833da9a"
+      },
+      "ecosystem.tiles.2.text": {
+        "src": "f0ff1d8457294e4e",
+        "out": "b58b63d2a86b3dbd"
+      },
+      "ecosystem.tiles.2.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "65321beb9ed1afff"
+      },
+      "ecosystem.tiles.3.title": {
+        "src": "c13c5da0164f24e6",
+        "out": "519fba62e1b9e94c"
+      },
+      "ecosystem.tiles.3.text": {
+        "src": "208a21cc31607c78",
+        "out": "7c8ccbea834b63a4"
+      },
+      "ecosystem.tiles.3.cta.label": {
+        "src": "d4bab490b0864b47",
+        "out": "65321beb9ed1afff"
+      },
+      "production.title": {
+        "src": "c2ea0c6f73e4a519",
+        "out": "a3c959782aaf6fff"
+      },
+      "mission.text": {
+        "src": "f88da788d37477d0",
+        "out": "6902ba320ed65051"
+      },
+      "international.title": {
+        "src": "239b450c7b8dff7e",
+        "out": "3e80060a06118975"
+      },
+      "international.countries": {
+        "src": "7627b65ad4b69858",
+        "out": "0548b0588e9d2f70"
+      },
+      "timeline.title": {
+        "src": "6bc6e41947e3e6a1",
+        "out": "dc960aa21232b6dc"
+      },
+      "timeline.text": {
+        "src": "75c1443c3499e306",
+        "out": "ae9a326d70084d85"
+      },
+      "timeline.items.0.title": {
+        "src": "343c8678d22f14b2",
+        "out": "95a0733222c7d8ba"
+      },
+      "timeline.items.0.text": {
+        "src": "3b07959e623ba817",
+        "out": "37f0c7fdb4e1bfc3"
+      },
+      "timeline.items.1.title": {
+        "src": "4eff4f417c47447b",
+        "out": "13ab12148e8cf47d"
+      },
+      "timeline.items.1.text": {
+        "src": "97e75a1deca04b36",
+        "out": "495ec1c62909e5d0"
+      },
+      "timeline.items.2.title": {
+        "src": "22b3270ca019a797",
+        "out": "9241bc99bed80913"
+      },
+      "timeline.items.2.text": {
+        "src": "0274a49d68162fd3",
+        "out": "7095f919ccd79eb7"
+      },
+      "timeline.items.3.title": {
+        "src": "34ffae759d411fcb",
+        "out": "90f9cf3727019d1d"
+      },
+      "timeline.items.3.text": {
+        "src": "0cdc6a19e99aea5a",
+        "out": "52381017c434566e"
+      },
+      "timeline.items.4.title": {
+        "src": "c259726255ab9b7d",
+        "out": "96da29e55524c480"
+      },
+      "timeline.items.4.text": {
+        "src": "a2386cf6ac442b9e",
+        "out": "8ef790084933ef11"
+      },
+      "timeline.items.5.year": {
+        "src": "34f89aadea1b3196",
+        "out": "34f89aadea1b3196"
+      },
+      "timeline.items.5.title": {
+        "src": "10e770a1749e6a1b",
+        "out": "52b53d6dd75f2c7d"
+      },
+      "timeline.items.5.text": {
+        "src": "ffb027f5695dd7c6",
+        "out": "0ff4eae0d87fe44e"
+      },
+      "timeline.items.6.title": {
+        "src": "59310572a565c668",
+        "out": "bc40c0b31e18cf70"
+      },
+      "timeline.items.6.text": {
+        "src": "a5fb0fe4fa3a2690",
+        "out": "7e65a5f2092f26cc"
+      },
+      "timeline.items.7.year": {
+        "src": "d6e2fa99715e82d4",
+        "out": "d6e2fa99715e82d4"
+      },
+      "timeline.items.7.title": {
+        "src": "b69295ef8316fc2d",
+        "out": "82b8c5a13c7e09c4"
+      },
+      "timeline.items.7.text": {
+        "src": "2cb58ce9f6729af9",
+        "out": "b29de04a91f300ea"
+      },
+      "timeline.items.8.title": {
+        "src": "913f882376175d74",
+        "out": "297155d9911cb0a0"
+      },
+      "timeline.items.8.text": {
+        "src": "2b0b335d1b739007",
+        "out": "308717a107be0512"
+      },
+      "timeline.items.9.title": {
+        "src": "371e290663bd0503",
+        "out": "fc5d9213bb224235"
+      },
+      "timeline.items.9.text": {
+        "src": "dadd4880fa1c93b9",
+        "out": "27feb0b8d9cdedc8"
+      },
+      "timeline.items.10.title": {
+        "src": "9830056d3835456e",
+        "out": "540380dd210d6678"
+      },
+      "timeline.items.10.text": {
+        "src": "3e1cd3f5eb2de9b2",
+        "out": "b0688c988cee5fe2"
+      },
+      "timeline.items.11.title": {
+        "src": "624ae7f158db6f69",
+        "out": "9a46f7ff1fcd93fb"
+      },
+      "timeline.items.11.text": {
+        "src": "adfabd513d6ae91b",
+        "out": "b9b3ac3c4a057547"
+      },
+      "articles.title": {
+        "src": "5a1783b22932551b",
+        "out": "1988beee58b08fac"
+      },
+      "articles.readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "52344eea855a3ca7"
+      },
+      "articles.more.label": {
+        "src": "36fe3932d6204d86",
+        "out": "c7e69bcfd4abcaed"
+      },
+      "certificates.title": {
+        "src": "040e02f115c03b8d",
+        "out": "4d23d781dc852071"
+      },
+      "certificates.text": {
+        "src": "cf7d5008f0e3be44",
+        "out": "1af9006cd868a01b"
+      },
+      "career.title": {
+        "src": "36f16f9d70d1ca34",
+        "out": "cdec0b1d47f1052e"
+      },
+      "career.text": {
+        "src": "91d73ecaa37bc203",
+        "out": "f0076b1679ad26a1"
+      },
+      "career.cta.label": {
+        "src": "cf6413db49660f77",
+        "out": "cbdbb5f7f2a6667d"
+      },
+      "showroom.kicker": {
+        "src": "d0995cb1e0725087",
+        "out": "e2f97b3dc1e4c5d9"
+      },
+      "showroom.title": {
+        "src": "2bcf5b1e0b770337",
+        "out": "4615e3860c8ef77a"
+      },
+      "showroom.text": {
+        "src": "5c995fd5415794f6",
+        "out": "10b47c596159a764"
+      },
+      "recent.title": {
+        "src": "09b083e53ce2c4e1",
+        "out": "ccf88da4d7c3eba6"
+      },
+      "recent.button": {
+        "src": "cee0c59aa1e06734",
+        "out": "83c6418489503167"
+      },
+      "contact.title": {
+        "src": "dce1ffff271e1b9b",
+        "out": "db01efb6c096fa22"
+      },
+      "contact.text": {
+        "src": "8c4465029b656888",
+        "out": "f01ab088bde8384b"
+      },
+      "contact.address": {
+        "src": "14c648c7fd273b84",
+        "out": "12a43dd9be9217cb"
+      },
+      "contact.cta.label": {
+        "src": "4dfc6f164ce719ce",
+        "out": "5109a863005aef4b"
+      },
+      "seoTitle": {
+        "src": "89170ad6521497d5",
+        "out": "ae89e1940024f660"
+      },
+      "seoDescription": {
+        "src": "13c4db5d1b16aab9",
+        "out": "6b55d35f5f73d5c8"
       }
     }
   }
