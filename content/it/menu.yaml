@@ -61,7 +61,7 @@ tabs:
                 image2: null
                 colors: []
               - name: Roni
-                tagline: Look premium a un prezzo contenuto
+                tagline: Una scelta solida a buon prezzo
                 href: /it/klimatyzacja/roni
                 image: /images/menu/roni.png
                 image2: null
@@ -170,7 +170,7 @@ tabs:
                 image2: null
                 colors: []
               - name: Roni
-                tagline: Look premium a un prezzo contenuto
+                tagline: Una scelta solida a buon prezzo
                 href: /it/klimatyzacja/roni-multi
                 image: /images/menu/roni.png
                 image2: null
@@ -229,6 +229,18 @@ tabs:
               href: ''
             cards: wall
             products:
+              - name: Luve Pro
+                tagline: Funzioni avanzate
+                href: /it/klimatyzacja/luve-pro
+                image: /images/menu/luve-pro.png
+                image2: null
+                colors: []
+              - name: Luve Pro Black
+                tagline: Nero elegante
+                href: /it/klimatyzacja/luve-pro-black
+                image: /images/menu/luve-pro-black.png
+                image2: null
+                colors: []
               - name: Versu Cloth Caramel
                 tagline: Stile unico
                 href: /it/klimatyzacja/versu-cloth-caramel

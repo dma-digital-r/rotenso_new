@@ -49,10 +49,16 @@ type RawProduct = {
   attributes?: { group?: { attribute?: RawAttr | RawAttr[] } | { attribute?: RawAttr | RawAttr[] }[] } | string;
 };
 
+/** Clearance items: one specific returned unit, much cheaper, photos show damage. */
+export const isClearance = (name: unknown) => /wyprzeda/i.test(String(name ?? ""));
+
 const asArray = <T,>(v: T | T[] | undefined): T[] => (v == null ? [] : Array.isArray(v) ? v : [v]);
 
 function normalize(p: RawProduct): FeedProduct | null {
   if (String(p.producer ?? "").trim() !== "Rotenso") return null;
+  // "Wyprzedaż (WC069) …" = a single returned unit sold off cheaply, with photos of its damage.
+  // Never use its price, photos or data.
+  if (isClearance(p.name)) return null;
   const category = String(p.category ?? "").trim();
   const group = categoryToGroup.get(category);
   if (!group) return null;

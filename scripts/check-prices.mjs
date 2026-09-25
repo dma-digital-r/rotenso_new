@@ -16,7 +16,8 @@ if (!res.ok) throw new Error(`Feed ${res.status}`);
 const doc = new XMLParser({ ignoreAttributes: true, parseTagValue: false }).parse(await res.text());
 const bySymbol = new Map();
 for (const p of [].concat(doc.products.product)) {
-  if (String(p.producer).trim() === "Rotenso") bySymbol.set(String(p.symbol).trim().toUpperCase(), p);
+  // Clearance items ("Wyprzedaż …") are single returned units — never part of the price.
+  if (String(p.producer).trim() === "Rotenso" && !/wyprzeda/i.test(String(p.name))) bySymbol.set(String(p.symbol).trim().toUpperCase(), p);
 }
 
 const home = yaml.load(await readFile("content/pl/home.yaml", "utf8"));
