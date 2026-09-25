@@ -8,16 +8,16 @@ import { ArticleBoxLarge } from "@/components/blog/ArticleCard";
 import { diagonalGradient } from "@/components/home/SectionBackdrop";
 import { Button } from "@/components/ui/Button";
 import { FramedImage } from "@/components/ui/FramedImage";
-import { defaultLocale, isLocale, type Locale } from "@/i18n/config";
+import { defaultLocale, isLocale, locales, type Locale } from "@/i18n/config";
 import { getUi } from "@/i18n/ui";
 import { getBlog, getGuide, getGuideList } from "@/lib/guides";
 
-// Polish articles are prerendered; other languages are rendered on first visit (they show the
-// Polish text until translated, with a canonical link to the Polish page).
-export const revalidate = 86400;
+// Every language is prerendered. Until translated, other languages show the Polish text with a
+// canonical link to the Polish page.
+export const dynamicParams = false;
 export async function generateStaticParams() {
-  const guides = await getGuideList(defaultLocale);
-  return guides.map((g) => ({ lang: defaultLocale, slug: g.slug }));
+  const all = await Promise.all(locales.map(async (lang) => (await getGuideList(lang)).map((g) => ({ lang, slug: g.slug }))));
+  return all.flat();
 }
 
 type Props = { params: Promise<{ lang: string; slug: string }> };
