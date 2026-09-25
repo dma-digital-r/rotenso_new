@@ -191,6 +191,11 @@ export const homeSchema = {
   social: fields.object(
     {
       title: fields.text({ label: "Tytuł" }),
+      youtubeFeed: fields.text({
+        label: "Filmy — feed kanału YouTube (RSS)",
+        description:
+          "Górny pasek pokazuje najnowsze filmy z kanału (bez Shorts), odświeżane raz na dobę. Lista „Filmy” poniżej jest używana tylko wtedy, gdy feed jest pusty lub niedostępny.",
+      }),
       videos: fields.array(
         fields.object({
           image: image("Miniatura filmu (640×360)"),

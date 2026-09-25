@@ -6,12 +6,18 @@ const socials = ["facebook", "youtube", "instagram", "tiktok", "spotify", "linke
 
 // Figma: "SoMe" (5172:70335), 1920×956. Both strips repeat their set twice in the
 // design, i.e. an endless loop: films 640×360 (first at x 20), posts 310×310 (first at x −40).
+// Strips move at a constant ~38 px/s whatever the number of tiles.
+const SPEED = 38;
+
 export function SocialMedia({
   data,
   links,
+  videos,
 }: {
   data: HomeContent["social"];
   links: SettingsContent["social"];
+  /** Latest channel videos (from the YouTube feed); falls back to the CMS list. */
+  videos: readonly { href: string; image: string | null; title?: string }[];
 }) {
   return (
     <section className="relative">
@@ -20,16 +26,18 @@ export function SocialMedia({
       <Strip
         className="mt-[70px] h-[360px]"
         offset={20}
-        setWidth={data.videos.length * 660}
-        seconds={70}
+        setWidth={videos.length * 660}
+        seconds={(videos.length * 660) / SPEED}
         direction="left"
       >
-        {data.videos.map((v, i) => (
+        {videos.map((v, i) => (
           <a
             key={i}
             href={v.href}
             target="_blank"
             rel="noopener noreferrer"
+            title={v.title}
+            aria-label={v.title || "YouTube"}
             className="relative block h-[360px] w-[640px] shrink-0 overflow-hidden rounded-[16px]"
           >
             {v.image && <Image src={v.image} alt="" fill sizes="640px" className="object-cover" />}
@@ -41,7 +49,7 @@ export function SocialMedia({
         className="mt-[20px] h-[310px]"
         offset={-40}
         setWidth={data.posts.length * 330}
-        seconds={55}
+        seconds={(data.posts.length * 330) / SPEED}
         direction="right"
       >
         {data.posts.map((p, i) => (

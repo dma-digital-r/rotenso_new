@@ -345,6 +345,7 @@ installer:
   placeholder: Type here...
 social:
   title: Discover us on social media
+  youtubeFeed: https://www.youtube.com/feeds/videos.xml?channel_id=UCz0zl0og-ziO470TR_R3v6Q
   videos:
     - image: /images/home/yt-1.png
       href: https://www.youtube.com/

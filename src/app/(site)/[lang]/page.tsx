@@ -14,6 +14,7 @@ import type { Locale } from "@/i18n/config";
 import { getUi } from "@/i18n/ui";
 import { getHome, getSettings, type HomeContent } from "@/lib/content";
 import { getRotensoProducts, setPrice } from "@/lib/productFeed";
+import { getChannelVideos } from "@/lib/youtube";
 
 // Prices come from the product feed — regenerate the page at most once a day.
 export const revalidate = 86400;
@@ -36,6 +37,19 @@ async function loadPrices(lang: Locale, home: HomeContent): Promise<Record<strin
   }
 }
 
+// Social Media strip: newest channel videos; the CMS list is the fallback.
+async function loadVideos(home: HomeContent) {
+  const fallback = home.social.videos;
+  if (!home.social.youtubeFeed) return fallback;
+  try {
+    const videos = await getChannelVideos(home.social.youtubeFeed);
+    return videos.length >= 2 ? videos : fallback;
+  } catch (e) {
+    console.error("[youtube] feed niedostępny — lista z panelu:", (e as Error).message);
+    return fallback;
+  }
+}
+
 export async function generateMetadata({ params }: PageProps<"/[lang]">): Promise<Metadata> {
   const { lang } = await params;
   const home = await getHome(lang as Locale);
@@ -50,7 +64,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
   const [home, settings] = await Promise.all([getHome(lang as Locale), getSettings(lang as Locale)]);
   const ui = getUi(lang as Locale);
-  const prices = await loadPrices(lang as Locale, home);
+  const [prices, videos] = await Promise.all([loadPrices(lang as Locale, home), loadVideos(home)]);
 
   return (
     <main>
@@ -66,7 +80,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
       <div className="relative mt-[250px]">
         {/* Rectangle 33: backdrop from y 8167, 1156px tall. */}
         <SectionBackdrop top={-100} height={1156} />
-        <SocialMedia data={home.social} links={settings.social} />
+        <SocialMedia data={home.social} links={settings.social} videos={videos} />
       </div>
       <Seo seo={home.seo} />
     </main>

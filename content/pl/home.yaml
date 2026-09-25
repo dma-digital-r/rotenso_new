@@ -305,6 +305,7 @@ installer:
   placeholder: Wpisz tutaj...
 social:
   title: Odkryj nas na Social Media
+  youtubeFeed: https://www.youtube.com/feeds/videos.xml?channel_id=UCz0zl0og-ziO470TR_R3v6Q
   videos:
     - image: /images/home/yt-1.png
       href: https://www.youtube.com/
