@@ -5,11 +5,13 @@ import type { HomeContent, SettingsContent } from "@/lib/content";
 const socials = ["facebook", "youtube", "instagram", "tiktok", "spotify", "linkedin"] as const;
 
 // Figma: "SoMe" (5172:70335), 1920×956. Both strips repeat their set twice in the
-// design, i.e. an endless loop: films 640×360 (first at x 20), posts 310×310 (first at x −40).
+// design, i.e. an endless loop: films (first at x 20), posts 310×310 (first at x −40).
 // Strips move at a constant ~38 px/s whatever the number of tiles.
 const SPEED = 38;
-// Top strip tiles are 360px high: videos 640 wide (16:9), Shorts 203 wide (9:16). Gap 20.
-const tileWidth = (v: { vertical?: boolean }) => (v.vertical ? 203 : 640);
+// Top strip: 225px high — videos 400 wide (16:9; Figma had 640×360, reduced on request),
+// Shorts 127 wide (9:16). Gap 20.
+const TILE_H = 225;
+const tileWidth = (v: { vertical?: boolean }) => (v.vertical ? Math.round((TILE_H * 9) / 16) : 400);
 
 export function SocialMedia({
   data,
@@ -27,7 +29,7 @@ export function SocialMedia({
       <h2 className="text-center text-h1 leading-[1.2] font-light text-rotenso-grey">{data.title}</h2>
 
       <Strip
-        className="mt-[70px] h-[360px]"
+        className="mt-[70px] h-[225px]"
         offset={20}
         setWidth={videoSetWidth}
         seconds={videoSetWidth / SPEED}
@@ -41,8 +43,8 @@ export function SocialMedia({
             rel="noopener noreferrer"
             title={v.title}
             aria-label={v.title || "YouTube"}
-            className="relative block h-[360px] shrink-0 overflow-hidden rounded-[16px]"
-            style={{ width: tileWidth(v) }}
+            className="relative block shrink-0 overflow-hidden rounded-[16px]"
+            style={{ width: tileWidth(v), height: TILE_H }}
           >
             {v.image && (
               <Image src={v.image} alt="" fill sizes={`${tileWidth(v)}px`} className="object-cover" />
