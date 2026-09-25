@@ -1,7 +1,10 @@
 featured: []
 featuredButton: Lesen
 recommendedTitle: Lesenswert
-recommended: []
+recommended:
+  - pompa-ciepla-split-czy-monoblok
+  - czy-klimatyzacja-jest-zdrowa
+  - rekuperacja-z-klimatyzacja
 readLabel: Lesen
 title: Ein Ort, drei Technologien
 text: Der Rotenso-Ratgeber stützt sich auf drei Produktsäulen — Klimaanlagen, Wohnraumlüftung und Wärmepumpen. Hier finden Sie Tipps zur Geräteauswahl, Montage und Wartung sowie Antworten auf die häufigsten Fragen von Installateuren und Kunden.

@@ -1,7 +1,10 @@
 featured: []
 featuredButton: Lire
 recommendedTitle: À lire aussi
-recommended: []
+recommended:
+  - pompa-ciepla-split-czy-monoblok
+  - czy-klimatyzacja-jest-zdrowa
+  - rekuperacja-z-klimatyzacja
 readLabel: Lire
 title: Un seul endroit, trois technologies
 text: Le guide Rotenso repose sur trois piliers produits — la climatisation, la ventilation double flux et les pompes à chaleur. Vous y trouverez des conseils sur le choix des appareils, l’installation et l’entretien, ainsi que des réponses aux questions les plus fréquentes des installateurs et des clients.

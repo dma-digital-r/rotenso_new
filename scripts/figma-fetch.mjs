@@ -11,9 +11,11 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
-const FILE_KEY = "rvv91RlTgxgArSSr0KTOGu";
+// Default: the main design file. Another file: --file=<key from the Figma link, after /design/>.
+const fileArg = process.argv.find((a) => a.startsWith("--file="));
+const FILE_KEY = fileArg ? fileArg.slice(7) : "rvv91RlTgxgArSSr0KTOGu";
 const token = process.env.FIGMA_TOKEN;
-const ids = process.argv.slice(2);
+const ids = process.argv.slice(2).filter((a) => !a.startsWith("--"));
 
 if (!token || ids.length === 0) {
   console.error("Set FIGMA_TOKEN and pass node ids, e.g. node scripts/figma-fetch.mjs 5172:70641");

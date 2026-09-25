@@ -1,7 +1,10 @@
 featured: []
 featuredButton: Read
 recommendedTitle: Worth reading
-recommended: []
+recommended:
+  - pompa-ciepla-split-czy-monoblok
+  - czy-klimatyzacja-jest-zdrowa
+  - rekuperacja-z-klimatyzacja
 readLabel: Read
 title: One place, three technologies
 text: The Rotenso guide is built on three product pillars — air conditioning, heat recovery ventilation and heat pumps. Here you will find advice on choosing equipment, installation and service, and answers to the questions installers and customers ask most often.

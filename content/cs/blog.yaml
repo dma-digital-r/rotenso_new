@@ -1,7 +1,10 @@
 featured: []
 featuredButton: Přečíst
 recommendedTitle: Stojí za přečtení
-recommended: []
+recommended:
+  - pompa-ciepla-split-czy-monoblok
+  - czy-klimatyzacja-jest-zdrowa
+  - rekuperacja-z-klimatyzacja
 readLabel: Přečíst
 title: Jedno místo, tři technologie
 text: Poradna Rotenso stojí na třech produktových pilířích — klimatizace, rekuperace a tepelná čerpadla. Najdete zde rady k výběru zařízení, montáži a servisu a odpovědi na otázky, které nejčastěji kladou instalatéři a zákazníci.

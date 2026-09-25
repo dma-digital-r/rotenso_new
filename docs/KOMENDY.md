@@ -47,7 +47,7 @@ New-NetFirewallRule -DisplayName "Rotenso podglad (3001)" -Direction Inbound -Pr
 
 ## Poradniki (blog)
 - **Lista:** `/pl/poradniki` — nagłówek ze slajdami, „Warto przeczytać”, filtry kategorii, tagi, wyszukiwarka, stronicowanie (12 na stronę), „Najczęściej czytane”.
-- **Panel → Poradniki — strona listy (PL):** wybór poradników do slajdów, „Warto przeczytać” i „Najczęściej czytane” (puste = najnowsze), przyciski filtrów i przypisane im kategorie.
+- **Panel → Poradniki — strona listy (PL):** wybór poradników do slajdów (puste = 4 najnowsze; 2 pierwsze slajdy nie powtarzają się na liście „Wszystkie”), „Warto przeczytać” (tylko ręcznie, puste = sekcja ukryta) i „Najczęściej czytane”, przyciski filtrów i przypisane im kategorie.
 - **Panel → Poradniki (PL):** treść artykułów. Pole „Tagi” zasila filtr „#tagi” (przycisk pojawi się, gdy choć jeden poradnik ma tag).
 - Na liście nie ma wpisów bez kategorii (strony z WordPressa: Kariera, Przetwarzanie danych).
 - Inne języki pokazują polskie artykuły (z linkiem canonical do wersji PL), dopóki nie zostaną przetłumaczone.
@@ -89,6 +89,7 @@ New-NetFirewallRule -DisplayName "Rotenso podglad (3001)" -Direction Inbound -Pr
 |---|---|
 | `node --env-file=.env.local scripts/figma-fetch.mjs <id-węzła>` | Pobiera dane i zdjęcia elementu z Figmy (token `FIGMA_TOKEN`). |
 | `node --env-file=.env.local scripts/figma-svg.mjs nazwa=<id-węzła>` | Eksportuje ikonę z Figmy jako `public/icons/nazwa.svg`. |
+| … `--file=<klucz pliku>` | Dla obu skryptów: inny plik Figmy niż główny (klucz z linku, po `/design/`). |
 
 ## Sekrety (plik `.env.local`, nie trafia na GitHub)
 `PRODUCT_FEED_*` (feed produktów), `INSTALLERS_FEED_*` (instalatorzy), `BUNNY_*` (zdjęcia/wideo),

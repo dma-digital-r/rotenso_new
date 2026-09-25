@@ -28,11 +28,11 @@ export default async function GuidesPage({ params }: Props) {
   const ui = getUi(lang as Locale);
   const [blog, guides] = await Promise.all([getBlog(lang), getGuideList(lang)]);
 
-  // Empty picks fall back to the newest guides: 4 in the header, the next 3 in "Warto przeczytać".
+  // Header: picked guides, or the 4 newest. "Warto przeczytać" is always picked by hand.
   const featured = blog.featured.length ? pickGuides(guides, blog.featured) : guides.slice(0, 4);
-  const recommended = blog.recommended.length
-    ? pickGuides(guides, blog.recommended)
-    : guides.filter((g) => !featured.includes(g)).slice(0, 3);
+  const recommended = pickGuides(guides, blog.recommended);
+  // The first 2 header slides are what most visitors see, so the unfiltered list skips them.
+  const hidden = featured.slice(0, 2).map((g) => g.slug);
   const popular = pickGuides(guides, blog.popular);
 
   return (
@@ -55,7 +55,7 @@ export default async function GuidesPage({ params }: Props) {
         <p className="text-[16px] leading-[24px]">{blog.text}</p>
       </div>
 
-      <BlogList guides={guides} labels={blog} ui={ui} />
+      <BlogList guides={guides} hideUnfiltered={hidden} labels={blog} ui={ui} />
 
       {popular.length > 0 && (
         <section className="mt-[150px] py-[100px]" style={{ backgroundImage: diagonalGradient(692) }}>

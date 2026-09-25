@@ -1,7 +1,10 @@
 featured: []
 featuredButton: Leggi
 recommendedTitle: Da leggere
-recommended: []
+recommended:
+  - pompa-ciepla-split-czy-monoblok
+  - czy-klimatyzacja-jest-zdrowa
+  - rekuperacja-z-klimatyzacja
 readLabel: Leggi
 title: Un solo posto, tre tecnologie
 text: La guida Rotenso si basa su tre pilastri di prodotto — climatizzazione, ventilazione meccanica controllata e pompe di calore. Qui trovi consigli sulla scelta degli apparecchi, sull’installazione e sull’assistenza, e le risposte alle domande più frequenti di installatori e clienti.

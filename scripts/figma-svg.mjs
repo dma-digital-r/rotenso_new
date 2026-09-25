@@ -5,9 +5,11 @@
 import { writeFile } from "node:fs/promises";
 import path from "node:path";
 
-const FILE_KEY = "rvv91RlTgxgArSSr0KTOGu";
+// Default: the main design file. Another file: --file=<key from the Figma link, after /design/>.
+const fileArg = process.argv.find((a) => a.startsWith("--file="));
+const FILE_KEY = fileArg ? fileArg.slice(7) : "rvv91RlTgxgArSSr0KTOGu";
 const token = process.env.FIGMA_TOKEN;
-const pairs = process.argv.slice(2).map((a) => a.split("="));
+const pairs = process.argv.slice(2).filter((a) => !a.startsWith("--")).map((a) => a.split("="));
 if (!token || !pairs.length || pairs.some((p) => p.length !== 2)) {
   console.error("Użycie: node --env-file=.env.local scripts/figma-svg.mjs nazwa=5172:1234 …");
   process.exit(1);

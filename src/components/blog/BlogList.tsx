@@ -16,7 +16,9 @@ const norm = (s: string) => s.toLocaleLowerCase("pl").normalize("NFD").replace(/
 // cloud ("Tagi" 5172:76982), search field, counter, 4-column grid of "Article box 2" cards and
 // pagination. The filters live in the address (?kategoria=…&tag=…&szukaj=…&strona=…), so a
 // filtered list can be shared and the back button works.
-export function BlogList({ guides, labels, ui }: { guides: GuideSummary[]; labels: Labels; ui: Ui }) {
+// "hideUnfiltered": guides already shown at the top of the page (the first header slides); they
+// are left out of the plain "Wszystkie" view but still found by filters, tags and search.
+export function BlogList({ guides, hideUnfiltered = [], labels, ui }: { guides: GuideSummary[]; hideUnfiltered?: string[]; labels: Labels; ui: Ui }) {
   const [filter, setFilter] = useState(-1);
   const [tags, setTags] = useState<string[]>([]);
   const [query, setQuery] = useState("");
@@ -41,13 +43,15 @@ export function BlogList({ guides, labels, ui }: { guides: GuideSummary[]; label
   const results = useMemo(() => {
     const cats = filter >= 0 ? labels.filters[filter]?.categories ?? [] : null;
     const q = norm(query.trim());
+    const unfiltered = !cats && !tags.length && !q;
     return guides.filter(
       (g) =>
+        !(unfiltered && hideUnfiltered.includes(g.slug)) &&
         (!cats || g.categories.some((c) => (cats as readonly string[]).includes(c))) &&
         tags.every((t) => g.tags.includes(t)) &&
         (!q || norm(`${g.title} ${g.excerpt}`).includes(q)),
     );
-  }, [guides, filter, tags, query, labels.filters]);
+  }, [guides, filter, tags, query, labels.filters, hideUnfiltered]);
 
   const pages = Math.max(1, Math.ceil(results.length / PER_PAGE));
   const current = Math.min(page, pages);

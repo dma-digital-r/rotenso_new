@@ -1,7 +1,10 @@
 featured: []
 featuredButton: Читати
 recommendedTitle: Варто прочитати
-recommended: []
+recommended:
+  - pompa-ciepla-split-czy-monoblok
+  - czy-klimatyzacja-jest-zdrowa
+  - rekuperacja-z-klimatyzacja
 readLabel: Читати
 title: Одне місце, три технології
 text: Поради Rotenso спираються на три продуктові напрями — кондиціонування, рекуперацію та теплові насоси. Тут ви знайдете поради щодо вибору обладнання, монтажу та сервісу, а також відповіді на запитання, які найчастіше ставлять монтажники й клієнти.

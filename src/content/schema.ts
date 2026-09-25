@@ -780,10 +780,10 @@ export const blogSchema = (guides: string) => {
       itemLabel: (i) => i.value || "Poradnik",
     });
   return {
-    featured: pick("Nagłówek — slajdy (4)", "Puste = 4 najnowsze poradniki."),
+    featured: pick("Nagłówek — slajdy (4)", "Puste = 4 najnowsze poradniki. Dwa pierwsze nie powtarzają się na liście „Wszystkie”."),
     featuredButton: fields.text({ label: "Nagłówek — przycisk" }),
     recommendedTitle: fields.text({ label: "Warto przeczytać — tytuł" }),
-    recommended: pick("Warto przeczytać (3)", "Puste = kolejne 3 najnowsze."),
+    recommended: pick("Warto przeczytać (3)", "Wybierane ręcznie — najważniejsze poradniki. Puste = sekcja ukryta."),
     readLabel: fields.text({ label: "Przycisk na kartach (np. Przeczytaj)" }),
     title: fields.text({ label: "Tytuł nad listą" }),
     text: fields.text({ label: "Tekst nad listą", multiline: true }),
