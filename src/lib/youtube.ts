@@ -1,7 +1,8 @@
 import "server-only";
 import { XMLParser } from "fast-xml-parser";
 
-export type YouTubeVideo = { id: string; title: string; href: string; image: string };
+/** `vertical` = a Short (9:16), shown in a narrower tile. */
+export type YouTubeVideo = { id: string; title: string; href: string; image: string; vertical: boolean };
 
 type Entry = {
   "yt:videoId": string;
@@ -11,26 +12,28 @@ type Entry = {
 
 const DAY = 86400;
 
-// Best thumbnail that exists: maxres (1280×720) if YouTube generated one, else sd (640×480,
-// letterboxed — object-fit: cover trims the bars in the 640×360 tile).
-async function thumbnail(id: string): Promise<string> {
-  const maxres = `https://i.ytimg.com/vi/${id}/maxresdefault.jpg`;
+const exists = async (url: string) => {
   try {
-    const res = await fetch(maxres, { method: "HEAD", next: { revalidate: DAY } });
-    if (res.ok) return maxres;
+    return (await fetch(url, { method: "HEAD", next: { revalidate: DAY } })).ok;
   } catch {
-    // fall through
+    return false;
   }
-  return `https://i.ytimg.com/vi/${id}/sddefault.jpg`;
+};
+
+// Best thumbnail that exists. Shorts: the vertical oar2 (1080×1920). Videos: maxres (1280×720),
+// else sd (640×480, letterboxed — object-fit: cover trims the bars). Both fallbacks are also
+// fine for Shorts, whose vertical frame sits in the middle of the landscape thumbnail.
+async function thumbnail(id: string, vertical: boolean): Promise<string> {
+  const base = `https://i.ytimg.com/vi/${id}`;
+  if (vertical && (await exists(`${base}/oar2.jpg`))) return `${base}/oar2.jpg`;
+  if (await exists(`${base}/maxresdefault.jpg`)) return `${base}/maxresdefault.jpg`;
+  return `${base}/sddefault.jpg`;
 }
 
-/**
- * Latest videos from a channel's public RSS feed (15 newest). Shorts are skipped by default —
- * they are vertical and don't fit the 640×360 tiles.
- */
+/** Latest videos and Shorts from a channel's public RSS feed (15 newest), newest first. */
 export async function getChannelVideos(
   feedUrl: string,
-  { includeShorts = false, limit = 12 } = {},
+  { includeShorts = true, limit = 15 } = {},
 ): Promise<YouTubeVideo[]> {
   const res = await fetch(feedUrl, { next: { revalidate: DAY } });
   if (!res.ok) throw new Error(`YouTube feed ${res.status}`);
@@ -43,10 +46,10 @@ export async function getChannelVideos(
     .map((e) => {
       const links = Array.isArray(e.link) ? e.link : e.link ? [e.link] : [];
       const href = links.map((l) => l["@_href"]).find(Boolean) ?? `https://www.youtube.com/watch?v=${e["yt:videoId"]}`;
-      return { id: String(e["yt:videoId"]), title: String(e.title ?? ""), href };
+      return { id: String(e["yt:videoId"]), title: String(e.title ?? ""), href, vertical: href.includes("/shorts/") };
     })
-    .filter((v) => v.id && (includeShorts || !v.href.includes("/shorts/")))
+    .filter((v) => v.id && (includeShorts || !v.vertical))
     .slice(0, limit);
 
-  return Promise.all(videos.map(async (v) => ({ ...v, image: await thumbnail(v.id) })));
+  return Promise.all(videos.map(async (v) => ({ ...v, image: await thumbnail(v.id, v.vertical) })));
 }

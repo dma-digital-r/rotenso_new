@@ -8,6 +8,8 @@ const socials = ["facebook", "youtube", "instagram", "tiktok", "spotify", "linke
 // design, i.e. an endless loop: films 640×360 (first at x 20), posts 310×310 (first at x −40).
 // Strips move at a constant ~38 px/s whatever the number of tiles.
 const SPEED = 38;
+// Top strip tiles are 360px high: videos 640 wide (16:9), Shorts 203 wide (9:16). Gap 20.
+const tileWidth = (v: { vertical?: boolean }) => (v.vertical ? 203 : 640);
 
 export function SocialMedia({
   data,
@@ -17,8 +19,9 @@ export function SocialMedia({
   data: HomeContent["social"];
   links: SettingsContent["social"];
   /** Latest channel videos (from the YouTube feed); falls back to the CMS list. */
-  videos: readonly { href: string; image: string | null; title?: string }[];
+  videos: readonly { href: string; image: string | null; title?: string; vertical?: boolean }[];
 }) {
+  const videoSetWidth = videos.reduce((sum, v) => sum + tileWidth(v) + 20, 0);
   return (
     <section className="relative">
       <h2 className="text-center text-h1 leading-[1.2] font-light text-rotenso-grey">{data.title}</h2>
@@ -26,8 +29,8 @@ export function SocialMedia({
       <Strip
         className="mt-[70px] h-[360px]"
         offset={20}
-        setWidth={videos.length * 660}
-        seconds={(videos.length * 660) / SPEED}
+        setWidth={videoSetWidth}
+        seconds={videoSetWidth / SPEED}
         direction="left"
       >
         {videos.map((v, i) => (
@@ -38,9 +41,12 @@ export function SocialMedia({
             rel="noopener noreferrer"
             title={v.title}
             aria-label={v.title || "YouTube"}
-            className="relative block h-[360px] w-[640px] shrink-0 overflow-hidden rounded-[16px]"
+            className="relative block h-[360px] shrink-0 overflow-hidden rounded-[16px]"
+            style={{ width: tileWidth(v) }}
           >
-            {v.image && <Image src={v.image} alt="" fill sizes="640px" className="object-cover" />}
+            {v.image && (
+              <Image src={v.image} alt="" fill sizes={`${tileWidth(v)}px`} className="object-cover" />
+            )}
           </a>
         ))}
       </Strip>

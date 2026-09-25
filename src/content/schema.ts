@@ -194,7 +194,7 @@ export const homeSchema = {
       youtubeFeed: fields.text({
         label: "Filmy — feed kanału YouTube (RSS)",
         description:
-          "Górny pasek pokazuje najnowsze filmy z kanału (bez Shorts), odświeżane raz na dobę. Lista „Filmy” poniżej jest używana tylko wtedy, gdy feed jest pusty lub niedostępny.",
+          "Górny pasek pokazuje najnowsze filmy i Shorts z kanału (Shorts w węższych, pionowych kafelkach), odświeżane raz na dobę. Lista „Filmy” poniżej jest używana tylko wtedy, gdy feed jest pusty lub niedostępny.",
       }),
       videos: fields.array(
         fields.object({
