@@ -1,0 +1,55 @@
+# Polecenia — lista robocza
+
+Zbiór poleceń do obsługi portalu, uzupełniany na bieżąco. Na końcu projektu powstanie z tego
+pełna dokumentacja dla marketingu. Polecenia wpisuje się w terminalu VS Code (Terminal → New Terminal)
+w folderze projektu:
+
+```
+cd "C:\Users\Daniel Werner\Projekty\rotenso_new"
+```
+
+## Podgląd strony
+| Polecenie | Co robi |
+|---|---|
+| `npm run dev` | Uruchamia podgląd na http://localhost:3000/pl (zmiany widać od razu). Zatrzymanie: `Ctrl+C`. |
+| — | Panel treści: http://localhost:3000/keystatic (działa tylko na tym komputerze). |
+| `npm run build` | Sprawdza, czy cała strona się buduje (przed publikacją). |
+
+Gdy podgląd pokaże błąd „Jest worker…”: `Ctrl+C`, usuń folder `.next`, ponownie `npm run dev`.
+
+## Wersja dla zespołu w sieci biurowej
+| Polecenie | Co robi |
+|---|---|
+| `$env:NEXT_DIST_DIR=".next-lan"; npm run build` | Buduje wersję dla zespołu (PowerShell). |
+| `$env:NEXT_DIST_DIR=".next-lan"; npx next start -H 0.0.0.0 -p 3001` | Udostępnia ją pod http://<IP-komputera>:3001/pl. |
+
+Jednorazowo (PowerShell jako administrator) — otwarcie portu w zaporze:
+```
+New-NetFirewallRule -DisplayName "Rotenso podglad (3001)" -Direction Inbound -Protocol TCP -LocalPort 3001 -Action Allow -Profile Private,Public -RemoteAddress LocalSubnet
+```
+
+## Tłumaczenia
+| Polecenie | Co robi |
+|---|---|
+| `npm run translate` | Tłumaczy zmienione teksty PL na pozostałe języki (DeepL, klucz `DEEPL_API_KEY`). Poprawek ręcznych nie nadpisuje. |
+| `npm run translate -- --lang=de,fr` | To samo, tylko wybrane języki. |
+| `npm run translate:memory` | Odbudowuje pliki językowe z zapisanych tłumaczeń (bez DeepL). |
+
+## Ceny
+| Polecenie | Co robi |
+|---|---|
+| `npm run prices` | Pokazuje, jak liczona jest cena „Już od” każdego modelu (ceny jednostek z feedu, stany, suma). |
+
+## Poradniki (blog)
+| Polecenie | Co robi |
+|---|---|
+| `npm run import:wordpress -- "C:\ścieżka\eksport.xml"` | Importuje wpisy z eksportu WordPressa. Dodaje tylko nowe, istniejących nie rusza. |
+
+## Figma (dla programisty)
+| Polecenie | Co robi |
+|---|---|
+| `node --env-file=.env.local scripts/figma-fetch.mjs <id-węzła>` | Pobiera dane i zdjęcia elementu z Figmy (token `FIGMA_TOKEN`). |
+
+## Sekrety (plik `.env.local`, nie trafia na GitHub)
+`PRODUCT_FEED_*` (feed produktów), `INSTALLERS_FEED_*` (instalatorzy), `BUNNY_*` (zdjęcia/wideo),
+`FIGMA_TOKEN`, `DEEPL_API_KEY`.
