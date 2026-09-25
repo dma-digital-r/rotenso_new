@@ -43,3 +43,4 @@ next-env.d.ts
 # raw downloads from scripts/figma-fetch.mjs (copies used by the site live in public/)
 /docs/figma-nodes/images/
 /.next-test/
+/.next-lan/
