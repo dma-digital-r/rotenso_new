@@ -1,0 +1,80 @@
+import "server-only";
+import type { Entry } from "@keystatic/core/reader";
+import { productsCollection } from "../../keystatic.config";
+import { defaultLocale, type Locale } from "@/i18n/config";
+import { reader } from "./content";
+import { documentsFor, type ProductDocument } from "./documents";
+import { getRotensoProducts, setPrice, type FeedProduct } from "./productFeed";
+import { buildSpecs, type SpecGroup } from "./specs";
+
+export type ProductEntry = Entry<ReturnType<typeof productsCollection>>;
+
+/** One capacity of a family (e.g. "2,6 kW"), with everything the page shows for it. */
+export type ProductVariant = {
+  label: string;
+  symbols: string;
+  /** Gross "from" price in PLN — only on the Polish site, null elsewhere or if missing. */
+  price: number | null;
+  specs: SpecGroup[];
+  documents: ProductDocument[];
+  images: string[];
+};
+
+export type ProductPage = {
+  slug: string;
+  entry: ProductEntry;
+  variants: ProductVariant[];
+};
+
+const collectionFor = (lang: Locale) => reader.collections[`products_${lang}`];
+
+export async function listProducts(lang: Locale) {
+  return (await collectionFor(lang).all()) as { slug: string; entry: ProductEntry }[];
+}
+
+async function readProduct(lang: Locale, slug: string): Promise<ProductEntry | null> {
+  const own = (await collectionFor(lang).read(slug)) as ProductEntry | null;
+  if (own) return own;
+  // Languages without their own copy show the Polish one until it is translated.
+  return lang === defaultLocale ? null : ((await collectionFor(defaultLocale).read(slug)) as ProductEntry | null);
+}
+
+const unitsOf = (feed: Map<string, FeedProduct>, symbols: string) =>
+  symbols
+    .split("+")
+    .map((s) => feed.get(s.trim().toUpperCase()))
+    .filter(Boolean) as FeedProduct[];
+
+// Split sets are written "indoor + outdoor"; single-unit products have one symbol.
+function splitUnits(units: FeedProduct[]) {
+  const idu = units.find((u) => /wewn/i.test(u.name)) ?? units[0];
+  const odu = units.find((u) => /zewn/i.test(u.name) && u !== idu) ?? units[1];
+  return { idu, odu };
+}
+
+export async function getProductPage(lang: Locale, category: string, slug: string): Promise<ProductPage | null> {
+  const entry = await readProduct(lang, slug);
+  if (!entry || entry.category !== category) return null;
+
+  let feed = new Map<string, FeedProduct>();
+  try {
+    feed = await getRotensoProducts();
+  } catch (e) {
+    console.error("[produkty] feed niedostępny:", (e as Error).message);
+  }
+
+  const variants = entry.variants.map((v) => {
+    const units = unitsOf(feed, v.symbols);
+    const { idu, odu } = splitUnits(units);
+    return {
+      label: v.label,
+      symbols: v.symbols,
+      price: lang === "pl" ? setPrice(feed, v.symbols) : null,
+      specs: buildSpecs(idu, odu),
+      documents: documentsFor([idu, odu], lang),
+      images: idu?.images ?? [],
+    };
+  });
+
+  return { slug, entry, variants };
+}

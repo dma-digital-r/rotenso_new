@@ -27,10 +27,14 @@ export type FeedProduct = {
   stock: number;
   url: string;
   images: string[];
+  /** First value of each attribute name. */
   attributes: Record<string, string>;
+  /** Download files (PDF, DWG…) with the label from the feed. */
+  attachments: { label: string; lang: string; url: string }[];
 };
 
 type RawAttr = { name?: string; value?: string | number };
+type RawAttachment = { description?: string; lang?: string; url?: string };
 type RawProduct = {
   id: string | number;
   producer?: string;
@@ -41,6 +45,7 @@ type RawProduct = {
   stock?: string | number;
   url?: string;
   gallery?: { image?: string | string[] } | string;
+  attachments?: { attachment?: RawAttachment | RawAttachment[] } | string;
   attributes?: { group?: { attribute?: RawAttr | RawAttr[] } | { attribute?: RawAttr | RawAttr[] }[] } | string;
 };
 
@@ -70,6 +75,12 @@ function normalize(p: RawProduct): FeedProduct | null {
     url: String(p.url ?? ""),
     images: typeof p.gallery === "object" ? asArray(p.gallery.image).map(String) : [],
     attributes,
+    attachments:
+      typeof p.attachments === "object"
+        ? asArray(p.attachments.attachment)
+            .filter((a) => a.url)
+            .map((a) => ({ label: String(a.description ?? "").trim(), lang: String(a.lang ?? "").trim(), url: String(a.url) }))
+        : [],
   };
 }
 

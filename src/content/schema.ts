@@ -272,6 +272,98 @@ export const guideSchema = {
   }),
 };
 
+// Product families (one page per family, e.g. "Mirai"). Technical data, prices, photos and
+// download files come from the product feed; marketing content is edited here.
+export const productKinds = [
+  { label: "Klimatyzacja — High Premium", value: "ac-high-premium" },
+  { label: "Klimatyzacja — Premium", value: "ac-premium" },
+  { label: "Klimatyzacja — Basic", value: "ac-basic" },
+  { label: "Pompa ciepła", value: "heat-pump" },
+  { label: "Systemy RVF", value: "rvf" },
+  { label: "Rekuperacja", value: "recuperation" },
+] as const;
+
+export const productCategories = [
+  { label: "Klimatyzacja", value: "klimatyzacja" },
+  { label: "Pompy ciepła", value: "pompy-ciepla" },
+  { label: "Rekuperacja", value: "rekuperacja" },
+  { label: "Systemy RVF", value: "systemy-rvf" },
+] as const;
+
+export const productSchema = {
+  name: fields.slug({ name: { label: "Nazwa (np. Mirai)" }, slug: { label: "Adres (slug)" } }),
+  kind: fields.select({ label: "Rodzaj karty produktu", options: productKinds, defaultValue: "ac-high-premium" }),
+  category: fields.select({ label: "Kategoria (adres strony)", options: productCategories, defaultValue: "klimatyzacja" }),
+  categoryLabel: fields.text({ label: "Nad nazwą w hero (np. Klimatyzacja)" }),
+  tagline: fields.text({ label: "Hasło w hero" }),
+  heroImage: image("Zdjęcie hero (1920×1030)", "products"),
+  description: fields.text({ label: "Opis w sekcji zakupowej", multiline: true }),
+  variants: fields.array(
+    fields.object({
+      label: fields.text({ label: "Moc (np. 2,6 kW)" }),
+      symbols: fields.text({
+        label: "Symbole z feedu",
+        description:
+          "Jednostka wewnętrzna + zewnętrzna, np. M26XI R15 + M26XO R15. Z nich strona bierze cenę (tylko PL), parametry, zdjęcia i pliki do pobrania.",
+      }),
+    }),
+    { label: "Moce", itemLabel: (v) => v.fields.label.value || "Moc" },
+  ),
+  purchaseIntro: fields.object(
+    {
+      kicker: fields.text({ label: "Nadtytuł (np. Klimatyzacja idealna)" }),
+      title: fields.text({ label: "Tytuł (np. do twojego domu lub twojej firmy)" }),
+      text: fields.text({ label: "Tekst pod tytułem" }),
+      background: image("Tło (rozmyte zdjęcie)", "products"),
+    },
+    { label: "Sekcja zakupowa — nagłówek" },
+  ),
+  arLink: link("Kafelek „Zobacz jak wygląda ten model w twoim pomieszczeniu”"),
+  accessoriesLink: link("Kafelek „Zobacz akcesoria pasujące do tego modelu”"),
+  gallery: fields.array(image("Zdjęcie", "products"), {
+    label: "Galeria (opcjonalnie)",
+    description: "Puste = zdjęcia jednostki wewnętrznej z feedu.",
+  }),
+  family: fields.object(
+    {
+      label: fields.text({ label: "Nazwa tej wersji na przełączniku (np. Mirai)" }),
+      other: link("Druga wersja (np. Mirai Multi)"),
+      canonical: fields.text({
+        label: "Adres oryginału (canonical)",
+        description: "Tylko na kopii, np. na Mirai Multi: /pl/klimatyzacja/mirai. Na oryginale zostaw puste.",
+      }),
+    },
+    { label: "Wersje (Split / Multi)" },
+  ),
+  siblings: fields.array(
+    fields.object({ name: fields.text({ label: "Nazwa" }), image: image("Miniatura", "products"), href: fields.text({ label: "Adres" }) }),
+    { label: "Pozostałe modele z tej serii (np. kolory)", itemLabel: (s) => s.fields.name.value || "Model" },
+  ),
+  dimensions: fields.object(
+    {
+      indoor: image("Wymiary — jednostka wewnętrzna", "products"),
+      outdoor: image("Wymiary — jednostka zewnętrzna", "products"),
+      remote: image("Wymiary — pilot", "products"),
+    },
+    { label: "Rysunki wymiarowe (Specyfikacja)" },
+  ),
+  featureGroups: fields.array(
+    fields.object({
+      title: fields.text({ label: "Grupa (np. Zdrowie i czystość)" }),
+      items: fields.array(
+        fields.object({
+          name: fields.text({ label: "Cecha" }),
+          tooltip: fields.text({ label: "Podpowiedź po najechaniu (opcjonalnie)", multiline: true }),
+        }),
+        { label: "Cechy", itemLabel: (i) => i.fields.name.value || "Cecha" },
+      ),
+    }),
+    { label: "Cechy produktu (Specyfikacja)", itemLabel: (g) => g.fields.title.value || "Grupa" },
+  ),
+  seoTitle: fields.text({ label: "SEO — tytuł" }),
+  seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
+};
+
 const footerColumn = fields.object({
   heading: link("Nagłówek"),
   links: fields.array(link("Link"), {

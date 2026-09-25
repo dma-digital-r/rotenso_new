@@ -1,6 +1,6 @@
-import { collection, config, fields, singleton } from "@keystatic/core";
+import { collection, config, singleton } from "@keystatic/core";
 import { locales, localeLabels, type Locale } from "./src/i18n/config";
-import { guideSchema, homeSchema, settingsSchema } from "./src/content/schema";
+import { guideSchema, homeSchema, productSchema, settingsSchema } from "./src/content/schema";
 
 // Every language keeps its own copy of the content under content/<lang>/.
 // PL is edited by hand; other languages are filled by the DeepL script and can
@@ -35,27 +35,14 @@ export function guidesCollection(lang: Locale) {
   });
 }
 
-function productsCollection(lang: Locale) {
+export function productsCollection(lang: Locale) {
   return collection({
     label: `Produkty (${lang.toUpperCase()})`,
     slugField: "name",
     path: `content/${lang}/products/*`,
     format: { data: "yaml" },
-    schema: {
-      name: fields.slug({ name: { label: "Nazwa" } }),
-      category: fields.select({
-        label: "Kategoria",
-        options: [
-          { label: "Klimatyzacja", value: "klimatyzacja" },
-          { label: "Rekuperacja", value: "rekuperacja" },
-          { label: "Pompa ciepła", value: "pompa-ciepla" },
-          { label: "Akcesoria", value: "akcesoria" },
-        ],
-        defaultValue: "klimatyzacja",
-      }),
-      tagline: fields.text({ label: "Hasło pod nazwą" }),
-      description: fields.text({ label: "Opis", multiline: true }),
-    },
+    columns: ["name", "kind"],
+    schema: productSchema,
   });
 }
 
