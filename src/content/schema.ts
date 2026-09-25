@@ -205,7 +205,7 @@ export const homeSchema = {
       ),
       posts: fields.array(
         fields.object({
-          image: image("Post (310×310)"),
+          image: image("Post (4:5, np. 1080×1350)"),
           href: fields.text({ label: "Link do posta" }),
         }),
         {
