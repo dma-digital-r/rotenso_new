@@ -253,6 +253,11 @@ export const guideSchema = {
     label: "Kategorie",
     options: guideCategories.map((c) => ({ label: c, value: c })),
   }),
+  tags: fields.array(fields.text({ label: "Tag (bez #)" }), {
+    label: "Tagi",
+    description: "Np. montaż, dobór mocy. Pojawiają się w filtrze „#tagi” na liście poradników.",
+    itemLabel: (t) => t.value || "Tag",
+  }),
   excerpt: fields.text({ label: "Zajawka", multiline: true }),
   image: image("Zdjęcie główne", "guides"),
   imageAlt: fields.text({ label: "Opis zdjęcia (alt)" }),
@@ -764,4 +769,45 @@ export const aboutSchema = {
   ),
   seoTitle: fields.text({ label: "SEO — tytuł" }),
   seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
+};
+
+// "Blog Poradnik v03" (Figma 5172:76810). Picks point to guides of the same language.
+export const blogSchema = (guides: string) => {
+  const pick = (label: string, description: string) =>
+    fields.array(fields.relationship({ label: "Poradnik", collection: guides }), {
+      label,
+      description,
+      itemLabel: (i) => i.value || "Poradnik",
+    });
+  return {
+    featured: pick("Nagłówek — slajdy (4)", "Puste = 4 najnowsze poradniki."),
+    featuredButton: fields.text({ label: "Nagłówek — przycisk" }),
+    recommendedTitle: fields.text({ label: "Warto przeczytać — tytuł" }),
+    recommended: pick("Warto przeczytać (3)", "Puste = kolejne 3 najnowsze."),
+    readLabel: fields.text({ label: "Przycisk na kartach (np. Przeczytaj)" }),
+    title: fields.text({ label: "Tytuł nad listą" }),
+    text: fields.text({ label: "Tekst nad listą", multiline: true }),
+    allLabel: fields.text({ label: "Filtr „Wszystkie”" }),
+    filters: fields.array(
+      fields.object({
+        label: fields.text({ label: "Nazwa przycisku" }),
+        categories: fields.multiselect({ label: "Kategorie poradników", options: guideCategories.map((c) => ({ label: c, value: c })) }),
+      }),
+      { label: "Filtry (przyciski nad listą)", itemLabel: (f) => f.fields.label.value || "Filtr" },
+    ),
+    tagsLabel: fields.text({ label: "Przycisk tagów (np. #tagi)" }),
+    searchPlaceholder: fields.text({ label: "Wyszukiwarka — podpowiedź" }),
+    countLabel: fields.text({ label: "Licznik (np. Liczba poradników:)" }),
+    emptyText: fields.text({ label: "Brak wyników" }),
+    popularTitle: fields.text({ label: "Najczęściej czytane — tytuł" }),
+    popular: pick("Najczęściej czytane (4)", "Do czasu podpięcia statystyk wybierane ręcznie. Puste = sekcja ukryta."),
+    recent: fields.object(
+      { title: fields.text({ label: "Tytuł" }), text: fields.text({ label: "Tekst" }), button: fields.text({ label: "Przycisk" }) },
+      { label: "Ostatnio oglądane" },
+    ),
+    articleRelatedTitle: fields.text({ label: "Artykuł — tytuł sekcji podobnych (np. Warto przeczytać)" }),
+    articleBack: fields.text({ label: "Artykuł — link powrotu (np. Wszystkie poradniki)" }),
+    seoTitle: fields.text({ label: "SEO — tytuł" }),
+    seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
+  };
 };

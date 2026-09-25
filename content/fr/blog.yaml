@@ -1,0 +1,43 @@
+featured: []
+featuredButton: Lire
+recommendedTitle: À lire aussi
+recommended: []
+readLabel: Lire
+title: Un seul endroit, trois technologies
+text: Le guide Rotenso repose sur trois piliers produits — la climatisation, la ventilation double flux et les pompes à chaleur. Vous y trouverez des conseils sur le choix des appareils, l’installation et l’entretien, ainsi que des réponses aux questions les plus fréquentes des installateurs et des clients.
+allLabel: Tous
+filters:
+  - label: Climatisation
+    categories:
+      - Klimatyzacja
+  - label: VMC double flux
+    categories:
+      - Rekuperacja
+  - label: Pompes à chaleur
+    categories:
+      - Pompy ciepła
+  - label: Systèmes VRF/RVF
+    categories:
+      - RVF/VRF
+  - label: Vie de l’entreprise
+    categories:
+      - Media
+      - Akademia Rotenso
+tagsLabel: '#tags'
+searchPlaceholder: Rechercher un article...
+countLabel: 'Nombre de guides :'
+emptyText: Aucun guide ne correspond aux filtres sélectionnés.
+popularTitle: Les plus lus
+popular:
+  - jak-dobrac-moc-klimatyzatora
+  - jak-dziala-pompa-ciepla-powietrzna
+  - rekuperacja-co-to-jest
+  - split-czy-multisplit
+recent:
+  title: Vus récemment
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  button: Revoir
+articleRelatedTitle: À lire aussi
+articleBack: Tous les guides
+seoTitle: Guides Rotenso — climatisation, ventilation, pompes à chaleur
+seoDescription: Conseils des experts Rotenso sur le choix, l’installation et l’entretien des climatiseurs, centrales de ventilation et pompes à chaleur. Réponses aux questions des installateurs et des clients.

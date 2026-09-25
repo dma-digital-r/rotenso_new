@@ -1,0 +1,43 @@
+featured: []
+featuredButton: Lesen
+recommendedTitle: Lesenswert
+recommended: []
+readLabel: Lesen
+title: Ein Ort, drei Technologien
+text: Der Rotenso-Ratgeber stützt sich auf drei Produktsäulen — Klimaanlagen, Wohnraumlüftung und Wärmepumpen. Hier finden Sie Tipps zur Geräteauswahl, Montage und Wartung sowie Antworten auf die häufigsten Fragen von Installateuren und Kunden.
+allLabel: Alle
+filters:
+  - label: Klimaanlagen
+    categories:
+      - Klimatyzacja
+  - label: Wohnraumlüftung
+    categories:
+      - Rekuperacja
+  - label: Wärmepumpen
+    categories:
+      - Pompy ciepła
+  - label: VRF/RVF-Systeme
+    categories:
+      - RVF/VRF
+  - label: Aus dem Unternehmen
+    categories:
+      - Media
+      - Akademia Rotenso
+tagsLabel: '#Tags'
+searchPlaceholder: Artikel suchen...
+countLabel: 'Anzahl der Ratgeber:'
+emptyText: Wir haben keine Ratgeber gefunden, die zu den gewählten Filtern passen.
+popularTitle: Meistgelesen
+popular:
+  - jak-dobrac-moc-klimatyzatora
+  - jak-dziala-pompa-ciepla-powietrzna
+  - rekuperacja-co-to-jest
+  - split-czy-multisplit
+recent:
+  title: Zuletzt angesehen
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  button: Erneut ansehen
+articleRelatedTitle: Lesenswert
+articleBack: Alle Ratgeber
+seoTitle: Rotenso-Ratgeber — Klimaanlagen, Wohnraumlüftung, Wärmepumpen
+seoDescription: Tipps der Rotenso-Experten zu Auswahl, Montage und Wartung von Klimaanlagen, Lüftungsgeräten und Wärmepumpen. Antworten auf Fragen von Installateuren und Kunden.

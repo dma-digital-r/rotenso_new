@@ -1,0 +1,43 @@
+featured: []
+featuredButton: Leggi
+recommendedTitle: Da leggere
+recommended: []
+readLabel: Leggi
+title: Un solo posto, tre tecnologie
+text: La guida Rotenso si basa su tre pilastri di prodotto — climatizzazione, ventilazione meccanica controllata e pompe di calore. Qui trovi consigli sulla scelta degli apparecchi, sull’installazione e sull’assistenza, e le risposte alle domande più frequenti di installatori e clienti.
+allLabel: Tutti
+filters:
+  - label: Climatizzazione
+    categories:
+      - Klimatyzacja
+  - label: VMC
+    categories:
+      - Rekuperacja
+  - label: Pompe di calore
+    categories:
+      - Pompy ciepła
+  - label: Sistemi VRF/RVF
+    categories:
+      - RVF/VRF
+  - label: Vita aziendale
+    categories:
+      - Media
+      - Akademia Rotenso
+tagsLabel: '#tag'
+searchPlaceholder: Cerca un articolo...
+countLabel: 'Numero di guide:'
+emptyText: Non abbiamo trovato guide corrispondenti ai filtri selezionati.
+popularTitle: I più letti
+popular:
+  - jak-dobrac-moc-klimatyzatora
+  - jak-dziala-pompa-ciepla-powietrzna
+  - rekuperacja-co-to-jest
+  - split-czy-multisplit
+recent:
+  title: Visti di recente
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  button: Rivedi
+articleRelatedTitle: Da leggere
+articleBack: Tutte le guide
+seoTitle: Guide Rotenso — climatizzazione, ventilazione, pompe di calore
+seoDescription: I consigli degli esperti Rotenso su scelta, installazione e assistenza di climatizzatori, recuperatori e pompe di calore. Risposte alle domande di installatori e clienti.

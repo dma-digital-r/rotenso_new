@@ -1,0 +1,43 @@
+featured: []
+featuredButton: Читати
+recommendedTitle: Варто прочитати
+recommended: []
+readLabel: Читати
+title: Одне місце, три технології
+text: Поради Rotenso спираються на три продуктові напрями — кондиціонування, рекуперацію та теплові насоси. Тут ви знайдете поради щодо вибору обладнання, монтажу та сервісу, а також відповіді на запитання, які найчастіше ставлять монтажники й клієнти.
+allLabel: Усі
+filters:
+  - label: Кондиціонування
+    categories:
+      - Klimatyzacja
+  - label: Рекуперація
+    categories:
+      - Rekuperacja
+  - label: Теплові насоси
+    categories:
+      - Pompy ciepła
+  - label: Системи VRF/RVF
+    categories:
+      - RVF/VRF
+  - label: Життя компанії
+    categories:
+      - Media
+      - Akademia Rotenso
+tagsLabel: '#теги'
+searchPlaceholder: Шукати статтю...
+countLabel: 'Кількість порад:'
+emptyText: Не знайдено порад, що відповідають вибраним фільтрам.
+popularTitle: Найпопулярніше
+popular:
+  - jak-dobrac-moc-klimatyzatora
+  - jak-dziala-pompa-ciepla-powietrzna
+  - rekuperacja-co-to-jest
+  - split-czy-multisplit
+recent:
+  title: Нещодавно переглянуті
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  button: Переглянути знову
+articleRelatedTitle: Варто прочитати
+articleBack: Усі поради
+seoTitle: Поради Rotenso — кондиціонування, рекуперація, теплові насоси
+seoDescription: Поради експертів Rotenso щодо вибору, монтажу та сервісу кондиціонерів, рекуператорів і теплових насосів. Відповіді на запитання монтажників і клієнтів.

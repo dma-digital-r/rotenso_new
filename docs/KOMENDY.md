@@ -45,6 +45,14 @@ New-NetFirewallRule -DisplayName "Rotenso podglad (3001)" -Direction Inbound -Pr
 |---|---|
 | `npm run import:wordpress -- "C:\ścieżka\eksport.xml"` | Importuje wpisy z eksportu WordPressa. Dodaje tylko nowe, istniejących nie rusza. |
 
+## Poradniki (blog)
+- **Lista:** `/pl/poradniki` — nagłówek ze slajdami, „Warto przeczytać”, filtry kategorii, tagi, wyszukiwarka, stronicowanie (12 na stronę), „Najczęściej czytane”.
+- **Panel → Poradniki — strona listy (PL):** wybór poradników do slajdów, „Warto przeczytać” i „Najczęściej czytane” (puste = najnowsze), przyciski filtrów i przypisane im kategorie.
+- **Panel → Poradniki (PL):** treść artykułów. Pole „Tagi” zasila filtr „#tagi” (przycisk pojawi się, gdy choć jeden poradnik ma tag).
+- Na liście nie ma wpisów bez kategorii (strony z WordPressa: Kariera, Przetwarzanie danych).
+- Inne języki pokazują polskie artykuły (z linkiem canonical do wersji PL), dopóki nie zostaną przetłumaczone.
+- `npm run guides:images` — kopiuje zdjęcia i pliki podlinkowane w treści ze starego WordPressa na nową stronę (po imporcie nowych wpisów).
+
 ## Social media (automatycznie, raz na dobę)
 - **YouTube** — górny pasek: najnowsze filmy i Shorts z kanału. Adres feedu: panel → Strona główna → Odkryj nas na Social Media → „Filmy — feed kanału YouTube”.
 - **Instagram** — dolny pasek: najnowsze posty konta rotenso.official (Instagram API, aplikacja Meta „Rotenso – strona WWW”).

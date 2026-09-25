@@ -75,3 +75,84 @@ body {
     animation-play-state: paused;
   }
 }
+
+/* Guide articles (Markdoc body). No article template in Figma — typography follows the site:
+   16/24 body, 25px (h3 token) and 40px (h2 token) light headings, grey text, red links. */
+.guide-body {
+  color: var(--color-rotenso-grey);
+  font-size: 16px;
+  line-height: 24px;
+}
+/* Markdoc wraps the text in <article>. */
+.guide-body > article > * + * {
+  margin-top: 20px;
+}
+.guide-body > article > :first-child {
+  margin-top: 0;
+}
+.guide-body h2 {
+  margin-top: 50px;
+  font-size: var(--text-h2);
+  line-height: 1.2;
+  font-weight: 300;
+}
+.guide-body h3,
+.guide-body h4,
+.guide-body h5,
+.guide-body h6 {
+  margin-top: 40px;
+  font-size: var(--text-h3);
+  line-height: 1.36;
+  font-weight: 300;
+}
+.guide-body :is(h2, h3, h4) {
+  scroll-margin-top: 110px;
+}
+.guide-body a {
+  color: var(--color-rotenso-red);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.guide-body strong {
+  font-weight: 700;
+}
+.guide-body ul,
+.guide-body ol {
+  padding-left: 22px;
+}
+.guide-body ul {
+  list-style: disc;
+}
+.guide-body ol {
+  list-style: decimal;
+}
+.guide-body li + li {
+  margin-top: 6px;
+}
+.guide-body img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+.guide-body blockquote {
+  border-left: 3px solid var(--color-rotenso-red);
+  padding-left: 20px;
+  font-size: var(--text-h3);
+  line-height: 1.36;
+  font-weight: 300;
+}
+.guide-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.guide-body :is(th, td) {
+  border-bottom: 1px solid var(--color-grey-dd);
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+.guide-body hr {
+  border-color: var(--color-grey-dd);
+}

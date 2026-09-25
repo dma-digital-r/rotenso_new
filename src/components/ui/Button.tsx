@@ -2,12 +2,13 @@ import Link from "next/link";
 import type { ComponentProps, ReactNode } from "react";
 
 // Button variants from the Figma library: "BTN L Red", "BTN M Red", "BTN M White",
-// "BTN S Red", "BTN S Outline", "BTN S Outline White".
+// "BTN S Red", "BTN S Grey", "BTN S Outline", "BTN S Outline White".
 const variants = {
   "l-red": "rounded-[26px] px-[25px] py-[20px] text-[16px] bg-rotenso-red text-white",
   "m-red": "rounded-[21px] px-[18px] py-[15px] text-[16px] bg-rotenso-red text-white",
   "m-white": "rounded-[21px] px-[18px] py-[15px] text-[16px] bg-white text-rotenso-grey",
   "s-red": "rounded-[15px] px-[15px] py-[10px] text-[12px] bg-rotenso-red text-white",
+  "s-grey": "rounded-[15px] px-[15px] py-[10px] text-[12px] border border-rotenso-grey bg-rotenso-grey text-white",
   "s-outline":
     "rounded-[15px] px-[15px] py-[10px] text-[12px] border border-rotenso-grey text-rotenso-grey",
   "s-outline-white":

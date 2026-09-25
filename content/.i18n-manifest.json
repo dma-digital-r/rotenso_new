@@ -2291,6 +2291,96 @@
         "src": "13c4db5d1b16aab9",
         "out": "0a7fc225c38d8633"
       }
+    },
+    "blog": {
+      "featuredButton": {
+        "src": "f66e87d543a0c5d8",
+        "out": "852b438f91ad9eb2"
+      },
+      "recommendedTitle": {
+        "src": "e5e6afe7d7f28f9a",
+        "out": "48553acbbae7a8e6"
+      },
+      "readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "852b438f91ad9eb2"
+      },
+      "title": {
+        "src": "5043b22ea9f36c08",
+        "out": "c28af33607b63310"
+      },
+      "text": {
+        "src": "549cd5d9ba46c8a6",
+        "out": "df1ade77015c3077"
+      },
+      "allLabel": {
+        "src": "2a6a215fc315a39f",
+        "out": "6a72085653e4c5be"
+      },
+      "filters.0.label": {
+        "src": "42c07d76cbc797fb",
+        "out": "d368160195d9b0ef"
+      },
+      "filters.1.label": {
+        "src": "8012440906264dab",
+        "out": "7029415a43fbe2ed"
+      },
+      "filters.2.label": {
+        "src": "ca02cc5939f80b27",
+        "out": "aa12cb2b2522fe15"
+      },
+      "filters.3.label": {
+        "src": "cd858960c7253681",
+        "out": "fcd85581b752eee1"
+      },
+      "filters.4.label": {
+        "src": "86ef05ca3550abd7",
+        "out": "7af8280b815f4983"
+      },
+      "tagsLabel": {
+        "src": "4f5c90434fc8a103",
+        "out": "98683127627efa53"
+      },
+      "searchPlaceholder": {
+        "src": "09cbfca3b60c6ba0",
+        "out": "7358ab92ebc4746c"
+      },
+      "countLabel": {
+        "src": "f48e62f2baa07d6a",
+        "out": "4c168c69adb4179c"
+      },
+      "emptyText": {
+        "src": "48f8091831974d20",
+        "out": "374ed4dc0f92bb9d"
+      },
+      "popularTitle": {
+        "src": "035e965c35748aa1",
+        "out": "59399c54e3214d2e"
+      },
+      "recent.title": {
+        "src": "09b083e53ce2c4e1",
+        "out": "fd316b7c502381ba"
+      },
+      "recent.button": {
+        "src": "cee0c59aa1e06734",
+        "out": "f8cf120d12f5c3d6"
+      },
+      "articleRelatedTitle": {
+        "src": "e5e6afe7d7f28f9a",
+        "out": "48553acbbae7a8e6"
+      },
+      "articleBack": {
+        "src": "7c0339dd54d21f7a",
+        "out": "9b60654db4f564d4"
+      },
+      "seoTitle": {
+        "src": "1340d3ad89e661af",
+        "out": "bc81463f3dadf568"
+      },
+      "seoDescription": {
+        "src": "fd99cc188958ae1d",
+        "out": "8f662469ed445924"
+      }
     }
   },
   "de": {
@@ -4584,6 +4674,96 @@
       "seoDescription": {
         "src": "13c4db5d1b16aab9",
         "out": "1beeb7134bbb863e"
+      }
+    },
+    "blog": {
+      "featuredButton": {
+        "src": "f66e87d543a0c5d8",
+        "out": "f2ab41ad9d2b56dd"
+      },
+      "recommendedTitle": {
+        "src": "e5e6afe7d7f28f9a",
+        "out": "eaeaaa5aa76e91cb"
+      },
+      "readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "f2ab41ad9d2b56dd"
+      },
+      "title": {
+        "src": "5043b22ea9f36c08",
+        "out": "c337f8411d675b1f"
+      },
+      "text": {
+        "src": "549cd5d9ba46c8a6",
+        "out": "56d8daad8bde95ff"
+      },
+      "allLabel": {
+        "src": "2a6a215fc315a39f",
+        "out": "4c7a986ffe2b7139"
+      },
+      "filters.0.label": {
+        "src": "42c07d76cbc797fb",
+        "out": "450960701f99f48b"
+      },
+      "filters.1.label": {
+        "src": "8012440906264dab",
+        "out": "8b8c67ba55927a14"
+      },
+      "filters.2.label": {
+        "src": "ca02cc5939f80b27",
+        "out": "b24c84590ea2d33c"
+      },
+      "filters.3.label": {
+        "src": "cd858960c7253681",
+        "out": "cf0657c075499311"
+      },
+      "filters.4.label": {
+        "src": "86ef05ca3550abd7",
+        "out": "8ff4cff324ae9d10"
+      },
+      "tagsLabel": {
+        "src": "4f5c90434fc8a103",
+        "out": "81f62892b9153f1d"
+      },
+      "searchPlaceholder": {
+        "src": "09cbfca3b60c6ba0",
+        "out": "262fd6690f19845f"
+      },
+      "countLabel": {
+        "src": "f48e62f2baa07d6a",
+        "out": "3ced7415be50a6e4"
+      },
+      "emptyText": {
+        "src": "48f8091831974d20",
+        "out": "2765f9e3ae6f2dcf"
+      },
+      "popularTitle": {
+        "src": "035e965c35748aa1",
+        "out": "6077f467321fb8ee"
+      },
+      "recent.title": {
+        "src": "09b083e53ce2c4e1",
+        "out": "9c9426a1f2aa4a16"
+      },
+      "recent.button": {
+        "src": "cee0c59aa1e06734",
+        "out": "7caea30e95406457"
+      },
+      "articleRelatedTitle": {
+        "src": "e5e6afe7d7f28f9a",
+        "out": "eaeaaa5aa76e91cb"
+      },
+      "articleBack": {
+        "src": "7c0339dd54d21f7a",
+        "out": "71083f365a345d48"
+      },
+      "seoTitle": {
+        "src": "1340d3ad89e661af",
+        "out": "28ad94bc22d7f0c4"
+      },
+      "seoDescription": {
+        "src": "fd99cc188958ae1d",
+        "out": "725f5fd2e6732cac"
       }
     }
   },
@@ -6879,6 +7059,96 @@
         "src": "13c4db5d1b16aab9",
         "out": "3789472863067c3e"
       }
+    },
+    "blog": {
+      "featuredButton": {
+        "src": "f66e87d543a0c5d8",
+        "out": "8af9af72ae045bf1"
+      },
+      "recommendedTitle": {
+        "src": "e5e6afe7d7f28f9a",
+        "out": "995e291968376189"
+      },
+      "readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "8af9af72ae045bf1"
+      },
+      "title": {
+        "src": "5043b22ea9f36c08",
+        "out": "b10e0dd875d426a9"
+      },
+      "text": {
+        "src": "549cd5d9ba46c8a6",
+        "out": "32ebed22b774c362"
+      },
+      "allLabel": {
+        "src": "2a6a215fc315a39f",
+        "out": "b97ae3b4f9093f64"
+      },
+      "filters.0.label": {
+        "src": "42c07d76cbc797fb",
+        "out": "a67d932e57c47378"
+      },
+      "filters.1.label": {
+        "src": "8012440906264dab",
+        "out": "74fcc090ccbb609c"
+      },
+      "filters.2.label": {
+        "src": "ca02cc5939f80b27",
+        "out": "39986831df978bfe"
+      },
+      "filters.3.label": {
+        "src": "cd858960c7253681",
+        "out": "846b1327e29f730d"
+      },
+      "filters.4.label": {
+        "src": "86ef05ca3550abd7",
+        "out": "fb7dad605f5c8895"
+      },
+      "tagsLabel": {
+        "src": "4f5c90434fc8a103",
+        "out": "98683127627efa53"
+      },
+      "searchPlaceholder": {
+        "src": "09cbfca3b60c6ba0",
+        "out": "53cf73f3452278dd"
+      },
+      "countLabel": {
+        "src": "f48e62f2baa07d6a",
+        "out": "111619449f173d75"
+      },
+      "emptyText": {
+        "src": "48f8091831974d20",
+        "out": "b3af4cecd75489af"
+      },
+      "popularTitle": {
+        "src": "035e965c35748aa1",
+        "out": "1b1199dafeb45a20"
+      },
+      "recent.title": {
+        "src": "09b083e53ce2c4e1",
+        "out": "a7a63006f361ce78"
+      },
+      "recent.button": {
+        "src": "cee0c59aa1e06734",
+        "out": "85ff96833c5b990b"
+      },
+      "articleRelatedTitle": {
+        "src": "e5e6afe7d7f28f9a",
+        "out": "995e291968376189"
+      },
+      "articleBack": {
+        "src": "7c0339dd54d21f7a",
+        "out": "c74a9cf24b2c2924"
+      },
+      "seoTitle": {
+        "src": "1340d3ad89e661af",
+        "out": "0cf53f23f1f04093"
+      },
+      "seoDescription": {
+        "src": "fd99cc188958ae1d",
+        "out": "427430e912bb5d86"
+      }
     }
   },
   "cs": {
@@ -9172,6 +9442,96 @@
       "seoDescription": {
         "src": "13c4db5d1b16aab9",
         "out": "c0cdb417e40cd12c"
+      }
+    },
+    "blog": {
+      "featuredButton": {
+        "src": "f66e87d543a0c5d8",
+        "out": "00417239997cc0e6"
+      },
+      "recommendedTitle": {
+        "src": "e5e6afe7d7f28f9a",
+        "out": "30db677f3e178f9a"
+      },
+      "readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "00417239997cc0e6"
+      },
+      "title": {
+        "src": "5043b22ea9f36c08",
+        "out": "3e46d91541418374"
+      },
+      "text": {
+        "src": "549cd5d9ba46c8a6",
+        "out": "8ac8a74906f9254c"
+      },
+      "allLabel": {
+        "src": "2a6a215fc315a39f",
+        "out": "8807d7ac126e0967"
+      },
+      "filters.0.label": {
+        "src": "42c07d76cbc797fb",
+        "out": "0f4333c17e013e90"
+      },
+      "filters.1.label": {
+        "src": "8012440906264dab",
+        "out": "17026327ed52307a"
+      },
+      "filters.2.label": {
+        "src": "ca02cc5939f80b27",
+        "out": "59194b067fab5829"
+      },
+      "filters.3.label": {
+        "src": "cd858960c7253681",
+        "out": "623c088c5aa071e9"
+      },
+      "filters.4.label": {
+        "src": "86ef05ca3550abd7",
+        "out": "32306dccfa9c1ca6"
+      },
+      "tagsLabel": {
+        "src": "4f5c90434fc8a103",
+        "out": "13b82a80117e71fc"
+      },
+      "searchPlaceholder": {
+        "src": "09cbfca3b60c6ba0",
+        "out": "2256e69cf2599792"
+      },
+      "countLabel": {
+        "src": "f48e62f2baa07d6a",
+        "out": "ec34b616d4e45e94"
+      },
+      "emptyText": {
+        "src": "48f8091831974d20",
+        "out": "5020ba76f15a79a7"
+      },
+      "popularTitle": {
+        "src": "035e965c35748aa1",
+        "out": "5cd77e1d020515cc"
+      },
+      "recent.title": {
+        "src": "09b083e53ce2c4e1",
+        "out": "ac64d62c90c8063d"
+      },
+      "recent.button": {
+        "src": "cee0c59aa1e06734",
+        "out": "f8678396f49ae1f3"
+      },
+      "articleRelatedTitle": {
+        "src": "e5e6afe7d7f28f9a",
+        "out": "30db677f3e178f9a"
+      },
+      "articleBack": {
+        "src": "7c0339dd54d21f7a",
+        "out": "16ae298b194f0312"
+      },
+      "seoTitle": {
+        "src": "1340d3ad89e661af",
+        "out": "2381e5e382e675b3"
+      },
+      "seoDescription": {
+        "src": "fd99cc188958ae1d",
+        "out": "d942fa970098e929"
       }
     }
   },
@@ -11467,6 +11827,96 @@
         "src": "13c4db5d1b16aab9",
         "out": "098442e1f5ecb440"
       }
+    },
+    "blog": {
+      "featuredButton": {
+        "src": "f66e87d543a0c5d8",
+        "out": "8d9ce1967892a6b8"
+      },
+      "recommendedTitle": {
+        "src": "e5e6afe7d7f28f9a",
+        "out": "3cdfa6105dc2928a"
+      },
+      "readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "8d9ce1967892a6b8"
+      },
+      "title": {
+        "src": "5043b22ea9f36c08",
+        "out": "f4f6509164f8e1a1"
+      },
+      "text": {
+        "src": "549cd5d9ba46c8a6",
+        "out": "9d87a8b3dc92e920"
+      },
+      "allLabel": {
+        "src": "2a6a215fc315a39f",
+        "out": "148ba18ee0d70b68"
+      },
+      "filters.0.label": {
+        "src": "42c07d76cbc797fb",
+        "out": "1d78d2348a05d1d3"
+      },
+      "filters.1.label": {
+        "src": "8012440906264dab",
+        "out": "3ab2ae229770c3a9"
+      },
+      "filters.2.label": {
+        "src": "ca02cc5939f80b27",
+        "out": "cd5b51fe5b00060c"
+      },
+      "filters.3.label": {
+        "src": "cd858960c7253681",
+        "out": "2f9984af59eb9da5"
+      },
+      "filters.4.label": {
+        "src": "86ef05ca3550abd7",
+        "out": "94be908ca856780e"
+      },
+      "tagsLabel": {
+        "src": "4f5c90434fc8a103",
+        "out": "ec4066e38b216234"
+      },
+      "searchPlaceholder": {
+        "src": "09cbfca3b60c6ba0",
+        "out": "fd34da0c9cff3a13"
+      },
+      "countLabel": {
+        "src": "f48e62f2baa07d6a",
+        "out": "47e813b1e8f8c968"
+      },
+      "emptyText": {
+        "src": "48f8091831974d20",
+        "out": "62c2944230f93931"
+      },
+      "popularTitle": {
+        "src": "035e965c35748aa1",
+        "out": "31f6cf355d315574"
+      },
+      "recent.title": {
+        "src": "09b083e53ce2c4e1",
+        "out": "f87fc1e6e687731b"
+      },
+      "recent.button": {
+        "src": "cee0c59aa1e06734",
+        "out": "fbb0a5ed2ddba2d5"
+      },
+      "articleRelatedTitle": {
+        "src": "e5e6afe7d7f28f9a",
+        "out": "3cdfa6105dc2928a"
+      },
+      "articleBack": {
+        "src": "7c0339dd54d21f7a",
+        "out": "b69fd684624f70b4"
+      },
+      "seoTitle": {
+        "src": "1340d3ad89e661af",
+        "out": "6e06d721403d354d"
+      },
+      "seoDescription": {
+        "src": "fd99cc188958ae1d",
+        "out": "a26095e7d99e796a"
+      }
     }
   },
   "uk": {
@@ -13760,6 +14210,96 @@
       "seoDescription": {
         "src": "13c4db5d1b16aab9",
         "out": "6b55d35f5f73d5c8"
+      }
+    },
+    "blog": {
+      "featuredButton": {
+        "src": "f66e87d543a0c5d8",
+        "out": "52344eea855a3ca7"
+      },
+      "recommendedTitle": {
+        "src": "e5e6afe7d7f28f9a",
+        "out": "b12b2e077e73bcdd"
+      },
+      "readLabel": {
+        "src": "f66e87d543a0c5d8",
+        "out": "52344eea855a3ca7"
+      },
+      "title": {
+        "src": "5043b22ea9f36c08",
+        "out": "02cb19255345e988"
+      },
+      "text": {
+        "src": "549cd5d9ba46c8a6",
+        "out": "610d21bc178a2de8"
+      },
+      "allLabel": {
+        "src": "2a6a215fc315a39f",
+        "out": "f89e450b3905175b"
+      },
+      "filters.0.label": {
+        "src": "42c07d76cbc797fb",
+        "out": "7f699d237d2cb137"
+      },
+      "filters.1.label": {
+        "src": "8012440906264dab",
+        "out": "972b0126ee23ab0f"
+      },
+      "filters.2.label": {
+        "src": "ca02cc5939f80b27",
+        "out": "136b09287833da9a"
+      },
+      "filters.3.label": {
+        "src": "cd858960c7253681",
+        "out": "1eb6c4c2b18a5d60"
+      },
+      "filters.4.label": {
+        "src": "86ef05ca3550abd7",
+        "out": "47cc62d63ba99496"
+      },
+      "tagsLabel": {
+        "src": "4f5c90434fc8a103",
+        "out": "718533f7a5a8cd3e"
+      },
+      "searchPlaceholder": {
+        "src": "09cbfca3b60c6ba0",
+        "out": "805ce430059ad3c3"
+      },
+      "countLabel": {
+        "src": "f48e62f2baa07d6a",
+        "out": "c464a1bed424bd50"
+      },
+      "emptyText": {
+        "src": "48f8091831974d20",
+        "out": "7c4ec0590739a9e3"
+      },
+      "popularTitle": {
+        "src": "035e965c35748aa1",
+        "out": "1a86640347fad943"
+      },
+      "recent.title": {
+        "src": "09b083e53ce2c4e1",
+        "out": "ccf88da4d7c3eba6"
+      },
+      "recent.button": {
+        "src": "cee0c59aa1e06734",
+        "out": "83c6418489503167"
+      },
+      "articleRelatedTitle": {
+        "src": "e5e6afe7d7f28f9a",
+        "out": "b12b2e077e73bcdd"
+      },
+      "articleBack": {
+        "src": "7c0339dd54d21f7a",
+        "out": "d4f7b6497de91b4e"
+      },
+      "seoTitle": {
+        "src": "1340d3ad89e661af",
+        "out": "52217037446dd6f7"
+      },
+      "seoDescription": {
+        "src": "fd99cc188958ae1d",
+        "out": "eb73c5eb66f808f4"
       }
     }
   }

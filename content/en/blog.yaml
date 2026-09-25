@@ -1,0 +1,43 @@
+featured: []
+featuredButton: Read
+recommendedTitle: Worth reading
+recommended: []
+readLabel: Read
+title: One place, three technologies
+text: The Rotenso guide is built on three product pillars — air conditioning, heat recovery ventilation and heat pumps. Here you will find advice on choosing equipment, installation and service, and answers to the questions installers and customers ask most often.
+allLabel: All
+filters:
+  - label: Air conditioning
+    categories:
+      - Klimatyzacja
+  - label: Heat recovery
+    categories:
+      - Rekuperacja
+  - label: Heat pumps
+    categories:
+      - Pompy ciepła
+  - label: VRF/RVF systems
+    categories:
+      - RVF/VRF
+  - label: Company life
+    categories:
+      - Media
+      - Akademia Rotenso
+tagsLabel: '#tags'
+searchPlaceholder: Search articles...
+countLabel: 'Number of guides:'
+emptyText: We found no guides matching the selected filters.
+popularTitle: Most read
+popular:
+  - jak-dobrac-moc-klimatyzatora
+  - jak-dziala-pompa-ciepla-powietrzna
+  - rekuperacja-co-to-jest
+  - split-czy-multisplit
+recent:
+  title: Recently viewed
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  button: View again
+articleRelatedTitle: Worth reading
+articleBack: All guides
+seoTitle: Rotenso guides — air conditioning, heat recovery, heat pumps
+seoDescription: Rotenso experts' advice on choosing, installing and servicing air conditioners, heat recovery units and heat pumps. Answers to installers' and customers' questions.

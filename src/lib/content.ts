@@ -33,7 +33,7 @@ function typesetString(value: string, orphans: boolean): string {
   return out;
 }
 
-function typesetDeep<T>(value: T, orphans: boolean): T {
+export function typesetDeep<T>(value: T, orphans: boolean): T {
   if (typeof value === "string") return typesetString(value, orphans) as T;
   if (Array.isArray(value)) return value.map((v) => typesetDeep(v, orphans)) as T;
   if (value && typeof value === "object") {
@@ -70,9 +70,11 @@ const AREAS = ["Klimatyzacja", "Rekuperacja", "Pompy ciepła", "RVF/VRF"];
 
 /** Newest guides of a language, as cards for "Praktyczna wiedza". Empty if there are none. */
 export async function getLatestGuides(lang: Locale, limit = 10): Promise<GuideCard[]> {
-  const all = (await reader.collections[`guides_${lang}`].all()) as { slug: string; entry: GuideEntry }[];
+  const own = (await reader.collections[`guides_${lang}`].all()) as { slug: string; entry: GuideEntry }[];
+  // Languages without their own guides show the Polish ones until they are translated.
+  const all = own.length ? own : ((await reader.collections[`guides_${defaultLocale}`].all()) as typeof own);
   return all
-    .filter((g) => g.entry.date)
+    .filter((g) => g.entry.date && g.entry.categories.length)
     .sort((a, b) => String(b.entry.date).localeCompare(String(a.entry.date)))
     .slice(0, limit)
     .map(({ slug, entry }) => {
@@ -85,8 +87,7 @@ export async function getLatestGuides(lang: Locale, limit = 10): Promise<GuideCa
           title: entry.title,
           image: entry.image,
           imageCrop: { x: null, y: null, w: null, h: null },
-          // Until guide pages exist on the new site, cards open the article on the old one.
-          href: entry.sourceUrl || `/${lang}/poradniki/${slug}`,
+          href: `/${lang}/poradniki/${slug}`,
         },
         needsOrphanFix.includes(lang),
       );

@@ -16,12 +16,12 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import yaml from "js-yaml";
 
-const FILES = ["home", "settings", "menu", "about"];
+const FILES = ["home", "settings", "menu", "about", "blog"];
 const TARGETS = ["en", "de", "fr", "cs", "it", "uk"];
 const DEEPL_TARGET = { en: "EN-GB", de: "DE", fr: "FR", cs: "CS", it: "IT", uk: "UK" };
 
 // Keys whose values are never translated (media, links, model names).
-const SKIP_KEYS = new Set(["href", "image", "image2", "thumb", "background", "media", "video", "name", "priceSymbols", "icon", "cards"]);
+const SKIP_KEYS = new Set(["href", "image", "image2", "thumb", "background", "media", "video", "name", "priceSymbols", "icon", "cards", "categories", "featured", "recommended", "popular"]);
 // Brand and product names DeepL must leave untouched.
 const KEEP_TERMS = [
   "Rotenso", "Wentilo ICON", "Wentilo", "Mirai", "Versu Cloth Caramel", "Versu Mirror R15",
@@ -55,7 +55,8 @@ const isTranslatable = (key, value) =>
 function leaves(node, prefix = [], out = []) {
   if (Array.isArray(node)) node.forEach((v, i) => leaves(v, [...prefix, i], out));
   else if (node && typeof node === "object") for (const [k, v] of Object.entries(node)) leaves(v, [...prefix, k], out);
-  else out.push([prefix.join("."), prefix.at(-1), node]);
+  // Items of a list take the list's name as key (e.g. "categories"), so whole lists can be skipped.
+  else out.push([prefix.join("."), [...prefix].reverse().find((k) => typeof k === "string"), node]);
   return out;
 }
 
