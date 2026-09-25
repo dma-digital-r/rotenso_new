@@ -9,7 +9,8 @@
     "lint": "eslint",
     "translate": "node --env-file-if-exists=.env.local scripts/translate.mjs",
     "translate:memory": "node scripts/translate.mjs --engine=memory",
-    "prices": "node --env-file-if-exists=.env.local scripts/check-prices.mjs"
+    "prices": "node --env-file-if-exists=.env.local scripts/check-prices.mjs",
+    "import:wordpress": "node scripts/import-wordpress.mjs"
   },
   "dependencies": {
     "@keystatic/core": "^0.6.9",
@@ -25,10 +26,12 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/turndown": "^5.0.6",
     "eslint": "^9",
     "eslint-config-next": "16.3.6",
     "js-yaml": "^4.3.2",
     "tailwindcss": "^4",
+    "turndown": "^7.2.4",
     "typescript": "^5"
   }
 }

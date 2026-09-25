@@ -9,7 +9,7 @@ nav:
     href: /pl/katalogi
   - label: Kontakt
     href: /pl/kontakt
-searchPlaceholder: Wyszukaj
+searchPlaceholder: Wpisz model, który szukasz
 configurator:
   label: Konfigurator
   href: /pl/doboromierz
@@ -61,7 +61,6 @@ footerColumns:
         href: /pl/systemy-rvf/jednostki-zewnetrzne
   - heading:
       label: Informacje
-      href: ''
     links:
       - label: O nas
         href: /pl/o-nas
@@ -92,6 +91,10 @@ social:
   tiktok: https://www.tiktok.com/
   spotify: https://open.spotify.com/
   linkedin: https://www.linkedin.com/
-copyright: |-
+copyright: >-
   © {rok} Rotenso®. Wszystkie prawa zastrzeżone.
-  Zastrzegamy sobie prawo do błędów w opisach oraz parametrach technicznych. Ze swojej strony dokładamy wszelkich możliwych starań, aby fotografie wiernie oddawały kolorystykę urządzeń, jednak ze względu na różnice w indywidualnych ustawieniach monitora kolory te mogą się różnić od rzeczywistych.
+
+  Zastrzegamy sobie prawo do błędów w opisach oraz parametrach technicznych. Ze
+  swojej strony dokładamy wszelkich możliwych starań, aby fotografie wiernie
+  oddawały kolorystykę urządzeń, jednak ze względu na różnice w indywidualnych
+  ustawieniach monitora kolory te mogą się różnić od rzeczywistych.

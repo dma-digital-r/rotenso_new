@@ -225,6 +225,48 @@ export const homeSchema = {
   ),
 };
 
+// Guides (blog) — imported from the old WordPress site (scripts/import-wordpress.mjs),
+// then edited here. The home page shows the newest ones in "Praktyczna wiedza".
+export const guideCategories = [
+  "Klimatyzacja",
+  "Pompy ciepła",
+  "Rekuperacja",
+  "RVF/VRF",
+  "Dla domu",
+  "Dla mieszkania",
+  "Dla biznesu",
+  "Poradnik",
+  "Akademia Rotenso",
+  "Media",
+  "Case study",
+] as const;
+
+export const guideSchema = {
+  title: fields.slug({ name: { label: "Tytuł" }, slug: { label: "Adres (slug)" } }),
+  date: fields.date({ label: "Data publikacji" }),
+  categories: fields.multiselect({
+    label: "Kategorie",
+    options: guideCategories.map((c) => ({ label: c, value: c })),
+  }),
+  excerpt: fields.text({ label: "Zajawka", multiline: true }),
+  image: image("Zdjęcie główne", "guides"),
+  imageAlt: fields.text({ label: "Opis zdjęcia (alt)" }),
+  sourceUrl: fields.text({
+    label: "Adres na starej stronie",
+    description: "Karta na stronie głównej prowadzi tu, dopóki nie powstanie podstrona poradnika.",
+  }),
+  content: fields.markdoc({
+    label: "Treść",
+    options: {
+      // Headings keep their anchors so "Z tego artykułu dowiesz się" links (#co-to-cwu) work.
+      heading: {
+        levels: [2, 3, 4, 5, 6],
+        schema: { id: fields.text({ label: "Kotwica (id) — do linków ze spisu treści" }) },
+      },
+    },
+  }),
+};
+
 const footerColumn = fields.object({
   heading: link("Nagłówek"),
   links: fields.array(link("Link"), {

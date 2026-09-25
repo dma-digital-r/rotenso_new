@@ -5,7 +5,7 @@ import type { HomeContent, SettingsContent } from "@/lib/content";
 const socials = ["facebook", "youtube", "instagram", "tiktok", "spotify", "linkedin"] as const;
 
 // Figma: "SoMe" (5172:70335), 1920×956. Both strips repeat their set twice in the
-// design, i.e. an endless loop: films (first at x 20), posts 310×310 (first at x −40).
+// design, i.e. an endless loop: films (first at x 20), posts (first at x −40). Both rows are 225px high (Figma: 360 / 310, reduced on request).
 // Strips move at a constant ~38 px/s whatever the number of tiles.
 const SPEED = 38;
 // Top strip: 225px high — videos 400 wide (16:9; Figma had 640×360, reduced on request),
@@ -54,10 +54,10 @@ export function SocialMedia({
       </Strip>
 
       <Strip
-        className="mt-[20px] h-[310px]"
+        className="mt-[20px] h-[225px]"
         offset={-40}
-        setWidth={data.posts.length * 330}
-        seconds={(data.posts.length * 330) / SPEED}
+        setWidth={data.posts.length * 245}
+        seconds={(data.posts.length * 245) / SPEED}
         direction="right"
       >
         {data.posts.map((p, i) => (
@@ -66,9 +66,9 @@ export function SocialMedia({
             href={p.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="relative block size-[310px] shrink-0 overflow-hidden rounded-[16px] shadow-dark-l"
+            className="relative block size-[225px] shrink-0 overflow-hidden rounded-[16px] shadow-dark-l"
           >
-            {p.image && <Image src={p.image} alt="" fill sizes="310px" className="object-cover" />}
+            {p.image && <Image src={p.image} alt="" fill sizes="225px" className="object-cover" />}
           </a>
         ))}
       </Strip>

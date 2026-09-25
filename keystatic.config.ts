@@ -1,6 +1,6 @@
 import { collection, config, fields, singleton } from "@keystatic/core";
 import { locales, localeLabels, type Locale } from "./src/i18n/config";
-import { homeSchema, settingsSchema } from "./src/content/schema";
+import { guideSchema, homeSchema, settingsSchema } from "./src/content/schema";
 
 // Every language keeps its own copy of the content under content/<lang>/.
 // PL is edited by hand; other languages are filled by the DeepL script and can
@@ -21,6 +21,17 @@ export function settingsSingleton(lang: Locale) {
     path: `content/${lang}/settings`,
     format: { data: "yaml" },
     schema: settingsSchema,
+  });
+}
+
+export function guidesCollection(lang: Locale) {
+  return collection({
+    label: `Poradniki (${lang.toUpperCase()})`,
+    slugField: "title",
+    path: `content/${lang}/guides/*`,
+    format: { contentField: "content" },
+    columns: ["title", "date"],
+    schema: guideSchema,
   });
 }
 
@@ -55,7 +66,7 @@ export default config({
     navigation: Object.fromEntries(
       locales.map((lang) => [
         localeLabels[lang],
-        [`home_${lang}`, `settings_${lang}`, `products_${lang}`],
+        [`home_${lang}`, `settings_${lang}`, `guides_${lang}`, `products_${lang}`],
       ]),
     ),
   },
@@ -66,6 +77,9 @@ export default config({
     ]),
   ),
   collections: Object.fromEntries(
-    locales.map((lang) => [`products_${lang}`, productsCollection(lang)]),
+    locales.flatMap((lang) => [
+      [`guides_${lang}`, guidesCollection(lang)],
+      [`products_${lang}`, productsCollection(lang)],
+    ]),
   ),
 });

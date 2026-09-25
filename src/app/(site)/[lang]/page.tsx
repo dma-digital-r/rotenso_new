@@ -12,7 +12,7 @@ import { SocialMedia } from "@/components/home/SocialMedia";
 import { Wentilo } from "@/components/home/Wentilo";
 import type { Locale } from "@/i18n/config";
 import { getUi } from "@/i18n/ui";
-import { getHome, getSettings, type HomeContent } from "@/lib/content";
+import { getHome, getLatestGuides, getSettings, type HomeContent } from "@/lib/content";
 import { getRotensoProducts, setPrice } from "@/lib/productFeed";
 import { getChannelVideos } from "@/lib/youtube";
 
@@ -64,7 +64,13 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
   const [home, settings] = await Promise.all([getHome(lang as Locale), getSettings(lang as Locale)]);
   const ui = getUi(lang as Locale);
-  const [prices, videos] = await Promise.all([loadPrices(lang as Locale, home), loadVideos(home)]);
+  const [prices, videos, latestGuides] = await Promise.all([
+    loadPrices(lang as Locale, home),
+    loadVideos(home),
+    getLatestGuides(lang as Locale),
+  ]);
+  // Newest imported guides; languages without guides yet keep the list from the CMS.
+  const guides = latestGuides.length ? { ...home.guides, items: latestGuides } : home.guides;
 
   return (
     <main>
@@ -74,7 +80,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
       <Wentilo wentilo={home.wentilo} ui={ui} />
       <HeatPumps data={home.heatPumps} ui={ui} />
       <Rvf rvf={home.rvf} />
-      <Guides data={home.guides} ui={ui} />
+      <Guides data={guides} ui={ui} />
       <Installer data={home.installer} lang={lang} ui={ui} />
 
       <div className="relative mt-[250px]">

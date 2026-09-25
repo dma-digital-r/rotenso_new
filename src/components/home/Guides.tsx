@@ -59,10 +59,11 @@ export function Guides({ data, ui }: { data: HomeContent["guides"]; ui: Ui }) {
             <div className="absolute top-[266px] left-[30px] flex h-[139px] w-[360px] flex-col items-start gap-[20px]">
               <div className="flex w-full flex-col gap-[5px] leading-[normal] text-rotenso-grey">
                 <p className="text-[12px]">{g.category}</p>
-                <h3 className="text-h3 font-light">{g.title}</h3>
+                <h3 className="line-clamp-3 text-h3 font-light">{g.title}</h3>
               </div>
               <Link
                 href={g.href}
+                {...(g.href.startsWith("http") ? { target: "_blank", rel: "noopener" } : {})}
                 className="inline-flex h-[30px] items-center justify-center overflow-clip rounded-[15px] border border-rotenso-grey px-[15px] py-[10px] text-[12px] leading-[normal] font-bold whitespace-nowrap text-rotenso-grey after:absolute after:inset-0 hover:opacity-85"
               >
                 <span className="text-trim">{data.readLabel}</span>
