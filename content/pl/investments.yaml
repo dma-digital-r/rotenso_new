@@ -40,53 +40,14 @@ help:
   title: Oferujemy pomoc przy projekcie
   investorTab: Dla inwestora
   designerTab: Dla projektanta
-  investorText: 'Sprawdź przybliżony koszt inwestycji za pomocą poniższego kalkulatora:'
+  investorImage: null
+  investorTitle: Lorem ipsum
+  investorText: Zostaw kontakt — przygotujemy wycenę systemu dla Twojej inwestycji.
   designerText: Zostaw kontakt — nasz projektant pomoże dobrać system i przygotuje dokumentację.
   designerImage: /images/investments/designer.avif
   designerTitle: Pomożemy przy projekcie
   designerFormTitle: Wypełnij formularz
-  areaLabel: |-
-    Powierzchnia wszystkich
-    pomieszczeń łącznie:
-  areaPlaceholder: Wpisz powierzchnię
-  roomsLabel: 'Liczba pomieszczeń:'
-  roomsPlaceholder: Wpisz liczbę pomieszczeń
-  buildingLabel: 'Typ budynku:'
-  buildingPlaceholder: Wpisz lub wybierz z listy
-  buildingTypes:
-    - Obiekty komercyjne wielkopowierzchniowe
-    - Nowoczesna architektura biurowa
-    - Obiekty średniego biznesu
-    - Mikro-biura
-    - Obiekty małych usług
-    - Parki handlowe
-    - Hotelarstwo Premium
-    - Turystyka budżetowa
-    - Rekreacja i sport
-    - Szkolnictwo wyższe
-    - Obiekty edukacyjne i publiczne
-    - Mieszkania Premium
-    - Nowoczesna architektura i high-end retail
-    - Gęsta zabudowa miejska i „Zielone Dachy”
-    - Budownictwo średniej skali
-    - Obiekty zabytkowe i muzea
-    - Służba zdrowia i hospitalizacja
-  showPrices: Pokaż ceny
-  prices:
-    - name: 'System RVF/VRF:'
-      from: 20900
-      perM2: 0
-    - name: 'System Multi Split:'
-      from: 14900
-      perM2: 0
-    - name: 'System Split:'
-      from: 8900
-      perM2: 0
-  from: od
-  net: netto
-  priceNote: Ceny nie obejmują montażu, dodatkowych akcesoriów...
-  formTitle: Lorem ipsum
-  formText: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  formTitle: Wypełnij formularz
   phone: Podaj swój nr telefonu*
   email: Podaj swój adres e-mail*
   nip: NIP*

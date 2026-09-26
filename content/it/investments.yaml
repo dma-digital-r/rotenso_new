@@ -40,53 +40,14 @@ help:
   title: Ti aiutiamo con il progetto
   investorTab: Per gli investitori
   designerTab: Per i progettisti
-  investorText: 'Verifica il costo indicativo dell’investimento con il calcolatore:'
+  investorImage: null
+  investorTitle: Lorem ipsum
+  investorText: Lascia i tuoi recapiti — prepareremo un preventivo per il tuo progetto.
   designerText: Lascia i tuoi recapiti — il nostro progettista ti aiuterà a scegliere il sistema e preparerà la documentazione.
   designerImage: /images/investments/designer.avif
   designerTitle: Ti aiutiamo con il progetto
   designerFormTitle: Compila il modulo
-  areaLabel: |-
-    Superficie totale
-    di tutti i locali:
-  areaPlaceholder: Inserisci la superficie
-  roomsLabel: 'Numero di locali:'
-  roomsPlaceholder: Inserisci il numero di locali
-  buildingLabel: 'Tipo di edificio:'
-  buildingPlaceholder: Scrivi o scegli dall’elenco
-  buildingTypes:
-    - Grandi edifici commerciali
-    - Architettura moderna per uffici
-    - Sedi di medie imprese
-    - Micro-uffici
-    - Piccoli locali di servizi
-    - Parchi commerciali
-    - Hotel premium
-    - Turismo economico
-    - Tempo libero e sport
-    - Università
-    - Edifici scolastici e pubblici
-    - Appartamenti premium
-    - Architettura moderna e retail di alta gamma
-    - Edilizia urbana densa e tetti verdi
-    - Edilizia di media scala
-    - Edifici storici e musei
-    - Sanità e ospedali
-  showPrices: Mostra i prezzi
-  prices:
-    - name: 'System RVF/VRF:'
-      from: 20900
-      perM2: 0
-    - name: 'System Multi Split:'
-      from: 14900
-      perM2: 0
-    - name: 'System Split:'
-      from: 8900
-      perM2: 0
-  from: da
-  net: netto
-  priceNote: I prezzi non includono installazione e accessori aggiuntivi...
-  formTitle: Lorem ipsum
-  formText: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  formTitle: Compila il modulo
   phone: Il tuo numero di telefono*
   email: Il tuo indirizzo e-mail*
   nip: P. IVA*

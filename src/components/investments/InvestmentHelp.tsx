@@ -9,25 +9,17 @@ type Data = InvestmentsContent["help"];
 
 const field =
   "h-[49px] w-full rounded-[8px] border border-grey-dd bg-[#f5f5f5] px-[20px] text-[16px] leading-[24px] text-rotenso-grey placeholder:text-rotenso-grey focus:border-rotenso-grey focus:outline-none";
-const small =
-  "h-[40px] w-full rounded-[8px] border border-grey-dd bg-[#f5f5f5] px-[10px] text-[12px] leading-[16px] text-rotenso-grey placeholder:text-rotenso-grey focus:border-rotenso-grey focus:outline-none";
-
-const pln = (v: number) => new Intl.NumberFormat("pl-PL", { maximumFractionDigits: 0 }).format(v);
-
-// Figma: "Oferujemy pomoc przy projekcie" (Inwestycje v06) — photo band, investor / designer
-// switch, a white 1080-wide card: cost calculator on the left (investor only, Polish site only —
-// no prices abroad), lead form on the right. The calculator inputs travel with the lead.
-export function InvestmentHelp({ data, lang, showPrices, ui }: { data: Data; lang: string; showPrices: boolean; ui: Ui }) {
+// Figma "Oferujemy pomoc przy projekcie" / "Formularz Inwestycje v4": photo band, investor /
+// designer switch, then two 530-wide cards — photo card (title + text, per tab) and the lead form.
+// (The investor cost calculator from Inwestycje v06 was dropped: no price formula exists.)
+export function InvestmentHelp({ data, lang, ui }: { data: Data; lang: string; ui: Ui }) {
   const [tab, setTab] = useState<"investor" | "designer">("investor");
-  const [area, setArea] = useState("");
-  const [rooms, setRooms] = useState("");
-  const [building, setBuilding] = useState("");
-  const [shown, setShown] = useState(false);
   const [state, setState] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [consentOpen, setConsentOpen] = useState(false);
   const designer = tab === "designer";
-  const calculator = !designer && showPrices && data.prices.length > 0;
-  const m2 = Number(area.replace(",", ".")) || 0;
+  const card = designer
+    ? { image: data.designerImage, title: data.designerTitle, text: data.designerText, form: data.designerFormTitle }
+    : { image: data.investorImage, title: data.investorTitle, text: data.investorText, form: data.formTitle };
 
   async function submit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -42,9 +34,6 @@ export function InvestmentHelp({ data, lang, showPrices, ui }: { data: Data; lan
           consent: form.get("consent") === "on",
           form: "investment",
           audience: tab,
-          area,
-          rooms,
-          buildingType: building,
           lang,
           page: window.location.href,
         }),
@@ -82,90 +71,25 @@ export function InvestmentHelp({ data, lang, showPrices, ui }: { data: Data; lan
         ))}
       </div>
 
-      {!designer && <p className="mt-[50px] text-center text-h3 leading-[1.36] font-light text-white">{data.investorText}</p>}
-
-      {/* Figma "Formularz Inwestycje v4": for designers two 530-wide cards side by side — photo
-          card (title + text) and the form card — instead of the text line and the calculator. */}
-      <div className={`mx-auto flex max-w-[calc(100%-32px)] text-rotenso-grey ${designer ? "mt-[50px] w-[1080px] gap-[20px]" : `mt-[40px] rounded-[16px] bg-white p-[30px] ${calculator ? "w-[1080px]" : "w-[600px]"}`}`}>
-        {designer && (
-          <div className="flex w-[530px] shrink-0 flex-col overflow-hidden rounded-[16px] bg-white">
-            <div className="relative h-[275px] shrink-0 bg-grey-dd">
-              <FramedImage src={data.designerImage} sizes="530px" />
-            </div>
-            <div className="flex flex-col gap-[10px] px-[30px] pt-[30px] pb-[40px]">
-              <p className="text-h3 leading-[1.36] font-light">{data.designerTitle}</p>
-              <p className="text-[16px] leading-[24px] whitespace-pre-line">{data.designerText}</p>
-            </div>
+      <div className="mx-auto mt-[50px] flex w-[1080px] max-w-[calc(100%-32px)] gap-[20px] text-rotenso-grey">
+        <div className="flex w-[530px] shrink-0 flex-col overflow-hidden rounded-[16px] bg-white">
+          <div className="relative h-[275px] shrink-0 bg-grey-dd">
+            <FramedImage src={card.image} sizes="530px" />
           </div>
-        )}
-        {calculator && (
-          <>
-            <div className="flex w-[480px] shrink-0 flex-col">
-              <div className="flex flex-col gap-[20px]">
-                {(
-                  [
-                    [data.areaLabel, data.areaPlaceholder, area, setArea, "m²", "decimal"],
-                    [data.roomsLabel, data.roomsPlaceholder, rooms, setRooms, "", "numeric"],
-                  ] as const
-                ).map(([label, ph, value, set, unit, mode]) => (
-                  <label key={label} className="flex items-center gap-[20px] text-[12px] leading-[16px] font-bold">
-                    <span className="w-[220px] whitespace-pre-line">{label}</span>
-                    <span className="relative flex-1">
-                      <input value={value} onChange={(e) => set(e.target.value)} inputMode={mode} placeholder={ph} className={small} />
-                      {unit && <span className="absolute top-1/2 right-[12px] -translate-y-1/2 font-bold">{unit}</span>}
-                    </span>
-                  </label>
-                ))}
-                <label className="flex items-center gap-[20px] text-[12px] leading-[16px] font-bold">
-                  <span className="w-[220px]">{data.buildingLabel}</span>
-                  <span className="flex-1">
-                    <input list="building-types" value={building} onChange={(e) => setBuilding(e.target.value)} placeholder={data.buildingPlaceholder} className={small} />
-                    <datalist id="building-types">
-                      {data.buildingTypes.map((t) => (
-                        <option key={t} value={t} />
-                      ))}
-                    </datalist>
-                  </span>
-                </label>
-              </div>
-              <button
-                type="button"
-                onClick={() => setShown(true)}
-                className="mt-[30px] h-[41px] cursor-pointer rounded-[20px] bg-rotenso-grey text-[16px] leading-[normal] font-bold text-white transition-opacity hover:opacity-85"
-              >
-                {data.showPrices}
-              </button>
-              <div className="mt-[40px] flex flex-col gap-[30px]" aria-live="polite">
-                {data.prices.map((p) => {
-                  const value = Math.max(p.from ?? 0, (p.perM2 ?? 0) * m2);
-                  return (
-                    <div key={p.name} className="flex items-baseline gap-[20px]">
-                      <span className="w-[160px] text-[16px] leading-[24px] font-bold">{p.name}</span>
-                      <span className="text-[16px]">{data.from}</span>
-                      <span className={`text-h2 leading-none font-light transition-opacity ${shown ? "" : "opacity-30 blur-[6px] select-none"}`}>{pln(value)}</span>
-                      <span className="flex flex-col text-[12px] leading-[14px]">
-                        <span>zł</span>
-                        <span>{data.net}</span>
-                      </span>
-                    </div>
-                  );
-                })}
-              </div>
-              <p className="mt-[40px] text-[12px] leading-[16px]">{data.priceNote}</p>
-            </div>
-            <span aria-hidden className="mx-[30px] w-px shrink-0 bg-grey-dd" />
-          </>
-        )}
+          <div className="flex flex-col gap-[10px] px-[30px] pt-[30px] pb-[40px]">
+            <p className="text-h3 leading-[1.36] font-light">{card.title}</p>
+            <p className="text-[16px] leading-[24px] whitespace-pre-line">{card.text}</p>
+          </div>
+        </div>
 
-        <div className={`flex flex-1 flex-col ${designer ? "rounded-[16px] bg-white p-[30px]" : ""}`}>
-          <p className="text-h3 leading-[1.36] font-light">{designer ? data.designerFormTitle || data.formTitle : data.formTitle}</p>
-          {!designer && data.formText && <p className="mt-[10px] text-[16px] leading-[24px] whitespace-pre-line">{data.formText}</p>}
+        <div className="flex flex-1 flex-col rounded-[16px] bg-white p-[30px]">
+          <p className="text-h3 leading-[1.36] font-light">{card.form}</p>
           {state === "sent" ? (
             <p role="status" className="mt-[30px] text-[16px] leading-[24px] font-bold">
               {data.success}
             </p>
           ) : (
-            <form onSubmit={submit} className={`${designer ? "mt-[30px]" : "mt-[20px]"} flex flex-col gap-[11px]`}>
+            <form onSubmit={submit} className="mt-[30px] flex flex-col gap-[11px]">
               <input name="phone" type="tel" required autoComplete="tel" pattern="[+\d][\d\s\-]{7,}" placeholder={data.phone} aria-label={data.phone} className={field} />
               <input name="email" type="email" required autoComplete="email" placeholder={data.email} aria-label={data.email} className={field} />
               <input name="nip" required inputMode="numeric" placeholder={data.nip} aria-label={data.nip} className={field} />

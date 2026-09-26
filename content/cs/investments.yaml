@@ -40,53 +40,14 @@ help:
   title: Pomůžeme vám s projektem
   investorTab: Pro investory
   designerTab: Pro projektanty
-  investorText: 'Zjistěte přibližné náklady investice pomocí kalkulačky:'
+  investorImage: null
+  investorTitle: Lorem ipsum
+  investorText: Zanechte kontakt — připravíme nabídku systému pro vaši investici.
   designerText: Zanechte kontakt — náš projektant pomůže vybrat systém a připraví dokumentaci.
   designerImage: /images/investments/designer.avif
   designerTitle: Pomůžeme s projektem
   designerFormTitle: Vyplňte formulář
-  areaLabel: |-
-    Celková plocha
-    všech místností:
-  areaPlaceholder: Zadejte plochu
-  roomsLabel: 'Počet místností:'
-  roomsPlaceholder: Zadejte počet místností
-  buildingLabel: 'Typ budovy:'
-  buildingPlaceholder: Zadejte nebo vyberte ze seznamu
-  buildingTypes:
-    - Velké komerční objekty
-    - Moderní kancelářská architektura
-    - Objekty středních firem
-    - Mikrokanceláře
-    - Malé provozovny služeb
-    - Obchodní parky
-    - Prémiové hotely
-    - Nízkonákladová turistika
-    - Rekreace a sport
-    - Vysoké školy
-    - Vzdělávací a veřejné budovy
-    - Prémiové byty
-    - Moderní architektura a luxusní retail
-    - Hustá městská zástavba a zelené střechy
-    - Výstavba střední velikosti
-    - Historické budovy a muzea
-    - Zdravotnictví a nemocnice
-  showPrices: Zobrazit ceny
-  prices:
-    - name: 'System RVF/VRF:'
-      from: 20900
-      perM2: 0
-    - name: 'System Multi Split:'
-      from: 14900
-      perM2: 0
-    - name: 'System Split:'
-      from: 8900
-      perM2: 0
-  from: od
-  net: bez DPH
-  priceNote: Ceny nezahrnují montáž ani další příslušenství...
-  formTitle: Lorem ipsum
-  formText: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  formTitle: Vyplňte formulář
   phone: Vaše telefonní číslo*
   email: Vaše e-mailová adresa*
   nip: DIČ*

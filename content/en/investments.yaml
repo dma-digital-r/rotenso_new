@@ -40,53 +40,14 @@ help:
   title: We help with your project
   investorTab: For investors
   designerTab: For designers
-  investorText: 'Check the approximate cost of your investment with the calculator below:'
+  investorImage: null
+  investorTitle: Lorem ipsum
+  investorText: Leave your details — we will prepare a quote for your project.
   designerText: Leave your details — our designer will help choose the system and prepare the documentation.
   designerImage: /images/investments/designer.avif
   designerTitle: We will help with your design
   designerFormTitle: Fill in the form
-  areaLabel: |-
-    Total floor area
-    of all rooms:
-  areaPlaceholder: Enter the area
-  roomsLabel: 'Number of rooms:'
-  roomsPlaceholder: Enter the number of rooms
-  buildingLabel: 'Building type:'
-  buildingPlaceholder: Type or choose from the list
-  buildingTypes:
-    - Large commercial buildings
-    - Modern office architecture
-    - Mid-size business premises
-    - Micro-offices
-    - Small service premises
-    - Retail parks
-    - Premium hotels
-    - Budget tourism
-    - Recreation and sport
-    - Higher education
-    - Education and public buildings
-    - Premium apartments
-    - Modern architecture and high-end retail
-    - Dense urban development and green roofs
-    - Mid-scale construction
-    - Historic buildings and museums
-    - Healthcare and hospitals
-  showPrices: Show prices
-  prices:
-    - name: 'System RVF/VRF:'
-      from: 20900
-      perM2: 0
-    - name: 'System Multi Split:'
-      from: 14900
-      perM2: 0
-    - name: 'System Split:'
-      from: 8900
-      perM2: 0
-  from: from
-  net: net
-  priceNote: Prices do not include installation or additional accessories...
-  formTitle: Lorem ipsum
-  formText: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  formTitle: Fill in the form
   phone: Your phone number*
   email: Your e-mail address*
   nip: VAT ID*

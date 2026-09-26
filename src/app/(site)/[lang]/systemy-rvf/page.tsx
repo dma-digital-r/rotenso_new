@@ -56,8 +56,7 @@ export default async function InvestmentsPage({ params }: Props) {
         />
       </div>
 
-      {/* Prices only on the Polish site — abroad they are not even sent to the browser. */}
-      <InvestmentHelp data={lang === "pl" ? data.help : { ...data.help, prices: [] }} lang={lang} showPrices={lang === "pl"} ui={ui} />
+      <InvestmentHelp data={data.help} lang={lang} ui={ui} />
       <Projects data={data.projects} ui={ui} />
       <WhyUs items={data.why} />
       <Solutions data={data.solutions} />

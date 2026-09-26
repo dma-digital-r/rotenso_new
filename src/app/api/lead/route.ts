@@ -23,7 +23,7 @@ export async function POST(request: Request) {
   if (text(body.website)) return Response.json({ ok: true });
 
   // "quote" = product pages (installer quote, needs a postcode); "investment" = Systemy RVF page
-  // (company lead with NIP and the calculator inputs).
+  // (company lead with NIP, investor or designer).
   const form = body.form === "investment" ? "investment" : "quote";
   const lead = {
     form,
@@ -32,9 +32,6 @@ export async function POST(request: Request) {
     postcode: text(body.postcode, 10),
     nip: text(body.nip, 20),
     audience: text(body.audience, 30),
-    area: text(body.area, 12),
-    rooms: text(body.rooms, 12),
-    buildingType: text(body.buildingType, 80),
     contactTime: text(body.contactTime, 60),
     consent: body.consent === true,
     product: text(body.product, 120),

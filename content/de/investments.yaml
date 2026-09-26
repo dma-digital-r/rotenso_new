@@ -40,53 +40,14 @@ help:
   title: Wir helfen bei Ihrem Projekt
   investorTab: Für Investoren
   designerTab: Für Planer
-  investorText: 'Prüfen Sie die ungefähren Investitionskosten mit dem Rechner unten:'
+  investorImage: null
+  investorTitle: Lorem ipsum
+  investorText: Hinterlassen Sie Ihre Daten — wir erstellen ein Angebot für Ihr Projekt.
   designerText: Hinterlassen Sie Ihre Daten — unser Planer hilft bei der Systemwahl und erstellt die Unterlagen.
   designerImage: /images/investments/designer.avif
   designerTitle: Wir helfen bei der Planung
   designerFormTitle: Formular ausfüllen
-  areaLabel: |-
-    Gesamtfläche
-    aller Räume:
-  areaPlaceholder: Fläche eingeben
-  roomsLabel: 'Anzahl der Räume:'
-  roomsPlaceholder: Anzahl der Räume eingeben
-  buildingLabel: 'Gebäudetyp:'
-  buildingPlaceholder: Eingeben oder aus der Liste wählen
-  buildingTypes:
-    - Große Gewerbeobjekte
-    - Moderne Büroarchitektur
-    - Objekte des Mittelstands
-    - Mikrobüros
-    - Kleine Dienstleistungsobjekte
-    - Fachmarktzentren
-    - Premium-Hotellerie
-    - Budget-Tourismus
-    - Freizeit und Sport
-    - Hochschulen
-    - Bildungs- und öffentliche Gebäude
-    - Premium-Wohnungen
-    - Moderne Architektur und High-End-Retail
-    - Dichte Stadtbebauung und Gründächer
-    - Bauten mittlerer Größe
-    - Denkmalgeschützte Gebäude und Museen
-    - Gesundheitswesen und Krankenhäuser
-  showPrices: Preise anzeigen
-  prices:
-    - name: 'System RVF/VRF:'
-      from: 20900
-      perM2: 0
-    - name: 'System Multi Split:'
-      from: 14900
-      perM2: 0
-    - name: 'System Split:'
-      from: 8900
-      perM2: 0
-  from: ab
-  net: netto
-  priceNote: Die Preise enthalten keine Montage und kein zusätzliches Zubehör...
-  formTitle: Lorem ipsum
-  formText: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  formTitle: Formular ausfüllen
   phone: Ihre Telefonnummer*
   email: Ihre E-Mail-Adresse*
   nip: USt-IdNr.*

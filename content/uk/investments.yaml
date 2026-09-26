@@ -40,53 +40,14 @@ help:
   title: Допоможемо з проєктом
   investorTab: Для інвесторів
   designerTab: Для проєктувальників
-  investorText: 'Перевірте орієнтовну вартість інвестиції за допомогою калькулятора:'
+  investorImage: null
+  investorTitle: Lorem ipsum
+  investorText: Залиште контакти — ми підготуємо пропозицію для вашої інвестиції.
   designerText: Залиште контакти — наш проєктувальник допоможе підібрати систему й підготує документацію.
   designerImage: /images/investments/designer.avif
   designerTitle: Допоможемо з проєктом
   designerFormTitle: Заповніть форму
-  areaLabel: |-
-    Загальна площа
-    всіх приміщень:
-  areaPlaceholder: Введіть площу
-  roomsLabel: 'Кількість приміщень:'
-  roomsPlaceholder: Введіть кількість приміщень
-  buildingLabel: 'Тип будівлі:'
-  buildingPlaceholder: Введіть або виберіть зі списку
-  buildingTypes:
-    - Великі комерційні об’єкти
-    - Сучасна офісна архітектура
-    - Об’єкти середнього бізнесу
-    - Мікроофіси
-    - Малі сервісні приміщення
-    - Торгові парки
-    - Преміальні готелі
-    - Бюджетний туризм
-    - Відпочинок і спорт
-    - Вища освіта
-    - Освітні та громадські будівлі
-    - Преміальні квартири
-    - Сучасна архітектура та преміальний ритейл
-    - Щільна міська забудова і зелені дахи
-    - Будівництво середнього масштабу
-    - Історичні будівлі та музеї
-    - Охорона здоров’я та лікарні
-  showPrices: Показати ціни
-  prices:
-    - name: 'System RVF/VRF:'
-      from: 20900
-      perM2: 0
-    - name: 'System Multi Split:'
-      from: 14900
-      perM2: 0
-    - name: 'System Split:'
-      from: 8900
-      perM2: 0
-  from: від
-  net: нетто
-  priceNote: Ціни не включають монтаж і додаткові аксесуари...
-  formTitle: Lorem ipsum
-  formText: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  formTitle: Заповніть форму
   phone: Ваш номер телефону*
   email: Ваша адреса e-mail*
   nip: ІПН*
