@@ -31,8 +31,10 @@ export function ProductBar({
   ];
   const other = product.family.other;
 
+  // The extra space goes into the margin: a sticky element sticks by its border box, so padding
+  // would push the pinned bar down.
   return (
-    <div className="sticky top-[85px] z-30 mx-auto w-[1300px] max-w-[calc(100%-32px)]" style={{ paddingTop: gap }}>
+    <div className="sticky top-[85px] z-30 mx-auto w-[1300px] max-w-[calc(100%-32px)] pt-[20px]" style={{ marginTop: gap - 20 }}>
       <div className="flex h-[50px] items-center justify-between rounded-[8px] bg-white/80 px-[20px] shadow-[0_4px_10px_rgba(0,0,0,0.15)] backdrop-blur-[20px]">
         <div className="flex h-[30px] items-center gap-[20px] text-[16px] leading-[normal] text-rotenso-grey">
           <span className="font-bold">{product.family.label || product.name}</span>
