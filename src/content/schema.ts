@@ -1324,3 +1324,162 @@ export const filtersSchema = {
   seoTitle: fields.text({ label: "SEO — tytuł" }),
   seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
 };
+
+// Rekuperatory Wentilo (Figma "Wentilo v04") — the recuperation family page. The shop section
+// ("Wybierz rekuperator") comes later.
+const wImage = (label: string) => image(label, "wentilo");
+const wTile = fields.object({
+  image: wImage("Zdjęcie / okładka filmu"),
+  video: fields.text({ label: "Film (adres MP4, opcjonalnie)" }),
+  title: fields.text({ label: "Tytuł", multiline: true }),
+  text: fields.text({ label: "Tekst", multiline: true }),
+});
+
+export const wentiloSchema = {
+  hero: fields.object(
+    {
+      image: wImage("Zdjęcie / okładka filmu (1820×930)"),
+      video: fields.text({ label: "Film (adres MP4, opcjonalnie)" }),
+      kicker: fields.text({ label: "Nad tytułem (np. Rekuperatory)" }),
+      title: fields.text({ label: "Tytuł (H1)" }),
+      subtitle: fields.text({ label: "Podtytuł" }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+      primary: link("Przycisk czerwony (np. Poznaj modele → #modele)"),
+      secondary: link("Przycisk biały (np. Znajdź instalatora)"),
+    },
+    { label: "Nagłówek" },
+  ),
+  bar: fields.array(link("Pozycja"), {
+    label: "Belka — skróty do sekcji (#o-rekuperacji, #zalety, #sterowanie, #modele…)",
+    itemLabel: (b) => b.fields.label.value || "Pozycja",
+  }),
+  about: fields.object(
+    {
+      background: wImage("Tło sekcji"),
+      title: fields.text({ label: "Tytuł (np. Co to jest rekuperacja?)" }),
+      boxTitle: fields.text({ label: "Box — tytuł" }),
+      boxSubtitle: fields.text({ label: "Box — podtytuł", multiline: true }),
+      boxText: fields.text({ label: "Box — tekst", multiline: true }),
+      image: wImage("Zdjęcie / okładka filmu (860×484)"),
+      video: fields.text({ label: "Film (adres MP4, opcjonalnie)" }),
+    },
+    { label: "Co to jest rekuperacja" },
+  ),
+  mechanical: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Podtytuł" }),
+      items: fields.array(
+        fields.object({ image: wImage("Zdjęcie (420×236)"), title: fields.text({ label: "Tytuł", multiline: true }), text: fields.text({ label: "Tekst", multiline: true }) }),
+        { label: "Karty", itemLabel: (i) => i.fields.title.value || "Karta" },
+      ),
+    },
+    { label: "Wentylacja mechaniczna" },
+  ),
+  icon: fields.object(
+    {
+      background: wImage("Tło sekcji"),
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Podtytuł", multiline: true }),
+      slides: fields.array(wTile, { label: "Slajdy (1340×754)", itemLabel: (t) => t.fields.title.value || "Slajd" }),
+    },
+    { label: "Rekuperatory Wentilo ICON (slider)" },
+  ),
+  recovery: fields.object(
+    {
+      background: wImage("Tło boxu"),
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Podtytuł" }),
+      tabs: fields.array(
+        fields.object({
+          label: fields.text({ label: "Zakładka" }),
+          title: fields.text({ label: "Tytuł" }),
+          text: fields.text({ label: "Tekst", multiline: true }),
+          image: wImage("Zdjęcie (860×484)"),
+        }),
+        { label: "Zakładki", itemLabel: (t) => t.fields.label.value || "Zakładka" },
+      ),
+    },
+    { label: "Odzysk ciepła i wilgoci" },
+  ),
+  more: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      tiles: fields.array(wTile, { label: "Kafelki (970×545)", itemLabel: (t) => t.fields.title.value || "Kafelek" }),
+    },
+    { label: "Poznaj więcej zalet" },
+  ),
+  control: fields.object(
+    {
+      background: wImage("Tło boxu"),
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Podtytuł" }),
+      items: fields.array(
+        fields.object({ icon: wImage("Ikona (150×150)"), title: fields.text({ label: "Tytuł" }), text: fields.text({ label: "Tekst", multiline: true }) }),
+        { label: "Systemy", itemLabel: (i) => i.fields.title.value || "System" },
+      ),
+      note: fields.text({ label: "Tekst nad przyciskiem" }),
+      button: link("Przycisk (np. Zobacz różnice)"),
+    },
+    { label: "Systemy sterowania" },
+  ),
+  family: fields.object(
+    {
+      background: wImage("Zdjęcie modeli"),
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Podtytuł", multiline: true }),
+      models: fields.array(
+        fields.object({
+          name: fields.text({ label: "Nazwa (np. Wentilo ICON IT)" }),
+          area: fields.text({ label: "Powierzchnia (np. Dla powierzchni 150 - 200 m²)" }),
+          text: fields.text({ label: "Opis", multiline: true }),
+          capacityTitle: fields.text({ label: "Tytuł wydajności (np. Wydajność)" }),
+          capacityText: fields.text({ label: "Tekst (np. Dostępne 3 maksymalne moce wydajności:)" }),
+          capacities: fields.array(fields.text({ label: "Moc (np. 250 m³/h)" }), { label: "Moce", itemLabel: (c) => c.value || "Moc" }),
+          mountTitle: fields.text({ label: "Tytuł montażu (np. Opcje montażu)" }),
+          mounts: fields.array(
+            fields.object({ label: fields.text({ label: "Opcja (np. na ścianie)" }), image: wImage("Zdjęcie (360×202)") }),
+            { label: "Opcje montażu", itemLabel: (m) => m.fields.label.value || "Opcja" },
+          ),
+        }),
+        { label: "Modele", itemLabel: (m) => m.fields.name.value || "Model" },
+      ),
+    },
+    { label: "Rodzina rekuperatorów Wentilo" },
+  ),
+  videos: fields.object(
+    {
+      groups: fields.array(
+        fields.object({
+          label: fields.text({ label: "Zakładka (np. Wentilo ICON IS)" }),
+          items: fields.array(
+            fields.object({ url: fields.text({ label: "Link YouTube" }), title: fields.text({ label: "Tytuł (puste = z YouTube)" }), text: fields.text({ label: "Opis", multiline: true }) }),
+            { label: "Filmy", itemLabel: (v) => v.fields.title.value || v.fields.url.value || "Film" },
+          ),
+        }),
+        { label: "Multimedia — zakładki z filmami", itemLabel: (g) => g.fields.label.value || "Zakładka" },
+      ),
+      more: link("Przycisk pod filmami (np. Zobacz więcej filmów o Wentilo)"),
+    },
+    { label: "Multimedia" },
+  ),
+  quote: fields.object(
+    {
+      title: fields.text({ label: "Tytuł (puste = z Ustawień)" }),
+      text: fields.text({ label: "Tekst pod tytułem", multiline: true }),
+      background: wImage("Tło"),
+      step1: fields.text({ label: "Krok 1 — tekst", multiline: true }),
+      step2Image: wImage("Krok 2 — zdjęcie"),
+      step2: fields.text({ label: "Krok 2 — tekst", multiline: true }),
+      step3Image: wImage("Krok 3 — zdjęcie"),
+      step3: fields.text({ label: "Krok 3 — tekst", multiline: true }),
+    },
+    { label: "Zapytaj o wycenę (pola formularza: Ustawienia → formularz wyceny)" },
+  ),
+  faq: fields.array(
+    fields.object({ question: fields.text({ label: "Pytanie" }), answer: fields.text({ label: "Odpowiedź", multiline: true }) }),
+    { label: "Pytania i odpowiedzi", itemLabel: (q) => q.fields.question.value || "Pytanie" },
+  ),
+  seoTitle: fields.text({ label: "SEO — tytuł" }),
+  seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
+};

@@ -15,7 +15,18 @@ export type ProductVideo = { id: string; href: string; image: string; title: str
 // Figma: "Multimedia" (5172:81592). The active film card is 530 wide (image 530×298, 25px
 // title, red timer under the image, pause), centred; its neighbours are 420 wide at 50% opacity,
 // 30px lower, with smaller type. Cards rotate on the timer; the active one opens YouTube.
-export function ProductVideos({ videos, channelHref, ui }: { videos: ProductVideo[]; channelHref: string; ui: Ui }) {
+export function ProductVideos({
+  videos,
+  channelHref,
+  ui,
+  header,
+}: {
+  videos: ProductVideo[];
+  channelHref: string;
+  ui: Ui;
+  /** Replaces the "Multimedia" title (e.g. title + model tabs on the Wentilo page). */
+  header?: React.ReactNode;
+}) {
   const count = videos.length;
   const [index, setIndex] = useState(count > 1 ? 1 : 0);
   const [paused, setPaused] = useState(false);
@@ -24,7 +35,7 @@ export function ProductVideos({ videos, channelHref, ui }: { videos: ProductVide
 
   return (
     <section className="mt-[117px] text-rotenso-grey">
-      <h2 className="text-center text-h1 leading-[1.2] font-light">{ui.multimedia}</h2>
+      {header ?? <h2 className="text-center text-h1 leading-[1.2] font-light">{ui.multimedia}</h2>}
       <div className="relative mt-[50px] h-[508px] overflow-x-clip">
         <div
           className="absolute top-0 left-[calc(50%-260px)] flex items-start gap-[50px] transition-transform duration-700"

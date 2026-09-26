@@ -1,5 +1,5 @@
 import { createReader, type Entry } from "@keystatic/core/reader";
-import config, { aboutSingleton, assistantSingleton, filtersSingleton, contactSingleton, investmentsSingleton, guidesCollection, homeSingleton, menuSingleton, settingsSingleton } from "../../keystatic.config";
+import config, { aboutSingleton, assistantSingleton, filtersSingleton, wentiloSingleton, contactSingleton, investmentsSingleton, guidesCollection, homeSingleton, menuSingleton, settingsSingleton } from "../../keystatic.config";
 import { defaultLocale, type Locale } from "@/i18n/config";
 
 export const reader = createReader(process.cwd(), config);
@@ -11,6 +11,7 @@ export type AboutContent = Entry<ReturnType<typeof aboutSingleton>>;
 export type InvestmentsContent = Entry<ReturnType<typeof investmentsSingleton>>;
 export type AssistantContent = Entry<ReturnType<typeof assistantSingleton>>;
 export type FiltersContent = Entry<ReturnType<typeof filtersSingleton>>;
+export type WentiloContent = Entry<ReturnType<typeof wentiloSingleton>>;
 export type ContactContent = Entry<ReturnType<typeof contactSingleton>>;
 type GuideEntry = Entry<ReturnType<typeof guidesCollection>>;
 
@@ -136,6 +137,12 @@ export async function getFilters(lang: Locale): Promise<FiltersContent> {
   const entry = (await reader.singletons[`filters_${lang}`].read()) ?? (await reader.singletons[`filters_${defaultLocale}`].read());
   if (!entry) throw new Error("Missing content/pl/filters.yaml");
   return typeset(lang, entry as FiltersContent);
+}
+
+export async function getWentilo(lang: Locale): Promise<WentiloContent> {
+  const entry = (await reader.singletons[`wentilo_${lang}`].read()) ?? (await reader.singletons[`wentilo_${defaultLocale}`].read());
+  if (!entry) throw new Error("Missing content/pl/wentilo.yaml");
+  return typeset(lang, entry as WentiloContent);
 }
 
 export async function getContact(lang: Locale): Promise<ContactContent> {

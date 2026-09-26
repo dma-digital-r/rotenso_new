@@ -1,0 +1,265 @@
+hero:
+  image: /images/wentilo/hero.avif
+  video: ''
+  kicker: Rekuperatory
+  title: Wentilo ICON
+  subtitle: Świeże powietrze – bez ograniczeń
+  text: Poznaj rekuperatory odpowiednie zarówno do małych, jak i dużych powierzchni, które dostarczają świeże powietrze i obniżają rachunki za ogrzewanie.
+  primary:
+    label: Poznaj modele
+    href: '#modele'
+  secondary:
+    label: Znajdź instalatora
+    href: /pl/znajdz-instalatora
+bar:
+  - label: O rekuperacji
+    href: '#o-rekuperacji'
+  - label: Zalety Wentilo
+    href: '#zalety'
+  - label: Systemy sterowania
+    href: '#sterowanie'
+  - label: Modele Wentilo
+    href: '#modele'
+  - label: Opcje sterowania
+    href: '#opcje-sterowania'
+about:
+  background: /images/wentilo/about-bg.avif
+  title: Co to jest rekuperacja?
+  boxTitle: Rekuperacja
+  boxSubtitle: |-
+    to inteligentny system
+    wentylacji mechanicznej,
+  boxText: |-
+    który stale dostarcza świeże powietrze do domu, jednocześnie odzyskując ciepło z powietrza wywiewanego. System zapewnia komfort, zdrowe powietrze i niższe rachunki za energię, niezależnie od pory roku.
+
+    Instalacja składa się z centrali wentylacyjnej Rotenso Wentilo ICON oraz systemu dystrybucji powietrza.
+  image: /images/wentilo/about-video.avif
+  video: ''
+mechanical:
+  title: Wentylacja mechaniczna
+  text: Poznaj zalety wentylacji mechanicznej w porównaniu do tradycyjnej wentylacji grawitacyjnej.
+  items:
+    - image: /images/wentilo/mech-komfort.avif
+      title: |-
+        Komfort przez
+        cały rok
+      text: Wentylacja mechaniczna zapewnia stałą wymianę powietrza niezależnie od pory roku, temperatury czy warunków atmosferycznych. W przeciwieństwie do wentylacji grawitacyjnej działa zawsze z taką samą skutecznością, eliminując problem niedowietrzonych pomieszczeń. Dzięki odzyskowi ciepła ogranicza straty energii, utrzymując stabilną temperaturę wewnątrz budynku.
+    - image: /images/wentilo/mech-powietrze.avif
+      title: |-
+        Czyste powietrze
+        pod kontrolą
+      text: System wentylacji mechanicznej aktywnie usuwa zanieczyszczenia, nadmiar wilgoci i nieprzyjemne zapachy, jednocześnie filtrując powietrze nawiewane z zewnątrz. Chroni wnętrza przed smogiem, pyłkami i alergenami, czego wentylacja grawitacyjna nie jest w stanie zapewnić. Efektem jest zdrowsze powietrze i większy komfort oddychania dla domowników.
+    - image: /images/wentilo/mech-oszczednosc.avif
+      title: |-
+        Oszczędność,
+        którą czuć
+      text: Dzięki precyzyjnie sterowanej pracy i odzyskowi ciepła wentylacja mechaniczna realnie obniża koszty ogrzewania budynku. Minimalizuje straty energii, które w systemach grawitacyjnych uciekają bez kontroli przez kanały wentylacyjne. To rozwiązanie, które przekłada się na niższe rachunki i szybszy zwrot z inwestycji.
+icon:
+  background: /images/wentilo/icon-bg.avif
+  title: Rekuperatory Rotenso Wentilo ICON
+  text: Dzięki rekuperacji Twój dom może oddychać świeżym i zdrowym powietrzem przy jednoczesnej oszczędności energii. Odkryj rodzinę rekuperatorów Wentilo i wybierz idealny model dla siebie, łączący komfort, innowacyjne sterowanie i niezawodną wydajność.
+  slides:
+    - image: /images/wentilo/icon-antysmog.avif
+      video: ''
+      title: Działanie antysmogowe
+      text: Rekuperatory Wentilo z 4-etapowym systemem filtracji skutecznie oczyszczają nawiewane powietrze, usuwając pyłki, kurz, alergeny oraz zanieczyszczenia smogowe zanim trafią do domu. Dzięki temu w pomieszczeniach oddychasz zdrowszym, czystszym powietrzem — nawet w miejscach o wysokim poziomie zanieczyszczeń.
+    - image: /images/wentilo/icon-antybakteryjna.avif
+      video: ''
+      title: Powłoka antybakteryjna
+      text: Specjalna powłoka antybakteryjna w rekuperatorach Wentilo ogranicza rozwój bakterii i drobnoustrojów wewnątrz urządzenia. Dzięki temu powietrze dostarczane do domu jest nie tylko świeże, ale też bezpieczniejsze dla zdrowia domowników.
+recovery:
+  background: /images/wentilo/recovery-bg.avif
+  title: Odzysk ciepła i wilgoci
+  text: Wybierz wymiennik z odzyskiem ciepła lub odzyskiem ciepła i wilgoci
+  tabs:
+    - label: Odzysk ciepła
+      title: Odzysk ciepła
+      image: /images/wentilo/recovery-cieplo.avif
+      text: |-
+        iENERGY to wymiennik, który pozwala odzyskać ciepło z powietrza usuwanego z domu i wykorzystać je do ogrzania świeżego, nawiewanego z zewnątrz. Dzięki temu w budynku utrzymasz optymalną temperaturę, a rachunki za ogrzewanie mogą być niższe. System działa cicho i wydajnie, a automatyka sterująca dostosowuje pracę rekuperacji do aktualnych potrzeb.
+
+        To idealne wsparcie dla domowego ogrzewania, które pomaga utrzymać stały komfort przez cały okres grzewczy.
+    - label: Odzysk ciepła i wilgoci
+      title: Odzysk ciepła i wilgoci
+      image: /images/wentilo/recovery-cieplo.avif
+      text: Wymiennik entalpiczny odzyskuje nie tylko ciepło, ale też część wilgoci z powietrza wywiewanego. Zimą chroni dom przed przesuszonym powietrzem, a latem ogranicza napływ wilgoci z zewnątrz — dzięki temu wilgotność w pomieszczeniach pozostaje na komfortowym poziomie przez cały rok.
+more:
+  title: Poznaj więcej zalet
+  tiles:
+    - image: /images/wentilo/more-konstrukcja.avif
+      video: ''
+      title: Przemyślana konstrukcja
+      text: Urządzenie zostało zaprojektowane tak, aby powietrze przepływało swobodnie. Dzięki bardzo dobrej izolacji i szczelnej obudowie nie tracisz ciepła, a wentylacja działa wydajnie, cicho i bezawaryjnie przez cały rok.
+    - image: /images/wentilo/more-sterowanie.avif
+      video: ''
+      title: |-
+        Inteligentne
+        sterowanie powietrzem
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet enim, et dolore.
+    - image: /images/wentilo/more-passive.avif
+      video: ''
+      title: Certyfikat Passive House
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet enim, et dolore.
+    - image: null
+      video: ''
+      title: Klasa A+
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet enim, et dolore.
+    - image: null
+      video: ''
+      title: Opcje sterowania
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet enim, et dolore.
+control:
+  background: /images/wentilo/control-bg.avif
+  title: Systemy sterowania
+  text: Poznaj dwa systemy sterowania rekuperatorami Wentilo i dowiedz się, czym różnią się między sobą.
+  items:
+    - icon: /images/wentilo/control-standard.avif
+      title: System standardowy
+      text: System iEDGE pozwala na wygodne sterowanie rekuperatorem oraz ręczną regulację parametrów pracy, a dodatkowo umożliwia kontrolę przez aplikację mobilną.
+    - icon: /images/wentilo/control-smart.avif
+      title: System inteligentny
+      text: System iEDGE Smart wykorzystuje inteligentne algorytmy, które automatycznie dostosowują pracę wentylacji do warunków w pomieszczeniu, optymalizując komfort i oszczędność energii bez potrzeby ręcznych ustawień.
+  note: Poznaj różnice w sposobie sterowania, monitorowania i funkcjonowania rekuperatora w zależności od wybranego systemu sterowania.
+  button:
+    label: Zobacz różnice
+    href: ''
+family:
+  background: /images/wentilo/family-bg.avif
+  title: Rodzina rekuperatorów Wentilo
+  text: |-
+    Zobacz pełną gamę naszych modeli dostosowanych do
+    różnych powierzchni budynku.
+  models:
+    - name: Wentilo ICON IT
+      area: Dla powierzchni 150 - 200 m²
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet enim, et dolore.
+      capacityTitle: Wydajność
+      capacityText: 'Dostępne 3 maksymalne moce wydajności:'
+      capacities:
+        - 250 m³/h
+        - 350 m³/h
+        - 450 m³/h
+      mountTitle: Opcje montażu
+      mounts:
+        - label: na ścianie
+          image: /images/wentilo/mount-sciana.avif
+        - label: na podłodze
+          image: /images/wentilo/mount-podloga.avif
+    - name: Wentilo ICON IS
+      area: Dla powierzchni 100 - 150 m²
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet enim, et dolore.
+      capacityTitle: Wydajność
+      capacityText: 'Dostępne 2 maksymalne moce wydajności:'
+      capacities:
+        - 250 m³/h
+        - 330 m³/h
+      mountTitle: Opcje montażu
+      mounts:
+        - label: na ścianie
+          image: /images/wentilo/mount-sciana.avif
+        - label: na podłodze
+          image: /images/wentilo/mount-podloga.avif
+        - label: na suficie
+          image: /images/wentilo/mount-sufit.avif
+    - name: Wentilo ICON IC
+      area: Dla powierzchni 50 - 100 m²
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet enim, et dolore.
+      capacityTitle: Wydajność
+      capacityText: 'Dostępne 2 maksymalne moce wydajności:'
+      capacities:
+        - 120 m³/h
+        - 180 m³/h
+      mountTitle: Opcje montażu
+      mounts:
+        - label: na ścianie
+          image: /images/wentilo/mount-sciana.avif
+        - label: na podłodze
+          image: /images/wentilo/mount-podloga.avif
+        - label: na suficie
+          image: /images/wentilo/mount-sufit.avif
+videos:
+  groups:
+    - label: Wentilo ICON IT
+      items:
+        - url: https://www.youtube.com/watch?v=A9tQq1sLK3E
+          title: REKUPERACJA W DOMU - Co Musisz Wiedzieć? 15 Najważniejszych Pytań
+          text: Jeśli zastanawiasz się, czym jest rekuperacja, jak działa, jakie są jej zalety i czy warto ją zainstalować, to ten film jest dla Ciebie!
+        - url: https://www.youtube.com/watch?v=XYoy_Vvvo0I
+          title: Rekuperacja Rotenso Wentilo ICON IT – stworzona do wielkich zadań
+          text: ''
+        - url: https://www.youtube.com/watch?v=1Gn-L_eGIJg
+          title: Rekuperacja – co to jest i jak działa WYJAŚNIAMY | Rotenso Wentilo ICON
+          text: Zastanawiasz się, co to jest rekuperacja i jak działa? W tym filmie dokładnie to wyjaśniamy!
+        - url: https://www.youtube.com/watch?v=ehcWOHc7Iyo
+          title: Poznaj 7 powodów dlaczego warto jest mieć rekuperację.
+          text: Dowiedz się, dlaczego rekuperacja, czyli nowoczesna wentylacja mechaniczna z odzyskiem ciepła, staje się niezbędnym elementem współczesnych budynków.
+        - url: https://www.youtube.com/watch?v=U9DQyZ2ez2o
+          title: REKUPERACJA w Domu - CZY WARTO?
+          text: Jeśli jeszcze zastanawiasz się, czy rekuperacja w domu jest dla Ciebie - obejrzyj nasz film.
+    - label: Wentilo ICON IS
+      items:
+        - url: https://www.youtube.com/watch?v=A9tQq1sLK3E
+          title: REKUPERACJA W DOMU - Co Musisz Wiedzieć? 15 Najważniejszych Pytań
+          text: Jeśli zastanawiasz się, czym jest rekuperacja, jak działa, jakie są jej zalety i czy warto ją zainstalować, to ten film jest dla Ciebie!
+        - url: https://www.youtube.com/watch?v=LC9vnl70_NI
+          title: Rekuperator Rotenso Wentilo ICON IS – rekuperacja do domów 100–150 m²
+          text: ''
+        - url: https://www.youtube.com/watch?v=1Gn-L_eGIJg
+          title: Rekuperacja – co to jest i jak działa WYJAŚNIAMY | Rotenso Wentilo ICON
+          text: Zastanawiasz się, co to jest rekuperacja i jak działa? W tym filmie dokładnie to wyjaśniamy!
+        - url: https://www.youtube.com/watch?v=ehcWOHc7Iyo
+          title: Poznaj 7 powodów dlaczego warto jest mieć rekuperację.
+          text: Dowiedz się, dlaczego rekuperacja, czyli nowoczesna wentylacja mechaniczna z odzyskiem ciepła, staje się niezbędnym elementem współczesnych budynków.
+        - url: https://www.youtube.com/watch?v=U9DQyZ2ez2o
+          title: REKUPERACJA w Domu - CZY WARTO?
+          text: Jeśli jeszcze zastanawiasz się, czy rekuperacja w domu jest dla Ciebie - obejrzyj nasz film.
+    - label: Wentilo ICON IC
+      items:
+        - url: https://www.youtube.com/watch?v=A9tQq1sLK3E
+          title: REKUPERACJA W DOMU - Co Musisz Wiedzieć? 15 Najważniejszych Pytań
+          text: Jeśli zastanawiasz się, czym jest rekuperacja, jak działa, jakie są jej zalety i czy warto ją zainstalować, to ten film jest dla Ciebie!
+        - url: https://www.youtube.com/watch?v=XqQ-G-_597A
+          title: Rekuperacja Rotenso Wentilo ICON IC – mały rozmiar, duży komfort
+          text: ''
+        - url: https://www.youtube.com/watch?v=1Gn-L_eGIJg
+          title: Rekuperacja – co to jest i jak działa WYJAŚNIAMY | Rotenso Wentilo ICON
+          text: Zastanawiasz się, co to jest rekuperacja i jak działa? W tym filmie dokładnie to wyjaśniamy!
+        - url: https://www.youtube.com/watch?v=ehcWOHc7Iyo
+          title: Poznaj 7 powodów dlaczego warto jest mieć rekuperację.
+          text: Dowiedz się, dlaczego rekuperacja, czyli nowoczesna wentylacja mechaniczna z odzyskiem ciepła, staje się niezbędnym elementem współczesnych budynków.
+        - url: https://www.youtube.com/watch?v=U9DQyZ2ez2o
+          title: REKUPERACJA w Domu - CZY WARTO?
+          text: Jeśli jeszcze zastanawiasz się, czy rekuperacja w domu jest dla Ciebie - obejrzyj nasz film.
+  more:
+    label: Zobacz więcej filmów o Wentilo
+    href: https://www.youtube.com/@Rotenso_PL/search?query=wentilo
+quote:
+  title: Zapytaj o wycenę
+  text: |-
+    Twój komfort to dla nas standard.
+    Podaj swoje dane kontaktowe, a instalator przygotuje dla Ciebie ofertę montażu rekuperatora.
+  background: /images/wentilo/quote-bg.avif
+  step1: |-
+    Krok 1.
+    Zostaw nam swoje dane kontaktowe. Twoje zgłoszenie trafi do instalatora rekuperatorów w Twojej okolicy.
+  step2Image: /images/wentilo/quote-step2.avif
+  step2: |-
+    Krok 2.
+    Instalator skontaktuje się z Tobą, aby dopasować odpowiedni rekuperator i przedstawić ofertę.
+  step3Image: /images/wentilo/quote-step3.avif
+  step3: |-
+    Krok 3.
+    Gdy zaakceptujesz ofertę, instalator zamontuje wybrany rekuperator.
+faq:
+  - question: Czym jest rekuperacja i jak działa system Rotenso Wentilo?
+    answer: Rekuperacja to nowoczesny system wentylacji mechanicznej z odzyskiem ciepła. Rekuperator Rotenso Wentilo usuwa zużyte powietrze z pomieszczeń i jednocześnie nawiewa świeże, odzyskując ciepło z powietrza wywiewanego. Dzięki temu w domu jest stały dopływ świeżego powietrza bez strat energii.
+  - question: Jakie korzyści daje rekuperacja w domu jednorodzinnym?
+    answer: Stały dopływ świeżego, przefiltrowanego powietrza, niższe koszty ogrzewania dzięki odzyskowi ciepła, mniej kurzu, pyłków i smogu w domu oraz ochrona przed nadmiarem wilgoci i pleśnią — bez potrzeby otwierania okien.
+  - question: Ile kosztuje rekuperacja Rotenso Wentilo?
+    answer: Koszt zależy od wielkości domu, wybranego modelu i systemu dystrybucji powietrza. Zostaw kontakt w formularzu wyceny — instalator z Twojej okolicy przygotuje ofertę dopasowaną do budynku.
+  - question: Czy rekuperator Rotenso Wentilo zużywa dużo prądu?
+    answer: Nie. Rekuperatory Wentilo mają energooszczędne wentylatory EC, a automatyka dopasowuje ich pracę do potrzeb. Energia zaoszczędzona na ogrzewaniu wielokrotnie przewyższa zużycie prądu przez urządzenie.
+  - question: Jak często należy wymieniać filtry w rekuperatorze Rotenso Wentilo?
+    answer: Zwykle co 3–6 miesięcy, zależnie od zanieczyszczenia powietrza w okolicy. Rekuperatory z funkcją SMART same informują, który filtr trzeba wymienić.
+seoTitle: Rekuperatory Rotenso Wentilo ICON - rekuperacja do domu
+seoDescription: Rekuperatory Rotenso Wentilo ICON IT, IS i IC do domów od 50 do 200 m². Filtracja antysmogowa, powłoka antybakteryjna, odzysk ciepła i wilgoci, sterowanie iEDGE.
