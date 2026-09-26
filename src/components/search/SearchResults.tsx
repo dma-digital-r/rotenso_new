@@ -121,7 +121,7 @@ export function SearchResults({ lang, ui, guideFilters }: { lang: string; ui: Ui
                 {(shown as typeof products).map((p) => (
                   <div key={p.href} className="flex w-[310px] flex-col px-[16px]">
                     <Link href={p.href} className="relative h-[92px] w-full">
-                      <FramedImage src={p.image} sizes="280px" className="object-contain" />
+                      <FramedImage src={p.image} sizes="280px" className="!object-contain" />
                     </Link>
                     <h2 className="mt-[40px] text-h3 leading-[1.36] font-light">
                       <Link href={p.href} className="hover:text-rotenso-red">

@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/Button";
 import { FramedImage } from "@/components/ui/FramedImage";
 import { Icon } from "@/components/ui/Icon";
 import type { Ui } from "@/i18n/ui";
-import { highlight, loadIndex, normalize, searchGuides, searchProducts, type SearchIndex } from "@/lib/search";
+import { highlight, loadIndex, matches, normalize, searchGuides, searchProducts, type SearchIndex } from "@/lib/search";
 
 const RECENT = "rotenso-searches";
 
@@ -83,9 +83,11 @@ export function SearchBox({ lang, placeholder, ui }: { lang: string; placeholder
     router.push(`/${lang}/szukaj?q=${encodeURIComponent(value.trim())}${tab ? `&typ=${tab}` : ""}`);
   };
 
-  const nq = normalize(q);
-  const phrases = [...new Set([...recent, ...(index?.phrases ?? [])])].filter((p) => normalize(p).includes(nq)).slice(0, 5);
   const products = index ? searchProducts(index, q).slice(0, 5) : [];
+  // Popular and recent phrases that match (typos allowed); otherwise the names of the matching
+  // models, so "miray" suggests "Mirai".
+  const matching = [...new Set([...recent, ...(index?.phrases ?? [])])].filter((p) => matches(q, p));
+  const phrases = (matching.length ? matching : [...new Set(products.map((p) => p.name))]).slice(0, 5);
   const guides = index ? searchGuides(index, q).slice(0, 5) : [];
 
   return (
@@ -160,7 +162,7 @@ export function SearchBox({ lang, placeholder, ui }: { lang: string; placeholder
                     <li key={p.href}>
                       <Link href={p.href} onClick={() => rememberSearch(q)} className="group flex items-center gap-[15px]">
                         <span className="relative h-[34px] w-[80px] shrink-0">
-                          <FramedImage src={p.image} sizes="80px" className="object-contain" />
+                          <FramedImage src={p.image} sizes="80px" className="!object-contain" />
                         </span>
                         <span className="flex min-w-0 flex-col">
                           <Marked text={p.name} q={q} className="text-[16px] leading-[22px] group-hover:text-rotenso-red" />
