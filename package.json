@@ -11,7 +11,8 @@
     "translate:memory": "node scripts/translate.mjs --engine=memory",
     "prices": "node --env-file-if-exists=.env.local scripts/check-prices.mjs",
     "import:wordpress": "node scripts/import-wordpress.mjs",
-    "guides:images": "node scripts/localize-guide-images.mjs"
+    "guides:images": "node scripts/localize-guide-images.mjs",
+    "seo:redirects": "node scripts/build-redirects.mjs"
   },
   "dependencies": {
     "@keystatic/core": "^0.6.9",

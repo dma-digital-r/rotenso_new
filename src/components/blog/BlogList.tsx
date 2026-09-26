@@ -10,6 +10,14 @@ const PER_PAGE = 12;
 
 type Labels = Pick<BlogContent, "allLabel" | "filters" | "tagsLabel" | "searchPlaceholder" | "countLabel" | "emptyText">;
 
+const asciiSlug = (s: string) =>
+  s
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .replace(/ł/g, "l")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 const norm = (s: string) => s.toLocaleLowerCase("pl").normalize("NFD").replace(/\p{M}/gu, "");
 
 // Figma: "Content" (5172:76932) — category buttons (active = grey), "#tagi" dropdown with the tag
@@ -31,7 +39,9 @@ export function BlogList({ guides, hideUnfiltered = [], labels, ui }: { guides: 
   // Restore the filters from the address once, after hydration.
   useEffect(() => {
     const p = new URLSearchParams(window.location.search);
-    const f = labels.filters.findIndex((x) => x.label === p.get("kategoria"));
+    // Accepts the label ("Pompy ciepła") or its ASCII form ("pompy-ciepla", used by redirects).
+    const wanted = p.get("kategoria");
+    const f = labels.filters.findIndex((x) => x.label === wanted || asciiSlug(x.label) === wanted);
     /* eslint-disable react-hooks/set-state-in-effect -- reading the address has to wait until after hydration */
     setFilter(f);
     setTags(p.getAll("tag"));
@@ -59,7 +69,7 @@ export function BlogList({ guides, hideUnfiltered = [], labels, ui }: { guides: 
 
   useEffect(() => {
     const p = new URLSearchParams();
-    if (filter >= 0 && labels.filters[filter]) p.set("kategoria", labels.filters[filter].label);
+    if (filter >= 0 && labels.filters[filter]) p.set("kategoria", asciiSlug(labels.filters[filter].label));
     tags.forEach((t) => p.append("tag", t));
     if (query.trim()) p.set("szukaj", query.trim());
     if (current > 1) p.set("strona", String(current));

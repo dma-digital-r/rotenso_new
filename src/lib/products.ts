@@ -54,9 +54,9 @@ function splitUnits(units: FeedProduct[]) {
   return { idu, odu };
 }
 
-export async function getProductPage(lang: Locale, category: string, slug: string): Promise<ProductPage | null> {
+export async function getProductPage(lang: Locale, slug: string): Promise<ProductPage | null> {
   const entry = await readProduct(lang, slug);
-  if (!entry || entry.category !== category) return null;
+  if (!entry) return null;
 
   let feed = new Map<string, FeedProduct>();
   try {

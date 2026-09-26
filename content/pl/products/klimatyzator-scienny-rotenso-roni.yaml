@@ -50,7 +50,7 @@ family:
   label: Roni
   other:
     label: Roni Multi
-    href: /pl/klimatyzacja/roni-multi
+    href: /pl/produkt/klimatyzator-scienny-rotenso-roni-multi
   canonical: ''
 siblings: []
 dimensions:
@@ -152,17 +152,17 @@ alternatives:
       name: Mirai
       text: Klasa A+++ i praca w trybie grzania nawet do -30°C.
       image: /images/menu/mirai.png
-      href: /pl/klimatyzacja/mirai
+      href: /pl/produkt/klimatyzator-scienny-rotenso-mirai
     - kicker: Inne kolory
       name: Luve Black
       text: Czarny panel frontowy do nowoczesnych wnętrz.
       image: /images/menu/luve-black.png
-      href: /pl/klimatyzacja/luve-black
+      href: /pl/produkt/klimatyzator-scienny-rotenso-luve-black
     - kicker: Bardziej cichy
       name: Fresh
       text: Praca od 19 dB i dopływ świeżego powietrza z zewnątrz.
       image: /images/menu/fresh.png
-      href: /pl/klimatyzacja/fresh
+      href: /pl/produkt/klimatyzator-scienny-rotenso-fresh
 feature:
   show: false
   background: null

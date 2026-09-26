@@ -62,7 +62,7 @@ acHome:
       priceSymbols: M26XI R15 + M26XO R15
       cta:
         label: Modell entdecken
-        href: /de/klimatyzacja/mirai
+        href: /de/produkt/klimatyzator-scienny-rotenso-mirai
     - name: Versu Cloth Caramel
       thumb: /images/home/ac-versu-caramel.png
       subtitle: ''
@@ -70,7 +70,7 @@ acHome:
       priceSymbols: VCC26XI R16 + VO26XO R16
       cta:
         label: Modell entdecken
-        href: /de/klimatyzacja/versu-cloth-caramel
+        href: /de/produkt/klimatyzator-scienny-rotenso-versu-cloth-caramel
     - name: Luve Pro
       thumb: /images/home/ac-luve-pro.png
       subtitle: ''
@@ -78,7 +78,7 @@ acHome:
       priceSymbols: LEP26XI R16 + LOP26XO R16
       cta:
         label: Modell entdecken
-        href: /de/klimatyzacja/luve-pro
+        href: /de/produkt/klimatyzator-scienny-rotenso-luve-pro
     - name: Fresh
       thumb: /images/home/ac-fresh.png
       subtitle: ''
@@ -86,7 +86,7 @@ acHome:
       priceSymbols: FH26XI R16 + FH26XO R16
       cta:
         label: Modell entdecken
-        href: /de/klimatyzacja/fresh
+        href: /de/produkt/klimatyzator-scienny-rotenso-fresh
     - name: Versu Mirror
       thumb: /images/home/ac-versu-mirror.png
       subtitle: ''
@@ -94,7 +94,7 @@ acHome:
       priceSymbols: VM26XI R16 + VM26XO R15
       cta:
         label: Modell entdecken
-        href: /de/klimatyzacja/versu-mirror-r15
+        href: /de/produkt/klimatyzator-scienny-rotenso-versu-mirror
     - name: Versu Pure
       thumb: /images/home/ac-versu-pure.png
       subtitle: ''
@@ -102,7 +102,7 @@ acHome:
       priceSymbols: VP26XI R16 + VP26XO R15
       cta:
         label: Modell entdecken
-        href: /de/klimatyzacja/versu-pure
+        href: /de/produkt/klimatyzator-scienny-rotenso-versu-pure
   configurator:
     question: Sie wissen nicht, welche Klimaanlage die richtige ist?
     cta: |-
@@ -126,7 +126,7 @@ acBusiness:
       priceSymbols: M26XI R15 + M26XO R15
       cta:
         label: Modell entdecken
-        href: /de/klimatyzacja/mirai
+        href: /de/produkt/klimatyzator-scienny-rotenso-mirai
     - name: Versu Cloth Caramel
       thumb: /images/home/ac-versu-caramel.png
       subtitle: ''
@@ -134,7 +134,7 @@ acBusiness:
       priceSymbols: VCC26XI R16 + VO26XO R16
       cta:
         label: Modell entdecken
-        href: /de/klimatyzacja/versu-cloth-caramel
+        href: /de/produkt/klimatyzator-scienny-rotenso-versu-cloth-caramel
     - name: Luve Pro
       thumb: /images/home/ac-luve-pro.png
       subtitle: ''
@@ -142,7 +142,7 @@ acBusiness:
       priceSymbols: LEP26XI R16 + LOP26XO R16
       cta:
         label: Modell entdecken
-        href: /de/klimatyzacja/luve-pro
+        href: /de/produkt/klimatyzator-scienny-rotenso-luve-pro
     - name: Fresh
       thumb: /images/home/ac-fresh.png
       subtitle: ''
@@ -150,7 +150,7 @@ acBusiness:
       priceSymbols: FH26XI R16 + FH26XO R16
       cta:
         label: Modell entdecken
-        href: /de/klimatyzacja/fresh
+        href: /de/produkt/klimatyzator-scienny-rotenso-fresh
     - name: Versu Mirror
       thumb: /images/home/ac-versu-mirror.png
       subtitle: ''
@@ -158,7 +158,7 @@ acBusiness:
       priceSymbols: VM26XI R16 + VM26XO R15
       cta:
         label: Modell entdecken
-        href: /de/klimatyzacja/versu-mirror-r15
+        href: /de/produkt/klimatyzator-scienny-rotenso-versu-mirror
     - name: Versu Pure
       thumb: /images/home/ac-versu-pure.png
       subtitle: ''
@@ -166,7 +166,7 @@ acBusiness:
       priceSymbols: VP26XI R16 + VP26XO R15
       cta:
         label: Modell entdecken
-        href: /de/klimatyzacja/versu-pure
+        href: /de/produkt/klimatyzator-scienny-rotenso-versu-pure
   configurator:
     question: Sie wissen nicht, welche Klimaanlage die richtige ist?
     cta: |-
@@ -244,7 +244,7 @@ guides:
   readLabel: Lesen
   more:
     label: Weitere Ratgeber
-    href: /de/poradniki
+    href: /de/poradnik
   items:
     - category: Wärmepumpen
       title: Warmwasser — kann eine Wärmepumpe es erwärmen?
@@ -254,7 +254,7 @@ guides:
         'y': -27.38
         w: 100
         h: 127.86
-      href: /de/poradniki
+      href: /de/poradnik
     - category: Wärmepumpen
       title: Förderung für Wärmepumpen im Jahr 2026.
       image: /images/home/guide-2.png
@@ -263,7 +263,7 @@ guides:
         'y': 0
         w: 135.79
         h: 100
-      href: /de/poradniki
+      href: /de/poradnik
     - category: Klimaanlagen
       title: Heizen mit der Klimaanlage — ist das sinnvoll? Wir räumen Zweifel aus.
       image: /images/home/guide-3.png
@@ -272,7 +272,7 @@ guides:
         'y': null
         w: null
         h: null
-      href: /de/poradniki
+      href: /de/poradnik
     - category: Klimaanlagen
       title: Klimaanlage für eine 40-m²-Wohnung. Welche wählen?
       image: /images/home/guide-4.png
@@ -281,7 +281,7 @@ guides:
         'y': null
         w: null
         h: null
-      href: /de/poradniki
+      href: /de/poradnik
     - category: Klimaanlagen | Lüftung
       title: Lüftung mit Klimaanlage — wie verbindet man beides zu einem System?
       image: /images/home/guide-5.png
@@ -290,7 +290,7 @@ guides:
         'y': 0
         w: 196.16
         h: 100
-      href: /de/poradniki
+      href: /de/poradnik
     - category: Wohnraumlüftung
       title: Wie funktioniert ein Lüftungsgerät mit Feuchterückgewinnung?
       image: /images/home/guide-6.png
@@ -299,7 +299,7 @@ guides:
         'y': 0
         w: 215.77
         h: 100
-      href: /de/poradniki
+      href: /de/poradnik
     - category: Wohnraumlüftung
       title: Filter für die Wohnraumlüftung — die Grundlage für saubere Luft zu Hause.
       image: /images/home/guide-7.png
@@ -308,7 +308,7 @@ guides:
         'y': -11.17
         w: 239.98
         h: 122.34
-      href: /de/poradniki
+      href: /de/poradnik
     - category: Klimaanlagen
       title: Ist eine Klimaanlage gesund? Fakten und Mythen.
       image: /images/home/guide-8.png
@@ -317,7 +317,7 @@ guides:
         'y': 0
         w: 196.16
         h: 100
-      href: /de/poradniki
+      href: /de/poradnik
     - category: Klimaanlagen
       title: Was ist eine Multisplit-Klimaanlage? Wie funktioniert sie?
       image: /images/home/guide-9.png
@@ -326,7 +326,7 @@ guides:
         'y': 0
         w: 328.31
         h: 167.37
-      href: /de/poradniki
+      href: /de/poradnik
     - category: RVF / VRF
       title: Was ist VRF? Wofür wird dieses System eingesetzt?
       image: /images/home/guide-10.png
@@ -335,7 +335,7 @@ guides:
         'y': 0
         w: 196.16
         h: 100
-      href: /de/poradniki
+      href: /de/poradnik
 installer:
   title: Installateur finden
   text: Geben Sie Postleitzahl oder Ort ein und finden Sie den passenden Installateur.

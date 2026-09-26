@@ -14,55 +14,55 @@ tabs:
             products:
               - name: Luve Pro
                 tagline: Zaawansowane funkcje
-                href: /pl/klimatyzacja/luve-pro
+                href: /pl/produkt/klimatyzator-scienny-rotenso-luve-pro
                 image: /images/menu/luve-pro.png
                 image2: null
                 colors: []
               - name: Luve Pro Black
                 tagline: Elegancka czerń
-                href: /pl/klimatyzacja/luve-pro-black
+                href: /pl/produkt/klimatyzator-scienny-rotenso-luve-pro-black
                 image: /images/menu/luve-pro-black.png
                 image2: null
                 colors: []
               - name: Mirai
                 tagline: Najwyższa wydajność
-                href: /pl/klimatyzacja/mirai
+                href: /pl/produkt/klimatyzator-scienny-rotenso-mirai
                 image: /images/menu/mirai.png
                 image2: null
                 colors: []
               - name: Fresh
                 tagline: Świeże powietrze
-                href: /pl/klimatyzacja/fresh
+                href: /pl/produkt/klimatyzator-scienny-rotenso-fresh
                 image: /images/menu/fresh.png
                 image2: null
                 colors: []
               - name: Versu Cloth Caramel
                 tagline: Wyjątkowa stylistyka
-                href: /pl/klimatyzacja/versu-cloth-caramel
+                href: /pl/produkt/klimatyzator-scienny-rotenso-versu-cloth-caramel
                 image: /images/menu/versu-cloth-caramel.png
                 image2: null
                 colors: []
               - name: Versu Cloth Stone
                 tagline: Oryginalny design
-                href: /pl/klimatyzacja/versu-cloth-stone
+                href: /pl/produkt/klimatyzator-scienny-rotenso-versu-cloth-stone
                 image: /images/menu/versu-cloth-stone.png
                 image2: null
                 colors: []
               - name: Luve
                 tagline: Nowoczesny design
-                href: /pl/klimatyzacja/luve
+                href: /pl/produkt/klimatyzator-scienny-rotenso-luve
                 image: /images/menu/luve.png
                 image2: null
                 colors: []
               - name: Teta
                 tagline: Minimalizm i niezawodność
-                href: /pl/klimatyzacja/teta
+                href: /pl/produkt/klimatyzator-scienny-rotenso-teta
                 image: /images/menu/teta.png
                 image2: null
                 colors: []
               - name: Roni
                 tagline: Solidny wybór w dobrej cenie
-                href: /pl/klimatyzacja/roni
+                href: /pl/produkt/klimatyzator-scienny-rotenso-roni
                 image: /images/menu/roni.png
                 image2: null
                 colors: []
@@ -123,55 +123,55 @@ tabs:
             products:
               - name: Luve
                 tagline: Nowoczesny design
-                href: /pl/klimatyzacja/luve-multi
+                href: /pl/produkt/klimatyzator-scienny-rotenso-luve-multi
                 image: /images/menu/luve.png
                 image2: null
                 colors: []
               - name: Luve Black
                 tagline: Czarna elegancja
-                href: /pl/klimatyzacja/luve-black-multi
+                href: /pl/produkt/klimatyzator-scienny-rotenso-luve-black-multi
                 image: /images/menu/luve-black.png
                 image2: null
                 colors: []
               - name: Mirai
                 tagline: Najwyższa wydajność
-                href: /pl/klimatyzacja/mirai-multi
+                href: /pl/produkt/klimatyzator-scienny-rotenso-mirai-multi
                 image: /images/menu/mirai.png
                 image2: null
                 colors: []
               - name: Fresh
                 tagline: Świeże powietrze
-                href: /pl/klimatyzacja/fresh-multi
+                href: /pl/produkt/klimatyzator-scienny-rotenso-fresh-multi
                 image: /images/menu/fresh.png
                 image2: null
                 colors: []
               - name: Versu Cloth Caramel
                 tagline: Wyjątkowa stylistyka
-                href: /pl/klimatyzacja/versu-cloth-caramel-multi
+                href: /pl/produkt/klimatyzator-scienny-rotenso-versu-cloth-caramel-multi
                 image: /images/menu/versu-cloth-caramel.png
                 image2: null
                 colors: []
               - name: Versu Cloth Stone
                 tagline: Oryginalny design
-                href: /pl/klimatyzacja/versu-cloth-stone-multi
+                href: /pl/produkt/klimatyzator-scienny-rotenso-versu-cloth-stone-multi
                 image: /images/menu/versu-cloth-stone.png
                 image2: null
                 colors: []
               - name: Teta
                 tagline: Minimalizm i niezawodność
-                href: /pl/klimatyzacja/teta-multi
+                href: /pl/produkt/klimatyzator-scienny-rotenso-teta-multi
                 image: /images/menu/teta.png
                 image2: null
                 colors: []
               - name: Imoto
                 tagline: Kompaktowa obudowa
-                href: /pl/klimatyzacja/imoto-multi
+                href: /pl/produkt/klimatyzator-scienny-rotenso-imoto-multi
                 image: /images/menu/imoto.png
                 image2: null
                 colors: []
               - name: Roni
                 tagline: Solidny wybór w dobrej cenie
-                href: /pl/klimatyzacja/roni-multi
+                href: /pl/produkt/klimatyzator-scienny-rotenso-roni-multi
                 image: /images/menu/roni.png
                 image2: null
                 colors: []
@@ -231,37 +231,37 @@ tabs:
             products:
               - name: Luve Pro
                 tagline: Zaawansowane funkcje
-                href: /pl/klimatyzacja/luve-pro
+                href: /pl/produkt/klimatyzator-scienny-rotenso-luve-pro
                 image: /images/menu/luve-pro.png
                 image2: null
                 colors: []
               - name: Luve Pro Black
                 tagline: Elegancka czerń
-                href: /pl/klimatyzacja/luve-pro-black
+                href: /pl/produkt/klimatyzator-scienny-rotenso-luve-pro-black
                 image: /images/menu/luve-pro-black.png
                 image2: null
                 colors: []
               - name: Versu Cloth Caramel
                 tagline: Wyjątkowa stylistyka
-                href: /pl/klimatyzacja/versu-cloth-caramel
+                href: /pl/produkt/klimatyzator-scienny-rotenso-versu-cloth-caramel
                 image: /images/menu/versu-cloth-caramel.png
                 image2: null
                 colors: []
               - name: Versu Cloth Stone
                 tagline: Oryginalny design
-                href: /pl/klimatyzacja/versu-cloth-stone
+                href: /pl/produkt/klimatyzator-scienny-rotenso-versu-cloth-stone
                 image: /images/menu/versu-cloth-stone.png
                 image2: null
                 colors: []
               - name: Teta Mirror
                 tagline: Nowoczesny i uniwersalny
-                href: /pl/klimatyzacja/teta-mirror
+                href: /pl/produkt/klimatyzator-scienny-rotenso-teta-mirror
                 image: /images/menu/teta-mirror.png
                 image2: null
                 colors: []
               - name: Elis Silver
                 tagline: Industrialny styl
-                href: /pl/klimatyzacja/elis-silver
+                href: /pl/produkt/klimatyzator-scienny-rotenso-elis-silver
                 image: /images/menu/elis-silver.png
                 image2: null
                 colors: []
@@ -317,25 +317,25 @@ tabs:
             products:
               - name: Mirai
                 tagline: Najwyższa wydajność
-                href: /pl/klimatyzacja/mirai
+                href: /pl/produkt/klimatyzator-scienny-rotenso-mirai
                 image: /images/menu/mirai.png
                 image2: null
                 colors: []
               - name: Versu Pure
                 tagline: Cicha praca
-                href: /pl/klimatyzacja/versu-pure
+                href: /pl/produkt/klimatyzator-scienny-rotenso-versu-pure
                 image: /images/menu/versu-pure.png
                 image2: null
                 colors: []
               - name: Revio
                 tagline: Duża funkcjonalność
-                href: /pl/klimatyzacja/revio
+                href: /pl/produkt/klimatyzator-scienny-rotenso-revio
                 image: /images/menu/revio.png
                 image2: null
                 colors: []
               - name: Teta
                 tagline: Minimalizm i niezawodność
-                href: /pl/klimatyzacja/teta
+                href: /pl/produkt/klimatyzator-scienny-rotenso-teta
                 image: /images/menu/teta.png
                 image2: null
                 colors: []
@@ -394,31 +394,31 @@ tabs:
             products:
               - name: Tenji CC
                 tagline: Do biur i gabinetów
-                href: /pl/klimatyzacja/tenji-cc
+                href: /pl/produkt/klimatyzator-kasetonowy-rotenso-tenji-cc
                 image: /images/menu/tenji-cc.png
                 image2: null
                 colors: []
               - name: Tenji CS
                 tagline: Do obiektów komercyjnych
-                href: /pl/klimatyzacja/tenji-cs
+                href: /pl/produkt/klimatyzator-kasetonowy-rotenso-tenji-cs
                 image: /images/menu/tenji-cs.png
                 image2: null
                 colors: []
               - name: Nevo
                 tagline: Montaż w pionie i poziomie
-                href: /pl/klimatyzacja/nevo
+                href: /pl/produkt/klimatyzator-kanalowy-rotenso-nevo
                 image: /images/menu/nevo.png
                 image2: null
                 colors: []
               - name: Nevo Multi
                 tagline: Montaż w pionie i poziomie
-                href: /pl/klimatyzacja/nevo-multi
+                href: /pl/produkt/klimatyzator-kanalowy-rotenso-nevo-multi
                 image: /images/menu/nevo-multi.png
                 image2: null
                 colors: []
               - name: Jato
                 tagline: Montaż na ścianie lub suficie
-                href: /pl/klimatyzacja/jato
+                href: /pl/produkt/klimatyzator-przypodlogowo-podsufitowy-rotenso-jato
                 image: /images/menu/jato.png
                 image2: null
                 colors: []
@@ -471,25 +471,25 @@ tabs:
             products:
               - name: Jato
                 tagline: Montaż na ścianie lub suficie
-                href: /pl/klimatyzacja/jato
+                href: /pl/produkt/klimatyzator-przypodlogowo-podsufitowy-rotenso-jato
                 image: /images/menu/jato.png
                 image2: null
                 colors: []
               - name: Aneru HP
                 tagline: Idealny na poddasze
-                href: /pl/klimatyzacja/aneru-hp
+                href: /pl/produkt/klimatyzator-konsolowy-rotenso-aneru-hp
                 image: /images/menu/aneru-hp.png
                 image2: null
                 colors: []
               - name: Aneru
                 tagline: Komfort w każdym miejscu
-                href: /pl/klimatyzacja/aneru
+                href: /pl/produkt/klimatyzator-konsolowy-rotenso-aneru
                 image: /images/menu/aneru.png
                 image2: null
                 colors: []
               - name: Aneru AN
                 tagline: Kompaktowe wymiary
-                href: /pl/klimatyzacja/aneru-an
+                href: /pl/produkt/klimatyzator-konsolowy-rotenso-aneru-an
                 image: /images/menu/aneru-an.png
                 image2: null
                 colors: []
@@ -548,7 +548,7 @@ tabs:
             products:
               - name: Airmi Split
                 tagline: Klasyczna pompa ciepła do domu
-                href: /pl/pompy-ciepla/airmi-split
+                href: /pl/produkt/pompa-ciepla-rotenso-airmi-split
                 image: /images/menu/airmi-split.png
                 image2: /images/menu/airmi-split-2.png
                 colors:
@@ -557,25 +557,25 @@ tabs:
                   - '#60686f'
               - name: Aquami Split
                 tagline: Wydajna pompa ciepła do większych domów
-                href: /pl/pompy-ciepla/aquami-split
+                href: /pl/produkt/pompa-ciepla-rotenso-aquami-split
                 image: /images/menu/aquami-split.png
                 image2: /images/menu/aquami-split-2.png
                 colors: []
               - name: Aquami Multi Split
                 tagline: Jedna pompa ciepła do ogrzewania i klimatyzacji
-                href: /pl/pompy-ciepla/aquami-multi-split
+                href: /pl/produkt/pompa-ciepla-rotenso-aquami-multi
                 image: /images/menu/aquami-multi-split.png
                 image2: /images/menu/aquami-multi-split-2.png
                 colors: []
               - name: Heatmi Split
                 tagline: Nowoczesna i energooszczędna pompa ciepła
-                href: /pl/pompy-ciepla/heatmi-split
+                href: /pl/produkt/pompa-ciepla-rotenso-heatmi-split
                 image: /images/menu/heatmi-split.png
                 image2: /images/menu/heatmi-split-2.png
                 colors: []
               - name: Airmi Monoblock
                 tagline: Kompaktowa i łatwa w instalacji pompa ciepła
-                href: /pl/pompy-ciepla/airmi-monoblock
+                href: /pl/produkt/pompa-ciepla-rotenso-airmi-monoblock
                 image: /images/menu/airmi-monoblock.png
                 image2: null
                 colors:
@@ -584,19 +584,19 @@ tabs:
                   - '#60686f'
               - name: Aquami Monoblock
                 tagline: Mocna i uniwersalna pompa ciepła
-                href: /pl/pompy-ciepla/aquami-monoblock
+                href: /pl/produkt/pompa-ciepla-rotenso-aquami-monoblock
                 image: /images/menu/aquami-monoblock.png
                 image2: null
                 colors: []
               - name: Windmi Monoblock
                 tagline: Nowoczesna i wydajna pompa ciepła
-                href: /pl/pompy-ciepla/windmi-monoblock
+                href: /pl/produkt/pompa-ciepla-rotenso-windmi-monoblock
                 image: /images/menu/windmi-monoblock.png
                 image2: null
                 colors: []
               - name: Aquami All-in Split
                 tagline: Pompa ciepła, z którą zaoszczędzisz miejsce
-                href: /pl/pompy-ciepla/aquami-all-in-split
+                href: /pl/produkt/pompa-ciepla-rotenso-aquami-all-in-split
                 image: /images/menu/aquami-all-in-split.png
                 image2: /images/menu/aquami-all-in-split-2.png
                 colors: []
@@ -654,7 +654,7 @@ tabs:
             products:
               - name: Airmi Split
                 tagline: Klasyczna pompa ciepła do domu
-                href: /pl/pompy-ciepla/airmi-split
+                href: /pl/produkt/pompa-ciepla-rotenso-airmi-split
                 image: /images/menu/airmi-split.png
                 image2: /images/menu/airmi-split-2.png
                 colors:
@@ -663,19 +663,19 @@ tabs:
                   - '#60686f'
               - name: Aquami Split
                 tagline: Wydajna pompa ciepła do większych domów
-                href: /pl/pompy-ciepla/aquami-split
+                href: /pl/produkt/pompa-ciepla-rotenso-aquami-split
                 image: /images/menu/aquami-split.png
                 image2: /images/menu/aquami-split-2.png
                 colors: []
               - name: Aquami Multi Split
                 tagline: Jedna pompa ciepła do ogrzewania i klimatyzacji
-                href: /pl/pompy-ciepla/aquami-multi-split
+                href: /pl/produkt/pompa-ciepla-rotenso-aquami-multi
                 image: /images/menu/aquami-multi-split.png
                 image2: /images/menu/aquami-multi-split-2.png
                 colors: []
               - name: Heatmi Split
                 tagline: Nowoczesna i energooszczędna pompa ciepła
-                href: /pl/pompy-ciepla/heatmi-split
+                href: /pl/produkt/pompa-ciepla-rotenso-heatmi-split
                 image: /images/menu/heatmi-split.png
                 image2: /images/menu/heatmi-split-2.png
                 colors: []
@@ -733,7 +733,7 @@ tabs:
             products:
               - name: Airmi Monoblock
                 tagline: Kompaktowa i łatwa w instalacji pompa ciepła
-                href: /pl/pompy-ciepla/airmi-monoblock
+                href: /pl/produkt/pompa-ciepla-rotenso-airmi-monoblock
                 image: /images/menu/airmi-monoblock.png
                 image2: null
                 colors:
@@ -742,13 +742,13 @@ tabs:
                   - '#60686f'
               - name: Aquami Monoblock
                 tagline: Mocna i uniwersalna pompa ciepła
-                href: /pl/pompy-ciepla/aquami-monoblock
+                href: /pl/produkt/pompa-ciepla-rotenso-aquami-monoblock
                 image: /images/menu/aquami-monoblock.png
                 image2: null
                 colors: []
               - name: Windmi Monoblock
                 tagline: Nowoczesna i wydajna pompa ciepła
-                href: /pl/pompy-ciepla/windmi-monoblock
+                href: /pl/produkt/pompa-ciepla-rotenso-windmi-monoblock
                 image: /images/menu/windmi-monoblock.png
                 image2: null
                 colors: []
@@ -806,7 +806,7 @@ tabs:
             products:
               - name: Airmi Split
                 tagline: Klasyczna pompa ciepła do domu
-                href: /pl/pompy-ciepla/airmi-split
+                href: /pl/produkt/pompa-ciepla-rotenso-airmi-split
                 image: /images/menu/airmi-split.png
                 image2: /images/menu/airmi-split-2.png
                 colors:
@@ -815,7 +815,7 @@ tabs:
                   - '#60686f'
               - name: Airmi Monoblock
                 tagline: Kompaktowa i łatwa w instalacji pompa ciepła
-                href: /pl/pompy-ciepla/airmi-monoblock
+                href: /pl/produkt/pompa-ciepla-rotenso-airmi-monoblock
                 image: /images/menu/airmi-monoblock.png
                 image2: null
                 colors:
@@ -876,7 +876,7 @@ tabs:
             products:
               - name: Aquami All-in Split
                 tagline: Pompa ciepła, z którą zaoszczędzisz miejsce
-                href: /pl/pompy-ciepla/aquami-all-in-split
+                href: /pl/produkt/pompa-ciepla-rotenso-aquami-all-in-split
                 image: /images/menu/aquami-all-in-split.png
                 image2: /images/menu/aquami-all-in-split-2.png
                 colors: []
@@ -934,25 +934,25 @@ tabs:
             products:
               - name: Thermos Ceramic
                 tagline: Emaliowany zbiornik CWU
-                href: /pl/pompy-ciepla/thermos-ceramic
+                href: /pl/produkt/zbiornik-cwu-rotenso-thermos-ceramic
                 image: /images/menu/thermos-ceramic.png
                 image2: null
                 colors: []
               - name: Thermos Ceramic Grey
                 tagline: Ceramiczny zbiornik w szarym kolorze
-                href: /pl/pompy-ciepla/thermos-ceramic-grey
+                href: /pl/produkt/zbiornik-cwu-rotenso-thermos-ceramic-grey
                 image: /images/menu/thermos-ceramic-grey.png
                 image2: null
                 colors: []
               - name: Thermos Inox
                 tagline: Stalowy zbiornik, odporny na korozję
-                href: /pl/pompy-ciepla/thermos-inox
+                href: /pl/produkt/zbiornik-cwu-rotenso-thermos-inox
                 image: /images/menu/thermos-inox.png
                 image2: null
                 colors: []
               - name: Thermos Dual Inox
                 tagline: Stalowy zbiornik z dodatkową wężownicą
-                href: /pl/pompy-ciepla/thermos-dual-inox
+                href: /pl/produkt/zbiornik-cwu-rotenso-thermos-dual-inox
                 image: /images/menu/thermos-dual-inox.png
                 image2: null
                 colors: []
@@ -968,19 +968,19 @@ tabs:
             products:
               - name: Thermos Store
                 tagline: Bufor ciepła z izolacją
-                href: /pl/pompy-ciepla/thermos-store
+                href: /pl/produkt/zbiornik-buforowy-rotenso-thermos-store
                 image: /images/menu/thermos-store.png
                 image2: null
                 colors: []
               - name: Thermos Store Plus
                 tagline: Zbiornik buforowy o większej pojemności
-                href: /pl/pompy-ciepla/thermos-store-plus
+                href: /pl/produkt/zbiornik-buforowy-rotenso-thermos-store-plus
                 image: /images/menu/thermos-store-plus.png
                 image2: null
                 colors: []
               - name: Thermos Store Grey
                 tagline: Bufor ciepła w szarej obudowie
-                href: /pl/pompy-ciepla/thermos-store-grey
+                href: /pl/produkt/zbiornik-buforowy-rotenso-thermos-store-grey
                 image: /images/menu/thermos-store-grey.png
                 image2: null
                 colors: []
@@ -1025,25 +1025,25 @@ tabs:
             products:
               - name: RVF V5
                 tagline: Lorem ipsum dolor sit amet enim
-                href: /pl/systemy-rvf/rvf-v5
+                href: /pl/produkt/rvf-v5
                 image: /images/menu/rvf-v5.png
                 image2: null
                 colors: []
               - name: HR RVF
                 tagline: Lorem ipsum dolor sit amet enim
-                href: /pl/systemy-rvf/hr-rvf
+                href: /pl/produkt/hr-rvf
                 image: /images/menu/hr-rvf.png
                 image2: null
                 colors: []
               - name: MiniRVF V4
                 tagline: Lorem ipsum dolor sit amet enim
-                href: /pl/systemy-rvf/minirvf-v4
+                href: /pl/produkt/mini-rvf-v4
                 image: /images/menu/minirvf-v4.png
                 image2: null
                 colors: []
               - name: MiniRVF V5
                 tagline: Lorem ipsum dolor sit amet enim
-                href: /pl/systemy-rvf/minirvf-v5
+                href: /pl/produkt/minirvf_v5
                 image: /images/menu/minirvf-v5.png
                 image2: null
                 colors: []
@@ -1102,19 +1102,19 @@ tabs:
             products:
               - name: Hiro HP
                 tagline: 'System o ekstremalnie wysokiej wydajności i klasie energetycznej A+++, który zapewnia działanie do 3 jednostek wewnętrznych oraz pracę w trudnych warunkach zimowych: do -30 °C temperatury zewnętrznej.'
-                href: /pl/klimatyzacja/hiro-hp
+                href: /pl/produkt/klimatyzator-rotenso-hiro-hp
                 image: /images/menu/hiro-hp.png
                 image2: null
                 colors: []
               - name: Hiro S
                 tagline: Agregat klasy energetycznej A++, zaprojektowany do pracy całorocznej z możliwością podłączenia nawet 5 jednostek wewnętrznych. Zapewnia efektywne grzanie przy temperaturze –22 °C na zewnątrz.
-                href: /pl/klimatyzacja/hiro-s
+                href: /pl/produkt/klimatyzator-rotenso-hiro-s
                 image: /images/menu/hiro-s.png
                 image2: null
                 colors: []
               - name: Hiro N
                 tagline: Kompaktowa jednostka zewnętrzna klasy A++, która obsługuje aż 5 jednostek wewnętrznych i została przystosowana do sprawnej pracy zarówno w trybie chłodzenia, jak i grzania.
-                href: /pl/klimatyzacja/hiro-n
+                href: /pl/produkt/klimatyzator-rotenso-hiro-n
                 image: /images/menu/hiro-n.png
                 image2: null
                 colors: []

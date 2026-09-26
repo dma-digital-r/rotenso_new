@@ -4,7 +4,7 @@ nav:
   - label: Про нас
     href: /uk/o-nas
   - label: Посібники
-    href: /uk/poradniki
+    href: /uk/poradnik
   - label: Каталоги
     href: /uk/katalogi
   - label: Контакти
@@ -65,7 +65,7 @@ footerColumns:
       - label: Про нас
         href: /uk/o-nas
       - label: Посібники
-        href: /uk/poradniki
+        href: /uk/poradnik
       - label: Каталоги
         href: /uk/katalogi
       - label: Захист даних

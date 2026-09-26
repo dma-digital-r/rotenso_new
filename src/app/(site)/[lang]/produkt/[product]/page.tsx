@@ -28,7 +28,7 @@ export const revalidate = 86400;
 export const dynamicParams = false;
 export const generateStaticParams = productStaticParams;
 
-type Props = { params: Promise<{ lang: string; category: string; product: string }> };
+type Props = { params: Promise<{ lang: string; product: string }> };
 
 export async function generateMetadata({ params }: Props) {
   return productMetadata(params);
@@ -67,7 +67,7 @@ export default async function ProductPage({ params }: Props) {
   const premium = entry.kind === "ac-premium";
   const slides = entry.featureSlides.map((s) => ({ image: s.image, video: s.video, title: s.title, subtitle: s.subtitle, text: s.text }));
   // "Ostatnio oglądane" card: the menu tile image of this model, else the first feed photo.
-  const menuImage = `/images/menu/${page.slug}.png`;
+  const menuImage = `/images/menu/${entry.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}.png`;
   const thumb = existsSync(path.join(process.cwd(), "public", menuImage)) ? menuImage : (variants[0]?.images[0] ?? null);
 
   const basic = entry.kind === "ac-basic";

@@ -4,7 +4,7 @@ nav:
   - label: Chi siamo
     href: /it/o-nas
   - label: Guide
-    href: /it/poradniki
+    href: /it/poradnik
   - label: Cataloghi
     href: /it/katalogi
   - label: Contatti
@@ -65,7 +65,7 @@ footerColumns:
       - label: Chi siamo
         href: /it/o-nas
       - label: Guide
-        href: /it/poradniki
+        href: /it/poradnik
       - label: Cataloghi
         href: /it/katalogi
       - label: Privacy

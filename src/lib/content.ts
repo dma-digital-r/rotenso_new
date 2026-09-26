@@ -88,7 +88,7 @@ export async function getLatestGuides(lang: Locale, limit = 10): Promise<GuideCa
           title: entry.title,
           image: entry.image,
           imageCrop: { x: null, y: null, w: null, h: null },
-          href: `/${lang}/poradniki/${slug}`,
+          href: `/${lang}/${slug}`,
         },
         needsOrphanFix.includes(lang),
       );

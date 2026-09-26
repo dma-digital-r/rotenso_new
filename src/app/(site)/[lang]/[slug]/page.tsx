@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: summary.title,
     description: summary.excerpt,
-    alternates: lang === defaultLocale ? undefined : { canonical: `/${defaultLocale}/poradniki/${slug}` },
+    alternates: lang === defaultLocale ? undefined : { canonical: `/${defaultLocale}/${slug}` },
     openGraph: { type: "article", title: summary.title, description: summary.excerpt, images: summary.image ? [summary.image] : undefined, publishedTime: summary.date },
   };
 }
@@ -89,7 +89,7 @@ export default async function GuidePage({ params }: Props) {
             {ui.crumbHome}
           </Link>
           {" / "}
-          <Link href={`/${lang}/poradniki`} className="hover:underline">
+          <Link href={`/${lang}/poradnik`} className="hover:underline">
             {ui.crumbGuides}
           </Link>
           {" / "}

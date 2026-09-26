@@ -370,7 +370,7 @@ export const productSchema = {
       other: link("Druga wersja (np. Mirai Multi)"),
       canonical: fields.text({
         label: "Adres oryginału (canonical)",
-        description: "Tylko na kopii, np. na Mirai Multi: /pl/klimatyzacja/mirai. Na oryginale zostaw puste.",
+        description: "Tylko na kopii, np. na Mirai Multi: /pl/produkt/klimatyzator-scienny-rotenso-mirai. Na oryginale zostaw puste.",
       }),
     },
     { label: "Wersje (Split / Multi)" },

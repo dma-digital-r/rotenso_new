@@ -16,7 +16,7 @@ export function ProductBar({
   gap = 20,
 }: {
   product: ProductEntry;
-  /** Page address of this product, e.g. /pl/klimatyzacja/mirai */
+  /** Page address of this product, e.g. /pl/produkt/klimatyzator-scienny-rotenso-mirai */
   base: string;
   active: ProductTab;
   ui: Ui;

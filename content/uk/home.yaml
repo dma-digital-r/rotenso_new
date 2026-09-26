@@ -62,7 +62,7 @@ acHome:
       priceSymbols: M26XI R15 + M26XO R15
       cta:
         label: Переглянути модель
-        href: /uk/klimatyzacja/mirai
+        href: /uk/produkt/klimatyzator-scienny-rotenso-mirai
     - name: Versu Cloth Caramel
       thumb: /images/home/ac-versu-caramel.png
       subtitle: ''
@@ -70,7 +70,7 @@ acHome:
       priceSymbols: VCC26XI R16 + VO26XO R16
       cta:
         label: Переглянути модель
-        href: /uk/klimatyzacja/versu-cloth-caramel
+        href: /uk/produkt/klimatyzator-scienny-rotenso-versu-cloth-caramel
     - name: Luve Pro
       thumb: /images/home/ac-luve-pro.png
       subtitle: ''
@@ -78,7 +78,7 @@ acHome:
       priceSymbols: LEP26XI R16 + LOP26XO R16
       cta:
         label: Переглянути модель
-        href: /uk/klimatyzacja/luve-pro
+        href: /uk/produkt/klimatyzator-scienny-rotenso-luve-pro
     - name: Fresh
       thumb: /images/home/ac-fresh.png
       subtitle: ''
@@ -86,7 +86,7 @@ acHome:
       priceSymbols: FH26XI R16 + FH26XO R16
       cta:
         label: Переглянути модель
-        href: /uk/klimatyzacja/fresh
+        href: /uk/produkt/klimatyzator-scienny-rotenso-fresh
     - name: Versu Mirror
       thumb: /images/home/ac-versu-mirror.png
       subtitle: ''
@@ -94,7 +94,7 @@ acHome:
       priceSymbols: VM26XI R16 + VM26XO R15
       cta:
         label: Переглянути модель
-        href: /uk/klimatyzacja/versu-mirror-r15
+        href: /uk/produkt/klimatyzator-scienny-rotenso-versu-mirror
     - name: Versu Pure
       thumb: /images/home/ac-versu-pure.png
       subtitle: ''
@@ -102,7 +102,7 @@ acHome:
       priceSymbols: VP26XI R16 + VP26XO R15
       cta:
         label: Переглянути модель
-        href: /uk/klimatyzacja/versu-pure
+        href: /uk/produkt/klimatyzator-scienny-rotenso-versu-pure
   configurator:
     question: Не знаєте, який кондиціонер обрати?
     cta: |-
@@ -126,7 +126,7 @@ acBusiness:
       priceSymbols: M26XI R15 + M26XO R15
       cta:
         label: Переглянути модель
-        href: /uk/klimatyzacja/mirai
+        href: /uk/produkt/klimatyzator-scienny-rotenso-mirai
     - name: Versu Cloth Caramel
       thumb: /images/home/ac-versu-caramel.png
       subtitle: ''
@@ -134,7 +134,7 @@ acBusiness:
       priceSymbols: VCC26XI R16 + VO26XO R16
       cta:
         label: Переглянути модель
-        href: /uk/klimatyzacja/versu-cloth-caramel
+        href: /uk/produkt/klimatyzator-scienny-rotenso-versu-cloth-caramel
     - name: Luve Pro
       thumb: /images/home/ac-luve-pro.png
       subtitle: ''
@@ -142,7 +142,7 @@ acBusiness:
       priceSymbols: LEP26XI R16 + LOP26XO R16
       cta:
         label: Переглянути модель
-        href: /uk/klimatyzacja/luve-pro
+        href: /uk/produkt/klimatyzator-scienny-rotenso-luve-pro
     - name: Fresh
       thumb: /images/home/ac-fresh.png
       subtitle: ''
@@ -150,7 +150,7 @@ acBusiness:
       priceSymbols: FH26XI R16 + FH26XO R16
       cta:
         label: Переглянути модель
-        href: /uk/klimatyzacja/fresh
+        href: /uk/produkt/klimatyzator-scienny-rotenso-fresh
     - name: Versu Mirror
       thumb: /images/home/ac-versu-mirror.png
       subtitle: ''
@@ -158,7 +158,7 @@ acBusiness:
       priceSymbols: VM26XI R16 + VM26XO R15
       cta:
         label: Переглянути модель
-        href: /uk/klimatyzacja/versu-mirror-r15
+        href: /uk/produkt/klimatyzator-scienny-rotenso-versu-mirror
     - name: Versu Pure
       thumb: /images/home/ac-versu-pure.png
       subtitle: ''
@@ -166,7 +166,7 @@ acBusiness:
       priceSymbols: VP26XI R16 + VP26XO R15
       cta:
         label: Переглянути модель
-        href: /uk/klimatyzacja/versu-pure
+        href: /uk/produkt/klimatyzator-scienny-rotenso-versu-pure
   configurator:
     question: Не знаєте, який кондиціонер обрати?
     cta: |-
@@ -244,7 +244,7 @@ guides:
   readLabel: Читати
   more:
     label: Більше посібників
-    href: /uk/poradniki
+    href: /uk/poradnik
   items:
     - category: Теплові насоси
       title: Гаряча вода — чи може тепловий насос її нагріти?
@@ -254,7 +254,7 @@ guides:
         'y': -27.38
         w: 100
         h: 127.86
-      href: /uk/poradniki
+      href: /uk/poradnik
     - category: Теплові насоси
       title: Дотації на теплові насоси у 2026 році.
       image: /images/home/guide-2.png
@@ -263,7 +263,7 @@ guides:
         'y': 0
         w: 135.79
         h: 100
-      href: /uk/poradniki
+      href: /uk/poradnik
     - category: Кондиціонування
       title: Чи має сенс опалення кондиціонером? Розвіюємо сумніви.
       image: /images/home/guide-3.png
@@ -272,7 +272,7 @@ guides:
         'y': null
         w: null
         h: null
-      href: /uk/poradniki
+      href: /uk/poradnik
     - category: Кондиціонування
       title: Кондиціонер для квартири 40 м². Який обрати?
       image: /images/home/guide-4.png
@@ -281,7 +281,7 @@ guides:
         'y': null
         w: null
         h: null
-      href: /uk/poradniki
+      href: /uk/poradnik
     - category: Кондиціонування | Рекуперація
       title: Рекуперація з кондиціонуванням — як поєднати в одну систему?
       image: /images/home/guide-5.png
@@ -290,7 +290,7 @@ guides:
         'y': 0
         w: 196.16
         h: 100
-      href: /uk/poradniki
+      href: /uk/poradnik
     - category: Рекуперація
       title: Як працює рекуператор із рекуперацією вологи?
       image: /images/home/guide-6.png
@@ -299,7 +299,7 @@ guides:
         'y': 0
         w: 215.77
         h: 100
-      href: /uk/poradniki
+      href: /uk/poradnik
     - category: Рекуперація
       title: Фільтри для рекуперації — основа чистого повітря вдома.
       image: /images/home/guide-7.png
@@ -308,7 +308,7 @@ guides:
         'y': -11.17
         w: 239.98
         h: 122.34
-      href: /uk/poradniki
+      href: /uk/poradnik
     - category: Кондиціонування
       title: Чи шкідливий кондиціонер? Факти й міфи.
       image: /images/home/guide-8.png
@@ -317,7 +317,7 @@ guides:
         'y': 0
         w: 196.16
         h: 100
-      href: /uk/poradniki
+      href: /uk/poradnik
     - category: Кондиціонування
       title: Що таке мультиспліт-кондиціонер? Як він працює?
       image: /images/home/guide-9.png
@@ -326,7 +326,7 @@ guides:
         'y': 0
         w: 328.31
         h: 167.37
-      href: /uk/poradniki
+      href: /uk/poradnik
     - category: RVF / VRF
       title: Що таке VRF? Де застосовують цю систему?
       image: /images/home/guide-10.png
@@ -335,7 +335,7 @@ guides:
         'y': 0
         w: 196.16
         h: 100
-      href: /uk/poradniki
+      href: /uk/poradnik
 installer:
   title: Знайти монтажника
   text: Вкажіть поштовий індекс або населений пункт і знайдіть відповідного монтажника.

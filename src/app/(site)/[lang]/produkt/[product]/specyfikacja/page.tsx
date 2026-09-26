@@ -7,7 +7,7 @@ export const revalidate = 86400;
 export const dynamicParams = false;
 export const generateStaticParams = productStaticParams;
 
-type Props = { params: Promise<{ lang: string; category: string; product: string }> };
+type Props = { params: Promise<{ lang: string; product: string }> };
 
 export async function generateMetadata({ params }: Props) {
   return productMetadata(params, "specyfikacja");

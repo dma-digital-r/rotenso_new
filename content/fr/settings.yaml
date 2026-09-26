@@ -4,7 +4,7 @@ nav:
   - label: À propos
     href: /fr/o-nas
   - label: Conseils
-    href: /fr/poradniki
+    href: /fr/poradnik
   - label: Catalogues
     href: /fr/katalogi
   - label: Contact
@@ -65,7 +65,7 @@ footerColumns:
       - label: À propos
         href: /fr/o-nas
       - label: Conseils
-        href: /fr/poradniki
+        href: /fr/poradnik
       - label: Catalogues
         href: /fr/katalogi
       - label: RGPD

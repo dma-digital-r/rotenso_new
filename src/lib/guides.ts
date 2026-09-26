@@ -52,7 +52,7 @@ export async function getGuideList(lang: Locale): Promise<GuideSummary[]> {
       typesetDeep(
         {
           slug,
-          href: `/${lang}/poradniki/${slug}`,
+          href: `/${lang}/${slug}`,
           title: entry.title,
           date: String(entry.date),
           categories: [...entry.categories],

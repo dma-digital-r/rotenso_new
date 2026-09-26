@@ -62,7 +62,7 @@ acHome:
       priceSymbols: M26XI R15 + M26XO R15
       cta:
         label: Explore model
-        href: /en/klimatyzacja/mirai
+        href: /en/produkt/klimatyzator-scienny-rotenso-mirai
     - name: Versu Cloth Caramel
       thumb: /images/home/ac-versu-caramel.png
       subtitle: ''
@@ -70,7 +70,7 @@ acHome:
       priceSymbols: VCC26XI R16 + VO26XO R16
       cta:
         label: Explore model
-        href: /en/klimatyzacja/versu-cloth-caramel
+        href: /en/produkt/klimatyzator-scienny-rotenso-versu-cloth-caramel
     - name: Luve Pro
       thumb: /images/home/ac-luve-pro.png
       subtitle: ''
@@ -78,7 +78,7 @@ acHome:
       priceSymbols: LEP26XI R16 + LOP26XO R16
       cta:
         label: Explore model
-        href: /en/klimatyzacja/luve-pro
+        href: /en/produkt/klimatyzator-scienny-rotenso-luve-pro
     - name: Fresh
       thumb: /images/home/ac-fresh.png
       subtitle: ''
@@ -86,7 +86,7 @@ acHome:
       priceSymbols: FH26XI R16 + FH26XO R16
       cta:
         label: Explore model
-        href: /en/klimatyzacja/fresh
+        href: /en/produkt/klimatyzator-scienny-rotenso-fresh
     - name: Versu Mirror
       thumb: /images/home/ac-versu-mirror.png
       subtitle: ''
@@ -94,7 +94,7 @@ acHome:
       priceSymbols: VM26XI R16 + VM26XO R15
       cta:
         label: Explore model
-        href: /en/klimatyzacja/versu-mirror-r15
+        href: /en/produkt/klimatyzator-scienny-rotenso-versu-mirror
     - name: Versu Pure
       thumb: /images/home/ac-versu-pure.png
       subtitle: ''
@@ -102,7 +102,7 @@ acHome:
       priceSymbols: VP26XI R16 + VP26XO R15
       cta:
         label: Explore model
-        href: /en/klimatyzacja/versu-pure
+        href: /en/produkt/klimatyzator-scienny-rotenso-versu-pure
   configurator:
     question: Not sure which air conditioner to choose?
     cta: |-
@@ -126,7 +126,7 @@ acBusiness:
       priceSymbols: M26XI R15 + M26XO R15
       cta:
         label: Explore model
-        href: /en/klimatyzacja/mirai
+        href: /en/produkt/klimatyzator-scienny-rotenso-mirai
     - name: Versu Cloth Caramel
       thumb: /images/home/ac-versu-caramel.png
       subtitle: ''
@@ -134,7 +134,7 @@ acBusiness:
       priceSymbols: VCC26XI R16 + VO26XO R16
       cta:
         label: Explore model
-        href: /en/klimatyzacja/versu-cloth-caramel
+        href: /en/produkt/klimatyzator-scienny-rotenso-versu-cloth-caramel
     - name: Luve Pro
       thumb: /images/home/ac-luve-pro.png
       subtitle: ''
@@ -142,7 +142,7 @@ acBusiness:
       priceSymbols: LEP26XI R16 + LOP26XO R16
       cta:
         label: Explore model
-        href: /en/klimatyzacja/luve-pro
+        href: /en/produkt/klimatyzator-scienny-rotenso-luve-pro
     - name: Fresh
       thumb: /images/home/ac-fresh.png
       subtitle: ''
@@ -150,7 +150,7 @@ acBusiness:
       priceSymbols: FH26XI R16 + FH26XO R16
       cta:
         label: Explore model
-        href: /en/klimatyzacja/fresh
+        href: /en/produkt/klimatyzator-scienny-rotenso-fresh
     - name: Versu Mirror
       thumb: /images/home/ac-versu-mirror.png
       subtitle: ''
@@ -158,7 +158,7 @@ acBusiness:
       priceSymbols: VM26XI R16 + VM26XO R15
       cta:
         label: Explore model
-        href: /en/klimatyzacja/versu-mirror-r15
+        href: /en/produkt/klimatyzator-scienny-rotenso-versu-mirror
     - name: Versu Pure
       thumb: /images/home/ac-versu-pure.png
       subtitle: ''
@@ -166,7 +166,7 @@ acBusiness:
       priceSymbols: VP26XI R16 + VP26XO R15
       cta:
         label: Explore model
-        href: /en/klimatyzacja/versu-pure
+        href: /en/produkt/klimatyzator-scienny-rotenso-versu-pure
   configurator:
     question: Not sure which air conditioner to choose?
     cta: |-
@@ -244,7 +244,7 @@ guides:
   readLabel: Read
   more:
     label: See more guides
-    href: /en/poradniki
+    href: /en/poradnik
   items:
     - category: Heat pumps
       title: Domestic hot water — can a heat pump heat it?
@@ -254,7 +254,7 @@ guides:
         'y': -27.38
         w: 100
         h: 127.86
-      href: /en/poradniki
+      href: /en/poradnik
     - category: Heat pumps
       title: Heat pump subsidies in 2026.
       image: /images/home/guide-2.png
@@ -263,7 +263,7 @@ guides:
         'y': 0
         w: 135.79
         h: 100
-      href: /en/poradniki
+      href: /en/poradnik
     - category: Air conditioning
       title: Does heating with air conditioning make sense? We clear up the doubts.
       image: /images/home/guide-3.png
@@ -272,7 +272,7 @@ guides:
         'y': null
         w: null
         h: null
-      href: /en/poradniki
+      href: /en/poradnik
     - category: Air conditioning
       title: Air conditioning for a 40 m² flat. Which one to choose?
       image: /images/home/guide-4.png
@@ -281,7 +281,7 @@ guides:
         'y': null
         w: null
         h: null
-      href: /en/poradniki
+      href: /en/poradnik
     - category: Air conditioning | Heat recovery
       title: Heat recovery with air conditioning — how to combine them in one system?
       image: /images/home/guide-5.png
@@ -290,7 +290,7 @@ guides:
         'y': 0
         w: 196.16
         h: 100
-      href: /en/poradniki
+      href: /en/poradnik
     - category: Heat recovery
       title: How does a heat recovery unit with moisture recovery work?
       image: /images/home/guide-6.png
@@ -299,7 +299,7 @@ guides:
         'y': 0
         w: 215.77
         h: 100
-      href: /en/poradniki
+      href: /en/poradnik
     - category: Heat recovery
       title: Heat recovery filters — the basis of clean air at home.
       image: /images/home/guide-7.png
@@ -308,7 +308,7 @@ guides:
         'y': -11.17
         w: 239.98
         h: 122.34
-      href: /en/poradniki
+      href: /en/poradnik
     - category: Air conditioning
       title: Is air conditioning healthy? Facts and myths.
       image: /images/home/guide-8.png
@@ -317,7 +317,7 @@ guides:
         'y': 0
         w: 196.16
         h: 100
-      href: /en/poradniki
+      href: /en/poradnik
     - category: Air conditioning
       title: What is multi-split air conditioning? How does it work?
       image: /images/home/guide-9.png
@@ -326,7 +326,7 @@ guides:
         'y': 0
         w: 328.31
         h: 167.37
-      href: /en/poradniki
+      href: /en/poradnik
     - category: RVF / VRF
       title: What is VRF? What is this system used for?
       image: /images/home/guide-10.png
@@ -335,7 +335,7 @@ guides:
         'y': 0
         w: 196.16
         h: 100
-      href: /en/poradniki
+      href: /en/poradnik
 installer:
   title: Find an installer
   text: Enter a postcode or town and find the right installer.

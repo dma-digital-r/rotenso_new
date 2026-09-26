@@ -1,0 +1,1070 @@
+[
+ {
+  "source": "/pl/shop",
+  "destination": "/pl"
+ },
+ {
+  "source": "/pl/produkt/oczyszczacz-aero",
+  "destination": "/pl"
+ },
+ {
+  "source": "/pl/produkt/rac-x-szablon-pod-html-04-03-2024-as",
+  "destination": "/pl"
+ },
+ {
+  "source": "/pl/produkt/rac-x-szablon-pod-html-04-03-2024_bez-hr-hp-as",
+  "destination": "/pl"
+ },
+ {
+  "source": "/pl/produkt/odu-szablon-pod-html-rvf-miniv4-10-2024-as",
+  "destination": "/pl"
+ },
+ {
+  "source": "/pl/produkt/agregaty-skraplajace-rotenso-rahu",
+  "destination": "/pl/systemy-rvf"
+ },
+ {
+  "source": "/pl/produkt/cleo",
+  "destination": "/pl"
+ },
+ {
+  "source": "/pl/produkt/qube",
+  "destination": "/pl"
+ },
+ {
+  "source": "/pl/produkt/teta-2",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-teta"
+ },
+ {
+  "source": "/pl/produkt/teta",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-teta"
+ },
+ {
+  "source": "/pl/produkt/versu-mirror-r15",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-versu-mirror"
+ },
+ {
+  "source": "/pl/produkt/versu-pure",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-versu-pure"
+ },
+ {
+  "source": "/pl/produkt/versu-mirror-multi-r15",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-versu-mirror-multi"
+ },
+ {
+  "source": "/pl/produkt/versu-pure-multi",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-versu-pure-multi"
+ },
+ {
+  "source": "/pl/produkt/klimatyzator-scienny-rotenso-imoto-r14",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-imoto"
+ },
+ {
+  "source": "/pl/produkt/klimatyzator-scienny-rotenso-elis-r17",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-elis"
+ },
+ {
+  "source": "/pl/produkt/klimatyzator-scienny-rotenso-teta-mirror-r16",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-teta-mirror"
+ },
+ {
+  "source": "/pl/produkt/versu-cloth-stone",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-versu-cloth-stone"
+ },
+ {
+  "source": "/pl/produkt/wint",
+  "destination": "/pl"
+ },
+ {
+  "source": "/pl/produkt/ione",
+  "destination": "/pl"
+ },
+ {
+  "source": "/pl/produkt/piura",
+  "destination": "/pl"
+ },
+ {
+  "source": "/pl/produkt/klimatyzator-scienny-rotenso-imoto-multi-r14",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-imoto-multi"
+ },
+ {
+  "source": "/pl/produkt/versu-cloth-stone-multi",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-versu-cloth-stone-multi"
+ },
+ {
+  "source": "/pl/produkt/teta-mirror-x-multi-r16",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-teta-mirror-multi"
+ },
+ {
+  "source": "/pl/produkt/klimatyzator-scienny-rotenso-elis-multi-r17",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-elis-multi"
+ },
+ {
+  "source": "/pl/produkt/mirai",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-mirai"
+ },
+ {
+  "source": "/pl/produkt/klimatyzacja-rotenso-luve-pro",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-luve-pro"
+ },
+ {
+  "source": "/pl/produkt/klimatyzacja-rotenso-luve-pro-black",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-luve-pro-black"
+ },
+ {
+  "source": "/pl/produkt/klimatyzacja-rotenso-luve",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-luve"
+ },
+ {
+  "source": "/pl/produkt/klimatyzacja-rotenso-luve-black",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-luve-black"
+ },
+ {
+  "source": "/pl/produkt/klimatyzacja-scienna-rotenso-fresh",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-fresh"
+ },
+ {
+  "source": "/pl/produkt/versu-cloth-caramel",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-versu-cloth-caramel"
+ },
+ {
+  "source": "/pl/produkt/revio",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-revio"
+ },
+ {
+  "source": "/pl/produkt/klimatyzacja-scienna-rotenso-teta",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-teta"
+ },
+ {
+  "source": "/pl/produkt/teta-mirror",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-teta-mirror"
+ },
+ {
+  "source": "/pl/produkt/elis",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-elis"
+ },
+ {
+  "source": "/pl/produkt/elis-silver",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-elis-silver"
+ },
+ {
+  "source": "/pl/produkt/roni",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-roni"
+ },
+ {
+  "source": "/pl/produkt/imoto",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-imoto"
+ },
+ {
+  "source": "/pl/produkt/ukura",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-ukura"
+ },
+ {
+  "source": "/pl/produkt/ukura-h",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-ukura"
+ },
+ {
+  "source": "/pl/produkt/mirai-x-multi",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-mirai-multi"
+ },
+ {
+  "source": "/pl/produkt/fresh-multi",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-fresh-multi"
+ },
+ {
+  "source": "/pl/produkt/luve-multi",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-luve-multi"
+ },
+ {
+  "source": "/pl/produkt/luve-black-multi",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-luve-black-multi"
+ },
+ {
+  "source": "/pl/produkt/versu-cloth-caramel-multi",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-versu-cloth-caramel-multi"
+ },
+ {
+  "source": "/pl/produkt/revio-multi",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-revio-multi"
+ },
+ {
+  "source": "/pl/produkt/klimatyzacja-scienna-rotenso-teta-multi",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-teta-multi"
+ },
+ {
+  "source": "/pl/produkt/teta-mirror-x-multi",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-teta-mirror-multi"
+ },
+ {
+  "source": "/pl/produkt/elis-x-multi",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-elis-multi"
+ },
+ {
+  "source": "/pl/produkt/elis-silver-x-multi",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-elis-silver-multi"
+ },
+ {
+  "source": "/pl/produkt/imoto-multi",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-imoto-multi"
+ },
+ {
+  "source": "/pl/produkt/ukura-x-multi",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-ukura-multi"
+ },
+ {
+  "source": "/pl/produkt/roni-multi",
+  "destination": "/pl/produkt/klimatyzator-scienny-rotenso-roni-multi"
+ },
+ {
+  "source": "/pl/produkt/aneru-hp",
+  "destination": "/pl/produkt/klimatyzator-konsolowy-rotenso-aneru-hp"
+ },
+ {
+  "source": "/pl/produkt/aneru-an",
+  "destination": "/pl/produkt/klimatyzator-konsolowy-rotenso-aneru-an"
+ },
+ {
+  "source": "/pl/produkt/aneru",
+  "destination": "/pl/produkt/klimatyzator-konsolowy-rotenso-aneru"
+ },
+ {
+  "source": "/pl/produkt/tenji-cc",
+  "destination": "/pl/produkt/klimatyzator-kasetonowy-rotenso-tenji-cc"
+ },
+ {
+  "source": "/pl/produkt/tenji-cs",
+  "destination": "/pl/produkt/klimatyzator-kasetonowy-rotenso-tenji-cs"
+ },
+ {
+  "source": "/pl/produkt/jato",
+  "destination": "/pl/produkt/klimatyzator-przypodlogowo-podsufitowy-rotenso-jato"
+ },
+ {
+  "source": "/pl/produkt/nevo",
+  "destination": "/pl/produkt/klimatyzator-kanalowy-rotenso-nevo"
+ },
+ {
+  "source": "/pl/produkt/aneru-multi",
+  "destination": "/pl/produkt/klimatyzator-konsolowy-rotenso-aneru-multi"
+ },
+ {
+  "source": "/pl/produkt/aneru-an-x-multi",
+  "destination": "/pl/produkt/klimatyzator-konsolowy-rotenso-aneru-an-multi"
+ },
+ {
+  "source": "/pl/produkt/tenji-cc-multi",
+  "destination": "/pl/produkt/klimatyzator-kasetonowy-rotenso-tenji-cc-multi"
+ },
+ {
+  "source": "/pl/produkt/tenji-cs-multi",
+  "destination": "/pl/produkt/klimatyzator-kasetonowy-rotenso-tenji-cs-multi"
+ },
+ {
+  "source": "/pl/produkt/nevo-x-multi",
+  "destination": "/pl/produkt/klimatyzator-kanalowy-rotenso-nevo-multi"
+ },
+ {
+  "source": "/pl/produkt/jato-multi",
+  "destination": "/pl/produkt/klimatyzator-przypodlogowo-podsufitowy-rotenso-jato-multi"
+ },
+ {
+  "source": "/pl/produkt/klimatyzacja-rotenso-hiro-hp",
+  "destination": "/pl/produkt/klimatyzator-rotenso-hiro-hp"
+ },
+ {
+  "source": "/pl/produkt/hiro-s",
+  "destination": "/pl/produkt/klimatyzator-rotenso-hiro-s"
+ },
+ {
+  "source": "/pl/produkt/klimatyzacja-rotenso-hiro-n",
+  "destination": "/pl/produkt/klimatyzator-rotenso-hiro-n"
+ },
+ {
+  "source": "/pl/produkt/unico",
+  "destination": "/pl/produkt/klimatyzator-rotenso-unico"
+ },
+ {
+  "source": "/pl/produkt/airmi-split",
+  "destination": "/pl/produkt/pompa-ciepla-rotenso-airmi-split"
+ },
+ {
+  "source": "/pl/produkt/aquami-split",
+  "destination": "/pl/produkt/pompa-ciepla-rotenso-aquami-split"
+ },
+ {
+  "source": "/pl/produkt/aquami-multi",
+  "destination": "/pl/produkt/pompa-ciepla-rotenso-aquami-multi"
+ },
+ {
+  "source": "/pl/produkt/heatmi-split",
+  "destination": "/pl/produkt/pompa-ciepla-rotenso-heatmi-split"
+ },
+ {
+  "source": "/pl/produkt/airmi-monoblock",
+  "destination": "/pl/produkt/pompa-ciepla-rotenso-airmi-monoblock"
+ },
+ {
+  "source": "/pl/produkt/aquami-monoblock",
+  "destination": "/pl/produkt/pompa-ciepla-rotenso-aquami-monoblock"
+ },
+ {
+  "source": "/pl/produkt/windmi-monoblock",
+  "destination": "/pl/produkt/pompa-ciepla-rotenso-windmi-monoblock"
+ },
+ {
+  "source": "/pl/produkt/aquami-all-in-split",
+  "destination": "/pl/produkt/pompa-ciepla-rotenso-aquami-all-in-split"
+ },
+ {
+  "source": "/pl/produkt/thermos-ceramic",
+  "destination": "/pl/produkt/zbiornik-cwu-rotenso-thermos-ceramic"
+ },
+ {
+  "source": "/pl/produkt/thermos-ceramic-grey",
+  "destination": "/pl/produkt/zbiornik-cwu-rotenso-thermos-ceramic-grey"
+ },
+ {
+  "source": "/pl/produkt/thermos-inox",
+  "destination": "/pl/produkt/zbiornik-cwu-rotenso-thermos-inox"
+ },
+ {
+  "source": "/pl/produkt/thermos-dual-inox",
+  "destination": "/pl/produkt/zbiornik-cwu-rotenso-thermos-dual-inox"
+ },
+ {
+  "source": "/pl/produkt/thermos-twin-inox",
+  "destination": "/pl/produkt/zbiornik-cwu-rotenso-thermos-twin-inox"
+ },
+ {
+  "source": "/pl/produkt/thermos-store",
+  "destination": "/pl/produkt/zbiornik-buforowy-rotenso-thermos-store"
+ },
+ {
+  "source": "/pl/produkt/thermos-store-plus",
+  "destination": "/pl/produkt/zbiornik-buforowy-rotenso-thermos-store-plus"
+ },
+ {
+  "source": "/pl/produkt/thermos-store-grey",
+  "destination": "/pl/produkt/zbiornik-buforowy-rotenso-thermos-store-grey"
+ },
+ {
+  "source": "/pl/kategoria-produktu/bez-kategorii",
+  "destination": "/pl"
+ },
+ {
+  "source": "/pl/kategoria-produktu/szablon-html",
+  "destination": "/pl"
+ },
+ {
+  "source": "/pl/kategoria-produktu/klimatyzatory",
+  "destination": "/pl/klimatyzacja"
+ },
+ {
+  "source": "/pl/kategoria-produktu/klimatyzatory/pokojowe",
+  "destination": "/pl/klimatyzacja/split"
+ },
+ {
+  "source": "/pl/kategoria-produktu/klimatyzatory/komercyjne",
+  "destination": "/pl/klimatyzacja/sufitowe"
+ },
+ {
+  "source": "/pl/kategoria-produktu/klimatyzatory/multi-split",
+  "destination": "/pl/klimatyzacja/multi-split"
+ },
+ {
+  "source": "/pl/kategoria-produktu/oczyszczacze",
+  "destination": "/pl"
+ },
+ {
+  "source": "/pl/kategoria-produktu/oczyszczacze-z-nawlizaniem",
+  "destination": "/pl"
+ },
+ {
+  "source": "/pl/kategoria-produktu/systemy-rvf",
+  "destination": "/pl/systemy-rvf"
+ },
+ {
+  "source": "/pl/kategoria-produktu/systemy-rvf/jednostki-zewnetrzne",
+  "destination": "/pl/systemy-rvf/jednostki-zewnetrzne"
+ },
+ {
+  "source": "/pl/kategoria-produktu/systemy-rvf/jednostki-wewnetrzne",
+  "destination": "/pl/systemy-rvf/jednostki-wewnetrzne"
+ },
+ {
+  "source": "/pl/kategoria-produktu/pompy-ciepla",
+  "destination": "/pl/pompy-ciepla"
+ },
+ {
+  "source": "/pl/kategoria-produktu/pompy-ciepla/typu-split",
+  "destination": "/pl/pompy-ciepla/split"
+ },
+ {
+  "source": "/pl/kategoria-produktu/pompy-ciepla/typu-monoblock",
+  "destination": "/pl/pompy-ciepla/monoblock"
+ },
+ {
+  "source": "/pl/kategoria-produktu/pompy-ciepla/typu-all-in-split",
+  "destination": "/pl/pompy-ciepla/all-in"
+ },
+ {
+  "source": "/pl/kategoria-produktu/pompy-ciepla/zbiorniki-cwu",
+  "destination": "/pl/pompy-ciepla/zbiorniki"
+ },
+ {
+  "source": "/pl/kategoria-produktu/pompy-ciepla/zbiorniki-buforowe",
+  "destination": "/pl/pompy-ciepla/zbiorniki"
+ },
+ {
+  "source": "/pl/kategoria-produktu/agregaty-do-central",
+  "destination": "/pl/systemy-rvf"
+ },
+ {
+  "source": "/pl/kategoria-produktu/agregaty-do-central/agregaty-skraplajace-rahu",
+  "destination": "/pl/systemy-rvf"
+ },
+ {
+  "source": "/pl/kategoria-produktu/agregaty-do-central/agregaty-skraplajace-rvf-ahu",
+  "destination": "/pl/systemy-rvf"
+ },
+ {
+  "source": "/pl/category/akademia-rotenso",
+  "destination": "/pl/poradnik?kategoria=z-zycia-firmy"
+ },
+ {
+  "source": "/pl/category/case-study",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/category/dla-biznesu",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/category/dla-domu",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/category/dla-mieszkania",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/category/klimatyzacja",
+  "destination": "/pl/poradnik?kategoria=klimatyzacja"
+ },
+ {
+  "source": "/pl/category/media",
+  "destination": "/pl/poradnik?kategoria=z-zycia-firmy"
+ },
+ {
+  "source": "/pl/category/pompy-ciepla",
+  "destination": "/pl/poradnik?kategoria=pompy-ciepla"
+ },
+ {
+  "source": "/pl/category/poradnik",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/category/rekuperacja",
+  "destination": "/pl/poradnik?kategoria=rekuperacja"
+ },
+ {
+  "source": "/pl/category/rvf-vrf",
+  "destination": "/pl/poradnik?kategoria=systemy-vrf-rvf"
+ },
+ {
+  "source": "/pl/tag/a",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/automatyczne-oczyszczanie",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/czujnik-zmierzchu",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/filtr-z-aktywnym-weglem-iair",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/filtry",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/funkcja-snu",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/klasa-energetyczna",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/klimatyzacja-w-bloku",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/klimatyzacja-w-mieszkaniu",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/moc-klimatyzatora",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/multi-split",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/nawiew-powietrza-4d-emoto",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/normy-glosnosci",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/rvf",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/smart-follow",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/split",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/super-jonizator",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/tryb-ciszy",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/tryb-turbo-emoto",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/tag/vrf",
+  "destination": "/pl/poradnik"
+ },
+ {
+  "source": "/pl/pdfviewer",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/pl/pdfviewer/katalog-klimatyzacji-rotenso-2021",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/fr/home",
+  "destination": "/fr"
+ },
+ {
+  "source": "/pl/sklep",
+  "destination": "/pl"
+ },
+ {
+  "source": "/pl/flipbook-rotenso-2021",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/pl/kontakt-1",
+  "destination": "/pl/kontakt"
+ },
+ {
+  "source": "/pl/kontakt-2",
+  "destination": "/pl/kontakt"
+ },
+ {
+  "source": "/pl/home-pl",
+  "destination": "/pl"
+ },
+ {
+  "source": "/fr/personal-data",
+  "destination": "/fr/przetwarzanie-danych-osobowych"
+ },
+ {
+  "source": "/pl/partnerzy-handlowi",
+  "destination": "/pl/znajdz-instalatora"
+ },
+ {
+  "source": "/en/personal-data",
+  "destination": "/en/przetwarzanie-danych-osobowych"
+ },
+ {
+  "source": "/de/personenbezogene-daten",
+  "destination": "/de/przetwarzanie-danych-osobowych"
+ },
+ {
+  "source": "/it/dati-personali",
+  "destination": "/it/przetwarzanie-danych-osobowych"
+ },
+ {
+  "source": "/uk/%d0%bf%d0%b5%d1%80%d1%81%d0%be%d0%bd%d0%b0%d0%bb%d1%8c%d0%bd%d1%96-%d0%b4%d0%b0%d0%bd%d1%96",
+  "destination": "/uk/przetwarzanie-danych-osobowych"
+ },
+ {
+  "source": "/cs/osobni-udaje",
+  "destination": "/cs/przetwarzanie-danych-osobowych"
+ },
+ {
+  "source": "/en/contact-us",
+  "destination": "/en/kontakt"
+ },
+ {
+  "source": "/de/kontaktieren-sie-uns",
+  "destination": "/de/kontakt"
+ },
+ {
+  "source": "/fr/contactez-nous",
+  "destination": "/fr/kontakt"
+ },
+ {
+  "source": "/it/contatto",
+  "destination": "/it/kontakt"
+ },
+ {
+  "source": "/uk/%d0%b7%d0%b2%d1%8f%d0%b7%d0%b0%d1%82%d0%b8%d1%81%d1%8f-%d0%b7-%d0%bd%d0%b0%d0%bc%d0%b8",
+  "destination": "/uk/kontakt"
+ },
+ {
+  "source": "/cs/kontaktujte-nas",
+  "destination": "/cs/kontakt"
+ },
+ {
+  "source": "/en/heat-pumps",
+  "destination": "/en/pompy-ciepla"
+ },
+ {
+  "source": "/de/waermepumpen",
+  "destination": "/de/pompy-ciepla"
+ },
+ {
+  "source": "/fr/pompes-a-chaleur",
+  "destination": "/fr/pompy-ciepla"
+ },
+ {
+  "source": "/it/pompe-di-calore",
+  "destination": "/it/pompy-ciepla"
+ },
+ {
+  "source": "/cs/tepelna-cerpadla",
+  "destination": "/cs/pompy-ciepla"
+ },
+ {
+  "source": "/uk/%d1%82%d0%b5%d0%bf%d0%bb%d0%be%d0%b2%d1%96-%d0%bd%d0%b0%d1%81%d0%be%d1%81%d0%b8",
+  "destination": "/uk/pompy-ciepla"
+ },
+ {
+  "source": "/de/ueber-uns",
+  "destination": "/de/o-nas"
+ },
+ {
+  "source": "/fr/a-propos-de-nous",
+  "destination": "/fr/o-nas"
+ },
+ {
+  "source": "/cs/o-nas-2",
+  "destination": "/cs/o-nas"
+ },
+ {
+  "source": "/it/su-di-noi",
+  "destination": "/it/o-nas"
+ },
+ {
+  "source": "/uk/%d0%bf%d1%80%d0%be-%d0%bd%d0%b0%d1%81",
+  "destination": "/uk/o-nas"
+ },
+ {
+  "source": "/en/about-us",
+  "destination": "/en/o-nas"
+ },
+ {
+  "source": "/fr/download",
+  "destination": "/fr/do-pobrania"
+ },
+ {
+  "source": "/it/catalogo-en-pompe-di-calore-da-rotenso",
+  "destination": "/it/katalogi"
+ },
+ {
+  "source": "/cs/katalog-tepelna-cerpadla-by-rotenso",
+  "destination": "/cs/katalogi"
+ },
+ {
+  "source": "/uk/katalog-en-%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%b8-%d0%b2%d0%b5%d0%bd%d1%82%d0%b8%d0%bb%d1%8f%d1%86%d1%96%d1%97-%d0%b2%d1%96%d0%b4-rotenso",
+  "destination": "/uk/katalogi"
+ },
+ {
+  "source": "/uk/katalog-%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3-%d1%82%d0%b5%d0%bf%d0%bb%d0%be%d0%b2%d1%96-%d0%bd%d0%b0%d1%81%d0%be%d1%81%d0%b8-%d0%b2%d1%96%d0%b4-rotenso",
+  "destination": "/uk/katalogi"
+ },
+ {
+  "source": "/fr/catalogue-pompes-a-chaleur-by-rotenso",
+  "destination": "/fr/katalogi"
+ },
+ {
+  "source": "/de/katalog-en-ventilation-systems-by-rotenso",
+  "destination": "/de/katalogi"
+ },
+ {
+  "source": "/de/katalog-en-klimaanlage-system-by-rotenso",
+  "destination": "/de/katalogi"
+ },
+ {
+  "source": "/pl/pl-katalog-systemy-klimatyzacji-rotenso-multi",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/pl/pl-konfigurator-wentilo-instrukcja-obslugi",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/de/katalog-waermepumpen-by-rotenso",
+  "destination": "/de/katalogi"
+ },
+ {
+  "source": "/de/katalog-de-klimaanlage-system-by-rotenso",
+  "destination": "/de/katalogi"
+ },
+ {
+  "source": "/en/catalogue-air-conditioning-system-by-rotenso",
+  "destination": "/en/katalogi"
+ },
+ {
+  "source": "/de/broschure-en-luftungssysteme-by-rotenso",
+  "destination": "/de/katalogi"
+ },
+ {
+  "source": "/en/brochure-heat-pumps-by-rotenso",
+  "destination": "/en/katalogi"
+ },
+ {
+  "source": "/de/broschure-de-warmepumpen-by-rotenso",
+  "destination": "/de/katalogi"
+ },
+ {
+  "source": "/cs/katalog-en-ventilation-systems-by-rotenso",
+  "destination": "/cs/katalogi"
+ },
+ {
+  "source": "/cs/brozur-en-ventilation-systems-by-rotenso",
+  "destination": "/cs/katalogi"
+ },
+ {
+  "source": "/cs/brozur-en-tepelna-cerpadla-by-rotenso",
+  "destination": "/cs/katalogi"
+ },
+ {
+  "source": "/de/katalog-en-ventilation-systems-by-rotenso-2",
+  "destination": "/de/katalogi"
+ },
+ {
+  "source": "/fr/brochure-pompes-a-chaleur-by-rotenso",
+  "destination": "/fr/katalogi"
+ },
+ {
+  "source": "/fr/catalogue-en-systeme-de-climatisation-by-rotenso",
+  "destination": "/fr/katalogi"
+ },
+ {
+  "source": "/fr/catalogue-en-ventilation-systems-by-rotenso",
+  "destination": "/fr/katalogi"
+ },
+ {
+  "source": "/fr/brochure-en-ventilation-systems-by-rotenso",
+  "destination": "/fr/katalogi"
+ },
+ {
+  "source": "/cs/katalog-en-klimatizace-system-by-rotenso",
+  "destination": "/cs/katalogi"
+ },
+ {
+  "source": "/it/catalogo-en-aria-condizionata-sistema-da-rotenso",
+  "destination": "/it/katalogi"
+ },
+ {
+  "source": "/it/brochure-en-ventilation-systems-da-rotenso",
+  "destination": "/it/katalogi"
+ },
+ {
+  "source": "/it/catalogo-en-ventilation-systems-da-rotenso",
+  "destination": "/it/katalogi"
+ },
+ {
+  "source": "/it/brochure-en-pompe-di-calore-da-rotenso",
+  "destination": "/it/katalogi"
+ },
+ {
+  "source": "/uk/katalog-en-%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3-%d0%ba%d0%be%d0%bd%d0%b4%d0%b8%d1%86%d1%96%d0%be%d0%bd%d0%b5%d1%80-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%b0-%d0%b2%d1%96%d0%b4-rotenso",
+  "destination": "/uk/katalogi"
+ },
+ {
+  "source": "/uk/buklet-en-%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%b8-%d0%b2%d0%b5%d0%bd%d1%82%d0%b8%d0%bb%d1%8f%d1%86%d1%96%d1%97-%d0%b2%d1%96%d0%b4-rotenso",
+  "destination": "/uk/katalogi"
+ },
+ {
+  "source": "/uk/buklet-%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3-%d1%82%d0%b5%d0%bf%d0%bb%d0%be%d0%b2%d1%96-%d0%bd%d0%b0%d1%81%d0%be%d1%81%d0%b8-%d0%b2%d1%96%d0%b4-rotenso",
+  "destination": "/uk/katalogi"
+ },
+ {
+  "source": "/pl/pl-katalog-systemy-klimatyzacji-rotenso-rvf",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/en/catalogue-rvf-air-conditioning-systems-by-rotenso",
+  "destination": "/en/katalogi"
+ },
+ {
+  "source": "/de/katalog-en-rvf-klimaanlage-systeme-by-rotenso",
+  "destination": "/de/katalogi"
+ },
+ {
+  "source": "/fr/catalogue-en-rvf-climatiseurs-systemes-by-rotenso",
+  "destination": "/fr/katalogi"
+ },
+ {
+  "source": "/cs/katalog-en-klimatizace-rvf-by-rotenso",
+  "destination": "/cs/katalogi"
+ },
+ {
+  "source": "/it/catalogo-en-condizionamento-daria-rvf-sistemi-da-rotenso",
+  "destination": "/it/katalogi"
+ },
+ {
+  "source": "/uk/katalog-en-%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3-%d0%ba%d0%be%d0%bd%d0%b4%d0%b8%d1%86%d1%96%d0%be%d0%bd%d0%b5%d1%80-rvf-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%b8-%d0%b2%d1%96%d0%b4-rotenso",
+  "destination": "/uk/katalogi"
+ },
+ {
+  "source": "/en/catalogue-heat-pumps-by-rotenso",
+  "destination": "/en/katalogi"
+ },
+ {
+  "source": "/pl/pl-katalog-systemy-wentylacji-rotenso",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/pl/pl-ulotka-systemy-wentylacji",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/pl/pl-folder-mini-rvf-v-stage-rotenso",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/en/distribution",
+  "destination": "/en/dystrybucja"
+ },
+ {
+  "source": "/cs/distribuce",
+  "destination": "/cs/dystrybucja"
+ },
+ {
+  "source": "/it/distribuzione",
+  "destination": "/it/dystrybucja"
+ },
+ {
+  "source": "/de/vertrieb",
+  "destination": "/de/dystrybucja"
+ },
+ {
+  "source": "/fr/distribution-2",
+  "destination": "/fr/dystrybucja"
+ },
+ {
+  "source": "/fr/air-conditioners",
+  "destination": "/fr/klimatyzacja"
+ },
+ {
+  "source": "/cs/klimatizace",
+  "destination": "/cs/klimatyzacja"
+ },
+ {
+  "source": "/it/condizionatori-daria",
+  "destination": "/it/klimatyzacja"
+ },
+ {
+  "source": "/uk/%d0%ba%d0%be%d0%bd%d0%b4%d0%b8%d1%86%d1%96%d0%be%d0%bd%d0%b5%d1%80%d0%b8",
+  "destination": "/uk/klimatyzacja"
+ },
+ {
+  "source": "/de/home-2",
+  "destination": "/de"
+ },
+ {
+  "source": "/en/vrf-systems",
+  "destination": "/en/systemy-rvf"
+ },
+ {
+  "source": "/de/vrf-systeme",
+  "destination": "/de/systemy-rvf"
+ },
+ {
+  "source": "/de/vrf-systeme-3",
+  "destination": "/de/systemy-rvf"
+ },
+ {
+  "source": "/fr/systemes-vrf-2",
+  "destination": "/fr/systemy-rvf"
+ },
+ {
+  "source": "/fr/vrf-systems",
+  "destination": "/fr/systemy-rvf"
+ },
+ {
+  "source": "/cs/vrf-systemy",
+  "destination": "/cs/systemy-rvf"
+ },
+ {
+  "source": "/cs/vrf-systemy-3",
+  "destination": "/cs/systemy-rvf"
+ },
+ {
+  "source": "/it/sistemi-vrf",
+  "destination": "/it/systemy-rvf"
+ },
+ {
+  "source": "/it/sistemi-vrf-3",
+  "destination": "/it/systemy-rvf"
+ },
+ {
+  "source": "/uk/vrf-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%b8",
+  "destination": "/uk/systemy-rvf"
+ },
+ {
+  "source": "/uk/vrf-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%b8-3",
+  "destination": "/uk/systemy-rvf"
+ },
+ {
+  "source": "/pl/pl-katalog-pompy-ciepla-rotenso",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/pl/pl-cennik-autoryzowanego-serwisu-pomp-ciepla-rotenso",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/pl/pl-cennik-systemy-wentylacji-rotenso",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/pl/pl-cennik-systemy-klimatyzacji-rotenso",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/pl/pl-cennik-systemy-pomp-ciepla-rotenso",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/pl/pl-katalog-inwestycyjne-systemy-klimatyzacyjne-rvf-i-multi",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/pl/pl-ulotka-systemy-klimatyzacji",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/pl/pl-ulotka-pompy-ciepla",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/pl/systemy-klimatyzacji-rvf-vrf-rotenso",
+  "destination": "/pl/systemy-rvf"
+ },
+ {
+  "source": "/en/brochure-air-conditioning-systems-by-rotenso",
+  "destination": "/en/katalogi"
+ },
+ {
+  "source": "/en/brochure-ventilation-systems-by-rotenso",
+  "destination": "/en/katalogi"
+ },
+ {
+  "source": "/en/catalogue-ventilation-systems-by-rotenso",
+  "destination": "/en/katalogi"
+ },
+ {
+  "source": "/en/download",
+  "destination": "/en/do-pobrania"
+ },
+ {
+  "source": "/de/beluftungsysteme",
+  "destination": "/de/rekuperacja"
+ },
+ {
+  "source": "/cs/ventilacni-systemy",
+  "destination": "/cs/rekuperacja"
+ },
+ {
+  "source": "/fr/systemes-de-ventilation",
+  "destination": "/fr/rekuperacja"
+ },
+ {
+  "source": "/it/sistema-di-ventilazione",
+  "destination": "/it/rekuperacja"
+ },
+ {
+  "source": "/uk/%d1%82%d0%b5%d0%bf%d0%bb%d0%be%d0%b2%d1%96-%d0%bd%d0%b0%d1%81%d0%be%d1%81%d0%b8-2",
+  "destination": "/uk/rekuperacja"
+ },
+ {
+  "source": "/en/ventilation-systems",
+  "destination": "/en/rekuperacja"
+ },
+ {
+  "source": "/uk/%d0%b7%d0%b0%d0%b2%d0%b0%d0%bd%d1%82%d0%b0%d0%b6%d0%b8%d1%82%d0%b8",
+  "destination": "/uk/do-pobrania"
+ },
+ {
+  "source": "/it/scarica",
+  "destination": "/it/do-pobrania"
+ },
+ {
+  "source": "/cs/stahnout",
+  "destination": "/cs/do-pobrania"
+ },
+ {
+  "source": "/fr/rotenso-catalogues",
+  "destination": "/fr/katalogi"
+ },
+ {
+  "source": "/fr/brochure-en-systeme-de-climatisation-by-rotenso",
+  "destination": "/fr/katalogi"
+ },
+ {
+  "source": "/cs/brozur-en-klimatizace-system-by-rotenso",
+  "destination": "/cs/katalogi"
+ },
+ {
+  "source": "/it/brochure-en-aria-condizionata-sistema-da-rotenso",
+  "destination": "/it/katalogi"
+ },
+ {
+  "source": "/uk/buklet-en-%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3-%d0%ba%d0%be%d0%bd%d0%b4%d0%b8%d1%86%d1%96%d0%be%d0%bd%d0%b5%d1%80-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%b0-%d0%b2%d1%96%d0%b4-rotenso",
+  "destination": "/uk/katalogi"
+ },
+ {
+  "source": "/de/broschure-de-klimaanlage-system-by-rotenso",
+  "destination": "/de/katalogi"
+ },
+ {
+  "source": "/de/herunterladen",
+  "destination": "/de/do-pobrania"
+ },
+ {
+  "source": "/pl/pl-katalog-systemy-klimatyzacji-rotenso",
+  "destination": "/pl/katalogi"
+ },
+ {
+  "source": "/en/air-conditioners",
+  "destination": "/en/klimatyzacja"
+ },
+ {
+  "source": "/de/klimaanlagen",
+  "destination": "/de/klimatyzacja"
+ }
+]

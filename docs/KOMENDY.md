@@ -109,6 +109,13 @@ New-NetFirewallRule -DisplayName "Rotenso podglad (3001)" -Direction Inbound -Pr
 - Przycisk play na kadrze filmu pojawia się dopiero po wpisaniu linku do filmu (YouTube).
 - Telefon i e-mail w sekcji kontaktu pochodzą z Ustawień.
 
+## Adresy stron (SEO)
+- **Produkty:** `/pl/produkt/<adres z arkusza SEO>`, np. `/pl/produkt/klimatyzator-scienny-rotenso-mirai` (arkusz: `docs/seo/struktura-linkow-produkty.csv`). Adres = nazwa pliku produktu w `content/pl/products/`.
+- **Poradniki:** te same adresy co na starej stronie, np. `/pl/ciepla-woda-uzytkowa`. Lista: `/pl/poradnik`.
+- **Stare adresy → nowe:** `docs/seo/mapa-adresow.csv` (wszystkie adresy ze starej mapy strony, nowy adres, czy strona już istnieje). Przekierowania 301 działają automatycznie (także wersje z „/” na końcu — jednym skokiem).
+- Po zmianie arkusza SEO albo dodaniu stron: `npm run seo:redirects` (odświeża przekierowania i mapę).
+- **Przed startem strony** sprawdź w mapie kolumnę „Strona już istnieje” — każdy adres z „nie” trzeba zbudować albo przekierować gdzie indziej.
+
 ## Figma (dla programisty)
 | Polecenie | Co robi |
 |---|---|

@@ -62,7 +62,7 @@ acHome:
       priceSymbols: M26XI R15 + M26XO R15
       cta:
         label: Scopri il modello
-        href: /it/klimatyzacja/mirai
+        href: /it/produkt/klimatyzator-scienny-rotenso-mirai
     - name: Versu Cloth Caramel
       thumb: /images/home/ac-versu-caramel.png
       subtitle: ''
@@ -70,7 +70,7 @@ acHome:
       priceSymbols: VCC26XI R16 + VO26XO R16
       cta:
         label: Scopri il modello
-        href: /it/klimatyzacja/versu-cloth-caramel
+        href: /it/produkt/klimatyzator-scienny-rotenso-versu-cloth-caramel
     - name: Luve Pro
       thumb: /images/home/ac-luve-pro.png
       subtitle: ''
@@ -78,7 +78,7 @@ acHome:
       priceSymbols: LEP26XI R16 + LOP26XO R16
       cta:
         label: Scopri il modello
-        href: /it/klimatyzacja/luve-pro
+        href: /it/produkt/klimatyzator-scienny-rotenso-luve-pro
     - name: Fresh
       thumb: /images/home/ac-fresh.png
       subtitle: ''
@@ -86,7 +86,7 @@ acHome:
       priceSymbols: FH26XI R16 + FH26XO R16
       cta:
         label: Scopri il modello
-        href: /it/klimatyzacja/fresh
+        href: /it/produkt/klimatyzator-scienny-rotenso-fresh
     - name: Versu Mirror
       thumb: /images/home/ac-versu-mirror.png
       subtitle: ''
@@ -94,7 +94,7 @@ acHome:
       priceSymbols: VM26XI R16 + VM26XO R15
       cta:
         label: Scopri il modello
-        href: /it/klimatyzacja/versu-mirror-r15
+        href: /it/produkt/klimatyzator-scienny-rotenso-versu-mirror
     - name: Versu Pure
       thumb: /images/home/ac-versu-pure.png
       subtitle: ''
@@ -102,7 +102,7 @@ acHome:
       priceSymbols: VP26XI R16 + VP26XO R15
       cta:
         label: Scopri il modello
-        href: /it/klimatyzacja/versu-pure
+        href: /it/produkt/klimatyzator-scienny-rotenso-versu-pure
   configurator:
     question: Non sai quale climatizzatore scegliere?
     cta: |-
@@ -126,7 +126,7 @@ acBusiness:
       priceSymbols: M26XI R15 + M26XO R15
       cta:
         label: Scopri il modello
-        href: /it/klimatyzacja/mirai
+        href: /it/produkt/klimatyzator-scienny-rotenso-mirai
     - name: Versu Cloth Caramel
       thumb: /images/home/ac-versu-caramel.png
       subtitle: ''
@@ -134,7 +134,7 @@ acBusiness:
       priceSymbols: VCC26XI R16 + VO26XO R16
       cta:
         label: Scopri il modello
-        href: /it/klimatyzacja/versu-cloth-caramel
+        href: /it/produkt/klimatyzator-scienny-rotenso-versu-cloth-caramel
     - name: Luve Pro
       thumb: /images/home/ac-luve-pro.png
       subtitle: ''
@@ -142,7 +142,7 @@ acBusiness:
       priceSymbols: LEP26XI R16 + LOP26XO R16
       cta:
         label: Scopri il modello
-        href: /it/klimatyzacja/luve-pro
+        href: /it/produkt/klimatyzator-scienny-rotenso-luve-pro
     - name: Fresh
       thumb: /images/home/ac-fresh.png
       subtitle: ''
@@ -150,7 +150,7 @@ acBusiness:
       priceSymbols: FH26XI R16 + FH26XO R16
       cta:
         label: Scopri il modello
-        href: /it/klimatyzacja/fresh
+        href: /it/produkt/klimatyzator-scienny-rotenso-fresh
     - name: Versu Mirror
       thumb: /images/home/ac-versu-mirror.png
       subtitle: ''
@@ -158,7 +158,7 @@ acBusiness:
       priceSymbols: VM26XI R16 + VM26XO R15
       cta:
         label: Scopri il modello
-        href: /it/klimatyzacja/versu-mirror-r15
+        href: /it/produkt/klimatyzator-scienny-rotenso-versu-mirror
     - name: Versu Pure
       thumb: /images/home/ac-versu-pure.png
       subtitle: ''
@@ -166,7 +166,7 @@ acBusiness:
       priceSymbols: VP26XI R16 + VP26XO R15
       cta:
         label: Scopri il modello
-        href: /it/klimatyzacja/versu-pure
+        href: /it/produkt/klimatyzator-scienny-rotenso-versu-pure
   configurator:
     question: Non sai quale climatizzatore scegliere?
     cta: |-
@@ -244,7 +244,7 @@ guides:
   readLabel: Leggi
   more:
     label: Altre guide
-    href: /it/poradniki
+    href: /it/poradnik
   items:
     - category: Pompe di calore
       title: Acqua calda sanitaria — una pompa di calore può riscaldarla?
@@ -254,7 +254,7 @@ guides:
         'y': -27.38
         w: 100
         h: 127.86
-      href: /it/poradniki
+      href: /it/poradnik
     - category: Pompe di calore
       title: Incentivi per le pompe di calore nel 2026.
       image: /images/home/guide-2.png
@@ -263,7 +263,7 @@ guides:
         'y': 0
         w: 135.79
         h: 100
-      href: /it/poradniki
+      href: /it/poradnik
     - category: Climatizzazione
       title: Riscaldare con il climatizzatore ha senso? Chiariamo i dubbi.
       image: /images/home/guide-3.png
@@ -272,7 +272,7 @@ guides:
         'y': null
         w: null
         h: null
-      href: /it/poradniki
+      href: /it/poradnik
     - category: Climatizzazione
       title: Climatizzatore per un appartamento di 40 m². Quale scegliere?
       image: /images/home/guide-4.png
@@ -281,7 +281,7 @@ guides:
         'y': null
         w: null
         h: null
-      href: /it/poradniki
+      href: /it/poradnik
     - category: Climatizzazione | VMC
       title: VMC e climatizzazione — come unirle in un unico sistema?
       image: /images/home/guide-5.png
@@ -290,7 +290,7 @@ guides:
         'y': 0
         w: 196.16
         h: 100
-      href: /it/poradniki
+      href: /it/poradnik
     - category: VMC
       title: Come funziona un’unità VMC con recupero di umidità?
       image: /images/home/guide-6.png
@@ -299,7 +299,7 @@ guides:
         'y': 0
         w: 215.77
         h: 100
-      href: /it/poradniki
+      href: /it/poradnik
     - category: VMC
       title: Filtri per la VMC — la base di un’aria pulita in casa.
       image: /images/home/guide-7.png
@@ -308,7 +308,7 @@ guides:
         'y': -11.17
         w: 239.98
         h: 122.34
-      href: /it/poradniki
+      href: /it/poradnik
     - category: Climatizzazione
       title: Il climatizzatore fa bene alla salute? Fatti e miti.
       image: /images/home/guide-8.png
@@ -317,7 +317,7 @@ guides:
         'y': 0
         w: 196.16
         h: 100
-      href: /it/poradniki
+      href: /it/poradnik
     - category: Climatizzazione
       title: Cos’è il climatizzatore multisplit? Come funziona?
       image: /images/home/guide-9.png
@@ -326,7 +326,7 @@ guides:
         'y': 0
         w: 328.31
         h: 167.37
-      href: /it/poradniki
+      href: /it/poradnik
     - category: RVF / VRF
       title: Cos’è il VRF? A cosa serve questo sistema?
       image: /images/home/guide-10.png
@@ -335,7 +335,7 @@ guides:
         'y': 0
         w: 196.16
         h: 100
-      href: /it/poradniki
+      href: /it/poradnik
 installer:
   title: Trova un installatore
   text: Inserisci il CAP o la località e trova l’installatore giusto.

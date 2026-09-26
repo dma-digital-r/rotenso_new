@@ -4,7 +4,7 @@ nav:
   - label: O nás
     href: /cs/o-nas
   - label: Průvodci
-    href: /cs/poradniki
+    href: /cs/poradnik
   - label: Katalogy
     href: /cs/katalogi
   - label: Kontakt
@@ -65,7 +65,7 @@ footerColumns:
       - label: O nás
         href: /cs/o-nas
       - label: Průvodci
-        href: /cs/poradniki
+        href: /cs/poradnik
       - label: Katalogy
         href: /cs/katalogi
       - label: GDPR
