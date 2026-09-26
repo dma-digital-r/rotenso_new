@@ -10,11 +10,12 @@ import { Button } from "@/components/ui/Button";
 import { FramedImage } from "@/components/ui/FramedImage";
 import { Media } from "@/components/ui/Media";
 import { TileSlider } from "@/components/ui/TileSlider";
-import { WentiloAbout, WentiloBar, WentiloControl, WentiloFamily, WentiloMechanical, WentiloRecovery, WentiloVideos } from "@/components/wentilo/WentiloSections";
+import { WentiloAbout, WentiloBar, WentiloControl, WentiloFamily, WentiloMechanical, WentiloRecovery, WentiloShop, WentiloVideos } from "@/components/wentilo/WentiloSections";
 import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getUi } from "@/i18n/ui";
 import { getHome, getSettings, getWentilo } from "@/lib/content";
 import { getInstagramPosts } from "@/lib/instagram";
+import { getWentiloModels } from "@/lib/wentilo";
 import { getVideosByLinks } from "@/lib/youtube";
 
 export const revalidate = 86400;
@@ -60,6 +61,7 @@ export default async function WentiloPage({ params }: Props) {
       videos: (await safe("youtube", () => getVideosByLinks(g.items), [])).map((v) => ({ id: v.id, href: v.url, image: v.image, title: v.title, text: v.text })),
     })),
   );
+  const models = await getWentiloModels(lang as Locale, data.shop.models);
   const { hero, icon, quote } = data;
   // The quote form takes its fields from Settings; this page only swaps texts and photos.
   const quoteData = { ...settings.quoteForm, ...Object.fromEntries(Object.entries(quote).filter(([, v]) => v)) } as typeof settings.quoteForm;
@@ -138,9 +140,10 @@ export default async function WentiloPage({ params }: Props) {
       )}
 
       <div id="opcje-sterowania" className="scroll-mt-[160px]">
-        <WentiloControl data={data.control} />
+        <WentiloControl data={data.control} ui={ui} />
       </div>
       <WentiloFamily data={data.family} />
+      <WentiloShop data={data.shop} models={models} ui={ui} />
       <WentiloVideos groups={groups} more={data.videos.more} ui={ui} />
       <SocialWidget title={ui.socialTitle} posts={posts} links={settings.social} />
       <QuoteForm data={quoteData} product="Wentilo ICON" lang={lang} ui={ui} />

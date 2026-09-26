@@ -123,6 +123,62 @@ control:
   button:
     label: Zobacz różnice
     href: ''
+  compare:
+    title: |-
+      Różnice w sposobie sterowania, monitorowania i funkcjonowania
+      rekuperatora w zależności od wybranego systemu sterowania.
+    standardHead: |-
+      iEDGE
+      System standardowy
+    smartHead: |-
+      iEDGE SMART
+      System inteligentny
+    rows:
+      - label: Intensywność wentylacji
+        standardTitle: Tryb ręczny / Harmonogram.
+        standardText: |-
+          Użytkownik ustawia ręcznie bieg wentylatora na stałe
+          lub według harmonogramu.
+        smartTitle: Tryb Auto
+        smartText: System sterowania kontroluje jakość powietrza i w zależności od poziomu CO2 i wilgotności w twojej przestrzeni automatycznie dostosowuje intensywność wentylacji
+      - label: Kontrola jakości powietrza
+        standardTitle: Brak
+        standardText: ''
+        smartTitle: iSENSOR
+        smartText: Pomiar, wyświetlanie poziomu CO2 oraz wilgotności
+      - label: Sprawdzenie stanu zabrudzenia filtrów
+        standardTitle: Brak
+        standardText: |-
+          Wskazanie poprzez odliczanie czasowe 90 dni
+          od dnia ostatniej wymiany filtrów
+        smartTitle: iPURE
+        smartText: |-
+          Automatyczne monitorowanie stanu zabrudzenia filtrów
+          i wyświetlanie procentowej wartości ich zużycia
+      - label: Bilansowanie strumieni powietrza
+        standardTitle: Brak
+        standardText: ''
+        smartTitle: iBALANCE
+        smartText: |-
+          Równoważy wentylację eliminując problem podciśnienia
+          i nadciśnienia
+      - label: Zapewnienie stałe maksymalnej sprawności odzysku ciepła
+        standardTitle: Brak
+        standardText: ''
+        smartTitle: iBALANCE
+        smartText: |-
+          Stabilizując i bilansując strumienie zapewnia stały
+          i maksymalny odzysk ciepła
+      - label: Czujnik CO₂
+        standardTitle: Brak
+        standardText: ''
+        smartTitle: iSENSOR
+        smartText: Pomiar poziomu CO2
+      - label: Czujnik wilgotności
+        standardTitle: Brak
+        standardText: ''
+        smartTitle: iSENSOR
+        smartText: Pomiar poziomu wilgoci
 family:
   background: /images/wentilo/family-bg.avif
   title: Rodzina rekuperatorów Wentilo
@@ -177,6 +233,122 @@ family:
           image: /images/wentilo/mount-podloga.avif
         - label: na suficie
           image: /images/wentilo/mount-sufit.avif
+shop:
+  title: Wybierz rekuperator
+  text: dopasowany do twoich potrzeb.
+  tabDescription: Opis
+  models:
+    - prefix: IT250 S1
+      name: Wentilo ICON IT250 S1
+      description: Nowoczesna i energooszczędna centrala wentylacyjna z odzyskiem ciepła o wydajności do 250 m³/h. Wyposażona w filtry antysmogowe i powłokę antybakteryjną.
+      specs:
+        - label: Spręż dyspozycyjny
+          value: 100 Pa
+        - label: Wydajność znamionowa
+          value: 175 m³/h
+        - label: Maksymalna sprawność odzysku ciepła
+          value: 98 %
+        - label: Sprawność odzysku ciepła dla przepływu znamionowego
+          value: 93 %
+        - label: Poziom mocy akustycznej emitowanej przez obudowę (wg ErP)
+          value: 48 dB(A)
+        - label: Pobór mocy elektrycznej dla przepływu znamionowego
+          value: 33 W
+        - label: Filtr, powietrze czerpane z zewnątrz budynku
+          value: Przeciwpyłkowy iCARE G4 Coarse 75%
+        - label: Filtr, powietrze czerpane z zewnątrz budynku
+          value: Antysmogowy iCARE F7 ePM1 70%
+        - label: Filtr, powietrze wywiewane z pomieszczenia
+          value: Przeciwpyłkowy iCARE M5 ePM10 55%
+        - label: Wymiennik ciepła
+          value: Płytowy przeciwprądowy
+        - label: Bypass
+          value: 100% obejścia
+        - label: RZE (Roczne Zużycie Energii elektrycznej) zgodnie z Rozporządzeniem Delegowanym Komisji (UE) nr 1254/2014
+          value: 259 kWh/rok
+        - label: ROO (Roczne Oszczędności w Ogrzewaniu) zgodnie z Rozporządzeniem Delegowanym Komisji (UE) nr 1254/2014
+          value: 4692 kWh/rok
+        - label: RZE dla zalecanej powierzchni budynku
+          value: 228 kWh/rok - 308 kWh/rok
+        - label: ROO dla zalecanej powierzchni budynku
+          value: 4747 kWh/rok - 5868 kWh/rok
+        - label: Pobór mocy napędu wentylatora przy maksymalnym natężeniu przepływu
+          value: 66 W
+        - label: Nagrzewnica wstępna
+          value: W standardzie
+        - label: Moc nagrzewnicy wstępnej w stanie ustalonym
+          value: 1350 W
+        - label: Zmiana temperatury na nagrzewnicy wstępnej dla przepływu maksymalnego
+          value: 16 °C
+        - label: Typ zasilania
+          value: 230V, 50Hz
+        - label: Prąd znamionowy
+          value: 7 A
+        - label: Wymiary bez opakowania
+          value: 940 mm × 591 mm × 754 mm
+        - label: Wymiary z opakowaniem
+          value: 995 mm × 635 mm × 850 mm
+        - label: Masa bez opakowania
+          value: 26 kg
+        - label: Masa z opakowaniem
+          value: 30 kg
+        - label: Średnica króćców przyłączeniowych
+          value: 200 mm
+        - label: Średnica odpływu kondensatu
+          value: 20 mm
+        - label: Zakres temperatury pracy w pomieszczeniu
+          value: 5°C - 45°C
+  technologiesTitle: Technologie
+  technologies:
+    - icon: null
+      name: iNOFRAME
+      short: ''
+      long: Integruje konstrukcję, izolację i obudowę w jednym, wykorzystując EPP, co zapewnia niską wagę urządzenia, doskonałe właściwości termiczne i akustyczne. Przekłada się to na energooszczędność, trwałość i pełną recyklingowalność.
+    - icon: /images/wentilo/tech-icare.png
+      name: iCARE
+      short: Filtracja, oczyszczanie i uzdatnianie powietrza
+      long: ''
+    - icon: /images/wentilo/tech-ienergy.png
+      name: iENERGY
+      short: Odzysk ciepła
+      long: ''
+    - icon: /images/wentilo/tech-iflow.png
+      name: iFLOW
+      short: Przepływ powietrza
+      long: ''
+    - icon: /images/wentilo/tech-idirect.png
+      name: iDIRECT
+      short: Automatyczny bypass
+      long: ''
+    - icon: /images/wentilo/tech-iheat.png
+      name: iHEAT
+      short: Zabezpieczenie przeciw zamarzaniu
+      long: ''
+    - icon: /images/wentilo/tech-isensor.png
+      name: iSENSOR*
+      short: Regulacja zapotrzebowaniem
+      long: ''
+    - icon: /images/wentilo/tech-iclimate.png
+      name: iCLIMATE*
+      short: Technologia adaptacji do klimatu
+      long: ''
+    - icon: /images/wentilo/tech-icomfort.png
+      name: iCOMFORT*
+      short: Technologia adaptacji do klimatu
+      long: ''
+    - icon: /images/wentilo/tech-ilead.png
+      name: iLEAD
+      short: Odprowadzanie kondensatu
+      long: ''
+  mountTitle: Opcje montażu
+  mounts:
+    - image: /images/wentilo/mount-wiszaca.webp
+      title: Wisząca
+      text: Zestaw montażowy do kupienia oddzielnie
+    - image: /images/wentilo/mount-stojaca.webp
+      title: Stojąca
+      text: Nóżki do kupienia oddzielnie
+  specTitle: Specyfikacja techniczna
 videos:
   groups:
     - label: Wentilo ICON IT

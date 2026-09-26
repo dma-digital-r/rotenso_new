@@ -1419,7 +1419,25 @@ export const wentiloSchema = {
         { label: "Systemy", itemLabel: (i) => i.fields.title.value || "System" },
       ),
       note: fields.text({ label: "Tekst nad przyciskiem" }),
-      button: link("Przycisk (np. Zobacz różnice)"),
+      button: link("Przycisk (np. Zobacz różnice) — pusty adres = otwiera okno z porównaniem"),
+      compare: fields.object(
+        {
+          title: fields.text({ label: "Tytuł okna", multiline: true }),
+          standardHead: fields.text({ label: "Nagłówek kolumny 1 (np. iEDGE / System standardowy)", multiline: true }),
+          smartHead: fields.text({ label: "Nagłówek kolumny 2 (np. iEDGE SMART / System inteligentny)", multiline: true }),
+          rows: fields.array(
+            fields.object({
+              label: fields.text({ label: "Funkcja" }),
+              standardTitle: fields.text({ label: "Standard — pogrubione (np. Brak)" }),
+              standardText: fields.text({ label: "Standard — opis", multiline: true }),
+              smartTitle: fields.text({ label: "Smart — pogrubione (np. iSENSOR)" }),
+              smartText: fields.text({ label: "Smart — opis", multiline: true }),
+            }),
+            { label: "Wiersze", itemLabel: (r) => r.fields.label.value || "Wiersz" },
+          ),
+        },
+        { label: "Okno „Różnice w sposobie sterowania”" },
+      ),
     },
     { label: "Systemy sterowania" },
   ),
@@ -1446,6 +1464,49 @@ export const wentiloSchema = {
       ),
     },
     { label: "Rodzina rekuperatorów Wentilo" },
+  ),
+  shop: fields.object(
+    {
+      title: fields.text({ label: "Tytuł (np. Wybierz rekuperator)" }),
+      text: fields.text({ label: "Podtytuł" }),
+      tabDescription: fields.text({ label: "Zakładka Opis" }),
+      models: fields.array(
+        fields.object({
+          prefix: fields.text({
+            label: "Symbol modelu z feedu bez wersji (np. IT250 S1)",
+            description: "Strona zbiera z feedu wszystkie wersje (IT250 S1 AA, IT250 S1 AB…): parametry i pliki do pobrania.",
+          }),
+          name: fields.text({ label: "Nazwa (np. Wentilo ICON IT250 S1)" }),
+          description: fields.text({ label: "Opis", multiline: true }),
+          specs: fields.array(
+            fields.object({ label: fields.text({ label: "Parametr" }), value: fields.text({ label: "Wartość" }) }),
+            {
+              label: "Parametry spoza feedu",
+              description: "Feed podaje tylko kilka parametrów (wydajność, klasa, powierzchnia…). Tu dopisz resztę tabeli.",
+              itemLabel: (r) => [r.fields.label.value, r.fields.value.value].filter(Boolean).join(": ") || "Parametr",
+            },
+          ),
+        }),
+        { label: "Modele (karta: Opis / Specyfikacja / Do pobrania)", itemLabel: (m) => m.fields.name.value || m.fields.prefix.value || "Model" },
+      ),
+      technologiesTitle: fields.text({ label: "Specyfikacja — tytuł technologii" }),
+      technologies: fields.array(
+        fields.object({
+          icon: wImage("Ikona"),
+          name: fields.text({ label: "Nazwa (np. iCARE)" }),
+          short: fields.text({ label: "Krótki opis" }),
+          long: fields.text({ label: "Opis po kliknięciu +", multiline: true }),
+        }),
+        { label: "Technologie", itemLabel: (t) => t.fields.name.value || "Technologia" },
+      ),
+      mountTitle: fields.text({ label: "Specyfikacja — tytuł opcji montażu" }),
+      mounts: fields.array(
+        fields.object({ image: wImage("Zdjęcie (600×338)"), title: fields.text({ label: "Tytuł" }), text: fields.text({ label: "Tekst" }) }),
+        { label: "Opcje montażu", itemLabel: (m) => m.fields.title.value || "Opcja" },
+      ),
+      specTitle: fields.text({ label: "Specyfikacja — tytuł tabeli" }),
+    },
+    { label: "Wybierz rekuperator (karta modelu; wybór modelu i cena — w przygotowaniu)" },
   ),
   videos: fields.object(
     {

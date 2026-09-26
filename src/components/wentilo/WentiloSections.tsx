@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { PlayPause } from "@/components/product/PlayPause";
 import { ProductVideos, type ProductVideo } from "@/components/product/ProductVideos";
 import { Button } from "@/components/ui/Button";
@@ -177,7 +177,8 @@ export function WentiloRecovery({ data }: { data: WentiloContent["recovery"] }) 
 
 // "Systemy sterowania": dark 1820 box; two glass cards (150px icon, title, text), a note and a
 // white outline button.
-export function WentiloControl({ data }: { data: WentiloContent["control"] }) {
+export function WentiloControl({ data, ui }: { data: WentiloContent["control"]; ui: Ui }) {
+  const [open, setOpen] = useState(false);
   return (
     <section id="sterowanie" className="relative mx-[50px] mt-[100px] scroll-mt-[160px] overflow-hidden rounded-[32px] bg-[#071722] py-[120px] text-white">
       <div aria-hidden className="absolute inset-0">
@@ -200,13 +201,81 @@ export function WentiloControl({ data }: { data: WentiloContent["control"] }) {
           ))}
         </div>
         {data.note && <p className="mt-[50px] text-[16px] leading-[24px]">{data.note}</p>}
-        {data.button.label && data.button.href && (
-          <Button variant="s-outline-white" href={data.button.href} className="mt-[30px] !px-[18px] !py-[12px] !text-[16px]">
+        {data.button.label && (data.button.href || data.compare.rows.length > 0) && (
+          <Button
+            variant="s-outline-white"
+            href={data.button.href || undefined}
+            onClick={data.button.href ? undefined : () => setOpen(true)}
+            aria-haspopup={data.button.href ? undefined : "dialog"}
+            className="mt-[30px] !px-[18px] !py-[12px] !text-[16px]"
+          >
             {data.button.label}
           </Button>
         )}
       </div>
+      {open && <CompareDialog data={data.compare} onClose={() => setOpen(false)} ui={ui} />}
     </section>
+  );
+}
+
+// Figma "Popup iEDGE": white 1300 window (r32) over the page dimmed to 70% black — title, two
+// system columns and the comparison rows (grey every other row).
+function CompareDialog({ data, onClose, ui }: { data: WentiloContent["control"]["compare"]; onClose: () => void; ui: Ui }) {
+  const ref = useRef<HTMLDialogElement>(null);
+  useEffect(() => {
+    const dialog = ref.current;
+    if (!dialog) return;
+    if (!dialog.open) dialog.showModal();
+    const root = document.documentElement;
+    const overflow = root.style.overflow;
+    root.style.overflow = "hidden";
+    return () => {
+      root.style.overflow = overflow;
+    };
+  }, []);
+  const cell = (title: string, text: string) => (
+    <>
+      {title && <span className="block font-bold">{title}</span>}
+      {text && <span className="block whitespace-pre-line">{text}</span>}
+    </>
+  );
+  return (
+    <dialog
+      ref={ref}
+      onClose={onClose}
+      onClick={(e) => e.target === e.currentTarget && onClose()}
+      aria-labelledby="compare-title"
+      className="m-auto max-h-[calc(100svh-40px)] w-[1300px] max-w-[calc(100%-32px)] overflow-y-auto overscroll-contain rounded-[32px] bg-white px-[50px] pt-[50px] pb-[40px] text-rotenso-grey backdrop:bg-[rgb(0_0_0/0.7)]"
+    >
+      <button type="button" onClick={onClose} aria-label={ui.close} className="absolute top-[30px] right-[30px] flex size-[30px] cursor-pointer items-center justify-center">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>
+          <path d="M3 3L13 13M13 3L3 13" stroke="#546670" strokeWidth="2.2" strokeLinecap="round" />
+        </svg>
+      </button>
+      <h2 id="compare-title" className="text-center text-h3 leading-[1.36] font-light whitespace-pre-line">
+        {data.title}
+      </h2>
+      <table className="mt-[40px] w-full border-collapse text-[16px] leading-[24px]">
+        <thead>
+          <tr className="border-b border-rotenso-grey">
+            <th className="w-[210px]" />
+            <th className="px-[20px] pb-[10px] text-center font-bold whitespace-pre-line">{data.standardHead}</th>
+            <th className="px-[20px] pb-[10px] text-center font-bold whitespace-pre-line">{data.smartHead}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.rows.map((r, i) => (
+            <tr key={i} className={i % 2 ? "" : "bg-[#f3f3f3]"}>
+              <th scope="row" className="px-[10px] py-[20px] text-left font-bold">
+                {r.label}
+              </th>
+              <td className="px-[20px] py-[20px] text-center">{cell(r.standardTitle, r.standardText)}</td>
+              <td className="px-[20px] py-[20px] text-center">{cell(r.smartTitle, r.smartText)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </dialog>
   );
 }
 
@@ -309,3 +378,167 @@ export function WentiloVideos({ groups, more, ui }: { groups: { label: string; v
   return <ProductVideos key={tab} videos={cur.videos} channelHref={more.href} ui={{ ...ui, moreVideos: more.label || ui.moreVideos }} header={header} />;
 }
 
+
+// "Wybierz rekuperator" (Figma "wentilo e-commerce"): white card with Opis / Specyfikacja /
+// Do pobrania. The model / version selectors, control panel choice and price are still to come;
+// for now the card shows the first model from the CMS.
+export function WentiloShop({
+  data,
+  models,
+  ui,
+}: {
+  data: WentiloContent["shop"];
+  models: import("@/lib/wentilo").WentiloModel[];
+  ui: Ui;
+}) {
+  const [tab, setTab] = useState<"opis" | "spec" | "files">("opis");
+  const [openTech, setOpenTech] = useState<number | null>(0);
+  const [openParts, setOpenParts] = useState({ tech: true, mount: true, spec: true });
+  const model = models[0];
+  if (!model) return null;
+  const half = Math.ceil(model.specs.length / 2);
+  const toggle = (id: keyof typeof openParts) => setOpenParts((p) => ({ ...p, [id]: !p[id] }));
+
+  return (
+    <section id="wybierz" className="mt-[150px] scroll-mt-[160px] text-rotenso-grey">
+      <div className="mx-auto flex w-[1300px] max-w-[calc(100%-32px)] flex-col items-center gap-[10px] text-center font-light">
+        <h2 className="text-h1 leading-[1.2]">{data.title}</h2>
+        {data.text && <p className="text-h3 leading-[1.36]">{data.text}</p>}
+      </div>
+      <div className="mx-[20px] mt-[50px] rounded-[32px] bg-white p-[30px] shadow-dark-l">
+        <div role="tablist" className="flex h-[50px] w-[470px] max-w-full items-center gap-[5px] rounded-[25px] bg-grey-f0 p-[5px]">
+          {(
+            [
+              ["opis", data.tabDescription],
+              ["spec", ui.tabSpecs],
+              ["files", ui.tabDownloads],
+            ] as const
+          ).map(([key, label]) => (
+            <button
+              key={key}
+              type="button"
+              role="tab"
+              aria-selected={tab === key}
+              onClick={() => setTab(key)}
+              className={`h-[40px] flex-1 cursor-pointer rounded-[20px] text-[16px] leading-[normal] transition-colors ${tab === key ? "bg-rotenso-grey text-white" : "hover:text-rotenso-red"}`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+        <h3 className="mt-[40px] text-h2 leading-[1.2] font-light">{model.name}</h3>
+
+        {tab === "opis" && model.description && <p className="mt-[20px] max-w-[860px] text-[16px] leading-[24px] whitespace-pre-line">{model.description}</p>}
+
+        {tab === "spec" && (
+          <>
+            {data.technologies.length > 0 && (
+              <Part title={data.technologiesTitle} open={openParts.tech} onToggle={() => toggle("tech")}>
+                <div className="grid grid-cols-5 gap-[10px]">
+                  {data.technologies.map((t, i) => {
+                    const on = openTech === i && !!t.long;
+                    return (
+                      <div key={t.name} className="relative flex min-h-[155px] flex-col items-center justify-center rounded-[16px] border border-grey-dd px-[20px] py-[20px] text-center">
+                        {t.long && (
+                          <button
+                            type="button"
+                            onClick={() => setOpenTech(on ? null : i)}
+                            aria-expanded={on}
+                            aria-label={on ? ui.close : ui.moreInfo}
+                            className="absolute top-[15px] right-[15px] cursor-pointer"
+                          >
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden className={`transition-transform ${on ? "rotate-45" : ""}`}>
+                              <path d="M9 2V16M2 9H16" stroke="#546670" strokeWidth="2" strokeLinecap="round" />
+                            </svg>
+                          </button>
+                        )}
+                        {!on && t.icon && <Image src={t.icon} alt="" width={40} height={34} className="h-[34px] w-auto" />}
+                        <p className="mt-[8px] text-[25px] leading-[normal] font-light">{t.name}</p>
+                        <p className={on ? "mt-[8px] text-[12px] leading-[16px]" : "mt-[6px] text-[16px] leading-[22px]"}>{on ? t.long : t.short}</p>
+                      </div>
+                    );
+                  })}
+                </div>
+              </Part>
+            )}
+            {data.mounts.length > 0 && (
+              <Part title={data.mountTitle} open={openParts.mount} onToggle={() => toggle("mount")}>
+                <div className="flex justify-center gap-[60px]">
+                  {data.mounts.map((m) => (
+                    <div key={m.title} className="flex w-[600px] flex-col items-center text-center">
+                      <div className="relative h-[338px] w-full">
+                        <FramedImage src={m.image} sizes="600px" className="!object-contain" />
+                      </div>
+                      <p className="mt-[20px] text-h3 leading-[1.36] font-light">{m.title}</p>
+                      <p className="text-[16px] leading-[24px]">{m.text}</p>
+                    </div>
+                  ))}
+                </div>
+              </Part>
+            )}
+            {model.specs.length > 0 && (
+              <Part title={data.specTitle} open={openParts.spec} onToggle={() => toggle("spec")}>
+                <div className="grid grid-cols-2 gap-x-[40px]">
+                  {[model.specs.slice(0, half), model.specs.slice(half)].map((col, c) => (
+                    <dl key={c}>
+                      {col.map((r, i) => (
+                        <div key={i} className="flex gap-[20px] border-b border-grey-dd py-[10px] text-[16px] leading-[24px]">
+                          <dt className="w-[62%]">{r.label}</dt>
+                          <dd className="flex-1">{r.value}</dd>
+                        </div>
+                      ))}
+                    </dl>
+                  ))}
+                </div>
+              </Part>
+            )}
+          </>
+        )}
+
+        {tab === "files" &&
+          (model.downloads.length ? (
+            model.downloads.map((d) => (
+              <div key={d.symbol} className="mt-[50px]">
+                <p className="text-[25px] leading-[normal] font-bold">{d.symbol}</p>
+                {d.documents.length ? (
+                  <ul className="mt-[20px] grid grid-cols-4 gap-[20px]">
+                    {d.documents.map((doc) => (
+                      <li key={doc.url}>
+                        <a
+                          href={doc.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex h-[60px] items-center gap-[10px] rounded-[8px] border border-rotenso-grey px-[20px] font-bold transition-colors hover:bg-grey-f0"
+                        >
+                          <span className="line-clamp-2 flex-1 text-[16px] leading-[20px]">{doc.label}</span>
+                          <Image src="/icons/download.svg" alt="" width={24} height={24} />
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="mt-[20px] text-[16px] leading-[24px]">{ui.noDownloads}</p>
+                )}
+              </div>
+            ))
+          ) : (
+            <p className="mt-[30px] text-[16px] leading-[24px]">{ui.noDownloads}</p>
+          ))}
+      </div>
+    </section>
+  );
+}
+
+function Part({ title, open, onToggle, children }: { title: string; open: boolean; onToggle: () => void; children: React.ReactNode }) {
+  return (
+    <div className="mt-[50px]">
+      <button type="button" onClick={onToggle} aria-expanded={open} className="flex cursor-pointer items-center gap-[15px] text-[25px] leading-[normal] font-bold">
+        {title}
+        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" aria-hidden className={`transition-transform ${open ? "" : "rotate-180"}`}>
+          <path d="M1 7L7 1L13 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      </button>
+      {open && <div className="mt-[30px]">{children}</div>}
+    </div>
+  );
+}
