@@ -1,5 +1,5 @@
 import { createReader, type Entry } from "@keystatic/core/reader";
-import config, { aboutSingleton, guidesCollection, homeSingleton, menuSingleton, settingsSingleton } from "../../keystatic.config";
+import config, { aboutSingleton, investmentsSingleton, guidesCollection, homeSingleton, menuSingleton, settingsSingleton } from "../../keystatic.config";
 import { defaultLocale, type Locale } from "@/i18n/config";
 
 export const reader = createReader(process.cwd(), config);
@@ -8,6 +8,7 @@ export type HomeContent = Entry<ReturnType<typeof homeSingleton>>;
 export type SettingsContent = Entry<ReturnType<typeof settingsSingleton>>;
 export type MenuContent = Entry<ReturnType<typeof menuSingleton>>;
 export type AboutContent = Entry<ReturnType<typeof aboutSingleton>>;
+export type InvestmentsContent = Entry<ReturnType<typeof investmentsSingleton>>;
 type GuideEntry = Entry<ReturnType<typeof guidesCollection>>;
 
 // Polish and Czech typography: a one-letter word (i, w, z, a, o, u, k, s, v) must not end a
@@ -113,4 +114,11 @@ export async function getAbout(lang: Locale): Promise<AboutContent> {
     (await reader.singletons[`about_${lang}`].read()) ?? (await reader.singletons[`about_${defaultLocale}`].read());
   if (!entry) throw new Error("Missing content/pl/about.yaml");
   return typeset(lang, entry as AboutContent);
+}
+
+export async function getInvestments(lang: Locale): Promise<InvestmentsContent> {
+  const entry =
+    (await reader.singletons[`investments_${lang}`].read()) ?? (await reader.singletons[`investments_${defaultLocale}`].read());
+  if (!entry) throw new Error("Missing content/pl/investments.yaml");
+  return typeset(lang, entry as InvestmentsContent);
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 import { diagonalGradient } from "@/components/home/SectionBackdrop";
 import { Media, SlideTimer } from "@/components/ui/Media";
 import type { Ui } from "@/i18n/ui";
@@ -16,7 +16,21 @@ type Slide = { image: string | null; video?: string | null; title: string; text:
 // (527px, starts where "Cecha" ends). 1340×754 slides 50px from the left edge, the next one
 // peeking in; glass panel bottom-left, pause bottom-right, red timer along the bottom edge and
 // a 1300px progress line under the track.
-export function FeatureSlider({ slides, ui }: { slides: Slide[]; ui: Ui }) {
+// "background"/"header" (Inwestycje): a photo band with a title above the slides instead of the
+// gradient; "autoplay={false}": no pause button or red timer (only the progress line).
+export function FeatureSlider({
+  slides,
+  ui,
+  background,
+  header,
+  autoplay = true,
+}: {
+  slides: Slide[];
+  ui: Ui;
+  background?: ReactNode;
+  header?: ReactNode;
+  autoplay?: boolean;
+}) {
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
   const [progress, setProgress] = useState(0);
@@ -28,8 +42,9 @@ export function FeatureSlider({ slides, ui }: { slides: Slide[]; ui: Ui }) {
   };
 
   return (
-    <section className="relative pt-[150px]">
-      <div className="absolute inset-x-0 top-0 h-[527px]" style={{ backgroundImage: diagonalGradient(527) }} />
+    <section className={`relative ${header ? "" : "pt-[150px]"}`}>
+      {background ?? <div className="absolute inset-x-0 top-0 h-[527px]" style={{ backgroundImage: diagonalGradient(527) }} />}
+      {header}
       <div className="relative h-[754px] overflow-x-clip">
         <div
           className="absolute top-0 left-[50px] flex gap-[20px] transition-transform duration-700"
@@ -43,12 +58,12 @@ export function FeatureSlider({ slides, ui }: { slides: Slide[]; ui: Ui }) {
               className={`relative h-[754px] w-[1340px] shrink-0 overflow-hidden rounded-[32px] bg-grey-dd ${i !== index ? "cursor-pointer" : ""}`}
             >
               {/* A film plays once and moves the slider on; a photo waits SLIDE_MS. */}
-              <Media image={s.image} video={s.video} sizes="1340px" playing={i === index && !paused} loop={count < 2} onProgress={i === index ? setProgress : undefined} onEnded={() => go(index + 1)} />
+              <Media image={s.image} video={s.video} sizes="1340px" playing={i === index && !paused} loop={count < 2 || !autoplay} onProgress={i === index ? setProgress : undefined} onEnded={() => go(index + 1)} />
               <div className="absolute bottom-[50px] left-[50px] flex w-[540px] flex-col gap-[20px] rounded-[32px] bg-black/50 p-[30px] text-white backdrop-blur-[20px]">
                 <h3 className="text-h2 leading-[1.2] font-light">{s.title}</h3>
-                <p className="text-[16px] leading-[24px]">{s.text}</p>
+                <p className="text-[16px] leading-[24px] whitespace-pre-line">{s.text}</p>
               </div>
-              {i === index && (
+              {i === index && autoplay && (
                 <>
                   <PlayPause paused={paused} onToggle={() => setPaused((p) => !p)} ui={ui} className="absolute right-[50px] bottom-[50px]" />
                   <SlideTimer ms={SLIDE_MS} film={!!s.video} progress={progress} paused={paused} onDone={() => go(index + 1)} slideKey={index} />

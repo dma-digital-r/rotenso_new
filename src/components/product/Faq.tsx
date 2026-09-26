@@ -4,7 +4,16 @@ import type { Ui } from "@/i18n/ui";
 // Figma: "FAQ" (5172:81570) — 860 wide, 40px title, white bordered accordion items (the first
 // one open), then "BTN L Red" (5172:81569) 100px below, leading to the quote form.
 // FAQPage structured data helps the answers show up in search and AI results.
-export function Faq({ items, ui }: { items: readonly { question: string; answer: string }[]; ui: Ui }) {
+export function Faq({
+  items,
+  ui,
+  button,
+}: {
+  items: readonly { question: string; answer: string }[];
+  ui: Ui;
+  /** Button under the questions — default "Zapytaj o montaż" → the quote form. */
+  button?: { label: string; href: string };
+}) {
   if (!items.length) return null;
   const jsonLd = {
     "@context": "https://schema.org",
@@ -32,8 +41,8 @@ export function Faq({ items, ui }: { items: readonly { question: string; answer:
         ))}
       </div>
       <div className="mt-[100px] flex justify-center">
-        <Button variant="l-red" href="#wycena" className="min-w-[419px]">
-          {ui.askInstall}
+        <Button variant="l-red" href={button?.href ?? "#wycena"} className="min-w-[419px]">
+          {button?.label ?? ui.askInstall}
         </Button>
       </div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />

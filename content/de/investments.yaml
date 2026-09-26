@@ -1,0 +1,507 @@
+hero:
+  image: /images/investments/hero.jpg
+  video: ''
+  title: Projekte
+  subtitle: Lorem ipsum dolor sit amet enim
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  cta:
+    label: Angebot anfragen
+    href: '#oferta'
+systems:
+  background: /images/investments/systems-bg.jpg
+  title: |-
+    Lernen Sie 3 Arten
+    von Klimasystemen kennen
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  slides:
+    - image: /images/investments/system-rvf.jpg
+      video: ''
+      title: RVF / VRF-Systeme
+      text: |-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - image: /images/investments/system-multi.jpg
+      video: ''
+      title: Multi-Split-Systeme
+      text: |-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - image: null
+      video: ''
+      title: Split-Systeme
+      text: |-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+help:
+  background: /images/investments/help-bg.jpg
+  title: Wir helfen bei Ihrem Projekt
+  investorTab: Für Investoren
+  designerTab: Für Planer
+  investorText: 'Prüfen Sie die ungefähren Investitionskosten mit dem Rechner unten:'
+  designerText: Hinterlassen Sie Ihre Daten — unser Planer hilft bei der Systemwahl und erstellt die Unterlagen.
+  areaLabel: |-
+    Gesamtfläche
+    aller Räume:
+  areaPlaceholder: Fläche eingeben
+  roomsLabel: 'Anzahl der Räume:'
+  roomsPlaceholder: Anzahl der Räume eingeben
+  buildingLabel: 'Gebäudetyp:'
+  buildingPlaceholder: Eingeben oder aus der Liste wählen
+  buildingTypes:
+    - Große Gewerbeobjekte
+    - Moderne Büroarchitektur
+    - Objekte des Mittelstands
+    - Mikrobüros
+    - Kleine Dienstleistungsobjekte
+    - Fachmarktzentren
+    - Premium-Hotellerie
+    - Budget-Tourismus
+    - Freizeit und Sport
+    - Hochschulen
+    - Bildungs- und öffentliche Gebäude
+    - Premium-Wohnungen
+    - Moderne Architektur und High-End-Retail
+    - Dichte Stadtbebauung und Gründächer
+    - Bauten mittlerer Größe
+    - Denkmalgeschützte Gebäude und Museen
+    - Gesundheitswesen und Krankenhäuser
+  showPrices: Preise anzeigen
+  prices:
+    - name: 'System RVF/VRF:'
+      from: 20900
+      perM2: 0
+    - name: 'System Multi Split:'
+      from: 14900
+      perM2: 0
+    - name: 'System Split:'
+      from: 8900
+      perM2: 0
+  from: ab
+  net: netto
+  priceNote: Die Preise enthalten keine Montage und kein zusätzliches Zubehör...
+  formTitle: Lorem ipsum
+  formText: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  phone: Ihre Telefonnummer*
+  email: Ihre E-Mail-Adresse*
+  nip: USt-IdNr.*
+  contactTime: Bevorzugte Kontaktzeit
+  contactTimes:
+    - Vormittags (8:00–12:00)
+    - Nachmittags (12:00–16:00)
+    - Abends (16:00–20:00)
+    - Egal
+  consent: Ich willige in die Verarbeitung meiner personenbezogenen Daten ein...
+  consentFull: ''
+  required: '*Pflichtfelder'
+  submit: Nachricht senden
+  success: Vielen Dank! Ihre Anfrage wurde gesendet — wir melden uns in Kürze.
+  error: Ihre Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es gleich noch einmal oder rufen Sie uns an.
+projects:
+  title: Unsere Referenzen
+  subtitle: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  categories:
+    - name: Kategoria 1
+      items:
+        - image: /images/investments/realizacja-1.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-2.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-3.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-4.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-5.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-6.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-7.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    - name: Kategoria 2
+      items:
+        - image: /images/investments/realizacja-2.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-3.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-4.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-5.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-6.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-7.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-1.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    - name: Kategoria 3
+      items:
+        - image: /images/investments/realizacja-3.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-4.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-5.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-6.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-7.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-1.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-2.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    - name: Kategoria 4
+      items:
+        - image: /images/investments/realizacja-4.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-5.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-6.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-7.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-1.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-2.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-3.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    - name: Kategoria 5
+      items:
+        - image: /images/investments/realizacja-5.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-6.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-7.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-1.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-2.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-3.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-4.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    - name: Kategoria 6
+      items:
+        - image: /images/investments/realizacja-6.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-7.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-1.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-2.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-3.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-4.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-5.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    - name: Kategoria 7
+      items:
+        - image: /images/investments/realizacja-7.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-1.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-2.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-3.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-4.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-5.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-6.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    - name: Kategoria 8
+      items:
+        - image: /images/investments/realizacja-1.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-2.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-3.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-4.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-5.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-6.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - image: /images/investments/realizacja-7.jpg
+          title: Lorem ipsum dolor sit
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+why:
+  - image: /images/investments/why-serwis.jpg
+    title: Landesweites Servicenetz
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  - image: /images/investments/why-eurovent.jpg
+    title: Eurovent-Zertifikat
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  - image: /images/investments/why-gwarancja.jpg
+    title: 5 Jahre Garantie
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+solutions:
+  title: Unsere Lösungen
+  text: |-
+    Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+    Lorem ipsum dolor sit amet enim.
+  recommend: In diesem Segment empfehlen wir
+  more: Mehr erfahren
+  segments:
+    - name: Obiekty komercyjne wielkopowierzchniowe
+      icon: null
+      title: Große Gewerbeobjekte
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Nowoczesna architektura biurowa
+      icon: null
+      title: |-
+        Moderne
+        Büro-
+        architektur
+      text: Stark verglaste Gebäude mit stark schwankenden Wärmegewinnen je nach Sonneneinstrahlung auf die Fassade.
+      image: /images/investments/segment-biurowa.jpg
+      product:
+        name: Systemy klimatyzacji RVF V5
+        image: /images/investments/rvf-v5.jpg
+        href: /de/systemy-rvf/rvf-v5
+    - name: Obiekty średniego biznesu
+      icon: null
+      title: Objekte des Mittelstands
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Mikro-biura
+      icon: null
+      title: Mikrobüros
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Obiekty małych usług
+      icon: null
+      title: Kleine Dienstleistungsobjekte
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Parki handlowe
+      icon: null
+      title: Fachmarktzentren
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Hotelarstwo Premium
+      icon: null
+      title: Premium-Hotellerie
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Turystyka budżetowa
+      icon: null
+      title: Budget-Tourismus
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Rekreacja i sport
+      icon: null
+      title: Freizeit und Sport
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Szkolnictwo wyższe
+      icon: null
+      title: Hochschulen
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Obiekty edukacyjne i publiczne
+      icon: null
+      title: Bildungs- und öffentliche Gebäude
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Mieszkania Premium
+      icon: null
+      title: Premium-Wohnungen
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Nowoczesna architektura i high-end retail
+      icon: null
+      title: Moderne Architektur und High-End-Retail
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Gęsta zabudowa miejska i „Zielone Dachy”
+      icon: null
+      title: Dichte Stadtbebauung und Gründächer
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Budownictwo średniej skali
+      icon: null
+      title: Bauten mittlerer Größe
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Obiekty zabytkowe i muzea
+      icon: null
+      title: Denkmalgeschützte Gebäude und Museen
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Służba zdrowia i hospitalizacja
+      icon: null
+      title: Gesundheitswesen und Krankenhäuser
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Segment 19 (multi split)
+      icon: null
+      title: Segment 19 (Multi-Split)
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Segment 20 (multi split)
+      icon: null
+      title: Segment 20 (Multi-Split)
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+    - name: Segment 21 (multi split)
+      icon: null
+      title: Segment 21 (Multi-Split)
+      text: ''
+      image: null
+      product:
+        name: ''
+        image: null
+        href: ''
+faq:
+  - question: 1. Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - question: 2. Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - question: 3. Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - question: 4. Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - question: 5. Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+faqButton:
+  label: So können wir Ihnen helfen
+  href: /de/kontakt
+seoTitle: Klimasysteme für Investitionen — RVF/VRF, Multi-Split, Split | Rotenso
+seoDescription: 'Rotenso-Klimasysteme für Büros, Hotels und Gewerbeobjekte: RVF/VRF, Multi-Split und Split. Rechner für Investitionskosten und Planungsunterstützung.'

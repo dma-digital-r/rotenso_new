@@ -2389,6 +2389,356 @@
         "src": "31116a26e34d6e59",
         "out": "cca0bbcd2255abe0"
       }
+    },
+    "investments": {
+      "hero.title": {
+        "src": "313fae6606e5ed8b",
+        "out": "53e890d5f0fffe09"
+      },
+      "hero.cta.label": {
+        "src": "813f4576ea052845",
+        "out": "2114b6311666765f"
+      },
+      "systems.title": {
+        "src": "03970b3b00548707",
+        "out": "a5c9c49ac1b6b520"
+      },
+      "systems.slides.0.title": {
+        "src": "d34c2a9e1a59598c",
+        "out": "9862e010912946bb"
+      },
+      "systems.slides.1.title": {
+        "src": "e1e29841e740c5b3",
+        "out": "793284738ce8ea1b"
+      },
+      "systems.slides.2.title": {
+        "src": "6b5a1714ede3b9af",
+        "out": "bc6c3d121895c111"
+      },
+      "help.title": {
+        "src": "385d761fc5639d68",
+        "out": "1e1a9d95a5411314"
+      },
+      "help.investorTab": {
+        "src": "b11c0e04e73654ff",
+        "out": "d12512875eeb5610"
+      },
+      "help.designerTab": {
+        "src": "e088b1b082c5c2cf",
+        "out": "f2564ab807c1f28a"
+      },
+      "help.investorText": {
+        "src": "a4f37eefe8ceaa2a",
+        "out": "1061d19b3ef6cb20"
+      },
+      "help.designerText": {
+        "src": "b4716a20493284f4",
+        "out": "f2db55a70e7b1082"
+      },
+      "help.areaLabel": {
+        "src": "e2fc22cde182450f",
+        "out": "5fee835981efe1c6"
+      },
+      "help.areaPlaceholder": {
+        "src": "f22ac3d78e38fce3",
+        "out": "da790afa41080787"
+      },
+      "help.roomsLabel": {
+        "src": "cfe12b5104d6e0ad",
+        "out": "50b4d1221dad3c1c"
+      },
+      "help.roomsPlaceholder": {
+        "src": "f2de0725203d338e",
+        "out": "c4c4a7a88abe4b47"
+      },
+      "help.buildingLabel": {
+        "src": "da1c7e1b32b11e84",
+        "out": "f13d303da7275708"
+      },
+      "help.buildingPlaceholder": {
+        "src": "c95d58616155d986",
+        "out": "7578df9e813b757a"
+      },
+      "help.buildingTypes.0": {
+        "src": "ff809b030b29087e",
+        "out": "2f73c5f834b5040b"
+      },
+      "help.buildingTypes.1": {
+        "src": "f43f45dc6f715f31",
+        "out": "d6f21b9eae2301a6"
+      },
+      "help.buildingTypes.2": {
+        "src": "9547a74c4e8ee7a6",
+        "out": "ba9c89a3f1a4810f"
+      },
+      "help.buildingTypes.3": {
+        "src": "b3699b87eb1431d4",
+        "out": "74b36cdd550fef82"
+      },
+      "help.buildingTypes.4": {
+        "src": "a0df1ba470923557",
+        "out": "439b97255139c2a0"
+      },
+      "help.buildingTypes.5": {
+        "src": "4efffedc18186bd5",
+        "out": "ca9d19e08deb7e20"
+      },
+      "help.buildingTypes.6": {
+        "src": "e449ae1df54b2646",
+        "out": "7ba87788c69b01f1"
+      },
+      "help.buildingTypes.7": {
+        "src": "1557a7fe6eb8d12e",
+        "out": "ec915490ac51ee0b"
+      },
+      "help.buildingTypes.8": {
+        "src": "d92d906d804caa8d",
+        "out": "ddfb9c9375b1341f"
+      },
+      "help.buildingTypes.9": {
+        "src": "286eacc4181f7f17",
+        "out": "4797e2506391369a"
+      },
+      "help.buildingTypes.10": {
+        "src": "6151e8e576064e21",
+        "out": "b2cf9e0f25bfacc8"
+      },
+      "help.buildingTypes.11": {
+        "src": "b276d8959f45ee11",
+        "out": "7556414bb5a6d40c"
+      },
+      "help.buildingTypes.12": {
+        "src": "6a7ea03600d74ea9",
+        "out": "2582a3dcde9cbb35"
+      },
+      "help.buildingTypes.13": {
+        "src": "7f0b5405359925a3",
+        "out": "61c447f77732a531"
+      },
+      "help.buildingTypes.14": {
+        "src": "87e6f7069a3258f2",
+        "out": "2eb33c37f02d8634"
+      },
+      "help.buildingTypes.15": {
+        "src": "f107f242539d1f30",
+        "out": "0681ead0c380b658"
+      },
+      "help.buildingTypes.16": {
+        "src": "d5bcd72d457e8e13",
+        "out": "4808624be41172bb"
+      },
+      "help.showPrices": {
+        "src": "0c500a91200c128d",
+        "out": "586a96d3a7e2855b"
+      },
+      "help.from": {
+        "src": "f6d794ec98cedb5e",
+        "out": "0b1e95cfd9775191"
+      },
+      "help.net": {
+        "src": "65d8c8050a8218df",
+        "out": "391b6629d9b645d3"
+      },
+      "help.priceNote": {
+        "src": "44393998747e229f",
+        "out": "c7b49c88377ba732"
+      },
+      "help.phone": {
+        "src": "ec48c2268d8e9e06",
+        "out": "4c1f5b7d4f7dfda9"
+      },
+      "help.email": {
+        "src": "b613ff448a05329a",
+        "out": "e095c63dfac7a784"
+      },
+      "help.nip": {
+        "src": "d941014b963ce489",
+        "out": "39a60c458f46a57a"
+      },
+      "help.contactTime": {
+        "src": "9625e261de0cf10a",
+        "out": "9df67d47c02335d9"
+      },
+      "help.contactTimes.0": {
+        "src": "e7a68dfca857623a",
+        "out": "7d5e40eb3f3e1cdd"
+      },
+      "help.contactTimes.1": {
+        "src": "e35cb7a924acad4c",
+        "out": "9640a030cf16a3d7"
+      },
+      "help.contactTimes.2": {
+        "src": "de035c14e689050e",
+        "out": "d9a401e2d9b48466"
+      },
+      "help.contactTimes.3": {
+        "src": "121577d80f59c526",
+        "out": "d7854118cda9d187"
+      },
+      "help.consent": {
+        "src": "1d4cc2e643f588dc",
+        "out": "1e1e2f0421b59c37"
+      },
+      "help.required": {
+        "src": "b51a1969b159fa15",
+        "out": "01ede31a6a799103"
+      },
+      "help.submit": {
+        "src": "843bbb176608f2d5",
+        "out": "c70a890d1411098b"
+      },
+      "help.success": {
+        "src": "7ce0f664937703d5",
+        "out": "5cb271ad3bca9592"
+      },
+      "help.error": {
+        "src": "dbb174ce4644a8b3",
+        "out": "b88acaa345aacdab"
+      },
+      "projects.title": {
+        "src": "ee257187a3cc01f6",
+        "out": "c5cb81fd239d003a"
+      },
+      "why.0.title": {
+        "src": "9f0042ab6be0fc25",
+        "out": "3a55626ef0336fc9"
+      },
+      "why.1.title": {
+        "src": "93a0c1df5d9d39ea",
+        "out": "5742d35056a70bb7"
+      },
+      "why.2.title": {
+        "src": "8e0923425880769d",
+        "out": "3cfe549821367509"
+      },
+      "solutions.title": {
+        "src": "8973de66a8b318eb",
+        "out": "ad778e644b243822"
+      },
+      "solutions.recommend": {
+        "src": "a7ac94ce09f2c835",
+        "out": "af60c2acff78df9b"
+      },
+      "solutions.more": {
+        "src": "da8938f3670b44e1",
+        "out": "824d76b124e6289f"
+      },
+      "solutions.segments.0.title": {
+        "src": "ff809b030b29087e",
+        "out": "2f73c5f834b5040b"
+      },
+      "solutions.segments.1.title": {
+        "src": "c9c8031b3956ef19",
+        "out": "4e03622a395ea6dc"
+      },
+      "solutions.segments.1.text": {
+        "src": "9489eec7d159c584",
+        "out": "1e7a1ca1e120e9e6"
+      },
+      "solutions.segments.2.title": {
+        "src": "9547a74c4e8ee7a6",
+        "out": "ba9c89a3f1a4810f"
+      },
+      "solutions.segments.3.title": {
+        "src": "b3699b87eb1431d4",
+        "out": "74b36cdd550fef82"
+      },
+      "solutions.segments.4.title": {
+        "src": "a0df1ba470923557",
+        "out": "439b97255139c2a0"
+      },
+      "solutions.segments.5.title": {
+        "src": "4efffedc18186bd5",
+        "out": "ca9d19e08deb7e20"
+      },
+      "solutions.segments.6.title": {
+        "src": "e449ae1df54b2646",
+        "out": "7ba87788c69b01f1"
+      },
+      "solutions.segments.7.title": {
+        "src": "1557a7fe6eb8d12e",
+        "out": "ec915490ac51ee0b"
+      },
+      "solutions.segments.8.title": {
+        "src": "d92d906d804caa8d",
+        "out": "ddfb9c9375b1341f"
+      },
+      "solutions.segments.9.title": {
+        "src": "286eacc4181f7f17",
+        "out": "4797e2506391369a"
+      },
+      "solutions.segments.10.title": {
+        "src": "6151e8e576064e21",
+        "out": "b2cf9e0f25bfacc8"
+      },
+      "solutions.segments.11.title": {
+        "src": "b276d8959f45ee11",
+        "out": "7556414bb5a6d40c"
+      },
+      "solutions.segments.12.title": {
+        "src": "6a7ea03600d74ea9",
+        "out": "2582a3dcde9cbb35"
+      },
+      "solutions.segments.13.title": {
+        "src": "7f0b5405359925a3",
+        "out": "61c447f77732a531"
+      },
+      "solutions.segments.14.title": {
+        "src": "87e6f7069a3258f2",
+        "out": "2eb33c37f02d8634"
+      },
+      "solutions.segments.15.title": {
+        "src": "f107f242539d1f30",
+        "out": "0681ead0c380b658"
+      },
+      "solutions.segments.16.title": {
+        "src": "d5bcd72d457e8e13",
+        "out": "4808624be41172bb"
+      },
+      "solutions.segments.17.title": {
+        "src": "b63551ad4f748fe7",
+        "out": "b63551ad4f748fe7"
+      },
+      "solutions.segments.18.title": {
+        "src": "4f59f21f58b50f43",
+        "out": "4f59f21f58b50f43"
+      },
+      "solutions.segments.19.title": {
+        "src": "cbb7111fe29faedc",
+        "out": "cbb7111fe29faedc"
+      },
+      "faq.0.question": {
+        "src": "92996fc111daa31a",
+        "out": "92996fc111daa31a"
+      },
+      "faq.1.question": {
+        "src": "3e86de20eb0e3c2b",
+        "out": "3e86de20eb0e3c2b"
+      },
+      "faq.2.question": {
+        "src": "3575a7baa3398bab",
+        "out": "3575a7baa3398bab"
+      },
+      "faq.3.question": {
+        "src": "5ececb5415397fda",
+        "out": "5ececb5415397fda"
+      },
+      "faq.4.question": {
+        "src": "9a9c9798f3a61ae7",
+        "out": "9a9c9798f3a61ae7"
+      },
+      "faqButton.label": {
+        "src": "3fa5864e8b105f16",
+        "out": "20959c83b03e64dc"
+      },
+      "seoTitle": {
+        "src": "f5043e70dfbbeac4",
+        "out": "5d4cae9b963759bc"
+      },
+      "seoDescription": {
+        "src": "640843bf5ea2b166",
+        "out": "6f2f3c7d6a576c4a"
+      }
     }
   },
   "de": {
@@ -4780,6 +5130,356 @@
       "articleOthersTitle": {
         "src": "31116a26e34d6e59",
         "out": "d8789ead837c8c1c"
+      }
+    },
+    "investments": {
+      "hero.title": {
+        "src": "313fae6606e5ed8b",
+        "out": "3930f79f07e540a9"
+      },
+      "hero.cta.label": {
+        "src": "813f4576ea052845",
+        "out": "b34b74667348af2a"
+      },
+      "systems.title": {
+        "src": "03970b3b00548707",
+        "out": "c9d88865dd354252"
+      },
+      "systems.slides.0.title": {
+        "src": "d34c2a9e1a59598c",
+        "out": "46f92ce01fe22136"
+      },
+      "systems.slides.1.title": {
+        "src": "e1e29841e740c5b3",
+        "out": "e01c835b7b58f66f"
+      },
+      "systems.slides.2.title": {
+        "src": "6b5a1714ede3b9af",
+        "out": "f222a9a72bc71f72"
+      },
+      "help.title": {
+        "src": "385d761fc5639d68",
+        "out": "35645e7ce79ffbf4"
+      },
+      "help.investorTab": {
+        "src": "b11c0e04e73654ff",
+        "out": "ccde9e04a7cbbf23"
+      },
+      "help.designerTab": {
+        "src": "e088b1b082c5c2cf",
+        "out": "8d107e61fa2836da"
+      },
+      "help.investorText": {
+        "src": "a4f37eefe8ceaa2a",
+        "out": "960c1dfeeb3d33e1"
+      },
+      "help.designerText": {
+        "src": "b4716a20493284f4",
+        "out": "19820629e0458d5f"
+      },
+      "help.areaLabel": {
+        "src": "e2fc22cde182450f",
+        "out": "e50ee2ae6f623b19"
+      },
+      "help.areaPlaceholder": {
+        "src": "f22ac3d78e38fce3",
+        "out": "9357a9ffe68d76fb"
+      },
+      "help.roomsLabel": {
+        "src": "cfe12b5104d6e0ad",
+        "out": "e43b8020e649ceee"
+      },
+      "help.roomsPlaceholder": {
+        "src": "f2de0725203d338e",
+        "out": "e637f21a7ab68bd9"
+      },
+      "help.buildingLabel": {
+        "src": "da1c7e1b32b11e84",
+        "out": "c5c2b7ea88147f42"
+      },
+      "help.buildingPlaceholder": {
+        "src": "c95d58616155d986",
+        "out": "cba9f3309594c7e2"
+      },
+      "help.buildingTypes.0": {
+        "src": "ff809b030b29087e",
+        "out": "11f10143a3089a8c"
+      },
+      "help.buildingTypes.1": {
+        "src": "f43f45dc6f715f31",
+        "out": "8588626355cd21f9"
+      },
+      "help.buildingTypes.2": {
+        "src": "9547a74c4e8ee7a6",
+        "out": "33c634fc61f662f1"
+      },
+      "help.buildingTypes.3": {
+        "src": "b3699b87eb1431d4",
+        "out": "4a13c98dfd62bdd9"
+      },
+      "help.buildingTypes.4": {
+        "src": "a0df1ba470923557",
+        "out": "0a215bab7a196dd9"
+      },
+      "help.buildingTypes.5": {
+        "src": "4efffedc18186bd5",
+        "out": "756f2e323fa67a51"
+      },
+      "help.buildingTypes.6": {
+        "src": "e449ae1df54b2646",
+        "out": "5267b1eb70581975"
+      },
+      "help.buildingTypes.7": {
+        "src": "1557a7fe6eb8d12e",
+        "out": "4f181ff15aeb8a3d"
+      },
+      "help.buildingTypes.8": {
+        "src": "d92d906d804caa8d",
+        "out": "757fd06c3cf8abda"
+      },
+      "help.buildingTypes.9": {
+        "src": "286eacc4181f7f17",
+        "out": "feceae65954e7e6e"
+      },
+      "help.buildingTypes.10": {
+        "src": "6151e8e576064e21",
+        "out": "74305f00175be096"
+      },
+      "help.buildingTypes.11": {
+        "src": "b276d8959f45ee11",
+        "out": "c22eba59285088c3"
+      },
+      "help.buildingTypes.12": {
+        "src": "6a7ea03600d74ea9",
+        "out": "4bab24686fc3af4d"
+      },
+      "help.buildingTypes.13": {
+        "src": "7f0b5405359925a3",
+        "out": "79400d4c6cedd1b3"
+      },
+      "help.buildingTypes.14": {
+        "src": "87e6f7069a3258f2",
+        "out": "30d9ec88ca93cbea"
+      },
+      "help.buildingTypes.15": {
+        "src": "f107f242539d1f30",
+        "out": "f542182b69a6feaa"
+      },
+      "help.buildingTypes.16": {
+        "src": "d5bcd72d457e8e13",
+        "out": "2a43b8ac11f217f1"
+      },
+      "help.showPrices": {
+        "src": "0c500a91200c128d",
+        "out": "14b1a795b76fef17"
+      },
+      "help.from": {
+        "src": "f6d794ec98cedb5e",
+        "out": "da23614e02469a0d"
+      },
+      "help.net": {
+        "src": "65d8c8050a8218df",
+        "out": "65d8c8050a8218df"
+      },
+      "help.priceNote": {
+        "src": "44393998747e229f",
+        "out": "19eeb0bc38238b8d"
+      },
+      "help.phone": {
+        "src": "ec48c2268d8e9e06",
+        "out": "eaeed401d9ad2d14"
+      },
+      "help.email": {
+        "src": "b613ff448a05329a",
+        "out": "94c38cf3dc1d5380"
+      },
+      "help.nip": {
+        "src": "d941014b963ce489",
+        "out": "985d2bf731a7b050"
+      },
+      "help.contactTime": {
+        "src": "9625e261de0cf10a",
+        "out": "8be0a58a82e56054"
+      },
+      "help.contactTimes.0": {
+        "src": "e7a68dfca857623a",
+        "out": "a32466ce951c9049"
+      },
+      "help.contactTimes.1": {
+        "src": "e35cb7a924acad4c",
+        "out": "eca2bc1b6e793b2e"
+      },
+      "help.contactTimes.2": {
+        "src": "de035c14e689050e",
+        "out": "ccfd4e1cab9f2ff7"
+      },
+      "help.contactTimes.3": {
+        "src": "121577d80f59c526",
+        "out": "5455bfb67206ad4e"
+      },
+      "help.consent": {
+        "src": "1d4cc2e643f588dc",
+        "out": "0b361c73a5a6e188"
+      },
+      "help.required": {
+        "src": "b51a1969b159fa15",
+        "out": "59857b3fae1df5d0"
+      },
+      "help.submit": {
+        "src": "843bbb176608f2d5",
+        "out": "17ba0b59f01f679f"
+      },
+      "help.success": {
+        "src": "7ce0f664937703d5",
+        "out": "826032eeafb1e23a"
+      },
+      "help.error": {
+        "src": "dbb174ce4644a8b3",
+        "out": "50b9d1cc27cbfb61"
+      },
+      "projects.title": {
+        "src": "ee257187a3cc01f6",
+        "out": "c912f0312973a14f"
+      },
+      "why.0.title": {
+        "src": "9f0042ab6be0fc25",
+        "out": "302200f01c9ef7e1"
+      },
+      "why.1.title": {
+        "src": "93a0c1df5d9d39ea",
+        "out": "b79f91eb86c1bee8"
+      },
+      "why.2.title": {
+        "src": "8e0923425880769d",
+        "out": "0323fb6e5a1f667b"
+      },
+      "solutions.title": {
+        "src": "8973de66a8b318eb",
+        "out": "3d21bdfa535a79c7"
+      },
+      "solutions.recommend": {
+        "src": "a7ac94ce09f2c835",
+        "out": "b28508ba62f2ddf9"
+      },
+      "solutions.more": {
+        "src": "da8938f3670b44e1",
+        "out": "a6a80aede98cbd87"
+      },
+      "solutions.segments.0.title": {
+        "src": "ff809b030b29087e",
+        "out": "11f10143a3089a8c"
+      },
+      "solutions.segments.1.title": {
+        "src": "c9c8031b3956ef19",
+        "out": "55059329d6b92c6b"
+      },
+      "solutions.segments.1.text": {
+        "src": "9489eec7d159c584",
+        "out": "9cefef652d674a20"
+      },
+      "solutions.segments.2.title": {
+        "src": "9547a74c4e8ee7a6",
+        "out": "33c634fc61f662f1"
+      },
+      "solutions.segments.3.title": {
+        "src": "b3699b87eb1431d4",
+        "out": "4a13c98dfd62bdd9"
+      },
+      "solutions.segments.4.title": {
+        "src": "a0df1ba470923557",
+        "out": "0a215bab7a196dd9"
+      },
+      "solutions.segments.5.title": {
+        "src": "4efffedc18186bd5",
+        "out": "756f2e323fa67a51"
+      },
+      "solutions.segments.6.title": {
+        "src": "e449ae1df54b2646",
+        "out": "5267b1eb70581975"
+      },
+      "solutions.segments.7.title": {
+        "src": "1557a7fe6eb8d12e",
+        "out": "4f181ff15aeb8a3d"
+      },
+      "solutions.segments.8.title": {
+        "src": "d92d906d804caa8d",
+        "out": "757fd06c3cf8abda"
+      },
+      "solutions.segments.9.title": {
+        "src": "286eacc4181f7f17",
+        "out": "feceae65954e7e6e"
+      },
+      "solutions.segments.10.title": {
+        "src": "6151e8e576064e21",
+        "out": "74305f00175be096"
+      },
+      "solutions.segments.11.title": {
+        "src": "b276d8959f45ee11",
+        "out": "c22eba59285088c3"
+      },
+      "solutions.segments.12.title": {
+        "src": "6a7ea03600d74ea9",
+        "out": "4bab24686fc3af4d"
+      },
+      "solutions.segments.13.title": {
+        "src": "7f0b5405359925a3",
+        "out": "79400d4c6cedd1b3"
+      },
+      "solutions.segments.14.title": {
+        "src": "87e6f7069a3258f2",
+        "out": "30d9ec88ca93cbea"
+      },
+      "solutions.segments.15.title": {
+        "src": "f107f242539d1f30",
+        "out": "f542182b69a6feaa"
+      },
+      "solutions.segments.16.title": {
+        "src": "d5bcd72d457e8e13",
+        "out": "2a43b8ac11f217f1"
+      },
+      "solutions.segments.17.title": {
+        "src": "b63551ad4f748fe7",
+        "out": "3c084b87998d4996"
+      },
+      "solutions.segments.18.title": {
+        "src": "4f59f21f58b50f43",
+        "out": "305f97dcfea7ffaf"
+      },
+      "solutions.segments.19.title": {
+        "src": "cbb7111fe29faedc",
+        "out": "b5502f85fe3a6d33"
+      },
+      "faq.0.question": {
+        "src": "92996fc111daa31a",
+        "out": "92996fc111daa31a"
+      },
+      "faq.1.question": {
+        "src": "3e86de20eb0e3c2b",
+        "out": "3e86de20eb0e3c2b"
+      },
+      "faq.2.question": {
+        "src": "3575a7baa3398bab",
+        "out": "3575a7baa3398bab"
+      },
+      "faq.3.question": {
+        "src": "5ececb5415397fda",
+        "out": "5ececb5415397fda"
+      },
+      "faq.4.question": {
+        "src": "9a9c9798f3a61ae7",
+        "out": "9a9c9798f3a61ae7"
+      },
+      "faqButton.label": {
+        "src": "3fa5864e8b105f16",
+        "out": "c5efcb69e37b231d"
+      },
+      "seoTitle": {
+        "src": "f5043e70dfbbeac4",
+        "out": "a45914d3352ef6a9"
+      },
+      "seoDescription": {
+        "src": "640843bf5ea2b166",
+        "out": "c9b2e7ca0feff194"
       }
     }
   },
@@ -7173,6 +7873,356 @@
         "src": "31116a26e34d6e59",
         "out": "377ca9bfe0667c1d"
       }
+    },
+    "investments": {
+      "hero.title": {
+        "src": "313fae6606e5ed8b",
+        "out": "b1e8cd4da2128109"
+      },
+      "hero.cta.label": {
+        "src": "813f4576ea052845",
+        "out": "da536b885302a54d"
+      },
+      "systems.title": {
+        "src": "03970b3b00548707",
+        "out": "06e25d47adaad430"
+      },
+      "systems.slides.0.title": {
+        "src": "d34c2a9e1a59598c",
+        "out": "e3a6f35cad3ce7eb"
+      },
+      "systems.slides.1.title": {
+        "src": "e1e29841e740c5b3",
+        "out": "d7cd569b67f6c2ca"
+      },
+      "systems.slides.2.title": {
+        "src": "6b5a1714ede3b9af",
+        "out": "2405a2b626c13f42"
+      },
+      "help.title": {
+        "src": "385d761fc5639d68",
+        "out": "b8807d20f0b430b7"
+      },
+      "help.investorTab": {
+        "src": "b11c0e04e73654ff",
+        "out": "23a1da73b6e7d92d"
+      },
+      "help.designerTab": {
+        "src": "e088b1b082c5c2cf",
+        "out": "8b9593ba5734673a"
+      },
+      "help.investorText": {
+        "src": "a4f37eefe8ceaa2a",
+        "out": "9b3077436ad98e1c"
+      },
+      "help.designerText": {
+        "src": "b4716a20493284f4",
+        "out": "2186438f31ab0409"
+      },
+      "help.areaLabel": {
+        "src": "e2fc22cde182450f",
+        "out": "a4bb3007572482e9"
+      },
+      "help.areaPlaceholder": {
+        "src": "f22ac3d78e38fce3",
+        "out": "9efae61802fb4ec2"
+      },
+      "help.roomsLabel": {
+        "src": "cfe12b5104d6e0ad",
+        "out": "bf2eb8e0bc768f46"
+      },
+      "help.roomsPlaceholder": {
+        "src": "f2de0725203d338e",
+        "out": "c2b0dab759104fc0"
+      },
+      "help.buildingLabel": {
+        "src": "da1c7e1b32b11e84",
+        "out": "7d049525f15dd80f"
+      },
+      "help.buildingPlaceholder": {
+        "src": "c95d58616155d986",
+        "out": "1a306bd2a5fcd2d9"
+      },
+      "help.buildingTypes.0": {
+        "src": "ff809b030b29087e",
+        "out": "f63ef84eadf19ade"
+      },
+      "help.buildingTypes.1": {
+        "src": "f43f45dc6f715f31",
+        "out": "214d74cb879c80a6"
+      },
+      "help.buildingTypes.2": {
+        "src": "9547a74c4e8ee7a6",
+        "out": "4b6ed0298c9aff00"
+      },
+      "help.buildingTypes.3": {
+        "src": "b3699b87eb1431d4",
+        "out": "cd35d54095b5834f"
+      },
+      "help.buildingTypes.4": {
+        "src": "a0df1ba470923557",
+        "out": "7b92f9d66cb691f0"
+      },
+      "help.buildingTypes.5": {
+        "src": "4efffedc18186bd5",
+        "out": "ae7947f467c09bc4"
+      },
+      "help.buildingTypes.6": {
+        "src": "e449ae1df54b2646",
+        "out": "702e943b045c5d5e"
+      },
+      "help.buildingTypes.7": {
+        "src": "1557a7fe6eb8d12e",
+        "out": "dd4b30b65d2d6efd"
+      },
+      "help.buildingTypes.8": {
+        "src": "d92d906d804caa8d",
+        "out": "21c107bc898a4a2c"
+      },
+      "help.buildingTypes.9": {
+        "src": "286eacc4181f7f17",
+        "out": "788a2c16ad7c87bc"
+      },
+      "help.buildingTypes.10": {
+        "src": "6151e8e576064e21",
+        "out": "4e0ca4f538193ede"
+      },
+      "help.buildingTypes.11": {
+        "src": "b276d8959f45ee11",
+        "out": "e026a757506aa8a0"
+      },
+      "help.buildingTypes.12": {
+        "src": "6a7ea03600d74ea9",
+        "out": "a0742907c7a90f51"
+      },
+      "help.buildingTypes.13": {
+        "src": "7f0b5405359925a3",
+        "out": "358e1f90f7c9b8ef"
+      },
+      "help.buildingTypes.14": {
+        "src": "87e6f7069a3258f2",
+        "out": "f9f9341c11709097"
+      },
+      "help.buildingTypes.15": {
+        "src": "f107f242539d1f30",
+        "out": "2dd8d6e62f08919f"
+      },
+      "help.buildingTypes.16": {
+        "src": "d5bcd72d457e8e13",
+        "out": "0007810f4a401126"
+      },
+      "help.showPrices": {
+        "src": "0c500a91200c128d",
+        "out": "9a5bfe1c4d5c42da"
+      },
+      "help.from": {
+        "src": "f6d794ec98cedb5e",
+        "out": "5fdf48f5742c8e16"
+      },
+      "help.net": {
+        "src": "65d8c8050a8218df",
+        "out": "64c38cf29a15ea03"
+      },
+      "help.priceNote": {
+        "src": "44393998747e229f",
+        "out": "2ad8f254414e2e00"
+      },
+      "help.phone": {
+        "src": "ec48c2268d8e9e06",
+        "out": "d70444f6e4b3f376"
+      },
+      "help.email": {
+        "src": "b613ff448a05329a",
+        "out": "af7f824384f34275"
+      },
+      "help.nip": {
+        "src": "d941014b963ce489",
+        "out": "32cd821877419565"
+      },
+      "help.contactTime": {
+        "src": "9625e261de0cf10a",
+        "out": "cf9107d9d30ed176"
+      },
+      "help.contactTimes.0": {
+        "src": "e7a68dfca857623a",
+        "out": "3f6b88a400a2393c"
+      },
+      "help.contactTimes.1": {
+        "src": "e35cb7a924acad4c",
+        "out": "889be4bd21f16ebb"
+      },
+      "help.contactTimes.2": {
+        "src": "de035c14e689050e",
+        "out": "9236648285d21576"
+      },
+      "help.contactTimes.3": {
+        "src": "121577d80f59c526",
+        "out": "f2c261f2fa86b366"
+      },
+      "help.consent": {
+        "src": "1d4cc2e643f588dc",
+        "out": "de135d82adfec51a"
+      },
+      "help.required": {
+        "src": "b51a1969b159fa15",
+        "out": "3f27348afd845a8e"
+      },
+      "help.submit": {
+        "src": "843bbb176608f2d5",
+        "out": "64990849cc586b3e"
+      },
+      "help.success": {
+        "src": "7ce0f664937703d5",
+        "out": "9ffd147f5ce82736"
+      },
+      "help.error": {
+        "src": "dbb174ce4644a8b3",
+        "out": "6471f8e0d07836b5"
+      },
+      "projects.title": {
+        "src": "ee257187a3cc01f6",
+        "out": "3e429048d497654c"
+      },
+      "why.0.title": {
+        "src": "9f0042ab6be0fc25",
+        "out": "1ea87bbed68760fd"
+      },
+      "why.1.title": {
+        "src": "93a0c1df5d9d39ea",
+        "out": "be0d3d6be44a2ed7"
+      },
+      "why.2.title": {
+        "src": "8e0923425880769d",
+        "out": "da9db7a1d12f7605"
+      },
+      "solutions.title": {
+        "src": "8973de66a8b318eb",
+        "out": "8adf48602f5ef962"
+      },
+      "solutions.recommend": {
+        "src": "a7ac94ce09f2c835",
+        "out": "58a2152c64bea0ff"
+      },
+      "solutions.more": {
+        "src": "da8938f3670b44e1",
+        "out": "6b59e1974915f354"
+      },
+      "solutions.segments.0.title": {
+        "src": "ff809b030b29087e",
+        "out": "f63ef84eadf19ade"
+      },
+      "solutions.segments.1.title": {
+        "src": "c9c8031b3956ef19",
+        "out": "3be92df6feb85e37"
+      },
+      "solutions.segments.1.text": {
+        "src": "9489eec7d159c584",
+        "out": "b81d1d86c676a641"
+      },
+      "solutions.segments.2.title": {
+        "src": "9547a74c4e8ee7a6",
+        "out": "4b6ed0298c9aff00"
+      },
+      "solutions.segments.3.title": {
+        "src": "b3699b87eb1431d4",
+        "out": "cd35d54095b5834f"
+      },
+      "solutions.segments.4.title": {
+        "src": "a0df1ba470923557",
+        "out": "7b92f9d66cb691f0"
+      },
+      "solutions.segments.5.title": {
+        "src": "4efffedc18186bd5",
+        "out": "ae7947f467c09bc4"
+      },
+      "solutions.segments.6.title": {
+        "src": "e449ae1df54b2646",
+        "out": "702e943b045c5d5e"
+      },
+      "solutions.segments.7.title": {
+        "src": "1557a7fe6eb8d12e",
+        "out": "dd4b30b65d2d6efd"
+      },
+      "solutions.segments.8.title": {
+        "src": "d92d906d804caa8d",
+        "out": "21c107bc898a4a2c"
+      },
+      "solutions.segments.9.title": {
+        "src": "286eacc4181f7f17",
+        "out": "788a2c16ad7c87bc"
+      },
+      "solutions.segments.10.title": {
+        "src": "6151e8e576064e21",
+        "out": "4e0ca4f538193ede"
+      },
+      "solutions.segments.11.title": {
+        "src": "b276d8959f45ee11",
+        "out": "e026a757506aa8a0"
+      },
+      "solutions.segments.12.title": {
+        "src": "6a7ea03600d74ea9",
+        "out": "a0742907c7a90f51"
+      },
+      "solutions.segments.13.title": {
+        "src": "7f0b5405359925a3",
+        "out": "358e1f90f7c9b8ef"
+      },
+      "solutions.segments.14.title": {
+        "src": "87e6f7069a3258f2",
+        "out": "f9f9341c11709097"
+      },
+      "solutions.segments.15.title": {
+        "src": "f107f242539d1f30",
+        "out": "2dd8d6e62f08919f"
+      },
+      "solutions.segments.16.title": {
+        "src": "d5bcd72d457e8e13",
+        "out": "0007810f4a401126"
+      },
+      "solutions.segments.17.title": {
+        "src": "b63551ad4f748fe7",
+        "out": "03a22c797cd61cca"
+      },
+      "solutions.segments.18.title": {
+        "src": "4f59f21f58b50f43",
+        "out": "d3c0b425f1ce975d"
+      },
+      "solutions.segments.19.title": {
+        "src": "cbb7111fe29faedc",
+        "out": "3f0bb6e6c1543f17"
+      },
+      "faq.0.question": {
+        "src": "92996fc111daa31a",
+        "out": "92996fc111daa31a"
+      },
+      "faq.1.question": {
+        "src": "3e86de20eb0e3c2b",
+        "out": "3e86de20eb0e3c2b"
+      },
+      "faq.2.question": {
+        "src": "3575a7baa3398bab",
+        "out": "3575a7baa3398bab"
+      },
+      "faq.3.question": {
+        "src": "5ececb5415397fda",
+        "out": "5ececb5415397fda"
+      },
+      "faq.4.question": {
+        "src": "9a9c9798f3a61ae7",
+        "out": "9a9c9798f3a61ae7"
+      },
+      "faqButton.label": {
+        "src": "3fa5864e8b105f16",
+        "out": "3e8aa64e4ed3221a"
+      },
+      "seoTitle": {
+        "src": "f5043e70dfbbeac4",
+        "out": "f2076a65619c2647"
+      },
+      "seoDescription": {
+        "src": "640843bf5ea2b166",
+        "out": "1cf7fda3b134c1b4"
+      }
     }
   },
   "cs": {
@@ -9564,6 +10614,356 @@
       "articleOthersTitle": {
         "src": "31116a26e34d6e59",
         "out": "0d1e99f9e1fc8d7f"
+      }
+    },
+    "investments": {
+      "hero.title": {
+        "src": "313fae6606e5ed8b",
+        "out": "5dd646d4e7fd4f56"
+      },
+      "hero.cta.label": {
+        "src": "813f4576ea052845",
+        "out": "5b497a645d26ad62"
+      },
+      "systems.title": {
+        "src": "03970b3b00548707",
+        "out": "743893d55896eb0f"
+      },
+      "systems.slides.0.title": {
+        "src": "d34c2a9e1a59598c",
+        "out": "c1b6e54defa7b54b"
+      },
+      "systems.slides.1.title": {
+        "src": "e1e29841e740c5b3",
+        "out": "46f9420cffd7f8c9"
+      },
+      "systems.slides.2.title": {
+        "src": "6b5a1714ede3b9af",
+        "out": "d3c25d14d87d8bd4"
+      },
+      "help.title": {
+        "src": "385d761fc5639d68",
+        "out": "cf75dba2e4d09c2b"
+      },
+      "help.investorTab": {
+        "src": "b11c0e04e73654ff",
+        "out": "c0ed1c88c0c89196"
+      },
+      "help.designerTab": {
+        "src": "e088b1b082c5c2cf",
+        "out": "98e818191d994e22"
+      },
+      "help.investorText": {
+        "src": "a4f37eefe8ceaa2a",
+        "out": "7151cc0eb52f09d2"
+      },
+      "help.designerText": {
+        "src": "b4716a20493284f4",
+        "out": "be4fb34e2f741c88"
+      },
+      "help.areaLabel": {
+        "src": "e2fc22cde182450f",
+        "out": "2f7d340ab1bdaf6c"
+      },
+      "help.areaPlaceholder": {
+        "src": "f22ac3d78e38fce3",
+        "out": "c0094a5e22225451"
+      },
+      "help.roomsLabel": {
+        "src": "cfe12b5104d6e0ad",
+        "out": "026f4c781e407bac"
+      },
+      "help.roomsPlaceholder": {
+        "src": "f2de0725203d338e",
+        "out": "d9d8d0807bf43102"
+      },
+      "help.buildingLabel": {
+        "src": "da1c7e1b32b11e84",
+        "out": "e1a3826e8cc612ce"
+      },
+      "help.buildingPlaceholder": {
+        "src": "c95d58616155d986",
+        "out": "d4717825f57b8f46"
+      },
+      "help.buildingTypes.0": {
+        "src": "ff809b030b29087e",
+        "out": "681e066c06aaea34"
+      },
+      "help.buildingTypes.1": {
+        "src": "f43f45dc6f715f31",
+        "out": "80485f867e3ac49a"
+      },
+      "help.buildingTypes.2": {
+        "src": "9547a74c4e8ee7a6",
+        "out": "8cc3a3044e0f5861"
+      },
+      "help.buildingTypes.3": {
+        "src": "b3699b87eb1431d4",
+        "out": "587a4a715845d921"
+      },
+      "help.buildingTypes.4": {
+        "src": "a0df1ba470923557",
+        "out": "b09ad99df9cadac7"
+      },
+      "help.buildingTypes.5": {
+        "src": "4efffedc18186bd5",
+        "out": "86c02ba49d921a31"
+      },
+      "help.buildingTypes.6": {
+        "src": "e449ae1df54b2646",
+        "out": "73260c66be4c436c"
+      },
+      "help.buildingTypes.7": {
+        "src": "1557a7fe6eb8d12e",
+        "out": "9ddb6dde74d1694c"
+      },
+      "help.buildingTypes.8": {
+        "src": "d92d906d804caa8d",
+        "out": "a35fb7a66d318211"
+      },
+      "help.buildingTypes.9": {
+        "src": "286eacc4181f7f17",
+        "out": "009837f454f8ac5f"
+      },
+      "help.buildingTypes.10": {
+        "src": "6151e8e576064e21",
+        "out": "5b670f8eabbd950b"
+      },
+      "help.buildingTypes.11": {
+        "src": "b276d8959f45ee11",
+        "out": "da7fb8817f86ddb5"
+      },
+      "help.buildingTypes.12": {
+        "src": "6a7ea03600d74ea9",
+        "out": "4824220db33da739"
+      },
+      "help.buildingTypes.13": {
+        "src": "7f0b5405359925a3",
+        "out": "dfc625b090f1ab54"
+      },
+      "help.buildingTypes.14": {
+        "src": "87e6f7069a3258f2",
+        "out": "753a3a1bf622ff2d"
+      },
+      "help.buildingTypes.15": {
+        "src": "f107f242539d1f30",
+        "out": "ba7f00582408c07a"
+      },
+      "help.buildingTypes.16": {
+        "src": "d5bcd72d457e8e13",
+        "out": "4d5326c3743cc172"
+      },
+      "help.showPrices": {
+        "src": "0c500a91200c128d",
+        "out": "10f726440701cf7f"
+      },
+      "help.from": {
+        "src": "f6d794ec98cedb5e",
+        "out": "f6d794ec98cedb5e"
+      },
+      "help.net": {
+        "src": "65d8c8050a8218df",
+        "out": "cea7774a90a85fcc"
+      },
+      "help.priceNote": {
+        "src": "44393998747e229f",
+        "out": "f5810e9ecafbf0dd"
+      },
+      "help.phone": {
+        "src": "ec48c2268d8e9e06",
+        "out": "b2d7f80523643abc"
+      },
+      "help.email": {
+        "src": "b613ff448a05329a",
+        "out": "3b97bca8328c6120"
+      },
+      "help.nip": {
+        "src": "d941014b963ce489",
+        "out": "c9a920ab95a3f201"
+      },
+      "help.contactTime": {
+        "src": "9625e261de0cf10a",
+        "out": "0cb23b73fddac0e7"
+      },
+      "help.contactTimes.0": {
+        "src": "e7a68dfca857623a",
+        "out": "c3eb308a2944c471"
+      },
+      "help.contactTimes.1": {
+        "src": "e35cb7a924acad4c",
+        "out": "5ffb88f47f97762e"
+      },
+      "help.contactTimes.2": {
+        "src": "de035c14e689050e",
+        "out": "4620eeb8deaf3ae0"
+      },
+      "help.contactTimes.3": {
+        "src": "121577d80f59c526",
+        "out": "af20e97189509f7d"
+      },
+      "help.consent": {
+        "src": "1d4cc2e643f588dc",
+        "out": "cc9f2b5f11711328"
+      },
+      "help.required": {
+        "src": "b51a1969b159fa15",
+        "out": "60e4eb72c8c35b0d"
+      },
+      "help.submit": {
+        "src": "843bbb176608f2d5",
+        "out": "17bfdaecc3ec8b6d"
+      },
+      "help.success": {
+        "src": "7ce0f664937703d5",
+        "out": "342358fcd90b0b30"
+      },
+      "help.error": {
+        "src": "dbb174ce4644a8b3",
+        "out": "4283777b620bd21d"
+      },
+      "projects.title": {
+        "src": "ee257187a3cc01f6",
+        "out": "91ae3d219e6dd496"
+      },
+      "why.0.title": {
+        "src": "9f0042ab6be0fc25",
+        "out": "b7047eba39c5379b"
+      },
+      "why.1.title": {
+        "src": "93a0c1df5d9d39ea",
+        "out": "d399e716dadbcbeb"
+      },
+      "why.2.title": {
+        "src": "8e0923425880769d",
+        "out": "fba071161f223cdf"
+      },
+      "solutions.title": {
+        "src": "8973de66a8b318eb",
+        "out": "4c09cb39f3cfac96"
+      },
+      "solutions.recommend": {
+        "src": "a7ac94ce09f2c835",
+        "out": "0c26a87286f3ff8f"
+      },
+      "solutions.more": {
+        "src": "da8938f3670b44e1",
+        "out": "f59c1393599a1e4d"
+      },
+      "solutions.segments.0.title": {
+        "src": "ff809b030b29087e",
+        "out": "681e066c06aaea34"
+      },
+      "solutions.segments.1.title": {
+        "src": "c9c8031b3956ef19",
+        "out": "a6b24befc9f1dbbf"
+      },
+      "solutions.segments.1.text": {
+        "src": "9489eec7d159c584",
+        "out": "cfbf43a1f311525d"
+      },
+      "solutions.segments.2.title": {
+        "src": "9547a74c4e8ee7a6",
+        "out": "8cc3a3044e0f5861"
+      },
+      "solutions.segments.3.title": {
+        "src": "b3699b87eb1431d4",
+        "out": "587a4a715845d921"
+      },
+      "solutions.segments.4.title": {
+        "src": "a0df1ba470923557",
+        "out": "b09ad99df9cadac7"
+      },
+      "solutions.segments.5.title": {
+        "src": "4efffedc18186bd5",
+        "out": "86c02ba49d921a31"
+      },
+      "solutions.segments.6.title": {
+        "src": "e449ae1df54b2646",
+        "out": "73260c66be4c436c"
+      },
+      "solutions.segments.7.title": {
+        "src": "1557a7fe6eb8d12e",
+        "out": "9ddb6dde74d1694c"
+      },
+      "solutions.segments.8.title": {
+        "src": "d92d906d804caa8d",
+        "out": "a35fb7a66d318211"
+      },
+      "solutions.segments.9.title": {
+        "src": "286eacc4181f7f17",
+        "out": "009837f454f8ac5f"
+      },
+      "solutions.segments.10.title": {
+        "src": "6151e8e576064e21",
+        "out": "5b670f8eabbd950b"
+      },
+      "solutions.segments.11.title": {
+        "src": "b276d8959f45ee11",
+        "out": "da7fb8817f86ddb5"
+      },
+      "solutions.segments.12.title": {
+        "src": "6a7ea03600d74ea9",
+        "out": "4824220db33da739"
+      },
+      "solutions.segments.13.title": {
+        "src": "7f0b5405359925a3",
+        "out": "dfc625b090f1ab54"
+      },
+      "solutions.segments.14.title": {
+        "src": "87e6f7069a3258f2",
+        "out": "753a3a1bf622ff2d"
+      },
+      "solutions.segments.15.title": {
+        "src": "f107f242539d1f30",
+        "out": "ba7f00582408c07a"
+      },
+      "solutions.segments.16.title": {
+        "src": "d5bcd72d457e8e13",
+        "out": "4d5326c3743cc172"
+      },
+      "solutions.segments.17.title": {
+        "src": "b63551ad4f748fe7",
+        "out": "b63551ad4f748fe7"
+      },
+      "solutions.segments.18.title": {
+        "src": "4f59f21f58b50f43",
+        "out": "4f59f21f58b50f43"
+      },
+      "solutions.segments.19.title": {
+        "src": "cbb7111fe29faedc",
+        "out": "cbb7111fe29faedc"
+      },
+      "faq.0.question": {
+        "src": "92996fc111daa31a",
+        "out": "92996fc111daa31a"
+      },
+      "faq.1.question": {
+        "src": "3e86de20eb0e3c2b",
+        "out": "3e86de20eb0e3c2b"
+      },
+      "faq.2.question": {
+        "src": "3575a7baa3398bab",
+        "out": "3575a7baa3398bab"
+      },
+      "faq.3.question": {
+        "src": "5ececb5415397fda",
+        "out": "5ececb5415397fda"
+      },
+      "faq.4.question": {
+        "src": "9a9c9798f3a61ae7",
+        "out": "9a9c9798f3a61ae7"
+      },
+      "faqButton.label": {
+        "src": "3fa5864e8b105f16",
+        "out": "0cc5902b3a05e96e"
+      },
+      "seoTitle": {
+        "src": "f5043e70dfbbeac4",
+        "out": "917cfe3083bacc64"
+      },
+      "seoDescription": {
+        "src": "640843bf5ea2b166",
+        "out": "7d1cec3957e9d062"
       }
     }
   },
@@ -11957,6 +13357,356 @@
         "src": "31116a26e34d6e59",
         "out": "12403725cbc33560"
       }
+    },
+    "investments": {
+      "hero.title": {
+        "src": "313fae6606e5ed8b",
+        "out": "0d26e16805f8c9ea"
+      },
+      "hero.cta.label": {
+        "src": "813f4576ea052845",
+        "out": "cd08872b7de6f0bb"
+      },
+      "systems.title": {
+        "src": "03970b3b00548707",
+        "out": "3bd647852fee1c05"
+      },
+      "systems.slides.0.title": {
+        "src": "d34c2a9e1a59598c",
+        "out": "0619c48cac70b4d4"
+      },
+      "systems.slides.1.title": {
+        "src": "e1e29841e740c5b3",
+        "out": "4ad87bc6b26e5e7e"
+      },
+      "systems.slides.2.title": {
+        "src": "6b5a1714ede3b9af",
+        "out": "235c694488fdd933"
+      },
+      "help.title": {
+        "src": "385d761fc5639d68",
+        "out": "21204b50ad711793"
+      },
+      "help.investorTab": {
+        "src": "b11c0e04e73654ff",
+        "out": "34f5331d468b64b1"
+      },
+      "help.designerTab": {
+        "src": "e088b1b082c5c2cf",
+        "out": "8daf933975eab20f"
+      },
+      "help.investorText": {
+        "src": "a4f37eefe8ceaa2a",
+        "out": "92fff147f580eaee"
+      },
+      "help.designerText": {
+        "src": "b4716a20493284f4",
+        "out": "f67a7fb36f3fa07b"
+      },
+      "help.areaLabel": {
+        "src": "e2fc22cde182450f",
+        "out": "a33fbb3cba0ad01f"
+      },
+      "help.areaPlaceholder": {
+        "src": "f22ac3d78e38fce3",
+        "out": "283bda567c95430c"
+      },
+      "help.roomsLabel": {
+        "src": "cfe12b5104d6e0ad",
+        "out": "f52287ae6b69af19"
+      },
+      "help.roomsPlaceholder": {
+        "src": "f2de0725203d338e",
+        "out": "6cb1d06baa1906cd"
+      },
+      "help.buildingLabel": {
+        "src": "da1c7e1b32b11e84",
+        "out": "b63819a2f3b8d5c5"
+      },
+      "help.buildingPlaceholder": {
+        "src": "c95d58616155d986",
+        "out": "c91fa7c9565e388f"
+      },
+      "help.buildingTypes.0": {
+        "src": "ff809b030b29087e",
+        "out": "a462925f29c369d7"
+      },
+      "help.buildingTypes.1": {
+        "src": "f43f45dc6f715f31",
+        "out": "44dd2c177281a681"
+      },
+      "help.buildingTypes.2": {
+        "src": "9547a74c4e8ee7a6",
+        "out": "bd2fe9b521b304b1"
+      },
+      "help.buildingTypes.3": {
+        "src": "b3699b87eb1431d4",
+        "out": "ba2ae2c1bad1872f"
+      },
+      "help.buildingTypes.4": {
+        "src": "a0df1ba470923557",
+        "out": "c7901c351de032e6"
+      },
+      "help.buildingTypes.5": {
+        "src": "4efffedc18186bd5",
+        "out": "4327fb351e79dd78"
+      },
+      "help.buildingTypes.6": {
+        "src": "e449ae1df54b2646",
+        "out": "02daa422b25a7ae8"
+      },
+      "help.buildingTypes.7": {
+        "src": "1557a7fe6eb8d12e",
+        "out": "2dcbfadef44163a3"
+      },
+      "help.buildingTypes.8": {
+        "src": "d92d906d804caa8d",
+        "out": "9cfe76a8da115cdc"
+      },
+      "help.buildingTypes.9": {
+        "src": "286eacc4181f7f17",
+        "out": "c751353efbb41f24"
+      },
+      "help.buildingTypes.10": {
+        "src": "6151e8e576064e21",
+        "out": "d88a3442dde6eba3"
+      },
+      "help.buildingTypes.11": {
+        "src": "b276d8959f45ee11",
+        "out": "cddbfbd177f31dc4"
+      },
+      "help.buildingTypes.12": {
+        "src": "6a7ea03600d74ea9",
+        "out": "3035498cd9655779"
+      },
+      "help.buildingTypes.13": {
+        "src": "7f0b5405359925a3",
+        "out": "4ee222f223970e2f"
+      },
+      "help.buildingTypes.14": {
+        "src": "87e6f7069a3258f2",
+        "out": "f91e5ca58d58c45d"
+      },
+      "help.buildingTypes.15": {
+        "src": "f107f242539d1f30",
+        "out": "9d23c5f7f80c5ffd"
+      },
+      "help.buildingTypes.16": {
+        "src": "d5bcd72d457e8e13",
+        "out": "8c2631685e60a389"
+      },
+      "help.showPrices": {
+        "src": "0c500a91200c128d",
+        "out": "6cd04b096d4df16d"
+      },
+      "help.from": {
+        "src": "f6d794ec98cedb5e",
+        "out": "cdd4f874095045f4"
+      },
+      "help.net": {
+        "src": "65d8c8050a8218df",
+        "out": "65d8c8050a8218df"
+      },
+      "help.priceNote": {
+        "src": "44393998747e229f",
+        "out": "c5dac0b1b70d0408"
+      },
+      "help.phone": {
+        "src": "ec48c2268d8e9e06",
+        "out": "ee57a4a8e67055e4"
+      },
+      "help.email": {
+        "src": "b613ff448a05329a",
+        "out": "d209be15f39ac781"
+      },
+      "help.nip": {
+        "src": "d941014b963ce489",
+        "out": "6d4e106f84764ac6"
+      },
+      "help.contactTime": {
+        "src": "9625e261de0cf10a",
+        "out": "011d9be51486e38c"
+      },
+      "help.contactTimes.0": {
+        "src": "e7a68dfca857623a",
+        "out": "ff9285b7f14f6fae"
+      },
+      "help.contactTimes.1": {
+        "src": "e35cb7a924acad4c",
+        "out": "3da091d78113aff5"
+      },
+      "help.contactTimes.2": {
+        "src": "de035c14e689050e",
+        "out": "3c64d006fb2a2535"
+      },
+      "help.contactTimes.3": {
+        "src": "121577d80f59c526",
+        "out": "ded1c14e5d94a1ec"
+      },
+      "help.consent": {
+        "src": "1d4cc2e643f588dc",
+        "out": "accff8c728dc5a97"
+      },
+      "help.required": {
+        "src": "b51a1969b159fa15",
+        "out": "be7baec5f089c6d8"
+      },
+      "help.submit": {
+        "src": "843bbb176608f2d5",
+        "out": "465f9da1ce593f20"
+      },
+      "help.success": {
+        "src": "7ce0f664937703d5",
+        "out": "737b4e5ea676d528"
+      },
+      "help.error": {
+        "src": "dbb174ce4644a8b3",
+        "out": "86cedf868b69261d"
+      },
+      "projects.title": {
+        "src": "ee257187a3cc01f6",
+        "out": "8a86aadba2d6bc78"
+      },
+      "why.0.title": {
+        "src": "9f0042ab6be0fc25",
+        "out": "574208754b95c91e"
+      },
+      "why.1.title": {
+        "src": "93a0c1df5d9d39ea",
+        "out": "7db27685e97d526c"
+      },
+      "why.2.title": {
+        "src": "8e0923425880769d",
+        "out": "8f324f555d2126fe"
+      },
+      "solutions.title": {
+        "src": "8973de66a8b318eb",
+        "out": "417532819412ec87"
+      },
+      "solutions.recommend": {
+        "src": "a7ac94ce09f2c835",
+        "out": "44bb8942bfb0fa32"
+      },
+      "solutions.more": {
+        "src": "da8938f3670b44e1",
+        "out": "567a30c8fa229239"
+      },
+      "solutions.segments.0.title": {
+        "src": "ff809b030b29087e",
+        "out": "a462925f29c369d7"
+      },
+      "solutions.segments.1.title": {
+        "src": "c9c8031b3956ef19",
+        "out": "4b7bf9ece59eb89a"
+      },
+      "solutions.segments.1.text": {
+        "src": "9489eec7d159c584",
+        "out": "74f692c08f3441cf"
+      },
+      "solutions.segments.2.title": {
+        "src": "9547a74c4e8ee7a6",
+        "out": "bd2fe9b521b304b1"
+      },
+      "solutions.segments.3.title": {
+        "src": "b3699b87eb1431d4",
+        "out": "ba2ae2c1bad1872f"
+      },
+      "solutions.segments.4.title": {
+        "src": "a0df1ba470923557",
+        "out": "c7901c351de032e6"
+      },
+      "solutions.segments.5.title": {
+        "src": "4efffedc18186bd5",
+        "out": "4327fb351e79dd78"
+      },
+      "solutions.segments.6.title": {
+        "src": "e449ae1df54b2646",
+        "out": "02daa422b25a7ae8"
+      },
+      "solutions.segments.7.title": {
+        "src": "1557a7fe6eb8d12e",
+        "out": "2dcbfadef44163a3"
+      },
+      "solutions.segments.8.title": {
+        "src": "d92d906d804caa8d",
+        "out": "9cfe76a8da115cdc"
+      },
+      "solutions.segments.9.title": {
+        "src": "286eacc4181f7f17",
+        "out": "c751353efbb41f24"
+      },
+      "solutions.segments.10.title": {
+        "src": "6151e8e576064e21",
+        "out": "d88a3442dde6eba3"
+      },
+      "solutions.segments.11.title": {
+        "src": "b276d8959f45ee11",
+        "out": "cddbfbd177f31dc4"
+      },
+      "solutions.segments.12.title": {
+        "src": "6a7ea03600d74ea9",
+        "out": "3035498cd9655779"
+      },
+      "solutions.segments.13.title": {
+        "src": "7f0b5405359925a3",
+        "out": "4ee222f223970e2f"
+      },
+      "solutions.segments.14.title": {
+        "src": "87e6f7069a3258f2",
+        "out": "f91e5ca58d58c45d"
+      },
+      "solutions.segments.15.title": {
+        "src": "f107f242539d1f30",
+        "out": "9d23c5f7f80c5ffd"
+      },
+      "solutions.segments.16.title": {
+        "src": "d5bcd72d457e8e13",
+        "out": "8c2631685e60a389"
+      },
+      "solutions.segments.17.title": {
+        "src": "b63551ad4f748fe7",
+        "out": "170e0ab1bb25e252"
+      },
+      "solutions.segments.18.title": {
+        "src": "4f59f21f58b50f43",
+        "out": "cb61f6a09d9dac8c"
+      },
+      "solutions.segments.19.title": {
+        "src": "cbb7111fe29faedc",
+        "out": "7fbadec39165cc72"
+      },
+      "faq.0.question": {
+        "src": "92996fc111daa31a",
+        "out": "92996fc111daa31a"
+      },
+      "faq.1.question": {
+        "src": "3e86de20eb0e3c2b",
+        "out": "3e86de20eb0e3c2b"
+      },
+      "faq.2.question": {
+        "src": "3575a7baa3398bab",
+        "out": "3575a7baa3398bab"
+      },
+      "faq.3.question": {
+        "src": "5ececb5415397fda",
+        "out": "5ececb5415397fda"
+      },
+      "faq.4.question": {
+        "src": "9a9c9798f3a61ae7",
+        "out": "9a9c9798f3a61ae7"
+      },
+      "faqButton.label": {
+        "src": "3fa5864e8b105f16",
+        "out": "89d9515c5273f96c"
+      },
+      "seoTitle": {
+        "src": "f5043e70dfbbeac4",
+        "out": "92b196874eb65e90"
+      },
+      "seoDescription": {
+        "src": "640843bf5ea2b166",
+        "out": "34e975b647ada7e5"
+      }
     }
   },
   "uk": {
@@ -14348,6 +16098,356 @@
       "articleOthersTitle": {
         "src": "31116a26e34d6e59",
         "out": "83fd628299ce1a06"
+      }
+    },
+    "investments": {
+      "hero.title": {
+        "src": "313fae6606e5ed8b",
+        "out": "3f912274bb2b7bb4"
+      },
+      "hero.cta.label": {
+        "src": "813f4576ea052845",
+        "out": "deeae81b72b94212"
+      },
+      "systems.title": {
+        "src": "03970b3b00548707",
+        "out": "d5449166e1c45c5d"
+      },
+      "systems.slides.0.title": {
+        "src": "d34c2a9e1a59598c",
+        "out": "8c225bc64570a672"
+      },
+      "systems.slides.1.title": {
+        "src": "e1e29841e740c5b3",
+        "out": "a3c3e5860641ca0f"
+      },
+      "systems.slides.2.title": {
+        "src": "6b5a1714ede3b9af",
+        "out": "995f1ff206b7f3a8"
+      },
+      "help.title": {
+        "src": "385d761fc5639d68",
+        "out": "c9aeb911a7ae2ee4"
+      },
+      "help.investorTab": {
+        "src": "b11c0e04e73654ff",
+        "out": "4b75d5bc10a1c018"
+      },
+      "help.designerTab": {
+        "src": "e088b1b082c5c2cf",
+        "out": "46a659f2343f4d87"
+      },
+      "help.investorText": {
+        "src": "a4f37eefe8ceaa2a",
+        "out": "45f10ef0b7410bbe"
+      },
+      "help.designerText": {
+        "src": "b4716a20493284f4",
+        "out": "7afb20022d4d4ce9"
+      },
+      "help.areaLabel": {
+        "src": "e2fc22cde182450f",
+        "out": "68104aa34636e0bb"
+      },
+      "help.areaPlaceholder": {
+        "src": "f22ac3d78e38fce3",
+        "out": "69c06f2df76b4994"
+      },
+      "help.roomsLabel": {
+        "src": "cfe12b5104d6e0ad",
+        "out": "f1b96bd8efbf558c"
+      },
+      "help.roomsPlaceholder": {
+        "src": "f2de0725203d338e",
+        "out": "10bc7a08bd1e575b"
+      },
+      "help.buildingLabel": {
+        "src": "da1c7e1b32b11e84",
+        "out": "6db092bb26bf9c61"
+      },
+      "help.buildingPlaceholder": {
+        "src": "c95d58616155d986",
+        "out": "2ca63878de381fcb"
+      },
+      "help.buildingTypes.0": {
+        "src": "ff809b030b29087e",
+        "out": "0367e262ca120b50"
+      },
+      "help.buildingTypes.1": {
+        "src": "f43f45dc6f715f31",
+        "out": "aa0f7f16315c3563"
+      },
+      "help.buildingTypes.2": {
+        "src": "9547a74c4e8ee7a6",
+        "out": "773f7a249073e8eb"
+      },
+      "help.buildingTypes.3": {
+        "src": "b3699b87eb1431d4",
+        "out": "1280d7ce0846a07a"
+      },
+      "help.buildingTypes.4": {
+        "src": "a0df1ba470923557",
+        "out": "710f14fa2e998828"
+      },
+      "help.buildingTypes.5": {
+        "src": "4efffedc18186bd5",
+        "out": "f4e0611b89ec43dd"
+      },
+      "help.buildingTypes.6": {
+        "src": "e449ae1df54b2646",
+        "out": "7e8cfad9d3560ee3"
+      },
+      "help.buildingTypes.7": {
+        "src": "1557a7fe6eb8d12e",
+        "out": "2ba1ee660b7ba178"
+      },
+      "help.buildingTypes.8": {
+        "src": "d92d906d804caa8d",
+        "out": "acfd0effa95a1a70"
+      },
+      "help.buildingTypes.9": {
+        "src": "286eacc4181f7f17",
+        "out": "b15cfe009c6450d9"
+      },
+      "help.buildingTypes.10": {
+        "src": "6151e8e576064e21",
+        "out": "96d7adf7c7858532"
+      },
+      "help.buildingTypes.11": {
+        "src": "b276d8959f45ee11",
+        "out": "f0f4f7123b47cfb0"
+      },
+      "help.buildingTypes.12": {
+        "src": "6a7ea03600d74ea9",
+        "out": "db39f6c07342ee7c"
+      },
+      "help.buildingTypes.13": {
+        "src": "7f0b5405359925a3",
+        "out": "8be421255ac11dcf"
+      },
+      "help.buildingTypes.14": {
+        "src": "87e6f7069a3258f2",
+        "out": "8ed1d5d6a35ac5e2"
+      },
+      "help.buildingTypes.15": {
+        "src": "f107f242539d1f30",
+        "out": "7f0449181ac8ddae"
+      },
+      "help.buildingTypes.16": {
+        "src": "d5bcd72d457e8e13",
+        "out": "680f7211dc04f322"
+      },
+      "help.showPrices": {
+        "src": "0c500a91200c128d",
+        "out": "dea1c3012e75de90"
+      },
+      "help.from": {
+        "src": "f6d794ec98cedb5e",
+        "out": "f764f49b764a9849"
+      },
+      "help.net": {
+        "src": "65d8c8050a8218df",
+        "out": "d4d647f77521b808"
+      },
+      "help.priceNote": {
+        "src": "44393998747e229f",
+        "out": "3ae5b984d1439d9e"
+      },
+      "help.phone": {
+        "src": "ec48c2268d8e9e06",
+        "out": "d8bc5f1fceba61ca"
+      },
+      "help.email": {
+        "src": "b613ff448a05329a",
+        "out": "2a4ac58d54316049"
+      },
+      "help.nip": {
+        "src": "d941014b963ce489",
+        "out": "7bbc94572c907fe0"
+      },
+      "help.contactTime": {
+        "src": "9625e261de0cf10a",
+        "out": "f79e1531395d4c1d"
+      },
+      "help.contactTimes.0": {
+        "src": "e7a68dfca857623a",
+        "out": "3874bad79a3b24f6"
+      },
+      "help.contactTimes.1": {
+        "src": "e35cb7a924acad4c",
+        "out": "244f4522996907e3"
+      },
+      "help.contactTimes.2": {
+        "src": "de035c14e689050e",
+        "out": "489b729e4a0577fb"
+      },
+      "help.contactTimes.3": {
+        "src": "121577d80f59c526",
+        "out": "1236d456df174611"
+      },
+      "help.consent": {
+        "src": "1d4cc2e643f588dc",
+        "out": "407ace03dd32edae"
+      },
+      "help.required": {
+        "src": "b51a1969b159fa15",
+        "out": "2aa10ba9f81361b7"
+      },
+      "help.submit": {
+        "src": "843bbb176608f2d5",
+        "out": "f23304d931feace0"
+      },
+      "help.success": {
+        "src": "7ce0f664937703d5",
+        "out": "0f62e03a5153eaf9"
+      },
+      "help.error": {
+        "src": "dbb174ce4644a8b3",
+        "out": "d7da6815475048d5"
+      },
+      "projects.title": {
+        "src": "ee257187a3cc01f6",
+        "out": "16b3db9bb2bddace"
+      },
+      "why.0.title": {
+        "src": "9f0042ab6be0fc25",
+        "out": "d4e1bc81dd28b8be"
+      },
+      "why.1.title": {
+        "src": "93a0c1df5d9d39ea",
+        "out": "0902263f299cdb29"
+      },
+      "why.2.title": {
+        "src": "8e0923425880769d",
+        "out": "20ec28828e0242e4"
+      },
+      "solutions.title": {
+        "src": "8973de66a8b318eb",
+        "out": "a9db88f8d6c1efe1"
+      },
+      "solutions.recommend": {
+        "src": "a7ac94ce09f2c835",
+        "out": "9234b7fae2200f21"
+      },
+      "solutions.more": {
+        "src": "da8938f3670b44e1",
+        "out": "20ff46bf7c28e2a8"
+      },
+      "solutions.segments.0.title": {
+        "src": "ff809b030b29087e",
+        "out": "0367e262ca120b50"
+      },
+      "solutions.segments.1.title": {
+        "src": "c9c8031b3956ef19",
+        "out": "ef3ac508fe44ecc1"
+      },
+      "solutions.segments.1.text": {
+        "src": "9489eec7d159c584",
+        "out": "8a7e7bed30fbb698"
+      },
+      "solutions.segments.2.title": {
+        "src": "9547a74c4e8ee7a6",
+        "out": "773f7a249073e8eb"
+      },
+      "solutions.segments.3.title": {
+        "src": "b3699b87eb1431d4",
+        "out": "1280d7ce0846a07a"
+      },
+      "solutions.segments.4.title": {
+        "src": "a0df1ba470923557",
+        "out": "710f14fa2e998828"
+      },
+      "solutions.segments.5.title": {
+        "src": "4efffedc18186bd5",
+        "out": "f4e0611b89ec43dd"
+      },
+      "solutions.segments.6.title": {
+        "src": "e449ae1df54b2646",
+        "out": "7e8cfad9d3560ee3"
+      },
+      "solutions.segments.7.title": {
+        "src": "1557a7fe6eb8d12e",
+        "out": "2ba1ee660b7ba178"
+      },
+      "solutions.segments.8.title": {
+        "src": "d92d906d804caa8d",
+        "out": "acfd0effa95a1a70"
+      },
+      "solutions.segments.9.title": {
+        "src": "286eacc4181f7f17",
+        "out": "b15cfe009c6450d9"
+      },
+      "solutions.segments.10.title": {
+        "src": "6151e8e576064e21",
+        "out": "96d7adf7c7858532"
+      },
+      "solutions.segments.11.title": {
+        "src": "b276d8959f45ee11",
+        "out": "f0f4f7123b47cfb0"
+      },
+      "solutions.segments.12.title": {
+        "src": "6a7ea03600d74ea9",
+        "out": "db39f6c07342ee7c"
+      },
+      "solutions.segments.13.title": {
+        "src": "7f0b5405359925a3",
+        "out": "8be421255ac11dcf"
+      },
+      "solutions.segments.14.title": {
+        "src": "87e6f7069a3258f2",
+        "out": "8ed1d5d6a35ac5e2"
+      },
+      "solutions.segments.15.title": {
+        "src": "f107f242539d1f30",
+        "out": "7f0449181ac8ddae"
+      },
+      "solutions.segments.16.title": {
+        "src": "d5bcd72d457e8e13",
+        "out": "680f7211dc04f322"
+      },
+      "solutions.segments.17.title": {
+        "src": "b63551ad4f748fe7",
+        "out": "64a2a2c8496aefbe"
+      },
+      "solutions.segments.18.title": {
+        "src": "4f59f21f58b50f43",
+        "out": "62e846ba51687417"
+      },
+      "solutions.segments.19.title": {
+        "src": "cbb7111fe29faedc",
+        "out": "9e1168e408c6b344"
+      },
+      "faq.0.question": {
+        "src": "92996fc111daa31a",
+        "out": "92996fc111daa31a"
+      },
+      "faq.1.question": {
+        "src": "3e86de20eb0e3c2b",
+        "out": "3e86de20eb0e3c2b"
+      },
+      "faq.2.question": {
+        "src": "3575a7baa3398bab",
+        "out": "3575a7baa3398bab"
+      },
+      "faq.3.question": {
+        "src": "5ececb5415397fda",
+        "out": "5ececb5415397fda"
+      },
+      "faq.4.question": {
+        "src": "9a9c9798f3a61ae7",
+        "out": "9a9c9798f3a61ae7"
+      },
+      "faqButton.label": {
+        "src": "3fa5864e8b105f16",
+        "out": "7e2f69f2737d2ef7"
+      },
+      "seoTitle": {
+        "src": "f5043e70dfbbeac4",
+        "out": "1219ff278f30f1bf"
+      },
+      "seoDescription": {
+        "src": "640843bf5ea2b166",
+        "out": "80c9cfd4be654d30"
       }
     }
   }

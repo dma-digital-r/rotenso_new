@@ -84,6 +84,13 @@ New-NetFirewallRule -DisplayName "Rotenso podglad (3001)" -Direction Inbound -Pr
 - W panelu można wgrywać JPG, PNG, WebP albo AVIF. Strona i tak wysyła przeglądarce **AVIF** (najlżejszy), a starszym przeglądarkom **WebP** — w rozmiarze dopasowanym do ekranu.
 - Wgrywanie AVIF oszczędza miejsce w repozytorium; na wagę strony dla odwiedzających nie ma to wpływu.
 
+## Strona „Inwestycje / Systemy RVF” (`/pl/systemy-rvf`)
+- **Panel → Inwestycje / Systemy RVF (PL)**: nagłówek, 3 rodzaje systemów (slajdy), kalkulator + formularz, realizacje (kategorie), 3 karty, segmenty („Nasze rozwiązania”), FAQ.
+- Otwiera ją przycisk „Dowiedz się więcej” w menu (Inwestycje → Systemy RVF/VRF).
+- **Kalkulator**: pokazana cena = większa z „cena od” albo „zł za m²” × powierzchnia (ustawiasz w panelu). Tylko na stronie PL — na stronach zagranicznych kalkulatora i cen nie ma (nawet w kodzie strony).
+- Zgłoszenia z formularza (z NIP i danymi z kalkulatora) idą tym samym kanałem co formularz wyceny: `LEAD_WEBHOOK_URL`.
+- Ikony segmentów: pole „Ikona” przy segmencie (SVG); puste = ikona budynku.
+
 ## Formularz „Zapytaj o wycenę”
 - Zgłoszenia idą na `/api/lead`, a stamtąd — metodą POST w formacie JSON — pod adres z `.env.local` → `LEAD_WEBHOOK_URL` (np. webhook CRM albo automatyzacji maili).
 - Dopóki `LEAD_WEBHOOK_URL` nie jest ustawiony, formularz uczciwie pokazuje komunikat błędu (nic nie ginie po cichu).

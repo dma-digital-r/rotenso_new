@@ -890,3 +890,138 @@ export const blogSchema = (guides: string) => {
     seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
   };
 };
+
+// "Inwestycje v06" (Figma 5172:75884) — the Systemy RVF / investments landing page.
+export const investmentsSchema = {
+  hero: fields.object(
+    {
+      image: image("Zdjęcie / okładka filmu (1820×930)", "investments"),
+      video: fields.text({ label: "Film (adres MP4, opcjonalnie)" }),
+      title: fields.text({ label: "Tytuł" }),
+      subtitle: fields.text({ label: "Podtytuł" }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+      cta: link("Przycisk"),
+    },
+    { label: "Nagłówek" },
+  ),
+  systems: fields.object(
+    {
+      background: image("Tło sekcji", "investments"),
+      title: fields.text({ label: "Tytuł", multiline: true }),
+      text: fields.text({ label: "Podtytuł" }),
+      slides: fields.array(
+        fields.object({
+          image: image("Zdjęcie / okładka filmu (1340×754)", "investments"),
+          video: fields.text({ label: "Film (adres MP4, opcjonalnie)" }),
+          title: fields.text({ label: "Tytuł" }),
+          text: fields.text({ label: "Tekst", multiline: true }),
+        }),
+        { label: "Rodzaje systemów (slajdy)", itemLabel: (s) => s.fields.title.value || "System" },
+      ),
+    },
+    { label: "Poznaj 3 rodzaje systemów" },
+  ),
+  help: fields.object(
+    {
+      background: image("Tło", "investments"),
+      title: fields.text({ label: "Tytuł" }),
+      investorTab: fields.text({ label: "Zakładka 1 (np. Dla inwestora)" }),
+      designerTab: fields.text({ label: "Zakładka 2 (np. Dla projektanta)" }),
+      investorText: fields.text({ label: "Inwestor — tekst nad kalkulatorem" }),
+      designerText: fields.text({ label: "Projektant — tekst nad formularzem" }),
+      areaLabel: fields.text({ label: "Kalkulator — powierzchnia (etykieta)", multiline: true }),
+      areaPlaceholder: fields.text({ label: "Kalkulator — powierzchnia (podpowiedź)" }),
+      roomsLabel: fields.text({ label: "Kalkulator — liczba pomieszczeń (etykieta)" }),
+      roomsPlaceholder: fields.text({ label: "Kalkulator — liczba pomieszczeń (podpowiedź)" }),
+      buildingLabel: fields.text({ label: "Kalkulator — typ budynku (etykieta)" }),
+      buildingPlaceholder: fields.text({ label: "Kalkulator — typ budynku (podpowiedź)" }),
+      buildingTypes: fields.array(fields.text({ label: "Typ budynku" }), { label: "Typy budynków", itemLabel: (t) => t.value || "Typ" }),
+      showPrices: fields.text({ label: "Przycisk Pokaż ceny" }),
+      prices: fields.array(
+        fields.object({
+          name: fields.text({ label: "System (np. System RVF/VRF)" }),
+          from: fields.integer({ label: "Cena od (zł netto)" }),
+          perM2: fields.integer({ label: "Zł netto za m² (0 = zawsze cena od)", defaultValue: 0 }),
+        }),
+        {
+          label: "Kalkulator — ceny (tylko strona PL)",
+          description: "Pokazana cena = większa z: cena od albo zł za m² × powierzchnia. Na stronach zagranicznych kalkulator jest ukryty (bez cen).",
+          itemLabel: (p) => p.fields.name.value || "System",
+        },
+      ),
+      from: fields.text({ label: "Słowo od" }),
+      net: fields.text({ label: "Słowo netto" }),
+      priceNote: fields.text({ label: "Dopisek pod cenami" }),
+      formTitle: fields.text({ label: "Formularz — tytuł" }),
+      formText: fields.text({ label: "Formularz — tekst", multiline: true }),
+      phone: fields.text({ label: "Pole: telefon" }),
+      email: fields.text({ label: "Pole: e-mail" }),
+      nip: fields.text({ label: "Pole: NIP" }),
+      contactTime: fields.text({ label: "Pole: pora kontaktu" }),
+      contactTimes: fields.array(fields.text({ label: "Opcja" }), { label: "Pora kontaktu — opcje", itemLabel: (o) => o.value || "Opcja" }),
+      consent: fields.text({ label: "Zgoda — skrót" }),
+      consentFull: fields.text({ label: "Zgoda — pełna treść (puste = bez rozwiń)", multiline: true }),
+      required: fields.text({ label: "Dopisek (*pola wymagane)" }),
+      submit: fields.text({ label: "Przycisk" }),
+      success: fields.text({ label: "Komunikat po wysłaniu", multiline: true }),
+      error: fields.text({ label: "Komunikat błędu", multiline: true }),
+    },
+    { label: "Oferujemy pomoc przy projekcie (kalkulator + formularz)" },
+  ),
+  projects: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      subtitle: fields.text({ label: "Podtytuł" }),
+      text: fields.text({ label: "Tekst" }),
+      categories: fields.array(
+        fields.object({
+          name: fields.text({ label: "Kategoria" }),
+          items: fields.array(
+            fields.object({
+              image: image("Zdjęcie (310×485)", "investments"),
+              title: fields.text({ label: "Tytuł" }),
+              text: fields.text({ label: "Opis po kliknięciu +", multiline: true }),
+            }),
+            { label: "Realizacje", itemLabel: (i) => i.fields.title.value || "Realizacja" },
+          ),
+        }),
+        { label: "Kategorie", itemLabel: (c) => c.fields.name.value || "Kategoria" },
+      ),
+    },
+    { label: "Nasze realizacje" },
+  ),
+  why: fields.array(
+    fields.object({ image: image("Zdjęcie (420×236)", "investments"), title: fields.text({ label: "Tytuł" }), text: fields.text({ label: "Tekst", multiline: true }) }),
+    { label: "Dlaczego Rotenso (3 karty)", itemLabel: (w) => w.fields.title.value || "Karta" },
+  ),
+  solutions: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Podtytuł", multiline: true }),
+      recommend: fields.text({ label: "Napis nad polecanym produktem" }),
+      more: fields.text({ label: "Przycisk przy produkcie (np. Dowiedz się więcej)" }),
+      segments: fields.array(
+        fields.object({
+          name: fields.text({ label: "Segment (lewa kolumna)", multiline: true }),
+          icon: image("Ikona (SVG, 20×20)", "investments"),
+          title: fields.text({ label: "Tytuł", multiline: true }),
+          text: fields.text({ label: "Tekst", multiline: true }),
+          image: image("Zdjęcie (770×770)", "investments"),
+          product: fields.object(
+            { name: fields.text({ label: "Polecany produkt" }), image: image("Zdjęcie produktu (120×120)", "investments"), href: fields.text({ label: "Adres" }) },
+            { label: "Polecany produkt" },
+          ),
+        }),
+        { label: "Segmenty", itemLabel: (s) => s.fields.name.value || "Segment" },
+      ),
+    },
+    { label: "Nasze rozwiązania (segmenty)" },
+  ),
+  faq: fields.array(
+    fields.object({ question: fields.text({ label: "Pytanie" }), answer: fields.text({ label: "Odpowiedź", multiline: true }) }),
+    { label: "Pytania i odpowiedzi", itemLabel: (q) => q.fields.question.value || "Pytanie" },
+  ),
+  faqButton: link("Przycisk pod pytaniami"),
+  seoTitle: fields.text({ label: "SEO — tytuł" }),
+  seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
+};
