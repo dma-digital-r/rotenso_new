@@ -1,0 +1,156 @@
+background: /images/filters/bg.avif
+crumb: Фільтри Wentilo
+hero:
+  image: /images/filters/hero.avif
+  title: Фільтри iCare
+  subtitle: Фільтрація преміум-класу.
+  text: Фільтри iCARE дуже ефективно затримують дрібні забруднення, мають антибактеріальні властивості та велику площу фільтрації.
+  cta:
+    label: Підібрати й купити фільтри
+    href: '#kup'
+types:
+  title: Типи фільтрів iCare
+  text: |-
+    Доступно 5 типів фільтрів, 2 з них встановлюються взаємозамінно.
+    Дізнайтеся більше та оберіть відповідний набір.
+  items:
+    - image: /images/filters/type-przeciwpylkowy.avif
+      title: Протипиловий фільтр
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - image: /images/filters/type-antysmogowy.avif
+      title: Антисмоговий фільтр
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - image: /images/filters/type-weglowy.avif
+      title: Вугільний фільтр
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+advantages:
+  title: Які переваги фільтрів iCare?
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  tiles:
+    - image: /images/filters/tile-plug-play.avif
+      video: ''
+      title: Посадка «Plug & Play»
+      text: Фільтри розроблені для конкретних рекуператорів. Їх не потрібно підрізати чи змінювати – вони ідеально пасують до гнізд установки.
+    - image: /images/filters/tile-materialy.avif
+      video: ''
+      title: Інноваційні матеріали та конструкція
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    - image: /images/filters/tile-klasy.avif
+      video: ''
+      title: Широкий вибір класів фільтрації
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+why:
+  title: Навіщо міняти фільтри?
+  text: Кілька причин регулярно міняти фільтри
+  items:
+    - image: /images/filters/why-powietrze.avif
+      title: Здорове й чисте повітря
+      text: Брудний фільтр перестає затримувати пил, пилок, смог і зовнішні забруднення. Старий фільтр також може стати осередком бактерій і грибків, які потрапляють просто у ваш дім.
+    - image: /images/filters/why-wilgoc.avif
+      title: Захист від вологи
+      text: Забиті фільтри блокують потік повітря, з’являється задуха. Волога сприяє появі плісняви на стінах. Чистий фільтр ефективно виводить водяну пару й запобігає запотіванню вікон.
+    - image: /images/filters/why-zywotnosc.avif
+      title: Довший термін служби
+      text: Фільтри захищають не лише ваші легені, а й серце рекуператора – теплообмінник. Якщо бруд потрапить глибше, ефективність знизиться, робота стане гучнішою, а згодом можлива дорога поломка.
+shop:
+  title: Купити фільтри iCare
+  text: Рекуператори Wentilo з функцією SMART показують, які фільтри треба замінити. Якщо функції SMART немає, замініть усі фільтри одночасно.
+  prompt: 'Оберіть свою модель рекуператора, щоб підібрати фільтри:'
+  button: Перейти на Allegro
+  models:
+    - name: Wentilo ICON IT
+      items:
+        - image: /images/filters/shop-zestaw-antysmog.avif
+          title: 'Набір: 3 протипилові фільтри + антисмоговий'
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-zestaw-wegiel.avif
+          title: 'Набір: 3 протипилові фільтри + вугільний'
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-antysmog.avif
+          title: Антисмоговий фільтр
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-wegiel.avif
+          title: Вугільний фільтр
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-przeciwpylkowy-1.avif
+          title: Протипиловий фільтр 1
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-przeciwpylkowy-2.avif
+          title: Протипиловий фільтр 2
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+    - name: Wentilo ICON IS
+      items:
+        - image: /images/filters/shop-zestaw-antysmog.avif
+          title: 'Набір: 3 протипилові фільтри + антисмоговий'
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-zestaw-wegiel.avif
+          title: 'Набір: 3 протипилові фільтри + вугільний'
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-antysmog.avif
+          title: Антисмоговий фільтр
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-wegiel.avif
+          title: Вугільний фільтр
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-przeciwpylkowy-1.avif
+          title: Протипиловий фільтр 1
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-przeciwpylkowy-2.avif
+          title: Протипиловий фільтр 2
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+    - name: Wentilo ICON IC
+      items:
+        - image: /images/filters/shop-zestaw-antysmog.avif
+          title: 'Набір: 3 протипилові фільтри + антисмоговий'
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-zestaw-wegiel.avif
+          title: 'Набір: 3 протипилові фільтри + вугільний'
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-antysmog.avif
+          title: Антисмоговий фільтр
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-wegiel.avif
+          title: Вугільний фільтр
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-przeciwpylkowy-1.avif
+          title: Протипиловий фільтр 1
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-przeciwpylkowy-2.avif
+          title: Протипиловий фільтр 2
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+video:
+  title: Як правильно замінити фільтри?
+  text: Перегляньте навчальне відео
+  poster: /images/filters/video-poster.avif
+  url: ''
+faq:
+  - question: Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - question: Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - question: Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - question: Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - question: Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+seoTitle: Фільтри iCare для рекуператорів Wentilo - Rotenso
+seoDescription: 'Фільтри iCare для Wentilo ICON: протипилові, антисмогові та вугільні. Оберіть набір для своєї моделі.'

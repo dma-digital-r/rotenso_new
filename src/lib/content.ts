@@ -1,5 +1,5 @@
 import { createReader, type Entry } from "@keystatic/core/reader";
-import config, { aboutSingleton, assistantSingleton, contactSingleton, investmentsSingleton, guidesCollection, homeSingleton, menuSingleton, settingsSingleton } from "../../keystatic.config";
+import config, { aboutSingleton, assistantSingleton, filtersSingleton, contactSingleton, investmentsSingleton, guidesCollection, homeSingleton, menuSingleton, settingsSingleton } from "../../keystatic.config";
 import { defaultLocale, type Locale } from "@/i18n/config";
 
 export const reader = createReader(process.cwd(), config);
@@ -10,6 +10,7 @@ export type MenuContent = Entry<ReturnType<typeof menuSingleton>>;
 export type AboutContent = Entry<ReturnType<typeof aboutSingleton>>;
 export type InvestmentsContent = Entry<ReturnType<typeof investmentsSingleton>>;
 export type AssistantContent = Entry<ReturnType<typeof assistantSingleton>>;
+export type FiltersContent = Entry<ReturnType<typeof filtersSingleton>>;
 export type ContactContent = Entry<ReturnType<typeof contactSingleton>>;
 type GuideEntry = Entry<ReturnType<typeof guidesCollection>>;
 
@@ -129,6 +130,12 @@ export async function getAssistant(lang: Locale): Promise<AssistantContent> {
   const entry = (await reader.singletons[`assistant_${lang}`].read()) ?? (await reader.singletons[`assistant_${defaultLocale}`].read());
   if (!entry) throw new Error("Missing content/pl/assistant.yaml");
   return typeset(lang, entry as AssistantContent);
+}
+
+export async function getFilters(lang: Locale): Promise<FiltersContent> {
+  const entry = (await reader.singletons[`filters_${lang}`].read()) ?? (await reader.singletons[`filters_${defaultLocale}`].read());
+  if (!entry) throw new Error("Missing content/pl/filters.yaml");
+  return typeset(lang, entry as FiltersContent);
 }
 
 export async function getContact(lang: Locale): Promise<ContactContent> {

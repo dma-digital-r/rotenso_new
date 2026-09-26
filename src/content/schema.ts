@@ -1144,3 +1144,93 @@ export const assistantSchema = {
   seoTitle: fields.text({ label: "SEO — tytuł" }),
   seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
 };
+
+// Filtry Wentilo (Figma "Akcesoria Filtry Wentilo v02").
+const card = (size: string) =>
+  fields.object({ image: image(`Zdjęcie (${size})`, "filters"), title: fields.text({ label: "Tytuł" }), text: fields.text({ label: "Tekst", multiline: true }) });
+
+export const filtersSchema = {
+  background: image("Tło za górną belką (przechodzi w biel)", "filters"),
+  crumb: fields.text({ label: "Nazwa w ścieżce (np. Filtry Wentilo)" }),
+  hero: fields.object(
+    {
+      image: image("Zdjęcie (1820×650)", "filters"),
+      title: fields.text({ label: "Tytuł" }),
+      subtitle: fields.text({ label: "Podtytuł" }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+      cta: link("Przycisk (np. Dobierz i kup filtry → #kup)"),
+    },
+    { label: "Nagłówek" },
+  ),
+  types: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Podtytuł", multiline: true }),
+      items: fields.array(card("420×236"), { label: "Rodzaje filtrów", itemLabel: (i) => i.fields.title.value || "Filtr" }),
+    },
+    { label: "Poznaj rodzaje filtrów" },
+  ),
+  advantages: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Podtytuł" }),
+      tiles: fields.array(
+        fields.object({
+          image: image("Zdjęcie / okładka filmu (970×545)", "filters"),
+          video: fields.text({ label: "Film (adres MP4, opcjonalnie)" }),
+          title: fields.text({ label: "Tytuł na kafelku" }),
+          text: fields.text({ label: "Opis pod sliderem", multiline: true }),
+        }),
+        { label: "Kafelki", itemLabel: (t) => t.fields.title.value || "Kafelek" },
+      ),
+    },
+    { label: "Zalety (slider)" },
+  ),
+  why: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Podtytuł" }),
+      items: fields.array(card("420×236"), { label: "Powody", itemLabel: (i) => i.fields.title.value || "Powód" }),
+    },
+    { label: "Dlaczego wymieniać filtry" },
+  ),
+  shop: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+      prompt: fields.text({ label: "Tekst nad przełącznikiem modeli" }),
+      button: fields.text({ label: "Przycisk przy produkcie (np. Przejdź na allegro)" }),
+      models: fields.array(
+        fields.object({
+          name: fields.text({ label: "Model rekuperatora (np. Wentilo ICON IS)" }),
+          items: fields.array(
+            fields.object({
+              image: image("Zdjęcie (310×174)", "filters"),
+              title: fields.text({ label: "Nazwa" }),
+              text: fields.text({ label: "Opis", multiline: true }),
+              href: fields.text({ label: "Link do sklepu (np. aukcja Allegro)" }),
+            }),
+            { label: "Filtry do tego modelu", itemLabel: (i) => i.fields.title.value || "Filtr" },
+          ),
+        }),
+        { label: "Modele rekuperatorów", itemLabel: (m) => m.fields.name.value || "Model" },
+      ),
+    },
+    { label: "Kup filtry" },
+  ),
+  video: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Podtytuł" }),
+      poster: image("Okładka filmu (970×545)", "filters"),
+      url: fields.text({ label: "Film — link YouTube albo adres MP4" }),
+    },
+    { label: "Film instruktażowy" },
+  ),
+  faq: fields.array(
+    fields.object({ question: fields.text({ label: "Pytanie" }), answer: fields.text({ label: "Odpowiedź", multiline: true }) }),
+    { label: "Pytania i odpowiedzi", itemLabel: (q) => q.fields.question.value || "Pytanie" },
+  ),
+  seoTitle: fields.text({ label: "SEO — tytuł" }),
+  seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
+};

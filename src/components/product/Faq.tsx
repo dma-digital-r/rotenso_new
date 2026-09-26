@@ -8,11 +8,14 @@ export function Faq({
   items,
   ui,
   button,
+  numbered = false,
 }: {
   items: readonly { question: string; answer: string }[];
   ui: Ui;
-  /** Button under the questions — default "Zapytaj o montaż" → the quote form. */
-  button?: { label: string; href: string };
+  /** Button under the questions — default "Zapytaj o montaż" → the quote form; null = no button. */
+  button?: { label: string; href: string } | null;
+  /** Bold, numbered questions ("1. …") — accessory pages (Figma "Filtry Wentilo"). */
+  numbered?: boolean;
 }) {
   if (!items.length) return null;
   const jsonLd = {
@@ -29,9 +32,11 @@ export function Faq({
       <h2 className="text-center text-h2 leading-[1.2] font-light">{ui.faqTitle}</h2>
       <div className="mt-[50px] flex flex-col gap-[10px]">
         {items.map((q, i) => (
-          <details key={q.question} open={i === 0} className="group rounded-[16px] border border-grey-dd bg-white px-[20px] py-[15px]">
-            <summary className="flex cursor-pointer list-none items-center justify-between gap-[30px] text-[18px] leading-[24.5px] [&::-webkit-details-marker]:hidden">
-              {q.question}
+          <details key={i} open={i === 0} className="group rounded-[16px] border border-grey-dd bg-white px-[20px] py-[15px]">
+            <summary
+              className={`flex cursor-pointer list-none items-center justify-between gap-[30px] text-[18px] leading-[24.5px] [&::-webkit-details-marker]:hidden ${numbered ? "font-bold" : ""}`}
+            >
+              {numbered ? `${i + 1}. ${q.question}` : q.question}
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden className="shrink-0 transition-transform group-open:rotate-180">
                 <path d="M6 9L12 15L18 9" stroke="#546670" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
@@ -40,11 +45,13 @@ export function Faq({
           </details>
         ))}
       </div>
-      <div className="mt-[100px] flex justify-center">
-        <Button variant="l-red" href={button?.href ?? "#wycena"} className="min-w-[419px]">
-          {button?.label ?? ui.askInstall}
-        </Button>
-      </div>
+      {button !== null && (
+        <div className="mt-[100px] flex justify-center">
+          <Button variant="l-red" href={button?.href ?? "#wycena"} className="min-w-[419px]">
+            {button?.label ?? ui.askInstall}
+          </Button>
+        </div>
+      )}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
     </section>
   );

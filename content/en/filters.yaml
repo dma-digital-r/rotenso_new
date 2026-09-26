@@ -1,0 +1,156 @@
+background: /images/filters/bg.avif
+crumb: Wentilo filters
+hero:
+  image: /images/filters/hero.avif
+  title: iCare filters
+  subtitle: Premium-class filtration.
+  text: iCARE filters capture fine pollutants very effectively, have antibacterial properties and a large filtration surface.
+  cta:
+    label: Choose and buy filters
+    href: '#kup'
+types:
+  title: Discover the iCare filter types
+  text: |-
+    There are 5 filter types, 2 of which are interchangeable.
+    Learn more and choose the filter set that suits you.
+  items:
+    - image: /images/filters/type-przeciwpylkowy.avif
+      title: Dust filter
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - image: /images/filters/type-antysmogowy.avif
+      title: Anti-smog filter
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - image: /images/filters/type-weglowy.avif
+      title: Carbon filter
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+advantages:
+  title: What are the advantages of iCare filters?
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  tiles:
+    - image: /images/filters/tile-plug-play.avif
+      video: ''
+      title: '"Plug & Play" fit'
+      text: The filters are designed for specific heat recovery units. They need no cutting or modification – they fit the slots of the unit perfectly.
+    - image: /images/filters/tile-materialy.avif
+      video: ''
+      title: Innovative materials and design
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    - image: /images/filters/tile-klasy.avif
+      video: ''
+      title: Wide range of filtration classes
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+why:
+  title: Why replace filters?
+  text: Some of the reasons to replace filters regularly
+  items:
+    - image: /images/filters/why-powietrze.avif
+      title: Healthy, clean air
+      text: A dirty filter no longer stops dust, pollen, smog and outdoor pollution. An old, clogged filter can also become a breeding ground for bacteria and fungi, which are then blown straight into your home.
+    - image: /images/filters/why-wilgoc.avif
+      title: Protection against moisture
+      text: Clogged filters block the airflow and make the air stuffy. Accumulating moisture encourages mould on the walls. A clean filter removes water vapour effectively and prevents, for example, fogged windows.
+    - image: /images/filters/why-zywotnosc.avif
+      title: Longer unit life
+      text: Filters protect not only your lungs but also the heart of the unit – the heat exchanger. If dirt gets deeper, heat recovery drops, the system gets louder and in time a costly failure may follow.
+shop:
+  title: Buy iCare filters
+  text: Wentilo units with the SMART function show which filters need replacing. If your unit has no SMART function, replace all filters at the same time.
+  prompt: 'Choose your heat recovery unit to find the right filters:'
+  button: Go to Allegro
+  models:
+    - name: Wentilo ICON IT
+      items:
+        - image: /images/filters/shop-zestaw-antysmog.avif
+          title: 'Set: 3 dust filters + anti-smog filter'
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-zestaw-wegiel.avif
+          title: 'Set: 3 dust filters + carbon filter'
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-antysmog.avif
+          title: Anti-smog filter
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-wegiel.avif
+          title: Carbon filter
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-przeciwpylkowy-1.avif
+          title: Dust filter 1
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-przeciwpylkowy-2.avif
+          title: Dust filter 2
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+    - name: Wentilo ICON IS
+      items:
+        - image: /images/filters/shop-zestaw-antysmog.avif
+          title: 'Set: 3 dust filters + anti-smog filter'
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-zestaw-wegiel.avif
+          title: 'Set: 3 dust filters + carbon filter'
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-antysmog.avif
+          title: Anti-smog filter
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-wegiel.avif
+          title: Carbon filter
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-przeciwpylkowy-1.avif
+          title: Dust filter 1
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-przeciwpylkowy-2.avif
+          title: Dust filter 2
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+    - name: Wentilo ICON IC
+      items:
+        - image: /images/filters/shop-zestaw-antysmog.avif
+          title: 'Set: 3 dust filters + anti-smog filter'
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-zestaw-wegiel.avif
+          title: 'Set: 3 dust filters + carbon filter'
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-antysmog.avif
+          title: Anti-smog filter
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-wegiel.avif
+          title: Carbon filter
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-przeciwpylkowy-1.avif
+          title: Dust filter 1
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+        - image: /images/filters/shop-przeciwpylkowy-2.avif
+          title: Dust filter 2
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          href: https://allegro.pl/listing?string=rotenso%20icare
+video:
+  title: How to replace the filters correctly?
+  text: Watch the instruction video
+  poster: /images/filters/video-poster.avif
+  url: ''
+faq:
+  - question: Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - question: Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - question: Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - question: Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - question: Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+seoTitle: iCare filters for Wentilo heat recovery units - Rotenso
+seoDescription: 'iCare filters for Wentilo ICON units: dust, anti-smog and carbon. Choose the set for your model and see how to replace the filters.'
