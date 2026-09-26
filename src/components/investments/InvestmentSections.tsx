@@ -234,7 +234,7 @@ export function Solutions({ data }: { data: InvestmentsContent["solutions"] }) {
   const seg = data.segments[active];
   if (!seg) return null;
   return (
-    <section className="relative mt-[250px] pt-[221px] pb-[150px] text-rotenso-grey">
+    <section className="relative mt-[250px] pt-[150px] pb-[150px] text-rotenso-grey">
       <div aria-hidden className="absolute inset-0 -z-10 bg-[linear-gradient(115deg,#cccccc,#ffffff_50%,#cccccc)]" />
       <Image
         src="/images/investments/kingfisher-left.png"
