@@ -380,8 +380,9 @@ export function WentiloVideos({ groups, more, ui }: { groups: { label: string; v
 
 
 // "Wybierz rekuperator" (Figma "wentilo e-commerce"): white card with Opis / Specyfikacja /
-// Do pobrania. The model / version selectors, control panel choice and price are still to come;
-// for now the card shows the first model from the CMS.
+// Do pobrania for every Wentilo ICON model in the feed. The final selectors (area, recovery,
+// control system), the control panel choice and the price are still to come.
+const HOUSING_ORDER = ["IT", "IS", "IC"];
 export function WentiloShop({
   data,
   models,
@@ -394,7 +395,10 @@ export function WentiloShop({
   const [tab, setTab] = useState<"opis" | "spec" | "files">("opis");
   const [openTech, setOpenTech] = useState<number | null>(0);
   const [openParts, setOpenParts] = useState({ tech: true, mount: true, spec: true });
-  const model = models[0];
+  // Temporary model choice (all Wentilo ICON models from the feed) until the final selectors —
+  // area, recovery type, control system — are specified.
+  const [index, setIndex] = useState(0);
+  const model = models[index] ?? models[0];
   if (!model) return null;
   const half = Math.ceil(model.specs.length / 2);
   const toggle = (id: keyof typeof openParts) => setOpenParts((p) => ({ ...p, [id]: !p[id] }));
@@ -426,7 +430,44 @@ export function WentiloShop({
             </button>
           ))}
         </div>
-        <h3 className="mt-[40px] text-h2 leading-[1.2] font-light">{model.name}</h3>
+        <div className="mt-[30px] flex flex-wrap items-center gap-[10px]">
+          {HOUSING_ORDER.filter((h) => models.some((m) => m.housing === h)).map((h) => {
+            const on = model.housing === h;
+            return (
+              <button
+                key={h}
+                type="button"
+                aria-pressed={on}
+                onClick={() => setIndex(models.findIndex((m) => m.housing === h))}
+                className={`h-[40px] cursor-pointer rounded-[20px] border px-[20px] text-[16px] leading-[normal] transition-colors ${
+                  on ? "border-rotenso-grey bg-rotenso-grey text-white" : "border-rotenso-grey hover:text-rotenso-red"
+                }`}
+              >
+                Wentilo ICON {h}
+              </button>
+            );
+          })}
+          <div className="relative">
+            <select
+              value={index}
+              onChange={(e) => setIndex(Number(e.target.value))}
+              aria-label={data.title}
+              className="h-[40px] cursor-pointer appearance-none rounded-[8px] border border-grey-dd bg-[#f5f5f5] pr-[45px] pl-[15px] text-[16px] leading-[normal]"
+            >
+              {models.map((m, i) =>
+                m.housing === model.housing ? (
+                  <option key={m.prefix} value={i}>
+                    {m.prefix}
+                  </option>
+                ) : null,
+              )}
+            </select>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden className="pointer-events-none absolute top-[8px] right-[12px]">
+              <path d="M6 9L12 15L18 9" stroke="#546670" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </div>
+        </div>
+        <h3 className="mt-[30px] text-h2 leading-[1.2] font-light">{model.name}</h3>
 
         {tab === "opis" && model.description && <p className="mt-[20px] max-w-[860px] text-[16px] leading-[24px] whitespace-pre-line">{model.description}</p>}
 
