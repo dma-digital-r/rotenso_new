@@ -535,6 +535,10 @@ export const productSchema = {
     }),
     { label: "Pytania i odpowiedzi (FAQ)", itemLabel: (q) => q.fields.question.value || "Pytanie" },
   ),
+  seoH1: fields.text({
+    label: "SEO — nagłówek H1 (np. Klimatyzator ścienny Rotenso Mirai)",
+    description: "Z arkusza SEO. Musi kończyć się nazwą modelu: nazwa jest duża, reszta to mała linia nad nią. Puste = nagłówek z adresu strony.",
+  }),
   seoTitle: fields.text({ label: "SEO — tytuł" }),
   seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
 };

@@ -121,8 +121,17 @@ export function Purchase({ label, headingLevel = "h2", name, description, cmsIma
         <div className="flex flex-col gap-[30px] rounded-[32px] bg-white px-[30px] pt-[30px] pb-[40px] text-rotenso-grey shadow-[8px_8px_30px_rgba(0,0,0,0.15)]">
           <div className="flex flex-col gap-[10px]">
             <div className="font-light">
-              {label && <p className="text-[20px] leading-[normal]">{label}</p>}
-              {headingLevel === "h1" ? <h1 className="text-h1 leading-[1.2]">{name}</h1> : <h2 className="text-h1 leading-[1.2]">{name}</h2>}
+              {headingLevel === "h1" ? (
+                <h1>
+                  {label && <span className="block text-[20px] leading-[normal]">{label}</span>}{" "}
+                  <span className="block text-h1 leading-[1.2]">{name}</span>
+                </h1>
+              ) : (
+                <>
+                  {label && <p className="text-[20px] leading-[normal]">{label}</p>}
+                  <h2 className="text-h1 leading-[1.2]">{name}</h2>
+                </>
+              )}
             </div>
             <p className="text-[16px] leading-[24px]">{description}</p>
           </div>

@@ -21,6 +21,7 @@ import { SocialWidget } from "@/components/product/SocialWidget";
 import { SplitVsMulti } from "@/components/product/SplitVsMulti";
 import { getHome, getSettings } from "@/lib/content";
 import { getInstagramPosts } from "@/lib/instagram";
+import { productHeading } from "@/lib/productHeading";
 import { loadProduct, productMetadata, productStaticParams } from "@/lib/productRoute";
 import { getVideosByLinks } from "@/lib/youtube";
 
@@ -71,9 +72,10 @@ export default async function ProductPage({ params }: Props) {
   const thumb = existsSync(path.join(process.cwd(), "public", menuImage)) ? menuImage : (variants[0]?.images[0] ?? null);
 
   const basic = entry.kind === "ac-basic";
+  const heading = productHeading({ lang, slug: page.slug, name: entry.name, seoH1: entry.seoH1, categoryLabel: entry.categoryLabel });
   const purchase = (
     <Purchase
-      label={basic ? entry.categoryLabel : undefined}
+      label={basic ? heading.kicker : undefined}
       headingLevel={basic ? "h1" : "h2"}
       name={entry.name}
       description={entry.description}
@@ -180,7 +182,7 @@ export default async function ProductPage({ params }: Props) {
   return (
     <main className="pb-[151px]">
       <RememberProduct product={{ href: base, name: entry.name, text: entry.tagline, image: thumb }} />
-      <ProductHero product={entry} lang={lang} ui={ui} categoryHref={`/${lang}/${entry.category}`} boxed={premium} />
+      <ProductHero product={entry} lang={lang} ui={ui} categoryHref={`/${lang}/${entry.category}`} boxed={premium} kicker={heading.kicker} />
       <ProductBar product={entry} base={base} active="overview" ui={ui} lang={lang} gap={premium ? 95 : 20} />
       {premium ? (
         // Premium (Figma "Klimatyzacja Premium v02"): intro and feature panel merged into one

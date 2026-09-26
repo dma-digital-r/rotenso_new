@@ -219,8 +219,10 @@ export function Solutions({ data }: { data: InvestmentsContent["solutions"] }) {
           ))}
         </ul>
         <span aria-hidden className="w-px shrink-0 self-stretch bg-white" />
-        <div className="flex min-w-0 flex-1 gap-[50px]">
-          <div className="flex w-[480px] shrink-0 flex-col pt-[190px]">
+        {/* The right side (segment text + photo) stays in view — sticky, at most one screen tall —
+            while the segment list on the left scrolls. */}
+        <div className="sticky top-[100px] flex h-[min(770px,calc(100svh-120px))] min-w-0 flex-1 items-center gap-[50px] self-start">
+          <div className="flex w-[480px] shrink-0 flex-col">
             <h3 className="text-h1 leading-[1.2] font-light whitespace-pre-line">{seg.title}</h3>
             {seg.text && <p className="mt-[20px] text-[16px] leading-[24px] whitespace-pre-line">{seg.text}</p>}
             {seg.product.name && (
@@ -243,7 +245,7 @@ export function Solutions({ data }: { data: InvestmentsContent["solutions"] }) {
               </div>
             )}
           </div>
-          <div className="relative ml-auto aspect-square w-[770px] max-w-full shrink overflow-hidden rounded-[32px] bg-white/50">
+          <div className="relative ml-auto aspect-square h-full max-w-[calc(100%-530px)] shrink overflow-hidden rounded-[32px] bg-white/50">
             {seg.image ? <FramedImage src={seg.image} sizes="770px" /> : <MissingMedia label={`Zdjęcie segmentu „${seg.name}” — do dodania w panelu`} dark={false} />}
           </div>
         </div>
