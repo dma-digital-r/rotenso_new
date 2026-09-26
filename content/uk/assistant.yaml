@@ -1,0 +1,33 @@
+background: /images/assistant/bg.avif
+title: Lorem ipsum
+text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+cards:
+  - image: /images/assistant/klima.avif
+    video: ''
+    title: |-
+      Асистент підбору
+      кондиціонера
+    text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+    button:
+      label: Почати
+      href: /uk/asystent-doboru/klimatyzacja
+  - image: /images/assistant/reku.avif
+    video: ''
+    title: |-
+      Асистент підбору
+      рекуператора
+    text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+    button:
+      label: Почати
+      href: /uk/asystent-doboru/rekuperacja
+  - image: /images/assistant/pompa.avif
+    video: ''
+    title: |-
+      Асистент підбору
+      теплового насоса
+    text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+    button:
+      label: Почати
+      href: /uk/asystent-doboru/pompa-ciepla
+seoTitle: Асистент підбору - Rotenso
+seoDescription: Підберіть кондиціонер, рекуператор або тепловий насос Rotenso для свого дому за кілька простих кроків.

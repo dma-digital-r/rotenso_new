@@ -1109,3 +1109,22 @@ export const contactSchema = {
   seoTitle: fields.text({ label: "SEO — tytuł" }),
   seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
 };
+
+// Asystent doboru — start page (Figma "Doboromierz Start").
+export const assistantSchema = {
+  background: image("Tło (1920×1080)", "assistant"),
+  title: fields.text({ label: "Tytuł" }),
+  text: fields.text({ label: "Podtytuł" }),
+  cards: fields.array(
+    fields.object({
+      image: image("Zdjęcie karty (420×524)", "assistant"),
+      video: fields.text({ label: "Film odtwarzany po najechaniu (adres MP4, opcjonalnie)" }),
+      title: fields.text({ label: "Tytuł", multiline: true }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+      button: link("Przycisk (np. Rozpocznij)"),
+    }),
+    { label: "Asystenci (karty)", itemLabel: (c) => c.fields.title.value || "Asystent" },
+  ),
+  seoTitle: fields.text({ label: "SEO — tytuł" }),
+  seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
+};

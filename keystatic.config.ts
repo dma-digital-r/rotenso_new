@@ -1,6 +1,6 @@
 import { collection, config, singleton } from "@keystatic/core";
 import { locales, localeLabels, type Locale } from "./src/i18n/config";
-import { aboutSchema, blogSchema, guideSchema, homeSchema, investmentsSchema, contactSchema, menuSchema, productSchema, settingsSchema } from "./src/content/schema";
+import { aboutSchema, blogSchema, guideSchema, homeSchema, investmentsSchema, contactSchema, assistantSchema, menuSchema, productSchema, settingsSchema } from "./src/content/schema";
 
 // Every language keeps its own copy of the content under content/<lang>/.
 // PL is edited by hand; other languages are filled by the DeepL script and can
@@ -69,6 +69,15 @@ export function contactSingleton(lang: Locale) {
   });
 }
 
+export function assistantSingleton(lang: Locale) {
+  return singleton({
+    label: `Asystent doboru — start (${lang.toUpperCase()})`,
+    path: `content/${lang}/assistant`,
+    format: { data: "yaml" },
+    schema: assistantSchema,
+  });
+}
+
 export function guidesCollection(lang: Locale) {
   return collection({
     label: `Poradniki (${lang.toUpperCase()})`,
@@ -98,7 +107,7 @@ export default config({
     navigation: Object.fromEntries(
       locales.map((lang) => [
         localeLabels[lang],
-        [`home_${lang}`, `settings_${lang}`, `menu_${lang}`, `about_${lang}`, `investments_${lang}`, `contact_${lang}`, `blog_${lang}`, `guides_${lang}`, `products_${lang}`],
+        [`home_${lang}`, `settings_${lang}`, `menu_${lang}`, `about_${lang}`, `investments_${lang}`, `contact_${lang}`, `assistant_${lang}`, `blog_${lang}`, `guides_${lang}`, `products_${lang}`],
       ]),
     ),
   },
@@ -111,6 +120,7 @@ export default config({
       [`blog_${lang}`, blogSingleton(lang)],
       [`investments_${lang}`, investmentsSingleton(lang)],
       [`contact_${lang}`, contactSingleton(lang)],
+      [`assistant_${lang}`, assistantSingleton(lang)],
     ]),
   ),
   collections: Object.fromEntries(

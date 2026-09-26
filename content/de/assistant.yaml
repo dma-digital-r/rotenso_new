@@ -1,0 +1,33 @@
+background: /images/assistant/bg.avif
+title: Lorem ipsum
+text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+cards:
+  - image: /images/assistant/klima.avif
+    video: ''
+    title: |-
+      Auswahlassistent
+      Klimaanlage
+    text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+    button:
+      label: Starten
+      href: /de/asystent-doboru/klimatyzacja
+  - image: /images/assistant/reku.avif
+    video: ''
+    title: |-
+      Auswahlassistent
+      Lüftungsgerät
+    text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+    button:
+      label: Starten
+      href: /de/asystent-doboru/rekuperacja
+  - image: /images/assistant/pompa.avif
+    video: ''
+    title: |-
+      Auswahlassistent
+      Wärmepumpe
+    text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+    button:
+      label: Starten
+      href: /de/asystent-doboru/pompa-ciepla
+seoTitle: Auswahlassistent - Rotenso
+seoDescription: Wählen Sie in wenigen Schritten die passende Rotenso Klimaanlage, Lüftungsanlage oder Wärmepumpe.

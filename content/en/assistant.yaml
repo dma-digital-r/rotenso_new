@@ -1,0 +1,33 @@
+background: /images/assistant/bg.avif
+title: Lorem ipsum
+text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+cards:
+  - image: /images/assistant/klima.avif
+    video: ''
+    title: |-
+      Air conditioning
+      selection assistant
+    text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+    button:
+      label: Start
+      href: /en/asystent-doboru/klimatyzacja
+  - image: /images/assistant/reku.avif
+    video: ''
+    title: |-
+      Heat recovery
+      selection assistant
+    text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+    button:
+      label: Start
+      href: /en/asystent-doboru/rekuperacja
+  - image: /images/assistant/pompa.avif
+    video: ''
+    title: |-
+      Heat pump
+      selection assistant
+    text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+    button:
+      label: Start
+      href: /en/asystent-doboru/pompa-ciepla
+seoTitle: Selection assistant - Rotenso
+seoDescription: Choose a Rotenso air conditioner, heat recovery unit or heat pump for your home in a few simple steps.

@@ -1,0 +1,33 @@
+background: /images/assistant/bg.avif
+title: Lorem ipsum
+text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+cards:
+  - image: /images/assistant/klima.avif
+    video: ''
+    title: |-
+      Assistant de choix
+      de climatisation
+    text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+    button:
+      label: Commencer
+      href: /fr/asystent-doboru/klimatyzacja
+  - image: /images/assistant/reku.avif
+    video: ''
+    title: |-
+      Assistant de choix
+      de VMC double flux
+    text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+    button:
+      label: Commencer
+      href: /fr/asystent-doboru/rekuperacja
+  - image: /images/assistant/pompa.avif
+    video: ''
+    title: |-
+      Assistant de choix
+      de pompe à chaleur
+    text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+    button:
+      label: Commencer
+      href: /fr/asystent-doboru/pompa-ciepla
+seoTitle: Assistant de sélection - Rotenso
+seoDescription: Choisissez en quelques étapes le climatiseur, la VMC ou la pompe à chaleur Rotenso adaptée à votre maison.
