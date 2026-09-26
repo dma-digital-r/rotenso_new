@@ -96,7 +96,7 @@ export default async function GuidePage({ params }: Props) {
           <span aria-current="page">{summary.label}</span>
         </nav>
         <div className="relative flex w-[860px] max-w-[calc(100%-32px)] flex-col gap-[10px] rounded-[32px] bg-black/50 px-[20px] pt-[20px] pb-[30px] text-center font-light text-white backdrop-blur-[20px]">
-          <h1 className="text-h1 leading-[1.2]">{summary.title}</h1>
+          <h1 className="text-h2 leading-[1.2]">{summary.title}</h1>
           {entry.subtitle && <p className="text-h3 leading-[1.36]">{entry.subtitle}</p>}
         </div>
       </section>
