@@ -4,7 +4,7 @@ import { useState } from "react";
 import { PlayPause } from "@/components/product/PlayPause";
 import type { Ui } from "@/i18n/ui";
 import { Button } from "./Button";
-import { FramedImage } from "./FramedImage";
+import { Media, SlideTimer } from "./Media";
 import { SliderBar } from "./SliderBar";
 
 const WIDE = 970;
@@ -12,7 +12,7 @@ const NARROW = 310;
 const GAP = 20;
 const SLIDE_MS = 8000;
 
-export type Tile = { image: string | null; title?: string; text?: string; cta?: { label: string; href: string } };
+export type Tile = { image: string | null; video?: string | null; title?: string; text?: string; cta?: { label: string; href: string } };
 
 // Figma "Produkty - o nas" / "Slider L": the active tile is 970×545 and centred, the others
 // 310 wide; red timer and pause on the active tile; under the track an optional description row
@@ -20,9 +20,13 @@ export type Tile = { image: string | null; title?: string; text?: string; cta?: 
 export function TileSlider({ tiles, ui, autoplay = true }: { tiles: Tile[]; ui: Ui; autoplay?: boolean }) {
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
+  const [progress, setProgress] = useState(0);
   const count = tiles.length;
   if (!count) return null;
-  const go = (i: number) => setIndex((i + count) % count);
+  const go = (i: number) => {
+    setProgress(0);
+    setIndex((i + count) % count);
+  };
   const active = tiles[index];
   const hasCaption = tiles.some((t) => t.text || t.cta?.label);
 
@@ -42,7 +46,7 @@ export function TileSlider({ tiles, ui, autoplay = true }: { tiles: Tile[]; ui: 
                 className={`relative h-[545px] shrink-0 overflow-hidden rounded-[32px] bg-[#c4c4c4] transition-[width] duration-500 ${on ? "" : "cursor-pointer"}`}
                 style={{ width: on ? WIDE : NARROW }}
               >
-                <FramedImage src={t.image} sizes="970px" />
+                <Media image={t.image} video={t.video} sizes="970px" playing={on && !paused} loop={!autoplay || count < 2} onProgress={on ? setProgress : undefined} onEnded={() => go(index + 1)} />
                 {t.title && (
                   <>
                     <span className="absolute inset-x-0 bottom-0 h-[120px] bg-[linear-gradient(to_top,rgb(0_0_0/0.7),rgb(0_0_0/0))]" />
@@ -56,14 +60,7 @@ export function TileSlider({ tiles, ui, autoplay = true }: { tiles: Tile[]; ui: 
                 {on && autoplay && (
                   <>
                     <PlayPause paused={paused} onToggle={() => setPaused((p) => !p)} ui={ui} className="absolute right-[30px] bottom-[30px]" />
-                    <span className="absolute inset-x-0 bottom-0 h-[5px]">
-                      <span
-                        key={index}
-                        className="hero-progress absolute inset-y-0 left-0 bg-rotenso-red"
-                        style={{ animationDuration: `${SLIDE_MS}ms`, animationPlayState: paused ? "paused" : "running" }}
-                        onAnimationEnd={() => go(index + 1)}
-                      />
-                    </span>
+                    <SlideTimer ms={SLIDE_MS} film={!!t.video} progress={progress} paused={paused} onDone={() => go(index + 1)} slideKey={index} />
                   </>
                 )}
               </div>

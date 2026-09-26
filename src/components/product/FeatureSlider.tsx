@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { diagonalGradient } from "@/components/home/SectionBackdrop";
-import { FramedImage } from "@/components/ui/FramedImage";
+import { Media, SlideTimer } from "@/components/ui/Media";
 import type { Ui } from "@/i18n/ui";
 import { PlayPause } from "./PlayPause";
 
@@ -10,7 +10,7 @@ const SLIDE_MS = 8000;
 const SLIDE_W = 1340;
 const GAP = 20;
 
-type Slide = { image: string | null; title: string; text: string };
+type Slide = { image: string | null; video?: string | null; title: string; text: string };
 
 // Figma: "Mirai Cechy Slider v3" (5172:81671) on the grey-white gradient "Rectangle 33"
 // (527px, starts where "Cecha" ends). 1340×754 slides 50px from the left edge, the next one
@@ -19,9 +19,13 @@ type Slide = { image: string | null; title: string; text: string };
 export function FeatureSlider({ slides, ui }: { slides: Slide[]; ui: Ui }) {
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
+  const [progress, setProgress] = useState(0);
   const count = slides.length;
   if (!count) return null;
-  const go = (i: number) => setIndex((i + count) % count);
+  const go = (i: number) => {
+    setProgress(0);
+    setIndex((i + count) % count);
+  };
 
   return (
     <section className="relative pt-[150px]">
@@ -38,7 +42,8 @@ export function FeatureSlider({ slides, ui }: { slides: Slide[]; ui: Ui }) {
               onClick={i !== index ? () => go(i) : undefined}
               className={`relative h-[754px] w-[1340px] shrink-0 overflow-hidden rounded-[32px] bg-grey-dd ${i !== index ? "cursor-pointer" : ""}`}
             >
-              <FramedImage src={s.image} sizes="1340px" />
+              {/* A film plays once and moves the slider on; a photo waits SLIDE_MS. */}
+              <Media image={s.image} video={s.video} sizes="1340px" playing={i === index && !paused} loop={count < 2} onProgress={i === index ? setProgress : undefined} onEnded={() => go(index + 1)} />
               <div className="absolute bottom-[50px] left-[50px] flex w-[540px] flex-col gap-[20px] rounded-[32px] bg-black/50 p-[30px] text-white backdrop-blur-[20px]">
                 <h3 className="text-h2 leading-[1.2] font-light">{s.title}</h3>
                 <p className="text-[16px] leading-[24px]">{s.text}</p>
@@ -46,14 +51,7 @@ export function FeatureSlider({ slides, ui }: { slides: Slide[]; ui: Ui }) {
               {i === index && (
                 <>
                   <PlayPause paused={paused} onToggle={() => setPaused((p) => !p)} ui={ui} className="absolute right-[50px] bottom-[50px]" />
-                  <span className="absolute inset-x-0 bottom-0 h-[5px]">
-                    <span
-                      key={index}
-                      className="hero-progress absolute inset-y-0 left-0 bg-rotenso-red"
-                      style={{ animationDuration: `${SLIDE_MS}ms`, animationPlayState: paused ? "paused" : "running" }}
-                      onAnimationEnd={() => go(index + 1)}
-                    />
-                  </span>
+                  <SlideTimer ms={SLIDE_MS} film={!!s.video} progress={progress} paused={paused} onDone={() => go(index + 1)} slideKey={index} />
                 </>
               )}
             </div>

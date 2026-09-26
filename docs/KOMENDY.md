@@ -76,7 +76,13 @@ New-NetFirewallRule -DisplayName "Rotenso podglad (3001)" -Direction Inbound -Pr
   - **High Premium** (np. Mirai): nagłówek na całą szerokość, „Intro Video 180”, sekcja „Cecha”, duży slajder cech.
   - **Premium** (np. Fresh): nagłówek w zaokrąglonym pudełku, tytuł na zdjęciu z nachodzącym szerokim slajderem, kafelki cech przed „Split czy Multi Split?”, bez zimorodka przy atutach.
 - **Symbole z feedu:** zawsze najnowsza rewizja (liczba po „R”, np. R16). Przy budowaniu strony i w `npm run prices` pojawia się ostrzeżenie, jeśli w feedzie jest nowsza.
+  - **Basic** (np. Roni): bez nagłówka — strona zaczyna się od sekcji zakupowej; potem pudełko z tytułem i kafelkami, filmy z tekstem na ciemnym tle, „Dodatkowe zalety”, „Warto rozważyć” (inne modele).
 - **Pole „Jednostka wewnętrzna z przodu”** to zdjęcie na kafelku 180° w galerii.
+- **Filmy:** hero, slajdy i kafelki mają pole „Film (adres MP4)”. Zdjęcie w tym samym miejscu jest okładką filmu (widać je, zanim film się wczyta). W Figmie ikona pauzy na obrazie = w tym miejscu jest film. Czerwona linia pokazuje postęp filmu; w slajderze po jego końcu przechodzi dalej.
+
+## Zdjęcia — formaty
+- W panelu można wgrywać JPG, PNG, WebP albo AVIF. Strona i tak wysyła przeglądarce **AVIF** (najlżejszy), a starszym przeglądarkom **WebP** — w rozmiarze dopasowanym do ekranu.
+- Wgrywanie AVIF oszczędza miejsce w repozytorium; na wagę strony dla odwiedzających nie ma to wpływu.
 
 ## Formularz „Zapytaj o wycenę”
 - Zgłoszenia idą na `/api/lead`, a stamtąd — metodą POST w formacie JSON — pod adres z `.env.local` → `LEAD_WEBHOOK_URL` (np. webhook CRM albo automatyzacji maili).

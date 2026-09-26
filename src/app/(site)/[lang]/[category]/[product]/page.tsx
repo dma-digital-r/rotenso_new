@@ -2,9 +2,11 @@ import { diagonalGradient } from "@/components/home/SectionBackdrop";
 import { FramedImage } from "@/components/ui/FramedImage";
 import { TileSlider } from "@/components/ui/TileSlider";
 import { existsSync } from "node:fs";
+import Link from "next/link";
 import path from "node:path";
 import { RememberProduct } from "@/components/about/RecentlyViewed";
 import { Advantages } from "@/components/product/Advantages";
+import { Alternatives, Benefits, FeatureRows } from "@/components/product/BasicSections";
 import { Faq } from "@/components/product/Faq";
 import { FeaturePanel } from "@/components/product/FeaturePanel";
 import { FeatureSlider } from "@/components/product/FeatureSlider";
@@ -63,10 +65,117 @@ export default async function ProductPage({ params }: Props) {
   const gallery = entry.gallery.filter(Boolean) as string[];
   const hasGrid = entry.advantages.grid.length > 0;
   const premium = entry.kind === "ac-premium";
-  const slides = entry.featureSlides.map((s) => ({ image: s.image, title: s.title, subtitle: s.subtitle, text: s.text }));
+  const slides = entry.featureSlides.map((s) => ({ image: s.image, video: s.video, title: s.title, subtitle: s.subtitle, text: s.text }));
   // "Ostatnio oglądane" card: the menu tile image of this model, else the first feed photo.
   const menuImage = `/images/menu/${page.slug}.png`;
   const thumb = existsSync(path.join(process.cwd(), "public", menuImage)) ? menuImage : (variants[0]?.images[0] ?? null);
+
+  const basic = entry.kind === "ac-basic";
+  const purchase = (
+    <Purchase
+      label={basic ? entry.categoryLabel : undefined}
+      headingLevel={basic ? "h1" : "h2"}
+      name={entry.name}
+      description={entry.description}
+      cmsImages={gallery}
+      packshot={entry.packshot}
+      variants={variants.map((v) => ({ label: v.label, price: v.price, images: v.images }))}
+      multi={entry.family.canonical ? undefined : entry.family.other}
+      siblings={entry.siblings.map((s) => ({ name: s.name, image: s.image, href: s.href }))}
+      arHref={entry.arLink.href}
+      accessoriesHref={entry.accessoriesLink.href}
+      lang={lang}
+      ui={ui}
+    />
+  );
+  const tiles = entry.featureTiles.map((t) => ({ image: t.image, video: t.video, title: t.title, text: t.text }));
+  const advantages = (
+    <Advantages
+      title={entry.advantages.title}
+      items={entry.advantages.items.map((s) => ({ image: s.image, video: s.video, title: s.title, text: s.text }))}
+      grid={entry.advantages.grid.map((s) => ({ image: s.image, title: s.title, text: s.text }))}
+      bird={!premium && !basic}
+      autoplay={premium || basic}
+      ui={ui}
+    />
+  );
+  const tail = (
+    <>
+      <SocialWidget title={ui.socialTitle} posts={posts} links={settings.social} />
+      <QuoteForm data={settings.quoteForm} product={entry.name} lang={lang} ui={ui} />
+      <Faq items={entry.faq.map((q) => ({ question: q.question, answer: q.answer }))} ui={ui} />
+    </>
+  );
+  const multimedia = (
+    <ProductVideos
+      videos={videos.map((v) => ({ id: v.id, href: v.url, image: v.image, title: v.title, text: v.text }))}
+      channelHref={settings.social.youtube}
+      ui={ui}
+    />
+  );
+
+  if (basic) {
+    // Figma "Klimatyzacja Basic v02": no hero. The page opens with the purchase block on a photo
+    // that fades to white; then a rounded box with the product bar, title and feature tiles
+    // (reaching below the box), films with text on a dark band, Split / Multi, "Dodatkowe
+    // zalety", Multimedia, "Warto rozważyć", Social Media, quote form, FAQ.
+    return (
+      <main className="pb-[151px]">
+        <RememberProduct product={{ href: base, name: entry.name, text: entry.tagline, image: thumb }} />
+        <section id="kup" className="relative pt-[156px]">
+          <div className="absolute inset-x-0 top-0 -z-10 h-[892px] overflow-hidden">
+            <FramedImage src={intro.background} sizes="100vw" preload />
+            <span className="absolute inset-0 bg-[linear-gradient(to_bottom,rgb(255_255_255/0)_35%,#ffffff_75%)]" />
+          </div>
+          <nav aria-label="Breadcrumb" className="absolute top-[110px] left-1/2 w-[1300px] max-w-[calc(100%-32px)] -translate-x-1/2 text-[12px] leading-[normal] text-white">
+            <Link href={`/${lang}`} className="hover:underline">
+              {ui.crumbHome}
+            </Link>
+            {" / "}
+            <Link href={`/${lang}/produkty`} className="hover:underline">
+              {ui.crumbProducts}
+            </Link>
+            {" / "}
+            <Link href={`/${lang}/${entry.category}`} className="hover:underline">
+              {entry.categoryLabel}
+            </Link>
+            {" / "}
+            <span aria-current="page">{entry.name}</span>
+          </nav>
+          {purchase}
+        </section>
+
+        <ProductBar product={entry} base={base} active="overview" ui={ui} lang={lang} gap={231} />
+        <section id="intro-video" className="relative -mt-[131px] scroll-mt-[85px]">
+          <div className="relative mx-[50px] h-[895px] overflow-hidden rounded-[32px] bg-grey-f0">
+            <FramedImage src={entry.intro.image} sizes="100vw" />
+            <div className="relative mx-auto flex w-[1300px] max-w-[calc(100%-32px)] flex-col items-center pt-[255px] text-center font-light text-rotenso-grey">
+              <h2 className="text-h1 leading-[1.2]">{entry.intro.title}</h2>
+              {entry.intro.text && <p className="mt-[10px] text-h3 leading-[1.36]">{entry.intro.text}</p>}
+              {entry.intro.body && <p className="mt-[30px] w-[860px] max-w-full text-[16px] leading-[24px] font-normal whitespace-pre-line">{entry.intro.body}</p>}
+            </div>
+          </div>
+          {tiles.length > 0 && (
+            <div className="relative -mt-[273px]">
+              <TileSlider ui={ui} tiles={tiles} />
+            </div>
+          )}
+        </section>
+
+        <FeatureRows rows={entry.featureRows.map((r) => ({ image: r.image, video: r.video, title: r.title, text: r.text }))} ui={ui} />
+        {entry.splitVsMulti && <SplitVsMulti data={settings.splitVsMulti} />}
+        <Benefits title={entry.benefits.title} items={entry.benefits.items.map((b) => ({ image: b.image, title: b.title, text: b.text }))} />
+        {advantages}
+        {multimedia}
+        <Alternatives
+          title={entry.alternatives.title}
+          text={entry.alternatives.text}
+          items={entry.alternatives.items.map((a) => ({ kicker: a.kicker, name: a.name, text: a.text, image: a.image, href: a.href }))}
+        />
+        {tail}
+      </main>
+    );
+  }
 
   return (
     <main className="pb-[151px]">
@@ -78,10 +187,10 @@ export default async function ProductPage({ params }: Props) {
         // section, then feature tiles (970/310) on the grey-white gradient.
         <>
           <PremiumIntro intro={entry.intro} slides={slides} ui={ui} />
-          {entry.featureTiles.length > 0 && (
+          {tiles.length > 0 && (
             <section className="relative mt-[150px]">
               <div aria-hidden className="absolute inset-x-0 -top-[592px] -z-10 h-[864px]" style={{ backgroundImage: diagonalGradient(864) }} />
-              <TileSlider ui={ui} tiles={entry.featureTiles.map((t) => ({ image: t.image, title: t.title, text: t.text }))} />
+              <TileSlider ui={ui} tiles={tiles} />
             </section>
           )}
         </>
@@ -93,13 +202,7 @@ export default async function ProductPage({ params }: Props) {
         </>
       )}
       {entry.splitVsMulti && <SplitVsMulti data={settings.splitVsMulti} />}
-      <Advantages
-        title={entry.advantages.title}
-        items={entry.advantages.items.map((s) => ({ image: s.image, title: s.title, text: s.text }))}
-        grid={entry.advantages.grid.map((s) => ({ image: s.image, title: s.title, text: s.text }))}
-        bird={!premium}
-        ui={ui}
-      />
+      {advantages}
 
       {/* "Klimatyzacja idealna…" over a blurred photo (Figma 980px); the purchase block overlaps it.
           In Figma the lower row of the Atuty grid reaches 212px into this photo. */}
@@ -121,31 +224,11 @@ export default async function ProductPage({ params }: Props) {
             <p className="mt-[20px] w-[860px] max-w-[calc(100%-32px)] text-h3 leading-[normal]">{intro.text}</p>
           </div>
         )}
-        <div className={premium ? "" : "mt-[150px]"}>
-          <Purchase
-            name={entry.name}
-            description={entry.description}
-            cmsImages={gallery}
-            packshot={entry.packshot}
-            variants={variants.map((v) => ({ label: v.label, price: v.price, images: v.images }))}
-            multi={entry.family.canonical ? undefined : entry.family.other}
-            siblings={entry.siblings.map((s) => ({ name: s.name, image: s.image, href: s.href }))}
-            arHref={entry.arLink.href}
-            accessoriesHref={entry.accessoriesLink.href}
-            lang={lang}
-            ui={ui}
-          />
-        </div>
+        <div className={premium ? "" : "mt-[150px]"}>{purchase}</div>
       </section>
 
-      <ProductVideos
-        videos={videos.map((v) => ({ id: v.id, href: v.url, image: v.image, title: v.title, text: v.text }))}
-        channelHref={settings.social.youtube}
-        ui={ui}
-      />
-      <SocialWidget title={ui.socialTitle} posts={posts} links={settings.social} />
-      <QuoteForm data={settings.quoteForm} product={entry.name} lang={lang} ui={ui} />
-      <Faq items={entry.faq.map((q) => ({ question: q.question, answer: q.answer }))} ui={ui} />
+      {multimedia}
+      {tail}
     </main>
   );
 }

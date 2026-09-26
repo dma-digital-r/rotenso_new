@@ -2,25 +2,31 @@
 
 import { useState } from "react";
 import { FramedImage, MissingMedia } from "@/components/ui/FramedImage";
+import { Media, SlideTimer } from "@/components/ui/Media";
 import type { Ui } from "@/i18n/ui";
 import type { ProductEntry } from "@/lib/products";
 import { PlayPause } from "./PlayPause";
 
 const SLIDE_MS = 8000;
 
-type Slide = { image: string | null; title: string; subtitle: string; text: string };
+type Slide = { image: string | null; video?: string | null; title: string; subtitle: string; text: string };
 
 // Figma: "Klimatyzacja Premium v02" (5172:71463), from Daniel's screenshot — the High Premium
 // "Intro Video 180" and "Cecha" merged: a photo band under the product bar with a centred white
 // title, subtitle and paragraph, and a 1820-wide rounded slider (glass panel on the left, red
-// timer along the bottom) that overlaps the lower part of the band.
+// timer along the bottom) that overlaps the lower part of the band. The pause icon in Figma marks
+// an animation: normally one film that loops, its progress shown by the red line.
 // Positions from the Figma export (SVG/PDF): band starts 45px under the hero box, title 260px
 // into it, slider 1820×880 from 622px; the band is 1060px tall.
 export function PremiumIntro({ intro, slides, ui }: { intro: ProductEntry["intro"]; slides: Slide[]; ui: Ui }) {
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
+  const [progress, setProgress] = useState(0);
   const count = slides.length;
-  const go = (i: number) => setIndex((i + count) % count);
+  const go = (i: number) => {
+    setProgress(0);
+    setIndex((i + count) % count);
+  };
 
   return (
     <section id="intro-video" className="relative -mt-[100px] scroll-mt-[85px] pt-[260px]">
@@ -59,14 +65,7 @@ export function PremiumIntro({ intro, slides, ui }: { intro: ProductEntry["intro
             ))}
           </div>
           <PlayPause paused={paused} onToggle={() => setPaused((p) => !p)} ui={ui} className="absolute right-[50px] bottom-[50px]" />
-          <span className="absolute inset-x-0 bottom-0 h-[5px]">
-            <span
-              key={index}
-              className="hero-progress absolute inset-y-0 left-0 bg-rotenso-red"
-              style={{ animationDuration: `${SLIDE_MS}ms`, animationPlayState: paused ? "paused" : "running" }}
-              onAnimationEnd={() => go(index + 1)}
-            />
-          </span>
+          <SlideTimer ms={SLIDE_MS} film={!!slides[index]?.video} progress={progress} paused={paused} onDone={() => go(index + 1)} slideKey={index} />
         </div>
       )}
     </section>

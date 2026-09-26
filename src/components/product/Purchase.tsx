@@ -12,6 +12,10 @@ export type PurchaseVariant = { label: string; price: number | null; images: str
 type Props = {
   /** Front view of the indoor unit for the 180° tile. */
   packshot: string | null;
+  /** Basic: the page starts here, so the panel shows the category above the name (as the hero does). */
+  label?: string;
+  /** Basic: the product name is the page's main heading. */
+  headingLevel?: "h1" | "h2";
   name: string;
   description: string;
   /** Visualisations from the CMS — shown first, before the feed photos of the chosen capacity. */
@@ -30,7 +34,7 @@ const THUMBS = 4;
 
 // Figma: "e-commerce klimatyzacje" (5172:81598), 1820 wide — gallery 1270 + white panel 530.
 // Choosing a capacity switches the price; prices are only present on the Polish site.
-export function Purchase({ name, description, cmsImages, packshot, variants, multi, siblings, arHref, accessoriesHref, lang, ui }: Props) {
+export function Purchase({ label, headingLevel = "h2", name, description, cmsImages, packshot, variants, multi, siblings, arHref, accessoriesHref, lang, ui }: Props) {
   const [image, setImage] = useState(0);
   const [start, setStart] = useState(0);
   const [variant, setVariant] = useState(0);
@@ -116,7 +120,10 @@ export function Purchase({ name, description, cmsImages, packshot, variants, mul
       <div className="flex w-[530px] shrink-0 flex-col gap-[20px]">
         <div className="flex flex-col gap-[30px] rounded-[32px] bg-white px-[30px] pt-[30px] pb-[40px] text-rotenso-grey shadow-[8px_8px_30px_rgba(0,0,0,0.15)]">
           <div className="flex flex-col gap-[10px]">
-            <h2 className="text-h1 leading-[1.2] font-light">{name}</h2>
+            <div className="font-light">
+              {label && <p className="text-[20px] leading-[normal]">{label}</p>}
+              {headingLevel === "h1" ? <h1 className="text-h1 leading-[1.2]">{name}</h1> : <h2 className="text-h1 leading-[1.2]">{name}</h2>}
+            </div>
             <p className="text-[16px] leading-[24px]">{description}</p>
           </div>
 

@@ -322,7 +322,11 @@ export const productSchema = {
   category: fields.select({ label: "Kategoria (adres strony)", options: productCategories, defaultValue: "klimatyzacja" }),
   categoryLabel: fields.text({ label: "Nad nazwą w hero (np. Klimatyzacja)" }),
   tagline: fields.text({ label: "Hasło w hero" }),
-  heroImage: image("Zdjęcie hero (High Premium 1920×1030, Premium 1820×930)", "products"),
+  heroVideo: fields.text({
+    label: "Hero — film (adres MP4)",
+    description: "Film w pętli, bez dźwięku. Zdjęcie hero jest jego okładką (pokazuje się, zanim film się wczyta).",
+  }),
+  heroImage: image("Hero — zdjęcie / okładka filmu (High Premium 1920×1030, Premium 1820×930)", "products"),
   packshot: image("Jednostka wewnętrzna z przodu (kafelek 180° w galerii, 200×66)", "products"),
   description: fields.text({ label: "Opis w sekcji zakupowej", multiline: true }),
   variants: fields.array(
@@ -428,7 +432,8 @@ export const productSchema = {
   ),
   featureSlides: fields.array(
     fields.object({
-      image: image("Zdjęcie (High Premium 1340×754, Premium 1820×930)", "products"),
+      image: image("Zdjęcie / okładka filmu (High Premium 1340×754, Premium 1820×880)", "products"),
+      video: fields.text({ label: "Film (adres MP4, opcjonalnie — zdjęcie jest wtedy okładką)" }),
       title: fields.text({ label: "Tytuł", multiline: true }),
       subtitle: fields.text({ label: "Podtytuł (opcjonalnie)" }),
       text: fields.text({ label: "Tekst", multiline: true }),
@@ -437,11 +442,48 @@ export const productSchema = {
   ),
   featureTiles: fields.array(
     fields.object({
-      image: image("Zdjęcie (970×545)", "products"),
+      image: image("Zdjęcie / okładka filmu (970×545)", "products"),
+      video: fields.text({ label: "Film (adres MP4, opcjonalnie — zdjęcie jest wtedy okładką)" }),
       title: fields.text({ label: "Tytuł" }),
       text: fields.text({ label: "Opis pod aktywnym kafelkiem", multiline: true }),
     }),
     { label: "Kafelki cech (tylko Premium — przed „Split czy Multi Split?”)", itemLabel: (s) => s.fields.title.value || "Kafelek" },
+  ),
+  featureRows: fields.array(
+    fields.object({
+      image: image("Zdjęcie / okładka filmu (860×484)", "products"),
+      video: fields.text({ label: "Film (adres MP4, opcjonalnie — zdjęcie jest wtedy okładką)" }),
+      title: fields.text({ label: "Tytuł", multiline: true }),
+      text: fields.text({ label: "Tekst", multiline: true }),
+    }),
+    { label: "Film + tekst na ciemnym tle (tylko Basic, na zmianę lewo/prawo)", itemLabel: (s) => s.fields.title.value || "Wiersz" },
+  ),
+  benefits: fields.object(
+    {
+      title: fields.text({ label: "Tytuł (np. Dodatkowe zalety)" }),
+      items: fields.array(
+        fields.object({ image: image("Zdjęcie (420×236)", "products"), title: fields.text({ label: "Tytuł", multiline: true }), text: fields.text({ label: "Tekst", multiline: true }) }),
+        { label: "Karty (3)", itemLabel: (s) => s.fields.title.value || "Karta" },
+      ),
+    },
+    { label: "Dodatkowe zalety (tylko Basic — puste = sekcja ukryta)" },
+  ),
+  alternatives: fields.object(
+    {
+      title: fields.text({ label: "Tytuł (np. Warto rozważyć)" }),
+      text: fields.text({ label: "Podtytuł" }),
+      items: fields.array(
+        fields.object({
+          kicker: fields.text({ label: "Nadtytuł (np. Lepsze grzanie)" }),
+          name: fields.text({ label: "Model" }),
+          text: fields.text({ label: "Opis", multiline: true }),
+          image: image("Zdjęcie (360×176)", "products"),
+          href: fields.text({ label: "Adres karty produktu" }),
+        }),
+        { label: "Modele (3)", itemLabel: (s) => s.fields.name.value || "Model" },
+      ),
+    },
+    { label: "Warto rozważyć — inne modele (puste = sekcja ukryta)" },
   ),
   splitVsMulti: fields.checkbox({
     label: "Pokaż sekcję „Split czy Multi Split?”",
@@ -453,7 +495,8 @@ export const productSchema = {
       title: fields.text({ label: "Tytuł (np. Poznaj więcej atutów)" }),
       items: fields.array(
         fields.object({
-          image: image("Zdjęcie (970×545)", "products"),
+          image: image("Zdjęcie / okładka filmu (970×545)", "products"),
+          video: fields.text({ label: "Film (adres MP4, opcjonalnie — zdjęcie jest wtedy okładką)" }),
           title: fields.text({ label: "Tytuł" }),
           text: fields.text({ label: "Opis pod aktywnym kafelkiem", multiline: true }),
         }),

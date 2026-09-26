@@ -4,10 +4,12 @@ import Image from "next/image";
 import { useState } from "react";
 import { diagonalGradient } from "@/components/home/SectionBackdrop";
 import { FramedImage } from "@/components/ui/FramedImage";
+import { Media, SlideTimer } from "@/components/ui/Media";
+import { PlayPause } from "./PlayPause";
 import { SliderBar } from "@/components/ui/SliderBar";
 import type { Ui } from "@/i18n/ui";
 
-type Item = { image: string | null; title: string; text: string };
+type Item = { image: string | null; video?: string | null; title: string; text: string };
 
 const WIDE = 970;
 const NARROW = 310;
@@ -18,11 +20,33 @@ const GAP = 20;
 // Slider: the active tile is 970 wide and centred, the others 310; its description sits under
 // the track. Grid: 1300 wide, rows of 860+420 / 420+860, "+" reveals a description; the
 // kingfisher sits on the top-left corner.
-export function Advantages({ title, items, grid, bird = true, ui }: { title: string; items: Item[]; grid: Item[]; bird?: boolean; ui: Ui }) {
+// "autoplay" (Premium, Basic): the active tile has a pause button and a red timer and the slider
+// moves on by itself; tiles with a film play it.
+export function Advantages({
+  title,
+  items,
+  grid,
+  bird = true,
+  autoplay = false,
+  ui,
+}: {
+  title: string;
+  items: Item[];
+  grid: Item[];
+  bird?: boolean;
+  autoplay?: boolean;
+  ui: Ui;
+}) {
   const [index, setIndex] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const [progress, setProgress] = useState(0);
   const [open, setOpen] = useState<number | null>(null);
   const count = items.length;
   if (!count && !grid.length) return null;
+  const next = () => {
+    setProgress(0);
+    setIndex((i) => (i + 1) % count);
+  };
 
   return (
     <section className="relative z-10 mt-[150px] text-rotenso-grey">
@@ -37,15 +61,17 @@ export function Advantages({ title, items, grid, bird = true, ui }: { title: str
               style={{ transform: `translateX(${-(index * (NARROW + GAP) + WIDE / 2)}px)` }}
             >
               {items.map((it, i) => (
-                <button
+                <div
                   key={i}
-                  type="button"
+                  role="button"
+                  tabIndex={0}
                   onClick={() => setIndex(i)}
+                  onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && setIndex(i)}
                   aria-current={i === index}
                   className="relative h-[545px] shrink-0 cursor-pointer overflow-hidden rounded-[32px] bg-grey-dd transition-[width] duration-500"
                   style={{ width: i === index ? WIDE : NARROW }}
                 >
-                  <FramedImage src={it.image} sizes="970px" />
+                  <Media image={it.image} video={it.video} sizes="970px" playing={i === index && !paused} loop={!autoplay} onProgress={i === index ? setProgress : undefined} onEnded={next} />
                   <span className="absolute inset-x-0 bottom-0 h-[120px] bg-[linear-gradient(to_top,rgb(0_0_0/0.7),rgb(0_0_0/0))]" />
                   <span
                     className={`absolute inset-x-[20px] bottom-[30px] text-center font-light text-white ${
@@ -54,7 +80,13 @@ export function Advantages({ title, items, grid, bird = true, ui }: { title: str
                   >
                     {it.title}
                   </span>
-                </button>
+                  {autoplay && i === index && (
+                    <>
+                      <PlayPause paused={paused} onToggle={() => setPaused((p) => !p)} ui={ui} className="absolute right-[30px] bottom-[30px]" />
+                      <SlideTimer ms={8000} film={!!it.video} progress={progress} paused={paused} onDone={next} slideKey={index} />
+                    </>
+                  )}
+                </div>
               ))}
             </div>
           </div>

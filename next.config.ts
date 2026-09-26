@@ -5,6 +5,10 @@ const nextConfig: NextConfig = {
   // sharing one folder crashes the dev server.
   distDir: process.env.NEXT_DIST_DIR || ".next",
   images: {
+    // Every photo is served as AVIF (smallest), WebP to browsers without AVIF, whatever format was
+    // uploaded (JPG, PNG, AVIF, WebP). Converted once per size and cached.
+    formats: ["image/avif", "image/webp"],
+    minimumCacheTTL: 60 * 60 * 24 * 30,
     // YouTube thumbnails and Instagram posts (Social Media), product photos from the feed.
     // (object form without `search`, so Instagram's signed query strings are allowed)
     remotePatterns: [

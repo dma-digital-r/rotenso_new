@@ -1,0 +1,173 @@
+name: Roni
+kind: ac-basic
+category: klimatyzacja
+categoryLabel: Klimatyzacja
+tagline: Minimalistyczny i funkcjonalny klimatyzator do każdego wnętrza.
+heroImage: null
+description: Model Roni to bardzo popularna jednostka w ofercie Rotenso. Jego zaletą są niewielkie rozmiary pozwalające na dyskretny montaż, szczególnie gdy do dyspozycji jest ograniczona przestrzeń. Optymalne parametry i pakiet niezbędnych funkcji sprawia, że klimatyzator Roni to doskonały wybór. Klasyczny, biały wygląd, delikatnie złamany złotą linią idealnie wkomponuje się w wystrój niemalże każdego pomieszczenia.
+variants:
+  - label: 2,6 kW
+    symbols: R26XI R18 + R26XO R18
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+  - label: 3,5 kW
+    symbols: R35XI R18 + R35XO R18
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+  - label: 5,1 kW
+    symbols: R50XI R18 + R50XO R18
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+  - label: 7,0 kW
+    symbols: R70XI R18 + R70XO R18
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+purchaseIntro:
+  kicker: ''
+  title: ''
+  text: ''
+  background: /images/products/roni-top-bg.jpg
+arLink:
+  label: Zobacz
+  href: ''
+accessoriesLink:
+  label: Zobacz
+  href: /pl/akcesoria
+gallery:
+  - /images/products/roni-gallery-1.jpg
+  - /images/products/roni-gallery-2.jpg
+  - /images/products/roni-gallery-3.jpg
+  - /images/products/roni-gallery-4.jpg
+family:
+  label: Roni
+  other:
+    label: Roni Multi
+    href: /pl/klimatyzacja/roni-multi
+  canonical: ''
+siblings: []
+dimensions:
+  indoor: null
+  outdoor: null
+  remote: null
+featureGroups:
+  - title: Komfort
+    items:
+      - name: Automatyczny nawiew 4D
+        tooltip: Sterowanie żaluzjami pionowymi i poziomymi z pilota.
+      - name: Wbudowane WiFi
+        tooltip: ''
+      - name: Grzanie do -20°C
+        tooltip: ''
+  - title: Efektywność
+    items:
+      - name: Klasa A++ w chłodzeniu (SEER 6,4)
+        tooltip: ''
+      - name: Klasa A+ w grzaniu (SCOP 4,0)
+        tooltip: ''
+seoTitle: Klimatyzator Rotenso Roni — kompaktowy klimatyzator ścienny
+seoDescription: 'Rotenso Roni: kompaktowy klimatyzator ścienny z WiFi, nawiewem 4D i grzaniem do -20°C. Klasa A++ w chłodzeniu. Moce 2,6, 3,5, 5,1 i 7,0 kW.'
+intro:
+  image: /images/products/roni-intro-bg.jpg
+  video: ''
+  title: Optymalny i funkcjonalny
+  text: Wkomponuje się w wystrój niemalże każdego pomieszczenia.
+  body: Jego zaletą są niewielkie rozmiary pozwalające na dyskretny montaż, szczególnie gdy do dyspozycji jest ograniczona przestrzeń. Optymalne parametry i pakiet niezbędnych funkcji sprawia, że klimatyzator Roni to doskonały wybór.
+  more: ''
+featureSlides: []
+splitVsMulti: true
+advantages:
+  title: Poznaj więcej atutów
+  items: []
+  grid: []
+videos:
+  - url: https://www.youtube.com/watch?v=xJCWDUiBw4g
+    title: Klimatyzacja Rotenso Roni
+    text: Poznaj Roni — kompaktowy klimatyzator ścienny w przystępnej cenie.
+faq:
+  - question: Czym wyróżnia się klimatyzator Rotenso Roni?
+    answer: Roni to kompaktowy, minimalistyczny klimatyzator ścienny z wbudowanym WiFi i nawiewem 4D — dobry wybór tam, gdzie jest mało miejsca na montaż.
+  - question: Czy Roni nadaje się do grzania?
+    answer: Tak. Klimatyzator skutecznie ogrzewa nawet przy temperaturze zewnętrznej do -20°C (klasa A+ w grzaniu, SCOP 4,0).
+  - question: Czy Roni można podłączyć do systemu multi split?
+    answer: Tak. Jednostki wewnętrzne Roni współpracują z agregatami Hiro N-Line w systemie multi split.
+packshot: /images/products/roni-packshot.png
+featureTiles:
+  - image: /images/products/roni-tile-kompakt.jpg
+    video: ''
+    title: Kompaktowe wymiary
+    text: Sprawdzi się doskonale wszędzie tam gdzie jest ograniczona przestrzeń. Urządzenie mimo kompaktowych rozmiarów zachowuje wysoką wydajność.
+  - image: /images/products/roni-tile-grzanie.jpg
+    video: ''
+    title: |-
+      Grzanie
+      nawet przy -20°C
+    text: Klimatyzator skutecznie ogrzewa pomieszczenia nawet przy temperaturze zewnętrznej spadającej do -20°C.
+  - image: /images/products/roni-tile-wifi.jpg
+    video: ''
+    title: Funkcja SMART Wi-Fi
+    text: Wbudowany modem WiFi pozwala sterować wszystkimi funkcjami klimatyzatora ze smartfona, z dowolnego miejsca.
+heroVideo: ''
+featureRows:
+  - image: /images/products/roni-row-4d.jpg
+    video: ''
+    title: |-
+      Automatyczne
+      żaluzje 4D
+    text: Wbudowane siłowniki umożliwiają sterowanie pracą żaluzji pionowych i poziomych za pomocą pilota lub sterownika ściennego. Gwarantuje to najwyższy komfort obsługi i zapewnia wydajne rozprowadzenie powietrza w pomieszczeniu.
+  - image: /images/products/roni-row-filtry.jpg
+    video: ''
+    title: |-
+      System zdrowego
+      powietrza
+    text: System zdrowego powietrza składa się aż z 10 etapów oczyszczania i filtracji powietrza, dzięki czemu usuwa z otoczenia większość szkodliwych bakterii, wirusów, roztoczy i grzybów, abyś mógł oddychać czystym i zdrowym powietrzem.
+benefits:
+  title: Dodatkowe zalety
+  items:
+    - image: /images/products/roni-benefit-korozja.jpg
+      title: |-
+        Ochrona przed
+        korozją
+      text: Unikalna złota powłoka w jednostce zewnętrznej i wewnętrznej ma właściwości samoczyszczące, dzięki czemu skutecznie chroni urządzenie przed korozją i zabezpiecza przed namnażaniem bakterii.
+    - image: /images/products/roni-row-filtry.jpg
+      title: |-
+        System zdrowego
+        powietrza
+      text: System zdrowego powietrza składa się aż z 10 etapów oczyszczania i filtracji powietrza, dzięki czemu usuwa z otoczenia większość szkodliwych bakterii, wirusów, roztoczy i grzybów.
+    - image: /images/products/roni-row-4d.jpg
+      title: Inteligentny nawiew
+      text: Automatyczny nawiew 4D rozprowadza powietrze szybko i równomiernie w całym pomieszczeniu.
+alternatives:
+  title: Warto rozważyć
+  text: Szukasz czegoś więcej? Zobacz modele z wyższej półki.
+  items:
+    - kicker: Lepsze grzanie
+      name: Mirai
+      text: Klasa A+++ i praca w trybie grzania nawet do -30°C.
+      image: /images/menu/mirai.png
+      href: /pl/klimatyzacja/mirai
+    - kicker: Inne kolory
+      name: Luve Black
+      text: Czarny panel frontowy do nowoczesnych wnętrz.
+      image: /images/menu/luve-black.png
+      href: /pl/klimatyzacja/luve-black
+    - kicker: Bardziej cichy
+      name: Fresh
+      text: Praca od 19 dB i dopływ świeżego powietrza z zewnątrz.
+      image: /images/menu/fresh.png
+      href: /pl/klimatyzacja/fresh
+feature:
+  show: false
+  background: null
+  unitImage: null
+  airflow: null
+  kicker: ''
+  title: ''
+  text: ''

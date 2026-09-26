@@ -28,10 +28,22 @@ export function ProductHero({
           : "relative h-[calc(100svh-50px)] min-h-[600px] overflow-hidden"
       }
     >
-      {product.heroImage ? (
+      {/* The hero is a film (muted, looping); the photo is its poster and the fallback. */}
+      {product.heroVideo ? (
+        <video
+          src={product.heroVideo}
+          poster={product.heroImage ?? undefined}
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          className="absolute inset-0 size-full object-cover"
+        />
+      ) : product.heroImage ? (
         <FramedImage src={product.heroImage} alt={product.name} sizes="100vw" preload />
       ) : (
-        <MissingMedia label="Zdjęcie hero — do dodania w panelu" />
+        <MissingMedia label="Film / zdjęcie hero — do dodania w panelu" />
       )}
       <div className="relative mx-auto h-full w-[1300px] max-w-[calc(100%-32px)]">
         <nav aria-label="Breadcrumb" className={`absolute ${boxed ? "top-[95px]" : "top-[110px]"} left-0 text-[12px] leading-[normal] text-white`}>
