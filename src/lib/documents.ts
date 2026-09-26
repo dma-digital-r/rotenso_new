@@ -85,3 +85,19 @@ export function documentsFor(units: (FeedProduct | undefined)[], lang: Locale): 
     return { ...d, label: `${d.label} (${n === 1 ? "jedn. wewn." : "jedn. zewn."})` };
   });
 }
+
+/**
+ * "Pobierz kartę produktu" of an RVF indoor unit: its catalogue sheet ("Karta katalogowa" /
+ * "Product data sheet"…) in the page's language, else English, else Polish (Polish site only),
+ * else the "Technical data" file. Null when the feed has none of them.
+ */
+export function productCardOf(unit: FeedProduct | undefined, lang: Locale): string | null {
+  if (!unit) return null;
+  const files = unit.attachments.map((a) => ({ url: a.url, ...(KNOWN[a.label] ?? { type: a.label, lang: "pl" as DocLang }) }));
+  for (const type of ["catalogue", "technicalData"]) {
+    const of = files.filter((f) => f.type === type);
+    const hit = of.find((f) => f.lang === lang) ?? of.find((f) => f.lang === "en") ?? (lang === "pl" ? of[0] : undefined);
+    if (hit) return hit.url;
+  }
+  return null;
+}

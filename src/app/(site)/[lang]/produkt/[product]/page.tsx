@@ -19,7 +19,9 @@ import { Purchase } from "@/components/product/Purchase";
 import { QuoteForm } from "@/components/product/QuoteForm";
 import { SocialWidget } from "@/components/product/SocialWidget";
 import { SplitVsMulti } from "@/components/product/SplitVsMulti";
-import { getHome, getSettings } from "@/lib/content";
+import { GREY_BG, Heading } from "@/components/filters/FiltersSections";
+import { RvfIndoor, RvfLarge, RvfReferences, RvfUseCases } from "@/components/product/RvfSections";
+import { getHome, getInvestments, getSettings } from "@/lib/content";
 import { getInstagramPosts } from "@/lib/instagram";
 import { productHeading } from "@/lib/productHeading";
 import { loadProduct, productMetadata, productStaticParams } from "@/lib/productRoute";
@@ -116,6 +118,51 @@ export default async function ProductPage({ params }: Props) {
       ui={ui}
     />
   );
+
+  if (entry.kind === "rvf") {
+    // Figma "Inwestycje Produkt v03" — RVF outdoor units: boxed hero, product bar, use cases,
+    // features, compatible indoor units (symbols in the CMS, photo + product sheet from the feed),
+    // control options, large projects with gallery and lead form, references, FAQ.
+    const { rvf } = entry;
+    const help = (await getInvestments(lang)).help;
+    const control = rvf.control.tiles.map((t) => ({ image: t.image, video: t.video, title: t.title, text: t.text }));
+    return (
+      <main className="pb-[151px]">
+        <RememberProduct product={{ href: base, name: entry.name, text: entry.tagline, image: thumb }} />
+        <ProductHero product={entry} lang={lang} ui={ui} categoryHref={`/${lang}/${entry.category}`} kicker={entry.categoryLabel} rvf />
+        <ProductBar product={entry} base={base} active="overview" ui={ui} lang={lang} gap={100} />
+        {/* The dark use-case band starts 50px under the hero, behind the product bar. */}
+        <div className="-mt-[100px]">
+          <RvfUseCases data={rvf.useCases} />
+        </div>
+        {tiles.length > 0 && (
+          <section className={`mt-[150px] py-[110px] ${GREY_BG}`}>
+            <Heading title={rvf.features.title} text={rvf.features.text} />
+            <div className="mt-[50px]">
+              <TileSlider ui={ui} tiles={tiles} />
+            </div>
+          </section>
+        )}
+        <RvfIndoor data={rvf.indoor} units={page.indoor} ui={ui} />
+        {control.length > 0 && (
+          <section className={`mt-[150px] py-[110px] ${GREY_BG}`}>
+            <Heading title={rvf.control.title} text={rvf.control.text} />
+            <div className="mt-[50px]">
+              <TileSlider ui={ui} tiles={control} />
+            </div>
+          </section>
+        )}
+        <RvfLarge data={rvf.large} form={help} product={entry.name} lang={lang} ui={ui} />
+        <RvfReferences data={rvf.references} />
+        <Faq
+          items={entry.faq.map((q) => ({ question: q.question, answer: q.answer }))}
+          ui={ui}
+          numbered
+          button={rvf.faqButton.label ? rvf.faqButton : null}
+        />
+      </main>
+    );
+  }
 
   if (basic) {
     // Figma "Klimatyzacja Basic v02": no hero. The page opens with the purchase block on a photo

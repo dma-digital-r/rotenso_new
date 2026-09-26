@@ -544,6 +544,96 @@ export const productSchema = {
     }),
     { label: "Pytania i odpowiedzi (FAQ)", itemLabel: (q) => q.fields.question.value || "Pytanie" },
   ),
+  rvf: fields.object(
+    {
+      useCases: fields.object(
+        {
+          background: image("Tło sekcji (ciemne zdjęcie)", "products"),
+          title: fields.text({ label: "Tytuł (np. Gdzie sprawdzi się ten system?)" }),
+          text: fields.text({ label: "Podtytuł" }),
+          items: fields.array(
+            fields.object({
+              tab: fields.text({ label: "Zakładka (np. Szkolnictwo wyższe)" }),
+              image: image("Zdjęcie (970×620)", "products"),
+              text: fields.text({ label: "Opis pod zdjęciem" }),
+            }),
+            { label: "Zastosowania", itemLabel: (i) => i.fields.tab.value || "Zastosowanie" },
+          ),
+        },
+        { label: "RVF — Gdzie sprawdzi się ten system" },
+      ),
+      features: fields.object(
+        { title: fields.text({ label: "Tytuł (np. Poznaj cechy RVF V5)" }), text: fields.text({ label: "Podtytuł" }) },
+        { label: "RVF — Cechy (kafelki to „Kafelki cech” wyżej)" },
+      ),
+      indoor: fields.object(
+        {
+          title: fields.text({ label: "Tytuł (np. Dobierz jednostkę wewnętrzną)" }),
+          text: fields.text({ label: "Podtytuł" }),
+          items: fields.array(
+            fields.object({
+              symbol: fields.text({
+                label: "Symbol z feedu (np. RVF-28V5IWM R11)",
+                description: "Strona sama bierze najnowszą rewizję, zdjęcie i kartę katalogową (przycisk Pobierz kartę produktu).",
+              }),
+              name: fields.text({ label: "Nazwa (np. Enos WM)" }),
+              text: fields.text({ label: "Opis", multiline: true }),
+              image: image("Zdjęcie (puste = pierwsze zdjęcie z feedu)", "products"),
+            }),
+            { label: "Jednostki wewnętrzne", itemLabel: (i) => [i.fields.name.value, i.fields.symbol.value].filter(Boolean).join(" — ") || "Jednostka" },
+          ),
+        },
+        { label: "RVF — Dobierz jednostkę wewnętrzną" },
+      ),
+      control: fields.object(
+        {
+          title: fields.text({ label: "Tytuł (np. Opcje sterowania systemem)" }),
+          text: fields.text({ label: "Podtytuł" }),
+          tiles: fields.array(
+            fields.object({
+              image: image("Zdjęcie / okładka filmu (970×545)", "products"),
+              video: fields.text({ label: "Film (adres MP4, opcjonalnie)" }),
+              title: fields.text({ label: "Tytuł na kafelku" }),
+              text: fields.text({ label: "Opis pod sliderem", multiline: true }),
+            }),
+            { label: "Kafelki", itemLabel: (t) => t.fields.title.value || "Kafelek" },
+          ),
+        },
+        { label: "RVF — Opcje sterowania" },
+      ),
+      large: fields.object(
+        {
+          background: image("Tło sekcji", "products"),
+          title: fields.text({ label: "Tytuł (np. Rozwiązanie dla dużych obiektów)" }),
+          subtitle: fields.text({ label: "Podtytuł" }),
+          text: fields.text({ label: "Tekst", multiline: true }),
+          gallery: fields.array(image("Zdjęcie (1270×610)", "products"), { label: "Galeria" }),
+          investorTab: fields.text({ label: "Zakładka 1 (Dla inwestora)" }),
+          designerTab: fields.text({ label: "Zakładka 2 (Dla projektanta)" }),
+          investorTitle: fields.text({ label: "Inwestor — tytuł (np. Strefa inwestora)" }),
+          investorText: fields.text({ label: "Inwestor — tekst", multiline: true }),
+          designerTitle: fields.text({ label: "Projektant — tytuł" }),
+          designerText: fields.text({ label: "Projektant — tekst", multiline: true }),
+          helpTitle: fields.text({ label: "Pogrubiony śródtytuł (np. Pomożemy przy projekcie)" }),
+          helpText: fields.text({ label: "Tekst pod śródtytułem", multiline: true }),
+          formIntro: fields.text({ label: "Nad formularzem (np. Zostaw nam swoje dane…)" }),
+        },
+        { label: "RVF — Rozwiązanie dla dużych obiektów + formularz (pola formularza: Inwestycje → Oferujemy pomoc)" },
+      ),
+      references: fields.object(
+        {
+          title: fields.text({ label: "Tytuł (np. Referencje)" }),
+          items: fields.array(
+            fields.object({ image: image("Zdjęcie (530×330)", "products"), title: fields.text({ label: "Tytuł" }), text: fields.text({ label: "Tekst", multiline: true }) }),
+            { label: "Referencje", itemLabel: (r) => r.fields.title.value || "Referencja" },
+          ),
+        },
+        { label: "RVF — Referencje" },
+      ),
+      faqButton: link("RVF — przycisk pod FAQ (np. Zobacz jak możemy Ci pomóc)"),
+    },
+    { label: "Tylko Systemy RVF (jednostki zewnętrzne)" },
+  ),
   seoH1: fields.text({
     label: "SEO — nagłówek H1 (np. Klimatyzator ścienny Rotenso Mirai)",
     description: "Z arkusza SEO. Musi kończyć się nazwą modelu: nazwa jest duża, reszta to mała linia nad nią. Puste = nagłówek z adresu strony.",

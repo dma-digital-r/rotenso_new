@@ -1,0 +1,218 @@
+name: RVF V5
+kind: rvf
+category: systemy-rvf
+categoryLabel: Systemy RVF / VRF
+tagline: Lorem ipsum dolor sit amet enim
+heroImage: /images/products/rvf/hero.avif
+heroVideo: ''
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+variants:
+  - label: 25,2 kW
+    symbols: RVF-252V5OMM R10
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+  - label: 28,0 kW
+    symbols: RVF-280V5OMM R10
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+  - label: 33,5 kW
+    symbols: RVF-335V5OMM R10
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+  - label: 40,0 kW
+    symbols: RVF-400V5OMM R10
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+  - label: 45,0 kW
+    symbols: RVF-450V5OMM R10
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+  - label: 50,0 kW
+    symbols: RVF-500V5OMM R10
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+  - label: 56,0 kW
+    symbols: RVF-560V5OMM R10
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+  - label: 61,5 kW
+    symbols: RVF-615V5OMM R10
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+  - label: 67,0 kW
+    symbols: RVF-670V5OMM R10
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+  - label: 73,0 kW
+    symbols: RVF-730V5OMM R10
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+  - label: 78,5 kW
+    symbols: RVF-785V5OMM R10
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+  - label: 85,0 kW
+    symbols: RVF-850V5OMM R10
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+  - label: 90,0 kW
+    symbols: RVF-900V5OMM R10
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+family:
+  label: RVF V5
+  other:
+    label: ''
+    href: ''
+  canonical: ''
+featureTiles:
+  - image: /images/products/rvf/feature-eurovent.avif
+    video: ''
+    title: Certyfikat Eurovent
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+  - image: /images/products/rvf/feature-moduly.avif
+    video: ''
+    title: |-
+      Możliwość
+      łączenia modułów
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+  - image: /images/products/rvf/feature-grzanie.avif
+    video: ''
+    title: Grzanie przy -30°C
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+  - image: null
+    video: ''
+    title: Lorem ipsum
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+rvf:
+  useCases:
+    background: /images/products/rvf/usecases-bg.avif
+    title: Gdzie sprawdzi się ten system?
+    text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+    items:
+      - tab: Obiekty komercyjne wielkopowierzchniowe
+        image: /images/products/rvf/usecase-biurowce.avif
+        text: Biurowce klasy A, centra handlowe oraz duże obiekty typu open-space.
+      - tab: Służby zdrowia i hospitalizacja
+        image: /images/products/rvf/usecase-szpitale.avif
+        text: Szpitale, przychodnie i ośrodki opieki, gdzie liczy się stabilny klimat i czyste powietrze.
+      - tab: Szkolnictwo wyższe
+        image: null
+        text: Budynki uniwersyteckie, aule wykładowe i akademiki.
+  features:
+    title: Poznaj cechy RVF V5
+    text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  indoor:
+    title: Dobierz jednostkę wewnętrzną
+    text: Sprawdź, jakie jednostki wewnętrzne będą działać z RVF V5
+    items:
+      - symbol: RVF-28V5IWM R11
+        name: Enos WM
+        text: Uniwersalny i estetyczny klimatyzator ścienny, z wbudowanym zaworem EXV, przeznaczony dla wszystkich systemów RVF.
+        image: null
+      - symbol: RVF-28V4ICC R11
+        name: Tenji CC
+        text: Ekonomiczny i kompaktowy klimatyzator kasetonowy, z wbudowanym zaworem EXV oraz pompką skroplin, przeznaczony dla wszystkich systemów RVF.
+        image: /images/products/rvf/idu-tenji-cc.avif
+      - symbol: RVF-28V4IDL R13
+        name: Nevo DL
+        text: Kanałowa jednostka niskiego sprężu do ukrycia w suficie podwieszanym, przeznaczona dla wszystkich systemów RVF.
+        image: null
+      - symbol: RVF-45V4IFC R11
+        name: Jato FC
+        text: Jednostka przypodłogowo-podsufitowa do pomieszczeń bez sufitu podwieszanego, przeznaczona dla wszystkich systemów RVF.
+        image: null
+  control:
+    title: Opcje sterowania systemem
+    text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+    tiles:
+      - image: /images/products/rvf/control-diagnostyka.avif
+        video: ''
+        title: Zdalna diagnostyka
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+      - image: /images/products/rvf/control-sterowanie.avif
+        video: ''
+        title: Zdalne sterowanie
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+      - image: null
+        video: ''
+        title: Lorem ipsum
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+  large:
+    background: /images/products/rvf/large-bg.avif
+    title: Rozwiązanie dla dużych obiektów
+    subtitle: lorem ipsum dolor sit amet enim
+    text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim lorem. Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+    gallery:
+      - /images/products/rvf/gallery-1.avif
+      - /images/products/rvf/hero.avif
+      - /images/products/rvf/gallery-2.avif
+      - /images/products/rvf/gallery-3.avif
+      - /images/products/rvf/gallery-4.avif
+    investorTab: Dla inwestora
+    designerTab: Dla projektanta
+    investorTitle: Strefa inwestora
+    investorText: Wykonujemy kompleksowy raport doborowy instalacji oraz klimatyzacji dostosowany do konkretnych założeń, wymagań i potrzeb inwestycji.
+    designerTitle: Strefa projektanta
+    designerText: Pomagamy dobrać system i przygotować dokumentację projektową — od doboru jednostek po schematy instalacji.
+    helpTitle: Pomożemy przy projekcie
+    helpText: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim lorem. Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+    formIntro: 'Zostaw nam swoje dane kontaktowe, a my skontaktujemy się z Tobą:'
+  references:
+    title: Referencje
+    items:
+      - image: /images/products/rvf/ref-2.avif
+        title: Lorem ipsum
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      - image: /images/products/rvf/ref-1.avif
+        title: Lorem ipsum
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      - image: /images/products/rvf/ref-3.avif
+        title: Lorem ipsum
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      - image: /images/products/rvf/ref-4.avif
+        title: Lorem ipsum
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  faqButton:
+    label: Zobacz jak możemy Ci pomóc
+    href: /pl/systemy-rvf
+faq:
+  - question: Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - question: Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - question: Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - question: Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - question: Lorem ipsum dolor sit amet
+    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+seoH1: ''
+seoTitle: Rotenso RVF V5 - system klimatyzacji VRF dla dużych obiektów
+seoDescription: 'Rotenso RVF V5: jednostki zewnętrzne systemu VRF do biurowców, szpitali i uczelni. Łączenie modułów, grzanie do -30°C, certyfikat Eurovent.'

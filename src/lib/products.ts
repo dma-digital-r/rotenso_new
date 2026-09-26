@@ -3,7 +3,7 @@ import type { Entry } from "@keystatic/core/reader";
 import { productsCollection } from "../../keystatic.config";
 import { defaultLocale, type Locale } from "@/i18n/config";
 import { reader } from "./content";
-import { documentsFor, type ProductDocument } from "./documents";
+import { documentsFor, productCardOf, type ProductDocument } from "./documents";
 import { getRotensoProducts, newerRevision, setPrice, type FeedProduct } from "./productFeed";
 import { buildSpecs, type SpecGroup } from "./specs";
 
@@ -22,10 +22,14 @@ export type ProductVariant = {
   images: string[];
 };
 
+/** RVF: an indoor unit that works with this system (CMS symbol + texts, photo and card from the feed). */
+export type IndoorUnit = { symbol: string; name: string; text: string; image: string | null; card: string | null };
+
 export type ProductPage = {
   slug: string;
   entry: ProductEntry;
   variants: ProductVariant[];
+  indoor: IndoorUnit[];
 };
 
 const collectionFor = (lang: Locale) => reader.collections[`products_${lang}`];
@@ -53,6 +57,12 @@ function splitUnits(units: FeedProduct[]) {
   const odu = units.find((u) => /zewn/i.test(u.name) && u !== idu) ?? units[1];
   return { idu, odu };
 }
+
+// "RVF-28V5IWM R11" → "RVF-V5IWM": the model series without capacity and revision.
+const seriesOf = (symbol: string) => {
+  const m = symbol.trim().toUpperCase().match(/^([A-Z]+-)\d+(\w+?)(?: R\d+)?$/);
+  return m ? m[1] + m[2] : null;
+};
 
 export async function getProductPage(lang: Locale, slug: string): Promise<ProductPage | null> {
   const entry = await readProduct(lang, slug);
@@ -91,5 +101,21 @@ export async function getProductPage(lang: Locale, slug: string): Promise<Produc
     };
   });
 
-  return { slug, entry, variants };
+  // RVF indoor units: always the newest revision of the CMS symbol.
+  const indoor = entry.rvf.indoor.items.map((it) => {
+    const typed = it.symbol.trim().toUpperCase();
+    const symbol = newerRevision(feed, typed) ?? typed;
+    if (symbol !== typed) console.warn(`[produkty] ${entry.name}: jednostka ${typed} ma nowszą rewizję w feedzie — użyto ${symbol}`);
+    const unit = feed.get(symbol);
+    if (typed && !unit && feed.size) console.warn(`[produkty] ${entry.name}: brak jednostki ${typed} w feedzie`);
+    // Photo and sheet of this capacity, else of another capacity of the same series
+    // (RVF-28V5IWM → RVF-22V5IWM, RVF-36V5IWM…): the units look the same, the sheet covers the series.
+    const series = seriesOf(symbol);
+    const siblings = [...feed.values()].filter((u) => u !== unit && series && seriesOf(u.symbol) === series);
+    const image = it.image ?? unit?.images[0] ?? siblings.find((u) => u.images.length)?.images[0] ?? null;
+    const card = productCardOf(unit, lang) ?? siblings.map((u) => productCardOf(u, lang)).find(Boolean) ?? null;
+    return { symbol, name: it.name, text: it.text, image, card };
+  });
+
+  return { slug, entry, variants, indoor };
 }
