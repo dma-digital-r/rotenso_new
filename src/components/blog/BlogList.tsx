@@ -197,7 +197,7 @@ export function BlogList({ guides, hideUnfiltered = [], labels, ui }: { guides: 
 }
 
 // "arrow-left-circle" / "arrow-right-circle", 24px.
-function PageArrow({ dir }: { dir: "left" | "right" }) {
+export function PageArrow({ dir }: { dir: "left" | "right" }) {
   return (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden className={dir === "left" ? "rotate-180" : ""}>
       <circle cx="12" cy="12" r="10" stroke="#546670" strokeWidth="1.5" />

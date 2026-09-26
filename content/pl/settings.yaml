@@ -10,6 +10,13 @@ nav:
   - label: Kontakt
     href: /pl/kontakt
 searchPlaceholder: Czego szukasz?
+searchPhrases:
+  - klimatyzator ścienny
+  - klimatyzacja do mieszkania
+  - pompa ciepła
+  - rekuperacja
+  - multi split
+  - Mirai
 configurator:
   label: Asystent doboru
   href: /pl/asystent-doboru

@@ -10,6 +10,13 @@ nav:
   - label: Контакти
     href: /uk/kontakt
 searchPlaceholder: Що ви шукаєте?
+searchPhrases:
+  - настінний кондиціонер
+  - кондиціонер для квартири
+  - тепловий насос
+  - рекуперація
+  - мультиспліт
+  - Mirai
 configurator:
   label: Помічник підбору
   href: /uk/asystent-doboru

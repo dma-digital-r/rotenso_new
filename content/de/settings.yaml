@@ -10,6 +10,13 @@ nav:
   - label: Kontakt
     href: /de/kontakt
 searchPlaceholder: Wonach suchen Sie?
+searchPhrases:
+  - Wandklimagerät
+  - Klimaanlage für die Wohnung
+  - Wärmepumpe
+  - Lüftung mit Wärmerückgewinnung
+  - Multisplit
+  - Mirai
 configurator:
   label: Auswahlassistent
   href: /de/asystent-doboru

@@ -10,6 +10,13 @@ nav:
   - label: Contact
     href: /fr/kontakt
 searchPlaceholder: Que recherchez-vous ?
+searchPhrases:
+  - climatiseur mural
+  - climatisation appartement
+  - pompe à chaleur
+  - VMC double flux
+  - multisplit
+  - Mirai
 configurator:
   label: Assistant de sélection
   href: /fr/asystent-doboru

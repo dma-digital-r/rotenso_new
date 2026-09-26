@@ -10,6 +10,13 @@ nav:
   - label: Kontakt
     href: /cs/kontakt
 searchPlaceholder: Co hledáte?
+searchPhrases:
+  - nástěnná klimatizace
+  - klimatizace do bytu
+  - tepelné čerpadlo
+  - rekuperace
+  - multisplit
+  - Mirai
 configurator:
   label: Asistent výběru
   href: /cs/asystent-doboru

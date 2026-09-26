@@ -566,6 +566,10 @@ export const settingsSchema = {
     itemLabel: (l) => l.fields.label.value || "Pozycja",
   }),
   searchPlaceholder: fields.text({ label: "Wyszukiwarka — podpowiedź" }),
+  searchPhrases: fields.array(fields.text({ label: "Fraza" }), {
+    label: "Wyszukiwarka — popularne frazy (kolumna „Wyszukiwania” w podpowiedziach)",
+    itemLabel: (p) => p.value || "Fraza",
+  }),
   configurator: link("Przycisk „Konfigurator”"),
   installer: link("Przycisk „Dla instalatora”"),
   footerColumns: fields.array(footerColumn, {

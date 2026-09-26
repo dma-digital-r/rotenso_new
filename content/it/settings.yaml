@@ -10,6 +10,13 @@ nav:
   - label: Contatti
     href: /it/kontakt
 searchPlaceholder: Cosa stai cercando?
+searchPhrases:
+  - climatizzatore a parete
+  - climatizzatore per appartamento
+  - pompa di calore
+  - recuperatore di calore
+  - multisplit
+  - Mirai
 configurator:
   label: Assistente alla scelta
   href: /it/asystent-doboru
