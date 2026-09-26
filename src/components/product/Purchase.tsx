@@ -22,6 +22,8 @@ type Props = {
   cmsImages: string[];
   variants: PurchaseVariant[];
   multi?: { label: string; href: string };
+  /** Multi Split: the price is the indoor unit only (the outdoor unit depends on the configuration). */
+  indoorOnly?: boolean;
   siblings: { name: string; image: string | null; href: string }[];
   arHref: string;
   accessoriesHref: string;
@@ -34,7 +36,7 @@ const THUMBS = 4;
 
 // Figma: "e-commerce klimatyzacje" (5172:81598), 1820 wide — gallery 1270 + white panel 530.
 // Choosing a capacity switches the price; prices are only present on the Polish site.
-export function Purchase({ label, headingLevel = "h2", name, description, cmsImages, packshot, variants, multi, siblings, arHref, accessoriesHref, lang, ui }: Props) {
+export function Purchase({ label, headingLevel = "h2", name, description, cmsImages, packshot, variants, multi, indoorOnly = false, siblings, arHref, accessoriesHref, lang, ui }: Props) {
   const [image, setImage] = useState(0);
   const [start, setStart] = useState(0);
   const [variant, setVariant] = useState(0);
@@ -203,7 +205,7 @@ export function Purchase({ label, headingLevel = "h2", name, description, cmsIma
               <div className="flex items-center gap-[20px]">
                 <p className="text-[18px] leading-[24.5px]">{ui.priceLabel}</p>
                 <p className="text-h2 leading-[48px] font-light whitespace-nowrap">{formatPln(current.price)}</p>
-                <p className="w-[240px] text-[12px] leading-[normal]">{ui.priceNote}</p>
+                <p className={`${indoorOnly ? "w-[300px]" : "w-[240px]"} text-[12px] leading-[normal]`}>{indoorOnly ? ui.priceNoteMulti : ui.priceNote}</p>
               </div>
               <p className="text-[16px] leading-[24px]">{ui.noInstall}</p>
             </div>

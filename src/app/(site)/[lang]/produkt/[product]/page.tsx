@@ -83,6 +83,7 @@ export default async function ProductPage({ params }: Props) {
       packshot={entry.packshot}
       variants={variants.map((v) => ({ label: v.label, price: v.price, images: v.images }))}
       multi={entry.family.canonical ? undefined : entry.family.other}
+      indoorOnly={entry.system === "multi"}
       siblings={entry.siblings.map((s) => ({ name: s.name, image: s.image, href: s.href }))}
       arHref={entry.arLink.href}
       accessoriesHref={entry.accessoriesLink.href}

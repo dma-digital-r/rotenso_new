@@ -13,7 +13,7 @@ export type ProductEntry = Entry<ReturnType<typeof productsCollection>>;
 export type ProductVariant = {
   label: string;
   symbols: string;
-  /** Gross "from" price in PLN — only on the Polish site, null elsewhere or if missing. */
+  /** Gross price in PLN (set; indoor unit only for Multi Split) — Polish site only, null elsewhere or if missing. */
   price: number | null;
   specs: SpecGroup[];
   /** Dimension drawings of this capacity, falling back to the product's defaults. */
@@ -77,7 +77,8 @@ export async function getProductPage(lang: Locale, slug: string): Promise<Produc
     return {
       label: v.label,
       symbols: v.symbols,
-      price: lang === "pl" ? setPrice(feed, v.symbols) : null,
+      // Multi Split: indoor unit only — the outdoor unit's price depends on the configuration.
+      price: lang !== "pl" ? null : entry.system === "multi" ? (idu ? setPrice(feed, idu.symbol) : null) : setPrice(feed, v.symbols),
       specs: buildSpecs(idu, odu),
       dimensions: {
         indoor: v.dimensions.indoor ?? entry.dimensions.indoor,

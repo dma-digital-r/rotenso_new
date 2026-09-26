@@ -49,7 +49,7 @@ const acSlide = (label: string) =>
           priceSymbols: fields.text({
             label: "Cena „Już od” — symbole zestawu z feedu",
             description:
-              "Najniższa moc modelu, symbole połączone plusem, np. M26XI R15 + M26XO R15 (IDU + ODU). Cena brutto liczona raz na dobę z feedu i zaokrąglona w górę do pełnej złotówki. Puste pole = bez ceny. Na stronach zagranicznych cena nigdy się nie wyświetla.",
+              "Najniższa moc modelu, symbole połączone plusem, np. M26XI R15 + M26XO R15 (IDU + ODU). Przy modelach Multi Split tylko symbol jednostki wewnętrznej. Cena brutto liczona raz na dobę z feedu i zaokrąglona w górę do pełnej złotówki. Puste pole = bez ceny. Na stronach zagranicznych cena nigdy się nie wyświetla.",
           }),
           cta: link("Przycisk"),
         }),
@@ -320,6 +320,15 @@ export const productSchema = {
   name: fields.slug({ name: { label: "Nazwa (np. Mirai)" }, slug: { label: "Adres (slug)" } }),
   kind: fields.select({ label: "Rodzaj karty produktu", options: productKinds, defaultValue: "ac-high-premium" }),
   category: fields.select({ label: "Kategoria (adres strony)", options: productCategories, defaultValue: "klimatyzacja" }),
+  system: fields.select({
+    label: "System (klimatyzacja)",
+    description: "Multi Split: cena tylko jednostki wewnętrznej — cena jednostki zewnętrznej zależy od konfiguracji.",
+    options: [
+      { label: "Split (cena kompletu: jednostka wewnętrzna + zewnętrzna)", value: "split" },
+      { label: "Multi Split (cena tylko jednostki wewnętrznej)", value: "multi" },
+    ],
+    defaultValue: "split",
+  }),
   categoryLabel: fields.text({ label: "Nad nazwą w hero (np. Klimatyzacja)" }),
   tagline: fields.text({ label: "Hasło w hero" }),
   heroVideo: fields.text({
