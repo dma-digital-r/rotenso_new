@@ -226,7 +226,7 @@ export function WhyUs({ items }: { items: InvestmentsContent["why"] }) {
   );
 }
 
-// "Nasze rozwiązania": second kingfisher top-left, title; below a 310-wide list of segments
+// "Nasze rozwiązania": second kingfisher top-left, straddling the edge with the section above; below a 310-wide list of segments
 // (icon + name, active dark), a divider, the segment's big title, text and recommended product,
 // and the 770×770 photo on the right.
 export function Solutions({ data }: { data: InvestmentsContent["solutions"] }) {
@@ -242,7 +242,7 @@ export function Solutions({ data }: { data: InvestmentsContent["solutions"] }) {
         width={350}
         height={350}
         sizes="350px"
-        className="pointer-events-none absolute top-[14px] left-[121px] drop-shadow-[50px_50px_25px_rgba(0,0,0,0.25)]"
+        className="pointer-events-none absolute -top-[175px] left-[121px] z-10 drop-shadow-[50px_50px_25px_rgba(0,0,0,0.25)]"
       />
       <div className="mx-auto flex w-[1300px] max-w-[calc(100%-32px)] flex-col items-center gap-[10px] text-center font-light">
         <h2 className="text-h1 leading-[1.2]">{data.title}</h2>
