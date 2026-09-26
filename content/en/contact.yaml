@@ -1,0 +1,172 @@
+hero:
+  image: /images/contact/hero.avif
+  title: |-
+    Coming
+    to visit us?
+  address: |-
+    Rotenso Sp. z o.o.
+    ul. Szyb Walenty 16
+    41-700 Ruda Śląska, Poland
+  navigate:
+    label: Navigate
+    href: https://www.google.com/maps/dir/?api=1&destination=Rotenso%2C+Szyb+Walenty+16%2C+41-700+Ruda+%C5%9Al%C4%85ska
+faq:
+  title: Before you write to us...
+  text: Check whether we already have an answer to your question.
+  categories:
+    - name: Most frequently asked
+      icon: question
+      items:
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - name: Products
+      icon: grid
+      items:
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - name: Insurance
+      icon: shield
+      items:
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - name: Contact and showrooms
+      icon: headset
+      items:
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - name: Technical support
+      icon: gear
+      items:
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - name: Other
+      icon: dots
+      items:
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        - question: Lorem ipsum dolor sit amet
+          answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+form:
+  title: Contact form
+  text: What is your message about?
+  topic: Choose a topic / department*
+  topics:
+    - Product question
+    - Technical support / service
+    - Warranty and complaints
+    - Partnership and installers
+    - Investments and RVF systems
+    - Other
+  name: Full name*
+  email: E-mail address*
+  phone: Phone number
+  postcode: Postcode
+  message: Message...
+  consent: I consent to the processing of my personal data...
+  consentFull: The controller of your personal data is Thermosilesia sp. z o. o. sp. k. Your data is collected in order to answer the enquiry sent via the contact form. You have the right to access your personal data, to request its rectification, erasure or restriction of processing, the right to data portability, to withdraw consent and to object. Details of the processing are available at https://rotenso.com/pl/ in the “GDPR” section.
+  consentMore:
+    label: Learn more
+    href: /en/rodo
+  privacy:
+    label: See how we process your data.
+    href: /en/rodo
+  required: '*required fields'
+  submit: Send message
+  success: Thank you! Your message has been sent — we will reply as soon as possible.
+  error: The message could not be sent. Please try again in a moment or give us a call.
+map:
+  title: How to get here?
+  address: |-
+    Rotenso Sp. z o.o.
+    ul. Szyb Walenty 16
+    41-700 Ruda Śląska, Poland
+  query: Rotenso Ruda Śląska
+branches:
+  title: Our branches
+  text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
+  button: View on map
+  items:
+    - image: /images/contact/branch.avif
+      name: Rotenso Kraków
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+      address: |-
+        Rotenso Sp. z o.o.
+        ul. Szyb Walenty 16
+        41-700 Ruda Śląska, Poland
+      map: https://www.google.com/maps/search/?api=1&query=Rotenso%2C+Szyb+Walenty+16%2C+41-700+Ruda+%C5%9Al%C4%85ska
+    - image: /images/contact/branch.avif
+      name: Rotenso Wrocław
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+      address: |-
+        Rotenso Sp. z o.o.
+        ul. Szyb Walenty 16
+        41-700 Ruda Śląska, Poland
+      map: https://www.google.com/maps/search/?api=1&query=Rotenso%2C+Szyb+Walenty+16%2C+41-700+Ruda+%C5%9Al%C4%85ska
+    - image: /images/contact/branch.avif
+      name: Rotenso Gdańsk
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+      address: |-
+        Rotenso Sp. z o.o.
+        ul. Szyb Walenty 16
+        41-700 Ruda Śląska, Poland
+      map: https://www.google.com/maps/search/?api=1&query=Rotenso%2C+Szyb+Walenty+16%2C+41-700+Ruda+%C5%9Al%C4%85ska
+seoTitle: Contact - Rotenso
+seoDescription: 'Contact Rotenso: head office address in Ruda Śląska, branches, contact form and answers to frequently asked questions.'

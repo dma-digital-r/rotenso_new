@@ -1019,3 +1019,93 @@ export const investmentsSchema = {
   seoTitle: fields.text({ label: "SEO — tytuł" }),
   seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
 };
+
+// Kontakt (Figma "Kontakt v03").
+export const contactIcons = [
+  { label: "Znak zapytania (najczęstsze)", value: "question" },
+  { label: "Kafelki (produkty)", value: "grid" },
+  { label: "Tarcza (ubezpieczenia, gwarancja)", value: "shield" },
+  { label: "Słuchawki (kontakt, salony)", value: "headset" },
+  { label: "Zębatka (pomoc techniczna)", value: "gear" },
+  { label: "Kropki (inne)", value: "dots" },
+] as const;
+
+export const contactSchema = {
+  hero: fields.object(
+    {
+      image: image("Zdjęcie (1820×650)", "contact"),
+      title: fields.text({ label: "Tytuł", multiline: true }),
+      address: fields.text({ label: "Adres", multiline: true }),
+      navigate: link("Przycisk Nawiguj (link do Google Maps)"),
+    },
+    { label: "Nagłówek" },
+  ),
+  faq: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Podtytuł" }),
+      categories: fields.array(
+        fields.object({
+          name: fields.text({ label: "Zakładka" }),
+          icon: fields.select({ label: "Ikona", options: [...contactIcons], defaultValue: "question" }),
+          items: fields.array(
+            fields.object({ question: fields.text({ label: "Pytanie" }), answer: fields.text({ label: "Odpowiedź", multiline: true }) }),
+            { label: "Pytania", itemLabel: (q) => q.fields.question.value || "Pytanie" },
+          ),
+        }),
+        { label: "Zakładki z pytaniami", itemLabel: (c) => c.fields.name.value || "Zakładka" },
+      ),
+    },
+    { label: "Zanim do nas napiszesz (pytania)" },
+  ),
+  form: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Podtytuł" }),
+      topic: fields.text({ label: "Pole: temat / dział" }),
+      topics: fields.array(fields.text({ label: "Temat" }), { label: "Tematy / działy", itemLabel: (t) => t.value || "Temat" }),
+      name: fields.text({ label: "Pole: imię i nazwisko" }),
+      email: fields.text({ label: "Pole: e-mail" }),
+      phone: fields.text({ label: "Pole: telefon" }),
+      postcode: fields.text({ label: "Pole: kod pocztowy" }),
+      message: fields.text({ label: "Pole: wiadomość" }),
+      consent: fields.text({ label: "Zgoda — skrót" }),
+      consentFull: fields.text({ label: "Zgoda — pełna treść (po kliknięciu rozwiń)", multiline: true }),
+      consentMore: link("Zgoda — link Dowiedz się więcej"),
+      privacy: link("Link pod zgodą (np. Sprawdź, jak przetwarzamy Twoje dane.)"),
+      required: fields.text({ label: "Dopisek (*pola wymagane)" }),
+      submit: fields.text({ label: "Przycisk" }),
+      success: fields.text({ label: "Komunikat po wysłaniu", multiline: true }),
+      error: fields.text({ label: "Komunikat błędu", multiline: true }),
+    },
+    { label: "Formularz kontaktowy" },
+  ),
+  map: fields.object(
+    {
+      title: fields.text({ label: "Tytuł (np. Jak do nas dojechać?)" }),
+      address: fields.text({ label: "Adres", multiline: true }),
+      query: fields.text({ label: "Punkt na mapie Google (adres albo nazwa, np. Rotenso, Szyb Walenty 16, Ruda Śląska)" }),
+    },
+    { label: "Mapa" },
+  ),
+  branches: fields.object(
+    {
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Podtytuł" }),
+      button: fields.text({ label: "Przycisk (np. Zobacz na mapie)" }),
+      items: fields.array(
+        fields.object({
+          image: image("Zdjęcie (420×236)", "contact"),
+          name: fields.text({ label: "Nazwa (np. Rotenso Kraków)" }),
+          text: fields.text({ label: "Opis", multiline: true }),
+          address: fields.text({ label: "Adres", multiline: true }),
+          map: fields.text({ label: "Link do mapy (Google Maps)" }),
+        }),
+        { label: "Oddziały", itemLabel: (b) => b.fields.name.value || "Oddział" },
+      ),
+    },
+    { label: "Nasze oddziały" },
+  ),
+  seoTitle: fields.text({ label: "SEO — tytuł" }),
+  seoDescription: fields.text({ label: "SEO — opis", multiline: true }),
+};
