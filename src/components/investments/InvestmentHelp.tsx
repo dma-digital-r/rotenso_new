@@ -25,7 +25,8 @@ export function InvestmentHelp({ data, lang, showPrices, ui }: { data: Data; lan
   const [shown, setShown] = useState(false);
   const [state, setState] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [consentOpen, setConsentOpen] = useState(false);
-  const calculator = tab === "investor" && showPrices && data.prices.length > 0;
+  const designer = tab === "designer";
+  const calculator = !designer && showPrices && data.prices.length > 0;
   const m2 = Number(area.replace(",", ".")) || 0;
 
   async function submit(e: React.FormEvent<HTMLFormElement>) {
@@ -81,9 +82,22 @@ export function InvestmentHelp({ data, lang, showPrices, ui }: { data: Data; lan
         ))}
       </div>
 
-      <p className="mt-[50px] text-center text-h3 leading-[1.36] font-light text-white">{tab === "investor" ? data.investorText : data.designerText}</p>
+      {!designer && <p className="mt-[50px] text-center text-h3 leading-[1.36] font-light text-white">{data.investorText}</p>}
 
-      <div className={`mx-auto mt-[40px] flex rounded-[16px] bg-white p-[30px] text-rotenso-grey ${calculator ? "w-[1080px]" : "w-[600px]"} max-w-[calc(100%-32px)]`}>
+      {/* Figma "Formularz Inwestycje v4": for designers two 530-wide cards side by side — photo
+          card (title + text) and the form card — instead of the text line and the calculator. */}
+      <div className={`mx-auto flex max-w-[calc(100%-32px)] text-rotenso-grey ${designer ? "mt-[50px] w-[1080px] gap-[20px]" : `mt-[40px] rounded-[16px] bg-white p-[30px] ${calculator ? "w-[1080px]" : "w-[600px]"}`}`}>
+        {designer && (
+          <div className="flex w-[530px] shrink-0 flex-col overflow-hidden rounded-[16px] bg-white">
+            <div className="relative h-[275px] shrink-0 bg-grey-dd">
+              <FramedImage src={data.designerImage} sizes="530px" />
+            </div>
+            <div className="flex flex-col gap-[10px] px-[30px] pt-[30px] pb-[40px]">
+              <p className="text-h3 leading-[1.36] font-light">{data.designerTitle}</p>
+              <p className="text-[16px] leading-[24px] whitespace-pre-line">{data.designerText}</p>
+            </div>
+          </div>
+        )}
         {calculator && (
           <>
             <div className="flex w-[480px] shrink-0 flex-col">
@@ -143,15 +157,15 @@ export function InvestmentHelp({ data, lang, showPrices, ui }: { data: Data; lan
           </>
         )}
 
-        <div className="flex flex-1 flex-col">
-          <p className="text-h3 leading-[1.36] font-light">{data.formTitle}</p>
-          <p className="mt-[10px] text-[16px] leading-[24px] whitespace-pre-line">{data.formText}</p>
+        <div className={`flex flex-1 flex-col ${designer ? "rounded-[16px] bg-white p-[30px]" : ""}`}>
+          <p className="text-h3 leading-[1.36] font-light">{designer ? data.designerFormTitle || data.formTitle : data.formTitle}</p>
+          {!designer && data.formText && <p className="mt-[10px] text-[16px] leading-[24px] whitespace-pre-line">{data.formText}</p>}
           {state === "sent" ? (
             <p role="status" className="mt-[30px] text-[16px] leading-[24px] font-bold">
               {data.success}
             </p>
           ) : (
-            <form onSubmit={submit} className="mt-[20px] flex flex-col gap-[11px]">
+            <form onSubmit={submit} className={`${designer ? "mt-[30px]" : "mt-[20px]"} flex flex-col gap-[11px]`}>
               <input name="phone" type="tel" required autoComplete="tel" pattern="[+\d][\d\s\-]{7,}" placeholder={data.phone} aria-label={data.phone} className={field} />
               <input name="email" type="email" required autoComplete="email" placeholder={data.email} aria-label={data.email} className={field} />
               <input name="nip" required inputMode="numeric" placeholder={data.nip} aria-label={data.nip} className={field} />

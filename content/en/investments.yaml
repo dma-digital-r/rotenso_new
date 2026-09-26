@@ -42,6 +42,9 @@ help:
   designerTab: For designers
   investorText: 'Check the approximate cost of your investment with the calculator below:'
   designerText: Leave your details — our designer will help choose the system and prepare the documentation.
+  designerImage: /images/investments/designer.avif
+  designerTitle: We will help with your design
+  designerFormTitle: Fill in the form
   areaLabel: |-
     Total floor area
     of all rooms:
@@ -109,185 +112,465 @@ projects:
         - image: /images/investments/realizacja-1.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-2.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-3.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-4.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-5.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-6.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-7.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
     - name: Kategoria 2
       items:
         - image: /images/investments/realizacja-2.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-3.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-4.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-5.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-6.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-7.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-1.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
     - name: Kategoria 3
       items:
         - image: /images/investments/realizacja-3.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-4.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-5.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-6.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-7.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-1.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-2.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
     - name: Kategoria 4
       items:
         - image: /images/investments/realizacja-4.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-5.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-6.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-7.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-1.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-2.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-3.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
     - name: Kategoria 5
       items:
         - image: /images/investments/realizacja-5.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-6.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-7.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-1.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-2.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-3.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-4.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
     - name: Kategoria 6
       items:
         - image: /images/investments/realizacja-6.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-7.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-1.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-2.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-3.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-4.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-5.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
     - name: Kategoria 7
       items:
         - image: /images/investments/realizacja-7.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-1.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-2.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-3.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-4.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-5.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-6.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
     - name: Kategoria 8
       items:
         - image: /images/investments/realizacja-1.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-2.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-3.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-4.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-5.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-6.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
         - image: /images/investments/realizacja-7.jpg
           title: Lorem ipsum dolor sit
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          cover: /images/investments/project-cover.avif
+          details:
+            - image: /images/investments/project-detail.avif
+              title: Lorem ipsum
+              text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
 why:
   - image: /images/investments/why-serwis.jpg
     title: Nationwide service network

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { FramedImage, MissingMedia } from "@/components/ui/FramedImage";
 import { Media } from "@/components/ui/Media";
@@ -51,7 +51,7 @@ const CARD = 310;
 const STEP = CARD + 20;
 
 // "Nasze realizacje": kingfisher on the right, title, category pills (grey bar, active dark),
-// 310×485 photo cards scrolling sideways (dark fade + title; "+" shows the description).
+// 310×485 photo cards scrolling sideways (dark fade + title; "+" opens the project window).
 export function Projects({ data, ui }: { data: InvestmentsContent["projects"]; ui: Ui }) {
   const [cat, setCat] = useState(0);
   const [open, setOpen] = useState<number | null>(null);
@@ -110,30 +110,22 @@ export function Projects({ data, ui }: { data: InvestmentsContent["projects"]; u
         className="mt-[50px] -mb-[60px] flex snap-x snap-mandatory scroll-px-[max(16px,calc((100%-1300px)/2))] gap-[20px] overflow-x-auto px-[max(16px,calc((100%-1300px)/2))] pb-[60px] scrollbar-none"
       >
         {items.map((it, i) => {
-          const shown = open === i;
           return (
             <div key={`${cat}-${i}`} className="relative h-[485px] w-[310px] shrink-0 snap-start overflow-hidden rounded-[32px] bg-grey-dd shadow-dark-l">
               <FramedImage src={it.image} sizes="310px" />
               <span className="absolute inset-0 bg-[linear-gradient(to_top,rgb(0_0_0/0.6),rgb(0_0_0/0)_45%)]" />
               <h3 className="absolute inset-x-[20px] bottom-[30px] text-center text-h3 leading-[1.36] font-light text-white">{it.title}</h3>
-              {it.text && (
-                <>
-                  <div className={`absolute inset-0 flex items-end bg-black/50 p-[30px] pb-[90px] text-[16px] leading-[24px] text-white backdrop-blur-[20px] transition-opacity ${shown ? "opacity-100" : "pointer-events-none opacity-0"}`}>
-                    {it.text}
-                  </div>
-                  <button
-                    type="button"
-                    onClick={() => setOpen(shown ? null : i)}
-                    aria-expanded={shown}
-                    aria-label={shown ? ui.close : ui.moreInfo}
-                    className="absolute top-[20px] right-[20px] size-[30px] cursor-pointer rounded-full bg-white transition-transform hover:scale-105"
-                  >
-                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden className={`transition-transform ${shown ? "rotate-45" : ""}`}>
-                      <path d="M15 9V21M9 15H21" stroke="#546670" strokeWidth="2" strokeLinecap="round" />
-                    </svg>
-                  </button>
-                </>
-              )}
+              <button
+                type="button"
+                onClick={() => setOpen(i)}
+                aria-haspopup="dialog"
+                aria-label={`${ui.moreInfo}: ${it.title}`}
+                className="absolute top-[20px] right-[20px] size-[30px] cursor-pointer rounded-full bg-white transition-transform hover:scale-105"
+              >
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden>
+                  <path d="M15 9V21M9 15H21" stroke="#546670" strokeWidth="2" strokeLinecap="round" />
+                </svg>
+              </button>
             </div>
           );
         })}
@@ -149,7 +141,70 @@ export function Projects({ data, ui }: { data: InvestmentsContent["projects"]; u
           labels={{ prev: ui.prev, next: ui.next }}
         />
       </div>
+      {open !== null && items[open] && <ProjectPopup item={items[open]} onClose={() => setOpen(null)} ui={ui} />}
     </section>
+  );
+}
+
+type Project = InvestmentsContent["projects"]["categories"][number]["items"][number];
+
+// Figma "Popup": the page dimmed to 70% black, a 1080-wide white window (r32) — 300-high photo
+// with a close button, title and text, then photo (530×298, r16) + text blocks. Native <dialog>:
+// Esc and the backdrop close it, focus stays inside, page scroll is locked while it is open.
+function ProjectPopup({ item, onClose, ui }: { item: Project; onClose: () => void; ui: Ui }) {
+  const ref = useRef<HTMLDialogElement>(null);
+  useEffect(() => {
+    const dialog = ref.current;
+    if (!dialog) return;
+    // No close() on cleanup: its "close" event would call onClose again. Unmounting removes it.
+    if (!dialog.open) dialog.showModal();
+    const root = document.documentElement;
+    const overflow = root.style.overflow;
+    root.style.overflow = "hidden";
+    return () => {
+      root.style.overflow = overflow;
+    };
+  }, []);
+
+  return (
+    <dialog
+      ref={ref}
+      onClose={onClose}
+      onClick={(e) => e.target === e.currentTarget && onClose()}
+      aria-labelledby="project-title"
+      className="m-auto max-h-[calc(100svh-40px)] w-[1080px] max-w-[calc(100%-32px)] overflow-y-auto overscroll-contain rounded-[32px] bg-white text-rotenso-grey scrollbar-none backdrop:bg-[rgb(0_0_0/0.7)]"
+    >
+      <div className="relative h-[300px] bg-grey-dd">
+        <FramedImage src={item.cover || item.image} sizes="1080px" />
+        <button
+          type="button"
+          onClick={onClose}
+          aria-label={ui.close}
+          className="absolute top-[30px] right-[30px] flex size-[40px] cursor-pointer items-center justify-center rounded-full bg-white transition-transform hover:scale-105"
+        >
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>
+            <path d="M3 3L13 13M13 3L3 13" stroke="#546670" strokeWidth="2" strokeLinecap="round" />
+          </svg>
+        </button>
+      </div>
+      <div className="px-[30px] pt-[30px] pb-[50px]">
+        <h3 id="project-title" className="text-h2 leading-[1.2] font-light">
+          {item.title}
+        </h3>
+        {item.text && <p className="mt-[20px] text-[16px] leading-[24px] whitespace-pre-line">{item.text}</p>}
+        {item.details.map((d, i) => (
+          <div key={i} className="mt-[40px] flex items-center gap-[40px]">
+            <div className="relative h-[298px] w-[530px] shrink-0 overflow-hidden rounded-[16px] bg-[#c4c4c4]">
+              <FramedImage src={d.image} sizes="530px" />
+            </div>
+            <div className="flex flex-col gap-[20px]">
+              {d.title && <p className="text-h3 leading-[1.36] font-light">{d.title}</p>}
+              {d.text && <p className="text-[16px] leading-[24px] whitespace-pre-line">{d.text}</p>}
+            </div>
+          </div>
+        ))}
+      </div>
+    </dialog>
   );
 }
 
