@@ -8,26 +8,28 @@ cards:
       Air conditioning
       selection assistant
     text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
-    button:
-      label: Start
-      href: /en/asystent-doboru/klimatyzacja
+    buttons:
+      - label: Single-room (split)
+        href: /en/asystent-doboru-klimatyzacji-jednopokojowej-split
+      - label: Multi-room (multi split)
+        href: /en/asystent-doboru-klimatyzacji-wielopokojowej-multisplit
   - image: /images/assistant/reku.avif
     video: ''
     title: |-
       Heat recovery
       selection assistant
     text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
-    button:
-      label: Start
-      href: /en/asystent-doboru/rekuperacja
+    buttons:
+      - label: Start
+        href: /en/asystent-doboru-rekuperacji
   - image: /images/assistant/pompa.avif
     video: ''
     title: |-
       Heat pump
       selection assistant
     text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
-    button:
-      label: Start
-      href: /en/asystent-doboru/pompa-ciepla
+    buttons:
+      - label: Start
+        href: /en/asystent-doboru-pompy-ciepla
 seoTitle: Selection assistant - Rotenso
 seoDescription: Choose a Rotenso air conditioner, heat recovery unit or heat pump for your home in a few simple steps.

@@ -8,26 +8,28 @@ cards:
       Asistent výběru
       klimatizace
     text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
-    button:
-      label: Začít
-      href: /cs/asystent-doboru/klimatyzacja
+    buttons:
+      - label: Jednopokojová (split)
+        href: /cs/asystent-doboru-klimatyzacji-jednopokojowej-split
+      - label: Vícepokojová (multisplit)
+        href: /cs/asystent-doboru-klimatyzacji-wielopokojowej-multisplit
   - image: /images/assistant/reku.avif
     video: ''
     title: |-
       Asistent výběru
       rekuperace
     text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
-    button:
-      label: Začít
-      href: /cs/asystent-doboru/rekuperacja
+    buttons:
+      - label: Začít
+        href: /cs/asystent-doboru-rekuperacji
   - image: /images/assistant/pompa.avif
     video: ''
     title: |-
       Asistent výběru
       tepelného čerpadla
     text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
-    button:
-      label: Začít
-      href: /cs/asystent-doboru/pompa-ciepla
+    buttons:
+      - label: Začít
+        href: /cs/asystent-doboru-pompy-ciepla
 seoTitle: Asistent výběru - Rotenso
 seoDescription: Vyberte si v několika krocích klimatizaci, rekuperaci nebo tepelné čerpadlo Rotenso pro váš domov.

@@ -1121,7 +1121,10 @@ export const assistantSchema = {
       video: fields.text({ label: "Film odtwarzany po najechaniu (adres MP4, opcjonalnie)" }),
       title: fields.text({ label: "Tytuł", multiline: true }),
       text: fields.text({ label: "Tekst", multiline: true }),
-      button: link("Przycisk (np. Rozpocznij)"),
+      buttons: fields.array(link("Przycisk"), {
+        label: "Przyciski (np. Rozpocznij; przy klimatyzacji dwa: Split i Multi Split)",
+        itemLabel: (b) => b.fields.label.value || "Przycisk",
+      }),
     }),
     { label: "Asystenci (karty)", itemLabel: (c) => c.fields.title.value || "Asystent" },
   ),

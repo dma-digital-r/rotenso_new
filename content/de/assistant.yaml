@@ -8,26 +8,28 @@ cards:
       Auswahlassistent
       Klimaanlage
     text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
-    button:
-      label: Starten
-      href: /de/asystent-doboru/klimatyzacja
+    buttons:
+      - label: Einraum (Split)
+        href: /de/asystent-doboru-klimatyzacji-jednopokojowej-split
+      - label: Mehrraum (Multisplit)
+        href: /de/asystent-doboru-klimatyzacji-wielopokojowej-multisplit
   - image: /images/assistant/reku.avif
     video: ''
     title: |-
       Auswahlassistent
       Lüftungsgerät
     text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
-    button:
-      label: Starten
-      href: /de/asystent-doboru/rekuperacja
+    buttons:
+      - label: Starten
+        href: /de/asystent-doboru-rekuperacji
   - image: /images/assistant/pompa.avif
     video: ''
     title: |-
       Auswahlassistent
       Wärmepumpe
     text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
-    button:
-      label: Starten
-      href: /de/asystent-doboru/pompa-ciepla
+    buttons:
+      - label: Starten
+        href: /de/asystent-doboru-pompy-ciepla
 seoTitle: Auswahlassistent - Rotenso
 seoDescription: Wählen Sie in wenigen Schritten die passende Rotenso Klimaanlage, Lüftungsanlage oder Wärmepumpe.

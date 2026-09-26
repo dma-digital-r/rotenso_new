@@ -8,26 +8,28 @@ cards:
       Asystent doboru
       klimatyzacji
     text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
-    button:
-      label: Rozpocznij
-      href: /pl/asystent-doboru/klimatyzacja
+    buttons:
+      - label: Jednopokojowa (split)
+        href: /pl/asystent-doboru-klimatyzacji-jednopokojowej-split
+      - label: Wielopokojowa (multisplit)
+        href: /pl/asystent-doboru-klimatyzacji-wielopokojowej-multisplit
   - image: /images/assistant/reku.avif
     video: ''
     title: |-
       Asystent doboru
       rekuperatora
     text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
-    button:
-      label: Rozpocznij
-      href: /pl/asystent-doboru/rekuperacja
+    buttons:
+      - label: Rozpocznij
+        href: /pl/asystent-doboru-rekuperacji
   - image: /images/assistant/pompa.avif
     video: ''
     title: |-
       Asystent doboru
       pompy ciepła
     text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
-    button:
-      label: Rozpocznij
-      href: /pl/asystent-doboru/pompa-ciepla
+    buttons:
+      - label: Rozpocznij
+        href: /pl/asystent-doboru-pompy-ciepla
 seoTitle: Asystent doboru - Rotenso
 seoDescription: Dobierz klimatyzację, rekuperator lub pompę ciepła Rotenso do swojego domu w kilku prostych krokach.

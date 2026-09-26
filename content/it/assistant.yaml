@@ -8,26 +8,28 @@ cards:
       Assistente alla scelta
       del climatizzatore
     text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
-    button:
-      label: Inizia
-      href: /it/asystent-doboru/klimatyzacja
+    buttons:
+      - label: Monosplit
+        href: /it/asystent-doboru-klimatyzacji-jednopokojowej-split
+      - label: Multisplit
+        href: /it/asystent-doboru-klimatyzacji-wielopokojowej-multisplit
   - image: /images/assistant/reku.avif
     video: ''
     title: |-
       Assistente alla scelta
       del recuperatore
     text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
-    button:
-      label: Inizia
-      href: /it/asystent-doboru/rekuperacja
+    buttons:
+      - label: Inizia
+        href: /it/asystent-doboru-rekuperacji
   - image: /images/assistant/pompa.avif
     video: ''
     title: |-
       Assistente alla scelta
       della pompa di calore
     text: Lorem ipsum dolor sit amet enim, lorem ipsum dolor sit amet enim.
-    button:
-      label: Inizia
-      href: /it/asystent-doboru/pompa-ciepla
+    buttons:
+      - label: Inizia
+        href: /it/asystent-doboru-pompy-ciepla
 seoTitle: Assistente alla scelta - Rotenso
 seoDescription: Scegli in pochi passi il climatizzatore, il recuperatore di calore o la pompa di calore Rotenso per la tua casa.
