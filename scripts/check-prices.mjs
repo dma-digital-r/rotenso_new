@@ -38,6 +38,9 @@ for (const [label, slide] of [["Klimatyzacje dla Ciebie", home.acHome], ["Klimat
         return `      ${s}: BRAK W FEEDZIE`;
       }
       sum += Number(p.price);
+      const [, base, rev] = s.toUpperCase().match(/^(.*) R(\d+)$/) ?? [];
+      const newer = base && [...bySymbol.keys()].filter((k) => k.startsWith(`${base} R`) && Number(k.split(" R").at(-1)) > Number(rev));
+      if (newer?.length) console.log(`      ⚠ ${s}: w feedzie jest nowsza rewizja ${newer.join(", ")} — strona pokazuje tylko najnowszą`);
       const stock = Number(p.stock);
       return `      ${s}: ${Number(p.price).toFixed(2)} zł brutto, stan ${stock}${stock <= 0 ? "  ⚠ brak na stanie" : ""}`;
     });

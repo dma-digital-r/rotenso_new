@@ -150,3 +150,24 @@ export function setPrice(products: Map<string, FeedProduct>, symbols: string): n
   }
   return Math.ceil(Math.round(sum * 100) / 100);
 }
+
+/**
+ * The site only ever uses the newest revision of a unit (the number after "R" in the symbol,
+ * e.g. FH26XI R16 over FH26XI R15). Returns the newest symbol of the same unit in the feed if it
+ * is newer than the one given, otherwise null.
+ */
+export function newerRevision(products: Map<string, FeedProduct>, symbol: string): string | null {
+  const m = symbol.trim().toUpperCase().match(/^(.*) R(\d+)$/);
+  if (!m) return null;
+  let best: string | null = null;
+  let rev = Number(m[2]);
+  for (const key of products.keys()) {
+    const k = key.match(/^(.*) R(\d+)$/);
+    if (k && k[1] === m[1] && Number(k[2]) > rev) {
+      rev = Number(k[2]);
+      best = key;
+    }
+  }
+  return best;
+}
+

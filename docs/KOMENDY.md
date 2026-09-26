@@ -71,6 +71,13 @@ New-NetFirewallRule -DisplayName "Rotenso podglad (3001)" -Direction Inbound -Pr
 - Pasek zdjęć nad „Odkryj nas na Social Media” to najnowsze posty z Instagrama (jak na stronie głównej).
 - FAQ trafia też do danych strukturalnych (FAQPage) — pomaga w wynikach Google i odpowiedziach AI.
 
+## Karty produktów — rodzaje
+- **Rodzaj karty** (pole „Rodzaj karty produktu” w panelu) zmienia układ:
+  - **High Premium** (np. Mirai): nagłówek na całą szerokość, „Intro Video 180”, sekcja „Cecha”, duży slajder cech.
+  - **Premium** (np. Fresh): nagłówek w zaokrąglonym pudełku, tytuł na zdjęciu z nachodzącym szerokim slajderem, kafelki cech przed „Split czy Multi Split?”, bez zimorodka przy atutach.
+- **Symbole z feedu:** zawsze najnowsza rewizja (liczba po „R”, np. R16). Przy budowaniu strony i w `npm run prices` pojawia się ostrzeżenie, jeśli w feedzie jest nowsza.
+- **Pole „Jednostka wewnętrzna z przodu”** to zdjęcie na kafelku 180° w galerii.
+
 ## Formularz „Zapytaj o wycenę”
 - Zgłoszenia idą na `/api/lead`, a stamtąd — metodą POST w formacie JSON — pod adres z `.env.local` → `LEAD_WEBHOOK_URL` (np. webhook CRM albo automatyzacji maili).
 - Dopóki `LEAD_WEBHOOK_URL` nie jest ustawiony, formularz uczciwie pokazuje komunikat błędu (nic nie ginie po cichu).

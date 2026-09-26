@@ -24,7 +24,7 @@ const DEEPL_TARGET = { en: "EN-GB", de: "DE", fr: "FR", cs: "CS", it: "IT", uk: 
 const SKIP_KEYS = new Set(["href", "image", "image2", "thumb", "background", "media", "video", "name", "priceSymbols", "icon", "cards", "categories", "featured", "recommended", "popular"]);
 // Brand and product names DeepL must leave untouched.
 const KEEP_TERMS = [
-  "Rotenso", "Wentilo ICON", "Wentilo", "Mirai", "Versu Cloth Caramel", "Versu Mirror R15",
+  "Rotenso", "Wentilo ICON", "Wentilo", "Mirai", "Versu Cloth Caramel", "Versu Mirror",
   "Versu Pure", "Versu", "Luve Pro", "RVF", "VRF", "Split", "Multi Split", "Monoblock", "All-in",
 ];
 

@@ -4,7 +4,7 @@ import { productsCollection } from "../../keystatic.config";
 import { defaultLocale, type Locale } from "@/i18n/config";
 import { reader } from "./content";
 import { documentsFor, type ProductDocument } from "./documents";
-import { getRotensoProducts, setPrice, type FeedProduct } from "./productFeed";
+import { getRotensoProducts, newerRevision, setPrice, type FeedProduct } from "./productFeed";
 import { buildSpecs, type SpecGroup } from "./specs";
 
 export type ProductEntry = Entry<ReturnType<typeof productsCollection>>;
@@ -63,6 +63,12 @@ export async function getProductPage(lang: Locale, category: string, slug: strin
     feed = await getRotensoProducts();
   } catch (e) {
     console.error("[produkty] feed niedostępny:", (e as Error).message);
+  }
+
+  // Only the newest revision may be shown — flag CMS symbols that have a newer one in the feed.
+  for (const s of entry.variants.flatMap((v) => v.symbols.split("+"))) {
+    const newer = newerRevision(feed, s);
+    if (newer) console.warn(`[produkty] ${entry.name}: ${s.trim()} ma nowszą rewizję w feedzie — ${newer}`);
   }
 
   const variants = entry.variants.map((v) => {

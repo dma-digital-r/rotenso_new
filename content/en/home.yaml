@@ -87,11 +87,11 @@ acHome:
       cta:
         label: Explore model
         href: /en/klimatyzacja/fresh
-    - name: Versu Mirror R15
+    - name: Versu Mirror
       thumb: /images/home/ac-versu-mirror.png
       subtitle: ''
       text: ''
-      priceSymbols: VM26XI R15 + VM26XO R15
+      priceSymbols: VM26XI R16 + VM26XO R15
       cta:
         label: Explore model
         href: /en/klimatyzacja/versu-mirror-r15
@@ -151,11 +151,11 @@ acBusiness:
       cta:
         label: Explore model
         href: /en/klimatyzacja/fresh
-    - name: Versu Mirror R15
+    - name: Versu Mirror
       thumb: /images/home/ac-versu-mirror.png
       subtitle: ''
       text: ''
-      priceSymbols: VM26XI R15 + VM26XO R15
+      priceSymbols: VM26XI R16 + VM26XO R15
       cta:
         label: Explore model
         href: /en/klimatyzacja/versu-mirror-r15

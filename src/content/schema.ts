@@ -322,7 +322,8 @@ export const productSchema = {
   category: fields.select({ label: "Kategoria (adres strony)", options: productCategories, defaultValue: "klimatyzacja" }),
   categoryLabel: fields.text({ label: "Nad nazwą w hero (np. Klimatyzacja)" }),
   tagline: fields.text({ label: "Hasło w hero" }),
-  heroImage: image("Zdjęcie hero (1920×1030)", "products"),
+  heroImage: image("Zdjęcie hero (High Premium 1920×1030, Premium 1820×930)", "products"),
+  packshot: image("Jednostka wewnętrzna z przodu (kafelek 180° w galerii, 200×66)", "products"),
   description: fields.text({ label: "Opis w sekcji zakupowej", multiline: true }),
   variants: fields.array(
     fields.object({
@@ -345,7 +346,7 @@ export const productSchema = {
   ),
   purchaseIntro: fields.object(
     {
-      kicker: fields.text({ label: "Nadtytuł (np. Klimatyzacja idealna)" }),
+      kicker: fields.text({ label: "Nadtytuł (np. Klimatyzacja idealna) — w Premium: podtytuł pod tytułem" }),
       title: fields.text({ label: "Tytuł (np. do twojego domu lub twojej firmy)" }),
       text: fields.text({ label: "Tekst pod tytułem" }),
       background: image("Tło (rozmyte zdjęcie)", "products"),
@@ -404,9 +405,14 @@ export const productSchema = {
       }),
       title: fields.text({ label: "Tytuł" }),
       text: fields.text({ label: "Tekst", multiline: true }),
-      more: fields.text({ label: "Napis nad strzałką (np. Poznaj model Mirai)" }),
+      body: fields.text({ label: "Dodatkowy akapit (tylko karta Premium)", multiline: true }),
+      more: fields.text({ label: "Napis nad strzałką (np. Poznaj model Mirai) — tylko High Premium" }),
     },
-    { label: "Sekcja „Intro Video 180” (pod paskiem produktu)" },
+    {
+      label: "Sekcja pod paskiem produktu",
+      description:
+        "High Premium: „Intro Video 180” (zdjęcie/film, tytuł, tekst, strzałka). Premium: tytuł na zdjęciu w tle, a na nie nachodzi szeroki slajder cech.",
+    },
   ),
   feature: fields.object(
     {
@@ -422,11 +428,20 @@ export const productSchema = {
   ),
   featureSlides: fields.array(
     fields.object({
-      image: image("Zdjęcie (1340×754)", "products"),
-      title: fields.text({ label: "Tytuł" }),
+      image: image("Zdjęcie (High Premium 1340×754, Premium 1820×930)", "products"),
+      title: fields.text({ label: "Tytuł", multiline: true }),
+      subtitle: fields.text({ label: "Podtytuł (opcjonalnie)" }),
       text: fields.text({ label: "Tekst", multiline: true }),
     }),
     { label: "Slajder cech (duże slajdy)", itemLabel: (s) => s.fields.title.value || "Slajd" },
+  ),
+  featureTiles: fields.array(
+    fields.object({
+      image: image("Zdjęcie (970×545)", "products"),
+      title: fields.text({ label: "Tytuł" }),
+      text: fields.text({ label: "Opis pod aktywnym kafelkiem", multiline: true }),
+    }),
+    { label: "Kafelki cech (tylko Premium — przed „Split czy Multi Split?”)", itemLabel: (s) => s.fields.title.value || "Kafelek" },
   ),
   splitVsMulti: fields.checkbox({
     label: "Pokaż sekcję „Split czy Multi Split?”",

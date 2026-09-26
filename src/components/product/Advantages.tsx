@@ -18,10 +18,11 @@ const GAP = 20;
 // Slider: the active tile is 970 wide and centred, the others 310; its description sits under
 // the track. Grid: 1300 wide, rows of 860+420 / 420+860, "+" reveals a description; the
 // kingfisher sits on the top-left corner.
-export function Advantages({ title, items, grid, ui }: { title: string; items: Item[]; grid: Item[]; ui: Ui }) {
+export function Advantages({ title, items, grid, bird = true, ui }: { title: string; items: Item[]; grid: Item[]; bird?: boolean; ui: Ui }) {
   const [index, setIndex] = useState(0);
   const [open, setOpen] = useState<number | null>(null);
   const count = items.length;
+  if (!count && !grid.length) return null;
 
   return (
     <section className="relative z-10 mt-[150px] text-rotenso-grey">
@@ -123,14 +124,14 @@ export function Advantages({ title, items, grid, ui }: { title: string; items: I
               </div>
             ))}
           </div>
-          <Image
+          {bird && <Image
             src="/images/home/kingfisher.png"
             alt=""
             width={300}
             height={300}
             sizes="300px"
             className="pointer-events-none absolute top-0 left-[41px] drop-shadow-[50px_50px_25px_rgba(0,0,0,0.25)]"
-          />
+          />}
         </div>
       )}
     </section>

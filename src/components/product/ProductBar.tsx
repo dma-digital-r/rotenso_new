@@ -13,6 +13,7 @@ export function ProductBar({
   active,
   ui,
   lang,
+  gap = 20,
 }: {
   product: ProductEntry;
   /** Page address of this product, e.g. /pl/klimatyzacja/mirai */
@@ -20,6 +21,8 @@ export function ProductBar({
   active: ProductTab;
   ui: Ui;
   lang: string;
+  /** Space above the bar (Figma: 20px under a full-bleed hero, 95px under the Premium hero box). */
+  gap?: number;
 }) {
   const tabs: [ProductTab, string, string][] = [
     ["overview", ui.tabOverview, base],
@@ -29,7 +32,7 @@ export function ProductBar({
   const other = product.family.other;
 
   return (
-    <div className="sticky top-[85px] z-30 mx-auto w-[1300px] max-w-[calc(100%-32px)] pt-[20px]">
+    <div className="sticky top-[85px] z-30 mx-auto w-[1300px] max-w-[calc(100%-32px)]" style={{ paddingTop: gap }}>
       <div className="flex h-[50px] items-center justify-between rounded-[8px] bg-white/80 px-[20px] shadow-[0_4px_10px_rgba(0,0,0,0.15)] backdrop-blur-[20px]">
         <div className="flex h-[30px] items-center gap-[20px] text-[16px] leading-[normal] text-rotenso-grey">
           <span className="font-bold">{product.family.label || product.name}</span>

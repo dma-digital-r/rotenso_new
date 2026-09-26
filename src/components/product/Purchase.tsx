@@ -10,6 +10,8 @@ import type { Ui } from "@/i18n/ui";
 export type PurchaseVariant = { label: string; price: number | null; images: string[] };
 
 type Props = {
+  /** Front view of the indoor unit for the 180° tile. */
+  packshot: string | null;
   name: string;
   description: string;
   /** Visualisations from the CMS — shown first, before the feed photos of the chosen capacity. */
@@ -28,7 +30,7 @@ const THUMBS = 4;
 
 // Figma: "e-commerce klimatyzacje" (5172:81598), 1820 wide — gallery 1270 + white panel 530.
 // Choosing a capacity switches the price; prices are only present on the Polish site.
-export function Purchase({ name, description, cmsImages, variants, multi, siblings, arHref, accessoriesHref, lang, ui }: Props) {
+export function Purchase({ name, description, cmsImages, packshot, variants, multi, siblings, arHref, accessoriesHref, lang, ui }: Props) {
   const [image, setImage] = useState(0);
   const [start, setStart] = useState(0);
   const [variant, setVariant] = useState(0);
@@ -102,13 +104,9 @@ export function Purchase({ name, description, cmsImages, variants, multi, siblin
             className="relative flex h-[130px] w-[230px] shrink-0 items-center justify-center overflow-hidden rounded-[16px] px-[15px]"
           >
             <Image src="/images/products/mirai-360-bg.jpg" alt="" fill sizes="230px" className="object-cover" />
-            <Image
-              src="/images/products/mirai-packshot.png"
-              alt=""
-              width={200}
-              height={66}
-              className="relative drop-shadow-[-10px_10px_10px_rgba(0,0,0,0.1)]"
-            />
+            {packshot && (
+              <Image src={packshot} alt="" width={200} height={66} className="relative h-[66px] w-[200px] object-contain drop-shadow-[-10px_10px_10px_rgba(0,0,0,0.1)]" />
+            )}
             <Icon name="video-180" width={71} height={40} className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
           </a>
         </div>

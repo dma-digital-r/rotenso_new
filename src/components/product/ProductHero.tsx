@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
-import { FramedImage } from "@/components/ui/FramedImage";
+import { FramedImage, MissingMedia } from "@/components/ui/FramedImage";
 import type { Ui } from "@/i18n/ui";
 import type { ProductEntry } from "@/lib/products";
 
@@ -11,17 +11,30 @@ export function ProductHero({
   lang,
   ui,
   categoryHref,
+  boxed = false,
 }: {
   product: ProductEntry;
   lang: string;
   ui: Ui;
   categoryHref: string;
+  /** Premium: rounded 1820-wide box like the home hero (Figma "Klimatyzacja Premium v02"). */
+  boxed?: boolean;
 }) {
   return (
-    <section className="relative h-[calc(100svh-50px)] min-h-[600px] overflow-hidden">
-      <FramedImage src={product.heroImage} alt={product.name} sizes="100vw" preload />
+    <section
+      className={
+        boxed
+          ? "relative mx-[50px] mt-[15px] h-[calc(100svh-30px)] min-h-[560px] overflow-hidden rounded-[32px] bg-rotenso-grey"
+          : "relative h-[calc(100svh-50px)] min-h-[600px] overflow-hidden"
+      }
+    >
+      {product.heroImage ? (
+        <FramedImage src={product.heroImage} alt={product.name} sizes="100vw" preload />
+      ) : (
+        <MissingMedia label="Zdjęcie hero — do dodania w panelu" />
+      )}
       <div className="relative mx-auto h-full w-[1300px] max-w-[calc(100%-32px)]">
-        <nav aria-label="Breadcrumb" className="absolute top-[110px] left-0 text-[12px] leading-[normal] text-white">
+        <nav aria-label="Breadcrumb" className={`absolute ${boxed ? "top-[95px]" : "top-[110px]"} left-0 text-[12px] leading-[normal] text-white`}>
           <Link href={`/${lang}`} className="hover:underline">
             {ui.crumbHome}
           </Link>
@@ -43,7 +56,8 @@ export function ProductHero({
               <p className="text-[20px] leading-[normal]">{product.categoryLabel}</p>
               <h1 className="text-h1 leading-[1.2]">{product.name}</h1>
             </div>
-            <p className="text-h3 leading-[normal]">{product.tagline}</p>
+            {/* Premium: a 16px paragraph instead of the 25px slogan. */}
+            <p className={boxed ? "text-[16px] leading-[24px] font-normal" : "text-h3 leading-[normal]"}>{product.tagline}</p>
           </div>
           <div className="flex items-start gap-[10px]">
             <Button variant="m-red" href="#wycena">

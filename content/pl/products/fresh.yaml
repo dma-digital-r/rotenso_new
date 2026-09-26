@@ -1,0 +1,148 @@
+name: Fresh
+kind: ac-premium
+category: klimatyzacja
+categoryLabel: Klimatyzacja
+tagline: Dzięki innowacyjnej technologii FRESH, klimatyzator zapewnia wymianę i optymalną jakość powietrza wewnętrznego, zarówno pod względem temperatury, jak i wilgotności.
+heroImage: /images/products/fresh-hero.jpg
+description: Dzięki innowacyjnej technologii FRESH, klimatyzator zapewnia wymianę i optymalną jakość powietrza wewnętrznego, zarówno pod względem temperatury, jak i wilgotności. Klimatyzator jest doskonałym rozwiązaniem dla pomieszczeń w budynkach pozbawionych wentylacji mechanicznej, w których po przeprowadzonej termomodernizacji może brakować świeżego powietrza. O jakość dostarczanego powietrza dbają dodatkowo aż 3 wbudowane lampy LED UV oraz filtr powietrza EPA E12.
+variants:
+  - label: 2,6 kW
+    symbols: FH26XI R16 + FH26XO R16
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+  - label: 3,5 kW
+    symbols: FH35XI R16 + FH35XO R16
+    dimensions:
+      indoor: null
+      outdoor: null
+      remote: null
+purchaseIntro:
+  kicker: wybierając model Rotenso Fresh.
+  title: Zadbaj o swoje powietrze
+  text: Świeże, przefiltrowane powietrze w domu przez cały rok — bez otwierania okien.
+  background: /images/products/fresh-purchase-bg.jpg
+arLink:
+  label: Zobacz
+  href: ''
+accessoriesLink:
+  label: Zobacz
+  href: /pl/akcesoria
+gallery:
+  - /images/products/fresh-gallery-1.jpg
+  - /images/products/fresh-gallery-2.jpg
+  - /images/products/fresh-gallery-3.jpg
+  - /images/products/fresh-gallery-4.jpg
+family:
+  label: Fresh
+  other:
+    label: Fresh Multi
+    href: /pl/klimatyzacja/fresh-multi
+  canonical: ''
+siblings: []
+dimensions:
+  indoor: null
+  outdoor: null
+  remote: null
+featureGroups:
+  - title: Jakość powietrza
+    items:
+      - name: Dopływ świeżego powietrza do 60 m³/h
+        tooltip: Świeże powietrze z zewnątrz jest doprowadzane kanałem wentylacyjnym za obudową klimatyzatora przez dodatkowy wentylator.
+      - name: Tryb Windless
+        tooltip: Delikatny, rozproszony nawiew bez bezpośredniego podmuchu zimnego powietrza.
+  - title: Komfort
+    items:
+      - name: Praca od 19 dB
+        tooltip: ''
+      - name: Automatyczny nawiew 4D
+        tooltip: Sterowanie żaluzjami pionowymi i poziomymi z pilota.
+      - name: Sterowanie przez WiFi
+        tooltip: ''
+  - title: Efektywność
+    items:
+      - name: Klasa A+++ w chłodzeniu (SEER 8,5)
+        tooltip: ''
+      - name: Klasa A++ w grzaniu (SCOP 4,6)
+        tooltip: ''
+seoTitle: Klimatyzator Rotenso Fresh — klimatyzacja z dopływem świeżego powietrza
+seoDescription: Rotenso Fresh chłodzi, grzeje i doprowadza świeże powietrze z zewnątrz (do 60 m³/h). Klasa A+++, tryb Windless, praca od 19 dB, WiFi. Moce 2,6 i 3,5 kW.
+intro:
+  image: /images/products/fresh-intro-bg.jpg
+  video: ''
+  title: Codziennie świeże powietrze
+  text: Rotenso Fresh zapewnia optymalną jakość powietrza wewnętrznego.
+  body: Klimatyzator jest doskonałym rozwiązaniem dla pomieszczeń w budynkach pozbawionych wentylacji mechanicznej, w których po przeprowadzonej termomodernizacji może brakować świeżego powietrza.
+  more: ''
+feature:
+  show: false
+  background: null
+  unitImage: null
+  airflow: null
+  kicker: ''
+  title: ''
+  text: ''
+featureSlides:
+  - image: /images/products/fresh-slide-1.jpg
+    title: |-
+      Codzienny dopływ
+      świeżego powietrza
+    subtitle: Nawilżone i przefiltrowane powietrze.
+    text: Funkcja dostarczania do pomieszczenia świeżego nawilżonego powietrza z zewnątrz. Płynna regulacja trzema biegami wentylatora i nawet do 35 m³/h świeżego nawilżonego powietrza.
+splitVsMulti: true
+advantages:
+  title: Poznaj więcej atutów
+  items:
+    - image: /images/products/fresh-atut-grzanie.jpg
+      title: Grzanie przy -22°C
+      text: Zastosowana technologia inwerterowa oraz funkcja wygrzewania karteru sprężarki gwarantuje wydajną pracę klimatyzatora w trybie grzania, nawet przy -22°C, osiągając sprawność SCOP na poziomie 4,6.
+    - image: /images/products/fresh-atut-zaluzja.jpg
+      title: Żaluzja 180°
+      text: Szeroki zakres ruchu żaluzji i automatyczny nawiew 4D rozprowadzają powietrze szybko i równomiernie w całym pomieszczeniu.
+    - image: /images/products/fresh-atut-chlodzenie.jpg
+      title: Chłodzenie A+++
+      text: Najwyższa klasa efektywności energetycznej w chłodzeniu (SEER 8,5) oznacza niskie rachunki za prąd także w upały.
+  grid:
+    - image: /images/products/fresh-grid-wifi.jpg
+      title: Moduł WiFi w zestawie
+      text: Klimatyzatorem sterujesz z aplikacji w telefonie — włączysz go, zmienisz tryb lub temperaturę, zanim wrócisz do domu.
+    - image: /images/products/fresh-grid-cichy.jpg
+      title: Tryb super cichy
+      text: Na najniższym biegu wentylatora jednostka wewnętrzna pracuje z głośnością zaledwie 19 dB — idealnie do sypialni i pokoju dziecka.
+    - image: /images/products/fresh-atut-chlodzenie.jpg
+      title: Chłodzenie A+++
+      text: Klasa A+++ w chłodzeniu (SEER 8,5) i A++ w grzaniu (SCOP 4,6).
+    - image: /images/products/fresh-grid-turbo.jpg
+      title: Tryb Turbo eMOTO
+      text: Chwilowe zwiększenie wydajności sprężarki oraz wentylatora umożliwia szybsze schładzanie lub ogrzewanie pomieszczenia. Dzięki temu można zaoszczędzić nawet 20% czasu potrzebnego na osiągnięcie wymaganej temperatury.
+videos:
+  - url: https://www.youtube.com/watch?v=lUoq36YwaYY
+    title: Klimatyzacja ROTENSO FRESH — dopływ świeżego powietrza bez otwierania okien
+    text: Poznaj klimatyzator Rotenso Fresh, który doprowadza do pomieszczenia świeże powietrze z zewnątrz.
+  - url: https://www.youtube.com/watch?v=E1E0yTi4BSM
+    title: Dopływ świeżego powietrza przez klimatyzację?
+    text: Jak działa funkcja dopływu świeżego powietrza w klimatyzatorze Rotenso Fresh.
+  - url: https://www.youtube.com/watch?v=wnPWV8bxbI0
+    title: Świeże, przefiltrowane powietrze bez otwierania okien?
+    text: Rotenso Fresh — świeże powietrze w domu przez cały rok.
+faq:
+  - question: Czym wyróżnia się klimatyzator Rotenso Fresh?
+    answer: Poza chłodzeniem i grzaniem Fresh doprowadza do pomieszczenia świeże powietrze z zewnątrz — do 60 m³/h — kanałem wentylacyjnym za obudową klimatyzatora, bez otwierania okien.
+  - question: Czy Rotenso Fresh jest energooszczędny?
+    answer: Tak. Fresh ma klasę A+++ w chłodzeniu (SEER 8,5) i A++ w grzaniu (SCOP 4,6).
+  - question: Czy klimatyzator Rotenso Fresh jest głośny?
+    answer: Nie. Na najniższym biegu wentylatora jednostka wewnętrzna pracuje z głośnością zaledwie 19 dB, więc sprawdza się w sypialni i pokoju dziecka.
+  - question: Czy Fresh można podłączyć do systemu multi split?
+    answer: Tak. Jednostka wewnętrzna Fresh współpracuje z jednostką zewnętrzną FH26Xo R16 w systemie split oraz z agregatami Hiro N-Line w systemie multi split.
+packshot: /images/products/fresh-packshot.png
+featureTiles:
+  - image: /images/products/fresh-tile-dezynfekcja.jpg
+    title: Dezynfekcja powietrza
+    text: Dodatkowy filtr EPA E12 filtrujący dostarczane świeże powietrze dla zapewnienia najwyższego komfortu i jakości powietrza.
+  - image: /images/products/fresh-tile-windless.jpg
+    title: Komfortowy nawiew Windless
+    text: Delikatny, rozproszony nawiew bez bezpośrednich podmuchów zimnego powietrza — dla zdrowia i dobrego samopoczucia.
+  - image: /images/products/fresh-tile-uv.jpg
+    title: 3 x Lampa UV
+    text: O jakość dostarczanego powietrza dbają dodatkowo aż 3 wbudowane lampy LED UV.
